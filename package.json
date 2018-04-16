@@ -1,0 +1,37 @@
+{
+  "name": "nifo",
+  "version": "1.0.0",
+  "description": "NIFO Pilot",
+  "main": "docxtohtml.js",
+  "scripts": {
+    "test": "node transform.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SEMICeu/NIFO_pilot.git"
+  },
+  "keywords": [
+    "NIFO",
+    "SEMIC",
+    "RDF",
+    "Linked",
+    "Data",
+    "Semantic",
+    "Web",
+    "eGovernment",
+    "eGov",
+    "transformation"
+  ],
+  "author": "Jens Scheerlinck",
+  "license": "EUPL-1.1",
+  "bugs": {
+    "url": "https://github.com/SEMICeu/NIFO_pilot/issues"
+  },
+  "homepage": "https://github.com/SEMICeu/NIFO_pilot#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "mammoth": "^1.4.4",
+    "rdf-translator": "^2.0.0",
+    "sparql": "^0.1.3"
+  }
+}
