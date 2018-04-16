@@ -13,7 +13,8 @@ var rdfTranslator = require('rdf-translator');
 /******************************/
 /***DEFINE VARIABLES***********/
 /******************************/
-var issued = '2018-02'
+var issued = '2018-02';
+var licence = 'https://creativecommons.org/licenses/by/4.0/';
 var section = 'h1';
 var subsection = 'h2';
 
@@ -60,7 +61,7 @@ input.forEach(function (fileName) {
 
     //Add namespaces to document
     $('body').contents().wrapAll('<div resource="'+country+'" prefix="dct: http://purl.org/dc/terms/ dbo: http://dbpedia.org/ontology/ dbp: http://dbpedia.org/property/ qb: http://purl.org/linked-data/cube# rdfs: http://www.w3.org/2000/01/rdf-schema# cpsv: http://purl.org/vocab/cpsv# eli: http://data.europa.eu/eli/ontology# foaf: http://xmlns.com/foaf/0.1/ org: https://www.w3.org/ns/org# schema: http://schema.org/"></div>');
-    $('body').children('div').first().children('p').first().before('<span property="dct:relation" href="http://dbpedia.org/page/'+countryLabel+'"></span><span property="dct:issued" content="'+issued+'"></span>');
+    $('body').children('div').first().children('p').first().before('<span property="dct:relation" href="http://dbpedia.org/page/'+countryLabel+'"></span><span property="dct:issued" content="'+issued+'"></span><span property="dct:license" content="'+licence+'"></span>');
 
     /*=================*/
     /*Annotate document*/
@@ -167,10 +168,10 @@ input.forEach(function (fileName) {
                         $(this).find('strong').each(function (index, elem) {
                             var dimensionLabel = $(this).text();
                             $(this).attr('property', 'rdfs:label');
-                            $(this).parent().attr('resource', 'http://example.org/nifo/MeasureProperty/'+label.replace(/ /g,''));
+                            $(this).parent().attr('resource', 'http://example.org/nifo/MeasureProperty/'+dimensionLabel.replace(/ /g,''));
                             $(this).parent().attr('typeOf', 'qb:MeasureProperty');
                             $(this).parent().parent().attr('property', 'qb:component');
-                            $(this).parent().parent().attr('href', 'http://example.org/nifo/MeasureProperty/'+label.replace(/ /g,''));
+                            $(this).parent().parent().attr('href', 'http://example.org/nifo/MeasureProperty/'+dimensionLabel.replace(/ /g,''));
                         });
                         $(this).find('p:contains("Source:")').each(function (index, elem) {
                             sources.push(encodeURI($(this).children('a').first().attr("href")));
@@ -281,11 +282,5 @@ input.forEach(function (fileName) {
             return console.log(err);
         }
         console.log("The RDFa file was saved!");
-    });
-    rdfTranslator(unescape($.html()), 'rdfa', 'n3', function(err, data) {
-        if (err) {
-            return console.error(err);
-        }
-        console.log(data);
     });
 });
