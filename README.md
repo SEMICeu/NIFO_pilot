@@ -22,8 +22,8 @@ The objective of this pilot is to develop a reusable proof of concept, to conver
 
 ## Installation
 
-1. Clone or download this repository
-2. From the project's root folder, run `npm install` from the command line
+1. Clone or download this repository.
+2. From the project's root folder, run `npm install` from the command line to install the dependencies.
 
 ## How to use
 
@@ -41,9 +41,9 @@ The following variables can be edited in the `transform.js` file:
 /******************************/
 /***DEFINE VARIABLES***********/
 /******************************/
-var issued = '2018-02-01' 	//The document issue date, applied to all documents in the input folder
-var section = 'h1'; 		//The HTML element identified with a section
-var subsection = 'h2'; 		//The HTML element identified with a subsection
+var issued = '2018-02-01'   //The document issue date, applied to all documents in the input folder
+var section = 'h1';         //The HTML element identified with a section
+var subsection = 'h2';      //The HTML element identified with a subsection
 ```
 
 Annotations can be customised by modifying the `transform.js` code that is applied to the relevant section or subsection in the document.
@@ -76,4 +76,5 @@ switch(content){
 ## License
 
 Licensed under the EUROPEAN UNION PUBLIC LICENCE v.1.2 
+
 Authors: Jens Scheerlinck (PwC EU Services), Emidio Stani (PwC EU Services)
