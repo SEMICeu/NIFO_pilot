@@ -1,0 +1,71 @@
+{
+    "issued" : "2018-02",
+    "licence" : "https://creativecommons.org/licenses/by/4.0/",
+    "section_header" : "h1",
+    "subsection_header" : "h2",
+    "prefix": {
+        "nifo" : "http://data.europa.eu/nifo/factsheet/",
+        "currency": "http://publications.europa.eu/resource/authority/currency/",
+        "measure" : "http://example.org/nifo/MeasureProperty/",
+        "datastructure" : "http://example.org/nifo/structure/",
+        "dataset" : "http://example.org/nifo/dataset/",
+        "framework" : "http://example.org/nifo/legalframework/",
+        "role" : "http://example.org/nifo/role/Role-",
+        "post" : "http://example.org/nifo/post/Post-",
+        "service" : "http://example.org/nifo/publicservice/",
+        "competent" : "http://data.europa.eu/m8g/hasCompetentAuthority"
+    },
+    "prefixes" : "dct: http://purl.org/dc/terms/ dbo: http://dbpedia.org/ontology/ dbp: http://dbpedia.org/property/ qb: http://purl.org/linked-data/cube# rdfs: http://www.w3.org/2000/01/rdf-schema# cpsv: http://purl.org/vocab/cpsv# eli: http://data.europa.eu/eli/ontology# foaf: http://xmlns.com/foaf/0.1/ org: https://www.w3.org/ns/org# schema: http://schema.org/",
+    "section" : {
+        "basicdata" : "Basic Data",
+        "politicalstructure" : "Political Structure",
+        "isi" : "Information Society Indicators",
+        "stateofplay" : "eGovernment State of Play",
+        "framework" : "eGovernment Legal Framework",
+        "egovernement" : "National eGovernment",
+        "services" : "eGovernment Services for Citizens"
+    },
+    "prop" : {
+        "population" : "dbo:populationTotal",
+        "gdpnominalp" : "dbp:gdpNominal",
+        "gdpinhabitant" : "dbp:gdpPppPerCapita",
+        "area" : "dbo:areaTotal",
+        "capital" : "dbo:capital",
+        "language" : "dct:language",
+        "currency" : "dbo:currency",
+        "source" : "dct:source",
+        "leader" : "dbo:leader",
+        "title" : "dct:title",
+        "label" : "rdfs:label",
+        "component" : "qb:component",
+        "structure" : "qb:structure",
+        "relation" : "dct:relation",
+        "name" : "foaf:name",
+        "holds" : "org:holds",
+        "telephone" : "schema:telephone",
+        "fax" : "schema:faxNumber",
+        "email" : "schema:email",
+        "url" : "schema:url",
+        "contact" : "schema:contactPoint",
+        "description" : "dct:description"
+    },
+    "class" :{
+        "measure" : "qb:MeasureProperty",
+        "datastructure" :"qb:DataStructureDefinition",
+        "dataset" : "qb:DataSet",
+        "framework": "cpsv:FormalFramework",
+        "person" : "foaf:Person",
+        "role" : "org:Role",
+        "post" : "org:Post",
+        "contact": "schema:ContactPoint"
+    },
+    "headofstate" : "Head of State:",
+    "headofgovernment" : "Head of Government:",
+    "type_framework" : {
+        "act" : "act",
+        "reg" : "regulation",
+        "dir" : "directive",
+        "law" : "law",
+        "con" : "constitution"
+    }
+}
