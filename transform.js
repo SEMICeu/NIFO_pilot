@@ -8,7 +8,7 @@ var mammoth = require('mammoth');
 var cheerio = require('cheerio');
 var extendCheerio = require('./wrapAll.js');
 var sparql = require('sparql');
-var rdfTranslator = require('rdf-translator');
+var request = require('request');
 
 /******************************/
 /***DEFINE VARIABLES***********/
@@ -275,7 +275,7 @@ input.forEach(function (fileName) {
     /*=================*/
     /* GENERATE OUTPUT */
     /*=================*/
-    //Save the file
+    //Save the RDFa file
     var output = fileName.split('.');
     fs.writeFile(outputPath + "/" + output[0] + ".html", unescape($.html()), function (err) {
         if (err) {
@@ -283,4 +283,28 @@ input.forEach(function (fileName) {
         }
         console.log("The RDFa file was saved!");
     });
+    //Save the N3 file
+    // Set the headers
+    var headers = {
+        'User-Agent':       'Super Agent/0.0.1',
+        'Content-Type':     'application/x-www-form-urlencoded'
+    }
+    // Configure the request
+    var options = {
+        url: 'http://rdf-translator.appspot.com/convert/rdfa/n3/content',
+        method: 'POST',
+        headers: headers,
+        content: $.html()
+    }
+
+    // Start the request
+    request(options, function (error, response, body) {
+        if (!error && response.statusCode == 200) {
+            // Print out the response body
+            console.log(body);
+        } else {
+            console.log(error);
+        }
+    });
+
 });
