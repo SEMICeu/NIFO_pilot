@@ -9,26 +9,18 @@
         "measure" : "http://example.org/nifo/MeasureProperty/",
         "datastructure" : "http://example.org/nifo/structure/",
         "dataset" : "http://example.org/nifo/dataset/",
-        "framework" : "http://example.org/nifo/legalframework/",
+        "legalframework" : "http://example.org/nifo/legalframework/",
         "role" : "http://example.org/nifo/role/Role-",
         "post" : "http://example.org/nifo/post/Post-",
-        "service" : "http://example.org/nifo/publicservice/",
-        "competent" : "http://data.europa.eu/m8g/hasCompetentAuthority"
+        "service" : "http://example.org/nifo/publicservice/"
     },
     "prefixes" : "dct: http://purl.org/dc/terms/ dbo: http://dbpedia.org/ontology/ dbp: http://dbpedia.org/property/ qb: http://purl.org/linked-data/cube# rdfs: http://www.w3.org/2000/01/rdf-schema# cpsv: http://purl.org/vocab/cpsv# eli: http://data.europa.eu/eli/ontology# foaf: http://xmlns.com/foaf/0.1/ org: https://www.w3.org/ns/org# schema: http://schema.org/",
-    "section" : {
-        "basicdata" : "Basic Data",
-        "politicalstructure" : "Political Structure",
-        "isi" : "Information Society Indicators",
-        "stateofplay" : "eGovernment State of Play",
-        "framework" : "eGovernment Legal Framework",
-        "egovernement" : "National eGovernment",
-        "services" : "eGovernment Services for Citizens"
-    },
     "prop" : {
+        "issued" : "dct:issued",
+        "licence" : "dct:license",
         "population" : "dbo:populationTotal",
-        "gdpnominalp" : "dbp:gdpNominal",
-        "gdpinhabitant" : "dbp:gdpPppPerCapita",
+        "gdpnominal" : "dbp:gdpNominal",
+        "gdppercapita" : "dbp:gdpPppPerCapita",
         "area" : "dbo:areaTotal",
         "capital" : "dbo:capital",
         "language" : "dct:language",
@@ -47,20 +39,25 @@
         "email" : "schema:email",
         "url" : "schema:url",
         "contact" : "schema:contactPoint",
-        "description" : "dct:description"
+        "description" : "dct:description",
+        "competent" : "http://data.europa.eu/m8g/hasCompetentAuthority"
     },
-    "class" :{
+    "class" : {
         "measure" : "qb:MeasureProperty",
         "datastructure" :"qb:DataStructureDefinition",
         "dataset" : "qb:DataSet",
         "framework": "cpsv:FormalFramework",
+        "legalresource": "eli:LegalResource",
         "person" : "foaf:Person",
         "role" : "org:Role",
         "post" : "org:Post",
         "contact": "schema:ContactPoint"
     },
-    "headofstate" : "Head of State:",
-    "headofgovernment" : "Head of Government:",
+    "text_identifier" : {
+        "currency" : "Currency: ",
+        "headofstate" : "Head of State: ",
+        "headofgovernment" : "Head of Government: "
+    },
     "type_framework" : {
         "act" : "act",
         "reg" : "regulation",

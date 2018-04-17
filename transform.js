@@ -13,17 +13,20 @@ var request = require('request');
 /******************************/
 /***DEFINE VARIABLES***********/
 /******************************/
-var issued = '2018-02';
-var licence = 'https://creativecommons.org/licenses/by/4.0/';
-var section = 'h1';
-var subsection = 'h2';
-
+var config = require('./config.json');
 var args = process.argv.slice(2);
 var filePath = 'output';
 var outputPath = 'rdfa';
 var input = fs.readdirSync(filePath);
 var html;
 
+function checkArray(str, arr){
+   for(var i=0; i < arr.length; i++){
+       if(str.indexOf(arr[i]) > -1)
+           return true;
+   }
+   return false;
+}
 
 /******************************/
 /***CREATE HTML + RDFa*********/
@@ -54,19 +57,19 @@ input.forEach(function (fileName) {
     countries = ["Sweden", "Cyprus"];
     for(var i = 0; i < countries.length; i++){
         if(fileName.indexOf(countries[i]) >= 0){
-            country = "http://data.europa.eu/nifo/factsheet/"+countries[i];
+            country = config['prefix']['nifo']+countries[i];
             countryLabel = countries[i];
         }
     }
 
     //Add namespaces to document
-    $('body').contents().wrapAll('<div resource="'+country+'" prefix="dct: http://purl.org/dc/terms/ dbo: http://dbpedia.org/ontology/ dbp: http://dbpedia.org/property/ qb: http://purl.org/linked-data/cube# rdfs: http://www.w3.org/2000/01/rdf-schema# cpsv: http://purl.org/vocab/cpsv# eli: http://data.europa.eu/eli/ontology# foaf: http://xmlns.com/foaf/0.1/ org: https://www.w3.org/ns/org# schema: http://schema.org/"></div>');
-    $('body').children('div').first().children('p').first().before('<span property="dct:relation" href="http://dbpedia.org/page/'+countryLabel+'"></span><span property="dct:issued" content="'+issued+'"></span><span property="dct:license" content="'+licence+'"></span>');
+    $('body').contents().wrapAll('<div resource="'+country+'" prefix="'+config['prefixes']+'"></div>');
+    $('body').children('div').first().children('p').first().before('<span property="'+config['prop']['relation']+'" href="http://dbpedia.org/page/'+countryLabel+'"></span><span property="'+config['prop']['issued']+'" content="'+config['issued']+'"></span><span property="'+config['prop']['licence']+'" content="'+config['licence']+'"></span>');
 
     /*=================*/
     /*Annotate document*/
     /*=================*/
-    $(section).each(function (index, elem) {
+    $(config['section_header']).each(function (index, elem) {
         content = $(this).text().trim();
         switch(content){
             case "Basic Data":
@@ -74,19 +77,19 @@ input.forEach(function (fileName) {
                     switch(index){
                         case 0:
                             //Population
-                            $(this).attr("property", "dbo:populationTotal");
+                            $(this).attr("property", config['prop']['population']);
                             text= $(this).text().replace(/.*: /,'');
                             $(this).attr("content", text);
                             break;
                         case 1:
                             //GDP at market prices
-                            $(this).attr("property", "dbp:gdpNominal");
+                            $(this).attr("property", config['prop']['gdpnominal']);
                             text= $(this).text().replace(/.*: /,'');
                             $(this).attr("content", text);
                             break;
                         case 2:
                             //GDP per inhabitant in PPS
-                            $(this).attr("property", "dbp:gdpPppPerCapita");
+                            $(this).attr("property", config['prop']['gdppercapita']);
                             text= $(this).text().replace(/.*: /,'');
                             $(this).attr("content", text);
                             break;
@@ -107,13 +110,13 @@ input.forEach(function (fileName) {
                             break;
                         case 8:
                             //Area
-                            $(this).attr("property", "dbo:areaTotal");
+                            $(this).attr("property", config['prop']['area']);
                             text= $(this).text().replace(/.*: /,'');
                             $(this).attr("content", text);
                             break;
                         case 9:
                             //Capital city
-                            $(this).attr("property", "dbo:capital");
+                            $(this).attr("property", config['prop']['capital']);
                             text= $(this).text().replace(/.*: /,'');
                             $(this).attr("content", text);
                             break;
@@ -129,19 +132,19 @@ input.forEach(function (fileName) {
                                 });
                             }
                             */
-                            $(this).attr("property", "dct:language");
+                            $(this).attr("property", config['prop']['language']);
                             text= $(this).text().replace(/.*: /,'');
                             $(this).attr("content", text);
                             break;
                         case 11:
                             //Currency
-                            currency = $(this).text().replace("Currency: ", "");
-                            $(this).attr("property", "dbo:currency");
-                            $(this).attr("href", "http://publications.europa.eu/resource/authority/currency/"+currency);
+                            currency = $(this).text().replace(config['text_identifier']['currency'], "");
+                            $(this).attr("property", config['prop']['currency']);
+                            $(this).attr("href", config['prefix']['currency']+currency);
                             break;
                         case 12:
                             //Source
-                            $(this).attr("property", "dct:source");
+                            $(this).attr("property", config['prop']['source']);
                             text= $(this).text().replace(/.*: /,'');
                             $(this).attr("content", text);
                             break;
@@ -149,97 +152,96 @@ input.forEach(function (fileName) {
                 });
                 break;
             case "Political Structure":
-                $(this).nextUntil(section).each(function (index, elem) {
+                $(this).nextUntil(config['section_header']).each(function (index, elem) {
                     content = $(this).text();
-                    if( (content.indexOf("Head of State:") >= 0) || (content.indexOf("Head of Government:") >= 0)){
+                    if( (content.indexOf(config['text_identifier']['headofstate']) >= 0) || (content.indexOf(config['text_identifier']['headofgovernment']) >= 0)){
                         link = $(this).children('a').first().attr("href");
-                        $(this).attr("property", "dbo:leader");
+                        $(this).attr("property", config['prop']['leader']);
                         $(this).attr("content", link.replace(/ /g,'%20'));
                     }
                 });
                 break;
             case "Information Society Indicators":
-                $(this).nextUntil(section, subsection).each(function (index, elem) {
+                $(this).nextUntil(config['section_header'], config['subsection_header']).each(function (index, elem) {
                     label = $(this).text()+" "+countryLabel;
                     var sources = [];
                     var source = [];
-                    $(this).attr("property", "dct:title");
+                    $(this).attr("property", config['prop']['title']);
                     $(this).nextUntil('h1, h2', 'table').each(function (index, elem) {
                         $(this).find('strong').each(function (index, elem) {
                             var dimensionLabel = $(this).text();
-                            $(this).attr('property', 'rdfs:label');
-                            $(this).parent().attr('resource', 'http://example.org/nifo/MeasureProperty/'+dimensionLabel.replace(/ /g,''));
-                            $(this).parent().attr('typeOf', 'qb:MeasureProperty');
+                            $(this).attr('property', config['prop']['label']);
+                            $(this).parent().attr('resource', config['prefix']['measure']+dimensionLabel.replace(/ /g,''));
+                            $(this).parent().attr('typeOf', config['class']['measure']);
                             $(this).parent().parent().attr('property', 'qb:component');
-                            $(this).parent().parent().attr('href', 'http://example.org/nifo/MeasureProperty/'+dimensionLabel.replace(/ /g,''));
+                            $(this).parent().parent().attr('href', config['prefix']['measure']+dimensionLabel.replace(/ /g,''));
                         });
                         $(this).find('p:contains("Source:")').each(function (index, elem) {
                             sources.push(encodeURI($(this).children('a').first().attr("href")));
                         });
                     });
-                    $(this).nextUntil('h1, h2', 'table').wrapAll('<div resource="http://example.org/nifo/structure/'+label.replace(/ /g,'')+'" typeOf="qb:DataStructureDefinition"></div>');
+                    $(this).nextUntil('h1, h2', 'table').wrapAll('<div resource="'+config['prefix']['datastructure']+label.replace(/ /g,'')+'" typeOf="'+config['class']['datastructure']+'"></div>');
                     for(var i = 0; i < sources.length; i++){
                         if(source.toString().indexOf(sources[i]) === -1 ){ source.push(sources[i]); }
                     }
-                    $(this).after('<span style="display:none;" property="dct:source" content="'+source.toString()+'"></span>')
-                    $(this).after('<span style="display:none;" property="qb:structure" href="http://example.org/nifo/structure/'+label.replace(/ /g,'')+'"></span>');
-                    $(this).nextUntil('h1, h2').add($(this)).wrapAll('<div resource="http://example.org/nifo/dataset/'+label.replace(/ /g,'')+'" typeOf="qb:DataSet"></div>');
-                    $('body').children('div').first().children('p').first().before('<span property="dct:relation" href="http://example.org/nifo/dataset/'+label.replace(/ /g,'')+'"></span>');
+                    $(this).after('<span style="display:none;" property="'+config['prop']['source']+'" content="'+source.toString()+'"></span>')
+                    $(this).after('<span style="display:none;" property="'+config['prop']['structure']+'" href="'+config['prefix']['datastructure']+label.replace(/ /g,'')+'"></span>');
+                    $(this).nextUntil('h1, h2').add($(this)).wrapAll('<div resource="'+config['prefix']['dataset']+label.replace(/ /g,'')+'" typeOf="'+config['class']['dataset']+'"></div>');
+                    $('body').children('div').first().children('p').first().before('<span property="'+config['prop']['relation']+'" href="'+config['prefix']['dataset']+label.replace(/ /g,'')+'"></span>');
                 });
                 break;
             case "eGovernment State of Play":
-                $(this).nextUntil(section, 'p:contains("Source:")').children('a').attr('property', 'dct:relation');
+                $(this).nextUntil(config['section_header'], 'p:contains("Source:")').children('a').attr('property', config['prop']['relation']);
                 break;
             case "eGovernment Legal Framework":
-               $('body').children('div').first().children('p').first().before('<span property="dct:relation" href="http://example.org/nifo/legalframework/'+countryLabel+'"></span>');
+               $('body').children('div').first().children('p').first().before('<span property="'+config['prop']['relation']+'" href="'+config['prefix']['legalframework']+countryLabel+'"></span>');
                 $(this).parentsUntil('table').parents().nextUntil('table').find('a').each(function(index, element){
                     var linkText = $(this).text().toLowerCase();
-                    if( linkText.indexOf("act") >= 0 || linkText.indexOf("regulation") >= 0 || linkText.indexOf("directive") >= 0 || linkText.indexOf("law") >= 0 || linkText.indexOf("constitution") >= 0 ){
-                        $(this).attr('typeOf', 'eli:LegalResource');
-                        $(this).attr('property', 'dct:relation');
+                    if( checkArray(linkText, Object.keys(config['type_framework']).map(function(k) { return config['type_framework'][k] })) ){
+                        $(this).attr('typeOf', config['class']['legalresource']);
+                        $(this).attr('property', config['prop']['relation']);
                         var linkURI = encodeURI($(this).attr('href'));
                         $(this).attr('href', linkURI);
-
                     }
                 });
-                $(this).parentsUntil('table').parents().nextUntil('table').add($(this).closest('table')).wrapAll('<div resource="http://example.org/nifo/legalframework/'+countryLabel+'" typeOf="cpsv:FormalFramework"></div>');
+                $(this).parentsUntil('table').parents().nextUntil('table').add($(this).closest('table')).wrapAll('<div resource="'+config['prefix']['legalframework']+countryLabel+'" typeOf="'+config['class']['framework']+'"></div>');
                 break;
             case "National eGovernment":
-                $(this).nextUntil(section, 'table').each(function (index, elem) {
-                    $(this).attr('typeOf', 'foaf:Person');
+                $(this).nextUntil(config['section_header'], 'table').each(function (index, elem) {
+                    $(this).attr('typeOf', config['class']['person']);
                     $(this).find('p').each(function (index, elem) {
                         //Annotate contact points
                         switch(index){                            
                             case 1:
                                 //Full name
-                                $(this).attr("property", "foaf:name");
+                                $(this).attr("property", config['prop']['name']);
                                 break;
                             case 2:
                                 //Role
                                 var role = $(this).text();
-                                $(this).attr("property", "org:holds");
+                                $(this).attr("property", config['prop']['holds']);
                                 $(this).attr("href", "#Post-"+role.replace(/ /g,''));
-                                $(this).children('strong').first().attr("about", "http://example.org/nifo/role/Role-"+role.replace(/ /g,''));
-                                $(this).children('strong').first().attr("typeOf", "org:Role");
-                                $(this).children('strong').first().attr("property", "rdfs:label");
-                                $(this).children('strong').first().wrap('<span about="http://example.org/nifo/post/Post-'+role.replace(/ /g,'')+'" typeOf="org:Post"><span property="org:role" href="http://example.org/nifo/role/Role-'+role.replace(/ /g,'')+'"></span></span>');
+                                $(this).children('strong').first().attr("about", config['prefix']['role']+role.replace(/ /g,''));
+                                $(this).children('strong').first().attr("typeOf", config['class']['role']);
+                                $(this).children('strong').first().attr("property", config['prop']['label']);
+                                $(this).children('strong').first().wrap('<span about="'+config['prefix']['post']+role.replace(/ /g,'')+'" typeOf="'+config['class']['post']+'"><span property="'+config['prop']['role']+'" href="'+config['prefix']['role']+role.replace(/ /g,'')+'"></span></span>');
                                 break;                      
                         }
                         if($(this).text().indexOf("Tel.") >= 0) {
-                            $(this).attr("property", "schema:telephone");
+                            $(this).attr("property", config['prop']['telephone']);
                         } else if($(this).text().indexOf("Fax:") >= 0) {
-                            $(this).attr("property", "schema:faxNumber");
+                            $(this).attr("property", config['prop']['fax']);
                         } else if( ($(this).text().indexOf("E-mail:") >= 0) || ($(this).text().indexOf("Contact:") >= 0) ) {
-                             $(this).attr("property", "schema:email");
+                             $(this).attr("property", config['prop']['email']);
                         } else if($(this).text().indexOf("Source:") >= 0) {
-                            $(this).attr("property", "schema:url");
+                            $(this).attr("property", config['prop']['url']);
                         }
                     });
                     $(this).find('p').each(function (index, elem) {
                         switch(index){    
                             case 3:
                             //Contact details wrapper
-                            $(this).nextAll().wrapAll('<div property="schema:contactPoint" typeOf="schema:ContactPoint"></div>');
+                            $(this).nextAll().wrapAll('<div property="'+config['prop']['contact']+'" typeOf="'+config['class']['contact']+'"></div>');
                             break; 
                         }
                     });
@@ -248,21 +250,21 @@ input.forEach(function (fileName) {
             case "eGovernment Services for Citizens":
                 $(this).parentsUntil('table').parents().nextAll('table').first().find('p > strong').each(function(index, element){
                     var publicService = $(this).text();
-                    $(this).attr("about", "http://example.org/nifo/publicservice/"+countryLabel+"-"+publicService.replace(/[^\w]/g,''));
-                    $(this).attr("property", "dct:title");
+                    $(this).attr("about", config['prefix']['service']+countryLabel+"-"+publicService.replace(/[^\w]/g,''));
+                    $(this).attr("property", config['prop']['title']);
                     $(this).parentsUntil('table').nextAll('tr').each(function(index, element){
                         switch(index){
                             case 0:
-                                $(this).find('p').last().attr("about", "http://example.org/nifo/publicservice/"+countryLabel+"-"+publicService.replace(/[^\w]/g,''));
-                                $(this).find('p').last().attr("property", "http://data.europa.eu/m8g/hasCompetentAuthority");
+                                $(this).find('p').last().attr("about", config['prefix']['service']+countryLabel+"-"+publicService.replace(/[^\w]/g,''));
+                                $(this).find('p').last().attr("property", config['prop']['competent']);
                                 break;
                             case 1:
-                                $(this).find('p').last().attr("about", "http://example.org/nifo/publicservice/"+countryLabel+"-"+publicService.replace(/[^\w]/g,''));
-                                $(this).find('p').last().attr("property", "schema:url");
+                                $(this).find('p').last().attr("about", config['prefix']['service']+countryLabel+"-"+publicService.replace(/[^\w]/g,''));
+                                $(this).find('p').last().attr("property", config['prop']['url']);
                                 break;
                             case 2:
-                                $(this).find('p').last().parent().attr("about", "http://example.org/nifo/publicservice/"+countryLabel+"-"+publicService.replace(/[^\w]/g,''));
-                                $(this).find('p').last().parent().attr("property", "dct:description");
+                                $(this).find('p').last().parent().attr("about", config['prefix']['service']+countryLabel+"-"+publicService.replace(/[^\w]/g,''));
+                                $(this).find('p').last().parent().attr("property", config['prop']['description']);
                                 break;
                         }
                     });
@@ -283,27 +285,35 @@ input.forEach(function (fileName) {
         }
         console.log("The RDFa file was saved!");
     });
-    //Save the N3 file
+    //Save the file in N3 syntax
     // Set the headers
+    var test = '<p>All content on this site is licensed under <a property="http://creativecommons.org/ns#license" href="http://creativecommons.org/licenses/by/3.0/"> a Creative Commons License</a>. ©2011 Alice Birpemswick.</p>';
     var headers = {
-        'User-Agent':       'Super Agent/0.0.1',
-        'Content-Type':     'application/x-www-form-urlencoded'
+        'Content-Type':     'application/x-www-form-urlencoded',
+        'Accept':           '*/*',
+        'User-Agent':       'runscope/0.1'
     }
     // Configure the request
     var options = {
         url: 'http://rdf-translator.appspot.com/convert/rdfa/n3/content',
         method: 'POST',
         headers: headers,
-        content: $.html()
+        form: {
+            content: unescape($.html())
+        }
     }
 
     // Start the request
     request(options, function (error, response, body) {
         if (!error && response.statusCode == 200) {
-            // Print out the response body
-            console.log(body);
+            fs.writeFile(outputPath + "/" + output[0] + ".n3", body, function (err) {
+                if (err) {
+                    return console.log(err);
+                }
+                console.log("The N3 file was saved!");
+            });
         } else {
-            console.log(error);
+            console.log(response.statusCode);
         }
     });
 

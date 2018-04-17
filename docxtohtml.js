@@ -24,14 +24,15 @@ var options = {
     	"h1 => h1.title",
         "p[style-name='HEAD 1'] => h1",
         "p[style-name='HEAD 2'] => h2"
-    ]
+    ],
+    outputDir: 'output'
 };
 
 input.forEach(function(fileName){
 	mammoth.convertToHtml({path: filePath+'/'+fileName}, options)
 	    .then(function(result){
 	        var html = result.value; // The generated HTML
-	        html = '<html><head></head><body>'+html+'</body></html>';
+	        //html = '<html><head></head><body>'+html+'</body></html>';
 	        var messages = result.messages; // Any messages, such as warnings during conversion
 			output = fileName.split('.');
 			fs.writeFileSync(outputPath+"/"+output[0]+".html", unescape(html));

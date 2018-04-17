@@ -36,18 +36,97 @@ All documents in the input folder will be transformed into HTML and stored in th
 
 To annotate the HTML files with RDFA, run `node transform.js` from the command line. The annotated HTML documents will be stored in the `/rdfa` folder. Subsequently, these can be copy-pasted into a WYSIWYG text editor, or directly uploaded to a Triple Store.
 
-The following variables can be edited in the `transform.js` file:
+The `config.json` file allows users to customise the transformation script and mappings to existing RDF vocabularies.
+
+* Configure document metadata, including the date issued, the applicable licence, the HTML tag used to identify the main sections in the document and the HTML tag used to identify the subsections in the document:
 ```
-/******************************/
-/***DEFINE VARIABLES***********/
-/******************************/
-var issued = '2018-02-01';                                      //The document issue date, applied to all documents in the input folder
-var licence = 'https://creativecommons.org/licenses/by/4.0/';   //Specify a (preferably machine readable) licence
-var section = 'h1';                                             //The HTML element identified with a section
-var subsection = 'h2';                                          //The HTML element identified with a subsection
+{
+    "issued" : "2018-02",
+    "licence" : "https://creativecommons.org/licenses/by/4.0/",
+    "section_header" : "h1",
+    "subsection_header" : "h2",
 ```
 
-Annotations can be customised by modifying the `transform.js` code that is applied to the relevant section or subsection in the document.
+* Configure the prefixes that are used to generate URIs for new entities discovered within the document:
+```
+    "prefix": {
+        "nifo" : "http://data.europa.eu/nifo/factsheet/",
+        "currency": "http://publications.europa.eu/resource/authority/currency/",
+        "measure" : "http://example.org/nifo/MeasureProperty/",
+        "datastructure" : "http://example.org/nifo/structure/",
+        "dataset" : "http://example.org/nifo/dataset/",
+        "legalframework" : "http://example.org/nifo/legalframework/",
+        "role" : "http://example.org/nifo/role/Role-",
+        "post" : "http://example.org/nifo/post/Post-",
+        "service" : "http://example.org/nifo/publicservice/",
+    }
+```
+
+* Set the prefix used for the RDF properties and classes, as well as the mapping of different terms to properties and classes in existing vocabularies:
+```
+    "prefixes" : "dct: http://purl.org/dc/terms/ dbo: http://dbpedia.org/ontology/ dbp: http://dbpedia.org/property/ qb: http://purl.org/linked-data/cube# rdfs: http://www.w3.org/2000/01/rdf-schema# cpsv: http://purl.org/vocab/cpsv# eli: http://data.europa.eu/eli/ontology# foaf: http://xmlns.com/foaf/0.1/ org: https://www.w3.org/ns/org# schema: http://schema.org/",
+    "prop" : {
+        "issued" : "dct:issued",
+        "licence" : "dct:license",
+        "population" : "dbo:populationTotal",
+        "gdpnominal" : "dbp:gdpNominal",
+        "gdppercapita" : "dbp:gdpPppPerCapita",
+        "area" : "dbo:areaTotal",
+        "capital" : "dbo:capital",
+        "language" : "dct:language",
+        "currency" : "dbo:currency",
+        "source" : "dct:source",
+        "leader" : "dbo:leader",
+        "title" : "dct:title",
+        "label" : "rdfs:label",
+        "component" : "qb:component",
+        "structure" : "qb:structure",
+        "relation" : "dct:relation",
+        "name" : "foaf:name",
+        "holds" : "org:holds",
+        "telephone" : "schema:telephone",
+        "fax" : "schema:faxNumber",
+        "email" : "schema:email",
+        "url" : "schema:url",
+        "contact" : "schema:contactPoint",
+        "description" : "dct:description",
+        "competent" : "http://data.europa.eu/m8g/hasCompetentAuthority"
+    },
+    "class" : {
+        "measure" : "qb:MeasureProperty",
+        "datastructure" :"qb:DataStructureDefinition",
+        "dataset" : "qb:DataSet",
+        "framework": "cpsv:FormalFramework",
+        "legalresource": "eli:LegalResource",
+        "person" : "foaf:Person",
+        "role" : "org:Role",
+        "post" : "org:Post",
+        "contact": "schema:ContactPoint"
+    },
+```
+
+* Configure the text strings used to identify certain proprties such as currency, head of state and head of government. 
+```
+    "text_identifier" : {
+        "currency" : "Currency: ",
+        "headofstate" : "Head of State: ",
+        "headofgovernment" : "Head of Government: "
+    },
+```
+
+* Determine the keywords that are used to derive links to legal documents from the text. 
+```
+    "type_framework" : {
+        "act" : "act",
+        "reg" : "regulation",
+        "dir" : "directive",
+        "law" : "law",
+        "con" : "constitution"
+    }
+}
+```
+
+More detailed customisation of the annotations can be achieved by modifying the `transform.js` code that is applied to the relevant section or subsection in the document.
 The different sections are identified based on their title. To apply the annotations, we refer to the [methods provided by the Cheerio module](https://github.com/cheeriojs/cheerio).
 ```
 switch(content){
