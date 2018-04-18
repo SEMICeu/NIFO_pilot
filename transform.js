@@ -17,7 +17,9 @@ var config = require('./config.json');
 var args = process.argv.slice(2);
 var filePath = 'output';
 var outputPath = 'rdfa';
-var input = fs.readdirSync(filePath);
+var input = fs.readdirSync(filePath).filter(function(file) {
+    if(file.indexOf(".html")>-1) return file;
+})
 var html;
 
 function checkArray(str, arr){
@@ -145,7 +147,7 @@ input.forEach(function (fileName) {
                         case 12:
                             //Source
                             $(this).attr("property", config['prop']['source']);
-                            text= $(this).text().replace(/.*: /,'');
+                            text= $(this).children('a').attr('href');
                             $(this).attr("content", text);
                             break;
                     }
@@ -299,7 +301,7 @@ input.forEach(function (fileName) {
         method: 'POST',
         headers: headers,
         form: {
-            content: unescape($.html())
+            content: $.html()
         }
     }
 

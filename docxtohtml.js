@@ -5,6 +5,7 @@
 /******************************/
 
 var fs = require('fs');
+var path = require("path");
 var mammoth = require('mammoth');
 
 /******************************/
@@ -17,7 +18,9 @@ var mammoth = require('mammoth');
 var filePath = 'input';
 var outputPath = 'output';
 var input = fs.readdirSync(filePath);
-var output = '';
+var output;
+var imageIndex = 0;
+var fileIndex = 0;
 
 var options = {
     styleMap: [
@@ -25,14 +28,30 @@ var options = {
         "p[style-name='HEAD 1'] => h1",
         "p[style-name='HEAD 2'] => h2"
     ],
-    outputDir: 'output'
+    convertImage: mammoth.images.imgElement(function(element) {
+        imageIndex++;
+        var extension = element.contentType.split("/")[1];
+        var filename = fileIndex+"-"+imageIndex + "." + extension;
+        
+        return element.read().then(function(imageBuffer) {
+            var imagePath = path.join(outputPath, "img", filename);
+ 			fs.writeFile(imagePath, imageBuffer, function(err) {
+                if(err) {
+                    console.log(err);
+                }
+            }); 
+
+        return {src: "img/"+filename, alt: filename};
+       
+        })
+    })
 };
 
 input.forEach(function(fileName){
+	fileIndex++
 	mammoth.convertToHtml({path: filePath+'/'+fileName}, options)
 	    .then(function(result){
 	        var html = result.value; // The generated HTML
-	        //html = '<html><head></head><body>'+html+'</body></html>';
 	        var messages = result.messages; // Any messages, such as warnings during conversion
 			output = fileName.split('.');
 			fs.writeFileSync(outputPath+"/"+output[0]+".html", unescape(html));
