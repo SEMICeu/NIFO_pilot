@@ -8,19 +8,28 @@ var mammoth = require('mammoth');
 var cheerio = require('cheerio');
 var extendCheerio = require('./wrapAll.js');
 var sparql = require('sparql');
-var request = require('request');
+var request = require('sync-request');
+var rdfaParser = require('rdfa-parser');
+var jsesc = require('jsesc');
+const _cliProgress = require('cli-progress');
 
 /******************************/
 /***DEFINE VARIABLES***********/
 /******************************/
+const bar1 = new _cliProgress.Bar({}, _cliProgress.Presets.shades_classic);
 var config = require('./config.json');
 var args = process.argv.slice(2);
 var filePath = 'output';
 var outputPath = 'rdfa';
+var outputPathN3 = 'n3';
 var input = fs.readdirSync(filePath).filter(function(file) {
     if(file.indexOf(".html")>-1) return file;
 })
 var html;
+var countryCodes = {};
+var countries = [];
+
+bar1.start((input.length*100)+100, 0);
 
 function checkArray(str, arr){
    for(var i=0; i < arr.length; i++){
@@ -30,10 +39,36 @@ function checkArray(str, arr){
    return false;
 }
 
+    /*===============*/
+    /*Get country NAL*/
+    /*===============*/
+
+
+    var options = {
+        headers: {
+        'Content-Type':     'application/x-www-form-urlencoded',
+        'Accept':           '*/*',
+        'User-Agent':       'runscope/0.1'
+        }
+    }
+
+    // Start the request
+    var nalbody = request('GET', 'http://publications.europa.eu/mdr/resource/authority/country/html/countries-eng.html', options).getBody();
+
+
+    $nal = cheerio.load(nalbody, {
+        normalizeWhitespace: true
+    });
+    $nal('tr').each(function(index, element){
+        countryCodes[$nal(this).children("td:nth-of-type(3)").text()] = $nal(this).children("td:nth-of-type(1)").text();
+        countries.push($nal(this).children("td:nth-of-type(3)").text());
+    });
+
+    bar1.increment(100);
+
 /******************************/
 /***CREATE HTML + RDFa*********/
 /******************************/
-
 input.forEach(function (fileName) {
     /*==================*/
     /*LOAD DOM STRUCTURE*/
@@ -46,7 +81,6 @@ input.forEach(function (fileName) {
     //Define variables
     var content,
         text,
-        countries,
         country,
         language,
         client,
@@ -56,17 +90,16 @@ input.forEach(function (fileName) {
         label
 
     //Determine country
-    countries = ["Sweden", "Cyprus"];
     for(var i = 0; i < countries.length; i++){
         if(fileName.indexOf(countries[i]) >= 0){
             country = config['prefix']['nifo']+countries[i];
             countryLabel = countries[i];
         }
-    }
+    }    
 
     //Add namespaces to document
     $('body').contents().wrapAll('<div resource="'+country+'" prefix="'+config['prefixes']+'"></div>');
-    $('body').children('div').first().children('p').first().before('<span property="'+config['prop']['relation']+'" href="http://dbpedia.org/page/'+countryLabel+'"></span><span property="'+config['prop']['issued']+'" content="'+config['issued']+'"></span><span property="'+config['prop']['licence']+'" content="'+config['licence']+'"></span>');
+    $('body').children('div').first().children('p').first().before('<span property="'+config['prop']['relation']+'" href="http://dbpedia.org/page/'+countryLabel+'"></span><span property="'+config['prop']['issued']+'" content="'+config['issued']+'"></span><span property="'+config['prop']['licence']+'" content="'+config['licence']+'"></span><span property="'+config['prop']['country']+'" content="'+config['prefix']['country']+countryCodes[countryLabel]+'"></span>');
 
     /*=================*/
     /*Annotate document*/
@@ -134,6 +167,7 @@ input.forEach(function (fileName) {
                                 });
                             }
                             */
+                            
                             $(this).attr("property", config['prop']['language']);
                             text= $(this).text().replace(/.*: /,'');
                             $(this).attr("content", text);
@@ -147,8 +181,8 @@ input.forEach(function (fileName) {
                         case 12:
                             //Source
                             $(this).attr("property", config['prop']['source']);
-                            text= $(this).children('a').attr('href');
-                            $(this).attr("content", text);
+                            text= encodeURI($(this).children('a').attr('href'));
+                            $(this).attr("href", text);
                             break;
                     }
                 });
@@ -157,7 +191,7 @@ input.forEach(function (fileName) {
                 $(this).nextUntil(config['section_header']).each(function (index, elem) {
                     content = $(this).text();
                     if( (content.indexOf(config['text_identifier']['headofstate']) >= 0) || (content.indexOf(config['text_identifier']['headofgovernment']) >= 0)){
-                        link = $(this).children('a').first().attr("href");
+                        link = encodeURI($(this).children('a').first().attr("href"));
                         $(this).attr("property", config['prop']['leader']);
                         $(this).attr("content", link.replace(/ /g,'%20'));
                     }
@@ -172,11 +206,12 @@ input.forEach(function (fileName) {
                     $(this).nextUntil('h1, h2', 'table').each(function (index, elem) {
                         $(this).find('strong').each(function (index, elem) {
                             var dimensionLabel = $(this).text();
+                            var parentNode =  $(this).parent();
                             $(this).attr('property', config['prop']['label']);
-                            $(this).parent().attr('resource', config['prefix']['measure']+dimensionLabel.replace(/ /g,''));
-                            $(this).parent().attr('typeOf', config['class']['measure']);
-                            $(this).parent().parent().attr('property', 'qb:component');
-                            $(this).parent().parent().attr('href', config['prefix']['measure']+dimensionLabel.replace(/ /g,''));
+                            parentNode.attr('resource', config['prefix']['measure']+dimensionLabel.replace(/ /g,''));
+                            parentNode.attr('typeOf', config['class']['measure']);
+                            parentNode.parent().attr('property', 'qb:component');
+                            parentNode.parent().attr('href', config['prefix']['measure']+dimensionLabel.replace(/ /g,''));
                         });
                         $(this).find('p:contains("Source:")').each(function (index, elem) {
                             sources.push(encodeURI($(this).children('a').first().attr("href")));
@@ -221,12 +256,13 @@ input.forEach(function (fileName) {
                             case 2:
                                 //Role
                                 var role = $(this).text();
+                                var childNode = $(this).children('strong').first();
                                 $(this).attr("property", config['prop']['holds']);
                                 $(this).attr("href", "#Post-"+role.replace(/ /g,''));
-                                $(this).children('strong').first().attr("about", config['prefix']['role']+role.replace(/ /g,''));
-                                $(this).children('strong').first().attr("typeOf", config['class']['role']);
-                                $(this).children('strong').first().attr("property", config['prop']['label']);
-                                $(this).children('strong').first().wrap('<span about="'+config['prefix']['post']+role.replace(/ /g,'')+'" typeOf="'+config['class']['post']+'"><span property="'+config['prop']['role']+'" href="'+config['prefix']['role']+role.replace(/ /g,'')+'"></span></span>');
+                                childNode.attr("about", config['prefix']['role']+role.replace(/ /g,''));
+                                childNode.attr("typeOf", config['class']['role']);
+                                childNode.attr("property", config['prop']['label']);
+                                childNode.wrap('<span about="'+config['prefix']['post']+role.replace(/ /g,'')+'" typeOf="'+config['class']['post']+'"><span property="'+config['prop']['role']+'" href="'+config['prefix']['role']+role.replace(/ /g,'')+'"></span></span>');
                                 break;                      
                         }
                         if($(this).text().indexOf("Tel.") >= 0) {
@@ -279,6 +315,7 @@ input.forEach(function (fileName) {
     /*=================*/
     /* GENERATE OUTPUT */
     /*=================*/
+
     //Save the RDFa file
     var output = fileName.split('.');
     fs.writeFile(outputPath + "/" + output[0] + ".html", unescape($.html()), function (err) {
@@ -288,35 +325,19 @@ input.forEach(function (fileName) {
         console.log("The RDFa file was saved!");
     });
     //Save the file in N3 syntax
-    // Set the headers
-    var test = '<p>All content on this site is licensed under <a property="http://creativecommons.org/ns#license" href="http://creativecommons.org/licenses/by/3.0/"> a Creative Commons License</a>. ©2011 Alice Birpemswick.</p>';
-    var headers = {
-        'Content-Type':     'application/x-www-form-urlencoded',
-        'Accept':           '*/*',
-        'User-Agent':       'runscope/0.1'
-    }
-    // Configure the request
-    var options = {
-        url: 'http://rdf-translator.appspot.com/convert/rdfa/n3/content',
-        method: 'POST',
-        headers: headers,
-        form: {
-            content: $.html()
-        }
-    }
-
-    // Start the request
-    request(options, function (error, response, body) {
-        if (!error && response.statusCode == 200) {
-            fs.writeFile(outputPath + "/" + output[0] + ".n3", body, function (err) {
-                if (err) {
-                    return console.log(err);
-                }
-                console.log("The N3 file was saved!");
-            });
-        } else {
-            console.log(response.statusCode);
-        }
+    $('body').find('a').each(function (index, elem) {
+        link = encodeURI($(this).attr('href'));
+        link = link.replace(/[^a-zA-Z-0-9-\/]/g,'');
+        $(this).attr('href', link);
     });
-
+    let triples = rdfaParser.parseRDFa(unescape($.html()));
+    var triples_output = [];
+    fs.writeFile(outputPathN3 + "/" + output[0] + ".n3", triples, function (err) {
+        if (err) {
+            return console.log(err);
+        }
+        console.log("The N3 file was saved!");
+    });
+    bar1.increment(100);
 });
+bar1.stop();

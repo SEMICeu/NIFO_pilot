@@ -12,9 +12,10 @@
         "legalframework" : "http://example.org/nifo/legalframework/",
         "role" : "http://example.org/nifo/role/Role-",
         "post" : "http://example.org/nifo/post/Post-",
-        "service" : "http://example.org/nifo/publicservice/"
+        "service" : "http://example.org/nifo/publicservice/",
+        "country" : "http://publications.europa.eu/resource/authority/country/"
     },
-    "prefixes" : "dct: http://purl.org/dc/terms/ dbo: http://dbpedia.org/ontology/ dbp: http://dbpedia.org/property/ qb: http://purl.org/linked-data/cube# rdfs: http://www.w3.org/2000/01/rdf-schema# cpsv: http://purl.org/vocab/cpsv# eli: http://data.europa.eu/eli/ontology# foaf: http://xmlns.com/foaf/0.1/ org: https://www.w3.org/ns/org# schema: http://schema.org/",
+    "prefixes" : "dct: http://purl.org/dc/terms/ dbo: http://dbpedia.org/ontology/ dbp: http://dbpedia.org/property/ qb: http://purl.org/linked-data/cube# rdfs: http://www.w3.org/2000/01/rdf-schema# cpsv: http://purl.org/vocab/cpsv# eli: http://data.europa.eu/eli/ontology# foaf: http://xmlns.com/foaf/0.1/ org: http://www.w3.org/ns/org# schema: http://schema.org/",
     "prop" : {
         "issued" : "dct:issued",
         "licence" : "dct:license",
@@ -40,7 +41,9 @@
         "url" : "schema:url",
         "contact" : "schema:contactPoint",
         "description" : "dct:description",
-        "competent" : "http://data.europa.eu/m8g/hasCompetentAuthority"
+        "competent" : "http://data.europa.eu/m8g/hasCompetentAuthority",
+        "role" : "org:role",
+        "country" : "dct:spatial"
     },
     "class" : {
         "measure" : "qb:MeasureProperty",
