@@ -9,8 +9,8 @@ var cheerio = require('cheerio');
 var extendCheerio = require('./wrapAll.js');
 var sparql = require('sparql');
 var request = require('sync-request');
-var rdfaParser = require('rdfa-parser');
-var jsesc = require('jsesc');
+var getRdfaGraph = require('graph-rdfa-processor');
+var jsdom = require('jsdom');
 const _cliProgress = require('cli-progress');
 
 /******************************/
@@ -21,7 +21,7 @@ var config = require('./config.json');
 var args = process.argv.slice(2);
 var filePath = 'output';
 var outputPath = 'rdfa';
-var outputPathN3 = 'n3';
+var outputPathJSONLD = 'jsonld';
 var input = fs.readdirSync(filePath).filter(function(file) {
     if(file.indexOf(".html")>-1) return file;
 })
@@ -325,6 +325,11 @@ input.forEach(function (fileName) {
         console.log("The RDFa file was saved!");
     });
     //Save the file in N3 syntax
+    let { document } = jsdom(html).defaultView.window;
+    let opts = {baseURI: 'http://example.com'};
+    let graph = getRdfaGraph(document, opts);
+    console.log(graph.toString());
+    /*
     $('body').find('a').each(function (index, elem) {
         link = encodeURI($(this).attr('href'));
         link = link.replace(/[^a-zA-Z-0-9-\/]/g,'');
@@ -332,7 +337,8 @@ input.forEach(function (fileName) {
     });
     let triples = rdfaParser.parseRDFa(unescape($.html()));
     var triples_output = [];
-    fs.writeFile(outputPathN3 + "/" + output[0] + ".n3", triples, function (err) {
+    */
+    fs.writeFile(outputPathJSONLD + "/" + output[0] + ".jsonld", graph, function (err) {
         if (err) {
             return console.log(err);
         }
