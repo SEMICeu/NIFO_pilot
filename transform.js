@@ -62,7 +62,7 @@ function checkArray(str, arr){
     $nal = cheerio.load(nalbody, {
         normalizeWhitespace: true
     });
-    $nal('tr').each(function(index, element){
+    $nal('#tbl_countries_a tr').each(function(index, element){
         //console.log($nal(this).children("td:nth-of-type(3)").text() + "---------" + $nal(this).children("td:nth-of-type(1)").text());
         var country_temp = $nal(this).children("td:nth-of-type(3)").text();
         if(country_temp.length > 0){
