@@ -12,6 +12,9 @@ var request = require('sync-request');
 var getRdfaGraph = require('graph-rdfa-processor');
 var jsdom = require('jsdom');
 const _cliProgress = require('cli-progress');
+var prepend = require('prepend');
+var rdfaParser = require('ldtr/lib/rdfa/parser');
+var xmldom = require('xmldom');
 
 /******************************/
 /***DEFINE VARIABLES***********/
@@ -74,8 +77,9 @@ input.forEach(function (fileName) {
     /*LOAD DOM STRUCTURE*/
     /*==================*/
     html = fs.readFileSync(filePath + '/' + fileName);
-    $ = cheerio.load(html, {
-        normalizeWhitespace: true
+    $ = cheerio.load('<html><body>'+html+'</body></html>', {
+        normalizeWhitespace: true,
+        xmlMode:true
     });
     extendCheerio($);
     //Define variables
@@ -96,7 +100,7 @@ input.forEach(function (fileName) {
             countryLabel = countries[i];
         }
     }    
-
+    //$('body').wrapAll('html');
     //Add namespaces to document
     $('body').contents().wrapAll('<div resource="'+country+'" prefix="'+config['prefixes']+'"></div>');
     $('body').children('div').first().children('p').first().before('<span property="'+config['prop']['relation']+'" href="http://dbpedia.org/page/'+countryLabel+'"></span><span property="'+config['prop']['issued']+'" content="'+config['issued']+'"></span><span property="'+config['prop']['licence']+'" content="'+config['licence']+'"></span><span property="'+config['prop']['country']+'" content="'+config['prefix']['country']+countryCodes[countryLabel]+'"></span>');
@@ -315,8 +319,26 @@ input.forEach(function (fileName) {
     /*=================*/
     /* GENERATE OUTPUT */
     /*=================*/
-
     //Save the RDFa file
+    //$('img').remove();
+    //$('br').remove();
+    //$('head').prepend('<title>NIFO Factsheet</title>');
+    //$('html').attr('lang', 'en');
+    $('a').each(function (index, elem) {
+        that = $(this);
+        link = that.attr('href');
+        if(link !== undefined){
+            if (link.startsWith("file")) {
+                that.remove();
+            } else {
+                link2 = encodeURI(link.replace(/\\/g,"/"));
+                console.log(link2);
+                that.attr('href', link2);
+            }
+        } else {
+            //that.remove();
+        }
+    });
     var output = fileName.split('.');
     fs.writeFile(outputPath + "/" + output[0] + ".html", unescape($.html()), function (err) {
         if (err) {
@@ -324,11 +346,23 @@ input.forEach(function (fileName) {
         }
         console.log("The RDFa file was saved!");
     });
+    //prepend(outputPath + "/" + output[0] + ".html", '<!DOCTYPE html>', function(error) {
+    //    if (error)
+    //        console.error(error.message);
+    //});
     //Save the file in N3 syntax
-    let { document } = jsdom(html).defaultView.window;
+    const { JSDOM } = jsdom;
+    const { document } = new JSDOM(unescape($.html())).window;
+    //console.log(dom);
     let opts = {baseURI: 'http://example.com'};
     let graph = getRdfaGraph(document, opts);
     console.log(graph.toString());
+    fs.writeFile(outputPathJSONLD + "/" + output[0] + ".ttl", graph.toString() , function (err) {
+        if (err) {
+            return console.log(err);
+        }
+        console.log("The ttl file was saved!");
+    });
     /*
     $('body').find('a').each(function (index, elem) {
         link = encodeURI($(this).attr('href'));
@@ -338,7 +372,12 @@ input.forEach(function (fileName) {
     let triples = rdfaParser.parseRDFa(unescape($.html()));
     var triples_output = [];
     */
-    fs.writeFile(outputPathJSONLD + "/" + output[0] + ".jsonld", graph, function (err) {
+    var baseUri= 'http://example.com';
+    DOMParser = xmldom.DOMParser;
+    var result = rdfaParser.parse(
+        new xmldom.DOMParser().parseFromString(unescape($.html()), 'text/xml'),baseUri);
+    //new xmldom.XMLSerializer());
+    fs.writeFile(outputPathJSONLD + "/" + output[0] + ".jsonld", JSON.stringify(result, null, 2), function (err) {
         if (err) {
             return console.log(err);
         }
