@@ -15,19 +15,19 @@
   },
   "@graph": [
     {
-      "@id": "http://data.europa.eu/nifo/factsheet/",
+      "@id": "http://data.europa.eu/nifo/factsheet/Cyprus",
       "http://purl.org/dc/terms/relation": [
         {
-          "@id": "http://dbpedia.org/page/"
+          "@id": "http://dbpedia.org/page/Cyprus"
         },
         {
-          "@id": "http://example.org/nifo/dataset/GenericIndicators"
+          "@id": "http://example.org/nifo/dataset/GenericIndicatorsCyprus"
         },
         {
-          "@id": "http://example.org/nifo/dataset/eGovernmentIndicators"
+          "@id": "http://example.org/nifo/dataset/eGovernmentIndicatorsCyprus"
         },
         {
-          "@id": "http://example.org/nifo/legalframework/"
+          "@id": "http://example.org/nifo/legalframework/Cyprus"
         },
         {
           "@id": "http://ec.europa.eu/newsroom/dae/document.cfm?doc_id=48586"
@@ -40,7 +40,7 @@
         "https://creativecommons.org/licenses/by/4.0/"
       ],
       "http://purl.org/dc/terms/spatial": [
-        "http://publications.europa.eu/resource/authority/country/ZWE"
+        "http://publications.europa.eu/resource/authority/country/CYP"
       ],
       "http://dbpedia.org/ontology/populationTotal": [
         "854,802 inhabitants (2017)"
@@ -117,13 +117,13 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/dataset/GenericIndicators",
+      "@id": "http://example.org/nifo/dataset/GenericIndicatorsCyprus",
       "http://purl.org/dc/terms/title": [
         "Generic Indicators"
       ],
       "http://purl.org/linked-data/cube#structure": [
         {
-          "@id": "http://example.org/nifo/structure/GenericIndicators"
+          "@id": "http://example.org/nifo/structure/GenericIndicatorsCyprus"
         }
       ],
       "http://purl.org/dc/terms/source": [
@@ -131,13 +131,13 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/dataset/eGovernmentIndicators",
+      "@id": "http://example.org/nifo/dataset/eGovernmentIndicatorsCyprus",
       "http://purl.org/dc/terms/title": [
         "eGovernment Indicators"
       ],
       "http://purl.org/linked-data/cube#structure": [
         {
-          "@id": "http://example.org/nifo/structure/eGovernmentIndicators"
+          "@id": "http://example.org/nifo/structure/eGovernmentIndicatorsCyprus"
         }
       ],
       "http://purl.org/dc/terms/source": [
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/legalframework/",
+      "@id": "http://example.org/nifo/legalframework/Cyprus",
       "http://purl.org/dc/terms/relation": [
         {
           "@id": "http://www.kypros.org/Constitution/English/"
@@ -177,7 +177,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/structure/GenericIndicators",
+      "@id": "http://example.org/nifo/structure/GenericIndicatorsCyprus",
       "http://purl.org/linked-data/cube#component": [
         {
           "@id": "http://example.org/nifo/MeasureProperty/PercentageofhouseholdswithInternetaccessinCyprus"
@@ -245,7 +245,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/structure/eGovernmentIndicators",
+      "@id": "http://example.org/nifo/structure/eGovernmentIndicatorsCyprus",
       "http://purl.org/linked-data/cube#component": [
         {
           "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinCyprus"
@@ -328,7 +328,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Passport",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Passport",
       "http://purl.org/dc/terms/title": [
         "Passport",
         "Passport"
@@ -347,7 +347,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-VATrefundsandexciseduties",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-VATrefundsandexciseduties",
       "http://purl.org/dc/terms/title": [
         "VAT refunds and excise duties"
       ],
@@ -362,7 +362,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Jobsearchservicesbylabouroffices",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Jobsearchservicesbylabouroffices",
       "http://purl.org/dc/terms/title": [
         "Job search services by labour offices"
       ],
@@ -377,7 +377,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Legalinformationsysteminclinformationontheregulatedprofessions",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Legalinformationsysteminclinformationontheregulatedprofessions",
       "http://purl.org/dc/terms/title": [
         "Legal information system (incl. information on the regulated professions)"
       ],
@@ -392,7 +392,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Incometaxesdeclarationnotificationofassessment",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Incometaxesdeclarationnotificationofassessment",
       "http://purl.org/dc/terms/title": [
         "Income taxes: declaration, notification of assessment"
       ],
@@ -407,7 +407,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-UnemploymentbenefitsStandardproceduretoobtainreplacementincomeincaseofunemployment",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-UnemploymentbenefitsStandardproceduretoobtainreplacementincomeincaseofunemployment",
       "http://purl.org/dc/terms/title": [
         "Unemployment benefits (Standard procedure to obtain replacement income in case of unemployment)"
       ],
@@ -422,7 +422,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Driverslicence",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Driverslicence",
       "http://purl.org/dc/terms/title": [
         "Driver’s licence"
       ],
@@ -437,7 +437,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Thirdpartyinsurance",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Thirdpartyinsurance",
       "http://purl.org/dc/terms/title": [
         "Third-party insurance "
       ],
@@ -452,7 +452,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Carregistrationnewusedimportedcars",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Carregistrationnewusedimportedcars",
       "http://purl.org/dc/terms/title": [
         "Car registration (new, used, imported cars)"
       ],
@@ -467,7 +467,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Announcementofmovingchangeofaddress",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Announcementofmovingchangeofaddress",
       "http://purl.org/dc/terms/title": [
         "Announcement of moving (change of address)"
       ],
@@ -482,7 +482,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Certificatesbirthmarriagerequestanddelivery",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Certificatesbirthmarriagerequestanddelivery",
       "http://purl.org/dc/terms/title": [
         "Certificates (birth, marriage): request and delivery",
         "Certificates (birth, marriage): request and delivery"
@@ -501,7 +501,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-CriminalRecordCertificate",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-CriminalRecordCertificate",
       "http://purl.org/dc/terms/title": [
         "Criminal Record Certificate"
       ],
@@ -516,7 +516,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Declarationtothepoliceegincaseoftheft",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Declarationtothepoliceegincaseoftheft",
       "http://purl.org/dc/terms/title": [
         "Declaration to the police (e.g. in case of theft)"
       ],
@@ -531,7 +531,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Housingbuildingandhousingenvironment",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Housingbuildingandhousingenvironment",
       "http://purl.org/dc/terms/title": [
         "Housing (building and housing, environment)"
       ],
@@ -546,7 +546,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Proceduresrelatingtoimmovableproperty",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Proceduresrelatingtoimmovableproperty",
       "http://purl.org/dc/terms/title": [
         "Procedures relating to immovable property"
       ],
@@ -561,7 +561,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Participationinelections",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Participationinelections",
       "http://purl.org/dc/terms/title": [
         "Participation in elections"
       ],
@@ -576,7 +576,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Enrolmentinhighereducationuniversity",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Enrolmentinhighereducationuniversity",
       "http://purl.org/dc/terms/title": [
         "Enrolment in higher education/university"
       ],
@@ -591,7 +591,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Publiclibrariesavailabilityofcataloguessearchtools",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Publiclibrariesavailabilityofcataloguessearchtools",
       "http://purl.org/dc/terms/title": [
         "Public libraries (availability of catalogues, search tools)",
         "Public libraries (availability of catalogues, search tools)"
@@ -610,7 +610,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Studentgrants",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Studentgrants",
       "http://purl.org/dc/terms/title": [
         "Student grants"
       ],
@@ -625,7 +625,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-VoluntarysocialinvolvementI",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-VoluntarysocialinvolvementI",
       "http://purl.org/dc/terms/title": [
         "Voluntary social involvement I"
       ],
@@ -640,7 +640,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-VoluntarysocialinvolvementII",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-VoluntarysocialinvolvementII",
       "http://purl.org/dc/terms/title": [
         "Voluntary social involvement II"
       ],
@@ -655,7 +655,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-YouthVolunteerTeam",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-YouthVolunteerTeam",
       "http://purl.org/dc/terms/title": [
         " “Youth Volunteer Team”, "
       ],
@@ -670,7 +670,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Informationandassistancetoresearchers",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Informationandassistancetoresearchers",
       "http://purl.org/dc/terms/title": [
         "Information and assistance to researchers"
       ],
@@ -685,7 +685,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-ResearchfundingsupportResearchPromotionFoundationRPFcurrentlyNA",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-ResearchfundingsupportResearchPromotionFoundationRPFcurrentlyNA",
       "http://purl.org/dc/terms/title": [
         "Research funding support Research Promotion Foundation (RPF) (currently N/A)"
       ],
@@ -700,7 +700,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Healthrelatedservicesinteractiveadviceontheavailabilityofservicesindifferenthospitalsappointmentsforhospitals",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Healthrelatedservicesinteractiveadviceontheavailabilityofservicesindifferenthospitalsappointmentsforhospitals",
       "http://purl.org/dc/terms/title": [
         "Health related services (interactive advice on the availability of services in different hospitals; appointments for hospitals)"
       ],
@@ -715,7 +715,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Medicalcostsreimbursementordirectsettlement",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Medicalcostsreimbursementordirectsettlement",
       "http://purl.org/dc/terms/title": [
         "Medical costs (reimbursement or direct settlement)"
       ],
@@ -730,7 +730,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Childallowances",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Childallowances",
       "http://purl.org/dc/terms/title": [
         "Child allowances"
       ],
@@ -745,7 +745,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Consumerprotection",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Consumerprotection",
       "http://purl.org/dc/terms/title": [
         "Consumer protection"
       ],
@@ -760,7 +760,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Telecommunicationservicecomparisontool",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Telecommunicationservicecomparisontool",
       "http://purl.org/dc/terms/title": [
         "Telecommunication service comparison tool"
       ],
@@ -775,7 +775,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Livingfacilitiesandenergy",
+      "@id": "http://example.org/nifo/publicservice/Cyprus-Livingfacilitiesandenergy",
       "http://purl.org/dc/terms/title": [
         "Living facilities and energy "
       ],

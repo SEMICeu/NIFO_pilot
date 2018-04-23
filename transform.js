@@ -63,8 +63,12 @@ function checkArray(str, arr){
         normalizeWhitespace: true
     });
     $nal('tr').each(function(index, element){
-        countryCodes[$nal(this).children("td:nth-of-type(3)").text()] = $nal(this).children("td:nth-of-type(1)").text();
-        countries.push($nal(this).children("td:nth-of-type(3)").text());
+        //console.log($nal(this).children("td:nth-of-type(3)").text() + "---------" + $nal(this).children("td:nth-of-type(1)").text());
+        var country_temp = $nal(this).children("td:nth-of-type(3)").text();
+        if(country_temp.length > 0){
+            countryCodes[country_temp] = $nal(this).children("td:nth-of-type(1)").text();
+            countries.push(country_temp);
+        }
     });
 
     bar1.increment(100);
@@ -94,8 +98,10 @@ input.forEach(function (fileName) {
         label
 
     //Determine country
+    console.log("File name:"+fileName);
     for(var i = 0; i < countries.length; i++){
         if(fileName.indexOf(countries[i]) >= 0){
+            console.log("FOUND:"+countries[i]);
             country = config['prefix']['nifo']+countries[i];
             countryLabel = countries[i];
         }
@@ -332,7 +338,7 @@ input.forEach(function (fileName) {
                 that.remove();
             } else {
                 link2 = encodeURI(link.replace(/\\/g,"/"));
-                console.log(link2);
+                //console.log(link2);
                 that.attr('href', link2);
             }
         } else {
@@ -356,7 +362,7 @@ input.forEach(function (fileName) {
     //console.log(dom);
     let opts = {baseURI: 'http://example.com'};
     let graph = getRdfaGraph(document, opts);
-    console.log(graph.toString());
+    //console.log(graph.toString());
     fs.writeFile(outputPathJSONLD + "/" + output[0] + ".ttl", graph.toString() , function (err) {
         if (err) {
             return console.log(err);

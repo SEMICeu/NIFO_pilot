@@ -15,19 +15,19 @@
   },
   "@graph": [
     {
-      "@id": "http://data.europa.eu/nifo/factsheet/",
+      "@id": "http://data.europa.eu/nifo/factsheet/Sweden",
       "http://purl.org/dc/terms/relation": [
         {
-          "@id": "http://dbpedia.org/page/"
+          "@id": "http://dbpedia.org/page/Sweden"
         },
         {
-          "@id": "http://example.org/nifo/dataset/GenericIndicators"
+          "@id": "http://example.org/nifo/dataset/GenericIndicatorsSweden"
         },
         {
-          "@id": "http://example.org/nifo/dataset/eGovernmentIndicators"
+          "@id": "http://example.org/nifo/dataset/eGovernmentIndicatorsSweden"
         },
         {
-          "@id": "http://example.org/nifo/legalframework/"
+          "@id": "http://example.org/nifo/legalframework/Sweden"
         },
         {
           "@id": "http://ec.europa.eu/newsroom/dae/document.cfm?doc_id=48586"
@@ -40,7 +40,7 @@
         "https://creativecommons.org/licenses/by/4.0/"
       ],
       "http://purl.org/dc/terms/spatial": [
-        "http://publications.europa.eu/resource/authority/country/ZWE"
+        "http://publications.europa.eu/resource/authority/country/SWE"
       ],
       "http://dbpedia.org/ontology/populationTotal": [
         "9,995,153 inhabitants (2017)"
@@ -112,13 +112,13 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/dataset/GenericIndicators",
+      "@id": "http://example.org/nifo/dataset/GenericIndicatorsSweden",
       "http://purl.org/dc/terms/title": [
         "Generic Indicators"
       ],
       "http://purl.org/linked-data/cube#structure": [
         {
-          "@id": "http://example.org/nifo/structure/GenericIndicators"
+          "@id": "http://example.org/nifo/structure/GenericIndicatorsSweden"
         }
       ],
       "http://purl.org/dc/terms/source": [
@@ -126,13 +126,13 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/dataset/eGovernmentIndicators",
+      "@id": "http://example.org/nifo/dataset/eGovernmentIndicatorsSweden",
       "http://purl.org/dc/terms/title": [
         "eGovernment Indicators"
       ],
       "http://purl.org/linked-data/cube#structure": [
         {
-          "@id": "http://example.org/nifo/structure/eGovernmentIndicators"
+          "@id": "http://example.org/nifo/structure/eGovernmentIndicatorsSweden"
         }
       ],
       "http://purl.org/dc/terms/source": [
@@ -140,7 +140,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/legalframework/",
+      "@id": "http://example.org/nifo/legalframework/Sweden",
       "http://purl.org/dc/terms/relation": [
         {
           "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/forvaltningslag-2017900_sfs-2017-900"
@@ -175,7 +175,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/structure/GenericIndicators",
+      "@id": "http://example.org/nifo/structure/GenericIndicatorsSweden",
       "http://purl.org/linked-data/cube#component": [
         {
           "@id": "http://example.org/nifo/MeasureProperty/PercentageofhouseholdswithInternetaccessinSweden"
@@ -243,7 +243,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/structure/eGovernmentIndicators",
+      "@id": "http://example.org/nifo/structure/eGovernmentIndicatorsSweden",
       "http://purl.org/linked-data/cube#component": [
         {
           "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinSweden"
@@ -326,7 +326,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Passport",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Passport",
       "http://purl.org/dc/terms/title": [
         "Passport",
         "Passport"
@@ -345,7 +345,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-VATrefundsandexciseduties",
+      "@id": "http://example.org/nifo/publicservice/Sweden-VATrefundsandexciseduties",
       "http://purl.org/dc/terms/title": [
         "VAT refunds and excise duties"
       ],
@@ -360,7 +360,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Jobsearchservicesbylabouroffices",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Jobsearchservicesbylabouroffices",
       "http://purl.org/dc/terms/title": [
         "Job search services by labour offices"
       ],
@@ -375,7 +375,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-WorkinSwedenportal",
+      "@id": "http://example.org/nifo/publicservice/Sweden-WorkinSwedenportal",
       "http://purl.org/dc/terms/title": [
         "‘Work in Sweden’ portal "
       ],
@@ -390,7 +390,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Workingabroad",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Workingabroad",
       "http://purl.org/dc/terms/title": [
         "Working abroad "
       ],
@@ -405,7 +405,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Informationontheregulatedprofessions",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Informationontheregulatedprofessions",
       "http://purl.org/dc/terms/title": [
         "Information on the regulated professions"
       ],
@@ -420,7 +420,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Incometaxesdeclarationnotificationofassessment",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Incometaxesdeclarationnotificationofassessment",
       "http://purl.org/dc/terms/title": [
         "Income taxes: declaration, notification of assessment"
       ],
@@ -435,7 +435,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Unemploymentbenefits",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Unemploymentbenefits",
       "http://purl.org/dc/terms/title": [
         "Unemployment benefits"
       ],
@@ -450,7 +450,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Repayment",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Repayment",
       "http://purl.org/dc/terms/title": [
         "Re-payment"
       ],
@@ -465,7 +465,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Driverslicence",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Driverslicence",
       "http://purl.org/dc/terms/title": [
         "Driver’s licence"
       ],
@@ -480,7 +480,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Thirdpartyinsurance",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Thirdpartyinsurance",
       "http://purl.org/dc/terms/title": [
         "Third-party insurance "
       ],
@@ -495,7 +495,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Carregistrationnewusedimportedcars",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Carregistrationnewusedimportedcars",
       "http://purl.org/dc/terms/title": [
         "Car registration (new, used, imported cars)"
       ],
@@ -510,7 +510,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Announcementofmovingchangeofaddress",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Announcementofmovingchangeofaddress",
       "http://purl.org/dc/terms/title": [
         "Announcement of moving (change of address)"
       ],
@@ -525,7 +525,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Certificatesbirthmarriagerequestanddelivery",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Certificatesbirthmarriagerequestanddelivery",
       "http://purl.org/dc/terms/title": [
         "Certificates (birth, marriage): request and delivery",
         "Certificates (birth, marriage): request and delivery"
@@ -544,7 +544,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-CriminalRecordCertificate",
+      "@id": "http://example.org/nifo/publicservice/Sweden-CriminalRecordCertificate",
       "http://purl.org/dc/terms/title": [
         "Criminal Record Certificate"
       ],
@@ -559,7 +559,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Declarationtothepoliceegincaseoftheft",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Declarationtothepoliceegincaseoftheft",
       "http://purl.org/dc/terms/title": [
         "Declaration to the police (e.g. in case of theft)"
       ],
@@ -574,7 +574,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Housingbuildingandhousingenvironment",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Housingbuildingandhousingenvironment",
       "http://purl.org/dc/terms/title": [
         "Housing (building and housing, environment)"
       ],
@@ -589,7 +589,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Waste",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Waste",
       "http://purl.org/dc/terms/title": [
         "Waste"
       ],
@@ -604,7 +604,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Participationinelections",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Participationinelections",
       "http://purl.org/dc/terms/title": [
         "Participation in elections"
       ],
@@ -619,7 +619,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Enrolmentinhighereducationuniversity",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Enrolmentinhighereducationuniversity",
       "http://purl.org/dc/terms/title": [
         "Enrolment in higher education/university"
       ],
@@ -634,7 +634,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Publiclibrariesavailabilityofcataloguessearchtools",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Publiclibrariesavailabilityofcataloguessearchtools",
       "http://purl.org/dc/terms/title": [
         "Public libraries (availability of catalogues, search tools)",
         "Public libraries (availability of catalogues, search tools)"
@@ -653,7 +653,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Studentgrants",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Studentgrants",
       "http://purl.org/dc/terms/title": [
         "Student grants"
       ],
@@ -668,7 +668,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Internshipsinclsummerinternships",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Internshipsinclsummerinternships",
       "http://purl.org/dc/terms/title": [
         "Internships (incl. summer internships)"
       ],
@@ -683,7 +683,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Informationandassistancetoresearchers",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Informationandassistancetoresearchers",
       "http://purl.org/dc/terms/title": [
         "Information and assistance to researchers"
       ],
@@ -698,7 +698,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Researchfundingsupport",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Researchfundingsupport",
       "http://purl.org/dc/terms/title": [
         "Research funding support "
       ],
@@ -713,7 +713,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-eHealthportal",
+      "@id": "http://example.org/nifo/publicservice/Sweden-eHealthportal",
       "http://purl.org/dc/terms/title": [
         "eHealth portal"
       ],
@@ -728,7 +728,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Medicalcostsreimbursementordirectsettlement",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Medicalcostsreimbursementordirectsettlement",
       "http://purl.org/dc/terms/title": [
         "Medical costs (reimbursement or direct settlement)"
       ],
@@ -743,7 +743,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Healthrelatedservicesinteractiveadviceontheavailabilityofservicesindifferenthospitalsappointmentsforhospitals",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Healthrelatedservicesinteractiveadviceontheavailabilityofservicesindifferenthospitalsappointmentsforhospitals",
       "http://purl.org/dc/terms/title": [
         "Health related services (interactive advice on the availability of services in different hospitals; appointments for hospitals)"
       ],
@@ -758,7 +758,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Healthcareabroad",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Healthcareabroad",
       "http://purl.org/dc/terms/title": [
         "Healthcare abroad"
       ],
@@ -773,7 +773,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Childallowances",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Childallowances",
       "http://purl.org/dc/terms/title": [
         "Child allowances"
       ],
@@ -788,7 +788,7 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/-Digitalhelpguideafterlosingarelative",
+      "@id": "http://example.org/nifo/publicservice/Sweden-Digitalhelpguideafterlosingarelative",
       "http://purl.org/dc/terms/title": [
         "Digital help guide after losing a relative"
       ],
