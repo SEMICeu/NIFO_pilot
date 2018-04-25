@@ -1,6 +1,7 @@
 {
   "@context": {
     "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
     "dbo": "http://dbpedia.org/ontology/",
     "dbp": "http://dbpedia.org/property/",
     "qb": "http://purl.org/linked-data/cube#",
@@ -11,14 +12,19 @@
     "org": "http://www.w3.org/ns/org#",
     "schema": "http://schema.org/",
     "rdfa": "http://www.w3.org/ns/rdfa#",
-    "@base": "http://example.com"
+    "@base": "http://data.europa.eu/nifo/factsheet/"
   },
   "@graph": [
     {
       "@id": "http://data.europa.eu/nifo/factsheet/Cyprus",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
       "http://purl.org/dc/terms/relation": [
         {
-          "@id": "http://dbpedia.org/page/Cyprus"
+          "@id": "http://dbpedia.org/resource/Cyprus"
         },
         {
           "@id": "http://example.org/nifo/dataset/GenericIndicatorsCyprus"
@@ -31,6 +37,15 @@
         },
         {
           "@id": "http://ec.europa.eu/newsroom/dae/document.cfm?doc_id=48586"
+        },
+        {
+          "@id": "http://example.org/nifo/person/HarrisGeorgiades"
+        },
+        {
+          "@id": "http://example.org/nifo/person/MariosDemetriades"
+        },
+        {
+          "@id": "http://example.org/nifo/person/KaterinaPericleous"
         }
       ],
       "http://purl.org/dc/terms/issued": [
@@ -78,42 +93,6 @@
         "Harris Georgiades",
         "Marios Demetriades",
         "Katerina Pericleous"
-      ],
-      "http://www.w3.org/ns/org#holds": [
-        {
-          "@id": "#Post-MinisterofFinance"
-        },
-        {
-          "@id": "#Post-MinisterofTransport,CommunicationsandWorks"
-        },
-        {
-          "@id": "#Post-ActingDirector,DepartmentofInformationTechnologyServices(DITS)"
-        }
-      ],
-      "http://schema.org/contactPoint": [
-        "Ministry of FinanceCorner M. Karaoli and G. Afxentiou Streets1439 NicosiaTel.: +357 226010104Fax: +357 22602723E-mail: minister@mof.gov.cySource: http://www.mof.gov.cy/ ",
-        "Ministry of Transport, Communications and WorksAcheon 28 1424 NicosiaTel.: +357 22800102Fax: +357 22776265E-mail: minister@mcw.gov.cy Source: http://www.mcw.gov.cy",
-        "Ministry of FinanceDepartment of Information Technology Services1446 NicosiaTel.: +357 22601352Fax: +357 22 60 27 45E-mail: director@dits.mof.gov.cySource: http://www.mof.gov.cy/dits"
-      ],
-      "http://schema.org/telephone": [
-        "Tel.: +357 226010104",
-        "Tel.: +357 22800102",
-        "Tel.: +357 22601352"
-      ],
-      "http://schema.org/faxNumber": [
-        "Fax: +357 22602723",
-        "Fax: +357 22776265",
-        "Fax: +357 22 60 27 45"
-      ],
-      "http://schema.org/email": [
-        "E-mail: minister@mof.gov.cy",
-        "E-mail: minister@mcw.gov.cy ",
-        "E-mail: director@dits.mof.gov.cy"
-      ],
-      "http://schema.org/url": [
-        "Source: http://www.mof.gov.cy/ ",
-        "Source: http://www.mcw.gov.cy",
-        "Source: http://www.mof.gov.cy/dits"
       ]
     },
     {
@@ -286,6 +265,87 @@
       ]
     },
     {
+      "@id": "http://www.kypros.org/Constitution/English/",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Constitution of the Republic of Cyprus"
+      ]
+    },
+    {
+      "@id": "http://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/697e70c0046f7759c2256e8c004a0a49/f8e24ef90a27f34fc2256eb4002854e7/$FILE/138(I)-2001_en.pdf",
+      "http://data.europa.eu/eli/ontology#title": [
+        "The Processing of Personal Data (Protection of Individuals) Law (2001"
+      ]
+    },
+    {
+      "@id": "http://www.cylaw.org/nomoi/indexes/2004_1_156.html",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Certain Legal Aspects of Information Society Services, in particular Electronic Commerce and Associated Matters (2004) and its amendment in 2007"
+      ]
+    },
+    {
+      "@id": "https://www.centralbank.gov.cy/media/pdf/Electronic_Money_Law_2012_Unofficial_translation.pdf",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Electronic Money (2012)"
+      ]
+    },
+    {
+      "@id": "http://www.kysoa.org.cy/kysoa/userfiles/file/nomothesies/odigies/pdf/peri rithmiseons ilektronikon epikoinonion nomos.pdf",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Regulation of Electronic Communications and Postal Services (2004"
+      ]
+    },
+    {
+      "@id": "http://www.treasury.gov.cy/treasury/publicpro/ppro.nsf/All/3F8A2994619FD7F3C2257742001F08A3/$file/Law 12(I) of 2006 FINAL.doc?OpenElement",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Coordination of Procedures for the Award of Public Works Contracts, Public Supply Contracts and Public Service Contracts and Related Matters (2006)"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055",
+      "http://data.europa.eu/eli/ontology#title": [
+        "European Directive 2014/55/EU"
+      ]
+    },
+    {
+      "@id": "http://www.cylaw.org/nomoi/arith/2006_1_132.pdf",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law Establishing Rules Governing the Re-use of Existing Information Held by Public Sector Bodies (2015)"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive (EU) 2016/2102 of the European Parliament and of the Council 26 October 2016 on the Accessibility of the Websites and Mobile Applications of Public Sector Bodies"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/HarrisGeorgiades",
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-MinisterofFinance"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/2902"
+        }
+      ],
+      "http://schema.org/telephone": [
+        "Tel.: +357 226010104"
+      ],
+      "http://schema.org/faxNumber": [
+        "Fax: +357 22602723"
+      ],
+      "http://schema.org/email": [
+        "E-mail: minister@mof.gov.cy"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "http://www.mof.gov.cy/mof/mof.nsf/page12_en/page12_en?OpenDocument"
+        }
+      ]
+    },
+    {
       "@id": "http://example.org/nifo/post/Post-MinisterofFinance",
       "http://www.w3.org/ns/org#role": [
         {
@@ -297,6 +357,31 @@
       "@id": "http://example.org/nifo/role/Role-MinisterofFinance",
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Minister of Finance"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/MariosDemetriades",
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-MinisterofTransport,CommunicationsandWorks"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/1250"
+        }
+      ],
+      "http://schema.org/telephone": [
+        "Tel.: +357 22800102"
+      ],
+      "http://schema.org/faxNumber": [
+        "Fax: +357 22776265"
+      ],
+      "http://schema.org/email": [
+        "E-mail: minister@mcw.gov.cy "
+      ],
+      "http://schema.org/url": [
+        "Source: http://www.mcw.gov.cy"
       ]
     },
     {
@@ -314,6 +399,33 @@
       ]
     },
     {
+      "@id": "http://example.org/nifo/person/KaterinaPericleous",
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-ActingDirector,DepartmentofInformationTechnologyServices(DITS)"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/6920"
+        }
+      ],
+      "http://schema.org/telephone": [
+        "Tel.: +357 22601352"
+      ],
+      "http://schema.org/faxNumber": [
+        "Fax: +357 22 60 27 45"
+      ],
+      "http://schema.org/email": [
+        "E-mail: director@dits.mof.gov.cy"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "http://www.mof.gov.cy/mof/dits/dits.nsf/index_gr/index_gr?opendocument"
+        }
+      ]
+    },
+    {
       "@id": "http://example.org/nifo/post/Post-ActingDirector,DepartmentofInformationTechnologyServices(DITS)",
       "http://www.w3.org/ns/org#role": [
         {
@@ -328,10 +440,18 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Passport",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Passport",
       "http://purl.org/dc/terms/title": [
         "Passport",
         "Passport"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Ministry of the Interior, Civil Registry and Migration Department",
@@ -347,9 +467,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-VATrefundsandexciseduties",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/VATrefundsandexciseduties",
       "http://purl.org/dc/terms/title": [
         "VAT refunds and excise duties"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Ministry of Finance (Department of Customs and Tax Department)"
@@ -362,9 +487,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Jobsearchservicesbylabouroffices",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Jobsearchservicesbylabouroffices",
       "http://purl.org/dc/terms/title": [
         "Job search services by labour offices"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Ministry of Labour, Welfare and Social Insurance, Department of Labour"
@@ -377,9 +507,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Legalinformationsysteminclinformationontheregulatedprofessions",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Legalinformationsysteminclinformationontheregulatedprofessions",
       "http://purl.org/dc/terms/title": [
         "Legal information system (incl. information on the regulated professions)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Several stakeholders"
@@ -392,9 +527,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Incometaxesdeclarationnotificationofassessment",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Incometaxesdeclarationnotificationofassessment",
       "http://purl.org/dc/terms/title": [
         "Income taxes: declaration, notification of assessment"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Ministry of Finance, Tax Department"
@@ -407,9 +547,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-UnemploymentbenefitsStandardproceduretoobtainreplacementincomeincaseofunemployment",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/UnemploymentbenefitsStandardproceduretoobtainreplacementincomeincaseofunemployment",
       "http://purl.org/dc/terms/title": [
         "Unemployment benefits (Standard procedure to obtain replacement income in case of unemployment)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Ministry of Welfare, Labour and Social Insurance, Social Insurance Department"
@@ -422,9 +567,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Driverslicence",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Driverslicence",
       "http://purl.org/dc/terms/title": [
         "Driver’s licence"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Ministry of Transport, Communications and Works, Road Transport Department"
@@ -437,9 +587,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Thirdpartyinsurance",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Thirdpartyinsurance",
       "http://purl.org/dc/terms/title": [
         "Third-party insurance "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Road Transport Department"
@@ -452,9 +607,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Carregistrationnewusedimportedcars",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Carregistrationnewusedimportedcars",
       "http://purl.org/dc/terms/title": [
         "Car registration (new, used, imported cars)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Ministry of Transport, Communications and Work, Department of Road Transport"
@@ -467,9 +627,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Announcementofmovingchangeofaddress",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Announcementofmovingchangeofaddress",
       "http://purl.org/dc/terms/title": [
         "Announcement of moving (change of address)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Ministry of Interior, Civil Registry and Migration Department"
@@ -482,10 +647,18 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Certificatesbirthmarriagerequestanddelivery",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Certificatesbirthmarriagerequestanddelivery",
       "http://purl.org/dc/terms/title": [
         "Certificates (birth, marriage): request and delivery",
         "Certificates (birth, marriage): request and delivery"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Ministry of the Interior, Civil Registry and Migration Department, Municipalities",
@@ -501,9 +674,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-CriminalRecordCertificate",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/CriminalRecordCertificate",
       "http://purl.org/dc/terms/title": [
         "Criminal Record Certificate"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Cyprus Police"
@@ -516,9 +694,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Declarationtothepoliceegincaseoftheft",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Declarationtothepoliceegincaseoftheft",
       "http://purl.org/dc/terms/title": [
         "Declaration to the police (e.g. in case of theft)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Cyprus Police"
@@ -531,9 +714,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Housingbuildingandhousingenvironment",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Housingbuildingandhousingenvironment",
       "http://purl.org/dc/terms/title": [
         "Housing (building and housing, environment)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Ministry of the Interior, Town Planning and Housing Department, Municipalities"
@@ -546,9 +734,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Proceduresrelatingtoimmovableproperty",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Proceduresrelatingtoimmovableproperty",
       "http://purl.org/dc/terms/title": [
         "Procedures relating to immovable property"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Departments of Land and Surveys, Ministry of Interior"
@@ -561,9 +754,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Participationinelections",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Participationinelections",
       "http://purl.org/dc/terms/title": [
         "Participation in elections"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Ministry of Interior, Central Election Service"
@@ -576,9 +774,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Enrolmentinhighereducationuniversity",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Enrolmentinhighereducationuniversity",
       "http://purl.org/dc/terms/title": [
         "Enrolment in higher education/university"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, higher education institutions"
@@ -591,10 +794,18 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Publiclibrariesavailabilityofcataloguessearchtools",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Publiclibrariesavailabilityofcataloguessearchtools",
       "http://purl.org/dc/terms/title": [
         "Public libraries (availability of catalogues, search tools)",
         "Public libraries (availability of catalogues, search tools)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Local Government",
@@ -610,9 +821,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Studentgrants",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Studentgrants",
       "http://purl.org/dc/terms/title": [
         "Student grants"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Ministry of Welfare, Labour and Social Insurance."
@@ -625,9 +841,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-VoluntarysocialinvolvementI",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/VoluntarysocialinvolvementI",
       "http://purl.org/dc/terms/title": [
         "Voluntary social involvement I"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Office of the Commissioner on Volunteerism and NGOs "
@@ -640,9 +861,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-VoluntarysocialinvolvementII",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/VoluntarysocialinvolvementII",
       "http://purl.org/dc/terms/title": [
         "Voluntary social involvement II"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Youth Board of Cyprus"
@@ -655,9 +881,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-YouthVolunteerTeam",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/YouthVolunteerTeam",
       "http://purl.org/dc/terms/title": [
         " “Youth Volunteer Team”, "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Researchers"
@@ -670,9 +901,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Informationandassistancetoresearchers",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Informationandassistancetoresearchers",
       "http://purl.org/dc/terms/title": [
         "Information and assistance to researchers"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "EURAXESS Cyprus"
@@ -685,9 +921,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-ResearchfundingsupportResearchPromotionFoundationRPFcurrentlyNA",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/ResearchfundingsupportResearchPromotionFoundationRPFcurrentlyNA",
       "http://purl.org/dc/terms/title": [
         "Research funding support Research Promotion Foundation (RPF) (currently N/A)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Research Promotion Foundation (RPF)"
@@ -700,9 +941,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Healthrelatedservicesinteractiveadviceontheavailabilityofservicesindifferenthospitalsappointmentsforhospitals",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Healthrelatedservicesinteractiveadviceontheavailabilityofservicesindifferenthospitalsappointmentsforhospitals",
       "http://purl.org/dc/terms/title": [
         "Health related services (interactive advice on the availability of services in different hospitals; appointments for hospitals)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Ministry of Health"
@@ -715,9 +961,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Medicalcostsreimbursementordirectsettlement",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Medicalcostsreimbursementordirectsettlement",
       "http://purl.org/dc/terms/title": [
         "Medical costs (reimbursement or direct settlement)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Ministry of Health"
@@ -730,9 +981,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Childallowances",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Childallowances",
       "http://purl.org/dc/terms/title": [
         "Child allowances"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Ministry of Welfare, Labour and Social Insurance."
@@ -745,9 +1001,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Consumerprotection",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Consumerprotection",
       "http://purl.org/dc/terms/title": [
         "Consumer protection"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Competition and Consumer Protection Service, Ministry of Energy, Commerce, Industry and Tourism, Cyprus Consumers' Union and Quality of Life"
@@ -760,9 +1021,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Telecommunicationservicecomparisontool",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Telecommunicationservicecomparisontool",
       "http://purl.org/dc/terms/title": [
         "Telecommunication service comparison tool"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Office of Electronic Communications & Postal Regulations (OCECPR)"
@@ -775,9 +1041,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Cyprus-Livingfacilitiesandenergy",
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Livingfacilitiesandenergy",
       "http://purl.org/dc/terms/title": [
         "Living facilities and energy "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Cyprus"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Electricity Authority of Cyprus"

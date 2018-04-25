@@ -1,6 +1,7 @@
 {
   "@context": {
     "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
     "dbo": "http://dbpedia.org/ontology/",
     "dbp": "http://dbpedia.org/property/",
     "qb": "http://purl.org/linked-data/cube#",
@@ -11,14 +12,19 @@
     "org": "http://www.w3.org/ns/org#",
     "schema": "http://schema.org/",
     "rdfa": "http://www.w3.org/ns/rdfa#",
-    "@base": "http://example.com"
+    "@base": "http://data.europa.eu/nifo/factsheet/"
   },
   "@graph": [
     {
       "@id": "http://data.europa.eu/nifo/factsheet/Sweden",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
       "http://purl.org/dc/terms/relation": [
         {
-          "@id": "http://dbpedia.org/page/Sweden"
+          "@id": "http://dbpedia.org/resource/Sweden"
         },
         {
           "@id": "http://example.org/nifo/dataset/GenericIndicatorsSweden"
@@ -31,6 +37,15 @@
         },
         {
           "@id": "http://ec.europa.eu/newsroom/dae/document.cfm?doc_id=48586"
+        },
+        {
+          "@id": "http://example.org/nifo/person/ArdalanShekarabi"
+        },
+        {
+          "@id": "http://example.org/nifo/person/MikaelDamberg"
+        },
+        {
+          "@id": "http://example.org/nifo/person/PeterEriksson"
         }
       ],
       "http://purl.org/dc/terms/issued": [
@@ -78,37 +93,6 @@
         "Ardalan Shekarabi",
         "Mikael Damberg",
         "Peter Eriksson"
-      ],
-      "http://www.w3.org/ns/org#holds": [
-        {
-          "@id": "#Post-MinisterforPublicAdministration"
-        },
-        {
-          "@id": "#Post-MinisterforEnterpriseandInnovation"
-        },
-        {
-          "@id": "#Post-MinisterforHousingandDigitalDevelopment"
-        }
-      ],
-      "http://schema.org/contactPoint": [
-        "Ministry of FinanceRosenbad 4, SE 103 33 StockholmTel.: +46 84 05 10 00Contact: N/ASource: http://www.government.se/",
-        "Ministry for Enterprise and InnovationRosenbad 4, SE 103 33 StockholmTel.: +46 84 05 10 00Contact: ann.wolgers@regeringskansliet.se (press secretary)Source: http://www.government.se/ ",
-        "Ministry of Enterprise and InnovationRosenbad 4, SE 103 33 StockholmTel.: +46 8 405 10 00Contact: N/ASource: http://www.government.se/"
-      ],
-      "http://schema.org/telephone": [
-        "Tel.: +46 84 05 10 00",
-        "Tel.: +46 84 05 10 00",
-        "Tel.: +46 8 405 10 00"
-      ],
-      "http://schema.org/email": [
-        "Contact: N/A",
-        "Contact: ann.wolgers@regeringskansliet.se (press secretary)",
-        "Contact: N/A"
-      ],
-      "http://schema.org/url": [
-        "Source: http://www.government.se/",
-        "Source: http://www.government.se/ ",
-        "Source: http://www.government.se/"
       ]
     },
     {
@@ -284,6 +268,90 @@
       ]
     },
     {
+      "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/forvaltningslag-2017900_sfs-2017-900",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Administrative Procedure Act (Förvaltningslag)"
+      ]
+    },
+    {
+      "@id": "http://www.regeringen.se/sb/d/11386/a/141034",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Public Access to Information and Secrecy Act (2009:400)"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679",
+      "http://data.europa.eu/eli/ontology#title": [
+        "General Data Protection Regulation"
+      ]
+    },
+    {
+      "@id": "http://www.datainspektionen.se/in-english/legislation/The-Personal-Data-Act/",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Personal Data Act (1998)"
+      ]
+    },
+    {
+      "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2013311-om-valfrihetssystem-i-fraga-om_sfs-2013-311",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Electoral Systems for Electronic Identification Services (2013)"
+      ]
+    },
+    {
+      "@id": "http://www.notisum.se/rnp/SLS/LAG/20000832.HTM",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Qualified Electronic Signature (2001)"
+      ]
+    },
+    {
+      "@id": "http://www.notisum.se/rnp/SLS/LAG/20020562.HTM",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Electronic Commerce and other Information Society Services (2002)"
+      ]
+    },
+    {
+      "@id": "http://www.wipo.int/wipolex/en/details.jsp?id=10718",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Electronic Communications Act (2003)"
+      ]
+    },
+    {
+      "@id": "http://www.notisum.se/rnp/sls/lag/20071091.HTM",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Public Procurement (LOU) (2016)"
+      ]
+    },
+    {
+      "@id": "http://www.notisum.se/rnp/sls/lag/20100566.htm",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on the Re-use of Public Administration Documents (2010)"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/ArdalanShekarabi",
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-MinisterforPublicAdministration"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/3089"
+        }
+      ],
+      "http://schema.org/telephone": [
+        "Tel.: +46 84 05 10 00"
+      ],
+      "http://schema.org/email": [
+        "Contact: N/A"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "http://www.government.se/government-of-sweden/ministry-of-finance/ardalan-shekarabi/"
+        }
+      ]
+    },
+    {
       "@id": "http://example.org/nifo/post/Post-MinisterforPublicAdministration",
       "http://www.w3.org/ns/org#role": [
         {
@@ -295,6 +363,30 @@
       "@id": "http://example.org/nifo/role/Role-MinisterforPublicAdministration",
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Minister for Public Administration "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/MikaelDamberg",
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-MinisterforEnterpriseandInnovation"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/4885"
+        }
+      ],
+      "http://schema.org/telephone": [
+        "Tel.: +46 84 05 10 00"
+      ],
+      "http://schema.org/email": [
+        "Contact: ann.wolgers@regeringskansliet.se (press secretary)"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "http://www.government.se/government-of-sweden/ministry-of-enterprise-and-innovation/mikael-damberg/"
+        }
       ]
     },
     {
@@ -312,6 +404,30 @@
       ]
     },
     {
+      "@id": "http://example.org/nifo/person/PeterEriksson",
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-MinisterforHousingandDigitalDevelopment"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/4889"
+        }
+      ],
+      "http://schema.org/telephone": [
+        "Tel.: +46 8 405 10 00"
+      ],
+      "http://schema.org/email": [
+        "Contact: N/A"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "http://www.government.se/government-of-sweden/ministry-of-enterprise-and-innovation/mehmet-kaplan/"
+        }
+      ]
+    },
+    {
       "@id": "http://example.org/nifo/post/Post-MinisterforHousingandDigitalDevelopment",
       "http://www.w3.org/ns/org#role": [
         {
@@ -326,10 +442,18 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Passport",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Passport",
       "http://purl.org/dc/terms/title": [
         "Passport",
         "Passport"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, National Police Board",
@@ -345,9 +469,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-VATrefundsandexciseduties",
+      "@id": "http://example.org/nifo/publicservice/Sweden/VATrefundsandexciseduties",
       "http://purl.org/dc/terms/title": [
         "VAT refunds and excise duties"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Ministry of Finance"
@@ -360,9 +489,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Jobsearchservicesbylabouroffices",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Jobsearchservicesbylabouroffices",
       "http://purl.org/dc/terms/title": [
         "Job search services by labour offices"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Swedish Employment Agency"
@@ -375,9 +509,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-WorkinSwedenportal",
+      "@id": "http://example.org/nifo/publicservice/Sweden/WorkinSwedenportal",
       "http://purl.org/dc/terms/title": [
         "‘Work in Sweden’ portal "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Swedish Institute"
@@ -390,9 +529,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Workingabroad",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Workingabroad",
       "http://purl.org/dc/terms/title": [
         "Working abroad "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Swedish Migration Agency"
@@ -405,9 +549,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Informationontheregulatedprofessions",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Informationontheregulatedprofessions",
       "http://purl.org/dc/terms/title": [
         "Information on the regulated professions"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Swedish Council for Higher Education"
@@ -420,9 +569,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Incometaxesdeclarationnotificationofassessment",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Incometaxesdeclarationnotificationofassessment",
       "http://purl.org/dc/terms/title": [
         "Income taxes: declaration, notification of assessment"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Swedish Tax Agency"
@@ -435,9 +589,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Unemploymentbenefits",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Unemploymentbenefits",
       "http://purl.org/dc/terms/title": [
         "Unemployment benefits"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Unemployment Insurance Funds"
@@ -450,9 +609,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Repayment",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Repayment",
       "http://purl.org/dc/terms/title": [
         "Re-payment"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Swedish Social Insurance Agency"
@@ -465,9 +629,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Driverslicence",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Driverslicence",
       "http://purl.org/dc/terms/title": [
         "Driver’s licence"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Swedish Road Administration"
@@ -480,9 +649,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Thirdpartyinsurance",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Thirdpartyinsurance",
       "http://purl.org/dc/terms/title": [
         "Third-party insurance "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Swedish Motor Insurers (Trafikförsäkringsföreningen)"
@@ -495,9 +669,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Carregistrationnewusedimportedcars",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Carregistrationnewusedimportedcars",
       "http://purl.org/dc/terms/title": [
         "Car registration (new, used, imported cars)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Swedish Transport Agency"
@@ -510,9 +689,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Announcementofmovingchangeofaddress",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Announcementofmovingchangeofaddress",
       "http://purl.org/dc/terms/title": [
         "Announcement of moving (change of address)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Posten (Swedish Postal Agency)"
@@ -525,10 +709,18 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Certificatesbirthmarriagerequestanddelivery",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Certificatesbirthmarriagerequestanddelivery",
       "http://purl.org/dc/terms/title": [
         "Certificates (birth, marriage): request and delivery",
         "Certificates (birth, marriage): request and delivery"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Swedish Tax Agency",
@@ -544,9 +736,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-CriminalRecordCertificate",
+      "@id": "http://example.org/nifo/publicservice/Sweden/CriminalRecordCertificate",
       "http://purl.org/dc/terms/title": [
         "Criminal Record Certificate"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Swedish National Police Authority"
@@ -559,9 +756,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Declarationtothepoliceegincaseoftheft",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Declarationtothepoliceegincaseoftheft",
       "http://purl.org/dc/terms/title": [
         "Declaration to the police (e.g. in case of theft)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, National Police Board"
@@ -574,9 +776,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Housingbuildingandhousingenvironment",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Housingbuildingandhousingenvironment",
       "http://purl.org/dc/terms/title": [
         "Housing (building and housing, environment)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Local Government"
@@ -589,9 +796,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Waste",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Waste",
       "http://purl.org/dc/terms/title": [
         "Waste"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Swedish Environmental Research Institute"
@@ -604,9 +816,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Participationinelections",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Participationinelections",
       "http://purl.org/dc/terms/title": [
         "Participation in elections"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Swedish Election Authority"
@@ -619,9 +836,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Enrolmentinhighereducationuniversity",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Enrolmentinhighereducationuniversity",
       "http://purl.org/dc/terms/title": [
         "Enrolment in higher education/university"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Swedish Council for Higher Education (UHR)"
@@ -634,10 +856,18 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Publiclibrariesavailabilityofcataloguessearchtools",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Publiclibrariesavailabilityofcataloguessearchtools",
       "http://purl.org/dc/terms/title": [
         "Public libraries (availability of catalogues, search tools)",
         "Public libraries (availability of catalogues, search tools)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government/Local Government",
@@ -653,9 +883,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Studentgrants",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Studentgrants",
       "http://purl.org/dc/terms/title": [
         "Student grants"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Central Government, Swedish National Board of Student Aid"
@@ -668,9 +903,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Internshipsinclsummerinternships",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Internshipsinclsummerinternships",
       "http://purl.org/dc/terms/title": [
         "Internships (incl. summer internships)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Swedish Institute "
@@ -683,9 +923,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Informationandassistancetoresearchers",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Informationandassistancetoresearchers",
       "http://purl.org/dc/terms/title": [
         "Information and assistance to researchers"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "EURAXESS Sweden"
@@ -698,9 +943,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Researchfundingsupport",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Researchfundingsupport",
       "http://purl.org/dc/terms/title": [
         "Research funding support "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "EURAXESS Sweden"
@@ -713,9 +963,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-eHealthportal",
+      "@id": "http://example.org/nifo/publicservice/Sweden/eHealthportal",
       "http://purl.org/dc/terms/title": [
         "eHealth portal"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "eHälsomyndigheten (Swedish eHealth Agency)"
@@ -728,9 +983,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Medicalcostsreimbursementordirectsettlement",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Medicalcostsreimbursementordirectsettlement",
       "http://purl.org/dc/terms/title": [
         "Medical costs (reimbursement or direct settlement)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Swedish Social Insurance Agency"
@@ -743,9 +1003,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Healthrelatedservicesinteractiveadviceontheavailabilityofservicesindifferenthospitalsappointmentsforhospitals",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Healthrelatedservicesinteractiveadviceontheavailabilityofservicesindifferenthospitalsappointmentsforhospitals",
       "http://purl.org/dc/terms/title": [
         "Health related services (interactive advice on the availability of services in different hospitals; appointments for hospitals)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Local Government"
@@ -758,9 +1023,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Healthcareabroad",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Healthcareabroad",
       "http://purl.org/dc/terms/title": [
         "Healthcare abroad"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Swedish Social Insurance Agency"
@@ -773,9 +1043,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Childallowances",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Childallowances",
       "http://purl.org/dc/terms/title": [
         "Child allowances"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Swedish Social Insurance Agency"
@@ -788,9 +1063,14 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/publicservice/Sweden-Digitalhelpguideafterlosingarelative",
+      "@id": "http://example.org/nifo/publicservice/Sweden/Digitalhelpguideafterlosingarelative",
       "http://purl.org/dc/terms/title": [
         "Digital help guide after losing a relative"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Sweden"
+        }
       ],
       "http://data.europa.eu/m8g/hasCompetentAuthority": [
         "Swedish Pension Agency, Swedish Tax Agency and Social Insurance"

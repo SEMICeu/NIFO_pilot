@@ -15,9 +15,10 @@
         "post" : "http://example.org/nifo/post/Post-",
         "person" : "http://example.org/nifo/person/",
         "service" : "http://example.org/nifo/publicservice/",
-        "country" : "http://publications.europa.eu/resource/authority/country/"
+        "country" : "http://publications.europa.eu/resource/authority/country/",
+        "contact" : "http://example.org/ContactPoint/"
     },
-    "prefixes" : "dct: http://purl.org/dc/terms/ dbo: http://dbpedia.org/ontology/ dbp: http://dbpedia.org/property/ qb: http://purl.org/linked-data/cube# rdfs: http://www.w3.org/2000/01/rdf-schema# cpsv: http://purl.org/vocab/cpsv# eli: http://data.europa.eu/eli/ontology# foaf: http://xmlns.com/foaf/0.1/ org: http://www.w3.org/ns/org# schema: http://schema.org/",
+    "prefixes" : "dct: http://purl.org/dc/terms/ dcmi: http://purl.org/dc/dcmitype/ dbo: http://dbpedia.org/ontology/ dbp: http://dbpedia.org/property/ qb: http://purl.org/linked-data/cube# rdfs: http://www.w3.org/2000/01/rdf-schema# cpsv: http://purl.org/vocab/cpsv# eli: http://data.europa.eu/eli/ontology# foaf: http://xmlns.com/foaf/0.1/ org: http://www.w3.org/ns/org# schema: http://schema.org/",
     "prop" : {
         "issued" : "dct:issued",
         "licence" : "dct:license",
@@ -31,6 +32,7 @@
         "source" : "dct:source",
         "leader" : "dbo:leader",
         "title" : "dct:title",
+        "ELItitle" : "eli:title",
         "label" : "rdfs:label",
         "component" : "qb:component",
         "structure" : "qb:structure",
@@ -58,7 +60,8 @@
         "person" : "foaf:Person",
         "role" : "org:Role",
         "post" : "org:Post",
-        "contact": "schema:ContactPoint"
+        "contact": "schema:ContactPoint",
+        "collection": "dcmi:Collection"
     },
     "text_identifier" : {
         "currency" : "Currency: ",

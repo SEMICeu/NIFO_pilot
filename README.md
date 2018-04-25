@@ -14,11 +14,22 @@ The objective of this pilot is to develop a reusable proof of concept, to conver
 
 ## Requirements and dependencies
 
-* NodeJS v4.4 or above
-* Cheerio.js v1.0.0
-* Mammoth.js v1.4.4
+This pilot requires [Node JS](https://nodejs.org/en/download/) v8.10.0 or above, along with the following packages:
+
+* cheerio v1.0.0-rc.2
+* cli-progress v1.8.0
+* graph-rdfa-processor v1.3.0
+* jsdom v11.9.0
+* jsesc v2.5.1
+* jsonld-request v0.2.0
+* ldtr v0.2.3
+* mammoth v1.4.4
+* prepend v1.0.2
 * rdf-translator v2.0.0
+* rdfa-parser v1.0.1
+* request v2.85.0
 * sparql v0.1.3
+* sync-request v6.0.0
 
 ## Architecture
 

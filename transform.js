@@ -96,7 +96,6 @@ input.forEach(function (fileName) {
         label
 
     //Determine country
-    console.log("File name:"+fileName);
     for(var i = 0; i < countries.length; i++){
         if(fileName.indexOf(countries[i]) >= 0){
             country = config['prefix']['nifo']+countries[i];
@@ -106,7 +105,7 @@ input.forEach(function (fileName) {
 
     //Add root node and namespaces to document
     $('body').contents().wrapAll('<div resource="'+country+'" prefix="'+config['prefixes']+'"></div>');
-    $('body').children('div').first().children('p').first().before('<span property="'+config['prop']['relation']+'" href="http://dbpedia.org/resource/'+countryLabel+'"></span><span property="'+config['prop']['issued']+'" content="'+config['issued']+'"></span><span property="'+config['prop']['licence']+'" content="'+config['licence']+'"></span><span property="'+config['prop']['country']+'" content="'+config['prefix']['country']+countryCodes[countryLabel]+'"></span>');
+    $('body').children('div').first().children('p').first().before('<span property="'+config['prop']['ispartof']+'" href="'+config['prefix']['factsheets']+'"><span property="'+config['prop']['relation']+'" href="http://dbpedia.org/resource/'+countryLabel+'"></span><span property="'+config['prop']['issued']+'" content="'+config['issued']+'"></span><span property="'+config['prop']['licence']+'" content="'+config['licence']+'"></span><span property="'+config['prop']['country']+'" content="'+config['prefix']['country']+countryCodes[countryLabel]+'"></span>');
 
     /*=================*/
     /*Annotate document*/
@@ -247,27 +246,33 @@ input.forEach(function (fileName) {
                         $(this).attr('property', config['prop']['relation']);
                         var linkURI = encodeURI($(this).attr('href'));
                         $(this).attr('href', linkURI);
+                        $(this).after('<span resource="'+linkURI+'" property="'+config['prop']['ELItitle']+'" content="'+$(this).text()+'"></span>')
                     }
                 });
                 $(this).parentsUntil('table').parents().nextUntil('table').add($(this).closest('table')).wrapAll('<div resource="'+config['prefix']['legalframework']+countryLabel+'" typeOf="'+config['class']['framework']+'"></div>');
                 break;
             case "National eGovernment":
+                var personURI;
                 $(this).nextUntil(config['section_header'], 'table').each(function (index, elem) {
                     $(this).attr('typeOf', config['class']['person']);
+                    $(this).attr('property', config['prop']['relation']);
+                    $(this).attr('href', country);
                     $(this).find('p').each(function (index, elem) {
                         //Annotate contact points
                         switch(index){                            
                             case 1:
                                 //Full name
+                                personURI = config['prefix']['person']+$(this).text().replace(/ /g,'');
                                 $(this).attr("property", config['prop']['name']);
-                                $(this).parents("table").attr("resource", config['prefix']['person']+$(this).text().replace(/ /g,''))
+                                $(this).parents("table").attr("resource", personURI)
                                 break;
                             case 2:
                                 //Role
                                 var role = $(this).text();
                                 var childNode = $(this).children('strong').first();
+                                $(this).attr("about", personURI);
                                 $(this).attr("property", config['prop']['holds']);
-                                $(this).attr("href", "#Post-"+role.replace(/ /g,''));
+                                $(this).attr("href", config['prefix']['post']+role.replace(/ /g,''));
                                 childNode.attr("about", config['prefix']['role']+role.replace(/ /g,''));
                                 childNode.attr("typeOf", config['class']['role']);
                                 childNode.attr("property", config['prop']['label']);
@@ -282,13 +287,15 @@ input.forEach(function (fileName) {
                              $(this).attr("property", config['prop']['email']);
                         } else if($(this).text().indexOf("Source:") >= 0) {
                             $(this).attr("property", config['prop']['url']);
+                            $(this).attr("href", $(this).children('a').first().attr('href'));
                         }
                     });
                     $(this).find('p').each(function (index, elem) {
                         switch(index){    
                             case 3:
                             //Contact details wrapper
-                            $(this).nextAll().wrapAll('<div property="'+config['prop']['contact']+'" typeOf="'+config['class']['contact']+'"></div>');
+                            var blankNode = config['prefix']['contact']+Math.floor((Math.random() * 10000) + 1);
+                            $(this).nextAll().wrapAll('<div about="'+personURI+'" property="'+config['prop']['contact']+'" href="'+blankNode+'"><div resource="'+blankNode+'" typeOf="'+config['class']['contact']+'"></div></div>');
                             break; 
                         }
                     });
@@ -297,21 +304,24 @@ input.forEach(function (fileName) {
             case "eGovernment Services for Citizens":
                 $(this).parentsUntil('table').parents().nextAll('table').first().find('p > strong').each(function(index, element){
                     var publicService = $(this).text();
-                    $(this).attr("about", config['prefix']['service']+countryLabel+"-"+publicService.replace(/[^\w]/g,''));
-                    $(this).attr("type0f", config['class']['publicservice']);
+                    var publicServiceURI = config['prefix']['service']+countryLabel+"/"+publicService.replace(/[^\w]/g,'');
+                    $(this).attr("about", publicServiceURI);
+                    $(this).attr("typeOf", config['class']['publicservice']);
                     $(this).attr("property", config['prop']['title']);
+                    $(this).after('<span about="'+publicServiceURI+'" property="'+config['prop']['relation']+'" href="'+country+'"></span>')
                     $(this).parentsUntil('table').nextAll('tr').each(function(index, element){
                         switch(index){
                             case 0:
-                                $(this).find('p').last().attr("about", config['prefix']['service']+countryLabel+"-"+publicService.replace(/[^\w]/g,''));
+                                $(this).find('p').last().attr("about", publicServiceURI);
                                 $(this).find('p').last().attr("property", config['prop']['competent']);
                                 break;
                             case 1:
-                                $(this).find('p').last().attr("about", config['prefix']['service']+countryLabel+"-"+publicService.replace(/[^\w]/g,''));
+                                $(this).find('p').last().attr("about", publicServiceURI);
                                 $(this).find('p').last().attr("property", config['prop']['url']);
+                                $(this).find('p').last().attr("href", $(this).children('a').first().attr('href'));
                                 break;
                             case 2:
-                                $(this).find('p').last().parent().attr("about", config['prefix']['service']+countryLabel+"-"+publicService.replace(/[^\w]/g,''));
+                                $(this).find('p').last().parent().attr("about", publicServiceURI);
                                 $(this).find('p').last().parent().attr("property", config['prop']['description']);
                                 break;
                         }
@@ -334,7 +344,6 @@ input.forEach(function (fileName) {
                 that.remove();
             } else {
                 link2 = encodeURI(link.replace(/\\/g,"/"));
-                //console.log(link2);
                 that.attr('href', link2);
             }
         } else {
@@ -346,19 +355,19 @@ input.forEach(function (fileName) {
         if (err) {
             return console.log(err);
         }
-        console.log("The RDFa file was saved!");
+        console.log("The "+countryLabel+" RDFa file was saved!");
     });
 
     //Save the file in Turtle syntax
     const { JSDOM } = jsdom;
-    const { document } = new JSDOM(unescape($.html())).window;
+    const { document } = new JSDOM($.html()).window;
     let opts = {baseURI: config['prefix']['nifo']};
     let graph = getRdfaGraph(document, opts);
     fs.writeFile(outputPathRDF + "/" + output[0] + ".ttl", graph.toString() , function (err) {
         if (err) {
             return console.log(err);
         }
-        console.log("The Turtle file was saved!");
+        console.log("The "+countryLabel+" Turtle file was saved!");
     });
 
     //Save the file in JSON-LD syntax
@@ -371,7 +380,7 @@ input.forEach(function (fileName) {
         if (err) {
             return console.log(err);
         }
-        console.log("The JSON-LD file was saved!");
+        console.log("The "+countryLabel+" JSON-LD file was saved!");
     });
 
     bar1.increment(100);
