@@ -107,7 +107,7 @@ input.forEach(function (fileName) {
     //$('body').wrapAll('html');
     //Add namespaces to document
     $('body').contents().wrapAll('<div resource="'+country+'" prefix="'+config['prefixes']+'"></div>');
-    $('body').children('div').first().children('p').first().before('<span property="'+config['prop']['relation']+'" href="http://dbpedia.org/page/'+countryLabel+'"></span><span property="'+config['prop']['issued']+'" content="'+config['issued']+'"></span><span property="'+config['prop']['licence']+'" content="'+config['licence']+'"></span><span property="'+config['prop']['country']+'" content="'+config['prefix']['country']+countryCodes[countryLabel]+'"></span>');
+    $('body').children('div').first().children('p').first().before('<span property="'+config['prop']['ispartof']+'" href="'+config['prefix']['factsheets']+'"></span><span property="'+config['prop']['relation']+'" href="http://dbpedia.org/page/'+countryLabel+'"></span><span property="'+config['prop']['issued']+'" content="'+config['issued']+'"></span><span property="'+config['prop']['licence']+'" content="'+config['licence']+'"></span><span property="'+config['prop']['country']+'" content="'+config['prefix']['country']+countryCodes[countryLabel]+'"></span>');
 
     /*=================*/
     /*Annotate document*/
