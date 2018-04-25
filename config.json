@@ -5,6 +5,7 @@
     "subsection_header" : "h2",
     "prefix": {
         "nifo" : "http://data.europa.eu/nifo/factsheet/",
+        "factsheets" : "http://data.europa.eu/nifo/factsheets/",
         "currency": "http://publications.europa.eu/resource/authority/currency/",
         "measure" : "http://example.org/nifo/MeasureProperty/",
         "datastructure" : "http://example.org/nifo/structure/",
@@ -44,7 +45,8 @@
         "description" : "dct:description",
         "competent" : "http://data.europa.eu/m8g/hasCompetentAuthority",
         "role" : "org:role",
-        "country" : "dct:spatial"
+        "country" : "dct:spatial",
+        "ispartof" : "dct:isPartOf"
     },
     "class" : {
         "measure" : "qb:MeasureProperty",
