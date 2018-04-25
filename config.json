@@ -12,6 +12,7 @@
         "legalframework" : "http://example.org/nifo/legalframework/",
         "role" : "http://example.org/nifo/role/Role-",
         "post" : "http://example.org/nifo/post/Post-",
+        "person" : "http://example.org/nifo/person/",
         "service" : "http://example.org/nifo/publicservice/",
         "country" : "http://publications.europa.eu/resource/authority/country/"
     },
@@ -51,6 +52,7 @@
         "dataset" : "qb:DataSet",
         "framework": "cpsv:FormalFramework",
         "legalresource": "eli:LegalResource",
+        "publicservice": "cpsv:PublicService",
         "person" : "foaf:Person",
         "role" : "org:Role",
         "post" : "org:Post",

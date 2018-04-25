@@ -24,7 +24,7 @@ var config = require('./config.json');
 var args = process.argv.slice(2);
 var filePath = 'output';
 var outputPath = 'rdfa';
-var outputPathJSONLD = 'jsonld';
+var outputPathRDF = 'rdf';
 var input = fs.readdirSync(filePath).filter(function(file) {
     if(file.indexOf(".html")>-1) return file;
 })
@@ -42,36 +42,34 @@ function checkArray(str, arr){
    return false;
 }
 
-    /*===============*/
-    /*Get country NAL*/
-    /*===============*/
+/*===============*/
+/*Get country NAL*/
+/*===============*/
 
-
-    var options = {
-        headers: {
-        'Content-Type':     'application/x-www-form-urlencoded',
-        'Accept':           '*/*',
-        'User-Agent':       'runscope/0.1'
-        }
+var options = {
+    headers: {
+    'Content-Type':     'application/x-www-form-urlencoded',
+    'Accept':           '*/*',
+    'User-Agent':       'runscope/0.1'
     }
+}
 
-    // Start the request
-    var nalbody = request('GET', 'http://publications.europa.eu/mdr/resource/authority/country/html/countries-eng.html', options).getBody();
+// Start the request
+var nalbody = request('GET', 'http://publications.europa.eu/mdr/resource/authority/country/html/countries-eng.html', options).getBody();
 
+$nal = cheerio.load(nalbody, {
+    normalizeWhitespace: true
+});
 
-    $nal = cheerio.load(nalbody, {
-        normalizeWhitespace: true
-    });
-    $nal('#tbl_countries_a tr').each(function(index, element){
-        //console.log($nal(this).children("td:nth-of-type(3)").text() + "---------" + $nal(this).children("td:nth-of-type(1)").text());
-        var country_temp = $nal(this).children("td:nth-of-type(3)").text();
-        if(country_temp.length > 0){
-            countryCodes[country_temp] = $nal(this).children("td:nth-of-type(1)").text();
-            countries.push(country_temp);
-        }
-    });
+$nal('#tbl_countries_a tr').each(function(index, element){
+    var country_temp = $nal(this).children("td:nth-of-type(3)").text();
+    if(country_temp.length > 0){
+        countryCodes[country_temp] = $nal(this).children("td:nth-of-type(1)").text();
+        countries.push(country_temp);
+    }
+});
 
-    bar1.increment(100);
+bar1.increment(100);
 
 /******************************/
 /***CREATE HTML + RDFa*********/
@@ -86,7 +84,7 @@ input.forEach(function (fileName) {
         xmlMode:true
     });
     extendCheerio($);
-    //Define variables
+    //Define additional variables
     var content,
         text,
         country,
@@ -101,15 +99,14 @@ input.forEach(function (fileName) {
     console.log("File name:"+fileName);
     for(var i = 0; i < countries.length; i++){
         if(fileName.indexOf(countries[i]) >= 0){
-            console.log("FOUND:"+countries[i]);
             country = config['prefix']['nifo']+countries[i];
             countryLabel = countries[i];
         }
     }    
-    //$('body').wrapAll('html');
-    //Add namespaces to document
+
+    //Add root node and namespaces to document
     $('body').contents().wrapAll('<div resource="'+country+'" prefix="'+config['prefixes']+'"></div>');
-    $('body').children('div').first().children('p').first().before('<span property="'+config['prop']['relation']+'" href="http://dbpedia.org/page/'+countryLabel+'"></span><span property="'+config['prop']['issued']+'" content="'+config['issued']+'"></span><span property="'+config['prop']['licence']+'" content="'+config['licence']+'"></span><span property="'+config['prop']['country']+'" content="'+config['prefix']['country']+countryCodes[countryLabel]+'"></span>');
+    $('body').children('div').first().children('p').first().before('<span property="'+config['prop']['relation']+'" href="http://dbpedia.org/resource/'+countryLabel+'"></span><span property="'+config['prop']['issued']+'" content="'+config['issued']+'"></span><span property="'+config['prop']['licence']+'" content="'+config['licence']+'"></span><span property="'+config['prop']['country']+'" content="'+config['prefix']['country']+countryCodes[countryLabel]+'"></span>');
 
     /*=================*/
     /*Annotate document*/
@@ -168,16 +165,17 @@ input.forEach(function (fileName) {
                         case 10:
                             //Official EU language
                             /*
-                            var language_uri = [];
-                            language = $(this).text().replace("Official EU language: ", "").split(", ");
+                            //Obtain language URI directly from CELLAR SPARQL Endpoint. Currently not available unless IP address has been whitelisted.
+                            var language_uri;
                             for(var i = 0; i < language.length; i++){
                                 var client = new sparql.Client('http://publications.europa.eu/webapi/rdf/sparql');
                                 client.query('select * where { ?p <http://www.w3.org/2004/02/skos/core#prefLabel> "'+language[i]+'"@en . ?p <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://publications.europa.eu/ontology/cdm#language> } limit 1', function(err, res){
-                                  console.log(res.toString());
+                                  language_uri = res.toString();
                                 });
                             }
                             */
-                            
+
+                            //Obtain language label from text
                             $(this).attr("property", config['prop']['language']);
                             text= $(this).text().replace(/.*: /,'');
                             $(this).attr("content", text);
@@ -262,6 +260,7 @@ input.forEach(function (fileName) {
                             case 1:
                                 //Full name
                                 $(this).attr("property", config['prop']['name']);
+                                $(this).parents("table").attr("resource", config['prefix']['person']+$(this).text().replace(/ /g,''))
                                 break;
                             case 2:
                                 //Role
@@ -299,6 +298,7 @@ input.forEach(function (fileName) {
                 $(this).parentsUntil('table').parents().nextAll('table').first().find('p > strong').each(function(index, element){
                     var publicService = $(this).text();
                     $(this).attr("about", config['prefix']['service']+countryLabel+"-"+publicService.replace(/[^\w]/g,''));
+                    $(this).attr("type0f", config['class']['publicservice']);
                     $(this).attr("property", config['prop']['title']);
                     $(this).parentsUntil('table').nextAll('tr').each(function(index, element){
                         switch(index){
@@ -326,10 +326,6 @@ input.forEach(function (fileName) {
     /* GENERATE OUTPUT */
     /*=================*/
     //Save the RDFa file
-    //$('img').remove();
-    //$('br').remove();
-    //$('head').prepend('<title>NIFO Factsheet</title>');
-    //$('html').attr('lang', 'en');
     $('a').each(function (index, elem) {
         that = $(this);
         link = that.attr('href');
@@ -352,43 +348,32 @@ input.forEach(function (fileName) {
         }
         console.log("The RDFa file was saved!");
     });
-    //prepend(outputPath + "/" + output[0] + ".html", '<!DOCTYPE html>', function(error) {
-    //    if (error)
-    //        console.error(error.message);
-    //});
-    //Save the file in N3 syntax
+
+    //Save the file in Turtle syntax
     const { JSDOM } = jsdom;
     const { document } = new JSDOM(unescape($.html())).window;
-    //console.log(dom);
-    let opts = {baseURI: 'http://example.com'};
+    let opts = {baseURI: config['prefix']['nifo']};
     let graph = getRdfaGraph(document, opts);
-    //console.log(graph.toString());
-    fs.writeFile(outputPathJSONLD + "/" + output[0] + ".ttl", graph.toString() , function (err) {
+    fs.writeFile(outputPathRDF + "/" + output[0] + ".ttl", graph.toString() , function (err) {
         if (err) {
             return console.log(err);
         }
-        console.log("The ttl file was saved!");
+        console.log("The Turtle file was saved!");
     });
-    /*
-    $('body').find('a').each(function (index, elem) {
-        link = encodeURI($(this).attr('href'));
-        link = link.replace(/[^a-zA-Z-0-9-\/]/g,'');
-        $(this).attr('href', link);
-    });
-    let triples = rdfaParser.parseRDFa(unescape($.html()));
-    var triples_output = [];
-    */
-    var baseUri= 'http://example.com';
+
+    //Save the file in JSON-LD syntax
+    var baseUri = config['prefix']['nifo'];
     DOMParser = xmldom.DOMParser;
     var result = rdfaParser.parse(
         new xmldom.DOMParser().parseFromString(unescape($.html()), 'text/xml'),baseUri);
-    //new xmldom.XMLSerializer());
-    fs.writeFile(outputPathJSONLD + "/" + output[0] + ".jsonld", JSON.stringify(result, null, 2), function (err) {
+
+    fs.writeFile(outputPathRDF + "/" + output[0] + ".jsonld", JSON.stringify(result, null, 2), function (err) {
         if (err) {
             return console.log(err);
         }
-        console.log("The N3 file was saved!");
+        console.log("The JSON-LD file was saved!");
     });
+
     bar1.increment(100);
 });
 bar1.stop();
