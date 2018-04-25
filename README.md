@@ -20,6 +20,9 @@ The objective of this pilot is to develop a reusable proof of concept, to conver
 * rdf-translator v2.0.0
 * sparql v0.1.3
 
+## Architecture
+
+![Architecture](doc/NIFO-architecture.jpg?raw=true "Title")
 ## Installation
 
 1. Clone or download this repository.

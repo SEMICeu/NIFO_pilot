@@ -63,7 +63,6 @@ function checkArray(str, arr){
         normalizeWhitespace: true
     });
     $nal('#tbl_countries_a tr').each(function(index, element){
-        //console.log($nal(this).children("td:nth-of-type(3)").text() + "---------" + $nal(this).children("td:nth-of-type(1)").text());
         var country_temp = $nal(this).children("td:nth-of-type(3)").text();
         if(country_temp.length > 0){
             countryCodes[country_temp] = $nal(this).children("td:nth-of-type(1)").text();
@@ -101,7 +100,6 @@ input.forEach(function (fileName) {
     console.log("File name:"+fileName);
     for(var i = 0; i < countries.length; i++){
         if(fileName.indexOf(countries[i]) >= 0){
-            console.log("FOUND:"+countries[i]);
             country = config['prefix']['nifo']+countries[i];
             countryLabel = countries[i];
         }
@@ -357,12 +355,11 @@ input.forEach(function (fileName) {
     //        console.error(error.message);
     //});
     //Save the file in N3 syntax
+    //https://stackoverflow.com/questions/46357864/typeerror-require-jsdom-is-not-a-function#answer-46357999
     const { JSDOM } = jsdom;
     const { document } = new JSDOM(unescape($.html())).window;
-    //console.log(dom);
     let opts = {baseURI: 'http://example.com'};
     let graph = getRdfaGraph(document, opts);
-    //console.log(graph.toString());
     fs.writeFile(outputPathJSONLD + "/" + output[0] + ".ttl", graph.toString() , function (err) {
         if (err) {
             return console.log(err);
