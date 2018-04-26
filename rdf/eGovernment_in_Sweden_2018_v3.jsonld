@@ -336,19 +336,17 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/3089"
+          "@id": "http://example.org/ContactPoint/9256"
         }
       ],
       "http://schema.org/telephone": [
-        "Tel.: +46 84 05 10 00"
+        "+46 84 05 10 00"
       ],
       "http://schema.org/email": [
-        "Contact: N/A"
+        "N/A"
       ],
       "http://schema.org/url": [
-        {
-          "@id": "http://www.government.se/government-of-sweden/ministry-of-finance/ardalan-shekarabi/"
-        }
+        "http://www.government.se/government-of-sweden/ministry-of-finance/ardalan-shekarabi/"
       ]
     },
     {
@@ -374,19 +372,17 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/4885"
+          "@id": "http://example.org/ContactPoint/6318"
         }
       ],
       "http://schema.org/telephone": [
-        "Tel.: +46 84 05 10 00"
+        "+46 84 05 10 00"
       ],
       "http://schema.org/email": [
-        "Contact: ann.wolgers@regeringskansliet.se (press secretary)"
+        "ann.wolgers@regeringskansliet.se (press secretary)"
       ],
       "http://schema.org/url": [
-        {
-          "@id": "http://www.government.se/government-of-sweden/ministry-of-enterprise-and-innovation/mikael-damberg/"
-        }
+        "http://www.government.se/government-of-sweden/ministry-of-enterprise-and-innovation/mikael-damberg/"
       ]
     },
     {
@@ -412,19 +408,17 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/4889"
+          "@id": "http://example.org/ContactPoint/3921"
         }
       ],
       "http://schema.org/telephone": [
-        "Tel.: +46 8 405 10 00"
+        "+46 8 405 10 00"
       ],
       "http://schema.org/email": [
-        "Contact: N/A"
+        "N/A"
       ],
       "http://schema.org/url": [
-        {
-          "@id": "http://www.government.se/government-of-sweden/ministry-of-enterprise-and-innovation/mehmet-kaplan/"
-        }
+        "http://www.government.se/government-of-sweden/ministry-of-enterprise-and-innovation/mehmet-kaplan/"
       ]
     },
     {

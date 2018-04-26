@@ -7,20 +7,21 @@
 var fs = require('fs');
 var path = require("path");
 var mammoth = require('mammoth');
+const _cliProgress = require('cli-progress');
 
 /******************************/
 /***DEFINE VARIABLES***********/
 /******************************/
 
-//var args = process.argv.slice(2);
-//var filePath = args[0];
-//var outputPath = args[1];
-var filePath = 'input';
-var outputPath = 'output';
+console.log("Converting DOCX to HTML");
+const bar1 = new _cliProgress.Bar({}, _cliProgress.Presets.shades_classic);
+var filePath = 'docx';
+var outputPath = 'html';
 var input = fs.readdirSync(filePath);
 var output;
 var imageIndex = 0;
 var fileIndex = 0;
+bar1.start((input.length*100), 0);
 
 var options = {
     styleMap: [
@@ -49,6 +50,7 @@ var options = {
 
 input.forEach(function(fileName){
 	fileIndex++
+    bar1.increment(100);
 	mammoth.convertToHtml({path: filePath+'/'+fileName}, options)
 	    .then(function(result){
 	        var html = result.value; // The generated HTML
@@ -56,7 +58,7 @@ input.forEach(function(fileName){
 			output = fileName.split('.');
 			fs.writeFileSync(outputPath+"/"+output[0]+".html", unescape(html));
 	        fs.writeFileSync('log/'+output[0]+'.log', messages);
-	        console.log("Converted "+fileName);
 	    })
 	    .done();
 });
+bar1.stop();

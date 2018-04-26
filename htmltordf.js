@@ -7,22 +7,21 @@ var fs = require('fs');
 var mammoth = require('mammoth');
 var cheerio = require('cheerio');
 var extendCheerio = require('./wrapAll.js');
-var sparql = require('sparql');
 var request = require('sync-request');
 var getRdfaGraph = require('graph-rdfa-processor');
 var jsdom = require('jsdom');
 const _cliProgress = require('cli-progress');
-var prepend = require('prepend');
 var rdfaParser = require('ldtr/lib/rdfa/parser');
 var xmldom = require('xmldom');
 
 /******************************/
 /***DEFINE VARIABLES***********/
 /******************************/
+console.log("Converting HTML to RDF");
 const bar1 = new _cliProgress.Bar({}, _cliProgress.Presets.shades_classic);
 var config = require('./config.json');
 var args = process.argv.slice(2);
-var filePath = 'output';
+var filePath = 'html';
 var outputPath = 'rdfa';
 var outputPathRDF = 'rdf';
 var input = fs.readdirSync(filePath).filter(function(file) {
@@ -163,16 +162,6 @@ input.forEach(function (fileName) {
                             break;
                         case 10:
                             //Official EU language
-                            /*
-                            //Obtain language URI directly from CELLAR SPARQL Endpoint. Currently not available unless IP address has been whitelisted.
-                            var language_uri;
-                            for(var i = 0; i < language.length; i++){
-                                var client = new sparql.Client('http://publications.europa.eu/webapi/rdf/sparql');
-                                client.query('select * where { ?p <http://www.w3.org/2004/02/skos/core#prefLabel> "'+language[i]+'"@en . ?p <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://publications.europa.eu/ontology/cdm#language> } limit 1', function(err, res){
-                                  language_uri = res.toString();
-                                });
-                            }
-                            */
 
                             //Obtain language label from text
                             $(this).attr("property", config['prop']['language']);
@@ -281,13 +270,16 @@ input.forEach(function (fileName) {
                         }
                         if($(this).text().indexOf("Tel.") >= 0) {
                             $(this).attr("property", config['prop']['telephone']);
+                            $(this).attr("content", $(this).text().replace(/.*: /,''));
                         } else if($(this).text().indexOf("Fax:") >= 0) {
                             $(this).attr("property", config['prop']['fax']);
+                            $(this).attr("content", $(this).text().replace(/.*: /,''));
                         } else if( ($(this).text().indexOf("E-mail:") >= 0) || ($(this).text().indexOf("Contact:") >= 0) ) {
                              $(this).attr("property", config['prop']['email']);
+                            $(this).attr("content", $(this).text().replace(/.*: /,''));
                         } else if($(this).text().indexOf("Source:") >= 0) {
                             $(this).attr("property", config['prop']['url']);
-                            $(this).attr("href", $(this).children('a').first().attr('href'));
+                            $(this).attr("content", $(this).children('a').first().attr('href'));
                         }
                     });
                     $(this).find('p').each(function (index, elem) {
@@ -367,7 +359,7 @@ input.forEach(function (fileName) {
         if (err) {
             return console.log(err);
         }
-        console.log("The "+countryLabel+" Turtle file was saved!");
+        //console.log("The "+countryLabel+" Turtle file was saved!");
     });
 
     //Save the file in JSON-LD syntax
@@ -380,7 +372,7 @@ input.forEach(function (fileName) {
         if (err) {
             return console.log(err);
         }
-        console.log("The "+countryLabel+" JSON-LD file was saved!");
+        //console.log("The "+countryLabel+" JSON-LD file was saved!");
     });
 
     bar1.increment(100);

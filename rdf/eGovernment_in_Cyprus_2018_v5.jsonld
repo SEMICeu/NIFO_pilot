@@ -327,22 +327,20 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/2902"
+          "@id": "http://example.org/ContactPoint/1225"
         }
       ],
       "http://schema.org/telephone": [
-        "Tel.: +357 226010104"
+        "+357 226010104"
       ],
       "http://schema.org/faxNumber": [
-        "Fax: +357 22602723"
+        "+357 22602723"
       ],
       "http://schema.org/email": [
-        "E-mail: minister@mof.gov.cy"
+        "minister@mof.gov.cy"
       ],
       "http://schema.org/url": [
-        {
-          "@id": "http://www.mof.gov.cy/mof/mof.nsf/page12_en/page12_en?OpenDocument"
-        }
+        "http://www.mof.gov.cy/mof/mof.nsf/page12_en/page12_en?OpenDocument"
       ]
     },
     {
@@ -368,17 +366,17 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/1250"
+          "@id": "http://example.org/ContactPoint/5497"
         }
       ],
       "http://schema.org/telephone": [
-        "Tel.: +357 22800102"
+        "+357 22800102"
       ],
       "http://schema.org/faxNumber": [
-        "Fax: +357 22776265"
+        "+357 22776265"
       ],
       "http://schema.org/email": [
-        "E-mail: minister@mcw.gov.cy "
+        "minister@mcw.gov.cy "
       ],
       "http://schema.org/url": [
         "Source: http://www.mcw.gov.cy"
@@ -407,22 +405,20 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/6920"
+          "@id": "http://example.org/ContactPoint/442"
         }
       ],
       "http://schema.org/telephone": [
-        "Tel.: +357 22601352"
+        "+357 22601352"
       ],
       "http://schema.org/faxNumber": [
-        "Fax: +357 22 60 27 45"
+        "+357 22 60 27 45"
       ],
       "http://schema.org/email": [
-        "E-mail: director@dits.mof.gov.cy"
+        "director@dits.mof.gov.cy"
       ],
       "http://schema.org/url": [
-        {
-          "@id": "http://www.mof.gov.cy/mof/dits/dits.nsf/index_gr/index_gr?opendocument"
-        }
+        "http://www.mof.gov.cy/mof/dits/dits.nsf/index_gr/index_gr?opendocument"
       ]
     },
     {

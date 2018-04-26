@@ -24,16 +24,14 @@ This pilot requires [Node JS](https://nodejs.org/en/download/) v8.10.0 or above,
 * jsonld-request v0.2.0
 * ldtr v0.2.3
 * mammoth v1.4.4
-* prepend v1.0.2
 * rdf-translator v2.0.0
 * rdfa-parser v1.0.1
 * request v2.85.0
-* sparql v0.1.3
 * sync-request v6.0.0
 
 ## Architecture
 
-![Architecture](doc/NIFO-architecture.jpg?raw=true "Title")
+![Architecture](assets/NIFO-architecture.jpg?raw=true "Title")
 ## Installation
 
 1. Clone or download this repository.
