@@ -41,12 +41,12 @@ This pilot requires [Node JS](https://nodejs.org/en/download/) v8.10.0 or above,
 
 ### Converting Word documents to HTML
 
-Copy the Word documents (in docx format) that you want to conver to html in the `/input` folder and run `node docxtohtml.js` from the command line.
-All documents in the input folder will be transformed into HTML and stored in the `/output` folder.
+Copy the Word documents (in docx format) that you want to conver to html in the `/docx` folder and run `node docxtohtml.js` from the command line.
+All documents in the input folder will be transformed into HTML and stored in the `/html` folder.
 
 ### Annotating HTML with RDFa
 
-To annotate the HTML files with RDFA, run `node transform.js` from the command line. The annotated HTML documents will be stored in the `/rdfa` folder. Subsequently, these can be copy-pasted into a WYSIWYG text editor, or directly uploaded to a Triple Store.
+To annotate the HTML files with RDFA, run `node htmltordf.js` from the command line. The annotated HTML documents will be stored in the `/rdfa` folder. Subsequently, these can be copy-pasted into a WYSIWYG text editor, or directly uploaded to a Triple Store.
 
 The `config.json` file allows users to customise the transformation script and mappings to existing RDF vocabularies.
 
@@ -138,7 +138,7 @@ The `config.json` file allows users to customise the transformation script and m
 }
 ```
 
-More detailed customisation of the annotations can be achieved by modifying the `transform.js` code that is applied to the relevant section or subsection in the document.
+More detailed customisation of the annotations can be achieved by modifying the `htmltordf.js` code that is applied to the relevant section or subsection in the document.
 The different sections are identified based on their title. To apply the annotations, we refer to the [methods provided by the Cheerio module](https://github.com/cheeriojs/cheerio).
 ```
 switch(content){
