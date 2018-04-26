@@ -69,12 +69,12 @@
 <http://example.org/nifo/person/HarrisGeorgiades> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Harris Georgiades";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofFinance>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/1225> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/1662> .
 <http://example.org/nifo/post/Post-MinisterofFinance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofFinance> .
 <http://example.org/nifo/role/Role-MinisterofFinance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Finance" .
-<http://example.org/ContactPoint/1225> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/1662> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+357 226010104";
  <http://schema.org/faxNumber> "+357 22602723";
  <http://schema.org/email> "minister@mof.gov.cy";
@@ -82,12 +82,12 @@
 <http://example.org/nifo/person/MariosDemetriades> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Marios Demetriades";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofTransport,CommunicationsandWorks>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/5497> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2672> .
 <http://example.org/nifo/post/Post-MinisterofTransport,CommunicationsandWorks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofTransport,CommunicationsandWorks> .
 <http://example.org/nifo/role/Role-MinisterofTransport,CommunicationsandWorks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Transport, Communications and Works" .
-<http://example.org/ContactPoint/5497> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/2672> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+357 22800102";
  <http://schema.org/faxNumber> "+357 22776265";
  <http://schema.org/email> "minister@mcw.gov.cy ";
@@ -95,12 +95,12 @@
 <http://example.org/nifo/person/KaterinaPericleous> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Katerina Pericleous";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-ActingDirector,DepartmentofInformationTechnologyServices(DITS)>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/442> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/1959> .
 <http://example.org/nifo/post/Post-ActingDirector,DepartmentofInformationTechnologyServices(DITS)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-ActingDirector,DepartmentofInformationTechnologyServices(DITS)> .
 <http://example.org/nifo/role/Role-ActingDirector,DepartmentofInformationTechnologyServices(DITS)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Acting Director, Department of Information Technology Services (DITS)" .
-<http://example.org/ContactPoint/442> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/1959> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+357 22601352";
  <http://schema.org/faxNumber> "+357 22 60 27 45";
  <http://schema.org/email> "director@dits.mof.gov.cy";
