@@ -71,36 +71,36 @@
 <http://example.org/nifo/person/ArdalanShekarabi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Ardalan Shekarabi";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterforPublicAdministration>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/9897> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8067> .
 <http://example.org/nifo/post/Post-MinisterforPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterforPublicAdministration> .
 <http://example.org/nifo/role/Role-MinisterforPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister for Public Administration " .
-<http://example.org/ContactPoint/9897> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/8067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+46 84 05 10 00";
  <http://schema.org/email> "N/A";
  <http://schema.org/url> "http://www.government.se/government-of-sweden/ministry-of-finance/ardalan-shekarabi/" .
 <http://example.org/nifo/person/MikaelDamberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Mikael Damberg";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterforEnterpriseandInnovation>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/4498> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/6961> .
 <http://example.org/nifo/post/Post-MinisterforEnterpriseandInnovation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterforEnterpriseandInnovation> .
 <http://example.org/nifo/role/Role-MinisterforEnterpriseandInnovation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister for Enterprise and Innovation" .
-<http://example.org/ContactPoint/4498> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/6961> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+46 84 05 10 00";
  <http://schema.org/email> "ann.wolgers@regeringskansliet.se (press secretary)";
  <http://schema.org/url> "http://www.government.se/government-of-sweden/ministry-of-enterprise-and-innovation/mikael-damberg/" .
 <http://example.org/nifo/person/PeterEriksson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Peter Eriksson";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterforHousingandDigitalDevelopment>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/3437> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/3999> .
 <http://example.org/nifo/post/Post-MinisterforHousingandDigitalDevelopment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterforHousingandDigitalDevelopment> .
 <http://example.org/nifo/role/Role-MinisterforHousingandDigitalDevelopment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister for Housing and Digital Development" .
-<http://example.org/ContactPoint/3437> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/3999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+46 8 405 10 00";
  <http://schema.org/email> "N/A";
  <http://schema.org/url> "http://www.government.se/government-of-sweden/ministry-of-enterprise-and-innovation/mehmet-kaplan/" .

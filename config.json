@@ -73,6 +73,7 @@
         "reg" : "regulation",
         "dir" : "directive",
         "law" : "law",
-        "con" : "constitution"
+        "con" : "constitution",
+        "dec" : "decision"
     }
 }

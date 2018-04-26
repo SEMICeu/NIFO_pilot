@@ -14,7 +14,7 @@ The objective of this pilot is to develop a reusable proof of concept, to conver
 
 ## Requirements and dependencies
 
-This pilot requires [Node JS](https://nodejs.org/en/download/) v8.10.0 or above, along with the following packages:
+This pilot requires [Node JS](https://nodejs.org/en/download/) v8.10.0 or above, and uses the following packages:
 
 * cheerio v1.0.0-rc.2
 * cli-progress v1.8.0
@@ -41,8 +41,10 @@ This pilot requires [Node JS](https://nodejs.org/en/download/) v8.10.0 or above,
 
 ### Converting Word documents to HTML
 
-Copy the Word documents (in docx format) that you want to conver to html in the `/docx` folder and run `node docxtohtml.js` from the command line.
-All documents in the input folder will be transformed into HTML and stored in the `/html` folder.
+Copy the Word documents (in docx format) that you want to convert to html in the `/docx` folder and run `node docxtohtml.js` from the command line.
+All documents in the input folder will be transformed into HTML and stored in the `/html` folder. Any images the Word document may contain will be stored in the `/html/img` folder.
+
+When using a Windows based machine, it is also possible to simply execute the `conver.bat` file from the project's root folder. This will automatically start the Word to HTML and the HTML to RDFa conversion.
 
 ### Annotating HTML with RDFa
 
