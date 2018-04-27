@@ -48,7 +48,8 @@
         "competent" : "http://data.europa.eu/m8g/hasCompetentAuthority",
         "role" : "org:role",
         "country" : "dct:spatial",
-        "ispartof" : "dct:isPartOf"
+        "ispartof" : "dct:isPartOf",
+        "seealso" : "rdfs:seeAlso"
     },
     "class" : {
         "measure" : "qb:MeasureProperty",
