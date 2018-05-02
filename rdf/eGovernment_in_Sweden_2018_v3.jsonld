@@ -11,8 +11,7 @@
     "foaf": "http://xmlns.com/foaf/0.1/",
     "org": "http://www.w3.org/ns/org#",
     "schema": "http://schema.org/",
-    "rdfa": "http://www.w3.org/ns/rdfa#",
-    "@base": "http://data.europa.eu/nifo/factsheet/"
+    "rdfa": "http://www.w3.org/ns/rdfa#"
   },
   "@graph": [
     {
@@ -22,10 +21,21 @@
           "@id": "http://data.europa.eu/nifo/factsheets/"
         }
       ],
-      "http://purl.org/dc/terms/relation": [
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
         {
           "@id": "http://dbpedia.org/resource/Sweden"
-        },
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2018-02"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/SWE"
+      ],
+      "http://purl.org/dc/terms/relation": [
         {
           "@id": "http://example.org/nifo/dataset/GenericIndicatorsSweden"
         },
@@ -47,15 +57,6 @@
         {
           "@id": "http://example.org/nifo/person/PeterEriksson"
         }
-      ],
-      "http://purl.org/dc/terms/issued": [
-        "2018-02"
-      ],
-      "http://purl.org/dc/terms/license": [
-        "https://creativecommons.org/licenses/by/4.0/"
-      ],
-      "http://purl.org/dc/terms/spatial": [
-        "http://publications.europa.eu/resource/authority/country/SWE"
       ],
       "http://dbpedia.org/ontology/populationTotal": [
         "9,995,153 inhabitants (2017)"
@@ -88,15 +89,13 @@
       "http://dbpedia.org/ontology/leader": [
         "http://www.royalcourt.se/royalcourt/theroyalfamily/hmkingcarlxvigustaf.4.396160511584257f218000644.html",
         "http://www.government.se/government-of-sweden/prime-ministers-office/stefan-lofven/"
-      ],
-      "http://xmlns.com/foaf/0.1/name": [
-        "Ardalan Shekarabi",
-        "Mikael Damberg",
-        "Peter Eriksson"
       ]
     },
     {
       "@id": "http://example.org/nifo/dataset/GenericIndicatorsSweden",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataSet"
+      ],
       "http://purl.org/dc/terms/title": [
         "Generic Indicators"
       ],
@@ -111,6 +110,9 @@
     },
     {
       "@id": "http://example.org/nifo/dataset/eGovernmentIndicatorsSweden",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataSet"
+      ],
       "http://purl.org/dc/terms/title": [
         "eGovernment Indicators"
       ],
@@ -125,6 +127,9 @@
     },
     {
       "@id": "http://example.org/nifo/legalframework/Sweden",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
       "http://purl.org/dc/terms/relation": [
         {
           "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/forvaltningslag-2017900_sfs-2017-900"
@@ -160,6 +165,9 @@
     },
     {
       "@id": "http://example.org/nifo/structure/GenericIndicatorsSweden",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
       "http://purl.org/linked-data/cube#component": [
         {
           "@id": "http://example.org/nifo/MeasureProperty/PercentageofhouseholdswithInternetaccessinSweden"
@@ -186,48 +194,72 @@
     },
     {
       "@id": "http://example.org/nifo/MeasureProperty/PercentageofhouseholdswithInternetaccessinSweden",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Percentage of households with Internet access in Sweden"
       ]
     },
     {
       "@id": "http://example.org/nifo/MeasureProperty/PercentageofenterpriseswithInternetaccessinSweden",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Percentage of enterprises with Internet access in Sweden"
       ]
     },
     {
       "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetatleastonceaweekinSweden",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Percentage of individuals using the internet at least once a week in Sweden"
       ]
     },
     {
       "@id": "http://example.org/nifo/MeasureProperty/PercentageofhouseholdswithabroadbandconnectioninSweden",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Percentage of households with a broadband connection in Sweden"
       ]
     },
     {
       "@id": "http://example.org/nifo/MeasureProperty/PercentageofenterpriseswithabroadbandconnectioninSweden",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Percentage of enterprises with a broadband connection in Sweden"
       ]
     },
     {
       "@id": "http://example.org/nifo/MeasureProperty/Percentageofindividualshavingpurchased/orderedonlineinthelastthreemonthsinSweden",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Percentage of individuals having purchased/ordered online in the last three months in Sweden"
       ]
     },
     {
       "@id": "http://example.org/nifo/MeasureProperty/PercentageofenterpriseshavingreceivedordersonlinewithinthepreviousyearinSweden",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Percentage of enterprises having received orders online within the previous year in Sweden"
       ]
     },
     {
       "@id": "http://example.org/nifo/structure/eGovernmentIndicatorsSweden",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
       "http://purl.org/linked-data/cube#component": [
         {
           "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinSweden"
@@ -245,90 +277,138 @@
     },
     {
       "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinSweden",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Percentage of individuals using the internet for interacting with public authorities in Sweden"
       ]
     },
     {
       "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinSweden",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Percentage of individuals using the internet for obtaining information from public authorities in Sweden"
       ]
     },
     {
       "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinSweden",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Percentage of individuals using the internet for downloading official forms from public authorities in Sweden"
       ]
     },
     {
       "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinSweden",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Percentage of individuals using the internet for sending filled forms to public authorities in Sweden"
       ]
     },
     {
       "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/forvaltningslag-2017900_sfs-2017-900",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
       "http://data.europa.eu/eli/ontology#title": [
         "Administrative Procedure Act (Förvaltningslag)"
       ]
     },
     {
       "@id": "http://www.regeringen.se/sb/d/11386/a/141034",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
       "http://data.europa.eu/eli/ontology#title": [
         "Public Access to Information and Secrecy Act (2009:400)"
       ]
     },
     {
       "@id": "http://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
       "http://data.europa.eu/eli/ontology#title": [
         "General Data Protection Regulation"
       ]
     },
     {
       "@id": "http://www.datainspektionen.se/in-english/legislation/The-Personal-Data-Act/",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
       "http://data.europa.eu/eli/ontology#title": [
         "Personal Data Act (1998)"
       ]
     },
     {
       "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2013311-om-valfrihetssystem-i-fraga-om_sfs-2013-311",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
       "http://data.europa.eu/eli/ontology#title": [
         "Law on Electoral Systems for Electronic Identification Services (2013)"
       ]
     },
     {
       "@id": "http://www.notisum.se/rnp/SLS/LAG/20000832.HTM",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
       "http://data.europa.eu/eli/ontology#title": [
         "Act on Qualified Electronic Signature (2001)"
       ]
     },
     {
       "@id": "http://www.notisum.se/rnp/SLS/LAG/20020562.HTM",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
       "http://data.europa.eu/eli/ontology#title": [
         "Act on Electronic Commerce and other Information Society Services (2002)"
       ]
     },
     {
       "@id": "http://www.wipo.int/wipolex/en/details.jsp?id=10718",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
       "http://data.europa.eu/eli/ontology#title": [
         "Electronic Communications Act (2003)"
       ]
     },
     {
       "@id": "http://www.notisum.se/rnp/sls/lag/20071091.HTM",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
       "http://data.europa.eu/eli/ontology#title": [
         "Act on Public Procurement (LOU) (2016)"
       ]
     },
     {
       "@id": "http://www.notisum.se/rnp/sls/lag/20100566.htm",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
       "http://data.europa.eu/eli/ontology#title": [
         "Law on the Re-use of Public Administration Documents (2010)"
       ]
     },
     {
       "@id": "http://example.org/nifo/person/ArdalanShekarabi",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Ardalan Shekarabi"
+      ],
       "http://www.w3.org/ns/org#holds": [
         {
           "@id": "http://example.org/nifo/post/Post-MinisterforPublicAdministration"
@@ -336,8 +416,34 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/8067"
+          "@id": "http://example.org/ContactPoint/913"
         }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-MinisterforPublicAdministration",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-MinisterforPublicAdministration"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-MinisterforPublicAdministration",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Minister for Public Administration "
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/913",
+      "@type": [
+        "http://schema.org/ContactPoint"
       ],
       "http://schema.org/telephone": [
         "+46 84 05 10 00"
@@ -350,21 +456,13 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/post/Post-MinisterforPublicAdministration",
-      "http://www.w3.org/ns/org#role": [
-        {
-          "@id": "http://example.org/nifo/role/Role-MinisterforPublicAdministration"
-        }
-      ]
-    },
-    {
-      "@id": "http://example.org/nifo/role/Role-MinisterforPublicAdministration",
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        "Minister for Public Administration "
-      ]
-    },
-    {
       "@id": "http://example.org/nifo/person/MikaelDamberg",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Mikael Damberg"
+      ],
       "http://www.w3.org/ns/org#holds": [
         {
           "@id": "http://example.org/nifo/post/Post-MinisterforEnterpriseandInnovation"
@@ -372,8 +470,34 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/6961"
+          "@id": "http://example.org/ContactPoint/3014"
         }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-MinisterforEnterpriseandInnovation",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-MinisterforEnterpriseandInnovation"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-MinisterforEnterpriseandInnovation",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Minister for Enterprise and Innovation"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/3014",
+      "@type": [
+        "http://schema.org/ContactPoint"
       ],
       "http://schema.org/telephone": [
         "+46 84 05 10 00"
@@ -386,21 +510,13 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/post/Post-MinisterforEnterpriseandInnovation",
-      "http://www.w3.org/ns/org#role": [
-        {
-          "@id": "http://example.org/nifo/role/Role-MinisterforEnterpriseandInnovation"
-        }
-      ]
-    },
-    {
-      "@id": "http://example.org/nifo/role/Role-MinisterforEnterpriseandInnovation",
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        "Minister for Enterprise and Innovation"
-      ]
-    },
-    {
       "@id": "http://example.org/nifo/person/PeterEriksson",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Peter Eriksson"
+      ],
       "http://www.w3.org/ns/org#holds": [
         {
           "@id": "http://example.org/nifo/post/Post-MinisterforHousingandDigitalDevelopment"
@@ -408,8 +524,34 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/3999"
+          "@id": "http://example.org/ContactPoint/9907"
         }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-MinisterforHousingandDigitalDevelopment",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-MinisterforHousingandDigitalDevelopment"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-MinisterforHousingandDigitalDevelopment",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Minister for Housing and Digital Development"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/9907",
+      "@type": [
+        "http://schema.org/ContactPoint"
       ],
       "http://schema.org/telephone": [
         "+46 8 405 10 00"
@@ -422,21 +564,11 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/post/Post-MinisterforHousingandDigitalDevelopment",
-      "http://www.w3.org/ns/org#role": [
-        {
-          "@id": "http://example.org/nifo/role/Role-MinisterforHousingandDigitalDevelopment"
-        }
-      ]
-    },
-    {
-      "@id": "http://example.org/nifo/role/Role-MinisterforHousingandDigitalDevelopment",
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        "Minister for Housing and Digital Development"
-      ]
-    },
-    {
       "@id": "http://example.org/nifo/publicservice/Sweden/Passport",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Passport",
         "Passport"
@@ -464,6 +596,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/VATrefundsandexciseduties",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "VAT refunds and excise duties"
       ],
@@ -484,6 +619,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Jobsearchservicesbylabouroffices",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Job search services by labour offices"
       ],
@@ -504,6 +642,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/WorkinSwedenportal",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "‘Work in Sweden’ portal "
       ],
@@ -524,6 +665,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Workingabroad",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Working abroad "
       ],
@@ -544,6 +688,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Informationontheregulatedprofessions",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Information on the regulated professions"
       ],
@@ -564,6 +711,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Incometaxesdeclarationnotificationofassessment",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Income taxes: declaration, notification of assessment"
       ],
@@ -584,6 +734,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Unemploymentbenefits",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Unemployment benefits"
       ],
@@ -604,6 +757,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Repayment",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Re-payment"
       ],
@@ -624,6 +780,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Driverslicence",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Driver’s licence"
       ],
@@ -644,6 +803,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Thirdpartyinsurance",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Third-party insurance "
       ],
@@ -664,6 +826,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Carregistrationnewusedimportedcars",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Car registration (new, used, imported cars)"
       ],
@@ -684,6 +849,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Announcementofmovingchangeofaddress",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Announcement of moving (change of address)"
       ],
@@ -704,6 +872,10 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Certificatesbirthmarriagerequestanddelivery",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Certificates (birth, marriage): request and delivery",
         "Certificates (birth, marriage): request and delivery"
@@ -731,6 +903,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/CriminalRecordCertificate",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Criminal Record Certificate"
       ],
@@ -751,6 +926,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Declarationtothepoliceegincaseoftheft",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Declaration to the police (e.g. in case of theft)"
       ],
@@ -771,6 +949,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Housingbuildingandhousingenvironment",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Housing (building and housing, environment)"
       ],
@@ -791,6 +972,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Waste",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Waste"
       ],
@@ -811,6 +995,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Participationinelections",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Participation in elections"
       ],
@@ -831,6 +1018,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Enrolmentinhighereducationuniversity",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Enrolment in higher education/university"
       ],
@@ -851,6 +1041,10 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Publiclibrariesavailabilityofcataloguessearchtools",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Public libraries (availability of catalogues, search tools)",
         "Public libraries (availability of catalogues, search tools)"
@@ -878,6 +1072,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Studentgrants",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Student grants"
       ],
@@ -898,6 +1095,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Internshipsinclsummerinternships",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Internships (incl. summer internships)"
       ],
@@ -918,6 +1118,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Informationandassistancetoresearchers",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Information and assistance to researchers"
       ],
@@ -938,6 +1141,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Researchfundingsupport",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Research funding support "
       ],
@@ -958,6 +1164,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/eHealthportal",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "eHealth portal"
       ],
@@ -978,6 +1187,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Medicalcostsreimbursementordirectsettlement",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Medical costs (reimbursement or direct settlement)"
       ],
@@ -998,6 +1210,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Healthrelatedservicesinteractiveadviceontheavailabilityofservicesindifferenthospitalsappointmentsforhospitals",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Health related services (interactive advice on the availability of services in different hospitals; appointments for hospitals)"
       ],
@@ -1018,6 +1233,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Healthcareabroad",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Healthcare abroad"
       ],
@@ -1038,6 +1256,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Childallowances",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Child allowances"
       ],
@@ -1058,6 +1279,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Sweden/Digitalhelpguideafterlosingarelative",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Digital help guide after losing a relative"
       ],

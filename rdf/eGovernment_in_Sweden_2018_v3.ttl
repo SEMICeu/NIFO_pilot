@@ -1,8 +1,9 @@
 <http://data.europa.eu/nifo/factsheet/Sweden> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
- <http://purl.org/dc/terms/relation> <http://dbpedia.org/resource/Sweden>, <http://example.org/nifo/dataset/GenericIndicatorsSweden>, <http://example.org/nifo/dataset/eGovernmentIndicatorsSweden>, <http://example.org/nifo/legalframework/Sweden>, <http://ec.europa.eu/newsroom/dae/document.cfm?doc_id=48586>, <http://example.org/nifo/person/ArdalanShekarabi>, <http://example.org/nifo/person/MikaelDamberg>, <http://example.org/nifo/person/PeterEriksson>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Sweden>;
  <http://purl.org/dc/terms/issued> "2018-02";
  <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
  <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/SWE";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/dataset/GenericIndicatorsSweden>, <http://example.org/nifo/dataset/eGovernmentIndicatorsSweden>, <http://example.org/nifo/legalframework/Sweden>, <http://ec.europa.eu/newsroom/dae/document.cfm?doc_id=48586>, <http://example.org/nifo/person/ArdalanShekarabi>, <http://example.org/nifo/person/MikaelDamberg>, <http://example.org/nifo/person/PeterEriksson>;
  <http://dbpedia.org/ontology/populationTotal> "9,995,153 inhabitants (2017)";
  <http://dbpedia.org/property/gdpNominal> "465,186.2 million Euros (2016)";
  <http://dbpedia.org/property/gdpPppPerCapita> "123 (2016)";
@@ -71,36 +72,36 @@
 <http://example.org/nifo/person/ArdalanShekarabi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Ardalan Shekarabi";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterforPublicAdministration>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/8067> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/913> .
 <http://example.org/nifo/post/Post-MinisterforPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterforPublicAdministration> .
 <http://example.org/nifo/role/Role-MinisterforPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister for Public Administration " .
-<http://example.org/ContactPoint/8067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/913> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+46 84 05 10 00";
  <http://schema.org/email> "N/A";
  <http://schema.org/url> "http://www.government.se/government-of-sweden/ministry-of-finance/ardalan-shekarabi/" .
 <http://example.org/nifo/person/MikaelDamberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Mikael Damberg";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterforEnterpriseandInnovation>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/6961> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/3014> .
 <http://example.org/nifo/post/Post-MinisterforEnterpriseandInnovation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterforEnterpriseandInnovation> .
 <http://example.org/nifo/role/Role-MinisterforEnterpriseandInnovation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister for Enterprise and Innovation" .
-<http://example.org/ContactPoint/6961> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/3014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+46 84 05 10 00";
  <http://schema.org/email> "ann.wolgers@regeringskansliet.se (press secretary)";
  <http://schema.org/url> "http://www.government.se/government-of-sweden/ministry-of-enterprise-and-innovation/mikael-damberg/" .
 <http://example.org/nifo/person/PeterEriksson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Peter Eriksson";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterforHousingandDigitalDevelopment>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/3999> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/9907> .
 <http://example.org/nifo/post/Post-MinisterforHousingandDigitalDevelopment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterforHousingandDigitalDevelopment> .
 <http://example.org/nifo/role/Role-MinisterforHousingandDigitalDevelopment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister for Housing and Digital Development" .
-<http://example.org/ContactPoint/3999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/9907> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+46 8 405 10 00";
  <http://schema.org/email> "N/A";
  <http://schema.org/url> "http://www.government.se/government-of-sweden/ministry-of-enterprise-and-innovation/mehmet-kaplan/" .

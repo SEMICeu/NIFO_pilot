@@ -11,8 +11,7 @@
     "foaf": "http://xmlns.com/foaf/0.1/",
     "org": "http://www.w3.org/ns/org#",
     "schema": "http://schema.org/",
-    "rdfa": "http://www.w3.org/ns/rdfa#",
-    "@base": "http://data.europa.eu/nifo/factsheet/"
+    "rdfa": "http://www.w3.org/ns/rdfa#"
   },
   "@graph": [
     {
@@ -22,10 +21,21 @@
           "@id": "http://data.europa.eu/nifo/factsheets/"
         }
       ],
-      "http://purl.org/dc/terms/relation": [
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
         {
           "@id": "http://dbpedia.org/resource/Cyprus"
-        },
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2018-02"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/CYP"
+      ],
+      "http://purl.org/dc/terms/relation": [
         {
           "@id": "http://example.org/nifo/dataset/GenericIndicatorsCyprus"
         },
@@ -47,15 +57,6 @@
         {
           "@id": "http://example.org/nifo/person/KaterinaPericleous"
         }
-      ],
-      "http://purl.org/dc/terms/issued": [
-        "2018-02"
-      ],
-      "http://purl.org/dc/terms/license": [
-        "https://creativecommons.org/licenses/by/4.0/"
-      ],
-      "http://purl.org/dc/terms/spatial": [
-        "http://publications.europa.eu/resource/authority/country/CYP"
       ],
       "http://dbpedia.org/ontology/populationTotal": [
         "854,802 inhabitants (2017)"
@@ -88,15 +89,13 @@
       "http://dbpedia.org/ontology/leader": [
         "http://www.presidency.gov.cy/presidency/presidency.nsf/prc01_en/prc01_en?OpenDocument",
         "http://www.presidency.gov.cy/presidency/presidency.nsf/prc01_en/prc01_en?OpenDocument"
-      ],
-      "http://xmlns.com/foaf/0.1/name": [
-        "Harris Georgiades",
-        "Marios Demetriades",
-        "Katerina Pericleous"
       ]
     },
     {
       "@id": "http://example.org/nifo/dataset/GenericIndicatorsCyprus",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataSet"
+      ],
       "http://purl.org/dc/terms/title": [
         "Generic Indicators"
       ],
@@ -111,6 +110,9 @@
     },
     {
       "@id": "http://example.org/nifo/dataset/eGovernmentIndicatorsCyprus",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataSet"
+      ],
       "http://purl.org/dc/terms/title": [
         "eGovernment Indicators"
       ],
@@ -125,6 +127,9 @@
     },
     {
       "@id": "http://example.org/nifo/legalframework/Cyprus",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
       "http://purl.org/dc/terms/relation": [
         {
           "@id": "http://www.kypros.org/Constitution/English/"
@@ -139,10 +144,10 @@
           "@id": "https://www.centralbank.gov.cy/media/pdf/Electronic_Money_Law_2012_Unofficial_translation.pdf"
         },
         {
-          "@id": "http://www.kysoa.org.cy/kysoa/userfiles/file/nomothesies/odigies/pdf/peri%20rithmiseons%20ilektronikon%20epikoinonion%20nomos.pdf"
+          "@id": "http://www.kysoa.org.cy/kysoa/userfiles/file/nomothesies/odigies/pdf/peri%2520rithmiseons%2520ilektronikon%2520epikoinonion%2520nomos.pdf"
         },
         {
-          "@id": "http://www.treasury.gov.cy/treasury/publicpro/ppro.nsf/All/3F8A2994619FD7F3C2257742001F08A3/$file/Law%2012(I)%20of%202006%20FINAL.doc?OpenElement"
+          "@id": "http://www.treasury.gov.cy/treasury/publicpro/ppro.nsf/All/3F8A2994619FD7F3C2257742001F08A3/$file/Law%252012(I)%2520of%25202006%2520FINAL.doc?OpenElement"
         },
         {
           "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055"
@@ -157,6 +162,9 @@
     },
     {
       "@id": "http://example.org/nifo/structure/GenericIndicatorsCyprus",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
       "http://purl.org/linked-data/cube#component": [
         {
           "@id": "http://example.org/nifo/MeasureProperty/PercentageofhouseholdswithInternetaccessinCyprus"
@@ -183,48 +191,72 @@
     },
     {
       "@id": "http://example.org/nifo/MeasureProperty/PercentageofhouseholdswithInternetaccessinCyprus",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Percentage of households with Internet access in Cyprus"
       ]
     },
     {
       "@id": "http://example.org/nifo/MeasureProperty/PercentageofenterpriseswithInternetaccessinCyprus",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Percentage of enterprises with Internet access in Cyprus"
       ]
     },
     {
       "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetatleastonceaweekinCyprus",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Percentage of individuals using the internet at least once a week in Cyprus"
       ]
     },
     {
       "@id": "http://example.org/nifo/MeasureProperty/PercentageofhouseholdswithabroadbandconnectioninCyprus",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Percentage of households with a broadband connection in Cyprus"
       ]
     },
     {
       "@id": "http://example.org/nifo/MeasureProperty/PercentageofenterpriseswithabroadbandconnectioninCyprus",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Percentage of enterprises with a broadband connection in Cyprus"
       ]
     },
     {
       "@id": "http://example.org/nifo/MeasureProperty/Percentageofindividualshavingpurchased/orderedonlineinthelastthreemonthsinCyprus",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Percentage of individuals having purchased/ordered online in the last three months in Cyprus"
       ]
     },
     {
       "@id": "http://example.org/nifo/MeasureProperty/PercentageofenterpriseshavingreceivedordersonlinewithinthepreviousyearinCyprus",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Percentage of enterprises having received orders online within the previous year in Cyprus"
       ]
     },
     {
       "@id": "http://example.org/nifo/structure/eGovernmentIndicatorsCyprus",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
       "http://purl.org/linked-data/cube#component": [
         {
           "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinCyprus"
@@ -242,84 +274,135 @@
     },
     {
       "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinCyprus",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Percentage of individuals using the internet for interacting with public authorities in Cyprus"
       ]
     },
     {
       "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinCyprus",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Percentage of individuals using the internet for obtaining information from public authorities in Cyprus"
       ]
     },
     {
       "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinCyprus",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Percentage of individuals using the internet for downloading official forms from public authorities in Cyprus"
       ]
     },
     {
       "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinCyprus",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         "Percentage of individuals using the internet for sending filled forms to public authorities in Cyprus"
       ]
     },
     {
       "@id": "http://www.kypros.org/Constitution/English/",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
       "http://data.europa.eu/eli/ontology#title": [
         "Constitution of the Republic of Cyprus"
       ]
     },
     {
       "@id": "http://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/697e70c0046f7759c2256e8c004a0a49/f8e24ef90a27f34fc2256eb4002854e7/$FILE/138(I)-2001_en.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
       "http://data.europa.eu/eli/ontology#title": [
         "The Processing of Personal Data (Protection of Individuals) Law (2001"
       ]
     },
     {
       "@id": "http://www.cylaw.org/nomoi/indexes/2004_1_156.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
       "http://data.europa.eu/eli/ontology#title": [
         "Law on Certain Legal Aspects of Information Society Services, in particular Electronic Commerce and Associated Matters (2004) and its amendment in 2007"
       ]
     },
     {
       "@id": "https://www.centralbank.gov.cy/media/pdf/Electronic_Money_Law_2012_Unofficial_translation.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
       "http://data.europa.eu/eli/ontology#title": [
         "Law on Electronic Money (2012)"
       ]
     },
     {
-      "@id": "http://www.kysoa.org.cy/kysoa/userfiles/file/nomothesies/odigies/pdf/peri rithmiseons ilektronikon epikoinonion nomos.pdf",
+      "@id": "http://www.kysoa.org.cy/kysoa/userfiles/file/nomothesies/odigies/pdf/peri%2520rithmiseons%2520ilektronikon%2520epikoinonion%2520nomos.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "http://www.kysoa.org.cy/kysoa/userfiles/file/nomothesies/odigies/pdf/peri%20rithmiseons%20ilektronikon%20epikoinonion%20nomos.pdf",
       "http://data.europa.eu/eli/ontology#title": [
         "Law on Regulation of Electronic Communications and Postal Services (2004"
       ]
     },
     {
-      "@id": "http://www.treasury.gov.cy/treasury/publicpro/ppro.nsf/All/3F8A2994619FD7F3C2257742001F08A3/$file/Law 12(I) of 2006 FINAL.doc?OpenElement",
+      "@id": "http://www.treasury.gov.cy/treasury/publicpro/ppro.nsf/All/3F8A2994619FD7F3C2257742001F08A3/$file/Law%252012(I)%2520of%25202006%2520FINAL.doc?OpenElement",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "http://www.treasury.gov.cy/treasury/publicpro/ppro.nsf/All/3F8A2994619FD7F3C2257742001F08A3/$file/Law%2012(I)%20of%202006%20FINAL.doc?OpenElement",
       "http://data.europa.eu/eli/ontology#title": [
         "Law on Coordination of Procedures for the Award of Public Works Contracts, Public Supply Contracts and Public Service Contracts and Related Matters (2006)"
       ]
     },
     {
       "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
       "http://data.europa.eu/eli/ontology#title": [
         "European Directive 2014/55/EU"
       ]
     },
     {
       "@id": "http://www.cylaw.org/nomoi/arith/2006_1_132.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
       "http://data.europa.eu/eli/ontology#title": [
         "Law Establishing Rules Governing the Re-use of Existing Information Held by Public Sector Bodies (2015)"
       ]
     },
     {
       "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
       "http://data.europa.eu/eli/ontology#title": [
         "Directive (EU) 2016/2102 of the European Parliament and of the Council 26 October 2016 on the Accessibility of the Websites and Mobile Applications of Public Sector Bodies"
       ]
     },
     {
       "@id": "http://example.org/nifo/person/HarrisGeorgiades",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Harris Georgiades"
+      ],
       "http://www.w3.org/ns/org#holds": [
         {
           "@id": "http://example.org/nifo/post/Post-MinisterofFinance"
@@ -327,8 +410,34 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/159"
+          "@id": "http://example.org/ContactPoint/7601"
         }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-MinisterofFinance",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-MinisterofFinance"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-MinisterofFinance",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Minister of Finance"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/7601",
+      "@type": [
+        "http://schema.org/ContactPoint"
       ],
       "http://schema.org/telephone": [
         "+357 226010104"
@@ -344,21 +453,13 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/post/Post-MinisterofFinance",
-      "http://www.w3.org/ns/org#role": [
-        {
-          "@id": "http://example.org/nifo/role/Role-MinisterofFinance"
-        }
-      ]
-    },
-    {
-      "@id": "http://example.org/nifo/role/Role-MinisterofFinance",
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        "Minister of Finance"
-      ]
-    },
-    {
       "@id": "http://example.org/nifo/person/MariosDemetriades",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Marios Demetriades"
+      ],
       "http://www.w3.org/ns/org#holds": [
         {
           "@id": "http://example.org/nifo/post/Post-MinisterofTransport,CommunicationsandWorks"
@@ -366,8 +467,34 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/3090"
+          "@id": "http://example.org/ContactPoint/3573"
         }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-MinisterofTransport,CommunicationsandWorks",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-MinisterofTransport,CommunicationsandWorks"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-MinisterofTransport,CommunicationsandWorks",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Minister of Transport, Communications and Works"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/3573",
+      "@type": [
+        "http://schema.org/ContactPoint"
       ],
       "http://schema.org/telephone": [
         "+357 22800102"
@@ -383,21 +510,13 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/post/Post-MinisterofTransport,CommunicationsandWorks",
-      "http://www.w3.org/ns/org#role": [
-        {
-          "@id": "http://example.org/nifo/role/Role-MinisterofTransport,CommunicationsandWorks"
-        }
-      ]
-    },
-    {
-      "@id": "http://example.org/nifo/role/Role-MinisterofTransport,CommunicationsandWorks",
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        "Minister of Transport, Communications and Works"
-      ]
-    },
-    {
       "@id": "http://example.org/nifo/person/KaterinaPericleous",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Katerina Pericleous"
+      ],
       "http://www.w3.org/ns/org#holds": [
         {
           "@id": "http://example.org/nifo/post/Post-ActingDirector,DepartmentofInformationTechnologyServices(DITS)"
@@ -405,8 +524,34 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/8154"
+          "@id": "http://example.org/ContactPoint/4056"
         }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-ActingDirector,DepartmentofInformationTechnologyServices(DITS)",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-ActingDirector,DepartmentofInformationTechnologyServices(DITS)"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-ActingDirector,DepartmentofInformationTechnologyServices(DITS)",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Acting Director, Department of Information Technology Services (DITS)"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/4056",
+      "@type": [
+        "http://schema.org/ContactPoint"
       ],
       "http://schema.org/telephone": [
         "+357 22601352"
@@ -422,21 +567,11 @@
       ]
     },
     {
-      "@id": "http://example.org/nifo/post/Post-ActingDirector,DepartmentofInformationTechnologyServices(DITS)",
-      "http://www.w3.org/ns/org#role": [
-        {
-          "@id": "http://example.org/nifo/role/Role-ActingDirector,DepartmentofInformationTechnologyServices(DITS)"
-        }
-      ]
-    },
-    {
-      "@id": "http://example.org/nifo/role/Role-ActingDirector,DepartmentofInformationTechnologyServices(DITS)",
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        "Acting Director, Department of Information Technology Services (DITS)"
-      ]
-    },
-    {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Passport",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Passport",
         "Passport"
@@ -464,6 +599,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/VATrefundsandexciseduties",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "VAT refunds and excise duties"
       ],
@@ -484,6 +622,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Jobsearchservicesbylabouroffices",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Job search services by labour offices"
       ],
@@ -504,6 +645,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Legalinformationsysteminclinformationontheregulatedprofessions",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Legal information system (incl. information on the regulated professions)"
       ],
@@ -524,6 +668,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Incometaxesdeclarationnotificationofassessment",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Income taxes: declaration, notification of assessment"
       ],
@@ -544,6 +691,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/UnemploymentbenefitsStandardproceduretoobtainreplacementincomeincaseofunemployment",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Unemployment benefits (Standard procedure to obtain replacement income in case of unemployment)"
       ],
@@ -564,6 +714,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Driverslicence",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Driver’s licence"
       ],
@@ -584,6 +737,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Thirdpartyinsurance",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Third-party insurance "
       ],
@@ -604,6 +760,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Carregistrationnewusedimportedcars",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Car registration (new, used, imported cars)"
       ],
@@ -624,6 +783,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Announcementofmovingchangeofaddress",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Announcement of moving (change of address)"
       ],
@@ -644,6 +806,10 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Certificatesbirthmarriagerequestanddelivery",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Certificates (birth, marriage): request and delivery",
         "Certificates (birth, marriage): request and delivery"
@@ -671,6 +837,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/CriminalRecordCertificate",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Criminal Record Certificate"
       ],
@@ -691,6 +860,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Declarationtothepoliceegincaseoftheft",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Declaration to the police (e.g. in case of theft)"
       ],
@@ -711,6 +883,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Housingbuildingandhousingenvironment",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Housing (building and housing, environment)"
       ],
@@ -731,6 +906,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Proceduresrelatingtoimmovableproperty",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Procedures relating to immovable property"
       ],
@@ -751,6 +929,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Participationinelections",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Participation in elections"
       ],
@@ -771,6 +952,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Enrolmentinhighereducationuniversity",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Enrolment in higher education/university"
       ],
@@ -791,6 +975,10 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Publiclibrariesavailabilityofcataloguessearchtools",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Public libraries (availability of catalogues, search tools)",
         "Public libraries (availability of catalogues, search tools)"
@@ -818,6 +1006,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Studentgrants",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Student grants"
       ],
@@ -838,6 +1029,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/VoluntarysocialinvolvementI",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Voluntary social involvement I"
       ],
@@ -858,6 +1052,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/VoluntarysocialinvolvementII",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Voluntary social involvement II"
       ],
@@ -878,6 +1075,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/YouthVolunteerTeam",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         " “Youth Volunteer Team”, "
       ],
@@ -898,6 +1098,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Informationandassistancetoresearchers",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Information and assistance to researchers"
       ],
@@ -918,6 +1121,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/ResearchfundingsupportResearchPromotionFoundationRPFcurrentlyNA",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Research funding support Research Promotion Foundation (RPF) (currently N/A)"
       ],
@@ -938,6 +1144,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Healthrelatedservicesinteractiveadviceontheavailabilityofservicesindifferenthospitalsappointmentsforhospitals",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Health related services (interactive advice on the availability of services in different hospitals; appointments for hospitals)"
       ],
@@ -958,6 +1167,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Medicalcostsreimbursementordirectsettlement",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Medical costs (reimbursement or direct settlement)"
       ],
@@ -978,6 +1190,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Childallowances",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Child allowances"
       ],
@@ -998,6 +1213,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Consumerprotection",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Consumer protection"
       ],
@@ -1018,6 +1236,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Telecommunicationservicecomparisontool",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Telecommunication service comparison tool"
       ],
@@ -1038,6 +1259,9 @@
     },
     {
       "@id": "http://example.org/nifo/publicservice/Cyprus/Livingfacilitiesandenergy",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
       "http://purl.org/dc/terms/title": [
         "Living facilities and energy "
       ],

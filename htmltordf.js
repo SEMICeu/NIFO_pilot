@@ -12,7 +12,7 @@ var getRdfaGraph = require('graph-rdfa-processor');
 var jsdom = require('jsdom');
 const _cliProgress = require('cli-progress');
 var rdfaParser = require('ldtr/lib/rdfa/parser');
-var xmldom = require('xmldom');
+//var xmldom = require('xmldom');
 
 /******************************/
 /***DEFINE VARIABLES***********/
@@ -364,10 +364,10 @@ input.forEach(function (fileName) {
 
     //Save the file in JSON-LD syntax
     var baseUri = config['prefix']['nifo'];
-    DOMParser = xmldom.DOMParser;
-    var result = rdfaParser.parse(
-        new xmldom.DOMParser().parseFromString(unescape($.html()), 'text/xml'),baseUri);
-
+    //DOMParser = xmldom.DOMParser;
+    //var result = rdfaParser.parse(
+    //    new xmldom.DOMParser().parseFromString(unescape($.html()), 'text/xml'),baseUri);
+    var result   = rdfaParser.parse((new JSDOM($.html(), {url: baseUri})).window.document);
     fs.writeFile(outputPathRDF + "/" + output[0] + ".jsonld", JSON.stringify(result, null, 2), function (err) {
         if (err) {
             return console.log(err);
