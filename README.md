@@ -44,11 +44,13 @@ This pilot requires [Node JS](https://nodejs.org/en/download/) v8.10.0 or above,
 Copy the Word documents (in docx format) that you want to convert to html in the `/docx` folder and run `node docxtohtml.js` from the command line.
 All documents in the input folder will be transformed into HTML and stored in the `/html` folder. Any images the Word document may contain will be stored in the `/html/img` folder.
 
-When using a Windows based machine, it is also possible to simply execute the `conver.bat` file from the project's root folder. This will automatically start the Word to HTML and the HTML to RDFa conversion.
+When using a Windows based machine, it is also possible to simply execute the `convert.bat` file from the project's root folder. This will automatically start the Word to HTML and the HTML to RDFa+RDF conversion.
 
-### Annotating HTML with RDFa
+### Annotating HTML with RDFa and converting to RDF
 
-To annotate the HTML files with RDFA, run `node htmltordf.js` from the command line. The annotated HTML documents will be stored in the `/rdfa` folder. Subsequently, these can be copy-pasted into a WYSIWYG text editor, or directly uploaded to a Triple Store.
+To annotate the HTML files with RDFa run `node htmltordf.js` from the command line. The annotated HTML documents will be stored in the `/rdfa` folder. Subsequently, these can be copy-pasted into a WYSIWYG text editor, or directly uploaded to a Triple Store.
+
+The documents are then converted in RDF (JSON-LD and Turtle) and stored in the `/rdf` folder.
 
 The `config.json` file allows users to customise the transformation script and mappings to existing RDF vocabularies.
 
