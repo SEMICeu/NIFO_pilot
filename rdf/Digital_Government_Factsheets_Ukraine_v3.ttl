@@ -1,0 +1,5 @@
+<http://data.europa.eu/nifo/factsheet/undefined> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/undefined>;
+ <http://purl.org/dc/terms/issued> "2018-02";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/undefined" .
