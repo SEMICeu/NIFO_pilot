@@ -2,4 +2,12 @@
  <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/undefined>;
  <http://purl.org/dc/terms/issued> "2018-02";
  <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
- <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/undefined" .
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/undefined";
+ <http://dbpedia.org/ontology/populationTotal> "42 122 657 (2019)";
+ <http://dbpedia.org/property/gdpNominal> "UAH 1 048 023 (2019)";
+ <http://dbpedia.org/property/gdpPppPerCapita> "";
+ <http://dbpedia.org/ontology/areaTotal> "603 628 km2";
+ <http://dbpedia.org/ontology/capital> "Kyiv";
+ <http://purl.org/dc/terms/language> "Ukrainian";
+ <http://dbpedia.org/ontology/currency> <http://publications.europa.eu/resource/authority/currency/UAH>;
+ <http://purl.org/dc/terms/source> <https://digiplace.sharepoint.com/sites/WAB-EUROPEANCOMMISSION-ABCIVNIFOFOLLOWUP-OFR17-59354/Documents%2520partages/D05.03%2520Digital%2520government%2520factsheets%25202019/Country%2520Progress/Ukraine/ukrstat.org/en> .

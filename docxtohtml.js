@@ -27,7 +27,10 @@ var options = {
     styleMap: [
     	"h1 => h1.title",
         "p[style-name='HEAD 1'] => h1",
-        "p[style-name='HEAD 2'] => h2"
+        "p[style-name='HEAD 2'] => h2",
+        "p[style-name='Caption'] => h2.caption",
+        "p[style-name='HEAD 3'] => h3",
+        "p[style-name='Subtitle'] => p.subtitle"
     ],
     convertImage: mammoth.images.imgElement(function(element) {
         imageIndex++;
