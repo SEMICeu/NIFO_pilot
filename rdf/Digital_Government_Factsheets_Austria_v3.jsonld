@@ -34,6 +34,43 @@
       ],
       "http://purl.org/dc/terms/spatial": [
         "http://publications.europa.eu/resource/authority/country/undefined"
+      ],
+      "http://dbpedia.org/ontology/populationTotal": [
+        "8,822,267 inhabitants (2018)"
+      ],
+      "http://dbpedia.org/property/gdpNominal": [
+        "386,093.8 million Euros (2018)"
+      ],
+      "http://dbpedia.org/property/gdpPppPerCapita": [
+        "127 (2017)"
+      ],
+      "http://dbpedia.org/ontology/areaTotal": [
+        "83.9 km2"
+      ],
+      "http://dbpedia.org/ontology/capital": [
+        "Vienna"
+      ],
+      "http://purl.org/dc/terms/language": [
+        "German"
+      ],
+      "http://dbpedia.org/ontology/currency": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/currency/Euro"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://ec.europa.eu/eurostat/data/database"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/undefined"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/undefined"
+        },
+        {
+          "@id": "https://ec.europa.eu/digital-single-market/en/news/egovernment-benchmark-2018-digital-efforts-european-countries-are-visibly-paying"
+        }
       ]
     }
   ]

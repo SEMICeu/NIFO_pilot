@@ -105,220 +105,118 @@ input.forEach(function (fileName) {
     //Add root node and namespaces to document
     $('body').contents().wrapAll('<div resource="'+country+'" prefix="'+config['prefixes']+'"></div>');
     $('body').children('div').first().children('p').first().before('<span property="'+config['prop']['ispartof']+'" href="'+config['prefix']['factsheets']+'"><span property="'+config['prop']['seealso']+'" href="http://dbpedia.org/resource/'+countryLabel+'"></span><span property="'+config['prop']['issued']+'" content="'+config['issued']+'"></span><span property="'+config['prop']['licence']+'" content="'+config['licence']+'"></span><span property="'+config['prop']['country']+'" content="'+config['prefix']['country']+countryCodes[countryLabel]+'"></span>');
+    //$( "p:contains('ISA')" ).css("color", "red");#00b0f0
+    //$( "p:contains('ISA')" ).remove();
+    // $( "h3" ).each(function(index, element){
+    //     if($(this).hasClass("subtitle")) {
+    //         $(this).css("color", "#00b0f0");
+    //     } else {
+    //         $(this).css("color", "#0070c0");
+    //     }
+    // });
 
+    $( "p.subtitle" ).each(function(index, element){
+        $(this).css("color", "#00b0f0");
+        $(this).css("font-size", "18px");
+    });
+
+    $( "img" ).each(function(index, element){
+        var oldSrc = $(this).attr('src');
+        console.log('oldsrc', oldSrc);
+        $(this).attr('src', '../html/' + oldSrc);
+    });
+    
+    
+    //$( ".subtitle" ).css("color", "#00b0f0");
     /*=================*/
     /*Annotate document*/
     /*=================*/
     $(config['section_header']).each(function (index, elem) {
         content = $(this).text().trim();
+        //console.log("content==>", content);
         switch(content){
-            case "Basic Data":
+            case "Country Profile":
                 $(this).nextUntil('h1').each(function (index, elem) {
-                    switch(index){
-                        case 0:
-                            //Population
-                            $(this).attr("property", config['prop']['population']);
-                            text= $(this).text().replace(/.*: /,'');
-                            $(this).attr("content", text);
-                            break;
-                        case 1:
-                            //GDP at market prices
-                            $(this).attr("property", config['prop']['gdpnominal']);
-                            text= $(this).text().replace(/.*: /,'');
-                            $(this).attr("content", text);
-                            break;
-                        case 2:
-                            //GDP per inhabitant in PPS
-                            $(this).attr("property", config['prop']['gdppercapita']);
-                            text= $(this).text().replace(/.*: /,'');
-                            $(this).attr("content", text);
-                            break;
-                        case 3:
-                            //GDP growth rate
-                            break;
-                        case 4:
-                            //Inflation
-                            break;
-                        case 5:
-                            //Unemployment rate
-                            break;
-                        case 6:
-                            //General government gross debt (Percentage of GDP)
-                            break;
-                        case 7:
-                            //General government deficit/surplus (Percentage of GDP)
-                            break;
-                        case 8:
-                            //Area
-                            $(this).attr("property", config['prop']['area']);
-                            text= $(this).text().replace(/.*: /,'');
-                            $(this).attr("content", text);
-                            break;
-                        case 9:
-                            //Capital city
-                            $(this).attr("property", config['prop']['capital']);
-                            text= $(this).text().replace(/.*: /,'');
-                            $(this).attr("content", text);
-                            break;
-                        case 10:
-                            //Official EU language
-
-                            //Obtain language label from text
-                            $(this).attr("property", config['prop']['language']);
-                            text= $(this).text().replace(/.*: /,'');
-                            $(this).attr("content", text);
-                            break;
-                        case 11:
-                            //Currency
-                            currency = $(this).text().replace(config['text_identifier']['currency'], "");
-                            $(this).attr("property", config['prop']['currency']);
-                            $(this).attr("href", config['prefix']['currency']+currency);
-                            break;
-                        case 12:
-                            //Source
-                            $(this).attr("property", config['prop']['source']);
-                            text= encodeURI($(this).children('a').attr('href'));
-                            $(this).attr("href", text);
-                            break;
+                    if ($(this).text().indexOf("Population") >= 0) {
+                        //Population
+                        $(this).attr("property", config['prop']['population']);
+                        text= $(this).text().replace(/.*: /,'');
+                        $(this).attr("content", text);
+                    } else if ($(this).text().indexOf("GDP at market prices") >= 0) {
+                        //GDP at market prices
+                        $(this).attr("property", config['prop']['gdpnominal']);
+                        text= $(this).text().replace(/.*: /,'');
+                        $(this).attr("content", text);
+                    } else if ($(this).text().indexOf("GDP per inhabitant in PPS") >= 0) {
+                        //GDP per inhabitant in PPS
+                        $(this).attr("property", config['prop']['gdppercapita']);
+                        text= $(this).text().replace(/.*: /,'');
+                        $(this).attr("content", text);
+                    } else if ($(this).text().indexOf("Area") >= 0) {
+                        //Area
+                        $(this).attr("property", config['prop']['area']);
+                        text= $(this).text().replace(/.*: /,'');
+                        $(this).attr("content", text);
+                    } else if ($(this).text().indexOf("Capital city") >= 0) {
+                        //Capital city
+                        $(this).attr("property", config['prop']['capital']);
+                        text= $(this).text().replace(/.*: /,'');
+                        $(this).attr("content", text);
+                    } else if ($(this).text().indexOf("Official EU language") >= 0) {
+                        //Official EU language
+                        //Obtain language label from text
+                        $(this).attr("property", config['prop']['language']);
+                        text= $(this).text().replace(/.*: /,'');
+                        $(this).attr("content", text);
+                    } else if ($(this).text().indexOf("Currency") >= 0) {
+                        //Currency
+                        currency = $(this).text().replace(config['text_identifier']['currency'], "");
+                        $(this).attr("property", config['prop']['currency']);
+                        $(this).attr("href", config['prefix']['currency']+currency);
+                    } else if ($(this).text().indexOf("Source") >= 0) {
+                        //Source
+                        $(this).attr("property", config['prop']['source']);
+                        text= encodeURI($(this).children('a').attr('href'));
+                        $(this).attr("href", text);
+                    } else {
+                        //else
                     }
                 });
                 break;
-            case "Political Structure":
-                $(this).nextUntil(config['section_header']).each(function (index, elem) {
-                    content = $(this).text();
-                    if( (content.indexOf(config['text_identifier']['headofstate']) >= 0) || (content.indexOf(config['text_identifier']['headofgovernment']) >= 0)){
-                        link = encodeURI($(this).children('a').first().attr("href"));
-                        $(this).attr("property", config['prop']['leader']);
-                        $(this).attr("content", link.replace(/ /g,'%20'));
-                    }
-                });
-                break;
-            case "Information Society Indicators":
-                $(this).nextUntil(config['section_header'], config['subsection_header']).each(function (index, elem) {
-                    label = $(this).text()+" "+countryLabel;
-                    var sources = [];
-                    var source = [];
-                    $(this).attr("property", config['prop']['title']);
-                    $(this).nextUntil('h1, h2', 'table').each(function (index, elem) {
-                        $(this).find('strong').each(function (index, elem) {
-                            var dimensionLabel = $(this).text();
-                            var parentNode =  $(this).parent();
-                            $(this).attr('property', config['prop']['label']);
-                            parentNode.attr('resource', config['prefix']['measure']+dimensionLabel.replace(/ /g,''));
-                            parentNode.attr('typeOf', config['class']['measure']);
-                            parentNode.parent().attr('property', 'qb:component');
-                            parentNode.parent().attr('href', config['prefix']['measure']+dimensionLabel.replace(/ /g,''));
-                        });
-                        $(this).find('p:contains("Source:")').each(function (index, elem) {
-                            sources.push(encodeURI($(this).children('a').first().attr("href")));
-                        });
+            case "Digital Government Highlights":
+                    $(this).nextUntil('h1').each(function (index, elem) {
+                        //console.log("content==>Highlights", content);
                     });
-                    $(this).nextUntil('h1, h2', 'table').wrapAll('<div resource="'+config['prefix']['datastructure']+label.replace(/ /g,'')+'" typeOf="'+config['class']['datastructure']+'"></div>');
-                    for(var i = 0; i < sources.length; i++){
-                        if(source.toString().indexOf(sources[i]) === -1 ){ source.push(sources[i]); }
-                    }
-                    $(this).after('<span style="display:none;" property="'+config['prop']['source']+'" content="'+source.toString()+'"></span>')
-                    $(this).after('<span style="display:none;" property="'+config['prop']['structure']+'" href="'+config['prefix']['datastructure']+label.replace(/ /g,'')+'"></span>');
-                    $(this).nextUntil('h1, h2').add($(this)).wrapAll('<div resource="'+config['prefix']['dataset']+label.replace(/ /g,'')+'" typeOf="'+config['class']['dataset']+'"></div>');
-                    $('body').children('div').first().children('p').first().before('<span property="'+config['prop']['relation']+'" href="'+config['prefix']['dataset']+label.replace(/ /g,'')+'"></span>');
-                });
                 break;
-            case "eGovernment State of Play":
-                $(this).nextUntil(config['section_header'], 'p:contains("Source:")').children('a').attr('property', config['prop']['relation']);
+            case "Digital Government Political Communications":
+                    // $(this).nextUntil('h1').each(function (index, elem) {
+                    //     console.log("content==>Communications", content);
+                    // });
                 break;
-            case "eGovernment Legal Framework":
-               $('body').children('div').first().children('p').first().before('<span property="'+config['prop']['relation']+'" href="'+config['prefix']['legalframework']+countryLabel+'"></span>');
-                $(this).parentsUntil('table').parents().nextUntil('table').find('a').each(function(index, element){
-                    var linkText = $(this).text().toLowerCase();
-                    if( checkArray(linkText, Object.keys(config['type_framework']).map(function(k) { return config['type_framework'][k] })) ){
-                        $(this).attr('typeOf', config['class']['legalresource']);
-                        $(this).attr('property', config['prop']['relation']);
-                        var linkURI = encodeURI($(this).attr('href'));
-                        $(this).attr('href', linkURI);
-                        $(this).after('<span resource="'+linkURI+'" property="'+config['prop']['ELItitle']+'" content="'+$(this).text()+'"></span>')
-                    }
-                });
-                $(this).parentsUntil('table').parents().nextUntil('table').add($(this).closest('table')).wrapAll('<div resource="'+config['prefix']['legalframework']+countryLabel+'" typeOf="'+config['class']['framework']+'"></div>');
+            case "Digital Government Legislation":
+                    // $(this).nextUntil('h1').each(function (index, elem) {
+                    //     console.log("content==>Legislation", content);
+                    // });
                 break;
-            case "National eGovernment":
-                var personURI;
-                $(this).nextUntil(config['section_header'], 'table').each(function (index, elem) {
-                    $(this).attr('typeOf', config['class']['person']);
-                    $(this).attr('property', config['prop']['relation']);
-                    $(this).attr('href', country);
-                    $(this).find('p').each(function (index, elem) {
-                        //Annotate contact points
-                        switch(index){                            
-                            case 1:
-                                //Full name
-                                personURI = config['prefix']['person']+$(this).text().replace(/ /g,'');
-                                $(this).attr("property", config['prop']['name']);
-                                $(this).parents("table").attr("resource", personURI)
-                                break;
-                            case 2:
-                                //Role
-                                var role = $(this).text();
-                                var childNode = $(this).children('strong').first();
-                                $(this).attr("about", personURI);
-                                $(this).attr("property", config['prop']['holds']);
-                                $(this).attr("href", config['prefix']['post']+role.replace(/ /g,''));
-                                childNode.attr("about", config['prefix']['role']+role.replace(/ /g,''));
-                                childNode.attr("typeOf", config['class']['role']);
-                                childNode.attr("property", config['prop']['label']);
-                                childNode.wrap('<span about="'+config['prefix']['post']+role.replace(/ /g,'')+'" typeOf="'+config['class']['post']+'"><span property="'+config['prop']['role']+'" href="'+config['prefix']['role']+role.replace(/ /g,'')+'"></span></span>');
-                                break;                      
-                        }
-                        if($(this).text().indexOf("Tel.") >= 0) {
-                            $(this).attr("property", config['prop']['telephone']);
-                            $(this).attr("content", $(this).text().replace(/.*: /,''));
-                        } else if($(this).text().indexOf("Fax:") >= 0) {
-                            $(this).attr("property", config['prop']['fax']);
-                            $(this).attr("content", $(this).text().replace(/.*: /,''));
-                        } else if( ($(this).text().indexOf("E-mail:") >= 0) || ($(this).text().indexOf("Contact:") >= 0) ) {
-                             $(this).attr("property", config['prop']['email']);
-                            $(this).attr("content", $(this).text().replace(/.*: /,''));
-                        } else if($(this).text().indexOf("Source:") >= 0) {
-                            $(this).attr("property", config['prop']['url']);
-                            $(this).attr("content", $(this).children('a').first().attr('href'));
-                        }
-                    });
-                    $(this).find('p').each(function (index, elem) {
-                        switch(index){    
-                            case 3:
-                            //Contact details wrapper
-                            var blankNode = config['prefix']['contact']+Math.floor((Math.random() * 10000) + 1);
-                            $(this).nextAll().wrapAll('<div about="'+personURI+'" property="'+config['prop']['contact']+'" href="'+blankNode+'"><div resource="'+blankNode+'" typeOf="'+config['class']['contact']+'"></div></div>');
-                            break; 
-                        }
-                    });
-                });
+            case "Digital Government Governance":
+                    // $(this).nextUntil('h1').each(function (index, elem) {
+                    //     console.log("content==>Governance", content);
+                    // });
                 break;
-            case "eGovernment Services for Citizens":
-                $(this).parentsUntil('table').parents().nextAll('table').first().find('p > strong').each(function(index, element){
-                    var publicService = $(this).text();
-                    var publicServiceURI = config['prefix']['service']+countryLabel+"/"+publicService.replace(/[^\w]/g,'');
-                    $(this).attr("about", publicServiceURI);
-                    $(this).attr("typeOf", config['class']['publicservice']);
-                    $(this).attr("property", config['prop']['title']);
-                    $(this).after('<span about="'+publicServiceURI+'" property="'+config['prop']['relation']+'" href="'+country+'"></span>')
-                    $(this).parentsUntil('table').nextAll('tr').each(function(index, element){
-                        switch(index){
-                            case 0:
-                                $(this).find('p').last().attr("about", publicServiceURI);
-                                $(this).find('p').last().attr("property", config['prop']['competent']);
-                                break;
-                            case 1:
-                                $(this).find('p').last().attr("about", publicServiceURI);
-                                $(this).find('p').last().attr("property", config['prop']['url']);
-                                $(this).find('p').last().attr("href", $(this).children('a').first().attr('href'));
-                                break;
-                            case 2:
-                                $(this).find('p').last().parent().attr("about", publicServiceURI);
-                                $(this).find('p').last().parent().attr("property", config['prop']['description']);
-                                break;
-                        }
-                    });
-                });
+            case "Digital Government Infrastructure":
+                    // $(this).nextUntil('h1').each(function (index, elem) {
+                    //     console.log("content==>Infrastructure", content);
+                    // });
+                break;
+            case "Digital Government Services for Citizens":
+                    // $(this).nextUntil('h1').each(function (index, elem) {
+                    //     console.log("content==>Services for Citizens", content);
+                    // });                  
+                break;
+            case "Digital Government Services for Businesses":
+                    // $(this).nextUntil('h1').each(function (index, elem) {
+                    //     console.log("content==>Services for Businesses", content);
+                    // });
                 break;
         }
     });

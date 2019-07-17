@@ -34,6 +34,43 @@
       ],
       "http://purl.org/dc/terms/spatial": [
         "http://publications.europa.eu/resource/authority/country/undefined"
+      ],
+      "http://dbpedia.org/ontology/populationTotal": [
+        "82 792 351inhabitants (2018)"
+      ],
+      "http://dbpedia.org/property/gdpNominal": [
+        "40 900 million Euros (2018)"
+      ],
+      "http://dbpedia.org/property/gdpPppPerCapita": [
+        "124 (2017)"
+      ],
+      "http://dbpedia.org/ontology/areaTotal": [
+        "357 134 km2"
+      ],
+      "http://dbpedia.org/ontology/capital": [
+        "Berlin"
+      ],
+      "http://purl.org/dc/terms/language": [
+        "German"
+      ],
+      "http://dbpedia.org/ontology/currency": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/currency/Euro"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://ec.europa.eu/eurostat/data/database"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/undefined"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/undefined"
+        },
+        {
+          "@id": "https://ec.europa.eu/digital-single-market/en/news/egovernment-benchmark-2018-digital-efforts-european-countries-are-visibly-paying"
+        }
       ]
     }
   ]
