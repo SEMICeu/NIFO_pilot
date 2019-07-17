@@ -104,27 +104,28 @@ input.forEach(function (fileName) {
 
     //Add root node and namespaces to document
     $('body').contents().wrapAll('<div resource="'+country+'" prefix="'+config['prefixes']+'"></div>');
+    $('body').children('div').first().children('p').first().before('<p class="image-container" style="position:relative"></p>');
     $('body').children('div').first().children('p').first().before('<span property="'+config['prop']['ispartof']+'" href="'+config['prefix']['factsheets']+'"><span property="'+config['prop']['seealso']+'" href="http://dbpedia.org/resource/'+countryLabel+'"></span><span property="'+config['prop']['issued']+'" content="'+config['issued']+'"></span><span property="'+config['prop']['licence']+'" content="'+config['licence']+'"></span><span property="'+config['prop']['country']+'" content="'+config['prefix']['country']+countryCodes[countryLabel]+'"></span>');
     //$( "p:contains('ISA')" ).css("color", "red");#00b0f0
-    //$( "p:contains('ISA')" ).remove();
-    // $( "h3" ).each(function(index, element){
-    //     if($(this).hasClass("subtitle")) {
-    //         $(this).css("color", "#00b0f0");
-    //     } else {
-    //         $(this).css("color", "#0070c0");
-    //     }
-    // });
+    $( "p:contains('ISA')" ).remove();
+    $( "h3" ).each(function(index, element){
+        $(this).css("color", "#0070c0");
+    });
 
     $( "p.subtitle" ).each(function(index, element){
         $(this).css("color", "#00b0f0");
         $(this).css("font-size", "18px");
     });
 
-    $( "img" ).each(function(index, element){
-        var oldSrc = $(this).attr('src');
-        console.log('oldsrc', oldSrc);
-        $(this).attr('src', '../html/' + oldSrc);
-    });
+    // $( "img" ).each(function(index, element){
+    //     var oldSrc = $(this).attr('src');
+    //     // console.log('==>>oldSrc', oldSrc);
+    //     if (oldSrc.indexOf(".x-") >= 0) { //!= -1
+    //         $(this).remove();
+    //     } else {
+    //         $(this).attr('src', '../html/' + oldSrc);
+    //     }
+    // });
     
     
     //$( ".subtitle" ).css("color", "#00b0f0");
@@ -134,6 +135,7 @@ input.forEach(function (fileName) {
     $(config['section_header']).each(function (index, elem) {
         content = $(this).text().trim();
         //console.log("content==>", content);
+        //  $(this).find("img").addClass('yolo');
         switch(content){
             case "Country Profile":
                 $(this).nextUntil('h1').each(function (index, elem) {
@@ -181,46 +183,69 @@ input.forEach(function (fileName) {
                     } else {
                         //else
                     }
+                    $(this).find("img").addClass('keepElement');
                 });
                 break;
             case "Digital Government Highlights":
                     $(this).nextUntil('h1').each(function (index, elem) {
                         //console.log("content==>Highlights", content);
+                        $(this).find("img").addClass('keepElement');
                     });
                 break;
             case "Digital Government Political Communications":
-                    // $(this).nextUntil('h1').each(function (index, elem) {
-                    //     console.log("content==>Communications", content);
-                    // });
+                    $(this).nextUntil('h1').each(function (index, elem) {
+                        // console.log("content==>Communications", content);
+                        $(this).find("img").addClass('keepElement');
+                    });
                 break;
             case "Digital Government Legislation":
-                    // $(this).nextUntil('h1').each(function (index, elem) {
-                    //     console.log("content==>Legislation", content);
-                    // });
+                    $(this).nextUntil('h1').each(function (index, elem) {
+                        // console.log("content==>Legislation", content);
+                        $(this).find("img").addClass('keepElement');
+                    });
                 break;
             case "Digital Government Governance":
-                    // $(this).nextUntil('h1').each(function (index, elem) {
-                    //     console.log("content==>Governance", content);
-                    // });
+                    $(this).nextUntil('h1').each(function (index, elem) {
+                        // console.log("content==>Governance", content);
+                        $(this).find("img").addClass('keepElement');
+                    });
                 break;
             case "Digital Government Infrastructure":
-                    // $(this).nextUntil('h1').each(function (index, elem) {
-                    //     console.log("content==>Infrastructure", content);
-                    // });
+                    $(this).nextUntil('h1').each(function (index, elem) {
+                        // console.log("content==>Infrastructure", content);
+                        $(this).find("img").addClass('keepElement');
+                    });
                 break;
             case "Digital Government Services for Citizens":
-                    // $(this).nextUntil('h1').each(function (index, elem) {
-                    //     console.log("content==>Services for Citizens", content);
-                    // });                  
+                    $(this).nextUntil('h1').each(function (index, elem) {
+                        // console.log("content==>Services for Citizens", content);
+                        $(this).find("img").addClass('keepElement');
+                    });                  
                 break;
             case "Digital Government Services for Businesses":
-                    // $(this).nextUntil('h1').each(function (index, elem) {
-                    //     console.log("content==>Services for Businesses", content);
-                    // });
+                    $(this).nextUntil('h1').each(function (index, elem) {
+                        // console.log("content==>Services for Businesses", content);
+                        $(this).find("img").addClass('keepElement');
+                        if ($(this).text().indexOf("The Digital Government Factsheets") >= 0) {
+                            $(this).nextAll().remove();
+                            $(this).remove();
+                            return false;
+                        }
+                    });
                 break;
         }
     });
 
+    $( "img" ).each(function(index, element){
+        var _this = $(this);
+        var oldSrc = _this.attr('src');
+        if(_this.hasClass("keepElement") && !(oldSrc.indexOf(".x-") >= 0)) {
+            _this.attr('src', '../html/' + oldSrc);
+        } else {
+            _this.remove();
+        }
+    });
+    $('p.image-container').append('<img style="position:relative; width: 20%;left: 42%;z-index: 1;" src="../assets/european-commission.png" /><img style="position:relative;width: 100%;top: -70px;" src="../assets/country.jpeg" />')
 
     /*=================*/
     /* GENERATE OUTPUT */
