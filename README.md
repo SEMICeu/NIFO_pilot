@@ -6,7 +6,7 @@ The objective of this pilot is to develop a reusable proof of concept, to conver
 
 * [ISA Core Vocabularies](https://joinup.ec.europa.eu/page/core-vocabularies)
 * [Dublin Core Terms](http://dublincore.org/documents/dcmi-terms/)
-* [European Legislation Identifier Ontology](http://publications.europa.eu/mdr/eli/)
+* [European Legislation Identifier Ontology](https://publications.europa.eu/en/web/eu-vocabularies/eli)
 * [DBPedia Ontology](http://wiki.dbpedia.org/services-resources/ontology)
 * [Schema.org](http://schema.org/)
 * [RDF Data Cube Vocabulary](https://www.w3.org/TR/vocab-data-cube/)
@@ -28,6 +28,7 @@ This pilot requires [Node JS](https://nodejs.org/en/download/) v8.10.0 or above,
 * rdfa-parser v1.0.1
 * request v2.85.0
 * sync-request v6.0.0
+* xml2js v0.4.19
 
 ## Architecture
 
