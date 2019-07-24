@@ -15,7 +15,7 @@
   },
   "@graph": [
     {
-      "@id": "http://data.europa.eu/nifo/factsheet/undefined",
+      "@id": "http://data.europa.eu/nifo/factsheet/Ukraine",
       "http://purl.org/dc/terms/isPartOf": [
         {
           "@id": "http://data.europa.eu/nifo/factsheets/"
@@ -23,17 +23,17 @@
       ],
       "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
         {
-          "@id": "http://dbpedia.org/resource/undefined"
+          "@id": "http://dbpedia.org/resource/Ukraine"
         }
       ],
       "http://purl.org/dc/terms/issued": [
-        "2018-02"
+        "2019-07"
       ],
       "http://purl.org/dc/terms/license": [
         "https://creativecommons.org/licenses/by/4.0/"
       ],
       "http://purl.org/dc/terms/spatial": [
-        "http://publications.europa.eu/resource/authority/country/undefined"
+        "http://publications.europa.eu/resource/authority/country/UKR"
       ],
       "http://dbpedia.org/ontology/populationTotal": [
         "42 122 657 (2019)"
