@@ -1,8 +1,8 @@
-<http://data.europa.eu/nifo/factsheet/undefined> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
- <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/undefined>;
+<http://data.europa.eu/nifo/factsheet/Austria> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Austria>;
  <http://purl.org/dc/terms/issued> "2019-07";
  <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
- <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/undefined";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/AUT";
  <http://dbpedia.org/ontology/populationTotal> "8,822,267 inhabitants (2018)";
  <http://dbpedia.org/property/gdpNominal> "386,093.8 million Euros (2018)";
  <http://dbpedia.org/property/gdpPppPerCapita> "127 (2017)";
