@@ -13,7 +13,7 @@ var jsdom = require('jsdom');
 const _cliProgress = require('cli-progress');
 var rdfaParser = require('ldtr/lib/rdfa/parser');
 var xml2js = require('xml2js');
-var parser = new xml2js.Parser();
+var parser = new xml2js.Parser({attrkey: 'code', charkey: 'label'});
 
 /******************************/
 /***DEFINE VARIABLES***********/
@@ -34,25 +34,13 @@ var countries = [];
 
 bar1.start((input.length*100)+100, 0);
 
-function checkArray(str, arr){
-   for(var i=0; i < arr.length; i++){
-       if(str.indexOf(arr[i]) > -1)
-           return true;
-   }
-   return false;
-}
-
 /*===============*/
 /*Get country NAL*/
 /*===============*/
 fs.readFile('assets/countries_EN.xml', function(err, data) {
     parser.parseString(data, function (err, result) {
-        result.TABLE.LIBELLE.forEach(function(index, element){
-            var obj = {
-                code: index.$.CODE,
-                value: index._
-            }
-            countries.push(obj);
+        result.TABLE.LIBELLE.forEach(function(element){
+            countries.push(element);
         });
         createHtmlToRDFa();
     });
@@ -88,10 +76,10 @@ var createHtmlToRDFa = function() {
     
         //Determine country
         for(var i = 0; i < countries.length; i++){
-            if(fileName.indexOf(countries[i].value) >= 0){
-                country = config['prefix']['nifo']+countries[i].value;
-                countryLabel = countries[i].value;
-                countryCode = countries[i].code;
+            if(fileName.indexOf(countries[i].label) >= 0){
+                country = config['prefix']['nifo']+countries[i].label;
+                countryLabel = countries[i].label;
+                countryCode = countries[i].code.CODE;
             }
         }    
     
