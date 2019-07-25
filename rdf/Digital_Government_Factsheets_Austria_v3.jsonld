@@ -35,6 +35,32 @@
       "http://purl.org/dc/terms/spatial": [
         "http://publications.europa.eu/resource/authority/country/AUT"
       ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/dataset/DigitalGovernmentIndicatorsAustria"
+        },
+        {
+          "@id": "http://example.org/nifo/legalframework/Austria"
+        },
+        {
+          "@id": "http://example.org/nifo/person/MargareteSchramb%C3%B6ck"
+        },
+        {
+          "@id": "http://example.org/nifo/person/GerhardPopp"
+        },
+        {
+          "@id": "http://example.org/nifo/person/RolandLedinger"
+        },
+        {
+          "@id": "http://example.org/nifo/person/WolfgangEbner"
+        },
+        {
+          "@id": "http://example.org/nifo/person/PeterKustor"
+        },
+        {
+          "@id": "http://example.org/nifo/person/AndreasTschas"
+        }
+      ],
       "http://dbpedia.org/ontology/populationTotal": [
         "8,822,267 inhabitants (2018)"
       ],
@@ -66,11 +92,2458 @@
           "@id": "http://data.europa.eu/nifo/factsheet/undefined"
         },
         {
-          "@id": "http://data.europa.eu/nifo/factsheet/undefined"
-        },
-        {
           "@id": "https://ec.europa.eu/digital-single-market/en/news/egovernment-benchmark-2018-digital-efforts-european-countries-are-visibly-paying"
         }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/dataset/DigitalGovernmentIndicatorsAustria",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataSet"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Government Indicators"
+      ],
+      "http://purl.org/linked-data/cube#structure": [
+        {
+          "@id": "http://example.org/nifo/structure/DigitalGovernmentIndicatorsAustria"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Austria",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=BgblAuth&Dokumentnummer=BGBLA_2004_I_10"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Erv&Dokumentnummer=ERV_1991_51"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/Dokumente/Erv/ERV_1987_286/ERV_1987_286.pdf"
+        },
+        {
+          "@id": "https://www.digital.austria.gv.at/sourcepin-register-authority-regulation"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20006487"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20003476"
+        },
+        {
+          "@id": "https://www.digital.austria.gv.at/supplementary-register-regulation"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20006490"
+        },
+        {
+          "@id": "https://www.signatur.rtr.at/en/vd/SVG.html"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010536"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/Dokumente/Erv/ERV_1999_1_165/ERV_1999_1_165.pdf"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10002997"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20008228"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001941"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10011384"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010295"
+        },
+        {
+          "@id": "https://www.erechnung.gv.at/files/IKTKonG.pdf"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Erv&Dokumentnummer=ERV_1982_200"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10009514"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004204"
+        },
+        {
+          "@id": "https://www.digital.austria.gv.at/delivery-forms-regulation"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005515"
+        },
+        {
+          "@id": "https://www.parlament.gv.at/PAKT/VHG/XXV/I/I_01457/index.shtml"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Erv&Dokumentnummer=ERV_2012_1_111"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/Dokumente/Erv/ERV_2001_1_152/ERV_2001_1_152.pdf"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=BgblAuth&Dokumentnummer=BGBLA_2004_I_10"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/DigitalGovernmentIndicatorsAustria",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
+      "http://purl.org/linked-data/cube#component": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinAustria"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinAustria"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinAustria"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinAustria"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinAustria"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinAustria"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinAustria"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinAustria"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinAustria",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinAustria",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinAustria",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinAustria",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010295",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Federal Procurement Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://unpan1.un.org/intradoc/groups/public/documents/unpan/unpan034219.pdf"
+        }
+      ]
+    },
+    {
+      "@id": "http://unpan1.un.org/intradoc/groups/public/documents/unpan/unpan034219.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Federal Procurement Act"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=BgblAuth&Dokumentnummer=BGBLA_2004_I_10",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "eGovernment Act",
+        "eGovernment Act",
+        "eGovernment Act"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Erv&Dokumentnummer=ERV_1991_51",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "General Administrative Procedures Act"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/Dokumente/Erv/ERV_1987_286/ERV_1987_286.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Constitutional Law on Access to Information"
+      ]
+    },
+    {
+      "@id": "https://www.digital.austria.gv.at/sourcepin-register-authority-regulation",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "SourcePIN Register Regulation"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20006487",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "SourcePIN Register Regulation"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20003476",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "eGovernment Sector Delimitation Regulation"
+      ]
+    },
+    {
+      "@id": "https://www.digital.austria.gv.at/supplementary-register-regulation",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Supplementary Register Regulation"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20006490",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation"
+      ]
+    },
+    {
+      "@id": "https://www.signatur.rtr.at/en/vd/SVG.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Signature and Trust Services Act"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010536",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Security of Network and Information Systems Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ:L:2016:194:TOC&uri=uriserv:OJ.L_.2016.194.01.0001.01.ENG"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ:L:2016:194:TOC&uri=uriserv:OJ.L_.2016.194.01.0001.01.ENG",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "NIS Directive"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/Dokumente/Erv/ERV_1999_1_165/ERV_1999_1_165.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Data Protection Act"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10002997",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Commercial Registry Act"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20008228",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Civil Status Act"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001941",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "General Land Registry Law"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10011384",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Motor Vehicles Act"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Notification Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20001806"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20001806",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Registration Act Implementation"
+      ]
+    },
+    {
+      "@id": "https://www.erechnung.gv.at/files/IKTKonG.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Austrian ICT Consolidation Act"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Erv&Dokumentnummer=ERV_1982_200",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Service of Documents Act"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10009514",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Research Organisation Act"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004204",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Delivery Service Regulation"
+      ]
+    },
+    {
+      "@id": "https://www.digital.austria.gv.at/delivery-forms-regulation",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Delivery Forms Regulation"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005515",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Delivery Forms Regulation"
+      ]
+    },
+    {
+      "@id": "https://www.parlament.gv.at/PAKT/VHG/XXV/I/I_01457/index.shtml",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Austrian Deregulation Act 2017"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=BgblAuth&Dokumentnummer=BGBLA_2004_I_10"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Erv&Dokumentnummer=ERV_2012_1_111",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Health Telematics Law"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/Dokumente/Erv/ERV_2001_1_152/ERV_2001_1_152.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "eCommerce Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2000:178:0001:0016:EN:PDF"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2000:178:0001:0016:EN:PDF",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2000/31/EC"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/MargareteSchramb%C3%B6ck",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Margarete Schramböck"
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-FederalMinisterforDigitalandEconomicAffairs"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/3243"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/3243",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/email": [
+        "buero.schramboeck@bmdw.gv.at "
+      ],
+      "http://schema.org/url": [
+        "http://www.bmdw.gv.at/"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/GerhardPopp",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Gerhard Popp"
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-DirectorGeneralofDivisionIforDigitizationandE-GovernmentattheFederalMinistryforDigitalandEconomicAffairs"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/4640"
+        }
+      ],
+      "http://schema.org/telephone": [
+        "+43 1 711 00 202551"
+      ],
+      "http://schema.org/email": [
+        "reinhard.posch@bmdw.gv.at "
+      ],
+      "http://schema.org/url": [
+        "http://www.bmdw.gv.at/"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/4640",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+43 1 711 00 505000"
+      ],
+      "http://schema.org/email": [
+        "POST.ISL_19@bmdw.gv.at "
+      ],
+      "http://schema.org/url": [
+        "http://www.bmdw.gv.at/"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/RolandLedinger",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Roland Ledinger"
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-HeadoftheDirectorate%E2%80%9CE-GovernmentforCitizens%E2%80%9D"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/8080"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/8080",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+43 1 711 00 202745"
+      ],
+      "http://schema.org/email": [
+        "roland.ledinger@bmdw.gv.at "
+      ],
+      "http://schema.org/url": [
+        "http://www.digitales.oesterreich.gv.at/"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/WolfgangEbner",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Wolfgang Ebner"
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-HeadoftheDirectorate%E2%80%9CDigitizationPolicy,Innovation,ICT-ManagementandSupport%E2%80%9D"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/4518"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/4518",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+43 1 711 00 505020"
+      ],
+      "http://schema.org/email": [
+        "wolfgang.ebner@bmf.gv.at "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/PeterKustor",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Peter Kustor"
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-HeadoftheDirectorate%E2%80%9CInternationalandLegalAffairs%E2%80%9D"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/3816"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/3816",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+43 1 711 00 202554"
+      ],
+      "http://schema.org/email": [
+        "peter.kustor@bmdw.gv.at "
+      ],
+      "http://schema.org/url": [
+        "http://www.bmdw.gv.at/"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/AndreasTschas",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Andreas Tschas"
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-DirectoroftheAustrianDigitizationAgency(DIA)"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/913"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/913",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+43 5 7755 3501"
+      ],
+      "http://schema.org/email": [
+        "andreas.tschas@ffg.at"
+      ],
+      "http://schema.org/url": [
+        "https://www.ffg.at/en/content/digitalisation-agency"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Passport",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Passport",
+        "Passport"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Federation) / Local Government (Municipalities)",
+        "Central Government (Federation) / Local Government (Municipalities)"
+      ],
+      "http://schema.org/url": [
+        "https://www.oesterreich.gv.at/",
+        "https://www.oesterreich.gv.at/themen/bauen_wohnen_und_umwelt.html"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and forms to download on the federal public services portal oesterreich.gv.at. Applicants are legally required to sign personally the passport, and a visit in person to the competent administration (municipality) is therefore necessary, where delivery is immediate.",
+        "Information and forms to download on the federal public services portal Help.gv.at. Applicants are legally required to sign personally the passport, and a visit in person to the competent administration (municipality) is therefore necessary, where delivery is immediate."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Passengersandpassengerrights",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Passengers and passenger rights"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Ministry for Labour, Social Affairs, Health and Consumer Protection"
+      ],
+      "http://schema.org/url": [
+        "https://www.oesterreich.gv.at/themen/freizeit_und_strassenverkehr/passagier__und_fahrgastrechte.html"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and contact points on the federal public services portal. Detailed information on consumer protection issues on the website of the Federal Ministry for Labour, Social Affairs, Health and Consumer Protection."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Passportforpersonswithdisabilities",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Passport for persons with disabilities"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Minister for Labour, Social Affairs, Health and Consumer Protection"
+      ],
+      "http://schema.org/url": [
+        "https://www.oesterreich.gv.at/themen/menschen_mit_behinderungen/behindertenpass.html "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information, online-forms (e.g. disability passport) and contact points on the federal public services portal. Additional information on the website of the Federal Ministry for Labour, Social Affairs, Health and Consumer Protection."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Travelinformation",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Travel information",
+        "Travel information",
+        "Travel information",
+        "Travel information"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Ministry for Europe, Integration and Foreign Affairs",
+        "Federal Ministry for Europe, Integration and Foreign Affairs",
+        "Federal Ministry for Europe, Integration and Foreign Affairs",
+        "Federal Ministry for Europe, Integration and Foreign Affairs"
+      ],
+      "http://schema.org/url": [
+        "https://www.bmeia.gv.at/reise-aufenthalt/reiseinformation/",
+        "https://www.bmeia.gv.at/reise-aufenthalt/reiseinformation/",
+        "https://www.bmeia.gv.at/reise-aufenthalt/reiseinformation/",
+        "https://www.bmeia.gv.at/reise-aufenthalt/reiseinformation/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Comprehensive information and practical references concerning entry and residence in Austria or in the Schengen Area as well as information about the application process, relocations to Austria, authentications, information on Working Holiday Programs and references to relevant authorities. ",
+        "Comprehensive information and practical references concerning entry and residence in Austria or in the Schengen Area as well as information about the application process, relocations to Austria, authentications, information on Working Holiday Programs and references to relevant authorities. ",
+        "Comprehensive information and practical references concerning entry and residence in Austria or in the Schengen Area as well as information about the application process, relocations to Austria, authentications, information on Working Holiday Programs and references to relevant authorities. ",
+        "Comprehensive information and practical references concerning entry and residence in Austria or in the Schengen Area as well as information about the application process, relocations to Austria, authentications, information on Working Holiday Programs and references to relevant authorities. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Jobsearchservicesbylabouroffices",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Job search services by labour offices"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Federation), Public Employment Service (Arbeitsmarktservice - AMS)"
+      ],
+      "http://schema.org/url": [
+        "http://www.ams.at/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "AMS provides a set of services for both job-seekers and employers, included an e-Job Room establishing direct contact between candidates and enterprises."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/PensionAccount",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Pension Account"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Federation)"
+      ],
+      "http://schema.org/url": [
+        "http://www.neuespensionskonto.at/login-pensionskonto.html"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Austrian pension account is transparent and comprehensible. The user’s pension is calculated on the basis of a single pension account system. After secure login with the mobile phone signature you can check the current status of your pension account online at any time."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Legalinformationsysteminclinformationontheregulatedprofessions",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Legal information system (incl. information on the regulated professions)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "The Legal Information System of the Republic of Austria"
+      ],
+      "http://schema.org/url": [
+        "http://www.ris.bka.gv.at/UI/Erv/Info.aspx "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Legal Information System of the Republic of Austria (RIS) is a computer-assisted information system on Austrian law, which is coordinated and operated by the Austrian Federal Chancellery. The RIS starts 1983 when the essential features of the system were designed. After federal legislation had been incorporated, the inclusion of the court decisions was started."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Unemploymentbenefits",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Unemployment benefits",
+        "Unemployment benefits"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Federation), Public Employment Service (Arbeitsmarktservice - AMS)",
+        "Austrian Social Security"
+      ],
+      "http://schema.org/url": [
+        "https://www.ams.at/",
+        "http://www.sozialversicherung.at/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and forms to download.",
+        "The online service for those who are insures provides the following services: application forms (e.g. retirement, child care allowances, etc.), health insurance data, health services statement (LIVE), standard personal retirement account (ePk), prescription fee account, and social insurance dataset. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/UnemploymentnoticeAMSNextJob",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Unemployment notice AMS Next Job"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Labour Market Service (Arbeitsmarktservice, AMS)"
+      ],
+      "http://schema.org/url": [
+        "https://www.e-ams.at/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "This project helps people who have been given notice or have left their job to find a new position as quickly and with as little paper-work as possible. It shall allow citizens to declare their unemployment status in advance and apply for unemployment benefits, as well as cancel them again over the Internet."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/VATrefundsandexciseduties",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "VAT refunds and excise duties"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Ministry of Finance"
+      ],
+      "http://schema.org/url": [
+        "http://www.bmf.gv.at/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information on the online submission of VAT return and the registration necessary to do is available on the dedicated webpage of the Federal Ministry of Finance. Registration to pursue these services is also part of the website. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Incometaxesdeclarationnotificationofassessment",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Income taxes: declaration, notification of assessment"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Federation), Federal Ministry of Finance"
+      ],
+      "http://schema.org/url": [
+        "https://finanzonline.bmf.gv.at/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "FinanzOnline enables electronic filing of tax returns. Since February 2003, the service has become fully transactional."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Informationonvehicles",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Information on vehicles"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Minister for Transport, Innovation and Technology"
+      ],
+      "http://schema.org/url": [
+        "https://oesterreich.gv.at"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Up-to-date information on motor vehicles, vehicle safety inspection, electric cars and eMobility, automated driving systems, truck driving bans."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Thirdpartyinsurance",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Third-party insurance"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Austrian telephone directorate Herold"
+      ],
+      "http://schema.org/url": [
+        "http://www.herold.at/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "A third-party car insurance is compulsory in Austria and can be arranged via an insurance broker or an insurance company. All the insurance companies are listed in the aforementioned online telephone directory. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Informationonresidentsrights",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Information on residents ‘rights "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Ministry for the Interior"
+      ],
+      "http://schema.org/url": [
+        "https://www.bmi.gv.at/413/Buergerinnen/start.aspx"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Comprehensive information on residence formalities including legal foundations, online forms and online procedures"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/StayinAustria",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Stay in Austria"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Ministry for the Interior"
+      ],
+      "http://schema.org/url": [
+        "https://www.oesterreich.gv.at/themen/leben_in_oesterreich/aufenthalt/3/2/Seite.120401.html or https://www.bmi.gv.at/302/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Comprehensive information on residence rights including legal foundations, competent bodies and online forms."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Announcementofmovingchangeofaddress",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Announcement of moving (change of address)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Federation) / Local Government (Municipalities)"
+      ],
+      "http://schema.org/url": [
+        "https://www.oesterreich.gv.at/themen/bauen_wohnen_und_umwelt/umzug.html"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The federal portal oesterreich.gv.at provides information on moving and change of address notification, as well as related forms to download. Registration and re-registration can be conducted fully electronically through the portal or app."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Certificatesbirthmarriagerequestanddelivery",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Certificates (birth, marriage): request and delivery"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Local Government (Municipalities)"
+      ],
+      "http://schema.org/url": [
+        "www.oesterreich.gv.at "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "When a person registers with the Central Register of Residents (Zentrales Melderegister), the competent authority verifies the accuracy of the existing personal and nationality data and informs accordingly the Central Register of Residents. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/CriminalRecordCertificate",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Criminal Record Certificate"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Local Government (Municipalities) – Criminal Records Authority"
+      ],
+      "http://schema.org/url": [
+        "https://www.oesterreich.gv.at/public.html"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Federal Police Headquarters of Vienna offers an electronic criminal record certificate with steps similar to those of applying for the proof of residence. It contains information about any convictions that were entered into the register, or states that no entries were found if the person has a clean record."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Declarationtothepoliceegincaseoftheft",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Declaration to the police (e.g. in case of theft)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Ministry of the Interior"
+      ],
+      "http://schema.org/url": [
+        "https://www.bmi.gv.at/605/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and a printable download form are available. Declarations regarding child pornography, environmental crimes and neo-Nazi activities can be transmitted via e-mail to the competent investigation authorities (www.bmi.gv.at)."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Housingbuildingandhousingenvironment",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Housing (building and housing, environment)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Regional Government (States), Local Government (Municipalities)"
+      ],
+      "http://schema.org/url": [
+        "https://www.oesterreich.gv.at/themen/bauen_wohnen_und_umwelt.html"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The federal public services portal Help.gv.at provides information about housing in Austria and related formalities such as building permissions, and links to regional processes online or downloadable forms. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Waste",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Waste"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Regional Government (States), Local Government (Municipalities)"
+      ],
+      "http://schema.org/url": [
+        "https://www.oesterreich.gv.at/themen/bauen_wohnen_und_umwelt.html"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The federal public services portal oesterreich.gv.at provides information about eServices such as cleaning and replacement of litter bin, old paper collection subscription/un-subscription, and links to regional processes online or downloadable forms. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/ParticipationinAustrianelections",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Participation in Austrian elections"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "The Austrian Ministry of Europe, Integration and Foreign Affairs"
+      ],
+      "http://schema.org/url": [
+        "http://www.bmeia.gv.at/en/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Austrian citizens residing abroad have been given the right to cast their votes in national elections, elections to the European Parliament, and national referenda. The Austrian Foreign Ministry’s dedicated website provides and overview of this service – in particular in regard to voter registration, absentee ballot, and how to cast the vote."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Enrolmentinhighereducationuniversity",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Enrolment in higher education/university"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Universities and Colleges of Higher Education"
+      ],
+      "http://schema.org/url": [
+        "https://www.oesterreich.gv.at/themen/bildung_und_neue_medien/universitaet.html"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The federal eGovernment portal oesterreich.gv.at provides up-to-date information on enrolment in Higher Education. This enrolment is managed by individual higher education institutions, as some have developed online enrolment systems (e.g. University of Vienna). "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Publiclibrariesavailabilityofcataloguessearchtools",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Public libraries (availability of catalogues, search tools)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central/Regional/Local Government, Austrian Association of Libraries"
+      ],
+      "http://schema.org/url": [
+        "http://www.bibliotheken.at/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Online searchable catalogue for all Austrian public libraries. Project supported by the Federal Ministry for Education, Science and Research."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Studentgrants",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Student grants"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Federation), Federal Ministry of Education, Science and Research"
+      ],
+      "http://schema.org/url": [
+        "http://www.stipendium.at/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Fully functional student grants application system."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Summerinternships",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Summer internships"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Federation), Federal Ministry of Labour, Social Affairs, Health and Consumer Protection "
+      ],
+      "http://schema.org/url": [
+        "http://www.watchlist-praktikum.at/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Portal with extensive information on internships. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Voluntarysocialinvolvement",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Voluntary social involvement"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Ministry of Labour, Social Affairs, Health and Consumer Protection"
+      ],
+      "http://schema.org/url": [
+        "https://www.oesterreich.gv.at/themen/soziales/hilfe_leisten/3.html"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The federal eGovernment portal oesterreich.gv.at provides general information about volunteering, memorial services, peace or social service abroad, as well as about funds available for volunteers."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Informationandassistancetoresearchers",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Information and assistance to researchers"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "EURAXESS Austria"
+      ],
+      "http://schema.org/url": [
+        "http://www.euraxess.at/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "EURAXESS Austria provides information and assistance to mobile researchers – by means of the web portal and with the support of the national EURAXESS Service Centres. The portal contains practical information concerning professional and daily life, as well as information on job and funding opportunities. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Researchfundingsupport",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Research funding support"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "The Austrian Research Promotion Agency (FFG)"
+      ],
+      "http://schema.org/url": [
+        "https://www.ffg.at/en/funding "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information on available funding opportunities for the researchers. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Informationonvolunteering",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Information on volunteering"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Ministry of Labour, Social Affairs, Health and Consumer Protection"
+      ],
+      "http://schema.org/url": [
+        "https://www.oesterreich.gv.at/themen/soziales/hilfe_leisten/3/Seite.2980026.html"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information, legal foundations and further links."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/eHealthinsurancecardSmartcard",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "eHealth insurance card Smartcard"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Ministry of Labour, Social Affairs, Health and Consumer Protection"
+      ],
+      "http://schema.org/url": [
+        "www.chipkarte.at/english "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Chipkarte e-card is a system that connects patients, providers, hospitals, and pharmacies through Europe. The nationwide rollout of the \"e-card\"-(Health Insurance Card)-System was successfully finalized by the end of 2005. The e-card is used as the key card for health insurance verification "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/MedicaltreatmentinotherEUcountries",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Medical treatment in other EU countries",
+        "Medical treatment in other EU countries"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Ministry of Labour, Social Affairs, Health and Consumer Protection",
+        "Federal Ministry of Labour, Social Affairs, Health and Consumer Protection"
+      ],
+      "http://schema.org/url": [
+        "https://www.oesterreich.gv.at/themen/freizeit_und_strassenverkehr/reisen_und_ferien/5/Seite.2960200.html",
+        "https://www.oesterreich.gv.at/themen/freizeit_und_strassenverkehr/reisen_und_ferien/5/Seite.2960200.html"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information on reimbursement of expenses, prescriptions and medications, further links, legal foundations, online-advisory board and online-calculator. ",
+        "Information on reimbursement of expenses, prescriptions and medications, further links, legal foundations, online-advisory board and online-calculator "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Healthcareabroad",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Healthcare abroad"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Ministry of Labour, Social Affairs, Health and Consumer Protection"
+      ],
+      "http://schema.org/url": [
+        "https://www.sozialversicherung.at/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The European Health Insurance Card (EHIC) is on the reverse of the eCard issued to Austrian residents. It should be used to claim health insurance entitlements while temporarily outside Austria (e.g. while on holiday or on a business trip) in EU states, the countries of the EEA or Switzerland."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Childallowances",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Child allowances"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Federation), Federal Ministry of Finance"
+      ],
+      "http://schema.org/url": [
+        "https://www.bmfj.gv.at/ministerin/Aktuelles/Themen/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Family Allowances Fund (Familienlastenausgleichsfonds), financed from employers' contributions and general tax revenues, is responsible for providing family benefits including child benefit (Familienbeihilfe). This is mainly paid out by the tax offices. The amount increases with the age of the child and the number of children in the family. Since May 2015, the child benefit is implemented as no-stop eGovernment service. Parents do not have to file an application to get the child benefit anymore."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Birthofachild",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Birth of a child"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Federation) / Local Government (Municipalities)"
+      ],
+      "http://schema.org/url": [
+        "https://www.oesterreich.gv.at/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The recently developed online service “digital babypoint” (also via the Digitales Amt app) helps citizens to organize their pregnancy and to handle administrative procedures digitally without having to go to an office. That includes everything from creating your own Checklist to the first issue of the baby’s birth certificate."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/InheritancewithintheEUcasestudies",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Inheritance within the EU case studies"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Minister for Constitutional Affairs, Reforms, Deregulation and Justice"
+      ],
+      "http://schema.org/url": [
+        "https://www.oesterreich.gv.at/or https://www.oesterreich.gv.at/themen/dokumente_und_recht/erben_und_vererben/2/2/Seite.795030.html"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information, legal foundations and practical examples."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Citizenservicesandlegalinformation",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Citizen services and legal information"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Ministry of Labour, Social Affairs, Health and Consumer Protection"
+      ],
+      "http://schema.org/url": [
+        "https://www.oesterreich.gv.at/themen/frauen/buergerinnenservice_und_rechtsauskuenfte/1/Seite.4090002.html"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Service-hotline and further information."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Informationonmediaandcompetitionissues",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Information on media and competition issues"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Austrian Regulatory Authority for Broadcasting and Telecommunications"
+      ],
+      "http://schema.org/url": [
+        "https://www.rtr.at/en/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Comprehensive information on media and competition issues such as telecom operators and media service providers, consumer. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Consumerprotection",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Consumer protection"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Ministry of Labour, Social Affairs, Health and Consumer Protection"
+      ],
+      "http://schema.org/url": [
+        "http://www.sozialministerium.at//siteEN/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Consumer Protection Division’s dedicated webpage at the Federal Ministry of Labour, Social Affairs, Health and Consumer Protection has collected the most common questions and their answers in a section focused on the Consumer Protection – particularly in the areas of cancellation of contracts, general consumer problems, guarantees, internet, telephone, etc. and other general information on consumer policy is Austria is available on this portal. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Informationonenergysupply",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Information on energy supply"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Ministry for Transport, Innovation and Technology"
+      ],
+      "http://schema.org/url": [
+        "https://www.usp.gv.at/Portal.Node/usp/public/content/brancheninformationen/energieversorgung/51471.html"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Current information on energy supply, electricity, gas, heat and hot water supply, supply of industrial and commercial areas and other buildings."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Arbitrationboard",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Arbitration board"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Ministry of Labour, Social Affairs, Health and Consumer Protection"
+      ],
+      "http://schema.org/url": [
+        "https://www.oesterreich.gv.at/themen/dokumente_und_recht/zivilrecht/1/1/Seite.1010142.html"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Legal foundations, further information and current information."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Patents",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Patents"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Austrian Patent Office (Österreichisches Patentamt)"
+      ],
+      "http://schema.org/url": [
+        "http://www.patentamt.at/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information on the patent processes in Austria are freely available at the web portal of the Austrian Patent Office. Furthermore, it offers the following online services: to search for bibliographic data of industrial property rights of Austria Patent Office, pending and issued patents, utility models, trademarks and designs; information on the online registration of national trademarks; and several other online services or information about them. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Registrationofanewcompany",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Registration of a new company"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Regional Government (States)"
+      ],
+      "http://schema.org/url": [
+        "https://www.gruenderservice.at/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The federal portal for Businesses (usp.gv.at) provides general information on business registration procedures and links to related forms. Business registration in Austria is the responsibility of regional governments (and is in some regions handled by Chambers of Commerce). "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/TheBusinessServicePortal",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "The Business Service Portal"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Unternehmensserviceportal, Federal Ministries (municipalities)"
+      ],
+      "http://schema.org/url": [
+        "https://www.usp.gv.at/Portal.Node/usp/public "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Business Service Portal is a gateway to eGovernment services for business since 1 January 2010. The Article 3 of the Business Service Portal Act obliges every Federal Minister to provide information and support the procedures that aid the operation of the citizens’ service portal. By offering information (administrative activities, starting a business, tax and legal requirements) and transaction services, it intends to help established and continuing businesses to fulfil their information obligations and to reduce their administrative burden. Information and advice is provided on administrative activities, including starting a business, tax and legal requirements. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/VATdeclarationnotification",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "VAT: declaration, notification"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Federation), Federal Ministry of Finance"
+      ],
+      "http://schema.org/url": [
+        "https://www.usp.gv.at/Portal.Node/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "USP enables electronic filing of VAT (Umsatzsteuer - USt)."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Corporatetaxdeclarationnotification",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Corporate tax: declaration, notification"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Federation), Federal Ministry of Finance"
+      ],
+      "http://schema.org/url": [
+        "https://www.usp.gv.at/Portal.Node/usp/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "USP enables electronic declaration of corporation tax."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/CustomsdeclarationseCustoms",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Customs declarations (eCustoms)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Federation), Federal Ministry of Finance"
+      ],
+      "http://schema.org/url": [
+        "https://english.bmf.gv.at/customs/E-Customs.html"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The New Computerised Transit System is part of the e-zoll.at project and allows customs declarations at the premises of the importer/transporter and data transmission via XML-Web Services. No public website is provided since the service uses application-to-application protocols. Only an intranet website is provided for customs officials when declarations are made at the border."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/eProcurement",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "eProcurement"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Federation), Federal Procurement Ltd."
+      ],
+      "http://schema.org/url": [
+        "http://www.bbg.gv.at/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "eShop is a fully functional web-based eProcurement platform developed by state-owned company Federal Procurement Ltd. (Bundesbeschaffung GmbH - BBG). It is still in a pilot phase and will be made available to public sector organisations in ASP mode (Application Service Provider). It will enable them to purchase goods and services from a catalogue of pre-selected suppliers. The pilot testing of online tenders started in June 2003, and electronic submission using an official form is now possible. Public tenders are advertised on Auftrag.at, a private-owned eTendering website."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Electronicdeliveryofdocuments",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Electronic delivery (of documents)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Ministry for Digital and Economic Affairs"
+      ],
+      "http://schema.org/url": [
+        "https://www.bmdw.gv.at/DigitalisierungundEGovernment/ElektronischeZustellung/Seiten/Zulassung-als-elektronischer-Zustelldienst.aspx"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "After successfully registering with one of the officially approved electronic delivery services, business employees or their representatives can retrieve documents online from anywhere, 24 hours a day, 7 days a week. Electronically delivered registered mail is held for at least 14 days in the inbox, but this time period can be extended if desired."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Austrianlaw",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Austrian law"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Chancellery of Austria "
+      ],
+      "http://schema.org/url": [
+        "https://www.ris.bka.gv.at/defaultEn.aspx "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Legal Information System of the Republic of Austria is a platform and data base providing information on Austrian law. Its main contents are legislation in its current version (federal and state), law gazettes (federal and state) and case law. The Legal Information System also serves as the framework for the authentic electronic publication of the Federal Law Gazette and of the State Law Gazettes."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Hireemployees",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Hire employees"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Ministry of Labour, Social Affairs, Health and Consumer Protection"
+      ],
+      "http://schema.org/url": [
+        "https://www.usp.gv.at/Portal.Node/usp/public/content/mitarbeiter/einstellen/40847.html and https://www.sozialministerium.at/site/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Comprehensive information on employment contracts and further links."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Informationforemployees",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Information for employees",
+        "Information for employees",
+        "Information for employees"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Ministry of Labour, Social Affairs, Health and Consumer Protection",
+        "Federal Ministry of Labour, Social Affairs, Health and Consumer Protection",
+        "Federal Ministry of Labour, Social Affairs, Health and Consumer Protection"
+      ],
+      "http://schema.org/url": [
+        "https://www.usp.gv.at/Portal.Node/usp/public/content/mitarbeiter/Seite.5250000.html",
+        "https://www.usp.gv.at/Portal.Node/usp/public/content/mitarbeiter/Seite.5250000.html",
+        "https://www.usp.gv.at/Portal.Node/usp/public/content/mitarbeiter/Seite.5250000.html"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Comprehensive information on, working hours, holiday, leave and several other employee-related topics.",
+        "Comprehensive information, forms, legal foundations and other employee-related topics.",
+        "Comprehensive information, forms, legal foundations and other employee-related topics."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Socialcontributionforemployees",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Social contribution for employees"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Social Security Institutions"
+      ],
+      "http://schema.org/url": [
+        "https://www.elda.at/portal27/eldaportal/content "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "ELDA (Electronic Data Exchange with the Austrian Social Security Institutions) is a country-wide project of social security institutions to enable businesses to transmit social security-relevant data electronically. The service is fully transactional. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Equaltreatment",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Equal treatment"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Ministry of Labour, Social Affairs, Health and Consumer Protection"
+      ],
+      "http://schema.org/url": [
+        "https://www.oesterreich.gv.at/themen/dokumente_und_recht/gleichbehandlung/Seite.1860100.html"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Comprehensive information on equal treatment. Basics, legal foundations, further links and practical examples. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Productliability",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Product liability"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Ministry of Labour, Social Affairs, Health and Consumer Protection"
+      ],
+      "http://schema.org/url": [
+        "https://www.oesterreich.gv.at/themen/gesundheit_und_notfaelle/unfall/Seite.2895000.html"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Comprehensive information, competent bodies, legal foundations, tips and further links."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/AustrianREACHRegistrationEvaluationAuthorisationandRestrictionofChemicalsEURegulationno19072006Helpdesk",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Austrian REACH (Registration, Evaluation, Authorisation and Restriction of Chemicals, EU Regulation no 1907/2006) Helpdesk"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Ministry of Sustainability and Tourism "
+      ],
+      "http://schema.org/url": [
+        "www.reachhelpdesk.at "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The website offers ample information particularly for small and medium-scale enterprises."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Classificationpackaginglabellingrequirements",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Classification, packaging, labelling requirements"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Ministry of Sustainability and Tourism and regional governments"
+      ],
+      "http://schema.org/url": [
+        "https://www.usp.gv.at/Portal.Node/usp/public/content/umwelt_und_verkehr/chemie/mitteilungspflichten/50957.html "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Comprehensive information on classification, labelling and packaging duties, expert information, legal foundations and competent bodies."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Environmentrelatedpermitsinclreporting",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Environment-related permits (incl. reporting)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Federation), Federal Ministry of Sustainability and Tourism "
+      ],
+      "http://schema.org/url": [
+        "https://secure.umweltbundesamt.at/edm_portal/home.do"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "This is Austria's IT infrastructure for the EU-ETS for annual reporting of the emissions, including verification by independent (third-party) verifiers. Submission, handling and verification of reports are fully done electronically."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/ElectronicPayments",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Electronic Payments"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Federation), Federal Ministry of Finance"
+      ],
+      "http://schema.org/url": [
+        "https://www.digitales.oesterreich.gv.at/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "A special interface specifically designed for integrating online payment systems was developed, called EPS online. The service allows the electronic payments for eGovernment services. While the procedure is in progress, the public authority receives an electronically signed message with the confirmation that the payment was received, usually from the bank. Other than payments related to businesses, there are many real-life examples of electronic payments being used in eGovernment, such as for the \"criminal record certificate\" or the electronic \"proof of residency\". After applying for proof of residency, the respective fee can be paid easily using an electronic payment system."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/AustrianPromotionalBank",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Austrian Promotional Bank"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Austria Wirtschaftsservice Gesellschaft mbH (aws)"
+      ],
+      "http://schema.org/url": [
+        "https://www.aws.at/en/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Austria Wirtschaftsservice Gesellschaft mbH (aws) is the Austrian federal promotional bank. It assists companies in their implementation of innovative projects by granting loans, awarding subsidies and issuing guarantees at favourable interest rates, particularly in cases in which it is not possible for these companies to obtain the necessary funds in a sufficient amount from other sources of financing. In addition, it provides online support in the form of specific information, advisory and other services to prospective, established and expanding companies. Forms are available for downloading online. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Consumerpolicy",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Consumer policy",
+        "Consumer policy"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Federal Ministry of Labour, Social Affairs, Health and Consumer Protection",
+        "Federal Ministry of Labour, Social Affairs, Health and Consumer Protection"
+      ],
+      "http://schema.org/url": [
+        "https://www.sozialministerium.at/site/Soziales_und_KonsumentInnen/KonsumentInnen/Konsumentenpolitik/ ",
+        "https://www.sozialministerium.at/site/Soziales_und_KonsumentInnen/KonsumentInnen/Konsumentenpolitik/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information on consumer contracts and guarantees. ",
+        "Up-to-date information and competent bodies. Information on consumer rights and mediation. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Dataprotection",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Data protection"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Austria"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Austrian Data Protection Authority"
+      ],
+      "http://schema.org/url": [
+        "https://www.data-protection-authority.gv.at "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Data protection in Austria, data protection laws and data protection in an international context, access to the data-processing register, Q&A and judicial decisions."
       ]
     }
   ]

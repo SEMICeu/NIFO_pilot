@@ -3,6 +3,7 @@
  <http://purl.org/dc/terms/issued> "2019-07";
  <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
  <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/DEU";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/dataset/DigitalGovernmentIndicatorsGermany>, <http://example.org/nifo/dataset/ThefollowinggraphspresentdataforthelatestDigitalGovernmentIndicatorsforGermanycomparedtotheEUaverage.StatisticalindicatorsinthissectionreflectthoseofEurostatatthetimethefactsheetisbeingprepared.Germany>, <http://example.org/nifo/legalframework/Germany>, <http://example.org/nifo/person/MinisterofStateforDigitalisation>, <http://example.org/nifo/person/HorstSeehofer>, <http://example.org/nifo/person/StateSecretaryintheFederalMinistryoftheInterior>, <http://example.org/nifo/person/PeterBatt>, <http://example.org/nifo/person/PresidentoftheFederalOfficeforInformationSecurity(BSI)>, <http://example.org/nifo/person/UlrichKelber>;
  <http://dbpedia.org/ontology/populationTotal> "82 792 351inhabitants (2018)";
  <http://dbpedia.org/property/gdpNominal> "40 900 million Euros (2018)";
  <http://dbpedia.org/property/gdpPppPerCapita> "124 (2017)";
@@ -11,3 +12,279 @@
  <http://purl.org/dc/terms/language> "German";
  <http://dbpedia.org/ontology/currency> <http://publications.europa.eu/resource/authority/currency/Euro>;
  <http://purl.org/dc/terms/source> <https://ec.europa.eu/eurostat/data/database>, <http://data.europa.eu/nifo/factsheet/undefined>, <https://ec.europa.eu/digital-single-market/en/news/egovernment-benchmark-2018-digital-efforts-european-countries-are-visibly-paying> .
+<http://example.org/nifo/dataset/DigitalGovernmentIndicatorsGermany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataSet>;
+ <http://purl.org/dc/terms/title> "Digital Government Indicators";
+ <http://purl.org/linked-data/cube#structure> <http://example.org/nifo/structure/DigitalGovernmentIndicatorsGermany>;
+ <http://purl.org/dc/terms/source> "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en,http://appsso.eurostat.ec.europa.eu/nui/submitViewTableAction.do" .
+<http://example.org/nifo/structure/DigitalGovernmentIndicatorsGermany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition>;
+ <http://purl.org/linked-data/cube#component> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinGermany>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinGermany>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinGermany>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinGermany>;
+ <http://www.w3.org/2000/01/rdf-schema#label> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinGermany>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinGermany>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinGermany>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinGermany> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinGermany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinGermany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinGermany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinGermany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/legalframework/Germany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2018.295.01.0001.01.ENG>, <https://www.gesetze-im-internet.de/ozg/OZG.pdf>, <http://www.gesetze-im-internet.de/englisch_egovg/>, <https://www.bundestag.de/grundgesetz>, <http://www.gesetze-im-internet.de/it-netzg/BJNR270600009.html>, <http://www.gesetze-im-internet.de/iwg/index.html>, <http://www.gesetze-im-internet.de/englisch_ifg/>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG>, <https://germanlawarchive.iuscomp.org/?p=690>, <https://eur-lex.europa.eu/eli/reg/2016/679/oj>, <http://www.gesetze-im-internet.de/hdlregvfg/index.html>, <https://www.buzer.de/s1.htm?g=BMG&f=1>, <https://www.bmwi.de/Redaktion/DE/Downloads/V/vol-a-abschnitt-1.html>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055>, <https://www.bgbl.de/xaver/bgbl/start.xav?start=//*%25255B@attr_id='bgbl117s0770.pdf'%25255D#__bgbl__//*%25255B@attr_id='bgbl117s0770.pdf'%25255D__1553002094982>, <http://www.internet4jurists.at/gesetze/bg_e-commerce01.htm>, <https://www.gesetze-im-internet.de/de-mail-g/BJNR066610011.html> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2018.295.01.0001.01.ENG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Single Digital Gateway (SDG) Regulation 2018/1724" .
+<https://www.gesetze-im-internet.de/ozg/OZG.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act for the Improvement of Online Access to Administration Services" .
+<http://www.gesetze-im-internet.de/englisch_egovg/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act to promote electronic government" .
+<https://www.bundestag.de/grundgesetz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "German Basic Law" .
+<http://www.gesetze-im-internet.de/it-netzg/BJNR270600009.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Linking up Federal and Land IT Networks" .
+<http://www.gesetze-im-internet.de/iwg/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the re-use of Public Sector Information" .
+<http://www.gesetze-im-internet.de/englisch_ifg/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Freedom of information (FOI) Act" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "eIDAS Regulation";
+ <http://purl.org/dc/terms/relation> <https://www.bmwi.de/Redaktion/DE/Downloads/Gesetz/eidas-durchfuehrungsgesetz-bgbl.pdf?__blob=publicationFile&v=4> .
+<https://www.bmwi.de/Redaktion/DE/Downloads/Gesetz/eidas-durchfuehrungsgesetz-bgbl.pdf?__blob=publicationFile&v=4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "eIDAS Implementation Act" .
+<https://germanlawarchive.iuscomp.org/?p=690> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Electronic Identification Promotion Act", "Electronic Signature Act";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2000:013:0012:0020:EN:PDF> .
+<https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2000:013:0012:0020:EN:PDF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "EU Directive 1999/93/EC" .
+<https://eur-lex.europa.eu/eli/reg/2016/679/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation (EU) 2016/679";
+ <http://purl.org/dc/terms/relation> <https://www.bmi.bund.de/SharedDocs/downloads/EN/gesetztestexte/datenschutzanpassungsumsetzungsgesetz.html> .
+<https://www.bmi.bund.de/SharedDocs/downloads/EN/gesetztestexte/datenschutzanpassungsumsetzungsgesetz.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act to Adapt Data Protection Law";
+ <http://purl.org/dc/terms/relation> <https://www.gesetze-im-internet.de/englisch_bdsg/> .
+<https://www.gesetze-im-internet.de/englisch_bdsg/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Federal Data Protection Act." .
+<http://www.gesetze-im-internet.de/hdlregvfg/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Commercial Registry Regulation" .
+<https://www.buzer.de/s1.htm?g=BMG&f=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Federal Registration Act" .
+<https://www.bmwi.de/Redaktion/DE/Downloads/V/vol-a-abschnitt-1.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Contract Awards for Public Supplies and Services- Part A (VOL/A)" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2014/55/EU" .
+<https://www.bgbl.de/xaver/bgbl/start.xav?start=//*%25255B@attr_id='bgbl117s0770.pdf'%25255D#__bgbl__//*%25255B@attr_id='bgbl117s0770.pdf'%25255D__1553002094982> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<https://www.bgbl.de/xaver/bgbl/start.xav?start=//*%5B@attr_id='bgbl117s0770.pdf'%5D#__bgbl__//*%5B@attr_id='bgbl117s0770.pdf'%5D__1553002094982> <http://data.europa.eu/eli/ontology#title> "eBill Law" .
+<http://www.internet4jurists.at/gesetze/bg_e-commerce01.htm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Electronic Commerce Act";
+ <http://purl.org/dc/terms/relation> <http://www.iuscomp.org/gla/statutes/TDG.htm> .
+<http://www.iuscomp.org/gla/statutes/TDG.htm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Tele Services Act";
+ <http://purl.org/dc/terms/relation> <http://www.iuscomp.org/gla/statutes/TDDSG.htm> .
+<http://www.iuscomp.org/gla/statutes/TDDSG.htm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Tele Services Data Protection Act" .
+<https://www.gesetze-im-internet.de/de-mail-g/BJNR066610011.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act to regulate De-Mail services and amendments to other legislation" .
+<http://example.org/nifo/person/MinisterofStateforDigitalisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Minister of State for Digitalisation";
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Contactdetails:>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/153> .
+<http://example.org/nifo/post/Post-Contactdetails:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Contactdetails:> .
+<http://example.org/nifo/role/Role-Contactdetails:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Contact details:" .
+<http://example.org/ContactPoint/153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/url> "https://www.bundesregierung.de" .
+<http://example.org/nifo/person/HorstSeehofer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Horst Seehofer ";
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-FederalMinisteroftheInterior,BuildingandCommunity>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/5805> .
+<http://example.org/ContactPoint/5805> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+49 30 18 681-0";
+ <http://schema.org/faxNumber> "+49 30 18 681-12926";
+ <http://schema.org/email> "poststelle@bmi.bund.de ";
+ <http://schema.org/url> "http://www.bmi.bund.de/" .
+<http://example.org/nifo/person/StateSecretaryintheFederalMinistryoftheInterior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "State Secretary in the Federal Ministry of the Interior";
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-FederalGovernmentCommissionerforInformationTechnology>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/7290> .
+<http://example.org/ContactPoint/7290> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+49 30 18 681-0";
+ <http://schema.org/faxNumber> "+49 30 18 681-12926";
+ <http://schema.org/email> "StV@bmi.bund.de";
+ <http://schema.org/url> "http://www.bmi.bund.de/DE/Ministerium/Beamtete-Staatssekretaere/Klaus-Vitt/klaus-vitt_node.html" .
+<http://example.org/nifo/person/PeterBatt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Peter Batt";
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DirectorGeneralforDigitalSociety,DigitisationinPublicAdministrationandInformationTechnology>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/9554> .
+<http://example.org/ContactPoint/9554> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+49 30 18 681-12723";
+ <http://schema.org/faxNumber> "+49 30 18 681-12983";
+ <http://schema.org/email> "IT-Beauftragter@bmi.bund.de";
+ <http://schema.org/url> "http://www.bmi.bund.de/" .
+<http://example.org/nifo/person/PresidentoftheFederalOfficeforInformationSecurity(BSI)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "President of the Federal Office for Information Security (BSI)";
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Contactdetails:>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8874> .
+<http://example.org/ContactPoint/8874> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+49 228 99 95 82-0";
+ <http://schema.org/faxNumber> "+49 228 99 95 82-5400";
+ <http://schema.org/email> "bsi@bsi.bund.de";
+ <http://schema.org/url> "http://www.bmi.bund.de/EN/Home/home_node.html" .
+<http://example.org/nifo/person/UlrichKelber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Ulrich Kelber ";
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-TheFederalCommissionerforDataProtectionandFreedomofInformation>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/3217> .
+<http://example.org/ContactPoint/3217> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+49 228 99 77 99-0";
+ <http://schema.org/faxNumber> "+49 228 99 77 99-550";
+ <http://schema.org/email> "poststelle@bfdi.bund.de";
+ <http://schema.org/url> "https://www.bfdi.bund.de/" .
+<http://example.org/nifo/publicservice/Germany/Passport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Passport";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Ministry of Foreign Affairs";
+ <http://schema.org/url> "https://www.auswaertiges-amt.de/en";
+ <http://purl.org/dc/terms/description> "Information and online form that can be filled on screen. Applications must then be submitted to local authorities, or to German consular services for applicants living outside Germany.", "Information and online forms that can be filled on screen. Applications must then be submitted to local authorities, or to German consular services for applicants living outside Germany." .
+<http://example.org/nifo/publicservice/Germany/Jobsearchservicesbylabouroffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Job search services by labour offices";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Labour Agency";
+ <http://schema.org/url> "http://www.arbeitsagentur.de/";
+ <http://purl.org/dc/terms/description> "The employment portal aims at connecting supply and demand on the training and job markets, promoting their transparency. It provides access to databases of job offers and of job seekers, and furthermore features an innovative matching application to help job seekers identify opportunities more easily." .
+<http://example.org/nifo/publicservice/Germany/Legalinformationsysteminclinformationontheregulatedprofessions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Legal information system (incl. information on the regulated professions)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Centre for German Legal Information; Federal Foreign Office";
+ <http://schema.org/url> "https://www.lg2g.info/lg2g-business-directory-for-expats/ngos-for-expats?sid=229:Centre-for-German-Legal-Information-CGerLI-EV&pid=169";
+ <http://purl.org/dc/terms/description> "This website offers a comprehensive and freely accessible database of electronic materials on German law. It brings together English translations of court decisions, legislation, articles and other law-related documents scattered over the internet and adds them to the collection of German legal information." .
+<http://example.org/nifo/publicservice/Germany/Unemploymentbenefits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Unemployment benefits";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Labour Agency";
+ <http://schema.org/url> "https://www.arbeitsagentur.de/";
+ <http://purl.org/dc/terms/description> "Information and forms to download, which can be filled on screen before being printed and sent or delivered to the Labour Office. Since 2005, the two-tier regime of unemployment benefits and long-term welfare support have been replaced by a single flat-rate pay-out, known as ‘Unemployment Pay II’ (Arbeitslosengeld II - AlG II), which eventually reduces the amount of benefits that long-term unemployed receive. " .
+<http://example.org/nifo/publicservice/Germany/Incometaxesdeclarationnotificationofassessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Income taxes: declaration, notification of assessment";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central (Federal) / Regional (State) Government";
+ <http://schema.org/url> "https://www.elster.de/eportal/start";
+ <http://purl.org/dc/terms/description> "The ELSTER website enables online transmission of income tax returns and tax notifications. Filed tax returns are automatically compared with the electronic assessment issued by the tax administration to determine immediately whether there are deviations in the tax office figures. In Germany, income tax collection is a federal competence, but it is administered individually by each of the 16 German states. The programme Kernel is also distributed freely to the approximately 250 tax software developers in the German market." .
+<http://example.org/nifo/publicservice/Germany/Driverslicence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Driver’s licence";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Motor Transport Authority (KBA)";
+ <http://schema.org/url> "http://www.kba.de/";
+ <http://purl.org/dc/terms/description> "The website provides information, as well as online services, e.g. register query and additional services for registered users." .
+<http://example.org/nifo/publicservice/Germany/Carregistrationnewusedimportedcars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Car registration (new, used, imported cars)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Local Government";
+ <http://schema.org/url> "N/A";
+ <http://purl.org/dc/terms/description> "Vehicle registration services are handled by local authorities, some of which provide related information and forms on their websites." .
+<http://example.org/nifo/publicservice/Germany/Declarationtothepoliceegincaseoftheft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Declaration to the police (e.g. in case of theft)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central (Federal) / Regional (State) Government";
+ <http://schema.org/url> "http://www.polizei.de/";
+ <http://purl.org/dc/terms/description> "Web-based online declaration services are introduced in the federal states of Baden-Württemberg, Berlin, Brandenburg, Hamburg, Hessen, Mecklenburg-Vorpommern, Nordrhein-Westfalen, Sachsen-Anhalt and Schleswig-Holstein enabling online reporting of crimes and other information." .
+<http://example.org/nifo/publicservice/Germany/Housingbuildingandhousingenvironment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Housing (building and housing, environment)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Regional Government";
+ <http://schema.org/url> "N/A";
+ <http://purl.org/dc/terms/description> "Planning and building permission services are handled by regional (state) governments, some of which have implemented online requests systems." .
+<http://example.org/nifo/publicservice/Germany/Enrolmentinhighereducationuniversity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Enrolment in higher education/university";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Central Office for the Allocation of University Places (ZVS)";
+ <http://schema.org/url> "https://www.hochschulstart.de/";
+ <http://purl.org/dc/terms/description> "Information and online application system." .
+<http://example.org/nifo/publicservice/Germany/Publiclibrariesavailabilityofcataloguessearchtools> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Public libraries (availability of catalogues, search tools)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central (Federal) / Regional (State) / Local Government";
+ <http://schema.org/url> "N/A";
+ <http://purl.org/dc/terms/description> "Most major public libraries (universities, city libraries, etc.) provide catalogues and search tools on the Internet. In addition, through the new online lending system ‘Onleihe’ (unload), introduced in May 2007, library members are also able to borrow various digital media online, including eBooks, digital audio books, music and videos." .
+<http://example.org/nifo/publicservice/Germany/StudentGrants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Student Grants";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Ministry for Education and Research and Federal Office of Administration (BVA)";
+ <http://schema.org/url> "http://www.bafög.de/ ";
+ <http://purl.org/dc/terms/description> "Information and forms to download are provided on the website. Students are entitled to a government study allowance called BAföG, which is equally divided between a scholarship and a long-term, low-interest loan. The allowance declines as student's parents' income rises. The loan part of the BAföG has to be paid back at a later date. The scheme is administered by the Federal Office of Administration (BVA) and the Credit Institute for Reconstruction (Kreditanstalt für Wiederaufbau - KfW). " .
+<http://example.org/nifo/publicservice/Germany/Informationandassistancetoresearchers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Information and assistance to researchers";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "EURAXESS Germany";
+ <http://schema.org/url> "http://www.euraxess.de/ ";
+ <http://purl.org/dc/terms/description> "EURAXESS Germany provides information and assistance to mobile researchers – by means of the web portal and with the support of the national EURAXESS Service Centres. The portal contains practical information concerning professional and daily life, as well as information on job and funding opportunities. " .
+<http://example.org/nifo/publicservice/Germany/ChildAllowances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Child Allowances";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Labour Agency";
+ <http://schema.org/url> "http://www.arbeitsagentur.de/";
+ <http://purl.org/dc/terms/description> "Information and forms to download, which can be filled on screen before being printed and sent or delivered to the Labour Office. Child allowances (Kinder geld) are granted for children as a tax refund, in order to meet the constitutional rule that income is not taxable up to a child’s subsistence level. " .
+<http://example.org/nifo/publicservice/Germany/Patents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Patents";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "German Patent and Trade Mark Office (DPMA) ";
+ <http://schema.org/url> "http://dpma.de/english/index.html ";
+ <http://purl.org/dc/terms/description> "The German Patent and Trade Mark Office issues its official publications, such as Patentblatt (patent gazette), Markenblatt (trade mark journal) and Designblatt (designs gazette) as well as patent documents and utility model documents exclusively in electronic form. You can conduct online searches for patents, utility models, trademarks and designs and have access to the legal/procedural status registers. You can of course file IP applications online at the DPMA." .
+<http://example.org/nifo/publicservice/Germany/Registrationofanewcompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Registration of a new company";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Regional Government";
+ <http://schema.org/url> "http://www.handelsregister.de/";
+ <http://purl.org/dc/terms/description> "Information only. Company registration services are handled by local courts." .
+<http://example.org/nifo/publicservice/Germany/VATrefundsandexciseduties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "VAT refunds and excise duties";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central (Federal) / Regional (State) Government";
+ <http://schema.org/url> "https://www.elster.de/eportal/start";
+ <http://purl.org/dc/terms/description> "ELSTER enables online transmission of VAT returns." .
+<http://example.org/nifo/publicservice/Germany/VATdeclarationnotification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "VAT: declaration, notification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Federal States’ Fiscal Authority (Tax Department) ";
+ <http://schema.org/url> "https://www.elster.de/eportal/start";
+ <http://purl.org/dc/terms/description> "The fiscal registration and declaration obligations can largely be fulfilled electronically. " .
+<http://example.org/nifo/publicservice/Germany/Corporatetaxdeclarationnotification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Corporate tax: declaration, notification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central (Federal) / Regional (State) Government";
+ <http://schema.org/url> "https://www.elster.de/eportal/start";
+ <http://purl.org/dc/terms/description> "ELSTER enables online transmission of corporate tax returns and tax notifications." .
+<http://example.org/nifo/publicservice/Germany/CustomsdeclarationseCustoms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Customs declarations (eCustoms)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Customs Administration";
+ <http://schema.org/url> "http://www.zoll.de/DE/Home/home_node.html";
+ <http://purl.org/dc/terms/description> "Information, forms and eServices for customs' operations. An Online Customs Declaration service was launched in 2002, based on the ATLAS system for electronic application, processing, settlement and archiving of essential custom processes." .
+<http://example.org/nifo/publicservice/Germany/eProcurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "eProcurement";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Interior, Federal Procurement Office";
+ <http://schema.org/url> "http://www.evergabe-online.de/; http://www.kdb.bund.de/";
+ <http://purl.org/dc/terms/description> "The Federal Government's eProcurement platform, launched in May 2002, enables authorities to publish and notify call for tenders electronically, and bidders to submit offers completely and bindingly over the Internet. This system is the result of the Public Procurement Online (Öffentlicher Eink@uf Online) Programme. This special part of the programme was realised by implementing a Federal eGovernment Shop (Kaufhaus des Bundes – KdB). It is an internal system, but public information is available at: www.kdb.bund.de." .
+<http://example.org/nifo/publicservice/Germany/GermanLaw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "German Law";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Centre for German Legal Information, Federal Foreign Office";
+ <http://schema.org/url> "https://www.lg2g.info/lg2g-business-directory-for-expats/ngos-for-expats?sid=229:Centre-for-German-Legal-Information-CGerLI-EV&pid=169";
+ <http://purl.org/dc/terms/description> "This website offers a comprehensive and freely accessible database of electronic materials on German law. It brings together English translations of court decisions, legislation, articles and other law-related documents scattered over the internet and adds them to the collection of German legal information." .
+<http://example.org/nifo/publicservice/Germany/Socialcontributionsforemployees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Social contributions for employees";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), German Statutory Pension Insurance Scheme";
+ <http://schema.org/url> "https://www.deutsche-rentenversicherung.de/";
+ <http://purl.org/dc/terms/description> "Information, forms to download and eServices using digital certificates." .
+<http://example.org/nifo/publicservice/Germany/GermanREACHRegistrationEvaluationAuthorisationandRestrictionofChemicalsEURegulationno19072006Helpdesk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "German REACH (Registration, Evaluation, Authorisation and Restriction of Chemicals, EU Regulation no 1907/2006) Helpdesk";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Federal Institute for Occupational Safety and Health (BAuA)";
+ <http://schema.org/url> "http://www.reach-clp-biozid-helpdesk.de/en/Homepage.html ";
+ <http://purl.org/dc/terms/description> "The website (German only) offers ample information and helpdesk contact details to the information centre of the responsible (the Federal Institute for Occupational Safety and Health (BAuA))." .
+<http://example.org/nifo/publicservice/Germany/Environmentrelatedpermitsinclreporting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Environment-related permits (incl. reporting)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Ministry for Environment, Nature Protection and Nuclear Safety, and Federal Environmental Agency";
+ <http://schema.org/url> "http://www.bmu.de/; http://www.umweltbundesamt.de/";
+ <http://purl.org/dc/terms/description> "Case handling, decision and delivery of a standard procedure to obtain an environment-related permit can be treated via eServices." .
+<http://example.org/nifo/publicservice/Germany/Submissionofdatatostatisticaloffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Submission of data to statistical offices";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Germany>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Statistical Offices of the Federation and the Länder";
+ <http://schema.org/url> "https://erhebungsportal.estatistik.de/";
+ <http://purl.org/dc/terms/description> "A lot of statistical data is requested at both federal and regional level (Länder). Information on all available submission portals can be found on the provided website." .

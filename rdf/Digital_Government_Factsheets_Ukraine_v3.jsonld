@@ -35,6 +35,20 @@
       "http://purl.org/dc/terms/spatial": [
         "http://publications.europa.eu/resource/authority/country/UKR"
       ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/dataset/DigitalGovernmentIndicatorsUkraine"
+        },
+        {
+          "@id": "http://example.org/nifo/legalframework/Ukraine"
+        },
+        {
+          "@id": "http://example.org/nifo/person/VolodymyrGroysman"
+        },
+        {
+          "@id": "http://example.org/nifo/person/OleksandrRyzhenko"
+        }
+      ],
       "http://dbpedia.org/ontology/populationTotal": [
         "42 122 657 (2019)"
       ],
@@ -62,6 +76,686 @@
         {
           "@id": "https://digiplace.sharepoint.com/sites/WAB-EUROPEANCOMMISSION-ABCIVNIFOFOLLOWUP-OFR17-59354/Documents%20partages/D05.03%20Digital%20government%20factsheets%202019/Country%20Progress/Ukraine/ukrstat.org/en"
         }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/dataset/DigitalGovernmentIndicatorsUkraine",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataSet"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Government Indicators"
+      ],
+      "http://purl.org/linked-data/cube#structure": [
+        {
+          "@id": "http://example.org/nifo/structure/DigitalGovernmentIndicatorsUkraine"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        "https://www.kmu.gov.ua"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Ukraine",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://zakon.rada.gov.ua/laws/show/2939-17"
+        },
+        {
+          "@id": "https://www.unece.org/fileadmin/DAM/env/pp/documents/cep43e.pdf"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG"
+        },
+        {
+          "@id": "https://e-tender.ua/en/training-tenders/teoriya-zakupivel-3/zakonodavstvo-ukrayini-v-sferi-publichnih-zakupivel-8"
+        },
+        {
+          "@id": "https://zakon.rada.gov.ua/laws/show/55-2018-%25C3%2590%25C2%25BF"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/DigitalGovernmentIndicatorsUkraine",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "eIDAS Regulation"
+      ]
+    },
+    {
+      "@id": "https://zakon.rada.gov.ua/laws/show/2939-17",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "law"
+      ]
+    },
+    {
+      "@id": "https://www.unece.org/fileadmin/DAM/env/pp/documents/cep43e.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "UNECE Convention on Access to Information, Public Participation in Decision-making and Access to Justice in Environmental Matters"
+      ]
+    },
+    {
+      "@id": "https://e-tender.ua/en/training-tenders/teoriya-zakupivel-3/zakonodavstvo-ukrayini-v-sferi-publichnih-zakupivel-8",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "law"
+      ]
+    },
+    {
+      "@id": "https://zakon.rada.gov.ua/laws/show/55-2018-%25C3%2590%25C2%25BF",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "https://zakon.rada.gov.ua/laws/show/55-2018-%C3%90%C2%BF",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree no. 55 Some questions of administrative activity recording"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/VolodymyrGroysman",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Volodymyr Groysman"
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-Prime-MinisterofUkraine"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/1000"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-Prime-MinisterofUkraine",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-Prime-MinisterofUkraine"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-Prime-MinisterofUkraine",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Prime-Minister of Ukraine"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/1000",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/email": [
+        "zmi@kmu.gov.ua "
+      ],
+      "http://schema.org/url": [
+        "https://www.kmu.gov.ua"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/OleksandrRyzhenko",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Oleksandr Ryzhenko"
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-HeadoftheStateAgencyforeGovernanceofUkraine"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/1161"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-HeadoftheStateAgencyforeGovernanceofUkraine",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-HeadoftheStateAgencyforeGovernanceofUkraine"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-HeadoftheStateAgencyforeGovernanceofUkraine",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Head of the State Agency for eGovernance of Ukraine "
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/1161",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/email": [
+        "agency@e.gov.ua "
+      ],
+      "http://schema.org/url": [
+        "https://www.e.gov.ua/ua"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Ukraine/Electronicqueuetoreceivepassportsfortravellingabroad",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Electronic queue to receive passports for travelling abroad"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "State Migration Service of Ukraine"
+      ],
+      "http://schema.org/url": [
+        "https://dmsu.gov.ua/services/online/citizen.html?s=2 "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "This eService allows to join the electronic queue to receive a passport for travelling abroad. Also, one can fill in all the necessary information and pay for the service online. This helps to reduce the time needed to receive this service. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Ukraine/Checkingjobvacanciesonline",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Checking job vacancies online"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Cabinet of Ministers of Ukraine"
+      ],
+      "http://schema.org/url": [
+        "https://career.gov.ua/site/vacantions-search "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "As a part of public administration reform, the Government of Ukraine with the support of State Agency for eGovernance developed and launched the single state portal of vacancies advertised for the ‘new public service’. All the vacancies can be found according to filters such as state authorities, branches of activities (e.g. energy efficiency, culture and sport, education etc), and vacancies status. This service is accessible, convenient and transparent as it allows to track open vacancies and their status etc. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Ukraine/Paymentoftaxesleviesandsinglesocialcontributiononline",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Payment of taxes, levies and single social contribution online "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "State Fiscal Service"
+      ],
+      "http://schema.org/url": [
+        "http://sfs.gov.ua/fizosoby-oplata-online/informaciya/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The service allows physical persons to pay financial obligations such as taxes, levies and social contributions for the obligatory state social insurance online, without attending banks."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Ukraine/Orderingofthecarlicenseplates",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Ordering of the car license plates"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Main Service Center of Interior Ministry"
+      ],
+      "http://schema.org/url": [
+        "https://e-driver.hsc.gov.ua/accounts/login/ , https://www.kmu.gov.ua/ua/service/elektronnij-kabinet-vodiya "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Through the porta the following eServices are available: extracts from the Registry of vehicles and their owners, ordering of the individual car license plates, entering the electronic queue of the Service Centers of Interior Ministry, checking and payment of the administrative penalties"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Ukraine/Checkingofthevehicleinsurancepolicyvalidity",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Checking of the vehicle insurance policy validity"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Transport Insurance Bureau of Ukraine "
+      ],
+      "http://schema.org/url": [
+        "https://www.kmu.gov.ua/ua/service/perevirka-avtocivilki https://policy-web.mtsbu.ua/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Civil liability insurance against damage is obligatory for the owners of the ground vehicles. The service allows to check the insurance validity based on the vehicle license plates or based on the insurance number."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Ukraine/CriminalRecordCertificate",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Criminal Record Certificate"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Main Service Center of Interior Ministry"
+      ],
+      "http://schema.org/url": [
+        "https://dpvs.hsc.gov.ua/ , https://www.kmu.gov.ua/ua/service/dovidka-pro-nesudimist "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The criminal record certificate is issued by the IT Department of Interior Ministry and by service centres of Interior Ministry."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Ukraine/Checkingvalidityofdiplomasandacademiccredentials",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Checking validity of diplomas and academic credentials "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Ministry of Education and Science of Ukraine "
+      ],
+      "http://schema.org/url": [
+        "https://info.edbo.gov.ua/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Via the education system, one can easily check the validity of diplomas and academic credentials, the validity of ID cards. The user can also find the information about the educational establishment and its license. Another feature of the system is the possibility to find the information about ongoing admissions, namely, the ratings of those who have submitted the applications to the universities, those who were recommended for enrollment etc. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Ukraine/Electronicmapofprimarymedicalassistance",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Electronic map of primary medical assistance"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Healthcare Ministry, National Healthcare Service"
+      ],
+      "http://schema.org/url": [
+        "https://nszu.gov.ua/gromadyanam/elektronna-karta-misc-nadannya-pmd "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "eMap contains information on primary medical assistance points with the addresses, phone numbers, districts, and signed declarations with the doctors. A doctor who has at least one signed declaration is depicted on the map. The information on the map is updated several times per months."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Ukraine/Childbirthallowance",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Child birth allowance"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Social Policy Ministry"
+      ],
+      "http://schema.org/url": [
+        "https://e-services.msp.gov.ua/ ; https://www.kmu.gov.ua/ua/service/dopomoga-pri-narodzhenni "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "eService aims at providing the childbirth allowance ensured by the state during 12 months since the child’s birth."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Ukraine/Startingabusiness",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Starting a business"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Justice Ministry "
+      ],
+      "http://schema.org/url": [
+        "https://online.minjust.gov.ua/dokumenty/choise ; https://www.kmu.gov.ua/ua/service/reestratsiya-fizosobi-pidpriemtsem "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The eService allows to apply for the state registration of private entrepreneurship and to apply for the simplified taxation system."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Ukraine/TransportationCarrierseCabinet",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Transportation Carriers’ eCabinet"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "State Service for Transport Safety"
+      ],
+      "http://schema.org/url": [
+        "https://e-services.dsbt.gov.ua/#/ ; https://www.kmu.gov.ua/ua/service/licenziyi-na-avtoperevezennya "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The following eServices are available: obtaining of the transportation licenses, track the carriers on valid licenses"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Ukraine/InformationfromtheVATtaxpayersregistry",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Information from the VAT taxpayer’s registry"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "State Fiscal Service "
+      ],
+      "http://schema.org/url": [
+        "https://cabinet.sfs.gov.ua/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The extract from the VAT taxpayer’s registry contains valid information from the registry according to the request date. The service is provided within two working days after the request."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Ukraine/Registrationastheexcisetaxpayer",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Registration as the excise tax payer"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "State Fiscal Service"
+      ],
+      "http://schema.org/url": [
+        "https://cabinet.sfs.gov.ua/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Registration of excise tax payer is obligatory for the persons who deal with fuels on the customs territory of Ukraine. The request for registration is to be submitted not later than three working days before the start of activities (fuels release, shipping etc). The application is submitted electronically to the responsible controlling body. The registration to the registry is performed automatically. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Ukraine/Extractfromtheregistryofexcisetaxpayers",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Extract from the registry of excise taxpayers "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "State Fiscal Service "
+      ],
+      "http://schema.org/url": [
+        "https://cabinet.sfs.gov.ua/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The extract from the excise taxpayers’ registry contains valid information from the registry according to the request date. The service is provided in one working day after the request"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Ukraine/Absenceofdebtcertificate",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Absence of debt certificate "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "State Fiscal Service"
+      ],
+      "http://schema.org/url": [
+        "https://cabinet.sfs.gov.ua/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The certificate contains information on absence of debts subject to taxes and other budget payments. The certificate is formed automatically based on the data from information systems of State Fiscal Service. The service is provided within five working days after the request. The certificate is valid during 10 calendar days. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Ukraine/Licenseforthegoodsandproductexports",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "License for the goods and product exports"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Ministry of Economic Development and Trade "
+      ],
+      "http://schema.org/url": [
+        "https://www.kmu.gov.ua/ua/service/licenziya-na-eksport-tovarivya-na-import-tovariv "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "License for export is obligatory for business entities that export the goods and services stated in the annual list of goods under the licensing procedures. The export of goods is licensed automatically (for the foods without quotas) and non-automatically (for the goods with quotas)."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Ukraine/Declarationofcompliancewithfiresafetyregulation",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Declaration of compliance with fire safety regulation "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Ukraine"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "State Emergency Service"
+      ],
+      "http://schema.org/url": [
+        "https://e-services.dsns.gov.ua/; https://www.kmu.gov.ua/ua/service/protipozhezhna-deklaraciya "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "This is the most highly demanded service of the State Emergency Service and is usually provided to business and private entrepreneurs to ensure that the fire safety of their place of business is adequate"
       ]
     }
   ]

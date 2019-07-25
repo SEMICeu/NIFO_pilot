@@ -34,6 +34,14 @@ var countries = [];
 
 bar1.start((input.length*100)+100, 0);
 
+function checkArray(str, arr){
+    for(var i=0; i < arr.length; i++){
+        if(str.indexOf(arr[i]) > -1)
+            return true;
+    }
+    return false;
+ }
+
 /*===============*/
 /*Get country NAL*/
 /*===============*/
@@ -113,7 +121,7 @@ var createHtmlToRDFa = function() {
             content = $(this).text().trim();
             switch(content){
                 case "Country Profile":
-                    $(this).nextUntil('h1').each(function (index, elem) {
+                    $(this).nextUntil(config['section_header']).each(function (index, elem) {
                         if ($(this).text().indexOf("Population") >= 0) {
                             //Population
                             $(this).attr("property", config['prop']['population']);
@@ -155,6 +163,34 @@ var createHtmlToRDFa = function() {
                             $(this).attr("property", config['prop']['source']);
                             text= encodeURI($(this).children('a').attr('href'));
                             $(this).attr("href", text);
+                        } else if ($(this).text().indexOf("Digital Government Indicators") >= 0) {
+                            //Digital Government Indicators
+                            label = $(this).text()+" "+countryLabel;
+                            var sources = [];
+                            var source = [];
+                            $(this).attr("property", config['prop']['title']);
+                            $(this).nextAll('table').first().find('p').each(function(index, element){
+                                if ($(this).text().indexOf("Percentage of individuals using the internet for") >= 0) {
+                                    var dimensionLabel = $(this).text();
+                                    var parentNode =  $(this).parent();
+                                    $(this).attr('property', config['prop']['label']);
+                                    $(this).attr('resource', config['prefix']['measure']+dimensionLabel.replace(/ /g,''));
+                                    $(this).attr('typeOf', config['class']['measure']);
+                                    parentNode.attr('property', 'qb:component');
+                                    parentNode.attr('href', config['prefix']['measure']+dimensionLabel.replace(/ /g,''));
+
+                                } else if ($(this).text().indexOf("Source:") >= 0) {
+                                    sources.push(encodeURI($(this).children('a').first().attr("href")));
+                                }
+                            });
+                            $(this).nextUntil(config['subsection_header']).wrapAll('<div resource="'+config['prefix']['datastructure']+label.replace(/ /g,'')+'" typeOf="'+config['class']['datastructure']+'"></div>');
+                            for(var i = 0; i < sources.length; i++){
+                                if(source.toString().indexOf(sources[i]) === -1 ){ source.push(sources[i]); }
+                            }
+                            $(this).after('<span style="display:none;" property="'+config['prop']['source']+'" content="'+source.toString()+'"></span>')
+                            $(this).after('<span style="display:none;" property="'+config['prop']['structure']+'" href="'+config['prefix']['datastructure']+label.replace(/ /g,'')+'"></span>');
+                            $(this).nextUntil(config['subsection_header']).add($(this)).wrapAll('<div resource="'+config['prefix']['dataset']+label.replace(/ /g,'')+'" typeOf="'+config['class']['dataset']+'"></div>');
+                            $('body').children('div').first().children('p').first().before('<span property="'+config['prop']['relation']+'" href="'+config['prefix']['dataset']+label.replace(/ /g,'')+'"></span>');
                         } else {
                             //else
                         }
@@ -162,45 +198,149 @@ var createHtmlToRDFa = function() {
                     });
                     break;
                 case "Digital Government Highlights":
-                        $(this).nextUntil('h1').each(function (index, elem) {
-                            //console.log("content==>Highlights", content);
+                        $(this).nextUntil(config['section_header']).each(function (index, elem) {
                             $(this).find("img").addClass('keepElement');
                         });
                     break;
                 case "Digital Government Political Communications":
-                        $(this).nextUntil('h1').each(function (index, elem) {
-                            // console.log("content==>Communications", content);
+                        $(this).nextUntil(config['section_header']).each(function (index, elem) {
                             $(this).find("img").addClass('keepElement');
                         });
                     break;
                 case "Digital Government Legislation":
-                        $(this).nextUntil('h1').each(function (index, elem) {
-                            // console.log("content==>Legislation", content);
+                        $('body').children('div').first().children('p').first().before('<span property="'+config['prop']['relation']+'" href="'+config['prefix']['legalframework']+countryLabel+'"></span>');
+                        $(this).nextUntil(config['section_header']).each(function (index, elem) {
                             $(this).find("img").addClass('keepElement');
+                            $(this).find('a').each(function(index, element){
+                                var linkText = $(this).text().toLowerCase();
+                                if( checkArray(linkText, Object.keys(config['type_framework']).map(function(k) { return config['type_framework'][k] })) ){
+                                    $(this).attr('typeOf', config['class']['legalresource']);
+                                    $(this).attr('property', config['prop']['relation']);
+                                    var linkURI = encodeURI($(this).attr('href'));
+                                    $(this).attr('href', linkURI);
+                                    $(this).after('<span resource="'+linkURI+'" property="'+config['prop']['ELItitle']+'" content="'+$(this).text()+'"></span>')
+                                }
+                            });
                         });
+                        $(this).nextUntil(config['section_header']).add($(this).closest(config['section_header'])).wrapAll('<div resource="'+config['prefix']['legalframework']+countryLabel+'" typeOf="'+config['class']['framework']+'"></div>');
                     break;
                 case "Digital Government Governance":
-                        $(this).nextUntil('h1').each(function (index, elem) {
-                            // console.log("content==>Governance", content);
+                        var personURI;
+                        $(this).nextUntil(config['section_header'], 'table').each(function (index, elem) {
                             $(this).find("img").addClass('keepElement');
+                            $(this).attr('typeOf', config['class']['person']);
+                            $(this).attr('property', config['prop']['relation']);
+                            $(this).attr('href', country);
+                            $(this).find('p').each(function (index, elem) {
+                                //Annotate contact points
+                                switch(index){                            
+                                    case 1:
+                                        //Full name
+                                        personURI = config['prefix']['person']+$(this).text().replace(/ /g,'');
+                                        $(this).attr("property", config['prop']['name']);
+                                        $(this).parents("table").attr("resource", personURI)
+                                        break;
+                                    case 2:
+                                        //Role
+                                        var role = $(this).text();
+                                        var childNode = $(this).children('strong').first();
+                                        $(this).attr("about", personURI);
+                                        $(this).attr("property", config['prop']['holds']);
+                                        $(this).attr("href", config['prefix']['post']+role.replace(/ /g,''));
+                                        childNode.attr("about", config['prefix']['role']+role.replace(/ /g,''));
+                                        childNode.attr("typeOf", config['class']['role']);
+                                        childNode.attr("property", config['prop']['label']);
+                                        childNode.wrap('<span about="'+config['prefix']['post']+role.replace(/ /g,'')+'" typeOf="'+config['class']['post']+'"><span property="'+config['prop']['role']+'" href="'+config['prefix']['role']+role.replace(/ /g,'')+'"></span></span>');
+                                        break;                      
+                                }
+                                if($(this).text().indexOf("Tel.") >= 0) {
+                                    $(this).attr("property", config['prop']['telephone']);
+                                    $(this).attr("content", $(this).text().replace(/.*: /,''));
+                                } else if($(this).text().indexOf("Fax:") >= 0) {
+                                    $(this).attr("property", config['prop']['fax']);
+                                    $(this).attr("content", $(this).text().replace(/.*: /,''));
+                                } else if( ($(this).text().indexOf("E-mail:") >= 0) || ($(this).text().indexOf("Contact:") >= 0) ) {
+                                     $(this).attr("property", config['prop']['email']);
+                                    $(this).attr("content", $(this).text().replace(/.*: /,''));
+                                } else if($(this).text().indexOf("Source:") >= 0) {
+                                    $(this).attr("property", config['prop']['url']);
+                                    $(this).attr("content", $(this).children('a').first().attr('href'));
+                                }
+                            });
+                            $(this).find('p').each(function (index, elem) {
+                                switch(index){    
+                                    case 3:
+                                    //Contact details wrapper
+                                    var blankNode = config['prefix']['contact']+Math.floor((Math.random() * 10000) + 1);
+                                    $(this).nextAll().wrapAll('<div about="'+personURI+'" property="'+config['prop']['contact']+'" href="'+blankNode+'"><div resource="'+blankNode+'" typeOf="'+config['class']['contact']+'"></div></div>');
+                                    break; 
+                                }
+                            });
                         });
                     break;
                 case "Digital Government Infrastructure":
-                        $(this).nextUntil('h1').each(function (index, elem) {
-                            // console.log("content==>Infrastructure", content);
+                        $(this).nextUntil(config['section_header']).each(function (index, elem) {
                             $(this).find("img").addClass('keepElement');
                         });
                     break;
                 case "Digital Government Services for Citizens":
-                        $(this).nextUntil('h1').each(function (index, elem) {
-                            // console.log("content==>Services for Citizens", content);
+                        $(this).nextUntil(config['section_header']).each(function (index, elem) {
                             $(this).find("img").addClass('keepElement');
-                        });                  
+                            $(this).nextAll('table').first().find('p > strong').each(function(index, element){
+                                var publicService = $(this).text();
+                                var publicServiceURI = config['prefix']['service']+countryLabel+"/"+publicService.replace(/[^\w]/g,'');
+                                $(this).attr("about", publicServiceURI);
+                                $(this).attr("typeOf", config['class']['publicservice']);
+                                $(this).attr("property", config['prop']['title']);
+                                $(this).after('<span about="'+publicServiceURI+'" property="'+config['prop']['relation']+'" href="'+country+'"></span>')
+                                $(this).parentsUntil('table').nextAll('tr').each(function(index, element){
+                                    switch(index){
+                                        case 0:
+                                            $(this).find('p').last().attr("about", publicServiceURI);
+                                            $(this).find('p').last().attr("property", config['prop']['competent']);
+                                            break;
+                                        case 1:
+                                            $(this).find('p').last().attr("about", publicServiceURI);
+                                            $(this).find('p').last().attr("property", config['prop']['url']);
+                                            $(this).find('p').last().attr("href", $(this).children('a').first().attr('href'));
+                                            break;
+                                        case 2:
+                                            $(this).find('p').last().parent().attr("about", publicServiceURI);
+                                            $(this).find('p').last().parent().attr("property", config['prop']['description']);
+                                            break;
+                                    }
+                                });
+                            });
+                        });           
                     break;
                 case "Digital Government Services for Businesses":
-                        $(this).nextUntil('h1').each(function (index, elem) {
-                            // console.log("content==>Services for Businesses", content);
+                        $(this).nextUntil(config['section_header']).each(function (index, elem) {
                             $(this).find("img").addClass('keepElement');
+                            $(this).nextAll('table').first().find('p > strong').each(function(index, element){
+                                var publicService = $(this).text();
+                                var publicServiceURI = config['prefix']['service']+countryLabel+"/"+publicService.replace(/[^\w]/g,'');
+                                $(this).attr("about", publicServiceURI);
+                                $(this).attr("typeOf", config['class']['publicservice']);
+                                $(this).attr("property", config['prop']['title']);
+                                $(this).after('<span about="'+publicServiceURI+'" property="'+config['prop']['relation']+'" href="'+country+'"></span>')
+                                $(this).parentsUntil('table').nextAll('tr').each(function(index, element){
+                                    switch(index){
+                                        case 0:
+                                            $(this).find('p').last().attr("about", publicServiceURI);
+                                            $(this).find('p').last().attr("property", config['prop']['competent']);
+                                            break;
+                                        case 1:
+                                            $(this).find('p').last().attr("about", publicServiceURI);
+                                            $(this).find('p').last().attr("property", config['prop']['url']);
+                                            $(this).find('p').last().attr("href", $(this).children('a').first().attr('href'));
+                                            break;
+                                        case 2:
+                                            $(this).find('p').last().parent().attr("about", publicServiceURI);
+                                            $(this).find('p').last().parent().attr("property", config['prop']['description']);
+                                            break;
+                                    }
+                                });
+                            });
                             if ($(this).text().indexOf("The Digital Government Factsheets") >= 0) {
                                 $(this).nextAll().remove();
                                 $(this).remove();
