@@ -58,7 +58,7 @@ input.forEach(function(fileName){
 	    .then(function(result){
 	        var html = result.value; // The generated HTML
 	        var messages = result.messages; // Any messages, such as warnings during conversion
-			output = fileName.split('.');
+			output = fileName.split('.docx');
 			fs.writeFileSync(outputPath+"/"+output[0]+".html", unescape(html));
 	        fs.writeFileSync('log/'+output[0]+'.log', messages);
 	    })

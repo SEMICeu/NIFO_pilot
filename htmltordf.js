@@ -88,14 +88,28 @@ var createHtmlToRDFa = function() {
                 country = config['prefix']['nifo']+countries[i].label;
                 countryLabel = countries[i].label;
                 countryCode = countries[i].code.CODE;
-            }
+            } else if (fileName.indexOf('UK') >= 0 || fileName.indexOf('United Kingdom') >= 0 ||fileName.indexOf('United_Kingdom') >= 0) {
+                // The United Kingdom
+                country = config['prefix']['nifo']+'United%20Kingdom';
+                countryLabel = 'UK';
+                countryCode = 'GBR';
+            } else if (fileName.indexOf('North_Macedonia') >= 0 || fileName.indexOf('North Macedonia') >= 0 ) {
+                // Republic of North Macedonia
+                country = config['prefix']['nifo']+'North%20Macedonia';
+                countryLabel = 'North_Macedonia';
+                countryCode = 'MKD';
+            } else if (fileName.indexOf('Czech_Republic') >= 0 || fileName.indexOf('Czech Republic') >= 0) {
+                // Czech Republic
+                country = config['prefix']['nifo']+'Czech%20Republic';
+                countryLabel = 'Czech_Republic';
+                countryCode = 'CZE';
+            } 
         }    
     
         //Add root node and namespaces to document
         $('body').contents().wrapAll('<div resource="'+country+'" prefix="'+config['prefixes']+'"></div>');
-        $('body').children('div').first().children('p').first().before('<p class="image-container" style="position:relative"></p>');
+        $('body').children('div').first().children('p').first().before('<p class="image-container" style="text-align: center;"></p>');
         $('body').children('div').first().children('p').first().before('<span property="'+config['prop']['ispartof']+'" href="'+config['prefix']['factsheets']+'"><span property="'+config['prop']['seealso']+'" href="http://dbpedia.org/resource/'+countryLabel+'"></span><span property="'+config['prop']['issued']+'" content="'+config['issued']+'"></span><span property="'+config['prop']['licence']+'" content="'+config['licence']+'"></span><span property="'+config['prop']['country']+'" content="'+config['prefix']['country']+countryCode+'"></span>');
-        //$( "p:contains('ISA')" ).css("color", "red");#00b0f0
         $( "p:contains('ISA')" ).remove();
         $( "h3" ).each(function(index, element){
             $(this).css("color", "#0070c0");
@@ -110,7 +124,7 @@ var createHtmlToRDFa = function() {
             var _this = $(this);
             var oldSrc = _this.attr('src');
             if (index == 0) {
-                imgSrcCountry = (countryLabel == 'Austria') ? '../assets/country.jpeg' : oldSrc;
+                imgSrcCountry = oldSrc;
             }
         });
     
@@ -147,7 +161,7 @@ var createHtmlToRDFa = function() {
                             $(this).attr("property", config['prop']['capital']);
                             text= $(this).text().replace(/.*: /,'');
                             $(this).attr("content", text);
-                        } else if ($(this).text().indexOf("Official EU language") >= 0) {
+                        } else if ($(this).text().indexOf("Official EU language") >= 0 || $(this).text().indexOf("Official language") >= 0) {
                             //Official EU language
                             //Obtain language label from text
                             $(this).attr("property", config['prop']['language']);
@@ -227,32 +241,42 @@ var createHtmlToRDFa = function() {
                 case "Digital Government Governance":
                         var personURI;
                         $(this).nextUntil(config['section_header'], 'table').each(function (index, elem) {
-                            $(this).find("img").addClass('keepElement');
+                            $(this).find("img").addClass('keepElement').css('max-height', '300px');
                             $(this).attr('typeOf', config['class']['person']);
                             $(this).attr('property', config['prop']['relation']);
                             $(this).attr('href', country);
                             $(this).find('p').each(function (index, elem) {
-                                //Annotate contact points
-                                switch(index){                            
-                                    case 1:
-                                        //Full name
-                                        personURI = config['prefix']['person']+$(this).text().replace(/ /g,'');
-                                        $(this).attr("property", config['prop']['name']);
-                                        $(this).parents("table").attr("resource", personURI)
-                                        break;
-                                    case 2:
-                                        //Role
-                                        var role = $(this).text();
-                                        var childNode = $(this).children('strong').first();
-                                        $(this).attr("about", personURI);
-                                        $(this).attr("property", config['prop']['holds']);
-                                        $(this).attr("href", config['prefix']['post']+role.replace(/ /g,''));
-                                        childNode.attr("about", config['prefix']['role']+role.replace(/ /g,''));
-                                        childNode.attr("typeOf", config['class']['role']);
-                                        childNode.attr("property", config['prop']['label']);
-                                        childNode.wrap('<span about="'+config['prefix']['post']+role.replace(/ /g,'')+'" typeOf="'+config['class']['post']+'"><span property="'+config['prop']['role']+'" href="'+config['prefix']['role']+role.replace(/ /g,'')+'"></span></span>');
-                                        break;                      
+                                if ($(this).text() == " ") {
+                                    $(this).remove();
                                 }
+                                if ($(this).text().indexOf("Contact details:") >= 0) {
+                                    var thisLenght = $(this).prevAll().length;
+                                    $(this).prevAll().each(function (index, elem) {
+                                        var value = $(this).text();
+                                        $(this).html('<strong>'+value+'</strong>');
+                                        //Annotate contact points
+                                        if (index === thisLenght - 1) {
+                                            //Full name
+                                            personURI = config['prefix']['person']+$(this).text().replace(/ /g,'');
+                                            $(this).attr("property", config['prop']['name']);
+                                            $(this).parents("table").attr("resource", personURI);
+                                        }
+                                        if (index === thisLenght - 2) {
+                                            //Role
+                                            var role = $(this).text();
+                                            var childNode = $(this).children('strong').first();
+                                            $(this).attr("about", personURI);
+                                            $(this).attr("property", config['prop']['holds']);
+                                            $(this).attr("href", config['prefix']['post']+role.replace(/ /g,''));
+                                            childNode.attr("about", config['prefix']['role']+role.replace(/ /g,''));
+                                            childNode.attr("typeOf", config['class']['role']);
+                                            childNode.attr("property", config['prop']['label']);
+                                            childNode.wrap('<span about="'+config['prefix']['post']+role.replace(/ /g,'')+'" typeOf="'+config['class']['post']+'"><span property="'+config['prop']['role']+'" href="'+config['prefix']['role']+role.replace(/ /g,'')+'"></span></span>');
+                                        }
+                                    });
+                                }
+                            });
+                            $(this).find('p').each(function (index, elem) {
                                 if($(this).text().indexOf("Tel.") >= 0) {
                                     $(this).attr("property", config['prop']['telephone']);
                                     $(this).attr("content", $(this).text().replace(/.*: /,''));
@@ -268,12 +292,10 @@ var createHtmlToRDFa = function() {
                                 }
                             });
                             $(this).find('p').each(function (index, elem) {
-                                switch(index){    
-                                    case 3:
-                                    //Contact details wrapper
+                                if ($(this).text().indexOf("Contact details:") >= 0) {
                                     var blankNode = config['prefix']['contact']+Math.floor((Math.random() * 10000) + 1);
                                     $(this).nextAll().wrapAll('<div about="'+personURI+'" property="'+config['prop']['contact']+'" href="'+blankNode+'"><div resource="'+blankNode+'" typeOf="'+config['class']['contact']+'"></div></div>');
-                                    break; 
+                                        
                                 }
                             });
                         });
@@ -350,6 +372,12 @@ var createHtmlToRDFa = function() {
                     break;
             }
         });
+
+        $('body').children('div').first().children('p').each(function(index, element){
+             if ($(this).text().indexOf("Digital Government Factsheet 2019") >= 0 || $(this).text().indexOf(countryLabel) >= 0 || $(this).text().indexOf('The United Kingdom') >= 0 || $(this).text().indexOf('Czech Republic') >= 0 || $(this).text().indexOf('Republic of North Macedonia') >= 0) {
+                 $(this).remove();
+             }
+         });
     
         $( "img" ).each(function(index, element){
             var _this = $(this);
@@ -360,8 +388,21 @@ var createHtmlToRDFa = function() {
                 _this.remove();
             }
         });
-        $('p.image-container').append('<img style="position:relative; width: 20%;left: 42%;z-index: 1;" src="../assets/european-commission.png" /><img style="position:relative;width: 100%;top: -65px;" src="'+'../html/' + imgSrcCountry+'" />')
-    
+        $('p.image-container').append('<img style="width: 20%;" src="../assets/european-commission.png" /><img style="width: 100%;" src="'+'../html/' + imgSrcCountry+'" />');
+        switch(countryLabel){
+            case 'UK':
+                $('p.image-container').after('<h2>The United Kingdom</h2>');   
+                break;
+            case 'North_Macedonia':
+                $('p.image-container').after('<h2>Republic of North Macedonia</h2>');
+                break;
+            case 'Czech_Republic':
+                $('p.image-container').after('<h2>Czech Republic</h2>');
+                break;
+            default:
+                $('p.image-container').after('<h2>'+countryLabel+'</h2>');
+        }
+        $('p.image-container').after('<h2>Digital Government Factsheet 2019</h2>');
         /*=================*/
         /* GENERATE OUTPUT */
         /*=================*/
@@ -380,12 +421,13 @@ var createHtmlToRDFa = function() {
                 //that.remove();
             }
         });
-        var output = fileName.split('.');
+        var output = fileName.split('.html');
         fs.writeFile(outputPath + "/" + output[0] + ".html", unescape($.html()), function (err) {
             if (err) {
                 return console.log(err);
             }
-            console.log("The "+countryLabel+" RDFa file was saved!");
+            var countryLabelToShow = countryLabel.replace(/\_/g, ' ');
+            console.log("The "+countryLabelToShow+" RDFa file was saved!");
         });
     
         //Save the file in Turtle syntax
