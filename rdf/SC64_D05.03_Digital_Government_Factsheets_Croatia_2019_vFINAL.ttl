@@ -1,0 +1,683 @@
+<http://data.europa.eu/nifo/factsheet/Croatia> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Croatia>;
+ <http://purl.org/dc/terms/issued> "2019-07";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/HRV";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/dataset/DigitalGovernmentIndicatorsCroatia>, <http://example.org/nifo/legalframework/Croatia>, <http://example.org/nifo/person/Mr.LovroKuščević>, <http://example.org/nifo/person/Mrs.ZrinkaBulić>, <http://example.org/nifo/person/Mr.BernardGršić>;
+ <http://dbpedia.org/ontology/populationTotal> "4 105 493 inhabitants (2018)";
+ <http://dbpedia.org/property/gdpNominal> "51 457 million Euros (2018)";
+ <http://dbpedia.org/property/gdpPppPerCapita> "65 (2017)";
+ <http://dbpedia.org/ontology/areaTotal> "56 500 km²";
+ <http://dbpedia.org/ontology/capital> "Zagreb";
+ <http://purl.org/dc/terms/source> <http://ec.europa.eu/eurostat/data/database>, <http://data.europa.eu/nifo/factsheet/undefined>, <https://ec.europa.eu/digital-single-market/en/news/egovernment-benchmark-2018-digital-efforts-european-countries-are-visibly-paying> .
+<http://example.org/nifo/dataset/DigitalGovernmentIndicatorsCroatia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataSet>;
+ <http://purl.org/dc/terms/title> "Digital Government Indicators";
+ <http://purl.org/linked-data/cube#structure> <http://example.org/nifo/structure/DigitalGovernmentIndicatorsCroatia>;
+ <http://purl.org/dc/terms/source> "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en" .
+<http://example.org/nifo/structure/DigitalGovernmentIndicatorsCroatia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition>;
+ <http://purl.org/linked-data/cube#component> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinCroatia>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinCroatia>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinCroatia>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinCroatia>;
+ <http://www.w3.org/2000/01/rdf-schema#label> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinCroatia>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinCroatia>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinCroatia>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinCroatia> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinCroatia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinCroatia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinCroatia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinCroatia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/legalframework/Croatia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.zakon.hr/z/736/Zakon-o-dr%2525C3%252585%2525C2%2525BEavnoj-informacijskoj-infrastrukturi>, <http://narodne-novine.nn.hr/clanci/sluzbeni/290420.html>, <http://narodne-novine.nn.hr/clanci/sluzbeni/2003_10_172_2491.html>, <http://www.digured.hr/cadial/searchdoc.php?action=search&query=NN+85/15&searchText=on&searchTitle=on&filteracttype=all&filterfields=all&filtereuchapter=all&resultlimitnum=10&resultdetails=basic&lang=hr&resultoffset=10&bid=4A4CWRLPu7Mz/HV2V+0AhQ==&annotate=on>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG>, <https://www.zakon.hr/z/923/Zakon-o-provedbi-Uredbe-(EU)-br.-910/2014-Europskog-parlamenta-i-Vije%2525C3%252584%2525E2%252580%2525A1a-od-23.-srpnja-2014.-o-elektroni%2525C3%252584%2525C2%25258Dkoj-identifikaciji-i-uslugama-povjerenja-za-elektroni%2525C3%252584%2525C2%25258Dke-transakcije-na-unutarnjem-tr%2525C3%252585%2525C2%2525BEi%2525C3%252585%2525C2%2525A1tu-i-stavljanju-izvan-snage-Direktive-1999/93/EZ>, <https://narodne-novine.nn.hr/clanci/sluzbeni/2018_07_64_1305.html>, <http://narodne-novine.nn.hr/clanci/sluzbeni/2003_06_103_1364.html>, <http://digured.srce.hr/arhiva/263/18315/www.nn.hr/clanci/sluzbeno/2002/2234.htm>, <http://digured.srce.hr/arhiva/263/26986/www.nn.hr/clanci/sluzbeno/2007/0651.htm>, <http://digured.srce.hr/arhiva/263/18315/www.nn.hr/clanci/sluzbeno/2004/2031.htm>, <http://pak.hr/cke/propisi,%252520zakoni/en/PublicProcurementAct/EN.pdf>, <http://narodne-novine.nn.hr/clanci/sluzbeni/2015_11_124_2355.html>, <https://www.zakon.hr/z/1455/Zakon-o-porezu-na-dodanu-vrijednost>, <https://narodne-novine.nn.hr/clanci/sluzbeni/2018_10_94_1817.html>, <https://narodne-novine.nn.hr/clanci/sluzbeni/2019_02_17_358.html>, <https://narodne-novine.nn.hr/clanci/sluzbeni/2018_07_64_1304.html>, <http://narodne-novine.nn.hr/clanci/sluzbeni/2003_10_173_2504.html>, <https://narodne-novine.nn.hr/clanci/sluzbeni/2018_02_12_266.html> .
+<https://www.zakon.hr/z/736/Zakon-o-dr%2525C3%252585%2525C2%2525BEavnoj-informacijskoj-infrastrukturi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<https://www.zakon.hr/z/736/Zakon-o-dr%C3%85%C2%BEavnoj-informacijskoj-infrastrukturi> <http://data.europa.eu/eli/ontology#title> "Law on the State Information Infrastructure" .
+<http://narodne-novine.nn.hr/clanci/sluzbeni/290420.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Electronic Document Act";
+ <http://purl.org/dc/terms/relation> <http://narodne-novine.nn.hr/clanci/sluzbeni/298919.html> .
+<http://narodne-novine.nn.hr/clanci/sluzbeni/298919.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Information Security and Confidentiality Act";
+ <http://purl.org/dc/terms/relation> <http://narodne-novine.nn.hr/clanci/sluzbeni/2003_10_172_2491.html> .
+<http://narodne-novine.nn.hr/clanci/sluzbeni/2003_10_172_2491.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on the Right to Access Information", "Act on the Right of Access to Information" .
+<http://www.digured.hr/cadial/searchdoc.php?action=search&query=NN+85/15&searchText=on&searchTitle=on&filteracttype=all&filterfields=all&filtereuchapter=all&resultlimitnum=10&resultdetails=basic&lang=hr&resultoffset=10&bid=4A4CWRLPu7Mz/HV2V+0AhQ==&annotate=on> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the Right of Access to Information" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation (EU) No. 910/2014 of the European Parliament and of the Council of 23 July 2014 on electronic identification and trust services for electronic transactions", "eIDAS Regulation";
+ <http://purl.org/dc/terms/relation> <https://www.zakon.hr/z/923/Zakon-o-provedbi-Uredbe-(EU)-br.-910/2014-Europskog-parlamenta-i-Vije%2525C3%252584%2525E2%252580%2525A1a-od-23.-srpnja-2014.-o-elektroni%2525C3%252584%2525C2%25258Dkoj-identifikaciji-i-uslugama-povjerenja-za-elektroni%2525C3%252584%2525C2%25258Dke-transakcije-na-unutarnjem-tr%2525C3%252585%2525C2%2525BEi%2525C3%252585%2525C2%2525A1tu-i-stavljanju-izvan-snage-Direktive-1999/93/EZ> .
+<https://www.zakon.hr/z/923/Zakon-o-provedbi-Uredbe-(EU)-br.-910/2014-Europskog-parlamenta-i-Vije%2525C3%252584%2525E2%252580%2525A1a-od-23.-srpnja-2014.-o-elektroni%2525C3%252584%2525C2%25258Dkoj-identifikaciji-i-uslugama-povjerenja-za-elektroni%2525C3%252584%2525C2%25258Dke-transakcije-na-unutarnjem-tr%2525C3%252585%2525C2%2525BEi%2525C3%252585%2525C2%2525A1tu-i-stavljanju-izvan-snage-Direktive-1999/93/EZ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<https://www.zakon.hr/z/923/Zakon-o-provedbi-Uredbe-(EU)-br.-910/2014-Europskog-parlamenta-i-Vije%C3%84%E2%80%A1a-od-23.-srpnja-2014.-o-elektroni%C3%84%C2%8Dkoj-identifikaciji-i-uslugama-povjerenja-za-elektroni%C3%84%C2%8Dke-transakcije-na-unutarnjem-tr%C3%85%C2%BEi%C3%85%C2%A1tu-i-stavljanju-izvan-snage-Direktive-1999/93/EZ> <http://data.europa.eu/eli/ontology#title> "Electronic Signature Act", "Implementation Act on eIDAS Regulation";
+ <http://purl.org/dc/terms/relation> <http://narodne-novine.nn.hr/clanci/sluzbeni/2014_03_30_510.html>, <https://www.zakon.hr/z/199/Zakon-o-elektroni%2525C3%252584%2525C2%25258Dkoj-trgovini> .
+<http://narodne-novine.nn.hr/clanci/sluzbeni/2014_03_30_510.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law NN 30/14" .
+<https://narodne-novine.nn.hr/clanci/sluzbeni/2018_07_64_1305.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Cyber Security of Operators of Essential Services and Digital Service Providers" .
+<http://narodne-novine.nn.hr/clanci/sluzbeni/2003_06_103_1364.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Personal Data Protection Act" .
+<http://digured.srce.hr/arhiva/263/18315/www.nn.hr/clanci/sluzbeno/2002/2234.htm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Court Register Act" .
+<http://digured.srce.hr/arhiva/263/26986/www.nn.hr/clanci/sluzbeno/2007/0651.htm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on State Survey and Real Estate Cadastre" .
+<http://digured.srce.hr/arhiva/263/18315/www.nn.hr/clanci/sluzbeno/2004/2031.htm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation on Keeping Records and the Form of Personal Data" .
+<http://pak.hr/cke/propisi,%252520zakoni/en/PublicProcurementAct/EN.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://pak.hr/cke/propisi,%20zakoni/en/PublicProcurementAct/EN.pdf> <http://data.europa.eu/eli/ontology#title> "Public Procurement Act" .
+<http://narodne-novine.nn.hr/clanci/sluzbeni/2015_11_124_2355.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decision 124/2015" .
+<https://www.zakon.hr/z/1455/Zakon-o-porezu-na-dodanu-vrijednost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Value Added Tax Act";
+ <http://purl.org/dc/terms/relation> <https://zakon.hr/z/118/Zakon-o-ra%2525C3%252584%2525C2%25258Dunovodstvu> .
+<https://zakon.hr/z/118/Zakon-o-ra%2525C3%252584%2525C2%25258Dunovodstvu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<https://zakon.hr/z/118/Zakon-o-ra%C3%84%C2%8Dunovodstvu> <http://data.europa.eu/eli/ontology#title> "Act on the Accounting";
+ <http://purl.org/dc/terms/relation> <https://www.zakon.hr/z/211/Zakon-o-elektroni%2525C3%252584%2525C2%25258Dkom-potpisu> .
+<https://www.zakon.hr/z/211/Zakon-o-elektroni%2525C3%252584%2525C2%25258Dkom-potpisu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<https://www.zakon.hr/z/211/Zakon-o-elektroni%C3%84%C2%8Dkom-potpisu> <http://data.europa.eu/eli/ontology#title> "Electronic Document Act";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG> .
+<https://www.zakon.hr/z/199/Zakon-o-elektroni%2525C3%252584%2525C2%25258Dkoj-trgovini> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<https://www.zakon.hr/z/199/Zakon-o-elektroni%C3%84%C2%8Dkoj-trgovini> <http://data.europa.eu/eli/ontology#title> "Electronic Commerce Act" .
+<https://narodne-novine.nn.hr/clanci/sluzbeni/2018_10_94_1817.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Electronic Invoicing in Public Procurement" .
+<https://narodne-novine.nn.hr/clanci/sluzbeni/2019_02_17_358.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Accessibility of Web Pages and Mobile Software Solutions of Public Sector Bodies" .
+<https://narodne-novine.nn.hr/clanci/sluzbeni/2018_07_64_1304.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on eCash" .
+<http://narodne-novine.nn.hr/clanci/sluzbeni/2003_10_173_2504.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Electronic Commerce" .
+<https://narodne-novine.nn.hr/clanci/sluzbeni/2018_02_12_266.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation on the electronic communication in proceedings with commercial courts" .
+<http://example.org/nifo/person/Mr.LovroKuščević> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Mr. Lovro Kuščević ";
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofPublicAdministration>, <http://example.org/nifo/post/Post-AssistantMinisterofPublicAdministration>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4567> .
+<http://example.org/nifo/post/Post-MinisterofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofPublicAdministration> .
+<http://example.org/nifo/role/Role-MinisterofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Public Administration" .
+<http://example.org/ContactPoint/4567> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "kabinet@uprava.hr";
+ <http://schema.org/telephone> "+385 1 235 7500 ";
+ <http://schema.org/url> "https://vlada.gov.hr/o-vladi/clanovi-vlade/clanovi-vlade-128/dubravka-jurlina-alibegovic/18259" .
+<http://example.org/nifo/person/Mrs.ZrinkaBulić> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Mrs. Zrinka Bulić ";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2557>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-StateSecretaryoftheStateOfficefortheDevelopmentoftheDigitalSociety> .
+<http://example.org/nifo/post/Post-AssistantMinisterofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-AssistantMinisterofPublicAdministration> .
+<http://example.org/nifo/role/Role-AssistantMinisterofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Assistant Minister of Public Administration" .
+<http://example.org/ContactPoint/2557> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "e-hrvatska@uprava.hr ";
+ <http://schema.org/telephone> "+385 1 235 7543 ";
+ <http://schema.org/url> "https://uprava.gov.hr/" .
+<http://example.org/nifo/person/Mr.BernardGršić> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Mr. Bernard Gršić";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4524> .
+<http://example.org/nifo/post/Post-StateSecretaryoftheStateOfficefortheDevelopmentoftheDigitalSociety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-StateSecretaryoftheStateOfficefortheDevelopmentoftheDigitalSociety> .
+<http://example.org/nifo/role/Role-StateSecretaryoftheStateOfficefortheDevelopmentoftheDigitalSociety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "State Secretary of the State Office for the Development of the Digital Society " .
+<http://example.org/ContactPoint/4524> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "ured@rdd.hr ";
+ <http://schema.org/telephone> "+385 1 4400 840";
+ <http://schema.org/url> "https://rdd.gov.hr/" .
+<http://example.org/nifo/publicservice/Croatia/Passport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Passport";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Interior, County Police offices";
+ <http://schema.org/url> "https://mup.gov.hr/putovnica-330/330";
+ <http://purl.org/dc/terms/description> "Passports are issued by the police headquarters or the police station closest to the place of residence of the citizens. The Police Headquarters’ website offers the possibility to obtain and download the paper form for an identity card or passport application.The ePassport service allows submitting a request for passport through the eCitizen system. " .
+<http://example.org/nifo/publicservice/Croatia/AirPassengersRights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Air Passengers’ Rights";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Croatian Civil Aviation Agency";
+ <http://schema.org/url> "http://www.ccaa.hr/english/prava-putnika_24/ ";
+ <http://purl.org/dc/terms/description> "The Croatian Civil Aviation Agency is the competent national enforcement body for air passengers' rights in following situations: long delay, cancelled flight, denied boarding, downgrading, infringement of the rights of disabled persons and persons with reduced mobility. In the above-mentioned cases the passenger should first contact the airline or, for issues related to disabled persons or persons with reduced mobility, the airport. If the passenger is not satisfied with their response, or if he/she hasn’t received any response within 30 days of delivery, a complaint can be filed with the Croatian Civil Aviation Agency or other Member State’s National Enforcement Body (NEB). Complaints should in principle be filed in the country where the incident took place. If the incident took place at the airport outside the EU, complaint can be filed to NEB in the Member State of flight destination." .
+<http://example.org/nifo/publicservice/Croatia/Reducedmobility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Reduced mobility";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Croatian Civil Aviation Agency";
+ <http://schema.org/url> "http://www.ccaa.hr/english/rights-of-disabled-persons-and-persons-with-reduced-mobility_154/ ";
+ <http://purl.org/dc/terms/description> "The Croatian Civil Aviation Agency is the competent national enforcement body for infringement of the rights of disabled persons and persons with reduced mobility. Pursuant to Regulation (EC) 1107/2006 of the European Parliament and of the Council of 5 July 2006 concerning the rights of disabled persons and persons with reduced mobility when travelling by air (OJ L 204, 26.7.2006), these persons have a right to free of charge assistance at the airport (departure, arrival, transit) and during the flight (for example, transport of wheelchairs or assistance dogs). In order to enjoy their rights, these persons are required to notify the air carrier on their needs at least 48 hours before the scheduled time of departure of their flight.In case of infringement of their rights, passengers should first contact the airline or the airport.If the passenger is not satisfied with their response, or if he/she doesn’t receive any response within 30 days of delivery, a complaint can be filed with the Croatian Civil Aviation Agency." .
+<http://example.org/nifo/publicservice/Croatia/Internationaldrivingpermit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "International driving permit";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Croatian autoclub";
+ <http://schema.org/url> "https://www.hak.hr/info/ ";
+ <http://purl.org/dc/terms/description> "On the website above, there is available information about the international driving permit, permit to operate a foreign vehicle abroad, international customs documents, vignettes and tolls in Europe, and eco vignettes.There is also updated information about traffic flow and road conditions, events on road network like traffic flow, road closures due to roadworks, temporary traffic regulation, road conditions and visibility, border crossings, ferry traffic, railway traffic, traffic forecast, traffic cams." .
+<http://example.org/nifo/publicservice/Croatia/Variousinformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Various information ";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Customs Administration, Croatian Civil Aviation Agency";
+ <http://schema.org/url> "http://www.ccaa.hr/english/list-of-prohibited-articles_142/ ";
+ <http://purl.org/dc/terms/description> "Pets are allowed to enter the Republic of Croatia only through the defined border crossings.Transfer of plants and plant products is possible only through border crossings where a phytosanitary inspection has been established, except where small quantities of products are transferred.In the case of entering or leaving the EU with EUR 10,000 euros or more in cash (or the equivalent in other currencies), you must check with the customs authorities in the countries you are leaving, entering and passing through whether you must declare it." .
+<http://example.org/nifo/publicservice/Croatia/Securitycheck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Security check";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Croatian Civil Aviation Agency";
+ <http://schema.org/url> "http://www.ccaa.hr/english/check-in-and-security-check_153/ ";
+ <http://purl.org/dc/terms/description> "All passengers, their hand and checked luggage have to undergo security checks before entering into security restricted areas. Security checks are performed at check points, manually, with technical devices and/or by combining both methods. When preparing for the security screening of passengers and hand luggage, store metal jewellery, watches, coins and similar items in the hand luggage in order not to misplace or forget them, or place them in the plastic tray for the x-ray check.When preparing for security screening of passengers and hand luggage, remove the bag with the liquids from the hand luggage.When preparing for the security screening of passengers and hand luggage, remove the laptops and other larger electronic devices (such as gaming consoles, digital photo cameras and recording cameras) from the hand luggage and place them in the plastic tray so they can be separately checked.Remove your jacket and/or coat and place them in a plastic tray for a separate check.Be prepared to remove your belt and/or take off your shoes and to place them in the plastic tray for separate check if requested by the security officer." .
+<http://example.org/nifo/publicservice/Croatia/Jobsearchservicesbylabouroffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Job search services by labour offices";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Economy, Entrepreneurship and Crafts, Ministry of Labour and Pension System, Croatian Employment Service";
+ <http://schema.org/url> "http://www.hzz.hr/ ";
+ <http://purl.org/dc/terms/description> "To facilitate job searches, the Croatian Employment Service, i.e. its Regional Departments, introduced the online public service 'Searching for a Job?' with the possibility of free browsing through a list of vacant posts. The web page of the service provides a detailed search for information on available jobs, employers' names, descriptions, dates and expiration of applications, statistics etc. Downloadable forms are also provided." .
+<http://example.org/nifo/publicservice/Croatia/eDetectives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "eDetectives";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Interior";
+ <http://schema.org/url> "https://pretinac.gov.hr/KorisnickiPretinac/eGradani.html ";
+ <http://purl.org/dc/terms/description> "The service allows individuals to submit applications for issuing permission for the work as a private detective and submit a request for a professional exam." .
+<http://example.org/nifo/publicservice/Croatia/eSubmission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "eSubmission";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Science and Education";
+ <http://schema.org/url> "https://pretinac.gov.hr/KorisnickiPretinac/eGradani.html ";
+ <http://purl.org/dc/terms/description> "The service enables physical and legal entities to register a business establishment and to submit other documentation electronically instead of sending them by post; a review of submitted documentation and notification of their receipt and processing are sent to the personal user box." .
+<http://example.org/nifo/publicservice/Croatia/TheCentralStateOfficefortheDevelopmentoftheDigitalSociety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "The Central State Office for the Development of the Digital Society";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government", "Central Government ";
+ <http://schema.org/url> "http://www.digured.hr/; https://rdd.gov.hr/";
+ <http://purl.org/dc/terms/description> "Digital Information - Documentation Office is the official service of the Government for the dissemination of information, documentation and referral. It provides a central information and documentation portal for official information and documents of the public domain. Documentation includes laws, regulations, state documents, official studies and other similar data. Storage is permanently allocated in DAMIR, the Digital Archives of Web Sources of the Republic of Croatia. Digital Information-Documentation Office ensures the availability of public official data, information and documents while promoting its use. Following the Law on the Organisation and Scope of Ministries and Other Central Government Bodies, which entered into force in November 2016, Digital Information-Documentation Office became a part of The Central State Office for the Development of the Digital Society.", "Former Digital Information-Documentation Office was integrated in December 2016 within the Central State Office for the Development of the Digital Society as the official service of the Government for the dissemination of information, documentation and referral. It provides a central information and documentation portal for official information and documents of the public domain. Documentation includes laws, regulations, state documents, official studies and other similar data. Storage is permanently allocated in DAMIR, the Digital Archives of Web Sources of the Republic of Croatia. The Office ensures the availability of public official data, information and documents while promoting its use." .
+<http://example.org/nifo/publicservice/Croatia/eTaxlegalandnaturalentities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "eTax (legal and natural entities)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Finance, Tax Administration";
+ <http://schema.org/url> "http://www.hitro.hr/Default.aspx?sec=37 ", "http://www.hitro.hr/Default.aspx?sec=37";
+ <http://purl.org/dc/terms/description> "The website of the Tax administrations of the Ministry of Finance and the tax administrations of the counties offers the possibility to completely treat the declaration of corporate tax online. The service provides the following: filling of electronic forms; input data validation; electronic signature; sending an electronic form; receiving confirmation of receipt; checking the status of sent and received electronic forms." .
+<http://example.org/nifo/publicservice/Croatia/eInsuranceofWorkersClaims> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "eInsurance of Workers’ Claims";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Workers’ Claims Insurance Agency";
+ <http://schema.org/url> "https://www.aort.hr/";
+ <http://purl.org/dc/terms/description> "The service enables that employees submit a request for claiming their rights in the case of the bankruptcy of the employer. The application is submitted to the Agency for securing workers' claims and the decision follows in the administrative procedure." .
+<http://example.org/nifo/publicservice/Croatia/ePension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "ePension";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government", "Central Government ";
+ <http://schema.org/url> "http://www.hitro.hr/Default.aspx?sec=38 ", "http://www.hitro.hr/Default.aspx?sec=38";
+ <http://purl.org/dc/terms/description> "'HITRO.HR' portal is a service provided by the Government to facilitate rapid communication between citizens and businesses with the State administration. This eServices infrastructure serves as a one-stop shop as it enables citizens and businesses to enjoy quicker, simpler access to information and services in one location. In this instance it allows the employers and taxpayers (legal and natural entities) to register online for pension insurance.", "'HITRO.HR' portal is a service provided by the Government to facilitate rapid communication between citizens and businesses with the State administration. This eServices infrastructure serves as a one-stop shop as it enables citizens and businesses to enjoy quicker, simpler access to information and services in one location. In this instance it allows the employers and taxpayers (legal and natural entities) to register online for pension insurance. " .
+<http://example.org/nifo/publicservice/Croatia/eRegosCentralRegistryofInsuredPersons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "eRegos (Central Registry of Insured Persons)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government";
+ <http://schema.org/url> "http://www.hitro.hr/Default.aspx?sec=64 ";
+ <http://purl.org/dc/terms/description> "'HITRO.HR' portal is a service provided by the Government to facilitate rapid communication between citizens and businesses with the State administration. This eServices infrastructure serves as a one-stop shop as it enables citizens and businesses to enjoy quicker, simpler access to information and services in one location. In this instance it allows registered users to submit electronically the R-Sm form (the insured person’s specification based on calculated and paid compulsory contributions for pension fund insurance). Retired persons can now also receive a digital confirmation from the system in regard to their pension." .
+<http://example.org/nifo/publicservice/Croatia/Incometaxesdeclarationnotificationofassessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Income taxes: declaration, notification of assessment";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Finance, Tax Administration";
+ <http://schema.org/url> "http://www.mfin.hr; http://www.mfin.hr/hr/porezi ";
+ <http://purl.org/dc/terms/description> "Taxpayers submit annual tax claims for the previous year to the competent Tax Administration Branch Office, according to the residence, by the end of February of each year. Income tax declaration is performed through an application form for income tax declaration. The Ministry of Finance's Tax Administration website offers the possibility of obtaining and downloading the paper form used to start the procedure for income tax declaration." .
+<http://example.org/nifo/publicservice/Croatia/Unemploymentbenefits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Unemployment benefits";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Economy, Entrepreneurship and Crafts, Ministry of Labour and Insurance System, Croatian Employment Service";
+ <http://schema.org/url> "https://pretinac.gov.hr/KorisnickiPretinac/eGradani.html ";
+ <http://purl.org/dc/terms/description> "The website of the Croatian Employment Service offers the possibility to obtain and download the paper form in order to apply for social benefits." .
+<http://example.org/nifo/publicservice/Croatia/TaxAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Tax Administration";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Tax Administration";
+ <http://schema.org/url> "https://www.porezna-uprava.hr/en/EN_o_nama/Pages/default.aspx ";
+ <http://purl.org/dc/terms/description> "The Tax Administration is the administrative organisation within the Ministry of Finance whose basic duty is to implement tax regulations and regulations concerning the payment of obligatory contributions. All residents are obliged to participate in the settlement of public expenses in accordance with their economic abilities. The tax system is based on the principles of equality and equity. On the website, information is available about double taxation, VAT for foreign persons, VAT refund, foreign passenger carriers, rental of real estate by non-residents, determination of the residency status for tax purposes, mutual agreement procedure." .
+<http://example.org/nifo/publicservice/Croatia/VATrefundsandexciseduties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "VAT refunds and excise duties";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Finance, Tax Administration";
+ <http://schema.org/url> "http://www.mfin.hr/";
+ <http://purl.org/dc/terms/description> "The VAT application form is submitted to the authorised Tax Administration branch office according to the place of residence or the usual residence of a taxpayer. The website of the Tax Administrations of the Ministry of Finance or County tax administrations offers the possibility to completely treat the VAT declaration online. The service provides the following: filling of electronic forms; input data validation; electronic signature; sending an electronic form; receiving confirmation of receipt; checking the status of sent and received electronic forms." .
+<http://example.org/nifo/publicservice/Croatia/Taxonvehicles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Tax on vehicles";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Finance, Tax Administration";
+ <http://schema.org/url> "https://e-carina.carina.hr/ppmv/ ";
+ <http://purl.org/dc/terms/description> "The eCitizen portal allows individuals to submit electronic tax invoices for the calculation and payment of special tax on motor vehicles when importing, entering, purchasing from a trader, for registration and use on roads in the Republic of Croatia. Service covers a tax solution notice with an informative copy of the document." .
+<http://example.org/nifo/publicservice/Croatia/Driverslicence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Driver’s licence";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Interior, County Police offices";
+ <http://schema.org/url> "https://pretinac.gov.hr/KorisnickiPretinac/eGradani.html ";
+ <http://purl.org/dc/terms/description> "Request for issuing a driving licence is submitted on a predefined form to the police headquarters or police station closest to the place of residence. The Police Headquarters' website offers the possibility to obtain and download the paper form for a driver's licence application." .
+<http://example.org/nifo/publicservice/Croatia/Liability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Liability";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Croatian Insurance Bureau";
+ <http://schema.org/url> "https://www.huo.hr/eng/ ";
+ <http://purl.org/dc/terms/description> "Motor Third Party Liability Insurance Register of Vehicles Registered in Croatia service enables making enquiries on the motor third party liability insurance of vehicles registered in Croatia. The information on the motor third party liability insurance of the vehicle correspond to the data contained in the Central Vehicle Register." .
+<http://example.org/nifo/publicservice/Croatia/Carregistrationnewusedimportedcars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Car registration (new, used, imported cars)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Interior, County Police offices";
+ <http://schema.org/url> "http://www.policija.hr/45.aspx ";
+ <http://purl.org/dc/terms/description> "Owners of new and unregistered vehicles can complete the technical check-up of a car at an authorised check-up station. They can also pay for public roads excises, obligatory insurance (with the insurance companies represented in some stations), obtain traffic licences and car documents necessary to the police headquarters in order to issue registration plates for a complete registration process. Owners of registered cars can have the registration extended at check-up stations, and therefore are not obliged to go to a police station. The information necessary to start the procedure of registering a new, used or imported car (application) are available on a Police Administration website." .
+<http://example.org/nifo/publicservice/Croatia/StayinCroatia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Stay in Croatia";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of interior";
+ <http://schema.org/url> "https://mup.gov.hr/aliens-281621/stay-and-work/281622 ";
+ <http://purl.org/dc/terms/description> "The conditions for granting temporary or permanent stay to foreigners are regulated by the Foreigners Act (Official Gazette no. 130/2011, 74/2013) and accompanying bylaws. The Foreigners Act divides the foreigners who wish to stay or work in Croatia into several categories. The documents submitted with the application depend on the category. Those categories are: short-term stay registration procedure, nationals of EEA member states and their family members, third-country nationals with permanent residence in an EEA member state and their family members, highly-qualified third-country nationals, third-country nationals.Short-term stay is a stay of a foreign national of up to 90 days in any period of 180 days on the basis of a visa or without a visa.All foreign nationals who are not exempted from this obligation under the provisions of the Foreigners Act must register for a short-term stay. Highly-qualified third-country nationals have to submit their application for work and residence permit at the diplomatic mission/consular post of Croatia or at the police administration/station in their intended place of residence.Residence and work permit (the EU Blue Card) simultaneously grants temporary residence and work in Croatia." .
+<http://example.org/nifo/publicservice/Croatia/Registrationofstay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Registration of stay";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Police station, diplomatic mission/consular post";
+ <http://schema.org/url> "http://www.mvep.hr/en/consular-information/stay-of-aliens/granting-stay-in-croatia-/ ";
+ <http://purl.org/dc/terms/description> "Nationals of EEA member states or the Swiss Confederation and their family members, or family members of Croatian nationals intending to stay in Croatia longer than three months have to register temporary residence no later than eight days before the end of the three-month stay at the competent police administration or police station depending on the address.Certificate of registered temporary residence is issued in the form of a biometric residence permit valid for up to five years.Third-country nationals with permanent residence in an EEA member state and their family members can submit their temporary residence application at the diplomatic mission/consular post of Croatia in the EEA member state they have permanent residence in or at the police administration/station in Croatia." .
+<http://example.org/nifo/publicservice/Croatia/Announcementofmovingchangeofaddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Announcement of moving (change of address)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Interior, County Police offices";
+ <http://schema.org/url> "https://pretinac.gov.hr/KorisnickiPretinac/eGradani.html ";
+ <http://purl.org/dc/terms/description> "The application is submitted to police headquarters/stations according to the place where citizens want to register or move out from and thus change address. The standard procedure to create an official moving announcement is organised by police offices in counties. The website of the Police headquarters offers the possibility to obtain and download the paper form needed to start the procedure to officially announce a change of residence." .
+<http://example.org/nifo/publicservice/Croatia/Certificatesbirthmarriagerequestanddelivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Certificates (birth, marriage): request and delivery";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Public Administration, Public Administration Office in Counties";
+ <http://schema.org/url> "https://pretinac.gov.hr/KorisnickiPretinac/eGradani.html ";
+ <http://purl.org/dc/terms/description> "The central authority of state administration for this service is the Ministry of Public Administration which offers the possibility to obtain and download the paper form to start the procedure for birth and marriage certificates. The standard procedure to obtain certificates from registry books is organised by registry offices in cities and municipalities or by an online service.", "The central authority of state administration for this service is the Ministry of Public Administration which offers the possibility to obtain and download the paper form to start the procedure for birth and marriage certificates. The standard procedure to obtain certificates from registry books is organised by registry offices in cities and municipalities, or by an online service." .
+<http://example.org/nifo/publicservice/Croatia/Declarationtothepoliceegincaseoftheft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Declaration to the police (e.g. in case of theft)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Interior, County Police Offices ";
+ <http://schema.org/url> "http://www.mup.hr/ ";
+ <http://purl.org/dc/terms/description> "Criminal offences prosecuted ex officio are filed by the Attorney General, as defined by law. However, criminal offences are usually reported to the police. The police file all information on the offence to the competent Attorney General's Office without delay. The Attorney General Office is a State body that builds charges against all criminal offences prosecuted ex officio. State bodies and corporations are obliged by law to report criminal activities. County Police offices conduct this service under the authority of the Ministry of the Interior. The information necessary to start the procedure for filing an official personal property theft report is available on a publicly accessible website of the Police Headquarters and police stations." .
+<http://example.org/nifo/publicservice/Croatia/eResidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "eResidence";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Interior, County Police Offices";
+ <http://schema.org/url> "https://pretinac.gov.hr/KorisnickiPretinac/eGradani.html ";
+ <http://purl.org/dc/terms/description> "Online application of the residence (Croatian citizens only)." .
+<http://example.org/nifo/publicservice/Croatia/Housingbuildingandhousingenvironment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Housing (building and housing, environment)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Public Administration, State Administration Office in a county responsible for construction affairs, the Ministry of Environment and Energy.";
+ <http://schema.org/url> "https://pretinac.gov.hr/KorisnickiPretinac/eGradani.html ";
+ <http://purl.org/dc/terms/description> "The standard procedure for issuing a building permit is organised by the State Administration Office of a county, responsible for construction affairs, and in special cases, the Ministry of Environmental and Nature Protection. The information necessary to start the procedure to obtain an environment-related permit (including reporting) is available on the Ministry website." .
+<http://example.org/nifo/publicservice/Croatia/eVoters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "eVoters";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Public Administration, Ministry of Foreign and European Affairs";
+ <http://schema.org/url> "https://pretinac.gov.hr/KorisnickiPretinac/eGradani.html ";
+ <http://purl.org/dc/terms/description> "Registered voters are able to change the place of voting either in Republic of Croatia or abroad and to register for voting. " .
+<http://example.org/nifo/publicservice/Croatia/Enrolmenttostudyprogrammes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Enrolment to study programmes";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Science and Education";
+ <http://schema.org/url> "https://diplomski.studij.hr/ ";
+ <http://purl.org/dc/terms/description> "Electronic enrolment to the study programs in Republic of Croatia." .
+<http://example.org/nifo/publicservice/Croatia/Enrolmentinhighereducationuniversity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Enrolment in higher education/university";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Science and Education";
+ <http://schema.org/url> "https://mzo.hr/ ";
+ <http://purl.org/dc/terms/description> "The Ministry of Science and Education introduced a National Information System of Applications for Higher Education Institutions. Thanks to the state graduation exam and this particular system, high school graduates are able to undertake all activities related to enrolment at desired higher education institutions at their own school." .
+<http://example.org/nifo/publicservice/Croatia/eCertificateofenrolmenttoauniversity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "eCertificate of enrolment to a university";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Science and Education";
+ <http://schema.org/url> "http://www.srce.unizg.hr/ ";
+ <http://purl.org/dc/terms/description> "Electronic service in which the students are able to obtain e-certificate to confirm their status as a student." .
+<http://example.org/nifo/publicservice/Croatia/eUsmjeravanje> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "eUsmjeravanje";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "The Croatian Employment Service, Central Government, Ministry of Science and Education";
+ <http://schema.org/url> "http://e-usmjeravanje.hzz.hr/obrazovanje ";
+ <http://purl.org/dc/terms/description> "A portal where you can find information and tools to help manage a career such as information needed to choose an occupation, school and studies, information on vacancies, skills needed for job search and many others that will help you easily manage your career. Furthermore, you can find the tools that will help you make a self-assessment of their own interests and competencies and to facilitate the choice of a profession. Moreover, the information for final year students of primary schools is available to help them to choose for the first time their profession and the high school (secondary level of education)." .
+<http://example.org/nifo/publicservice/Croatia/HigherEducationInstitutionsInformationSystemISVU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Higher Education Institutions Information System (ISVU)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Science and Education";
+ <http://schema.org/url> "http://www.isvu.hr/javno/hr/index.shtml ";
+ <http://purl.org/dc/terms/description> "ISVU is a network-oriented system intended for the informatisation of all student services at higher education institutions that offer graduate education. It offers access via the Internet, regardless of user data and location, and serves as a powerful integration solution at tertiary level through the creation of a data warehouse. The Ministry of Science, Education and Sports provides funding for ISVU development and its daily operations, as well as monitors system performance." .
+<http://example.org/nifo/publicservice/Croatia/OnlineCoursesSRCE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Online Courses (SRCE)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "University Computing Centre (SRCE)";
+ <http://schema.org/url> "https://www.srce.unizg.hr/en/university-zagreb-university-computing-centre-srce ";
+ <http://purl.org/dc/terms/description> "The service enables users to access the courses developed by the University Computing Centre (SRCE) via the eLearning system. Courses are designed for anyone wishing to expand their knowledge in the area of ICT." .
+<http://example.org/nifo/publicservice/Croatia/eExchangeofstudentgrades> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "eExchange of student grades";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Agency for Science and Higher Education";
+ <http://schema.org/url> "https://pretinac.gov.hr/KorisnickiPretinac/eGradani.html ";
+ <http://purl.org/dc/terms/description> "The service allows students to download transcripts of grades obtained at the college institution in the Republic of Croatia and send them to another college institution." .
+<http://example.org/nifo/publicservice/Croatia/Publiclibrariesavailabilityofcataloguessearchtools> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Public libraries (availability of catalogues, search tools)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Science and Education, Ministry of Culture";
+ <http://schema.org/url> "https://mzo.hr/; http://www.min-kulture.hr/", "https://mzo.hr/; http://www.min-kulture.hr/ ";
+ <http://purl.org/dc/terms/description> "Libraries in scientific and educational institutions are under the competence of the Ministry of Science and Education public libraries are under the competence of the Ministry of Culture. Public libraries offer content and catalogue search.", "Libraries in scientific and educational institutions are under the competence of the Ministry of Science and Education; public libraries are under the competence of the Ministry of Culture. Public libraries offer content and catalogue search." .
+<http://example.org/nifo/publicservice/Croatia/Studentgrants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Student grants";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Science and Education";
+ <http://schema.org/url> "http://public.mzos.hr/";
+ <http://purl.org/dc/terms/description> "The Ministry provides grants for student accommodation, meals and other needs according to criteria set out in the legislation. The Ministry website offers the possibility to download an official electronic form to start the application procedure for student grants in higher education." .
+<http://example.org/nifo/publicservice/Croatia/Programmeformobility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Programme for mobility";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Agency for mobility and EU programmes";
+ <http://schema.org/url> "http://www.mobilnost.hr/hr/ ";
+ <http://purl.org/dc/terms/description> "The Agency for Mobility and EU Programmes is the National Agency responsible for the implementation of the Erasmus+ programme in Croatia. Apart from implementing the Programme, by selecting the applications - project proposals, performing contractualisation and financing, and monitoring the realisation of projects, the Agency also promotes the Programme and assists applicants and beneficiaries in their process of creating a project idea and running the project. Republic of Croatia is a full participant to the Programme." .
+<http://example.org/nifo/publicservice/Croatia/Informationandassistancetoresearchers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Information and assistance to researchers";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "EURAXESS Croatia";
+ <http://schema.org/url> "https://www.euraxess.hr/ ";
+ <http://purl.org/dc/terms/description> "EURAXESS Croatia provides information and assistance to mobile researchers – by means of the web portal and with the support of our national EURAXESS Service Centres. Researchers can find a research position in Croatia and learn all about administrative procedures. Croatian researchers who wish to continue with their research work in Europe can also find information and assistance relating to research and mobility, including Research Job Vacancies as well as Grants and Fellowships." .
+<http://example.org/nifo/publicservice/Croatia/InternationalFellowshipMobilityProgrammeforExperiencedResearchersinCroatia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "International Fellowship Mobility Programme for Experienced Researchers in Croatia";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Science and Education";
+ <http://schema.org/url> "http://www.newfelpro.hr/default.aspx?id=63 ";
+ <http://purl.org/dc/terms/description> "The new International Fellowship Mobility Programme for Experienced Researchers in Croatia – NEWFELPRO is a fellowship project of the Government of the Republic of Croatia and the Ministry of Science, Education and Sport (MSES). Project duration is from 2013 to 2017 and registrations are performed via the web portal. " .
+<http://example.org/nifo/publicservice/Croatia/Researchsupportportal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Research support portal";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Science and Education";
+ <http://schema.org/url> "http://public.mzos.hr/Default.aspx?sec=2481 ";
+ <http://purl.org/dc/terms/description> "The web pages of the Ministry of Science and Education provide detailed information on science policy in Croatia and on the research infrastructure in Croatia. " .
+<http://example.org/nifo/publicservice/Croatia/Volunteercamps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Volunteer camps";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Volunteer center Zagreb";
+ <http://schema.org/url> "https://www.vcz.hr ";
+ <http://purl.org/dc/terms/description> "You can search the base of international volunteer camps and apply for an international volunteer camp." .
+<http://example.org/nifo/publicservice/Croatia/eHealthservice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "eHealth service";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Croatian Institute for Health Insurance";
+ <http://schema.org/url> "http://www.hitro.hr/Default.aspx?sec=55 ";
+ <http://purl.org/dc/terms/description> "By providing the eHealth service, the Croatian Institute for Health Insurance allows electronic initiation of the procedure for determining the status of the insured person in the compulsory health insurance system (through the submission of eRegistrations). The service is intended to be used by the legal entities registered with the Croatian Institute for Health Insurance and it allows for submission of application for registration and deregistration, of insured persons, and change of information about the insured persons in an electronic manner. Registration for the service is also available as an online service." .
+<http://example.org/nifo/publicservice/Croatia/ePrescriptions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "ePrescriptions";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Health Information System of the Republic of Croatia (CEZIH)";
+ <http://schema.org/url> "https://www.hzzo.hr/nacionalna-kontaktna-tocka-ncp/eu-recepti-2/ ";
+ <http://purl.org/dc/terms/description> "Primary health care system allows that medicines from the HZZO's Main List of Medicines and the Supplementary List of HZZO Medicines are prescribed on e-prescriptions. The E-prescription for a particular medicine on the list is electronically transferred to the system by the selected primary health care medical practitioner, and the insured person to whom the medication is prescribed can pick up the medication at any pharmacy in the Republic of Croatia." .
+<http://example.org/nifo/publicservice/Croatia/eHealthRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "eHealth Record";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Health Information System of the Republic of Croatia (CEZIH)";
+ <http://schema.org/url> "http://www.cezih.hr/ ";
+ <http://purl.org/dc/terms/description> "The Central Electronic Health Record of the patient, eHealth Record, is a consolidated and structured set of personal health records collected and stored in the CEZIH, accessible only by authorized doctors participating in the treatment of the patient and for whom the patient has given his/her consent. Data is collected through well-established services, such as ePrescriptions or eReferrals, through a secure virtual private network, and maximum security guarantees a whole range of security measures, including encrypted data traffic and a smart identification card through which authorized healthcare workers access the system" .
+<http://example.org/nifo/publicservice/Croatia/Healthrelatedservicesinteractiveadviceontheavailabilityofservicesindifferenthospitalsappointmentsforhospitals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Health related services (interactive advice on the availability of services in different hospitals; appointments for hospitals)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Health, various hospitals";
+ <http://schema.org/url> "https://zdravstvo.gov.hr/";
+ <http://purl.org/dc/terms/description> "Health related services include standard procedures for interactive consulting of available hospital services and interactive appointments for hospitals. They are organised by hospitals and health centres." .
+<http://example.org/nifo/publicservice/Croatia/Healthportal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Health portal";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Croatian Institute for Health Insurance";
+ <http://schema.org/url> "https://portal.zdravlje.hr/portalzdravlja/frontend/login.html ";
+ <http://purl.org/dc/terms/description> "Users are able to see incoming medical appointments in health institutions and to cancel it. Also, they have access to Patient Summary and prescribed medication in last 6 months." .
+<http://example.org/nifo/publicservice/Croatia/Medicalcostsreimbursementordirectsettlement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Medical costs (reimbursement or direct settlement)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Croatian Institute for Health Insurance";
+ <http://schema.org/url> "http://www.hzzo-net.hr";
+ <http://purl.org/dc/terms/description> "The request for exemption from treatment costs and reimbursement of transport costs after using medical services beyond the place of residence is submitted to the Institute for Health Insurance's District Office, or its Branch Office closest to the insured person's residence. Online information and forms to download are provided." .
+<http://example.org/nifo/publicservice/Croatia/Medicalprescriptions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Medical prescriptions";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Croatian Institute for Health Insurance, Croatian Health Insurance Fund (CHIF)";
+ <http://schema.org/url> "https://pretinac.gov.hr/KorisnickiPretinac/eGradani.html ";
+ <http://purl.org/dc/terms/description> "Users are able to check prescribed medications in the last 6 months. " .
+<http://example.org/nifo/publicservice/Croatia/VerifychosenGP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Verify chosen GP";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Croatian Institute for Health Insurance, Croatian Health Insurance Fund (CHIF)";
+ <http://schema.org/url> "https://hzzo.gov.hr/e-usluge/izabranilijecnik/default.aspx ";
+ <http://purl.org/dc/terms/description> "Users are able to verify their selected GP." .
+<http://example.org/nifo/publicservice/Croatia/Regulationontreatmentabroad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Regulation on treatment abroad";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Croatian Health Insurance Fund";
+ <http://schema.org/url> "https://www.hzzo.hr/lijecenje-u-inozemstvu/ ";
+ <http://purl.org/dc/terms/description> "Pursuant to Regulation 883/2004, the CHIF will cover the costs of the planned treatment of the insured person only if it has been granted approval for the planned treatment (Article 20 of Regulation 883/2004). Treatment will be granted if it is foreseen in the Croatian compulsory health insurance system and if the same treatment cannot be performed in the Republic of Croatia within a medically justified period, it will take into account the health status and possible course of the illness of the insured person. " .
+<http://example.org/nifo/publicservice/Croatia/Socialsecurity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Social security";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Croatian Health Insurance Fund";
+ <http://schema.org/url> "https://www.hzzo.hr/lijecenje-u-inozemstvu/vasa-prava/ ";
+ <http://purl.org/dc/terms/description> "The rights from health care system depend on the state of temporary residence or whether health services are used in a Member State of the European Union, in a country with which the Republic of Croatia has concluded a social security contract (a contract) or a country with which such a contract is not concluded." .
+<http://example.org/nifo/publicservice/Croatia/Childallowances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Child allowances";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Health, Ministry of Demography, Family, Youth and Social Policy, Croatian Institute for Health Insurance, Croatian Institute for Pension Insurance";
+ <http://schema.org/url> "http://www.hzzo-net.hr/; http://www.mirovinsko.hr";
+ <http://purl.org/dc/terms/description> "All the necessary procedures related to child allowances are managed by the Croatian Institute for Pension Insurance. Online information and forms to download are provided." .
+<http://example.org/nifo/publicservice/Croatia/eNewborn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "eNewborn";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Administration";
+ <http://schema.org/url> "https://pretinac.gov.hr/KorisnickiPretinac/eGradani.html ";
+ <http://purl.org/dc/terms/description> "The service allows parents to register the child's name and birth date by using a signing certificate on a personal e-identity card. Service is available in all home birth registries in the country and allows parents to enrol a child in the birth of a child, register the child in the register of citizenship, register a child's residence with parents, regulate child health insurance, apply for one-time financial support for a newborn child from the Croatian Institute of Health Insurance. Service involves connecting different registries run by different institutions and is available in Croatia as of 31 January 2018. via the Internet." .
+<http://example.org/nifo/publicservice/Croatia/Inheritance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Inheritance";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Justice";
+ <http://schema.org/url> "https://e-justice.europa.eu/content_succession-166-hr.do ";
+ <http://purl.org/dc/terms/description> "Legal settlement of the international testament or inheritance." .
+<http://example.org/nifo/publicservice/Croatia/eCrew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "eCrew";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of the Sea, Transport and Infrastructure";
+ <http://purl.org/dc/terms/description> "This system enables all legal and natural entities who rent yachts and boats to register, prior to putting it out to sea, their crew and passengers online. The eCREW system enables all legal and natural entities who rent yachts and boats to register, prior to putting out to sea, their crew and passengers via the Internet using smart cards with a digital certificate based on acquired user rights. The aim is to expedite business processes at the Ministry of the Sea, Transport and Infrastructure, Transport and Infrastructure with business subjects (charter companies) relating to charter vessels, to secure a complete monitoring over the procedure of renting vessels by all authorised bodies of the State Administration, and in that way, prevent illegal chartering." .
+<http://example.org/nifo/publicservice/Croatia/MinistryoftheSeaTransportandInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Ministry of the Sea, Transport and Infrastructure";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "http://www.mppi.hr/default.aspx?id=7397 ", "Unfair treatment";
+ <http://schema.org/url> "This system enables all legal and natural entities who rent yachts and boats to register, prior to putting it out to sea, their crew and passengers online. The eCREW system enables all legal and natural entities who rent yachts and boats to register, prior to putting out to sea, their crew and passengers via the Internet using smart cards with a digital certificate based on acquired user rights. The aim is to expedite business processes at the Ministry of the Sea, Transport and Infrastructure, Transport and Infrastructure with business subjects (charter companies) relating to charter vessels, to secure a complete monitoring over the procedure of renting vessels by all authorised bodies of the State Administration, and in that way, prevent illegal chartering.", "Digital Chamber";
+ <http://purl.org/dc/terms/description> "Unfair treatment", "Croatian Chamber of Commerce (HGK)" .
+<http://example.org/nifo/publicservice/Croatia/DigitalChamber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Digital Chamber";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Croatian Chamber of Commerce (HGK)";
+ <http://schema.org/url> "https://www.hgk.hr/ ";
+ <http://purl.org/dc/terms/description> "In the field of eEconomy, the Digital Chamber project was contracted as a new information and communication platform for e-services of the Croatian Chamber of Commerce (HGK), available to the business community and to public administration and citizens. Its seven eServices will accelerate communication and enhance customer relations, digitise the issuance of a public authority document and enable more active participation of businessmen in creating and changing legislative and regulatory frameworks." .
+<http://example.org/nifo/publicservice/Croatia/Energyconsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Energy consumption";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Hrvatska elektroprivreda (HEP Group)";
+ <http://schema.org/url> "https://hepi.hep.hr/ ";
+ <http://purl.org/dc/terms/description> "Market supplier in HEP Group is HEP Opskrba (HEP Supply), which offers customers the product Hepi alongside with a lower electricity price, as well as a number of other benefits such as paying the bill by the middle of next month, loyalty rewards, online reviews of bills and payments, print of bills and slips, and the consumption overview in previous periods, exemption from paying supply fee for customers who agree with HEP to read the meters themselves etc." .
+<http://example.org/nifo/publicservice/Croatia/eFiling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "eFiling";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "The State Intellectual Property Office of the Republic of Croatia";
+ <http://schema.org/url> "www.dziv.hr ";
+ <http://purl.org/dc/terms/description> "e-Filing is an electronic service enabling filing an application for the registration of industrial property rights via the Internet.The Croatian Intellectual Property Gazette is the official gazette of the State Intellectual Property Office of the Republic of Croatia. The Gazette publishes all the information, prescribed by the relevant laws and regulations, relating to the industrial property granting procedure concerning granted rights and subsequent changes made in connection with such rights, as well as other official information." .
+<http://example.org/nifo/publicservice/Croatia/START> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "START";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Economy, Entrepreneurship and Crafts";
+ <http://schema.org/url> "https://www.mingo.hr/page/ministar-horvat-u-2019-godini-moramo-napraviti-radikalne-promjene-kako-bismo-olaksali-poslovanje ";
+ <http://purl.org/dc/terms/description> "START system will cover these functionalities: reservation of company name, verification of tax debt, registration into the Court register (Ministry of Justice), registration into the Craft register (Ministry of Economy, Entrepreneurship and Crafts), registration into the Register of business entities (Central Bureau of Statistics), registration into the Business register (Croatian Chamber of Economy), registration for pension and health insurance (Croatian Pension Insurance Institute and Croatian Health Insurance Fund), registration into the Register of taxpayers (Tax Administration), submission of requests for registration to the VAT system (Tax Administration), sending requests for opening bank accounts (banks) and electronic payment of fees. Electronic business startup will be enabled for a simple company with a limited liability, company with a limited liability and crafts, for domestic and foreign individuals. The project is currently in phase of defining a detailed project plan with all the technical aspects for data exchange between the participating stakeholders." .
+<http://example.org/nifo/publicservice/Croatia/eBusiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "eBusiness";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Administration";
+ <http://schema.org/url> "https://uprava.gov.hr/vijesti/uvodimo-e-poslovanje-za-poduzetnike-i-obrtnike/14818 ";
+ <http://purl.org/dc/terms/description> "A centralised access to electronic services for business users, with the possibility of downloading documentation on computer, such as tax documents, health insurance, and retirement plans. Through e-Authorizations that will, in fact, be an upgrade of NIAS within e-Business, it will be supported procuration and legal representation. This will enable eCitizens to enable older members of their families who do not like or want to use digital technologies to give a member of their family a power of attorney to use e-services in e-Citizen system." .
+<http://example.org/nifo/publicservice/Croatia/FINAeCard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "FINA eCard";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "FINA (Financial Agency)";
+ <http://schema.org/url> "http://www.hitro.hr/Default.aspx?sec=24";
+ <http://purl.org/dc/terms/description> "The FINA (Financial Agency) eCard provides faster, simpler and more secure access to information and services for businesses. It offers unlimited access to the following eServices, among others: eTax, eVAT, ePension and ePayment." .
+<http://example.org/nifo/publicservice/Croatia/Howtostartalimitedliabilitycompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "How to start a limited liability company";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government";
+ <http://schema.org/url> "http://www.hitro.hr/Default.aspx?sec=22";
+ <http://purl.org/dc/terms/description> "'HITRO.HR' portal is a service provided by the Government to facilitate rapid communication between citizens and businesses with the State administration. In this instance, it allows entrepreneurs to carry out online the process of this particular type of business creation. " .
+<http://example.org/nifo/publicservice/Croatia/Howtostartacraftbusiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "How to start a craft business";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government ";
+ <http://schema.org/url> "http://www.hitro.hr/Default.aspx?sec=23";
+ <http://purl.org/dc/terms/description> "'HITRO.HR' portal is a service provided by the Government to facilitate rapid communication between citizens and businesses with the State administration. In this instance, it allows entrepreneurs to carry out online the process of this particular type of business creation. " .
+<http://example.org/nifo/publicservice/Croatia/Registrationofanewcompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Registration of a new company";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government";
+ <http://schema.org/url> "http://www.mingo.hr/; https://sudreg.pravosudje.hr/";
+ <http://purl.org/dc/terms/description> "The website for new business registration is publicly accessible for authorised users (notaries) only. The registration website offers the possibility to download an official electronic form in order to start the procedure to register a new business. The court can issue an electronic document of registration. Further on in the process, i.e. for opening a business financial account, the bank would still require a paper registration document. At the moment, a service is available just for registration of companies with limited liability. The Court has to treat the case within 24 hours from submission." .
+<http://example.org/nifo/publicservice/Croatia/MembershiptoCroatianChamberofArchitects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Membership to Croatian Chamber of Architects";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Croatian Chamber of Architects";
+ <http://schema.org/url> "https://pretinac.gov.hr/KorisnickiPretinac/eGradani.html ";
+ <http://purl.org/dc/terms/description> "Physical entities can submit their applications to register self-employed business activities." .
+<http://example.org/nifo/publicservice/Croatia/Soletraderregistration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Sole trader registration";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Economy, Entrepreneurship and Crafts";
+ <http://schema.org/url> "https://e-obrt.minpo.hr/";
+ <http://purl.org/dc/terms/description> "Users can start a craft business and set up as a Sole Trader online. " .
+<http://example.org/nifo/publicservice/Croatia/eInvoice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "eInvoice";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "FINA (Financial Agency)";
+ <http://schema.org/url> "http://www.fina.hr/Default.aspx?sec=1149";
+ <http://purl.org/dc/terms/description> "Fina’s eInvoice system enables entry, signature, sending and timestamping of eInvoices, receipt of certificates of receiving eInvoices, change of eInvoice status, receipt, archiving and search of eInvoices, use of templates, graphic personalisation of eInvoices (logo), and their matching to payment orders. The eInvoice service is connected with the Internet banking services provided by banks having a business cooperation contract with Fina in place, which enables automated preparation of electronic payment orders for purchased goods and services." .
+<http://example.org/nifo/publicservice/Croatia/ElectronicPaymentsePayment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Electronic Payments (ePayment)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "FINA (Financial Agency)";
+ <http://schema.org/url> "http://www.fina.hr/Default.aspx?sec=1149";
+ <http://purl.org/dc/terms/description> "Fina’s ePayment service enables our customers to make HRK payments out of several transaction accounts held with different banks by using a single card/USB stick and PIN. Payment transactions are possible 24 hours a day, from your own office or home, but are also compliant with the highest data security, protection, confidentiality, and accuracy and non-repudiation requirements." .
+<http://example.org/nifo/publicservice/Croatia/VATdeclarationnotification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "VAT: declaration, notification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Finance, Tax Administration";
+ <http://schema.org/url> "http://www.mfin.hr/ ";
+ <http://purl.org/dc/terms/description> "The VAT application form is submitted to the authorised Tax Administration branch office according to the place of residence or the usual residence of a taxpayer. The website of the Tax Administrations of the Ministry of Finance or County tax administrations offers the possibility to completely treat the VAT declaration online. The service provides the following: filling of electronic forms; input data validation; electronic signature; sending an electronic form; receiving confirmation of receipt; checking the status of sent and received electronic forms." .
+<http://example.org/nifo/publicservice/Croatia/Corporatetaxdeclarationnotification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Corporate tax: declaration, notification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Finance, Tax Administration";
+ <http://schema.org/url> " http://www.mfin.hr/ ";
+ <http://purl.org/dc/terms/description> "The website of the Tax administrations of the Ministry of Finance and the tax administrations of the counties offers the possibility to completely treat the declaration of corporate tax online. The service provides the following: filling of electronic forms; input data validation; electronic signature; sending an electronic form; receiving confirmation of receipt; checking the status of sent and received electronic forms." .
+<http://example.org/nifo/publicservice/Croatia/Customsdeclarations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Customs declarations";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Finance, Customs Administration";
+ <http://schema.org/url> "http://www.carina.hr/";
+ <http://purl.org/dc/terms/description> "The website of the Customs Administration offers the possibility to obtain and download the paper form to start the procedure for customs declaration." .
+<http://example.org/nifo/publicservice/Croatia/Electronicdelivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Electronic delivery";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Customs Administration";
+ <http://schema.org/url> "https://carina.gov.hr/ ";
+ <http://purl.org/dc/terms/description> "The Customs Administration offers Internet services to international dispatchers. In addition to dispatching, dispatchers can obtain information on the current charge of their bank guarantees and on the register of customs duties. These services provide considerable savings in dispatcher business operations, faster submission of customs declarations and a lowered risk in business operations of dispatchers. " .
+<http://example.org/nifo/publicservice/Croatia/PublicprocurementeProcurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Public procurement/eProcurement";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Economy, Entrepreneurship and Crafts, Ministry of Labour and Pension System, Electronic Public Procurement Classifieds ";
+ <http://schema.org/url> "http://www.javnanabava.hr/ ";
+ <http://purl.org/dc/terms/description> "The Electronic Public Procurement Classifieds is a state-owned company which maintains an electronic system of public procurement publications. The website, managed by the Ministry of Economy, Entrepreneurship and Crafts offers the possibility to download an official electronic form in order to start the tender procedure." .
+<http://example.org/nifo/publicservice/Croatia/SinglePointofContact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Single Point of Contact";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Economy, Entrepreneurship and Crafts";
+ <http://schema.org/url> "http://psc.hr/ ";
+ <http://purl.org/dc/terms/description> "Information about how to do business in the EUThe Single Point of Contact (PSC.HR) offers answers to start a business in Croatia - all in one place. It also provides information on how to do business in the EU, given that the internal market opens up many business opportunities." .
+<http://example.org/nifo/publicservice/Croatia/CentralSalarySystemCOP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Central Salary System (COP)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Public Administration";
+ <http://schema.org/url> "https://uprava.gov.hr/centralni-obracun-placa/12961";
+ <http://purl.org/dc/terms/description> "Croatia managed to implement the Central Salary System (COP) in 2180 institution of the public administration out of 2200 institutions that have salaries financed from the State budget. The COP is a web-based application covering salary calculations for the whole public administration. The system gives the Government of Croatia the possibility to manage the system, it provides exact data to the Government of salaries paid by all elements. " .
+<http://example.org/nifo/publicservice/Croatia/Socialcontributionsforemployees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Social contributions for employees";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Croatian Institute for Health Insurance, Croatian Institute for Pension Insurance";
+ <http://schema.org/url> "http://www.hzzo-net.hr; http://www.mirovinsko.hr";
+ <http://purl.org/dc/terms/description> "The standard procedure to obtain social contributions for employees is organised by the Croatian Institute for Health Insurance or by branch offices according to the place of residence of a physical or legal entity. The Croatian Institute for Pension Insurance through its service application allows eApplications to be submitted to the retirement insurance system. The website offers the possibility of downloading an official electronic form to start the procedure to declare social contributions for employees." .
+<http://example.org/nifo/publicservice/Croatia/Informationonworkinghoursholidayandleave> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Information on working hours, holiday and leave";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Labour and Pension System";
+ <http://schema.org/url> "http://www.mrms.hr/pitanje/radno-vrijeme/ ";
+ <http://purl.org/dc/terms/description> "Information on working hours, holiday and leave." .
+<http://example.org/nifo/publicservice/Croatia/Informationfromtransportsectorworkers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Information from transport sector workers";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of the Sea, Transport and Infrastructure";
+ <http://schema.org/url> "http://mppi.hr/default.aspx?id=4421 ";
+ <http://purl.org/dc/terms/description> "Information about road transportation workers and their working time.Information about rail staff and their working time.Information for seafarers." .
+<http://example.org/nifo/publicservice/Croatia/Postingstaffabroad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Posting staff abroad";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Croatian Pension Insurance Institute";
+ <http://schema.org/url> "http://www.mirovinsko.hr/ ";
+ <http://purl.org/dc/terms/description> "Information about posting staff abroad and their social security status." .
+<http://example.org/nifo/publicservice/Croatia/Foreigneducationqualification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Foreign education qualification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "The Croatian Agency for Science and Higher Education";
+ <http://schema.org/url> "https://www.azvo.hr/hr/ured-enic-naric/priznavanje-kvalifikacija ";
+ <http://purl.org/dc/terms/description> "Recognition of foreign education qualifications in Croatia." .
+<http://example.org/nifo/publicservice/Croatia/CentralStateOfficefortheDevelopmentoftheDigitalSociety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Central State Office for the Development of the Digital Society";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Product rules and specifications";
+ <http://schema.org/url> "Harmonisation";
+ <http://purl.org/dc/terms/description> "Ministry of Economy, Entrepreneurship and Crafts" .
+<http://example.org/nifo/publicservice/Croatia/Harmonisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Harmonisation";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Economy, Entrepreneurship and Crafts";
+ <http://schema.org/url> "https://www.mingo.hr/page/kategorija/harmonizirani-proizvodi ";
+ <http://purl.org/dc/terms/description> "Product rules and specifications - harmonisation of national technical regulations for placing products on the EU market." .
+<http://example.org/nifo/publicservice/Croatia/CroatiaREACHRegistrationEvaluationAuthorisationandRestrictionofChemicalsEURegulationno19072006Helpdesk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Croatia REACH (Registration, Evaluation, Authorisation and Restriction of Chemicals, EU Regulation no 1907/2006) Helpdesk";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Health, The Ministry of Environment and Energy - Conventions, Ministry of Agriculture (PPP), Ministry of Economy, Entrepreneurship and Crafts (Chemical weapons )";
+ <http://schema.org/url> "N/A";
+ <http://purl.org/dc/terms/description> "In order to comply with the obligations to register and notify chemical substances to the European Chemicals Agency, Croatian companies will have access to the related IT tools: IUCLID 5 and REACH-IT. In order to register and deregister these substances, an online formulary can be submitted. " .
+<http://example.org/nifo/publicservice/Croatia/Environmentrelatedpermitsinclreporting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Environment-related permits (incl. reporting)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, The Ministry of Environment and Energy";
+ <http://schema.org/url> "http://www.mzoip.hr ";
+ <http://purl.org/dc/terms/description> "The location permit is issued for buildings deemed of national importance for the Republic of Croatia. The information necessary to start the procedure for an environment-related permit (including reporting) is available on the Ministry website. The request for a building permit is submitted to the Regional office of Planning, Architecture, Housing and Municipal Affairs and Trade, and the corresponding regional departments in the area where the action is planned. Regional Offices offer the possibility to obtain and download the paper form to start the procedure for an environment related permit. " .
+<http://example.org/nifo/publicservice/Croatia/Regulationonchemicals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Regulation on chemicals";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Health";
+ <http://schema.org/url> "https://zdravlje.gov.hr/pristup-informacijama/zakoni-i-ostali-propisi/uredbe-i-direktive/2414 ";
+ <http://purl.org/dc/terms/description> "Regulation on hazardous chemicals." .
+<http://example.org/nifo/publicservice/Croatia/Accounting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Accounting";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Submission of data to statistical offices";
+ <http://purl.org/dc/terms/description> "http://www.dzs.hr/" .
+<http://example.org/nifo/publicservice/Croatia/Submissionofdatatostatisticaloffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Submission of data to statistical offices";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Bureau of Statistics";
+ <http://schema.org/url> "http://www.dzs.hr/";
+ <http://purl.org/dc/terms/description> "There is an official electronic form to submit at least one statistical questionnaire to the National Institute for Statistics." .
+<http://example.org/nifo/publicservice/Croatia/EUfundingprogrammes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "EU funding programmes";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Regional Development and European Union Funds";
+ <http://schema.org/url> "https://strukturnifondovi.hr/ ";
+ <http://purl.org/dc/terms/description> "Information about EU funding programmes." .
+<http://example.org/nifo/publicservice/Croatia/Consumersrights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Consumers’ rights";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Economy, Entrepreneurship and Crafts";
+ <http://schema.org/url> "http://potrosac.mingo.hr/hr/potrosac/clanak.php?id=12488 ";
+ <http://purl.org/dc/terms/description> "Information about consumer rights and guarantees." .
+<http://example.org/nifo/publicservice/Croatia/Alternativedisputeresolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Alternative dispute resolution";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Economy, Entrepreneurship and Crafts";
+ <http://schema.org/url> "http://potrosac.mingo.hr/hr/potrosac/clanak.php?id=12645 ";
+ <http://purl.org/dc/terms/description> "List of competent bodies for alternative dispute resolution." .
+<http://example.org/nifo/publicservice/Croatia/GDPRinCroatia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "GDPR in Croatia";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Croatia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Croatian Personal Data Protection Agency";
+ <http://schema.org/url> "https://azop.hr/info-servis/detaljnije/opca-uredba-o-zastiti-podataka-gdpr ";
+ <http://purl.org/dc/terms/description> "Data protection under GDPR." .

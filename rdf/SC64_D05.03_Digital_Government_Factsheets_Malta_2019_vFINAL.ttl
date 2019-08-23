@@ -1,0 +1,532 @@
+<http://data.europa.eu/nifo/factsheet/Malta> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Malta>;
+ <http://purl.org/dc/terms/issued> "2019-07";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/MLT";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/dataset/DigitalGovernmentIndicatorsMalta>, <http://example.org/nifo/legalframework/Malta>, <http://example.org/nifo/person/Mr.SilvioSchembri>, <http://example.org/nifo/person/Ms.PriscillaBugeja>, <http://example.org/nifo/person/PierreVella>, <http://example.org/nifo/person/JesmondBugeja>;
+ <http://dbpedia.org/ontology/populationTotal> "475 701 inhabitants (2018)";
+ <http://dbpedia.org/property/gdpNominal> "EUR 12 319 million (2018)";
+ <http://dbpedia.org/property/gdpPppPerCapita> "96 (2017)";
+ <http://dbpedia.org/ontology/areaTotal> "315.36 km²";
+ <http://dbpedia.org/ontology/capital> "Valletta";
+ <http://purl.org/dc/terms/language> "Maltese, English";
+ <http://dbpedia.org/ontology/currency> <http://publications.europa.eu/resource/authority/currency/Euro%20(EUR)>;
+ <http://purl.org/dc/terms/source> <https://nso.gov.mt/en/Pages/NSO-Home.aspx>, <http://data.europa.eu/nifo/factsheet/undefined>, <https://ec.europa.eu/digital-single-market/en/news/egovernment-benchmark-2018-digital-efforts-european-countries-are-visibly-paying> .
+<http://example.org/nifo/dataset/DigitalGovernmentIndicatorsMalta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataSet>;
+ <http://purl.org/dc/terms/title> "Digital Government Indicators";
+ <http://purl.org/linked-data/cube#structure> <http://example.org/nifo/structure/DigitalGovernmentIndicatorsMalta>;
+ <http://purl.org/dc/terms/source> "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en,http://appsso.eurostat.ec.europa.eu/nui/submitViewTableAction.do" .
+<http://example.org/nifo/structure/DigitalGovernmentIndicatorsMalta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition>;
+ <http://purl.org/linked-data/cube#component> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinMalta>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinMalta>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinMalta>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinMalta>;
+ <http://www.w3.org/2000/01/rdf-schema#label> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinMalta>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinMalta>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinMalta>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinMalta> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinMalta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinMalta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinMalta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinMalta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/legalframework/Malta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=8962>, <http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12408&l=1>, <http://ec.europa.eu/justice/policies/privacy/docs/implementation/malta_en.pdf>, <http://justiceservices.gov.mt/DownloadDocument.aspx?app=lp&itemid=29111&l=1>, <http://justiceservices.gov.mt/LOM.aspx?pageid=27&mode=chrono&gotoID=56>, <http://justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=8853&l=1>, <http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=9532&l=1>, <https://eur-lex.europa.eu/legal-content/MT/TXT/?uri=OJ:L:2014:133:TOC>, <http://justiceservices.gov.mt/DownloadDocument.aspx?app=lp&itemid=29427&l=1>, <http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=8892&l=1>, <http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12402&l=1>, <http://justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12058&l=1>, <http://justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12686&l=1>, <http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12521&l=1>, <http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12338&l=1>, <http://justiceservices.gov.mt/DownloadDocument.aspx?app=lp&itemid=29080&l=1>, <http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12874&l=1>, <http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12872&l=1> .
+<http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=8962> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Freedom of Information Act", "Law Number 218,", "Cap 496 of the Laws of Malta" .
+<http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12408&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Cap 546 of the Laws of Malta";
+ <http://purl.org/dc/terms/relation> <http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=8962> .
+<http://ec.europa.eu/justice/policies/privacy/docs/implementation/malta_en.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Data Protection Act" .
+<http://justiceservices.gov.mt/DownloadDocument.aspx?app=lp&itemid=29111&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Processing of Child’s Personal Data in relation to the Offer of Information Society Services Regulations" .
+<http://justiceservices.gov.mt/LOM.aspx?pageid=27&mode=chrono&gotoID=56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Public Registry Act" .
+<http://justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=8853&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Companies Act 140" .
+<http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=9532&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Public Procurement Regulations", "National Public Procurement Regulations";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024> .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2014/24/EU";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:JOL_2014_094_R_0243_01> .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:JOL_2014_094_R_0243_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2014/25/EU";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0026> .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2014/26/EU" .
+<https://eur-lex.europa.eu/legal-content/MT/TXT/?uri=OJ:L:2014:133:TOC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "eInvoicing Directive 2014/55/EU" .
+<http://justiceservices.gov.mt/DownloadDocument.aspx?app=lp&itemid=29427&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Filing of Acts by Electronic Means in the Land Arbitration Board Regulations" .
+<http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=8892&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Electronic Commerce Act" .
+<http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12402&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Filing of Acts before the Administrative Review Tribunal by Electronic Means Regulations;" .
+<http://justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12058&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Small Claims Tribunal (Filing of Acts by Electronic Means) Rules;" .
+<http://justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12686&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Filing of Applications by Electronic Means in the Court of Magistrates (Malta) and the Court of Magistrates (Gozo) in its inferior jurisdiction Regulations;" .
+<http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12521&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Filing of Judicial Letters by Electronic Means in the Courts of Malta and Gozo Regulations;" .
+<http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12338&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> " Service of Summons by Electronic Mail Regulations." .
+<http://justiceservices.gov.mt/DownloadDocument.aspx?app=lp&itemid=29080&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Malta Digital Innovation Authority (MDIA) Act" .
+<http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12874&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Innovative Technology Arrangements Act" .
+<http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12872&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Virtual Financial Asset Act" .
+<http://example.org/nifo/person/Mr.SilvioSchembri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Mr. Silvio Schembri";
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-ParliamentarySecretaryforFinancialServices,DigitalEconomyandInnovation>, <http://example.org/nifo/post/Post-Head%E2%80%93eGovernment&CorporateSolutionsDepartment-MaltaInformationTechnologyAgency(MITA)>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/440> .
+<http://example.org/nifo/post/Post-ParliamentarySecretaryforFinancialServices,DigitalEconomyandInnovation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-ParliamentarySecretaryforFinancialServices,DigitalEconomyandInnovation> .
+<http://example.org/nifo/role/Role-ParliamentarySecretaryforFinancialServices,DigitalEconomyandInnovation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Parliamentary Secretary for Financial Services, Digital Economy and Innovation" .
+<http://example.org/ContactPoint/440> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "silvio.schembri@gov.mt ";
+ <http://schema.org/url> "Source: http://www.opm.gov.mt " .
+<http://example.org/nifo/person/Ms.PriscillaBugeja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Ms. Priscilla Bugeja";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/6198>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Head-ProgrammeManagementDepartment%E2%80%93> .
+<http://example.org/nifo/post/Post-Head–eGovernment&CorporateSolutionsDepartment-MaltaInformationTechnologyAgency(MITA)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Head%E2%80%93eGovernment&CorporateSolutionsDepartment-MaltaInformationTechnologyAgency(MITA)> .
+<http://example.org/nifo/role/Role-Head–eGovernment&CorporateSolutionsDepartment-MaltaInformationTechnologyAgency(MITA)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Head – eGovernment & Corporate Solutions Department - Malta Information Technology Agency (MITA)" .
+<http://example.org/ContactPoint/6198> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+356 2123 4710";
+ <http://schema.org/email> "priscilla.bugeja@gov.mt";
+ <http://schema.org/url> "Source: https://www.mita.gov.mt/en/  " .
+<http://example.org/nifo/person/PierreVella> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Pierre Vella";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/6590>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-ChiefExecutiveOfficer%E2%80%93MaltaCommunicationAuthority> .
+<http://example.org/nifo/post/Post-Head-ProgrammeManagementDepartment–> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Head-ProgrammeManagementDepartment%E2%80%93> .
+<http://example.org/nifo/role/Role-Head-ProgrammeManagementDepartment–> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Head - Programme Management Department – " .
+<http://example.org/ContactPoint/6590> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+356 2123 4710";
+ <http://schema.org/email> "pierre.vella@gov.mt";
+ <http://schema.org/url> "Source: https://www.mita.gov.mt/en/  " .
+<http://example.org/nifo/person/JesmondBugeja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Jesmond Bugeja";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/3592> .
+<http://example.org/nifo/post/Post-ChiefExecutiveOfficer–MaltaCommunicationAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-ChiefExecutiveOfficer%E2%80%93MaltaCommunicationAuthority> .
+<http://example.org/nifo/role/Role-ChiefExecutiveOfficer–MaltaCommunicationAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Chief Executive Officer – Malta Communication Authority" .
+<http://example.org/ContactPoint/3592> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+356 2133 6840";
+ <http://schema.org/email> "info@mca.org.mt  ";
+ <http://schema.org/url> "http://www.mca.org.mt" .
+<http://example.org/nifo/publicservice/Malta/Passport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Passport", "Passport ";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Identity Malta", "Identity Malta";
+ <http://schema.org/url> "http://www.identitymalta.com/passport-office/", "https://identitymalta.com/";
+ <http://purl.org/dc/terms/description> "Citizens can download the passport application online, though it needs to be filled in by hand as per current national law. Furthermore, live enrolment is required when capturing the biometrics, and citizens must collect their new passport in person. " .
+<http://example.org/nifo/publicservice/Malta/ThirdCountryNationals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Third-Country Nationals";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Central Visa Unit";
+ <http://schema.org/url> "https://identitymalta.com/travel-rights-for-third-country-nationals/";
+ <http://purl.org/dc/terms/description> "Third-country nationals may enter and travel within the Schengen Area provided they fulfil the entry conditions, among others to be in possession of a valid travel document or a visa. A valid residence permit issued by a Member State also permits non-EU nationals to cross the external borders of Schengen and travel to other Member States in the Schengen area without requirement of a visa.Admission to Malta, through the external borders of the Schengen area is, therefore, only permitted to third-country nationals who satisfy the conditions of entry as provided by the legislation governing Schengen rules.As a Member State fully applying the Schengen Convention, Malta issues uniform short-stay visas valid for travelling in the entire Schengen area." .
+<http://example.org/nifo/publicservice/Malta/Accessibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Accessibility";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Commission for the Rights of Persons with Disability (CRPD)";
+ <http://schema.org/url> "https://crpd.org.mt/ ";
+ <http://purl.org/dc/terms/description> "The Commission for the Rights of Persons with Disability (CRPD), is a Government organisation that acts as the Independent mechanism in overseeing the implementation of the United Nations Convention for the Rights of Persons with Disabilities (UNCRPD). Its aim is to improve the quality of life of disabled persons through safeguarding their rights. The CRPD has a useful website with numerous contact details and links. It provides practical information about other organisations to assist the travellers while in Malta." .
+<http://example.org/nifo/publicservice/Malta/SPOT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "SPOT";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Responsibility: FITA";
+ <http://schema.org/url> "www.spot.org.mt";
+ <http://purl.org/dc/terms/description> "This website is used to provide information to its users in regard to accessible places, including reserved parking for Blue Badge Holders. FITA is the organisation in Malta which provides training, guidance, support to disabled people in information technology accessibility. It also audits website and mobile apps as to seek accessibility." .
+<http://example.org/nifo/publicservice/Malta/EUDisabilityCard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "EU Disability Card";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Commission for the Rights of Persons with Disability (CRPD)";
+ <http://schema.org/url> "https://www.eudisabilitycard.org.mt/ ";
+ <http://purl.org/dc/terms/description> "The EU Disability Card is a new initiative being piloted in eight EU Member States including Malta. The aim of the card is to allow people with disabilities travelling to other participating EU Member States to show they have a certified disability status in their home Member State, and to access benefits offered to people with disabilities in each Member State (including their own).Various organisations in Malta and the other seven Member States offer benefits to people with disabilities, and such website provides details of the benefits available in Malta, as well as, an online form to apply for the disability card." .
+<http://example.org/nifo/publicservice/Malta/InternationalDrivingPermit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "International Driving Permit";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry for Transport, Infrastructure and Capital Projects, Transport Malta";
+ <http://schema.org/url> "http://www.transport.gov.mt/land-transport/driving/driving-abroad";
+ <http://purl.org/dc/terms/description> "An International Driving Permit is needed for driving within countries that are not Member States or that are not party to the Geneva Convention on Road Traffic. The Maltese Driving Licence is accepted within the EU.To drive a motor vehicle in a country other than a Member State, applicants must contact the Authority for the issuance of an international driving permit in accordance with the provisions of any international convention applicable to Malta. Submissions can be done online." .
+<http://example.org/nifo/publicservice/Malta/MaltaTravelPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Malta Travel Point";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry for Foreign Affairs and Trade Promotion";
+ <http://schema.org/url> " Travel - EN Guide.pdf";
+ <http://purl.org/dc/terms/description> "The Malta Travel Point App is designed to address travel-related issues. It brings services offered by the Ministry and its Missions closer to the public. The app provides guidelines and advice in order to help you travel smarter and safer. The first phase of the App was launched by the Office of the Prime Minister in April 2018, and it is available for download free of charge on either App Store or Google Play. It is also accessible via maltapps which is available for download free of charge on either App Store or Google Play. " .
+<http://example.org/nifo/publicservice/Malta/PackageTravel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Package Travel";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Malta Tourism Authority - Enforcement Unit ";
+ <http://schema.org/url> "https://www.mta.com.mt/en/compliance-and-regulatory";
+ <http://purl.org/dc/terms/description> "The Authority monitors and reviews all tourism operations to ensure that tourism operations are carried out in accordance with the provisions of the relevant legislation under Chapter 409 of the Laws of Malta, in line with EU legislation. Moreover, the Authority recommends that when seeking to purchase packages, citizens should refer to the list of companies which contribute to the Insolvency Fund which ensures that consumers are protected in case of insolvency of a company selling packages." .
+<http://example.org/nifo/publicservice/Malta/Timeshare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Timeshare";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Malta Tourism Authority - Enforcement Unit ";
+ <http://schema.org/url> "https://www.mta.com.mt/en/compliance-and-regulatory";
+ <http://purl.org/dc/terms/description> "The Authority monitors and reviews all tourism operations to ensure that tourism operations are carried out only in accordance with the provisions of the relevant legislation under Chapter 409 of the Laws of Malta. " .
+<http://example.org/nifo/publicservice/Malta/Jobsearchservicesbylabouroffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Job search services by labour offices";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Jobsplus";
+ <http://schema.org/url> "http://jobsplus.gov.mt/; http://www.gov.mt/";
+ <http://purl.org/dc/terms/description> "Jobsplus offers job recruitment related services to employers and job seekers. Jobseekers can register on Jobsplus' website. This enables clients to create a profile, view suggested vacancies, receive electronic alerts for vacancies that match a particular profile, upload and submit CV, enlist work preferences, use a search facility for jobs and much more." .
+<http://example.org/nifo/publicservice/Malta/Retirementpension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Retirement pension";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Department of Social Security";
+ <http://schema.org/url> "https://socialsecurity.gov.mt/en/Pages/default.aspx";
+ <http://purl.org/dc/terms/description> "Persons attaining their retirement age are entitled to a Retirement Pension. A person is eligible to a Contributory Retirement Pension, if s/he satisfies a set of Statutory Conditions. A Retirement Pension application form is automatically sent from the Department of Social Security to prospective pensioners some three (three) months before reaching retirement age. The retirement pension calculator, accessible from the Department’s website, gives an individual an estimate of the pension entitlement one will get when retired." .
+<http://example.org/nifo/publicservice/Malta/Legalinformationsysteminclinformationontheregulatedprofessions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Legal information system (incl. information on the regulated professions)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry for Education and Employment, National Commission for Further and Higher Education (NCFHE)";
+ <http://schema.org/url> "http://www.ncfhe.gov.mt";
+ <http://purl.org/dc/terms/description> "The National Commission for Further and Higher Education (NCFHE) was officially launched on 14 September 2012 and is legislated by the revised Education Act which came into force on 1 August 2012. NCFHE focuses on: Providing accreditation to further and higher educational institutions;Providing accreditation to programmes or courses of studies at further and higher education levels;Quality assurance of both educational institutions and programmes or courses;Recognition of obtained national or international qualifications as well as prospective qualifications;Validation of informal and non-formal learning; andResearch and policy recommendation on issues related to further and higher education." .
+<http://example.org/nifo/publicservice/Malta/Unemploymentbenefits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Unemployment benefits";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Department of Social Security";
+ <http://schema.org/url> "https://socialsecurity.gov.mt/en/Pages/default.aspx";
+ <http://purl.org/dc/terms/description> "In Malta, there is no need to apply for unemployment benefits as these are automatically received by those who register as unemployed under Part I of the register with Jobsplus. The services provided by Jobsplus are extensive and available online." .
+<http://example.org/nifo/publicservice/Malta/Incometaxesdeclarationnotificationofassessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Income taxes: declaration, notification of assessment";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Commissioner for Revenue";
+ <http://schema.org/url> "http://cfr.gov.mt";
+ <http://purl.org/dc/terms/description> "Individual taxpayers may submit their Income Tax Return, view their Tax Statements, Income Tax Return Status and to make Income Tax Payments over the Internet. Continuous business process re-engineering has, however, almost eliminated the need for employees to complete a tax declaration since this is deducted at source by the employer." .
+<http://example.org/nifo/publicservice/Malta/UsedMotorVehicleValuation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Used Motor Vehicle Valuation";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry for Transport, Infrastructure and Capital Projects, Transport Malta";
+ <http://schema.org/url> "http://www.valuation.vehicleregistration.gov.mt/motorVehicle.aspx";
+ <http://purl.org/dc/terms/description> "This service provides the citizen with an idea of how much one’s used motor vehicle (which can be either a car, motor cycle or commercial vehicle) is valued." .
+<http://example.org/nifo/publicservice/Malta/Driverslicence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Driver’s licence";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry for Transport, Infrastructure and Capital Projects, Transport Malta";
+ <http://schema.org/url> "http://www.licenzji-tas-sewqan.gov.mt; http://www.transport.gov.mt/; http://www.mtip.gov.mt; https://licenzji-xufiera.gov.mt/";
+ <http://purl.org/dc/terms/description> "In 2008, the Transport Malta launched this service to allow for an electronic intake, the application of driving licenses and international driving permits. " .
+<http://example.org/nifo/publicservice/Malta/Carregistrationnewusedimportedcars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Car registration (new, used, imported cars)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry for Transport, Infrastructure and Capital Projects, Transport Malta";
+ <http://schema.org/url> "http://www.transport.gov.mt/; http://www.mtip.gov.mt ";
+ <http://purl.org/dc/terms/description> "This service allows for end-to-end transparent car (and applicable registration tax) valuation and direct online registrations of new, used and imported cars. The obligatory license plate and road license can be applied and paid online through this website. " .
+<http://example.org/nifo/publicservice/Malta/ApplicationforaResidencePermit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Application for a Residence Permit";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Identity Malta";
+ <http://schema.org/url> "https://eforms.identitymalta.com/";
+ <http://purl.org/dc/terms/description> "One can submit an application for a residence permit from abroad through the eforms.identitymalta.com portal. " .
+<http://example.org/nifo/publicservice/Malta/ResidenceFormalities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Residence Formalities";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government";
+ <http://schema.org/url> "https://www.gov.mt/en/Life Events/Pages/Residence Formalities/default.aspx";
+ <http://purl.org/dc/terms/description> "The webpage provides all the necessary information regarding residence formalities required for all the family," .
+<http://example.org/nifo/publicservice/Malta/Certificatesbirthmarriagerequestanddelivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Certificates (birth, marriage): request and delivery";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Identity Malta";
+ <http://schema.org/url> "http://www.certifikati.gov.mt/";
+ <http://purl.org/dc/terms/description> "The Certificates' portal provides the information needed to obtain a civil status certificate based upon the records of the Public Registry. Certificates of birth, marriage and death may be ordered and payment be affected online. " .
+<http://example.org/nifo/publicservice/Malta/CriminalRecordCertificate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Criminal Record Certificate";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Malta Police Force";
+ <http://schema.org/url> "https://kondotti.gov.mt/";
+ <http://purl.org/dc/terms/description> "Maltese citizens can obtain a Conduct Certificate by calling personally at the Criminal Records Office at the Police General Headquarters in Floriana or by submitting an application online or through maltapp." .
+<http://example.org/nifo/publicservice/Malta/Declarationtothepoliceegincaseoftheft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Declaration to the police (e.g. in case of theft)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Malta Police Force";
+ <http://schema.org/url> "http://www.pulizija.gov.mt/";
+ <http://purl.org/dc/terms/description> "The Police portal allows citizens to submit reports on crimes and incidents to the Malta Police Force. The website states the nature of crimes and incidents that may be reported, as well as the limits on monetary value of the crime or incident that may be made online. Citizens may also submit information on non-urgent criminal activities, or any other public safety concerns. " .
+<http://example.org/nifo/publicservice/Malta/Housingbuildingandhousing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Housing (building and housing)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Planning Authority";
+ <http://schema.org/url> "https://eapps.pa.org.mt";
+ <http://purl.org/dc/terms/description> "The Planning Authority's eApplications is a building and renovation permission case handling tool that offers: online application submission and payment; digital case and file handling; documentation for viewing by the applicant and selected documentation by the general public; anddocumentation and correspondence with case consultee organisations." .
+<http://example.org/nifo/publicservice/Malta/IdentityMaltaElectronicForms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Identity Malta Electronic Forms";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Identity Malta";
+ <http://schema.org/url> "http://www.identitymalta.com/";
+ <http://purl.org/dc/terms/description> "The eForms platform through the eforms.identitymalta.com portal enables citizens to electronically download or submit applications related to citizenship, expatriates, identity, public registry and visa." .
+<http://example.org/nifo/publicservice/Malta/Enrolmentinhighereducationuniversity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Enrolment in higher education/university";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "University of Malta";
+ <http://schema.org/url> "https://esims.um.edu.mt/esims/ipp/appindex.html";
+ <http://purl.org/dc/terms/description> "Online applications for all its courses are accepted. The full case-handling system (called eSIMS) allows the application to be submitted, processed, and the decision and delivery (in the case of overseas applicants) of the notification to the student to be completely handled electronically. " .
+<http://example.org/nifo/publicservice/Malta/OnlineregistrationforprogressingStudents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Online registration for: progressing Students";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Malta College of Arts, Science and Technology (MCAST)";
+ <http://schema.org/url> "https://mcast.classter.com";
+ <http://purl.org/dc/terms/description> "The Malta College of Arts, Science and Technology offers online registration for progressing students (students that have concluded successfully their respective MCAST programme and wish to further their studies at MCAST); continuing students (students who are currently enrolled on an MCAST programme and wish to continue their studies on the same programme next year); repeating students (students who wish to repeat units in order to complete their qualification). Registered students have access to their attendance records via https://attendance.mcast.edu.mt/myattendance. As from July 2019, MCAST will be launching its new Student Management Information System which will offer online services to all students through https://mcast.classter.com. Submitted applications are processed electronically with all decisions, correspondence, exchange of information and registration completely handled online. When registered, students have access to their data online using secure encrypted connections." .
+<http://example.org/nifo/publicservice/Malta/Newattendancealertsystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "New attendance alert system";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Institute of Tourism Studies";
+ <http://purl.org/dc/terms/description> "The Institute of Tourism Studies (ITS) developed a new attendance alert system whereby all students are pre-advised before each semester on the regulations governing attendance percentages. The new system also issues three kinds of alerts to students as follows:Alert per module: When attendance in a particular module falls below the acceptable lever each student receives an email on his/her personal email account, so the student is informed accordingly and is also encouraged to rectify the situation.Alert per overall attendance: When overall attendance falls beneath the minimum percentage as per regulations students also get an alert via email, so they are informed and can rectify the situation.Termination warning: When the attendance percentage is too low and it is impossible for the student to raise the level to the required level as per regulation students are sent a termination warning email. This is not the official termination letter and the student is given chance to contest this decision if applicable." .
+<http://example.org/nifo/publicservice/Malta/InstituteofTourismStudies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Institute of Tourism Studies";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "www.its.edu.mt";
+ <http://schema.org/url> "The Institute of Tourism Studies (ITS) developed a new attendance alert system whereby all students are pre-advised before each semester on the regulations governing attendance percentages. The new system also issues three kinds of alerts to students as follows:";
+ <http://purl.org/dc/terms/description> "Public libraries (availability of catalogues, search tools)" .
+<http://example.org/nifo/publicservice/Malta/Publiclibrariesavailabilityofcataloguessearchtools> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Public libraries (availability of catalogues, search tools)", "Public libraries (availability of catalogues, search tools) ";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Libraries & Archives Department";
+ <http://schema.org/url> "https://www.maltalibraries.gov.mt", "https://www.maltalibraries.gov.mt;";
+ <http://purl.org/dc/terms/description> "The Public Libraries’ page within Malta Libraries portal contains the Libraries Online Catalogue which may be accessed by users. A title may be searched and a list of libraries from where it can be loaned is provided. ", "The Public Libraries’ page within Malta Libraries portal contains the Libraries Online Catalogue which may be accessed by users. A title may be searched and a list of libraries from where it can be loaned is provided." .
+<http://example.org/nifo/publicservice/Malta/Studentgrants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Student grants";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry for Education and Employment";
+ <http://schema.org/url> "http://www.education.gov.mt/";
+ <http://purl.org/dc/terms/description> "The service provides information on grants' eligibility and a list of authorised dealers. Applications are fully handled by electronic means. Students' Maintenance Grants are provided by the Government of Malta for students attending in approved Post-Secondary and Tertiary educational institutions. The Students' Maintenance Grants can be classified in five distinct tiers:" .
+<http://example.org/nifo/publicservice/Malta/YouthGuarantee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Youth Guarantee";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry for Education and Employment";
+ <http://schema.org/url> "http://www.education.gov.mt/youthguarantee";
+ <http://purl.org/dc/terms/description> "Based on preventive and assistive measures, each Youth Guarantee initiative is designed to help young people continue their education, develop their skills and competencies, and meet their training goals to increase their chances of finding satisfaction and success in the world of work. ​The service provides information on the process to apply for the NEET Activation Scheme II. This scheme developed for young people who are not in education, employment or training (NEETs). Users can download their application form from the website. The service also provides information about the SEC Preventive Classes, another core initiative of the Youth Guarantee. Students can register their interest in the free summer SEC revision classes by filling in their details online through this website. " .
+<http://example.org/nifo/publicservice/Malta/Internshipssummerinternshipstraineeships> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Internships, summer internships, traineeships";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central government, The Ministry for Education and Employment";
+ <http://schema.org/url> "http://www.youth.org.mt/?";
+ <http://purl.org/dc/terms/description> "Youth Employment Portal (EYP) provides information and guidance for youth in regard to their job search and employability, and has been specifically designed for the needs of the young jobseeker (16 to 24 years of age). If you are a youth registered on the website, you can upload your CV and apply for jobs directly through this website. By being registered on this website you can also make an appointment online with guidance professionals, youth workers or psychologists. " .
+<http://example.org/nifo/publicservice/Malta/Informationandassistancetoresearchers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Information and assistance to researchers";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "EURAXESS Malta";
+ <http://schema.org/url> "http://www.euraxess.org.mt/";
+ <http://purl.org/dc/terms/description> "EURAXESS Malta provides information and assistance to mobile researchers – by means of the web portal and with the support of the national EURAXESS Service Centres. The portal contains practical information concerning professional and daily life, as well as information on job and funding opportunities. " .
+<http://example.org/nifo/publicservice/Malta/Researchfundingsupport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Research funding support";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "N/A";
+ <http://schema.org/url> "https://foreignaffairs.gov.mt/";
+ <http://purl.org/dc/terms/description> "Most scholarship opportunities are published by the Ministry of Foreign Affairs and Trade Promotion." .
+<http://example.org/nifo/publicservice/Malta/VoluntaryworkinMaltaandAbroad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Voluntary work in Malta and Abroad";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "N/A";
+ <http://schema.org/url> "http://eusolidaritycorps.eupa.org.mt/ ";
+ <http://purl.org/dc/terms/description> "There are various Non-Governmental Organisations (NGOs) where one can conduct voluntary work in Malta. The website provides a list of some of these organisations as well as information on the European Solidarity Corps (ESC)." .
+<http://example.org/nifo/publicservice/Malta/Healthrelatedservicesinteractiveadviceontheavailabilityofservicesindifferenthospitalsappointmentsforhospitals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Health related services (interactive advice on the availability of services in different hospitals; appointments for hospitals)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry for Health";
+ <http://schema.org/url> "http://www.ehealth.gov.mt/";
+ <http://purl.org/dc/terms/description> "The national myHealth portal gives patients and doctors they choose to link with access to specific electronic health records. The following data can be accessed: case summaries (inpatient discharge letters from 2008 onwards for Mater Dei Hospital and other government hospitals); pharmacy of your choice medicines entitlement, prescription and dispensing records; laboratory results and medical image reports; vaccination records; future outpatient/clinic appointments at government hospitals and health centres; copies of notifiable infectious disease forms sent by doctors through myHealth. Functionality for online ordering of lab tests and medical images by private doctors has been added to the myHealth portal.Use of the portal has grown steadily, with more than 64,000 patients now being linked with doctors through myHealth." .
+<http://example.org/nifo/publicservice/Malta/myHealthportal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "myHealth portal";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry for Health";
+ <http://schema.org/url> "https://myhealth.gov.mt/ ";
+ <http://purl.org/dc/terms/description> "Patients and doctors can access health data through this site. The following data can be accessed: Mater Dei Hospital (MDH) Case Summaries (inpatient discharge letters from 2008 onwards), Current Pharmacy of your Choice medicines entitlement, Lab results and medical image reports (Biochemistry, Haematology, and Immunology. Toxicology from 2008 onwards; Microbiology, Virology, Blood Bank, Histology and Cytology from December 2012 onwards), and future outpatient / clinic appointments at Government Hospitals (as supplied by the Patient Administration System)." .
+<http://example.org/nifo/publicservice/Malta/HealthCareAbroad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Health Care Abroad";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry for Health";
+ <http://schema.org/url> "https://servizz.gov.mt/en/Pages/Health-and-Community-Care/Health/Health-Policy/WEB012/default.aspx";
+ <http://purl.org/dc/terms/description> "The purpose of the European Health Insurance Card (EHIC) is to facilitate access to medical care during the holder’s temporary stay in another Member State, and to speed up reimbursement of the costs incurred. The European Health Insurance Card (EHIC) is free and can be requested online as an eService. Alternatively, the form can be downloaded from the portal to be sent by post, or found at the Entitlement Unit and any Local Council to be filled it." .
+<http://example.org/nifo/publicservice/Malta/Childallowance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Child allowance";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Department of Social Security";
+ <http://schema.org/url> "https://socialsecurity.gov.mt/en/Pages/default.aspx";
+ <http://purl.org/dc/terms/description> "The portal of the Department of Social Security offers a wide and varied list of social security services online, including the ability to register for Children's Allowance." .
+<http://example.org/nifo/publicservice/Malta/Certificatesbirthfreestatusmarriageciviluniondeathrequestanddelivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Certificates (birth, free status, marriage, civil union, death): request and delivery";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Identity Malta";
+ <http://schema.org/url> "http://www.certifikati.gov.mt/";
+ <http://purl.org/dc/terms/description> "The Certificates' portal provides the information needed to obtain a civil status certificate based upon the records of the Public Registry. Certificates of birth, free status, marriage, civil union, free status and death may be ordered and payment be effected online. The portal also allows the order of multi-lingual standard forms as translation aids for EU citizens presenting birth, marriage, civil union, free status and death certificates to a public authority in another EU member state. " .
+<http://example.org/nifo/publicservice/Malta/ConsumerAffairs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Consumer Affairs";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry for Justice, Culture and Local Government";
+ <http://schema.org/url> "http://www.mccaa.org.mt";
+ <http://purl.org/dc/terms/description> "The Malta Competition and Consumer Affairs Authority (MCCAA) assists consumers and provides mediation between consumers and traders. The Authority is also responsible for ensuring observance of consumer related legislation falling within the jurisdiction of the Office for Consumer Affairs Act." .
+<http://example.org/nifo/publicservice/Malta/Complaints> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Complaints";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Consumers Association";
+ <http://schema.org/url> "http://camalta.org.mt/";
+ <http://purl.org/dc/terms/description> "The Consumers Association represents citizens with legitimate grievances against traders. If the trader remains adamant and refuses to provide a remedy, the Consumers Association can assist the consumer in taking the case before the Consumer Claims Tribunal (where monetary value is of less than EUR 3 500), and/or before the competent regulatory body if the act/omission of the trader relates to a breach of a law by a specific public authority." .
+<http://example.org/nifo/publicservice/Malta/EnergySupplyServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Energy Supply Services";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Enemalta plc.";
+ <http://schema.org/url> "https://www.enemalta.com.mt";
+ <http://purl.org/dc/terms/description> "Enemalta is the distribution network operator and the suppliers of electricity services in the Maltese Islands. Their mission is to provide citizens with safe, sustainable and cost-effective energy solutions.From the website citizens can access services related to energy supply online." .
+<http://example.org/nifo/publicservice/Malta/ConsumerClaimsTribunal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Consumer Claims Tribunal";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Malta Competition and Consumer Affairs Authority (MCCAA)";
+ <http://schema.org/url> "https://mccaa.org.mt";
+ <http://purl.org/dc/terms/description> "The Consumer Claims Tribunal (CCT) is the mechanism set up with the objective of resolving disputes between consumers and traders when conciliation has not resulted in an agreement on all issues in dispute between a consumer and a trader. The website provides all the necessary information on:When one can file a complaint before the Tribunal a consumer,How one can file a claim before the Tribunal,What Happens Once a claim is filed with The Consumer Claims Tribunal.If an advocate needs to assist a claimant,Right of Appeal, andEnforcing a Decision of the Tribunal." .
+<http://example.org/nifo/publicservice/Malta/Intellectualproperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Intellectual property ";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "The Industrial Property Registrations Directorate (IPRD) at the Commerce Department";
+ <http://schema.org/url> "https://commerce.gov.mt/en/Industrial_Property/";
+ <http://purl.org/dc/terms/description> "Information on the intellectual property related processes in Malta is freely available at the web portal of the Commerce Department of Maltese government. Several online services are available on the Commerce Departments’ IP portal in regard to the registration, renewal and other intellectual property related services. " .
+<http://example.org/nifo/publicservice/Malta/Registrationofanewcompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Registration of a new company";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Registry of Companies Agency";
+ <http://schema.org/url> "https://www.roc.mt/";
+ <http://purl.org/dc/terms/description> "The Registry of Companies Agency is responsible for the registration of new commercial partnerships, the registration of documents related to commercial partnership, the issuing of certified documentation including certificates of good-standing amongst others, the reservation of company names, the collection of registration and other fees, the publication of notices and the imposition and collection of penalties. The Registry of Companies is also in charge of the Register on Beneficial Owners of a commercial partnership. The Registry of Companies is a public registry and all registered information and documentation is made available to the public." .
+<http://example.org/nifo/publicservice/Malta/BusinessAdvisoryServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Business Advisory Services";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Malta Enterprise";
+ <http://schema.org/url> "http://www.maltaenterprise.com/en/support/business-advisory-services ";
+ <http://purl.org/dc/terms/description> "This business advisory scheme is designed to provide business undertakings operating in Malta with advisory services that suit their specific circumstances. A range of business advisor services are available and every effort is made to match the right advisor to the specific needs of the applicant. An application form and incentive guidelines are available for download from the portal of Malta Enterprise. " .
+<http://example.org/nifo/publicservice/Malta/BusinessSupport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Business Support";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Malta Enterprise";
+ <http://schema.org/url> "http://www.maltaenterprise.com/en/support ";
+ <http://purl.org/dc/terms/description> "Malta Enterprise provides incentives for foreign direct investors and local enterprises demonstrating commitment towards growth and increase in value added and employment. Support measures for enterprises, application forms and other relevant information is enlisted on the portal of Malta Enterprise. " .
+<http://example.org/nifo/publicservice/Malta/CustomsdeclarationseCustoms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Customs declarations (eCustoms)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry for Finance, Customs";
+ <http://schema.org/url> "http://www.ces.gov.mt/";
+ <http://purl.org/dc/terms/description> "The online services provided by Customs are intended for Economic Operators. The site offers three main functions allowing businesses to make declaration for manifest, imports and exports, thus removing the need for Economic Operators to refer to the Customs Department. " .
+<http://example.org/nifo/publicservice/Malta/Corporatetaxdeclarationnotification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Corporate tax: declaration, notification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry for Finance, Commissioner for Revenue";
+ <http://schema.org/url> "http://cfr.gov.mt";
+ <http://purl.org/dc/terms/description> "From the Commissioner for Revenue portal tax practitioners are engaged to complete corporate tax returns whilst providing information on the submission’s case handling on a 24/7 basis." .
+<http://example.org/nifo/publicservice/Malta/VATdeclarationnotification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "VAT: declaration, notification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry for Finance, Commissioner for Revenue";
+ <http://schema.org/url> "https://cfr.gov.mt";
+ <http://purl.org/dc/terms/description> "Businesses need to be registered and issued with a VAT registration number. Information on the submission’s case handling is available on a 24/7 basis. " .
+<http://example.org/nifo/publicservice/Malta/CustomsElectronicSystemCES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Customs Electronic System (CES)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Department of Customs, Central Government", "Department of Customs, Central government";
+ <http://schema.org/url> "https://customs.gov.mt/", "https://customs.gov.mt/ ";
+ <http://purl.org/dc/terms/description> "Customs Electronic System (CES) of Malta is composed of the following online services that enable customs-related services online: National Import System (NIS), National Export System (NES), Excise Movement Control System (EMCS), SD External and Manifest system.", "Customs Electronic System (CES) of Malta is composed of the following online services that enable customs-related services online: National Import System (NIS), National Export System (NES), Excise Movement Control System (EMCS), SD External and the Manifest system. " .
+<http://example.org/nifo/publicservice/Malta/PublicprocurementeProcurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Public procurement / eProcurement";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry for Finance, Department of Contracts";
+ <http://schema.org/url> "https://www.etenders.gov.mt";
+ <http://purl.org/dc/terms/description> "The website is dedicated to eProcurement across Government and it serves as the only national platform for public procurement." .
+<http://example.org/nifo/publicservice/Malta/GatewaytoExport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Gateway to Export";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Business First Malta ";
+ <http://schema.org/url> "http://businessfirst.com.mt/en/running/Pages/IMPORT-AND-EXPORT-REGULATIONS.aspx ";
+ <http://purl.org/dc/terms/description> "This initiative aims to encourage micro and small enterprises assess whether they are ready to venture into new markets through their exports. Enterprises enrolled in this programme will earn the skills, know-how and confidence to excel in the international marketplace. Online process is required to register as initially the interested enterprises are to follow an online export assessment questionnaire to help gauge their export readiness." .
+<http://example.org/nifo/publicservice/Malta/Malteselegislationonline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Maltese legislation online";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry for Justice, Culture and Local Government";
+ <http://schema.org/url> "http://www.justiceservices.gov.mt/";
+ <http://purl.org/dc/terms/description> "The Laws of Malta website is offered by the Ministry for Justice, Culture and Local Government. This service brings together a collection of all the Laws of Malta, including the Constitution, the Statute Law Revision Act, 1980 and subsidiary legislation. The service is free of charge, has unlimited use and presents no fees whatsoever to download copies of all the Laws of Malta in PDF format." .
+<http://example.org/nifo/publicservice/Malta/Socialcontributionsforemployees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Social contributions for employees";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry for Finance, Commissioner for Revenue";
+ <http://schema.org/url> "http://cfr.gov.mt";
+ <http://purl.org/dc/terms/description> "Through this portal, employers submit a declaration of Social Security Contributions and a declaration of the Income Tax collected from employees' salaries online. " .
+<http://example.org/nifo/publicservice/Malta/EmploymentConditionsandEqualtreatmentandqualification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Employment Conditions and Equal treatment and qualification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Department for Industrial and Employment Relations (DIER)";
+ <http://schema.org/url> "https://dier.gov.mt/en/Pages/home.aspx";
+ <http://purl.org/dc/terms/description> "The Department deals with various aspects of the Industrial and Employment Relations field. The main activities of the department are:Conditions of Employment;Industrial Relations; andInternational Relations.In addition, the Department’s website provides all the necessary information related to the above-mentioned activities such as starting a new job, wages, hours of work, leave, national and public holidays, and termination of employment, amongst others." .
+<http://example.org/nifo/publicservice/Malta/OccupationalHealthandSafetyAuthorityOHSAportal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Occupational Health and Safety Authority (OHSA) portal";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Occupational Health and Safety Authority";
+ <http://schema.org/url> "http://ohsa.org.mt/";
+ <http://purl.org/dc/terms/description> "The website of the Occupational Health and Safety Authority contains all necessary information in regard to the safety and health at work. " .
+<http://example.org/nifo/publicservice/Malta/GPP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "GPP";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "The Environment, Sustainable Development and Climate Change";
+ <http://schema.org/url> "https://msdec.gov.mt/en/decc/Pages/environment/gpp/gpp.aspx";
+ <http://purl.org/dc/terms/description> "GPP is a win-win tool which leverages economic and environmental objectives. On the one hand, it enables the public sector to obtain the best value for money and procure low-carbon, environmentally-friendly goods, works and services. On the other hand, GPP represents a business opportunity for the suppliers of goods and services, rapidly pushing the boundaries of the growing market for environmentally-friendly products and services. " .
+<http://example.org/nifo/publicservice/Malta/REACHRegistrationEvaluationAuthorisationandRestrictionofChemicalsEURegulationno19072006Helpdesk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "REACH (Registration, Evaluation, Authorisation and Restriction of Chemicals, EU Regulation no 1907/2006) Helpdesk";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Malta Competition and Consumer Affairs Authority";
+ <http://schema.org/url> "http://mccaa.org.mt/en/reach ";
+ <http://purl.org/dc/terms/description> "The website of Malta Competition and Consumer Affairs Authority offers ample information particularly in regard to the REACH chemicals, as well as contact details to the helpdesk if further information is needed, however no eService is available. " .
+<http://example.org/nifo/publicservice/Malta/Commercialandindustrialnorms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Commercial and industrial norms";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "N/A ";
+ <http://schema.org/url> "http://businessfirst.com.mt/";
+ <http://purl.org/dc/terms/description> "Several licenses procedures are available as an online service on the web portal of the Business First. " .
+<http://example.org/nifo/publicservice/Malta/Environmentrelatedpermitsinclreporting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Environment-related permits (incl. reporting)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Environment and Resources Authority (ERA)";
+ <http://schema.org/url> "http://www.era.org.mt/";
+ <http://purl.org/dc/terms/description> "The Environment and Resources Authority is responsible for environmental planning and issuing of permits in three different streams; Industrial, Nature and Waste Management. These are required in order to safeguard the environment from impacts arising from different human activities. This portal provides a complete suite of information. " .
+<http://example.org/nifo/publicservice/Malta/Submissionofdatatostatisticaloffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Submission of data to statistical offices";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry for Finance, National Statistics Office";
+ <http://schema.org/url> "http://www.nso.gov.mt/";
+ <http://purl.org/dc/terms/description> "The National Statistics Office main portal publishes information related to statistical exercises. All questionnaires required are available to download from the main menu. " .
+<http://example.org/nifo/publicservice/Malta/InvestmentTaxAidCredits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Investment Tax Aid Credits";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Malta Enterprise";
+ <http://schema.org/url> "https://www.maltaenterprise.com/support/investment-aid-tax-credits-2014-2020";
+ <http://purl.org/dc/terms/description> "Investment Aid Tax Credits are intended to sustain the regional industrial and economic development of Malta. This measure facilitates initial investments by encouraging the setting up of new establishments and the expansion and development of existing businesses. " .
+<http://example.org/nifo/publicservice/Malta/MicroInvest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Micro Invest";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Malta Enterprise";
+ <http://schema.org/url> "https://www.maltaenterprise.com/support/micro-invest";
+ <http://purl.org/dc/terms/description> "The objective of this scheme is to encourage undertakings to invest in their business, innovate, expand, and implement compliance directives or to develop their operations. Such undertakings which may include self-employed persons and will be supported through a tax credit representing a percentage of the eligible expenditure including wages of newly recruited employees." .
+<http://example.org/nifo/publicservice/Malta/ServizzGov> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Servizz.Gov";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Servizz.Gov Agency";
+ <http://schema.org/url> "https://servizz.gov.mt/";
+ <http://purl.org/dc/terms/description> "Through the Servizz.Gov portal, citizens can access government services online, submit queries, suggestions and complaints to public entities regarding the services they offer, report excessive bureaucracy and request information." .
+<http://example.org/nifo/publicservice/Malta/BusinessFirst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Business First";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Business First Malta";
+ <http://schema.org/url> "https://businessfirst.com.mt";
+ <http://purl.org/dc/terms/description> "BusinessFirst.com.mt is Malta’s Government website for the Point of Single Contact for businesses. The formation and tools on this website are designed specifically for business start-ups, as well as established businesses, and the people who advise and support them. BusinessFirst.com.mt provides free access to information required for the day to day running of your business. It acts as a gateway to government business information and services." .
+<http://example.org/nifo/publicservice/Malta/Consumerrightsandwelfare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Consumer rights and welfare ";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Malta Competition and Consumer Affairs Authority, Office for Consumer Affairs";
+ <http://schema.org/url> "https://www.mccaa.org.mt/Section/index?sectionId=1061";
+ <http://purl.org/dc/terms/description> "The website of the Malta Competition and Consumer Affairs Authority offers ample information particularly in regard to the promotion and protection of consumer rights and welfare. This is mainly achieved by fostering a balanced relationship between consumers and traders. When facing disputes with traders or suppliers of services, consumers may seek the assistance of the Office for Consumer Affairs. " .
+<http://example.org/nifo/publicservice/Malta/PrivacyRightsViolationFilingaComplaint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Privacy Rights Violation – Filing a Complaint";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Malta>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Office of the Information and Data Protection Commissioner";
+ <http://schema.org/url> "https://idpc.org.mt/en/Pages/Home.aspx";
+ <http://purl.org/dc/terms/description> "The Office of the Information and Data Protection Commissioner afford individuals with their right to data protection against the violation of their privacy by the processing of personal data, as well as, to facilitate the right to access information held by public authorities to promote added transparency and accountability in government.From the website, one can enquire about information regarding data protection and freedom of information, as well as, file a data protection complaint." .

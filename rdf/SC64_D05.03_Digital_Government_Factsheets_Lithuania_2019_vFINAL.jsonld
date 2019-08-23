@@ -1,0 +1,1794 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/",
+    "rdfa": "http://www.w3.org/ns/rdfa#"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Lithuania",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Lithuania"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2019-07"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/LTU"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/dataset/DigitalGovernmentIndicatorsLithuania"
+        },
+        {
+          "@id": "http://example.org/nifo/legalframework/Lithuania"
+        },
+        {
+          "@id": "http://example.org/nifo/person/Elijus%C4%8Civilis"
+        }
+      ],
+      "http://dbpedia.org/ontology/populationTotal": [
+        "2 808 901 (2018) "
+      ],
+      "http://dbpedia.org/property/gdpNominal": [
+        "45 133 million euros (2018) "
+      ],
+      "http://dbpedia.org/property/gdpPppPerCapita": [
+        "78 (2017)"
+      ],
+      "http://dbpedia.org/ontology/areaTotal": [
+        "65 300 km2"
+      ],
+      "http://dbpedia.org/ontology/capital": [
+        "Vilnius "
+      ],
+      "http://dbpedia.org/ontology/currency": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/currency/Euro"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://ec.europa.eu/eurostat/data/database"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/undefined"
+        },
+        {
+          "@id": "https://ec.europa.eu/digital-single-market/en/news/egovernment-benchmark-2018-digital-efforts-european-countries-are-visibly-paying"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/dataset/DigitalGovernmentIndicatorsLithuania",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataSet"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Government Indicators"
+      ],
+      "http://purl.org/linked-data/cube#structure": [
+        {
+          "@id": "http://example.org/nifo/structure/DigitalGovernmentIndicatorsLithuania"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Lithuania",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www3.lrs.lt/pls/inter3/dokpaieska.showdoc_e?p_id=257682&p_query=&p_tr2="
+        },
+        {
+          "@id": "http://www3.lrs.lt/pls/inter2/dokpaieska.showdoc_l?p_id=390913"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/eli/dir/2016/2102/oj"
+        },
+        {
+          "@id": "https://e-seimas.lrs.lt/portal/legalAct/en/TAD/c5174772ecd011e89d4ad92e8434e309"
+        },
+        {
+          "@id": "http://www3.lrs.lt/pls/inter3/dokpaieska.showdoc_l?p_id=324119"
+        },
+        {
+          "@id": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/ceb0e7b291ad11e8aa33fe8f0fea665f?jfwid=-g0zryzvc8"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/eli/dir/2016/1148/oj"
+        },
+        {
+          "@id": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/94365031a53411e8aa33fe8f0fea665f/asr"
+        },
+        {
+          "@id": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/94365031a53411e8aa33fe8f0fea665f/asr"
+        },
+        {
+          "@id": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/94365031a53411e8aa33fe8f0fea665f/asr"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+        },
+        {
+          "@id": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.415499/JDOsfYhanI"
+        },
+        {
+          "@id": "http://www.ird.lt/doc/teises_aktai/20150827_Nr1V-667.pdf"
+        },
+        {
+          "@id": "https://www.e-tar.lt/portal/lt/legalAct/TAR.9E302593CE80"
+        },
+        {
+          "@id": "https://www.e-tar.lt/portal/lt/legalAct/TAR.DCBDC82E26CD/GwGDgTejXi"
+        },
+        {
+          "@id": "https://www.e-tar.lt/portal/lt/legalAct/TAR.DC9EEDAC123F"
+        },
+        {
+          "@id": "https://www.e-tar.lt/portal/lt/legalAct/TAR.1BBA0B658863"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0024"
+        },
+        {
+          "@id": "http://www3.lrs.lt/pls/inter3/dokpaieska.showdoc_l?p_id=361342&p_query=&p_tr2="
+        },
+        {
+          "@id": "http://www3.lrs.lt/cgi-bin/getfmt?C1=e&C2=277491"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/DigitalGovernmentIndicatorsLithuania",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
+      "http://purl.org/linked-data/cube#component": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinLithuania"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinLithuania"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinLithuania"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinLithuania"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinLithuania"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinLithuania"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinLithuania"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinLithuania"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinLithuania",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinLithuania",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinLithuania",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinLithuania",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "https://e-seimas.lrs.lt/portal/legalAct/en/TAD/c5174772ecd011e89d4ad92e8434e309",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "law"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG"
+        }
+      ]
+    },
+    {
+      "@id": "http://www3.lrs.lt/pls/inter3/dokpaieska.showdoc_e?p_id=257682&p_query=&p_tr2=",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "law,"
+      ]
+    },
+    {
+      "@id": "http://www3.lrs.lt/pls/inter2/dokpaieska.showdoc_l?p_id=390913",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "law"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/eli/dir/2016/2102/oj",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive (EU) 2016/2102"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "eIDAS Regulation"
+      ]
+    },
+    {
+      "@id": "http://www3.lrs.lt/pls/inter3/dokpaieska.showdoc_l?p_id=324119",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "the law"
+      ]
+    },
+    {
+      "@id": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/ceb0e7b291ad11e8aa33fe8f0fea665f?jfwid=-g0zryzvc8",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "law"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/eli/dir/2016/1148/oj"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/eli/dir/2016/1148/oj",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive (EU)2016/1148/EU",
+        "Directive (EU)2016/1148/EU"
+      ]
+    },
+    {
+      "@id": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/94365031a53411e8aa33fe8f0fea665f/asr",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "law",
+        "law",
+        "law"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "GDPR Regulation."
+      ]
+    },
+    {
+      "@id": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.415499/JDOsfYhanI",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "this law"
+      ]
+    },
+    {
+      "@id": "http://www.ird.lt/doc/teises_aktai/20150827_Nr1V-667.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "law of the Republic of Lithuania on the offences registry"
+      ]
+    },
+    {
+      "@id": "https://www.e-tar.lt/portal/lt/legalAct/TAR.9E302593CE80",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "law"
+      ]
+    },
+    {
+      "@id": "https://www.e-tar.lt/portal/lt/legalAct/TAR.DCBDC82E26CD/GwGDgTejXi",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "law"
+      ]
+    },
+    {
+      "@id": "https://www.e-tar.lt/portal/lt/legalAct/TAR.DC9EEDAC123F",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "law"
+      ]
+    },
+    {
+      "@id": "https://www.e-tar.lt/portal/lt/legalAct/TAR.1BBA0B658863",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "regulation"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0024",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2014/24/EU"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0025"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0025",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2014/25/EU"
+      ]
+    },
+    {
+      "@id": "http://www3.lrs.lt/pls/inter3/dokpaieska.showdoc_l?p_id=361342&p_query=&p_tr2=",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Services"
+      ]
+    },
+    {
+      "@id": "http://www3.lrs.lt/cgi-bin/getfmt?C1=e&C2=277491",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "The law"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/Elijus%C4%8Civilis",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Elijus Čivilis"
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-Vice-MinisterresponsibleforDigitalisationpolicy"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/2584"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-Vice-MinisterresponsibleforDigitalisationpolicy",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-Vice-MinisterresponsibleforDigitalisationpolicy"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-Vice-MinisterresponsibleforDigitalisationpolicy",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Vice-Minister responsible for Digitalisation policy "
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/2584",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/email": [
+        "elijus.civilis@eimin.lt "
+      ],
+      "http://schema.org/url": [
+        "https://eimin.lrv.lt/lt/struktura-ir-kontaktai/vadovybe/elijus-civilis"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/ePassport",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "ePassport"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Ministry of Interior"
+      ],
+      "http://schema.org/url": [
+        "http://www.dokumentai.lt/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Pursuant to EU Council regulation no. 2252/2004 on standards for security features and biometrics in passports and travel documents issued by the Member States, on 8 August 2008, Lithuania started issuing passports containing biometric data (facial image), secured by basic access control. The body in charge of personalising and organising the printing of such travel documents is the Personalisation of Identity Documents Centre under the Ministry of the Interior."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Jobsearchservicesbylabouroffices",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Job search services by labour offices"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Lithuanian Employment Service under the Ministry of Social Security and Labour of the Republic of Lithuania"
+      ],
+      "http://schema.org/url": [
+        "http://uzt.lt/en/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Lithuania's largest database of job vacancies and jobseekers is constantly updated. The website enables job seekers and employers to advertise and browse CVs and job vacancies, as well as use other electronic services. It offers support for jobseekers who want to find a job more quickly, giving them the opportunity to acquire the necessary skills to compete and succeed in the labour market, and help employers to find qualified labour force."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/UnemploymentBenefits",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Unemployment Benefits"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, The State Social Insurance Fund Board under the Ministry of Social Security and Labour of the Republic of Lithuania"
+      ],
+      "http://schema.org/url": [
+        "https://www.sodra.lt/en/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The person must register in their appropriate territorial customer service of Employment Services, under the Ministry of Social Security and Labour of the Republic of Lithuania, to receive social insurance unemployment benefit."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Incometaxesdeclarationnotificationofassessment",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Income taxes: declaration, notification of assessment"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, State Tax Inspectorate"
+      ],
+      "http://schema.org/url": [
+        "http://deklaravimas.vmi.lt/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "An electronic, declaration system, enables electronic filing of all tax returns - income tax returns, corporate tax returns, VAT returns - and also provides multiple ways to fill in and submit declarations and notification on the status of declarations. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/DrivingLicense",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Driving License"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, State enterprise 'Regitra'"
+      ],
+      "http://schema.org/url": [
+        "http://www.regitra.lt/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The employee of Regitra fills the application form. An applicant only needs to sign the application. An applicant must however bring other necessary documents to the appropriate Regitra's office. Novice drivers can apply to change their provisional licences with regular ten-year licences electronically either drivers who has an electronic health certificate and Lithuanian ID document newer than 5 years. Delivery is by courier, via parcel terminal or to any Regitra branch."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/CarRegistration",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Car Registration"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, State enterprise 'Regitra'"
+      ],
+      "http://schema.org/url": [
+        "http://www.regitra.lt/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "An application form is filled by an employee of 'Regitra'. An applicant must however provide the necessary documents. The sale or transfer of the vehicle to a new owner, re-registration of a vehicle can be done online. Other online vehicle registration services: order a new registration certificate due to name, address change, registration certificate or licence plate loss, report a lost/found registration certificate or licence plate, order an exclusive or personalised licence plate, addition plate for bicycle carriers.Delivery is by courier, via parcel terminal or to any Regitra branch."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Certificatesbirthmarriageetcrequestanddelivery",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Certificates (birth, marriage, etc.): request and delivery"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Resident's Register Service under the Ministry of the Interior) /Local authorities"
+      ],
+      "http://schema.org/url": [
+        "http://www.gyvreg.lt; http://www.lsa.lt/index.php?336399381 "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Some municipalities present application forms, which are common for all municipalities."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/ConvictionNonconvictioncertificate",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Conviction / Non-conviction certificate"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Local Government (Municipalities) – Criminal Records Authority"
+      ],
+      "http://schema.org/url": [
+        "https://www.epaslaugos.lt/portal/service/184/43?searchId=71cff370-6903-4aff-a745-cc97672d6433 "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Facility enabling natural persons upon authentication to submit a request electronically in order to receive a certificate regarding information on natural persons which is contained at the Departmental Register of Suspected, Accused and Convicted persons."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Policeservices",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Police services"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Police Department under the Ministry of the Interior of the Republic of Lithuania"
+      ],
+      "http://schema.org/url": [
+        "https://www.epolicija.lt/web/guest/services"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The portal provides the following types of services: migration services, services related to administrative offences, licenses services, issue of identity cards and passports, and the possibility to submit requests and obtain services from the Lithuanian Police Forensic Science Centre. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Declarationtothepolice",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Declaration to the police "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Police Department under the Ministry of the Interior of the Republic of Lithuania"
+      ],
+      "http://schema.org/url": [
+        "https://www.epolicija.lt/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "ePolicija.lt portal is a website where all Lithuanian residents can find and use police electronic services. Every resident of Lithuania can report criminal acts, traffic incidents and other law violations in an electronic way and get the feedback from the Police about his/her requested service.More than 30 electronic police services for residents and business have been implemented. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Housingbuildingandhousingenvironment",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Housing (building and housing, environment)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (The State Territorial Planning and Construction Inspectorate under the Ministry of Environment) / Regional authorities/Local authorities"
+      ],
+      "http://schema.org/url": [
+        "www.planuojustatyti.lt "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Users obtain documents related to the construction of the building from the construction permit to the completion of construction through the information system 'Infostatyba'. All issued documents are digital (electronic documents in ADOC format).."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/WasteeASTAWastemanagementandaccountingofelectronicdatareportingsystem",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Waste (eASTA: Waste management and accounting of electronic data reporting system)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Environmental Protection Agency"
+      ],
+      "http://schema.org/url": [
+        "http://www.gamta.lt/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The waste management system is available as an eService in Lithuania."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Enrolmentinhighereducationuniversity",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Enrolment in higher education/university"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Education Exchange Support Foundation, Central government, Ministry of Education and Science"
+      ],
+      "http://schema.org/url": [
+        "http://www.studyinlithuania.lt/en "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The portal Study in Lithuania is a non-commercial national portal for higher education studies. The aim of the website is to inform future students, their parents and other stakeholders about the education system in Lithuania, its higher education institutions and their study programmes, migration procedures, admission requirements, available funding/scholarships, and other related items. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Publiclibrariesavailabilityofcataloguessearchtools",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Public libraries (availability of catalogues, search tools)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Ministry of Culture, the Martynas Mažvydas National Library of Lithuania, county and municipality libraries"
+      ],
+      "http://schema.org/url": [
+        "http://www.libis.lt/lang.do?language=en "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Lithuanian Integral Library Information System enables users to search and request books. The system involves all Lithuanian public libraries in counties and municipalities."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/PubliclibrariesavailabilityofcataloguessearchtoolsaccesstoeBooks",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Public libraries (availability of catalogues, search tools, access to eBooks)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Ministry of Culture, the Martynas Mažvydas National Library of Lithuania"
+      ],
+      "http://schema.org/url": [
+        "http://www.libis.lt/lang.do?language=en "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Webpage www.ibiblioteka.lt unites more than 70 Lithuanian public, state and national libraries and provides such library e-services as reading, booking, rating, commenting of eBooks (more than 15 000 eBooks are available), booking and reservation of documents, its part and eBooks tablet in the library, registration in webpage or selected library, booking of the integrated reader's card of LIBIS (LIBIS reader's card)."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Virtuallibraryfortheblindandvisuallyimpaired",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Virtual library for the blind and visually impaired"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Ministry of Culture, the Lithuanian Library for the Blind"
+      ],
+      "http://schema.org/url": [
+        "http://elvis.labiblioteka.lt/home/show "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The portal enables the blind and visually impaired to access digital information (digital audio files published by the library, publications in DAISY format). "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/StudentGrants",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Student Grants"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (The Ministry of Education and Science), Higher education institutions"
+      ],
+      "http://schema.org/url": [
+        "http://www.aikos.smm.lt/aikos/svietimo_ir_mokslo_institucijos.htm "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Higher educational institutions are independent entities which have their own rules of awarding grants (with the exception of social grants) to their students. The amount of social grants is the same in all higher education institutions and is prescribed by law. Usually students receive grants from their higher education institutions through banks."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Informationandassistancetoresearchers",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Information and assistance to researchers"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "EURAXESS Lithuania"
+      ],
+      "http://schema.org/url": [
+        "http://www.euraxess.lt "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "EURAXESS Lithuania provides information and assistance to mobile researchers – by means of the web portal and with the support of the national EURAXESS Service Centres. The portal contains practical information concerning professional and daily life, as well as information on job and funding opportunities. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Academiclibrariesavailabilityofcataloguessearchtools",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Academic libraries (availability of catalogues, search tools)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government/Regional authorities/Local authorities"
+      ],
+      "http://schema.org/url": [
+        "http://www.aleph.library.lt/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Lithuanian Academic Electronic Library (eLABa) is a national aggregated open access repository which allows for the preparation, collection, long-term preservation of research and study of e-documents created in Lithuania, and permits access to all this information."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/ResearchFundingSupport",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Research Funding Support"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Research Council of Lithuania, The State Studies Foundation (state budgetary institutions), Education Exchanges Support Foundation, Agency for Science, Innovation and Technology (MITA), etc."
+      ],
+      "http://schema.org/url": [
+        "http://www.lmt.lt/, https://www.vsf.lt/en, http://www.smpf.lt/en, http://www.mita.lt/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information on available funding opportunities for the researchers is detailed on the web portal EURAXESS Lithuania. Several funding options are available."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/EuropeanHealthInsuranceCard",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "European Health Insurance Card"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "National Health Insurance Fund"
+      ],
+      "http://schema.org/url": [
+        "http://www.vlk.lt/sites/en/information-for-people-insured-abroad/information-about-healthcare-available-to-european-insurance-card-holders-in-lithuania "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The European Health Insurance Card offers access to state-provided medical treatment during travel. It includes treatment of chronic or pre-existing medical conditions. European Health Insurance Card holders receive medical care provided by general practitioners or specialists, hospital treatment and subsidised medicines prescribed for out-patient care."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Plannedmedicaltreatmentabroad",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Planned medical treatment abroad"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "National Health Insurance Fund"
+      ],
+      "http://schema.org/url": [
+        "http://www.vlk.lt/sites/en/information-for-people-insured-abroad/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "European Union regulations determine that if a person insured by public (compulsory) health insurance in one member state cannot get the needed healthcare services in the country in which he is covered by compulsory healthcare insurance, then with the prior authorisation of his competent institution he/she can travel to another country of the European Union, Iceland, Norway, Liechtenstein, or Switzerland, and get the appropriate healthcare services in one of these countries. Therefore, if you are insured by public (compulsory) health insurance in an EU member state, and you cannot get the needed healthcare in your competent member state on time, and you wish to be treated in Lithuania, contact your competent institution with a request to issue form E112 (or portable document S2). We also recommend contacting the healthcare provider in order to arrange the provision of the services"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Prescribinganddispensingmedicine",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Prescribing and dispensing medicine"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "National Health Insurance Fund"
+      ],
+      "http://schema.org/url": [
+        "http://www.vlk.lt/sites/en/healthcare-in-lithuania/reimbursable-pharmaceuticals-and-medical-aids "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Medicines and medical aids (hereinafter – MA) for persons insured in other member states of the European Union may be prescribed for the period of the person's stay in Lithuania, but not exceeding a 1-month course of treatment. When reimbursable medicines and MA are dispensed to persons insured in other member states, they must present a personal identity document and their European Health Insurance Card."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Livingabroad",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Living abroad"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "National Health Insurance Fund"
+      ],
+      "http://schema.org/url": [
+        "http://www.vlk.lt/sites/en/healthcare-abroad/living-abroad/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "In the EU, the country responsible for your social security, including your health insurance, depends on your economic status and your place of residence – not your citizenship. If you are moving your residence abroad on a permanent basis it might happen that you will be no longer entitled to medical treatment in Lithuania or use your Lithuanian European Health Insurance Card to access healthcare abroad."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/ChildAllowances",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Child Allowances"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (The Ministry of the Social Security and Labour) / Local Government"
+      ],
+      "http://schema.org/url": [
+        "http://www.lsa.lt/en/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and forms to download."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Certificatesbirthmarriagerequestanddelivery",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Certificates (birth, marriage): request and delivery"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Resident's Register Service under the Ministry of the Interior) /Local authorities"
+      ],
+      "http://schema.org/url": [
+        "http://www.gyvreg.lt; http://www.lsa.lt/index.php?336399381 "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Some municipalities present application forms, which are common for all municipalities."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/NetworkofPublicInternetAccessPoints",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Network of Public Internet Access Points"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "TBA"
+      ],
+      "http://schema.org/url": [
+        "http://www.vipt.lt/cms/app "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "This project accomplished in 2008 brought a total of 875 points to the country, making Lithuania a leader in this respect. The areas with the most access points are often those with the poorest communication infrastructure. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/BusinessGatewayLithuania",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Business Gateway Lithuania"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Point of Single Contact, Public Institution Enterprise Lithuania "
+      ],
+      "http://schema.org/url": [
+        "https://www.enterpriselithuania.com/en/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Any relevant business information for providing services and trading products in Lithuania can be accessed through the Point of Single Contact’s (PSC) website Business Gateway."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/MessageBoxofBusinessGateway",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Message Box of Business Gateway"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Government agencies (national and municipal)"
+      ],
+      "http://schema.org/url": [
+        "https://messagebox.verslovartai.lt/sso/signin/foreignEn "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Message Box is a secure e-mail system that enables users to exchange digital messages with Lithuanian government agencies at national and municipal level. Message Box is intended for use by entrepreneurs based in the European Economic Area (EEA) - including Lithuania - who provide their services in Lithuania. It also provides businessmen with an opportunity to submit applications and other necessary documents for acquiring operational permits from state and local authorities online."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/RegistrationofanewcompanyI",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Registration of a new company I"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, State Enterprise Centre of Registers"
+      ],
+      "http://schema.org/url": [
+        "http://www.kada.lt "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and forms to download."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/RegistrationofanewcompanyII",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Registration of a new company II"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Register of Legal Entities"
+      ],
+      "http://schema.org/url": [
+        "http://www.registrucentras.lt/index.php "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "According to Article 46 of the Regulations of the Register of Legal Entities provides a possibility to submit the documents electronically directly to the Register of Legal Entities, without verification of a notary (certain conditions apply, such as using only standard forms of incorporation documents, using electronic signatures, etc.). Article 128 of the Regulations provides that after on-line filling in required data, documents for company incorporation and registration, listed above, are generated automatically on-line. When documents of legal entities are submitted directly to the Registrar electronically, incorporation is performed in one working day, except for the cases when other terms of registration are set in the Regulations. The Registrar shall check that there are no obstacles to register or enter the object, instruments of incorporation of the Register into the Register, and register or enter the data of the Register."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Startingownbusiness",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Starting own business"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "State Tax Inspectorate "
+      ],
+      "http://schema.org/url": [
+        "http://www.vmi.lt/en/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "All information about individual activity certificates, business certificates, business registration procedures, operating income, deductions, accounting management, income declaration, etc., is available on the State Tax Inspectorate’s site (Tax Information Centre phone 8 700 55882 or 8 5 255 31 90, short No 1882)."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/IntellectualPropertySearch",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Intellectual Property Search "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Patent Information Centres (PATLIB)"
+      ],
+      "http://schema.org/url": [
+        "https://vpb.lrv.lt/lt/veiklos-sritys/svietimas/patlib-centrai"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Seven industrial property information centres, widely known as PATLIB centres, provide with consultations on IP protection, search and IP commercialisation. PATLIB centres are located in Vilnius, Kaunas and Klaipėda. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Patenttrademarkanddesignregistration",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Patent, trademark and design registration"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "The State Patent Bureau of the Republic of Lithuania"
+      ],
+      "http://schema.org/url": [
+        "https://vpb.lrv.lt/en/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Herein are represented forms required for legal procedures with national or European patents and trademark and design registrations in the Republic of Lithuania. 100% of services are accessible online."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/VATdeclarationnotification",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "VAT: declaration, notification"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, State Tax Inspectorate"
+      ],
+      "http://schema.org/url": [
+        "http://deklaravimas.vmi.lt/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "An electronic declaration system has been available in Lithuania since 2004. This fully transactional system enables electronic filing of all tax returns: VAT returns, etc. Its key features include: multiple ways to fill in and submit declarations, notification on the status of declarations, multiple authentication methods, centralised archive, data exchange with other systems, new designs of return forms, declaration process monitoring and management."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Corporatetaxdeclarationnotification",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Corporate tax: declaration, notification "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, State Tax Inspectorate"
+      ],
+      "http://schema.org/url": [
+        "http://deklaravimas.vmi.lt/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "An electronic declaration system has been available in Lithuania since 2004. This fully transactional system enables electronic filing of all tax returns: corporate tax returns, etc. Its key features include: multiple ways to fill in and submit declarations, notification on the status of declarations, multiple authentication methods, centralised archive, data exchange with other systems, new designs of return forms, declaration process monitoring and management."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/CustomsdeclarationseCustoms",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Customs declarations (eCustoms)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Lithuanian Customs under the Ministry of Finance"
+      ],
+      "http://schema.org/url": [
+        "http://www.lrmuitine.lt/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Customs Declaration Processing System MDAS has been used for declaring goods entering or leaving the EU territory since 2009. It provides users with the possibility of submitting electronically to the customs authorities advance information, import and export declarations. By interacting with the other systems of the Lithuanian Customs, controlling Lithuanian institutions and Customs administrations of the European Union member states, MDAS automatically calculates import duties and other taxes on declared goods, assesses in advance the risks related to goods crossing the border, controls the movement of goods leaving the European Union. Transit electronic declarations are processed by means of the National transit control system NTKS. These services have been provided to traders since 2004. The information systems enable trade and customs users to monitor the process of declaring in real time, give the traders opportunities to fulfil customs obligations in electronic environment."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Competitionrules",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Competition rules"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Seimas of the Republic of Lithuania, Office of the Seimas"
+      ],
+      "http://schema.org/url": [
+        "http://www3.lrs.lt/n/eng/DPaieska.html "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Lithuania law online portal provides access to the full texts of Lithuanian laws in English, including legal acts adopted by Seimas and subordinate institutions, national government, municipalities, courts, and many other institutions, the 1992 Lithuanian Constitution, and the Civil Code and Labour Code."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/eProcurement",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "eProcurement"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Public Procurement Office"
+      ],
+      "http://schema.org/url": [
+        "https://pirkimai.eviesiejipirkimai.lt/login.asp?B=PPO t "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Central Public Procurement Information System is the official procurement portal of Lithuania. Its serves as a one-stop-shop portal for public procurement, the use of which is mandatory since September 2008."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Socialcontributionstoworkers",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Social contributions to workers"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, the State Social Insurance Board under the Ministry of Social Security and Labour"
+      ],
+      "http://schema.org/url": [
+        "https://draudejai.sodra.lt/sodra-login/select "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Social security declarations can be submitted through EDAS (Electronic Insurers Service System), by signing them with a secure eSignature."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/PostingAbroad",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Posting Abroad"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "State Labour Inspectorate of the Republic of Lithuania"
+      ],
+      "http://schema.org/url": [
+        "https://www.vdi.lt/Forms/Tema.aspx?Tema_ID=50 "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The portal of the State Labour Inspectorate of the Republic of Lithuania provides information and legislation on the posting of workers. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Healthandsafetyatwork",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Health and safety at work"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "State Labour Inspectorate of the Republic of Lithuania"
+      ],
+      "http://schema.org/url": [
+        "https://www.vdi.lt/Forms/Tema.aspx?Tema_ID=50 "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The website of the Labour Inspectorate of the Republic of Lithuania contains all necessary information about organisation and legislation related to safety and health at work. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/CommercialandindustrialnormsinLithuania",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Commercial and industrial norms in Lithuania"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Ministry of Environment"
+      ],
+      "http://schema.org/url": [
+        "http://www.spsc.lt/cms/index.php "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The main goal of SPSC is to provide services of certification of construction products, assessment of consistency of performance, testing and assessment of internal production control upon clients’ applications. Several assessment, attestation and certification related documents are available on the web portal. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/REACHRegistrationEvaluationAuthorisationandRestrictionofChemicalsEURegulationno19072006Helpdesk",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "REACH (Registration, Evaluation, Authorisation and Restriction of Chemicals, EU Regulation no 1907/2006) Helpdesk"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Environmental Protection Agency"
+      ],
+      "http://schema.org/url": [
+        "http://www.gamta.lt/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Environmental Protection Agency is responsible for the helpdesk for REACH and CLP. Manufacturers, importers, exporters, distributors, downstream users and others access key information regarding chemicals legislation in Lithuania on this webpage or via their e-mail or telephone contacts as enlisted on the portal."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Submissionofdatatostatisticaloffices",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Submission of data to statistical offices"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Lithuanian Department of Statistics (Statistics Lithuania)"
+      ],
+      "http://schema.org/url": [
+        "http://estatistika.stat.gov.lt/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The website of the Lithuanian Department of Statistics provides electronic forms for the submission of statistical data. Furthermore, it enables the economic entities sampled for statistical surveys to produce and submit statistical data to Statistics Lithuania electronically and receive information about the progress with their processing."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Environmentrelatedpermits",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Environment related permits"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Ministry of Environment of the Republic of Lithuania)/Regional"
+      ],
+      "http://schema.org/url": [
+        "https://alis.am.lt/actionNewApplication.action "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Environmental permitting system (ALIS) provides electronic services to natural and legal persons. Individuals in this system can electronically submit applications for permits also submit with the request related documents, perform an electronic payment for the issued environmental permits (for permit issue state or other fees are paid) and receive permits. Permits are divided by eService maturity levels: Level 4 e-service permits ALIS system provides automatically. Level 3 e-service permits are redeemable at the permit responsible institution. More information about each of the permit issue procedures and conditions can be found here."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Consumerrights",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Consumer rights"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "State Consumer Rights Protection Authority of the Republic of Lithuania"
+      ],
+      "http://schema.org/url": [
+        "http://www.vvtat.lt/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Relevant information about consumer rights is provided via the website of the State Consumer Rights Protection Authority. The description of consumer contract and guarantees, related legal provisions, certain procedures can be found in the website as well. If more specific information is needed consumers may apply by e-mail, filling in electronical form of the request, by phone or by coming to the office."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Lithuania/Submittingcomplaints",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Submitting complaints"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Lithuania"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "State Consumer Rights Protection Authority of the Republic of Lithuania"
+      ],
+      "http://schema.org/url": [
+        "https://vtis.lt/portal/#/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Consumer Rights Information System, operating on the principle of a One Stop Shop, provides an opportunity for consumers to submit their request/complaint via single eServices portal and to receive information or response from the competent authority responsible for settlement of consumer complaint. Also, a consumer shall be able to follow the process of investigation of the complaint in the System."
+      ]
+    }
+  ]
+}

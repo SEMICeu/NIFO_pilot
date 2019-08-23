@@ -1,0 +1,1584 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/",
+    "rdfa": "http://www.w3.org/ns/rdfa#"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Slovakia",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Slovakia"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2019-07"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/SVK"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/dataset/DigitalGovernmentIndicatorsSlovakia"
+        },
+        {
+          "@id": "http://example.org/nifo/dataset/ThefollowinggraphspresentdataforthelatestDigitalGovernmentIndicatorsforSlovakiacomparedtotheEUaverage.StatisticalindicatorsinthissectionreflectthoseofEurostatatthetimethefactsheetisbeingprepared.Slovakia"
+        },
+        {
+          "@id": "http://example.org/nifo/legalframework/Slovakia"
+        },
+        {
+          "@id": "http://example.org/nifo/person/RichardRa%C5%A1i"
+        }
+      ],
+      "http://dbpedia.org/ontology/populationTotal": [
+        "5 443 120 inhabitants (2018)"
+      ],
+      "http://dbpedia.org/property/gdpNominal": [
+        "90 201 million Euros (2018)"
+      ],
+      "http://dbpedia.org/property/gdpPppPerCapita": [
+        "76 (2017)"
+      ],
+      "http://dbpedia.org/ontology/areaTotal": [
+        "49 036 km²"
+      ],
+      "http://dbpedia.org/ontology/capital": [
+        "Bratislava"
+      ],
+      "http://purl.org/dc/terms/language": [
+        "Slovak"
+      ],
+      "http://dbpedia.org/ontology/currency": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/currency/Euro%20(EUR)"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://ec.europa.eu/eurostat/data/database"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/undefined"
+        },
+        {
+          "@id": "https://ec.europa.eu/digital-single-market/en/news/egovernment-benchmark-2018-digital-efforts-european-countries-are-visibly-paying"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/dataset/DigitalGovernmentIndicatorsSlovakia",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataSet"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Government Indicators"
+      ],
+      "http://purl.org/linked-data/cube#structure": [
+        {
+          "@id": "http://example.org/nifo/structure/DigitalGovernmentIndicatorsSlovakia"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en,http://appsso.eurostat.ec.europa.eu/nui/submitViewTableAction.do"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Slovakia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.google.be/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCwQFjAA&url=http://www.opengovpartnership.org/file/853/download&ei=44JXU7bOMuSv7AbN2IHICA&usg=AFQjCNECmRp1xD4IQo-Rssv1_QOAxaxk8w&bvm=bv.65177938,d.ZGU"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:31999L0093"
+        },
+        {
+          "@id": "https://www.google.be/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCwQFjAA&url=http://www.opengovpartnership.org/file/853/download&ei=44JXU7bOMuSv7AbN2IHICA&usg=AFQjCNECmRp1xD4IQo-Rssv1_QOAxaxk8w&bvm=bv.65177938,d.ZGU"
+        },
+        {
+          "@id": "http://www.informatizacia.sk/ext_dok-zakon_275-2006_uplny_k_2011_07/12115c"
+        },
+        {
+          "@id": "http://www.zbierka.sk/sk/vyhladavanie?filter_sent=1&_filter_predpis_aspi_id=211/2000&q="
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML"
+        },
+        {
+          "@id": "https://www.unodc.org/cld/document/svk/2002/act_no._2152002_coll._on_the_electronic_signature_and_to_amend_and_supplement_certain_acts.html?"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52013PC0048"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2008:345:0075:0082:EN:PDF"
+        },
+        {
+          "@id": "http://www.zbierka.sk/sk/vyhladavanie?filter_sent=1&_filter_predpis_aspi_id=95/2013&q="
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055"
+        },
+        {
+          "@id": "https://www.zakonypreludi.sk/zz/2004-22"
+        },
+        {
+          "@id": "https://www.zakonypreludi.sk/zz/2018-177"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/DigitalGovernmentIndicatorsSlovakia",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
+      "http://purl.org/linked-data/cube#component": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinSlovakia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinSlovakia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinSlovakia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinSlovakia"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinSlovakia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinSlovakia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinSlovakia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinSlovakia"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinSlovakia",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinSlovakia",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinSlovakia",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinSlovakia",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "https://www.google.be/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCwQFjAA&url=http://www.opengovpartnership.org/file/853/download&ei=44JXU7bOMuSv7AbN2IHICA&usg=AFQjCNECmRp1xD4IQo-Rssv1_QOAxaxk8w&bvm=bv.65177938,d.ZGU",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. 305/2013",
+        "Act No. 305/2013"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:31999L0093",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 1999/93/EC"
+      ]
+    },
+    {
+      "@id": "http://www.informatizacia.sk/ext_dok-zakon_275-2006_uplny_k_2011_07/12115c",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act"
+      ]
+    },
+    {
+      "@id": "http://www.zbierka.sk/sk/vyhladavanie?filter_sent=1&_filter_predpis_aspi_id=211/2000&q=",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Free Access to Information",
+        "Act No. 211/2000 of Coll."
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2003/98/EC"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.zbierka.sk/sk/vyhladavanie?filter_sent=1&_filter_predpis_aspi_id=211/2000&q="
+        }
+      ]
+    },
+    {
+      "@id": "https://www.unodc.org/cld/document/svk/2002/act_no._2152002_coll._on_the_electronic_signature_and_to_amend_and_supplement_certain_acts.html?",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. 215/2002"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2016/272/"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2016/272/",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. 272/2016"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation No. 910/2014"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52013PC0048",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "the EU Directive on network and information security (NIS Directive) "
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2008:345:0075:0082:EN:PDF",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2008/114/EC"
+      ]
+    },
+    {
+      "@id": "http://www.zbierka.sk/sk/vyhladavanie?filter_sent=1&_filter_predpis_aspi_id=95/2013&q=",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. 95/2013"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.informatizacia.sk/ext_dok-zakon_215-2002_novela_25-2006v/3444c"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.informatizacia.sk/ext_dok-zakon_215-2002_novela_25-2006v/3444c",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. 25/2006"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2007:335:0031:0046:EN:PDF"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2007:335:0031:0046:EN:PDF",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2007/66/EC"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2014/55/EC"
+      ]
+    },
+    {
+      "@id": "https://www.zakonypreludi.sk/zz/2004-22",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Electronic Commerce"
+      ]
+    },
+    {
+      "@id": "https://www.zakonypreludi.sk/zz/2018-177",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. 177/2018"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/RichardRa%C5%A1i",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Richard Raši "
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-DeputyPrimeMinisterforInvestmentsandInformatisationoftheSlovakRepublic"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/3637"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-DeputyPrimeMinisterforInvestmentsandInformatisationoftheSlovakRepublic",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-DeputyPrimeMinisterforInvestmentsandInformatisationoftheSlovakRepublic"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-DeputyPrimeMinisterforInvestmentsandInformatisationoftheSlovakRepublic",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Deputy Prime Minister for Investments and Informatisation of the Slovak Republic"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/3637",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+421-2-2092 8006"
+      ],
+      "http://schema.org/email": [
+        "vicepremier@vicepremier.gov.sk"
+      ],
+      "http://schema.org/url": [
+        "http://www.vicepremier.sk/"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Passport",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Passport",
+        "Passport"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Interior",
+        "Central Government, Ministry of Interior"
+      ],
+      "http://schema.org/url": [
+        "https://www.slovensko.sk/sk/agendy/agenda/_cestovne-doklady",
+        "https://www.slovensko.sk/sk/titulna-stranka"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information can be downloaded at this site. Citizens must apply for their passports in person. The service provider offers the possibility of an electronic intake with an official electronic form. It is filled in and two biometric identifiers are required. Issuance of the personal document is made known via SMS, or email by the service provider.",
+        "There is information to download. The service provider offers the possibility of an electronic intake with an official electronic form to obtain an international passport. An electronic form is filled in and two biometric identifiers are required. The issuance of the personal document is made known via SMS, or email by the service provider."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Jobsearchservicesbylabouroffices",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Job search services by labour offices"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Labour, Social Affairs and Family, Central Agency of Labour, Social Affairs and Family"
+      ],
+      "http://schema.org/url": [
+        "https://www.slovensko.sk/sk/titulna-stranka"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The service provider offers the possibility of an electronic supply of pre-selected jobs related to a given profile."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Legalinformationsysteminclinformationontheregulatedprofessions",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Legal information system (incl. information on the regulated professions)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Ministry of Justice"
+      ],
+      "http://schema.org/url": [
+        "https://www.slov-lex.sk/domov"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Legislative and Information Portal Slov-Lex provides access to professionals and to the general public with electronic resources related to the law. The dominant parts of Slov-Lex are two closely linked systems: eCollection and eLegislation.Parts of a Slov-Lex portal are also additional modules:The implementing legislation of ministries and other central state administrative bodies;Court decisions of the Court of Justice of the European Union and the European Court of Human Rights;Court decisions of the Slovak general courts."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Unemploymentbenefits",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Unemployment benefits"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Labour, Social Affairs and Family, Social Insurance Agency"
+      ],
+      "http://schema.org/url": [
+        "http://www.socpoist.sk/davka-v-nezamestnanosti/1361s"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and forms to download. The social insurance portal carries out the electronic eService 'Individual account of policyholder', providing users with an overview of their health, pension and unemployment insurance details."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Incometaxesdeclarationnotificationofassessment",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Income taxes: declaration, notification of assessment"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Finance, Tax Directorate of the Slovak Republic"
+      ],
+      "http://schema.org/url": [
+        "https://www.slovensko.sk/sk/titulna-stranka"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and forms to download. Holders of a Guaranteed Electronic Signature may declare their taxes online; however, the use of eSignatures remains limited. The income tax declaration of employees is automatically delivered by their employer."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Vignettepayments",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Vignette payments"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "National Motorway Company"
+      ],
+      "http://schema.org/url": [
+        "https://eznamka.sk/sk/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "This portal records vignette payments which include vehicular data. The vignette can be paid via electronic business channels: the web portal and the mobile application for mobile devices, within the POS network (most often petrol stations) or through self-serve devices located at border crossings."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Pomocnadianici",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Pomoc na diaľnici"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "National Motorway Company"
+      ],
+      "http://schema.org/url": [
+        "https://www.ndsas.sk/en/i-love-motorway/mobil-application"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Pomoc na diaľnici (help on motorway) application is used to call the highway patrol with either a phone call or SMS. It provides information on traffic conditions and tourist information. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Driverslicence",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Driver’s licence"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Interior"
+      ],
+      "http://schema.org/url": [
+        "https://www.slovensko.sk/sk/agendy/agenda/_vodicsky-preukaz"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information is available on the web portal of the Ministry of Interior. The issuance of the personal document is made known via SMS, or email by the service provider."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Carregistrationnewusedimportedcars",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Car registration (new, used, imported cars)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Interior"
+      ],
+      "http://schema.org/url": [
+        "https://portal.minv.sk/wps/wcm/connect/sk/site/main/zivotne-situacie/vozidla/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "This electronic service is applicable to owners and drivers registering their vehicles. The precondition to use eServices is an activated identity card with a chip and the qualified electronic signature.ee."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Announcementofmovingchangeofaddress",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Announcement of moving (change of address)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Ministry of Interior) and Local Government (Municipalities)"
+      ],
+      "http://schema.org/url": [
+        "https://portal.minv.sk/wps/wcm/connect/sk/site/main/zivotne-situacie/pobyt/pobyt-t/trvaly-pobyt-prihlasenie"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The necessary information is available on a publicly accessible website, managed by the service provider, or by the administrative body responsible. Citizens can change their address by electronic means using the eID card."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Housingbuildingandhousingenvironment",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Housing (building and housing, environment)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Local Government, Municipalities"
+      ],
+      "http://schema.org/url": [
+        "https://www.slovensko.sk/sk/titulna-stranka; https://www.dcom.sk/majetok-a-prenajimanie"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The municipality portal dcom.sk provides eServices and also paper documents."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Certificatesbirthmarriagerequestanddelivery",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Certificates (birth, marriage): request and delivery"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Ministry of Interior) and Local Government (Municipalities)"
+      ],
+      "http://schema.org/url": [
+        "https://www.slovensko.sk/sk/titulna-stranka; https://portal.minv.sk/wps/wcm/connect/sk/site/main/zivotne-situacie/matrika-zivotna-udalost/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The information necessary to obtain a birth or marriage certificate is available on a publicly accessible website managed by the service provider. A number of online services are provided, such as a change of the name."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/CriminalRecordCertificate",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Criminal Record Certificate"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, General Prosecutors Office of the Slovak Republic"
+      ],
+      "http://schema.org/url": [
+        "https://esluzby.genpro.gov.sk/ziadost-vo-rt"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Copies of criminal record certificates are available on request. To access this service, the applicant must authenticate their identity via their eID card and sign application via qualified electronic signature."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Declarationtothepoliceegincaseoftheft",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Declaration to the police (e.g. in case of theft)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Interior, Slovak Police"
+      ],
+      "http://schema.org/url": [
+        "https://www.slovensko.sk/sk/titulna-stranka"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The information necessary to make an official declaration for theft of personal goods to the local police is available on this publicly accessible website."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Enrolmentinhighereducationuniversity",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Enrolment in higher education/university"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Education, Science, Research and Sport, Higher education institutions"
+      ],
+      "http://schema.org/url": [
+        "https://vzdelavanie.uniza.sk/prijimacky/ ;https://e-prihlaska.euba.sk/ais/start.do"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Several universities offer the opportunity to apply electronically to a chosen faculty. Digital applications can be signed electronically. The status of each perspective applicant is available by logging onto the faculty website."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Publiclibrariesavailabilityofcataloguessearchtools",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Public libraries (availability of catalogues, search tools)",
+        "Public libraries (availability of catalogues, search tools)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government & Local Government",
+        "Central Government & Local Government"
+      ],
+      "http://schema.org/url": [
+        "; http://www.infolib.sk/",
+        "; http://www.infolib.sk/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Public libraries offer the possibility of searching for a specific title, to carry out an electronic reservation, and obtaining an electronic copy. The National Slovak Library portal enables online title searches and reservations. ",
+        "Public libraries offer the possibility of searching for a specific title, to carry out an electronic reservation, and obtaining an electronic copy. The National Slovak Library portal enables online title searches and reservations. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/StudentgrantsStudentFinance",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Student grants (Student Finance)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Education, Science, Research and Sport, Higher education institutions"
+      ],
+      "http://schema.org/url": [
+        "http://www.minedu.sk/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Students who qualify for a social bursary apply for the grant directly through higher education institutions (HEIs). Financial resources are distributed to the HEIs by the Ministry of Education, Science, Research and Sport."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Informationandassistancetoresearchers",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Information and assistance to researchers"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "EURAXESS Slovakia"
+      ],
+      "http://schema.org/url": [
+        "http://www.euraxess.sk/en"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "EURAXESS Slovakia provides information and assistance to mobile researchers – by means of the web portal and with the support of the national EURAXESS Service Centres. The portal contains practical information concerning professional and daily life, as well as information on job and funding opportunities."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Researchfundingsupport",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Research funding support"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "National Scholarship Programme, Slovak Research and Development Agency"
+      ],
+      "http://schema.org/url": [
+        "http://www.apvv.sk/grantove-schemy/bilateralne-vyzvy"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information on available funding opportunities for the researchers."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Healthrelatedservicesinteractiveadviceontheavailabilityofservicesindifferenthospitalsappointmentsforhospitals",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Health related services (interactive advice on the availability of services in different hospitals; appointments for hospitals)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Health"
+      ],
+      "http://schema.org/url": [
+        "http://portal.dfnsp.sk/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Several portals offer an electronic intake with forms to book appointments. Information is provided on diseases, diagnoses and medical organisations. It is possible to send an online request regarding social, legal or health issues. Information can be emailed on request."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Medicalcostsreimbursementordirectsettlement",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Medical costs (reimbursement or direct settlement)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "General Health Insurance Company, Dôvera Health Insurance Company, Union Health Insurance Company"
+      ],
+      "http://schema.org/url": [
+        "http://www.vszp.sk/; http://www.dovera.sk/; http://www.unionzp.sk/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Compulsory health insurance typically covers the costs for medical treatment and drugs, so citizens' reimbursement requests are not necessary. The rights deriving from compulsory health insurance include the provision of health care services and several financial benefits. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/HealthcareabroadEuropeanHealthInsuranceCardEHIC",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Healthcare abroad – European Health Insurance Card (EHIC)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Public health insurance companies"
+      ],
+      "http://schema.org/url": [
+        "N/A"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "This eService is not available globally, however some health insurance companies do provide an option to apply for the EHIC online."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Birthcertificaterequestanddelivery",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Birth certificate: request and delivery"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Ministry of Interior) and Local Government (Municipalities)"
+      ],
+      "http://schema.org/url": [
+        "https://www.slovensko.sk/sk/titulna-stranka; https://portal.minv.sk/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The information necessary to obtain a birth certificate is available at this website managed by the service provider."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Childallowances",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Child allowances"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Labour, Social Affairs and Family, Central Agency of Labour, Social Affairs and Family"
+      ],
+      "http://schema.org/url": [
+        "http://www.employment.gov.sk/en/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Child allowances are obtained in paper form. Only information and downloadable forms are available online."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Marriagecertificaterequestanddelivery",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Marriage certificate: request and delivery"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Ministry of Interior) and Local Government (Municipalities)"
+      ],
+      "http://schema.org/url": [
+        "https://www.slovensko.sk/sk/titulna-stranka; https://portal.minv.sk/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The information necessary to obtain a marriage certificate is available via this publicly accessible website."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Consumerprotection",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Consumer protection"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Public Defender of Rights"
+      ],
+      "http://schema.org/url": [
+        "http://www.vop.gov.sk/would-you-like-to-file-a-complaint"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The filing of complaints to the Public Defender of Rights is available via this online form on the portal as well as in e-mail form."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Industrialproperty",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Industrial property"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Industrial Property Office of the Slovak Republic"
+      ],
+      "http://schema.org/url": [
+        "https://www.indprop.gov.sk/?introduction"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information on registration and legislation regarding intellectual property related processes in Slovakia is freely available at the web portal of the Industrial Property Office of the Slovak Republic. In addition to information, the portal explains the application process and there are forms to download. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Registrationofanewcompany",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Registration of a new company"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Justice, Trade Registry"
+      ],
+      "http://schema.org/url": [
+        "http://www.justice.gov.sk/; https://www.slovensko.sk/sk/titulna-stranka"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The service provider offers the possibility of registering a new company electronically via the central government portal. No other formal procedure is necessary for the applicant."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Uniquenessoftheproposedcompanynamecheck",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Uniqueness of the proposed company name check"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Commercial Register held by the District Court"
+      ],
+      "http://schema.org/url": [
+        "http://www.orsr.sk/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "An online check is conducted to ensure corporate originality. The information on the website is not legally binding or usable for legal acts. The cost of the certificate is EUR 3. The cost of a certificate issued in electronic form is EUR 0.33."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/ElectronicPaymentsEKOLOK",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Electronic Payments (E-KOLOK)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "National Agency for Network and Electronic Services (NASES), Ministry of Finance"
+      ],
+      "http://schema.org/url": [
+        "http://www.e-kolky.sk/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Citizens and businesses can purchase electronic stamps from self-service payment terminals (kiosks). Electronic stamps are used to cover any administrative or legal fees in workplaces such as the Ministry of the Interior, Transport Inspectorate, Police, client centres, and district offices. This option will eventually be expanded to other government departments, state agencies, courts and prosecuting authorities."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/VATdeclarationnotification",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "VAT: declaration, notification"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Finance, Tax Directorate of the Slovak Republic"
+      ],
+      "http://schema.org/url": [
+        "https://www.financnasprava.sk/sk/titulna-stranka; https://www.slovensko.sk/sk/titulna-stranka"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Users carry out their VAT declarations via this website. They can choose to communicate using Qualified or an Advanced Electronic Signature."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Corporatetaxdeclarationnotification",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Corporate tax: declaration, notification"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Finance, Tax Directorate of the Slovak Republic"
+      ],
+      "http://schema.org/url": [
+        "https://www.financnasprava.sk/sk/titulna-stranka; https://www.slovensko.sk/sk/titulna-stranka"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Users declare their taxes online, though this service remains limited to holders of holders of eSignatures. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/CustomsdeclarationseCustoms",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Customs declarations (eCustoms)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Finance, Customs Administration"
+      ],
+      "http://schema.org/url": [
+        "https://www.financnasprava.sk/sk/titulna-stranka"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and forms to download. Holders of the Guaranteed Electronic Signature may submit their declaration online. The service provider offers the possibility of carrying out the declaration of customs electronically."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/eKasasystem",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "eKasa system"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Financial administration"
+      ],
+      "http://schema.org/url": [
+        "https://www.financnasprava.sk/sk/podnikatelia/dane/ekasa"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "In 2018, Financial Administrator SR introduced a new project to facilitate the online connection of all cashiers to the eKasa financial management portal. It was part of a range of measures to combat tax fraud. From 1 May 2019, all new facilities and new cash registers were required to be connected to the system."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/PublicprocurementeProcurement",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Public procurement / eProcurement"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Office for Public Procurement"
+      ],
+      "http://schema.org/url": [
+        "https://www.eks.sk"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "To send an online notice to the National Journal of Public Procurement (eVestnik), the contracting authority/entity must have access to the online system for editing and sending notices (ZOVO application). Access to ZOVO is subject to the assignment of a password and an ID by the Office for Public Procurement. Within the application, all forms used in public procurement are centralised. The contracting authority/entity then selects the relevant form/s for a particular tender and sends them to the OJ EU (depending on thresholds) and to the OPP for publishing. There is also a tool for a simple participation in eProcurement called Electronic Contracting System."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Legalinformationsystem",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Legal information system"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Ministry of Justice"
+      ],
+      "http://schema.org/url": [
+        "https://www.slov-lex.sk/domov"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The legal information system of Slovak Republic Slov-Lex is a collection of Slovak and EU legislation. All texts of laws can be found at this portal in an electronic form by the Ministry of Justice of the Slovak Republic."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/InformationportaloftheMinistryofLaboursocialaffairsandfamily",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Information portal of the Ministry of Labour, social affairs and family"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Ministry of Labour, social affairs and family"
+      ],
+      "http://schema.org/url": [
+        "http://www.employment.gov.sk/sk/praca-zamestnanost/bezpecnost-ochrana-zdravia-pri-praci/dokumenty-2.html"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The website of the Ministry of Labour, social affairs and family contains all necessary information in regard to the legislation related to the safety and health at work."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Socialcontributionsforemployees",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Social contributions for employees"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Labour, Social Affairs and Family, Social Insurance Agency"
+      ],
+      "http://schema.org/url": [
+        "http://www.socpoist.sk/index/index.php"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "All businesses with more than five employees are required to submit regular monthly social contributions forms via the web-based data intake system. All forms are downloadable from the website."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/REACHRegistrationEvaluationAuthorisationandRestrictionofChemicalsEURegulationno19072006Helpdesk",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "REACH (Registration, Evaluation, Authorisation and Restriction of Chemicals, EU Regulation no 1907/2006) Helpdesk"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Centre for Chemical Substances and Preparations at Ministry of Economy of the Slovak Republic"
+      ],
+      "http://schema.org/url": [
+        "http://helpdesk.ccsp.sk/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information on REACH and CLP is provided on the portal."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Environmentrelatedpermitsinclreporting",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Environment-related permits (incl. reporting)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of the Environment, local environment offices"
+      ],
+      "http://schema.org/url": [
+        "http://www.minzp.sk/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The publicly accessible website managed by the relevant administrative level makes it possible to start the procedure for environment-related permits, but in a non-electronic way using a paper form."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/Submissionofdatatostatisticaloffices",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Submission of data to statistical offices"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Statistical Office of the Slovak Republic"
+      ],
+      "http://schema.org/url": [
+        "http://slovak.statistics.sk"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Users convey the electronic submission of statistical data to the Statistical Office. Statistically important data already declared to the tax and customs administration does not need to be resubmitted separately to the Statistical Office by a company."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Slovakia/NationalBusinessCentreV4GoingGlobalCLUSTRAT",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "National Business Centre, V4 Going Global, CLUSTRAT"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Slovakia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Slovak Business Agency"
+      ],
+      "http://schema.org/url": [
+        "http://www.sbagency.sk/en/slovak-business-agency"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The portal offers information for businesses about funding options, education and training as well as international cooperation. The main tools are the Microloan Programme and the National Holding Fund that provides venture capital. The Microloan programme is intended for small businesses employing up to 50 people and can be used for procuring movable and non-movable investment property, reconstruction of operating spaces as well as the purchase of necessary stocks, raw material or goods and other investment projects."
+      ]
+    }
+  ]
+}

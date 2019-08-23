@@ -1,0 +1,528 @@
+<http://data.europa.eu/nifo/factsheet/Turkey> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Turkey>;
+ <http://purl.org/dc/terms/issued> "2019-07";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/TUR";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/dataset/DigitalGovernmentIndicatorsTurkey>, <http://example.org/nifo/dataset/ThefollowinggraphspresentdataforthelatestDigitalGovernmentIndicatorsforTurkeycomparedtotheEUaverage.StatisticalindicatorsinthissectionreflectthoseofEurostatatthetimetheEditionisbeingprepared.Turkey>, <http://example.org/nifo/legalframework/Turkey>, <http://example.org/nifo/person/Dr.AliTahaKOÇ>, <http://example.org/nifo/person/MehmetCahitTURHAN>, <http://example.org/nifo/person/Dr.ÖmerFatihSAYAN>, <http://example.org/nifo/person/GökhanEVREN>, <http://example.org/nifo/person/SezenYEŞİL>, <http://example.org/nifo/person/Prof.Dr.CenkŞEN>;
+ <http://dbpedia.org/ontology/populationTotal> "80 810 525 inhabitants (2018)";
+ <http://dbpedia.org/property/gdpNominal> "753 904 million Euros (2017)";
+ <http://dbpedia.org/property/gdpPppPerCapita> "66 (2017)";
+ <http://dbpedia.org/ontology/areaTotal> "783 562 km²***";
+ <http://dbpedia.org/ontology/capital> "Ankara";
+ <http://purl.org/dc/terms/language> "Turkish";
+ <http://dbpedia.org/ontology/currency> <http://publications.europa.eu/resource/authority/currency/Turkish%20lira%20(TRY)>;
+ <http://purl.org/dc/terms/source> <https://ec.europa.eu/eurostat/data/database>, <http://data.europa.eu/nifo/factsheet/undefined>, <https://ec.europa.eu/digital-single-market/en/news/egovernment-benchmark-2018-digital-efforts-european-countries-are-visibly-paying> .
+<http://example.org/nifo/dataset/DigitalGovernmentIndicatorsTurkey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataSet>;
+ <http://purl.org/dc/terms/title> "Digital Government Indicators";
+ <http://purl.org/linked-data/cube#structure> <http://example.org/nifo/structure/DigitalGovernmentIndicatorsTurkey>;
+ <http://purl.org/dc/terms/source> "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en,http://appsso.eurostat.ec.europa.eu/nui/submitViewTableAction.do" .
+<http://example.org/nifo/structure/DigitalGovernmentIndicatorsTurkey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition>;
+ <http://purl.org/linked-data/cube#component> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinTurkey>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinTurkey>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinTurkey>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinTurkey>;
+ <http://www.w3.org/2000/01/rdf-schema#label> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinTurkey>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinTurkey>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinTurkey>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinTurkey> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinTurkey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinTurkey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinTurkey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinTurkey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/legalframework/Turkey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://www.mevzuat.gov.tr/Metin.Aspx?MevzuatKod=1.5.4982&MevzuatIliski=0&sourceXmlSearch=B%2525C3%252584%2525C2%2525B0LG%2525C3%252584%2525C2%2525B0%252520ED%2525C3%252584%2525C2%2525B0NME>, <http://en.hukuki.net/index.php?topic=1300.0>, <http://www.mevzuat.gov.tr/Metin.Aspx?MevzuatKod=7.5.7224&MevzuatIliski=0&sourceXmlSearch=elektronik%252520imza>, <https://www.tbmm.gov.tr/kanunlar/k6661.html>, <http://www.tbmm.gov.tr/anayasa/anayasa_2011.pdf>, <https://uk.practicallaw.thomsonreuters.com/7-520-1896?transitionType=Default&contextData=(sc.Default)&firstPage=true&bhcp=1>, <http://www.mevzuat.gov.tr/MevzuatMetin/1.5.5809.pdf>, <https://www.unodc.org/res/cld/document/tur/electronic-communications-law_html/Electronic_Communications_Law_Turkey.pdf>, <http://tr.wikisource.org/wiki/5816_say%2525C3%252584%2525C2%2525B1l%2525C3%252584%2525C2%2525B1_kanun>, <https://www.tkgm.gov.tr/en/page/law-establishement>, <http://www.mevzuat.gov.tr/MevzuatMetin/3.5.200611249.pdf>, <http://www.mevzuat.gov.tr/Metin1.Aspx?MevzuatKod=1.5.4734&MevzuatIliski=0&sourceXmlSearch=ihale&Tur=1&Tertip=5&No=4734>, <http://www.mevzuat.gov.tr/MevzuatMetin/1.5.6563.pdf> .
+<http://www.mevzuat.gov.tr/Metin.Aspx?MevzuatKod=1.5.4982&MevzuatIliski=0&sourceXmlSearch=B%2525C3%252584%2525C2%2525B0LG%2525C3%252584%2525C2%2525B0%252520ED%2525C3%252584%2525C2%2525B0NME> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://www.mevzuat.gov.tr/Metin.Aspx?MevzuatKod=1.5.4982&MevzuatIliski=0&sourceXmlSearch=B%C3%84%C2%B0LG%C3%84%C2%B0%20ED%C3%84%C2%B0NME> <http://data.europa.eu/eli/ontology#title> "Right to Information Act";
+ <http://purl.org/dc/terms/relation> <http://www.bilgitoplumu.gov.tr/Documents/5/Documents/2005ActionPlan.pdf> .
+<http://www.bilgitoplumu.gov.tr/Documents/5/Documents/2005ActionPlan.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "eTransformation Turkey 2005 Action Plan" .
+<http://en.hukuki.net/index.php?topic=1300.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Electronic Signatures" .
+<http://www.mevzuat.gov.tr/Metin.Aspx?MevzuatKod=7.5.7224&MevzuatIliski=0&sourceXmlSearch=elektronik%252520imza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://www.mevzuat.gov.tr/Metin.Aspx?MevzuatKod=7.5.7224&MevzuatIliski=0&sourceXmlSearch=elektronik%20imza> <http://data.europa.eu/eli/ontology#title> "By-law on the Procedures and Principles Pertaining to the Implementation of Electronic Signature Law" .
+<https://www.tbmm.gov.tr/kanunlar/k6661.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Article 8 and 12 of Law 6661" .
+<http://www.tbmm.gov.tr/anayasa/anayasa_2011.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Turkish Constitution" .
+<https://uk.practicallaw.thomsonreuters.com/7-520-1896?transitionType=Default&contextData=(sc.Default)&firstPage=true&bhcp=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Protection of Personal Data" .
+<http://www.mevzuat.gov.tr/MevzuatMetin/1.5.5809.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law 5809," .
+<https://www.unodc.org/res/cld/document/tur/electronic-communications-law_html/Electronic_Communications_Law_Turkey.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "By-Law" .
+<http://tr.wikisource.org/wiki/5816_say%2525C3%252584%2525C2%2525B1l%2525C3%252584%2525C2%2525B1_kanun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://tr.wikisource.org/wiki/5816_say%C3%84%C2%B1l%C3%84%C2%B1_kanun> <http://data.europa.eu/eli/ontology#title> "Law No. 5816" .
+<https://www.tkgm.gov.tr/en/page/law-establishement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation Regarding Data Sharing of Land Registry and Cadastre" .
+<http://www.mevzuat.gov.tr/MevzuatMetin/3.5.200611249.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "By-Law on Identity Registry System Sharing" .
+<http://www.mevzuat.gov.tr/Metin1.Aspx?MevzuatKod=1.5.4734&MevzuatIliski=0&sourceXmlSearch=ihale&Tur=1&Tertip=5&No=4734> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 4734" .
+<http://www.mevzuat.gov.tr/MevzuatMetin/1.5.6563.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No.6563 on eCommerce w" .
+<http://example.org/nifo/person/Dr.AliTahaKOÇ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Dr. Ali Taha KOÇ";
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-HeadofDigitalTransformationOfficeofthePresidency>, <http://example.org/nifo/post/Post-Minister-MinistryofTransportandInfrastructure>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8897> .
+<http://example.org/nifo/post/Post-HeadofDigitalTransformationOfficeofthePresidency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-HeadofDigitalTransformationOfficeofthePresidency> .
+<http://example.org/nifo/role/Role-HeadofDigitalTransformationOfficeofthePresidency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Head of Digital Transformation Office of the Presidency" .
+<http://example.org/ContactPoint/8897> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "ali.t.koc@cbddo.gov.tr ";
+ <http://schema.org/url> "http://www.cbddo.gov.tr/" .
+<http://example.org/nifo/person/MehmetCahitTURHAN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Mehmet Cahit TURHAN";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2491>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DeputyMinister-MinistryofTransportandInfrastructure> .
+<http://example.org/nifo/post/Post-Minister-MinistryofTransportandInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Minister-MinistryofTransportandInfrastructure> .
+<http://example.org/nifo/role/Role-Minister-MinistryofTransportandInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Minister - Ministry of Transport and Infrastructure" .
+<http://example.org/ContactPoint/2491> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/faxNumber> "+90 312 212 49 30";
+ <http://schema.org/email> "okm@uab.gov.tr";
+ <http://schema.org/url> "http://www.uab.gov.tr/" .
+<http://example.org/nifo/person/Dr.ÖmerFatihSAYAN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Dr. Ömer Fatih SAYAN";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8970>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-GeneralManageroftheDirectorateofCommunications> .
+<http://example.org/nifo/post/Post-DeputyMinister-MinistryofTransportandInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DeputyMinister-MinistryofTransportandInfrastructure> .
+<http://example.org/nifo/role/Role-DeputyMinister-MinistryofTransportandInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Deputy Minister - Ministry of Transport and Infrastructure" .
+<http://example.org/ContactPoint/8970> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/faxNumber> "+90 312 212 41 87";
+ <http://schema.org/email> "of.sayan@btk.gov.tr";
+ <http://schema.org/url> "http://www.uab.gov.tr/" .
+<http://example.org/nifo/person/GökhanEVREN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Gökhan EVREN";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8272>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-HeadofeGovernmentServicesDepartment-DirectorateofCommunications-MinistryofTransportandInfrastructure> .
+<http://example.org/nifo/post/Post-GeneralManageroftheDirectorateofCommunications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-GeneralManageroftheDirectorateofCommunications> .
+<http://example.org/nifo/role/Role-GeneralManageroftheDirectorateofCommunications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "General Manager of the Directorate of Communications" .
+<http://example.org/ContactPoint/8272> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/faxNumber> "+90 312 212 41 87";
+ <http://schema.org/email> "gokhan.evren@btk.gov.tr";
+ <http://schema.org/url> "http://www.uab.gov.tr/" .
+<http://example.org/nifo/person/SezenYEŞİL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Sezen YEŞİL";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/906>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-CEOofTURKSAT(TurksatSatelliteCommunicationCableTVandOperationInc.)> .
+<http://example.org/nifo/post/Post-HeadofeGovernmentServicesDepartment-DirectorateofCommunications-MinistryofTransportandInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-HeadofeGovernmentServicesDepartment-DirectorateofCommunications-MinistryofTransportandInfrastructure> .
+<http://example.org/nifo/role/Role-HeadofeGovernmentServicesDepartment-DirectorateofCommunications-MinistryofTransportandInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Head of eGovernment Services Department - Directorate of Communications - Ministry of Transport and Infrastructure" .
+<http://example.org/ContactPoint/906> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/faxNumber> "+90 312 212 41 87";
+ <http://schema.org/email> "sezen.yesil@uab.gov.tr";
+ <http://schema.org/url> "http://www.uab.gov.tr/eng" .
+<http://example.org/nifo/person/Prof.Dr.CenkŞEN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Cenk ŞEN";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/7865> .
+<http://example.org/nifo/post/Post-CEOofTURKSAT(TurksatSatelliteCommunicationCableTVandOperationInc.)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-CEOofTURKSAT(TurksatSatelliteCommunicationCableTVandOperationInc.)> .
+<http://example.org/nifo/role/Role-CEOofTURKSAT(TurksatSatelliteCommunicationCableTVandOperationInc.)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "CEO of TURKSAT (Turksat Satellite Communication Cable TV and Operation Inc.)" .
+<http://example.org/ContactPoint/7865> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/faxNumber> "+90 312 4995115";
+ <http://schema.org/email> "info@turksat.com.tr";
+ <http://schema.org/url> "https://www.turksat.com.tr/en" .
+<http://example.org/nifo/publicservice/Turkey/Passport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Passport", "Passport ";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, General Directorate of Security", "Central Government, Directorate general of Migration Management";
+ <http://schema.org/url> "https://epasaport.egm.gov.tr/", "https://e-ikamet.goc.gov.tr/";
+ <http://purl.org/dc/terms/description> "Information and online application for appointment facilities.", "Information application is available." .
+<http://example.org/nifo/publicservice/Turkey/VATrefundsandexciseduties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "VAT refunds and excise duties";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "The Revenue Administration (Internet Tax Office)";
+ <http://schema.org/url> "https://intvrg.gib.gov.tr/";
+ <http://purl.org/dc/terms/description> "Information and online application after authentication." .
+<http://example.org/nifo/publicservice/Turkey/Travelinformationportal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Travel information portal";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Culture and Tourism";
+ <http://schema.org/url> "yeni-ruhsatname-3950";
+ <http://purl.org/dc/terms/description> "Tourist Guidance License application, validation, updating information operations can be done via eGovernment portal." .
+<http://example.org/nifo/publicservice/Turkey/TravelGuide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Travel Guide";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "The Ministry of Foreign Affairs";
+ <http://schema.org/url> "http://www.mfa.gov.tr/yurt-disina-seyahat-edeceklere-konsolosluk-rehberi.tr.mfa ";
+ <http://purl.org/dc/terms/description> "An online guideline for travelling abroad includes security alerts about certain destinations." .
+<http://example.org/nifo/publicservice/Turkey/HealthGuide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Health Guide";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "The Ministry of Health, General Directorate of Borders and Coasts Health";
+ <http://schema.org/url> "http://www.seyahatsagligi.gov.tr/ ";
+ <http://purl.org/dc/terms/description> "All the health-related information (vaccinations, alerts, etc.) is presented and described." .
+<http://example.org/nifo/publicservice/Turkey/TouristGuidanceLicenseapp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Tourist Guidance License app";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Culture and Tourism";
+ <http://schema.org/url> "yeni-ruhsatname-3950, http://www.mfa.gov.tr/yabancilar-icin-rehber.tr.mfa, https://www.tursab.org.tr/ ";
+ <http://purl.org/dc/terms/description> "Tourist Guidance License application, validation, updating information operations can be done via the eGovernment portal for foreigners" .
+<http://example.org/nifo/publicservice/Turkey/Jobsearchservicesbylabouroffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Job search services by labour offices";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Turkish Labour Institution, Social security Institute.";
+ <http://schema.org/url> "http://www.iskur.gov.tr/; www.sgk.gov.tr";
+ <http://purl.org/dc/terms/description> "Public and private sector job and employee search transactions, as well as job applications, can be made online." .
+<http://example.org/nifo/publicservice/Turkey/Resignationnotice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Resignation notice";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Social Security Institute";
+ <http://schema.org/url> "https://www.turkiye.gov.tr/sgk-esgkuyg-esgksifre-ise-giris-isten-ayrilis";
+ <http://purl.org/dc/terms/description> "Job quit notifications can be done via the eGovernment portal." .
+<http://example.org/nifo/publicservice/Turkey/ProfessionalCompetenceInstitute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Professional Competence Institute";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Professional Competence Institute";
+ <http://schema.org/url> "http://www.myk.gov.tr/";
+ <http://purl.org/dc/terms/description> "Information on professional competences is available online." .
+<http://example.org/nifo/publicservice/Turkey/Unemploymentbenefits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Unemployment benefits";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Turkish Labour Institution";
+ <http://schema.org/url> "https://www.iskur.gov.tr/; https://www.aile.gov.tr; https://www.turkiye.gov.tr/hizmetler";
+ <http://purl.org/dc/terms/description> "Online information and application for unemployment insurance." .
+<http://example.org/nifo/publicservice/Turkey/IntegratedSocialAssistanceInformationSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Integrated Social Assistance Information System";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Family, Labour and Social Policies";
+ <http://schema.org/url> "https://www.turkiye.gov.tr/aile-bakanligi-sosyal-yardim-bilgileri-sorgulama; https://www.ailevecalisma.gov.tr/sygm ";
+ <http://purl.org/dc/terms/description> "Description: " .
+<http://example.org/nifo/publicservice/Turkey/Incometaxesdeclarationnotificationofassessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Income taxes: declaration, notification of assessment";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Revenue Administration, Ministry of Treasury and Finance";
+ <http://schema.org/url> "http://www.gib.gov.tr/";
+ <http://purl.org/dc/terms/description> "Information on all types of tax for which declaration is needed; forms can be submitted electronically. The eDeclaration application provides acceptance of declarations, announcements and appendices via the Internet, along with integration and data exchange with external systems. The Internet Tax Office of the Revenue Administration enables taxpayers to follow their tax transactions." .
+<http://example.org/nifo/publicservice/Turkey/ENotificationApplicationProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "E-Notification Application Process";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Revenue Administration";
+ <http://schema.org/url> "https://ebeyanname.gib.gov.tr/index.html";
+ <http://purl.org/dc/terms/description> "This is an eGovernment service, which allows taxpayers to make tax declarations electronically." .
+<http://example.org/nifo/publicservice/Turkey/BarCodeVehicleInspectionReportInquiryandVerification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Bar Code Vehicle Inspection Report Inquiry and Verification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Transport and Infrastructure";
+ <http://schema.org/url> "https://www.turkiye.gov.tr/udhb-barkodlu-arac-muayene-raporu-sorgulama ; http://www.tuvturk.com.tr/plaka-sorgulama.aspx";
+ <http://purl.org/dc/terms/description> "Periodic Vehicle Inspection is the examination of the technical competence of vehicles. Users can see their inspection result with this service." .
+<http://example.org/nifo/publicservice/Turkey/TowedVehicleParkingLot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Towed Vehicle Parking Lot";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, General Directorate of Security";
+ <http://schema.org/url> "https://www.turkiye.gov.tr/egm-otopark-cekilmis-araclar";
+ <http://purl.org/dc/terms/description> "Towed Vehicle Parking Lot Information can be accessed by eGovernment portal. " .
+<http://example.org/nifo/publicservice/Turkey/Driverslicence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Driver’s licence";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Directorate General of Civil Registration and Citizenship Affairs ";
+ <http://schema.org/url> "https://randevu.nvi.gov.tr/ ";
+ <http://purl.org/dc/terms/description> "Information and online application appointment facilities are available in 81 provinces." .
+<http://example.org/nifo/publicservice/Turkey/Insuranceguide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Insurance guide";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Insurance Information and Monitoring Centre";
+ <http://schema.org/url> "https://www.sbm.org.tr/ ";
+ <http://purl.org/dc/terms/description> "Insurance info (health, life, car, traffic, etc) can be accessed via the eGovernment gateway." .
+<http://example.org/nifo/publicservice/Turkey/Carregistrationnewusedimportedcars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Car registration (new, used, imported cars)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "The Police Department";
+ <http://schema.org/url> "https://www.turkiye.gov.tr/emniyet-genel-mudurlugu ";
+ <http://purl.org/dc/terms/description> "Sales, transfer, and registration transactions of second-hand vehicles are carried out and electronically completed by Notaries; personal applications are made to Notaries. Information is available for the registration of new cars." .
+<http://example.org/nifo/publicservice/Turkey/Announcementofmovingchangeofaddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Announcement of moving (change of address)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Directorate General of Civil Registration and Citizenship Affairs ";
+ <http://schema.org/url> "http://www.nvi.gov.tr/";
+ <http://purl.org/dc/terms/description> "Change of address transaction can be completed online." .
+<http://example.org/nifo/publicservice/Turkey/Housingbuildingandhousingenvironment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Housing (building and housing, environment)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Local Governments, Municipalities";
+ <http://schema.org/url> "www.ankara.bel.tr/ (example)";
+ <http://purl.org/dc/terms/description> "Relevant information is provided by some of the municipalities." .
+<http://example.org/nifo/publicservice/Turkey/SettlementResidentialandOtherAddressesandInquiryDocumentVerification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Settlement (Residential) and Other Addresses and Inquiry Document Verification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Directorate General of Civil Registration and Citizenship Affairs ";
+ <http://schema.org/url> "https://www.turkiye.gov.tr/nufus-ve-vatandaslik-isleri-genel-mudurlugu";
+ <http://purl.org/dc/terms/description> "By using this service, you can inquire settlement address information, get the barcoded document and verify the document." .
+<http://example.org/nifo/publicservice/Turkey/ElectricityandNaturalGasSubscription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Electricity and Natural Gas Subscription";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Service Provider Companies";
+ <http://schema.org/url> "https://www.turkiye.gov.tr/igdas-abonelik-sozlesmesi-basvurusu";
+ <http://purl.org/dc/terms/description> "Electricity and Natural Gas Subscription applications can be done via the eGovernment portal." .
+<http://example.org/nifo/publicservice/Turkey/Certificatesbirthmarriagerequestanddelivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Certificates (birth, marriage): request and delivery";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Directorate General of Civil Registration and Citizenship Affairs ", "Central Government, General Directorate of Census and Citizenship";
+ <http://schema.org/url> "http://www.nvi.gov.tr/", "https://www.nvi.gov.tr/";
+ <http://purl.org/dc/terms/description> "Provides information and application.", "Provides information on the necessary procedures to obtain a birth or marriage certificate but will soon be able to provide more advanced services through the MERNIS system." .
+<http://example.org/nifo/publicservice/Turkey/Declarationtothepoliceegincaseoftheft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Declaration to the police (e.g. in case of theft)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Turkish National Police";
+ <http://schema.org/url> "https://www.turkiye.gov.tr/mahalle-polisi";
+ <http://purl.org/dc/terms/description> "Online application is available." .
+<http://example.org/nifo/publicservice/Turkey/Enrolmentinhighereducationuniversity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Enrolment in higher education/university";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Education, The Council of Higher Education, Universities and Institutes";
+ <http://schema.org/url> " ";
+ <http://purl.org/dc/terms/description> "Electronic pre-registration transactions can be completed online by some universities." .
+<http://example.org/nifo/publicservice/Turkey/InformationinhighereducationuniversityGSBapplications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Information in higher education/university (GSB applications)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Council of Higher Education ";
+ <http://schema.org/url> "(https://www.turkiye.gov.tr/yuksekogretim-kurulu-baskanligi)";
+ <http://purl.org/dc/terms/description> "With this service, you can view your university graduation information and create a barcoded university graduate document." .
+<http://example.org/nifo/publicservice/Turkey/eSchoolMEBBIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "e-School (MEBBIS)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of National Education";
+ <http://schema.org/url> "https://eokulyd.meb.gov.tr/ ";
+ <http://purl.org/dc/terms/description> "This system includes all the processes from the beginning of student life, from kindergarten through graduation. State and private primary schools, kindergartens, special education institutions, secondary education institutions use the e-School system." .
+<http://example.org/nifo/publicservice/Turkey/NonformalEducationCertificateInformationQuestioning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Non-formal Education Certificate Information Questioning";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of National Education";
+ <http://schema.org/url> "http://www.unevoc.unesco.org/wtdb/worldtvetdatabase_tur_en.pdf";
+ <http://purl.org/dc/terms/description> "These certificates are different to those awarded through the formal education and training system and can currently only be provided via a process of validation. This is because the process of aligning the formal and non-formal curricula in relation to the standards is still ongoing. Non-formal education is provided primarily through short courses, public training, apprenticeship training and distance learning in public and private schools which operate under the coordination of the Ministry of National Education. It provides educational services in line with the general aims and basic principles of national education to citizens who have never entered or who are at a certain level of the formal education system, or who have left formal education." .
+<http://example.org/nifo/publicservice/Turkey/Publiclibrariesavailabilityofcataloguessearchtools> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Public libraries (availability of catalogues, search tools)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Culture and Tourism, National Library of Turkey";
+ <http://schema.org/url> "; http://www.toplukatalog.gov.tr/", "http://www.kultur.gov.tr/; http://www.toplukatalog.gov.tr/";
+ <http://purl.org/dc/terms/description> "Catalogue browsing and book reservation transactions can be completed via the website of the National Library. Collective catalogue browsing service has started to be provided under the Integrated eLibrary System. Bibliographic record browsing can be done in around 1 132 automated libraries through the website of the General Directorate of Libraries and Publications." .
+<http://example.org/nifo/publicservice/Turkey/Studentgrants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Student grants";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, General Directorate of Higher Education Credit and Hostels Institution (Kredi Yurtlar Kurumu)";
+ <http://schema.org/url> "http://www.kyk.gov.tr/; https://www.turkiye.gov.tr/hizmetler";
+ <http://purl.org/dc/terms/description> "Student grants, credit and hostel applications can be completed online and information related to the results and debt status can also be accessed online." .
+<http://example.org/nifo/publicservice/Turkey/CinemaSupportApplicationServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Cinema Support Application Services";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Culture and Tourism";
+ <http://schema.org/url> "http://www.sinema.gov.tr/TR,143929/basvurular.html; https://www.turkiye.gov.tr/kultur-ve-turizm-bakanligi";
+ <http://purl.org/dc/terms/description> "You can apply for Cinema Support on the following topics: Animation Film Production Support, Research and Development Support, Documentary Film Production Support, Director Support to Perform the First Movie, Short Film Production Support, Scenario and Dialogue Writing Support, Long Feature Film Production Support, Post-Build Support." .
+<http://example.org/nifo/publicservice/Turkey/DormitoryApplicationsandDormitoryRegistrationService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Dormitory Applications and Dormitory Registration Service";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Youth and Sports";
+ <http://schema.org/url> "https://www.turkiye.gov.tr/kyk-yurt-basvurusu ";
+ <http://purl.org/dc/terms/description> "In 2018, the Dormitory Applications and Dormitory Registration Service was started by the Ministry of Youth and Sports via the eGovernment Gateway. It has approximately 5 million users.Registrations for the universities could be done through the eGovernment Gateway." .
+<http://example.org/nifo/publicservice/Turkey/Informationandassistancetoresearchersresearchfundingsupport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Information and assistance to researchers, research funding support";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "EURAXESS Turkey";
+ <http://schema.org/url> "https://euraxess.ec.europa.eu/information/search/country/turkey-1051";
+ <http://purl.org/dc/terms/description> "EURAXESS Turkey provides information and assistance to mobile researchers – by means of the web portal and with the support of the national EURAXESS Service Centres. The portal contains practical information concerning professional and daily life, as well as information on job and funding opportunities for researchers. The Turkish website is currently under construction." .
+<http://example.org/nifo/publicservice/Turkey/FamilyMedicineInformationSystemFMIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Family Medicine Information System (FMIS)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Health ";
+ <http://schema.org/url> "http://www.saglik.gov.tr/EN/";
+ <http://purl.org/dc/terms/description> "The FMIS application is based on the principle that each individual has a family physician to take care of his health. Thus, everybody shall have a physician whom he addresses directly in every issue concerning his health problems. The data concerning the processes carried out by Family Physicians can be delivered to the Ministry electronically and securely by FMIS. The application of FMIS is one of the concrete eHealth applications, which will find the possibility of the most common usage in the entire country." .
+<http://example.org/nifo/publicservice/Turkey/Healthrelatedservicesinteractiveadviceontheavailabilityofservicesindifferenthospitalsappointmentsforhospitals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Health related services (interactive advice on the availability of services in different hospitals; appointments for hospitals)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Health";
+ <http://schema.org/url> "http://www.saglik.gov.tr/EN/; http://sivasnumunedh.saglik.gov.tr/; https://www.mhrs.gov.tr/Vatandas/";
+ <http://purl.org/dc/terms/description> "Online information is provided by hospitals through their websites. But the main website for appointments from public hospitals is ‘central hospital appointment system’ portal (mhrs). Also, appointments for all hospitals through a central call centre are possible. Furthermore, online appointments are available at certain hospitals." .
+<http://example.org/nifo/publicservice/Turkey/NationalHealthDataDictionaryNHDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "National Health Data Dictionary (NHDD)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Health ";
+ <http://schema.org/url> "http://www.saglik.gov.tr/EN/";
+ <http://purl.org/dc/terms/description> "NHDD was published in 2007 under the eHealth Strategy of Turkey and consisted of 46 data sets and 261 data elements. NHDD is a dictionary which is a reference on the issue of health in the entire country. The Meta data definitions and format determined within the NHDD establish an online reference for the information systems used at health care institutions. Complementary to the NHDD is the provision of the Health Coding Reference Server (HCRS) that provides a reference to a common coding/classification system that shall be used through the country for this type of data to support standardisation of this data." .
+<http://example.org/nifo/publicservice/Turkey/NationalHealthInformationSystemNHIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "National Health Information System (NHIS)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Health ";
+ <http://schema.org/url> "http://www.saglik.gov.tr/EN/";
+ <http://purl.org/dc/terms/description> "The National Health Information System (NHIS) is a compilation of Saglik-Net, the National Health Data Dictionary, Minimum Health Data Sets and the Health Coding Reference Server together with some other technologies such as digital security mechanisms in order to provide a nation-wide infrastructure for easy and efficient sharing of electronic health records in the form of minimum health data sets. The aim is to collect health data from all healthcare institutions scattered over the country." .
+<http://example.org/nifo/publicservice/Turkey/Medicalcostsreimbursementordirectsettlement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Medical costs (reimbursement or direct settlement)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Social Security Institution";
+ <http://schema.org/url> "http://www.sgk.gov.tr/";
+ <http://purl.org/dc/terms/description> "Online information about health insurance and application forms are available. Pharmacy automation system allows online transactions between pharmacies and the Social Security Institution." .
+<http://example.org/nifo/publicservice/Turkey/eNabzProjectePulseProject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "eNabız Project (ePulse Project)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Health ";
+ <http://schema.org/url> "http://www.saglik.gov.tr/EN/";
+ <http://purl.org/dc/terms/description> "The aim of the project is to present continuous information in one portal to different types of patients. The components of the portal are: announcements, data presenting interfaces, applications, decision support system, forums and management interfaces. With the use of eID cards, it will act as a Personal Health Record (PHR) System and hence enable patients to access personal Electronic Health Records, online reservations and tele-consultation with family physicians." .
+<http://example.org/nifo/publicservice/Turkey/DynamicSportInformationSystemNationalSportsApplication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Dynamic – Sport Information System (National Sports Application)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Youth and Sports";
+ <http://schema.org/url> "https://www.turkiye.gov.tr/gsb-spor-bilgi-sistemi; https://dinamik.sgm.gov.tr";
+ <http://purl.org/dc/terms/description> "Dynamic – Sport Information System provides digitalisation of all sports-related workflows and data. In this context, individuals are able to view self-information, can obtain verifiable documents and can fill out applications throughout the eGovernment gateway." .
+<http://example.org/nifo/publicservice/Turkey/Generalpractitionerchangeonline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "General practitioner change online";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Health ";
+ <http://schema.org/url> "https://www.turkiye.gov.tr/saglik-aile-hekimi-degistirme";
+ <http://purl.org/dc/terms/description> "Citizens can change family doctor by using the eGovernment portal." .
+<http://example.org/nifo/publicservice/Turkey/Childallowances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Child allowances";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Social Security Institution";
+ <http://schema.org/url> "http://www.sgk.gov.tr/";
+ <http://purl.org/dc/terms/description> "Child allowances payments are made to the insured employees." .
+<http://example.org/nifo/publicservice/Turkey/Adoptionapplication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Adoption application";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Republic of Turkey Minister of Family, Labour And Social Services";
+ <http://schema.org/url> "https://www.turkiye.gov.tr/aile-ve-sosyal-politikalar-evlat-edinme-hizmeti";
+ <http://purl.org/dc/terms/description> "Adoption applications can be done via the eGovernment portal. In addition, Social Economic Support Applications can be made." .
+<http://example.org/nifo/publicservice/Turkey/ConsumerprotectionNationalJudiciaryInformaticsSystemUYAP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Consumer protection (National Judiciary Informatics System (UYAP))";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Justice";
+ <http://schema.org/url> "http://www.e-justice.gov.tr/";
+ <http://purl.org/dc/terms/description> "UYAP is an eJustice system developed to ensure a fast, reliable, and accurate judicial system. Each judicial unit is connected to other units by a secure network and given access to legal sources such as legislation, case law, bulletins and circulars. Citizens can reach and check on their case information via the Internet, and be informed of the day fixed for the trial without appearing in court. They can be informed via a website about their cases or hearing dates. They can submit their claims to court by using their electronic signature and examine their files through the Internet. Lawyers can file a suit, submit any document to courts and pay case fee from their office by using their electronic signature through the Internet, etc." .
+<http://example.org/nifo/publicservice/Turkey/etenderTCCustomsandMinistryofCommerceeProcurementMobileApp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "e-tender (T. C. Customs and Ministry of Commerce e-Procurement Mobile App)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Trade";
+ <http://schema.org/url> "https://apkgk.com/com.gumrukveticaret.eihale";
+ <http://purl.org/dc/terms/description> "Official app for mobile devices which allows users to perform the following operations mobile devices: The date and the resulting goods and vehicle auctions examination;Tender-specific information, detailed and easy access;Expert reports and the tender for fast and detailed access;Ability to bid for the tender;Pay for bidding; Accounts at no time requested to follow the details of the tender;Be able to follow history." .
+<http://example.org/nifo/publicservice/Turkey/Marketplacepricesinquiry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Marketplace prices inquiry";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Republic of Turkey Ministry Of Trade";
+ <http://schema.org/url> "https://www.turkiye.gov.tr/gumruk-ve-ticaret-fiyat-bilgisi-sorgulama";
+ <http://purl.org/dc/terms/description> "Marketplace prices inquiry can be done via the eGovernment portal." .
+<http://example.org/nifo/publicservice/Turkey/Intellectualproperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Intellectual property";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Turkish Patent Institute";
+ <http://schema.org/url> "https://www.ip-coster.com/IPGuides/c/intellectual-property-turkey";
+ <http://purl.org/dc/terms/description> "The following services are available online: patent search and file tracking, trademark search and file tracking, industrial design search and file tracking. " .
+<http://example.org/nifo/publicservice/Turkey/Registrationofanewcompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Registration of a new company";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Republic of Turkey Ministry of Trade ";
+ <http://schema.org/url> "https://www.companyformationturkey.com/register-company-turkey";
+ <http://purl.org/dc/terms/description> "Since 1 January 2014, one of the phases of the MERSIS project is that active and corporate bodies are able to make new registration over the system electronically, all over the country. MERSIS launched a web service pool in 2016. After a protocol is assigned, the receiving side can reach millions of records. Nearly 50 institutions and organisations can get corporate body info, partnership info, etc. by using MERSIS. MERSIS is compatible with new generation browsers and mobile devices." .
+<http://example.org/nifo/publicservice/Turkey/OwnerPartnerAuthorisedCommercialBusinessorCompanies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Owner / Partner / Authorised Commercial Business or Companies";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Republic of Turkey Ministry of Trade ";
+ <http://schema.org/url> "(https://www.ticaret.gov.tr/)";
+ <http://purl.org/dc/terms/description> "By using this service, you can access your business or company information registered in the Central Registry System with your owner / partner / authority." .
+<http://example.org/nifo/publicservice/Turkey/CommercialBusinessandCompanyInterrogation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Commercial Business and Company Interrogation";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Republic of Turkey Ministry of Trade ";
+ <http://schema.org/url> "(https://www.ticaret.gov.tr/)";
+ <http://purl.org/dc/terms/description> "By using this service, users can search among the companies registered in the Central Registry System." .
+<http://example.org/nifo/publicservice/Turkey/Foreigntradepermissionsandnotifications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Foreign trade permissions and notifications";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "The Police Department";
+ <http://schema.org/url> "https://www.turkiye.gov.tr/emniyet-adima-tescilli-arac-sorgulama-tuzel-kisiler-icin";
+ <http://purl.org/dc/terms/description> "With the Single Window Port Application Service, agencies and public institutions use same database for foreign trade procedures like permissions, notifications. Also registered company vehicles can be queried by using the Government portal." .
+<http://example.org/nifo/publicservice/Turkey/VATdeclarationnotification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "VAT: declaration, notification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Revenue Administration";
+ <http://schema.org/url> "http://www.gib.gov.tr/";
+ <http://purl.org/dc/terms/description> "Statement, accrual, and payment transactions can be done online within the scope of eDeclaration." .
+<http://example.org/nifo/publicservice/Turkey/ElectronicPayments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Electronic Payments";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Revenue Administration";
+ <http://schema.org/url> "https://intvrg.gib.gov.tr/";
+ <http://purl.org/dc/terms/description> "Available as an online service. " .
+<http://example.org/nifo/publicservice/Turkey/Corporatetaxdeclarationnotification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Corporate tax: declaration, notification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Revenue Administration";
+ <http://schema.org/url> "http://www.gib.gov.tr/";
+ <http://purl.org/dc/terms/description> "Online submission of tax forms and payment are available through the eDeclaration and the Internet Tax Office of the Revenue Administration as part of the Tax Offices Automation Project (VEDOP)." .
+<http://example.org/nifo/publicservice/Turkey/CustomsdeclarationseCustoms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Customs declarations (e-Customs)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Customs and Trade";
+ <http://schema.org/url> "https://www.gtb.gov.tr/";
+ <http://purl.org/dc/terms/description> "Custom declarations can be fully submitted in electronic environment." .
+<http://example.org/nifo/publicservice/Turkey/InternetTaxOfficeApplication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Internet Tax Office Application";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Revenue Administration ";
+ <http://schema.org/url> "https://intvrg.gib.gov.tr/";
+ <http://purl.org/dc/terms/description> "Another application is the Internet Tax Office of the Revenue Administration, which enables taxpayers to follow their tax transactions such as accrual tax and payments-in. These applications are all parts of the Tax Offices Automation Project (VEDOP)." .
+<http://example.org/nifo/publicservice/Turkey/PublicprocurementeProcurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Public procurement / eProcurement";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Public Procurement Authority";
+ <http://schema.org/url> "http://www.ihale.gov.tr/; https://ekap.kik.gov.tr/EKAP/Default.aspx?ReturnUrl=/EKAP/";
+ <http://purl.org/dc/terms/description> "The Electronic Public Procurement Platform (EKAP) has been created. The first electronic tender was accomplished on 7 March 2011. The Public Procurement Bulletin is being published in an electronic environment." .
+<http://example.org/nifo/publicservice/Turkey/Protectionofthecompetition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Protection of the competition";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Competition Authority";
+ <http://schema.org/url> "https://www.rekabet.gov.tr/en";
+ <http://purl.org/dc/terms/description> "The Competition Authority was established as per Article 20 of the Law.4054, in order to ensure the formation and development of markets for goods and services in a free and sound competitive environment. " .
+<http://example.org/nifo/publicservice/Turkey/Socialcontributionsforemployees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Social contributions for employees";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Social Insurance Institution";
+ <http://schema.org/url> "http://www.sgk.gov.tr/";
+ <http://purl.org/dc/terms/description> "The eBildirge portal enables employers to send the insurance premium documents of employees via the Internet and to make accrued cost payments via automatic payment or Internet banking." .
+<http://example.org/nifo/publicservice/Turkey/Workinghours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Working hours";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Family, Labour and Social Services Security";
+ <http://schema.org/url> "https://www.ailevecalisma.gov.tr/";
+ <http://purl.org/dc/terms/description> "The ministry determines the working hours." .
+<http://example.org/nifo/publicservice/Turkey/NationalCouncilonOccupationalSafetyandHealthWebPortal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "National Council on Occupational Safety and Health Web Portal";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Family, Labour and Social Services, National Council on Occupational Safety and Health";
+ <http://schema.org/url> "https://www.ailevecalisma.gov.tr/isggm";
+ <http://purl.org/dc/terms/description> "The website of the Ministry of Labour and Social Security contains the necessary information in regard to the legislation related to the safety and health at work." .
+<http://example.org/nifo/publicservice/Turkey/Productcertification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Product certification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Turkish Standardisation Institute (TSE)";
+ <http://schema.org/url> "https://tse.org.tr/IcerikDetay?ID=12 ";
+ <http://purl.org/dc/terms/description> "CE marking is provided by TSE. Applications can be submitted online." .
+<http://example.org/nifo/publicservice/Turkey/Environmentrelatedpermitsinclreporting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Environment-related permits (incl. reporting)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Environment and Urbanisation";
+ <http://schema.org/url> "http://online.cevre.gov.tr/";
+ <http://purl.org/dc/terms/description> "The service for online applications for environment-related permits is available." .
+<http://example.org/nifo/publicservice/Turkey/Submissionofdatatostatisticaloffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Submission of data to statistical offices";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Turkish Statistical Institute";
+ <http://schema.org/url> "http://www.tuik.gov.tr/";
+ <http://purl.org/dc/terms/description> "Businesses are able to send statistical data for some of the questionnaires through the Internet." .
+<http://example.org/nifo/publicservice/Turkey/Consumerprotection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Consumer protection";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Trade";
+ <http://schema.org/url> "https://tuketici.ticaret.gov.tr/ ";
+ <http://purl.org/dc/terms/description> "Consumers are protected based on Law.6502. " .
+<http://example.org/nifo/publicservice/Turkey/Complaintsgateway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Complaints gateway";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Trade";
+ <http://schema.org/url> "https://www.turkiye.gov.tr/tuketici-sikayeti-uygulamasi ";
+ <http://purl.org/dc/terms/description> "Consumers can file complaints via the eGovernment gateway." .
+<http://example.org/nifo/publicservice/Turkey/Personaldataprotection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Personal data protection";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Turkey>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "The Data Protection Authority";
+ <http://schema.org/url> "https://kvkk.gov.tr/ ";
+ <http://purl.org/dc/terms/description> "The DPA is body responsible for regulation of personal data protection." .

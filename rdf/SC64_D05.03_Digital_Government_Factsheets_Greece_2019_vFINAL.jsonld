@@ -1,0 +1,1686 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/",
+    "rdfa": "http://www.w3.org/ns/rdfa#"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Greece",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Greece"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2019-07"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/GRC"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/dataset/DigitalGovernmentIndicatorsGreece"
+        },
+        {
+          "@id": "http://example.org/nifo/legalframework/Greece"
+        },
+        {
+          "@id": "http://example.org/nifo/person/NikosPappas"
+        },
+        {
+          "@id": "http://example.org/nifo/person/SteliosRallis"
+        },
+        {
+          "@id": "http://example.org/nifo/person/MariaElizaXenogiannakopoulou"
+        },
+        {
+          "@id": "http://example.org/nifo/person/GrigorisTheodorakis"
+        },
+        {
+          "@id": "http://example.org/nifo/person/GatosVasileios"
+        }
+      ],
+      "http://dbpedia.org/ontology/populationTotal": [
+        "10 741 165 inhabitants (2018)"
+      ],
+      "http://dbpedia.org/property/gdpNominal": [
+        "184 713 million Euros (2018)"
+      ],
+      "http://dbpedia.org/property/gdpPppPerCapita": [
+        "GDP per inhabitant in PPS (Purchasing Power Standard EU 28=100):67 (2017)"
+      ],
+      "http://dbpedia.org/ontology/areaTotal": [
+        "131 957 km²"
+      ],
+      "http://dbpedia.org/ontology/capital": [
+        "Athens"
+      ],
+      "http://purl.org/dc/terms/language": [
+        "Greek"
+      ],
+      "http://dbpedia.org/ontology/currency": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/currency/EUR"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "http://ec.europa.eu/eurostat/data/database"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/undefined"
+        },
+        {
+          "@id": "https://ec.europa.eu/digital-single-market/en/news/egovernment-benchmark-2018-digital-efforts-european-countries-are-visibly-paying"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/dataset/DigitalGovernmentIndicatorsGreece",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataSet"
+      ],
+      "http://purl.org/dc/terms/title": [
+        " Digital Government Indicators"
+      ],
+      "http://purl.org/linked-data/cube#structure": [
+        {
+          "@id": "http://example.org/nifo/structure/DigitalGovernmentIndicatorsGreece"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en,http://appsso.eurostat.ec.europa.eu/nui/submitViewTableAction.do"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Greece",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wFYAFdDx4L2G3dtvSoClrL8aRmGcrk2DyZ5MXD0LzQTLWPU9yLzB8V68knBzLCmTXKaO6fpVZ6Lx3UnKl3nP8NxdnJ5r9cmWyJWelDvWS_18kAEhATUkJb0x1LIdQ163nV9K--td6SIuWul0aw7wuQu_zIv4zGsWeDDAhtceLHtRKuKtY2AHivR"
+        },
+        {
+          "@id": "http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wFqnM3eAbJzrXdtvSoClrL8rzyE3xwSGuPtIl9LGdkF53UIxsx942CdyqxSQYNuqAGCF0IfB9HI6qSYtMQEkEHLwnFqmgJSA5WIsluV-nRwO1oKqSe4BlOTSpEWYhszF8P8UqWb_zFijNc8Fn9CBud_opAMeXVO02kTJlNAeGAw8ZRS-tl49PDh"
+        },
+        {
+          "@id": "http://www.wipo.int/wipolex/en/text.jsp?file_id=187609"
+        },
+        {
+          "@id": "http://www.wipo.int/wipolex/en/text.jsp?file_id=187609"
+        },
+        {
+          "@id": "http://www.greeklawdigest.gr/component/k2/item/80-access-to-and-reuse-of-public-sector-information-legislative-framework"
+        },
+        {
+          "@id": "http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wFGQ40gSLPFOXdtvSoClrL8KoqaERu8wDDtIl9LGdkF53UIxsx942CdyqxSQYNuqAGCF0IfB9HI6qSYtMQEkEHLwnFqmgJSA5WIsluV-nRwO1oKqSe4BlOTSpEWYhszF8P8UqWb_zFijM7pZ0uAVJnEIRDT8gfgjDrktnVRzo5d-fi1RvYPzP-4"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:31999L0093"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/eli/dir/2016/1148/oj"
+        },
+        {
+          "@id": "http://www.dpa.gr/portal/page?_pageid=33,123437&_dad=portal&_schema=PORTAL"
+        },
+        {
+          "@id": "http://www.dpa.gr/pls/portal/docs/PAGE/APDPX/ENGLISH_INDEX/LEGAL%2520FRAMEWORK/LAW_%25203471_06EN.PDF"
+        },
+        {
+          "@id": "https://www.taxheaven.gr/laws/law/index/law/876"
+        },
+        {
+          "@id": "http://www.epdm.gr/Uploads/Files/files_for_content/pd118.pdf"
+        },
+        {
+          "@id": "http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wFqnM3eAbJzrXdtvSoClrL87TVLbP6RgP3tIl9LGdkF53UIxsx942CdyqxSQYNuqAGCF0IfB9HI6qSYtMQEkEHLwnFqmgJSA5WIsluV-nRwO1oKqSe4BlOTSpEWYhszF8P8UqWb_zFijAlpmO2Qz8iIx4z6VnSIwLFqCH2wDYcYTJGqv4Na3OZv"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:en:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/DigitalGovernmentIndicatorsGreece",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
+      "http://purl.org/linked-data/cube#component": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinGreece"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinGreece"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinGreece"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinGreece"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinGreece"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinGreece"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinGreece"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinGreece"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinGreece",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinGreece",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinGreece",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinGreece",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/eli/dir/2016/1148/oj",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2016/1148/EU"
+      ]
+    },
+    {
+      "@id": "http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wFqnM3eAbJzrXdtvSoClrL8rzyE3xwSGuPtIl9LGdkF53UIxsx942CdyqxSQYNuqAGCF0IfB9HI6qSYtMQEkEHLwnFqmgJSA5WIsluV-nRwO1oKqSe4BlOTSpEWYhszF8P8UqWb_zFijNc8Fn9CBud_opAMeXVO02kTJlNAeGAw8ZRS-tl49PDh",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "law N.4591 /2019"
+      ]
+    },
+    {
+      "@id": "http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wFYAFdDx4L2G3dtvSoClrL8aRmGcrk2DyZ5MXD0LzQTLWPU9yLzB8V68knBzLCmTXKaO6fpVZ6Lx3UnKl3nP8NxdnJ5r9cmWyJWelDvWS_18kAEhATUkJb0x1LIdQ163nV9K--td6SIuWul0aw7wuQu_zIv4zGsWeDDAhtceLHtRKuKtY2AHivR",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "law 3979/2011"
+      ]
+    },
+    {
+      "@id": "http://www.wipo.int/wipolex/en/text.jsp?file_id=187609",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on the Ratification of the Administrative Procedure Code and other provisions",
+        "Law no. 2690/1999"
+      ]
+    },
+    {
+      "@id": "http://www.greeklawdigest.gr/component/k2/item/80-access-to-and-reuse-of-public-sector-information-legislative-framework",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Re-use of Greek Public Sector Information"
+      ]
+    },
+    {
+      "@id": "http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wFGQ40gSLPFOXdtvSoClrL8KoqaERu8wDDtIl9LGdkF53UIxsx942CdyqxSQYNuqAGCF0IfB9HI6qSYtMQEkEHLwnFqmgJSA5WIsluV-nRwO1oKqSe4BlOTSpEWYhszF8P8UqWb_zFijM7pZ0uAVJnEIRDT8gfgjDrktnVRzo5d-fi1RvYPzP-4",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2003/98/EC"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wEc63YDhn5AeXdtvSoClrL8oeKAuTKOuiV5MXD0LzQTLWPU9yLzB8V68knBzLCmTXKaO6fpVZ6Lx3UnKl3nP8NxdnJ5r9cmWyJWelDvWS_18kAEhATUkJb0x1LIdQ163nV9K--td6SIubMfH2r_a2DXjO6MJnF-5f9_LW7pRMszX0fGIINVmMIh"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wEc63YDhn5AeXdtvSoClrL8oeKAuTKOuiV5MXD0LzQTLWPU9yLzB8V68knBzLCmTXKaO6fpVZ6Lx3UnKl3nP8NxdnJ5r9cmWyJWelDvWS_18kAEhATUkJb0x1LIdQ163nV9K--td6SIubMfH2r_a2DXjO6MJnF-5f9_LW7pRMszX0fGIINVmMIh",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "law 4305/2014"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:31999L0093",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "European Directive 1999/93/EC"
+      ]
+    },
+    {
+      "@id": "http://www.dpa.gr/portal/page?_pageid=33,123437&_dad=portal&_schema=PORTAL",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on the Protection of Personal Data and Private Life with regard to Electronic Telecommunications"
+      ]
+    },
+    {
+      "@id": "http://www.dpa.gr/pls/portal/docs/PAGE/APDPX/ENGLISH_INDEX/LEGAL%2520FRAMEWORK/LAW_%25203471_06EN.PDF",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "http://www.dpa.gr/pls/portal/docs/PAGE/APDPX/ENGLISH_INDEX/LEGAL%20FRAMEWORK/LAW_%203471_06EN.PDF",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law 3471/2006"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.dpa.gr/pls/portal/docs/PAGE/APDPX/ENGLISH_INDEX/LEGAL%2520FRAMEWORK/LAW%25202472-97-APRIL010-EN%2520_2_.PDF"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.dpa.gr/pls/portal/docs/PAGE/APDPX/ENGLISH_INDEX/LEGAL%2520FRAMEWORK/LAW%25202472-97-APRIL010-EN%2520_2_.PDF",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "http://www.dpa.gr/pls/portal/docs/PAGE/APDPX/ENGLISH_INDEX/LEGAL%20FRAMEWORK/LAW%202472-97-APRIL010-EN%20_2_.PDF",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law 2472/1997"
+      ]
+    },
+    {
+      "@id": "https://www.taxheaven.gr/laws/law/index/law/876",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law 4538/2018"
+      ]
+    },
+    {
+      "@id": "http://www.epdm.gr/Uploads/Files/files_for_content/pd118.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Presidential Decree 118/2007 on the Regulation of Public Procurement"
+      ]
+    },
+    {
+      "@id": "http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wFqnM3eAbJzrXdtvSoClrL87TVLbP6RgP3tIl9LGdkF53UIxsx942CdyqxSQYNuqAGCF0IfB9HI6qSYtMQEkEHLwnFqmgJSA5WIsluV-nRwO1oKqSe4BlOTSpEWYhszF8P8UqWb_zFijAlpmO2Qz8iIx4z6VnSIwLFqCH2wDYcYTJGqv4Na3OZv",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law 4600/2019"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:en:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2000/31/EC"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/NikosPappas",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Nikos Pappas"
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-MinisterofDigitalPolicy,Telecommunications&Media"
+        },
+        {
+          "@id": "http://example.org/nifo/post/Post-MinisterSecretaryGeneralforDigitalPolicy"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/9415"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-MinisterofDigitalPolicy,Telecommunications&Media",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-MinisterofDigitalPolicy,Telecommunications&Media"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-MinisterofDigitalPolicy,Telecommunications&Media",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Minister of Digital Policy, Telecommunications & Media"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/9415",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+30 210 9098600-2"
+      ],
+      "http://schema.org/email": [
+        "minister@mindigital.gr, sec@mindigital.gr "
+      ],
+      "http://schema.org/url": [
+        "Source: http://www.mindigital.gr/ "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/SteliosRallis",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Stelios Rallis"
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/9707"
+        }
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-MinisterofAdministrativeReconstruction"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-MinisterSecretaryGeneralforDigitalPolicy",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-MinisterSecretaryGeneralforDigitalPolicy"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-MinisterSecretaryGeneralforDigitalPolicy",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Minister Secretary General for Digital Policy"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/9707",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+30 210 4803255, 210 4802010"
+      ],
+      "http://schema.org/email": [
+        "gen_gramm@gsdp.gr"
+      ],
+      "http://schema.org/url": [
+        "Source: http://www.mindigital.gr/"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/MariaElizaXenogiannakopoulou",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Maria Eliza Xenogiannakopoulou"
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/8101"
+        }
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-SecretaryGeneralforAdministrativeReconstruction"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-MinisterofAdministrativeReconstruction",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-MinisterofAdministrativeReconstruction"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-MinisterofAdministrativeReconstruction",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Minister of Administrative Reconstruction"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/8101",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+30 213 1313590 /508 /603"
+      ],
+      "http://schema.org/email": [
+        "ypourgos@ydmed.gov.gr"
+      ],
+      "http://schema.org/url": [
+        "Source: http://www.minadmin.gov.gr/"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/GrigorisTheodorakis",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Grigoris Theodorakis "
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/9571"
+        }
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-PresidentofInformationSocietyS.A."
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-SecretaryGeneralforAdministrativeReconstruction",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-SecretaryGeneralforAdministrativeReconstruction"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-SecretaryGeneralforAdministrativeReconstruction",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Secretary General for Administrative Reconstruction"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/9571",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+30 213 1313482/6/9, 213 1313679"
+      ],
+      "http://schema.org/email": [
+        "ggd@ydmed.gov.gr "
+      ],
+      "http://schema.org/url": [
+        "Source: http://www.minadmin.gov.gr/"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/GatosVasileios",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Gatos Vasileios"
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/2080"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-PresidentofInformationSocietyS.A.",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-PresidentofInformationSocietyS.A."
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-PresidentofInformationSocietyS.A.",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "President of Information Society S.A."
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/2080",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+30 213 130 0700"
+      ],
+      "http://schema.org/faxNumber": [
+        "+30 213 130 0801, 210 973 6760"
+      ],
+      "http://schema.org/email": [
+        "info@ktpae.gr "
+      ],
+      "http://schema.org/url": [
+        "Source: http://www.ktpae.gr/index"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Passport",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Passport"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Hellenic Police, National Passport Centre "
+      ],
+      "http://schema.org/url": [
+        "http://www.passport.gov.gr"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and forms to download. Monitoring of an application's status."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/TravelCard",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Travel Card"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Ministry of Infrastructure and Transport"
+      ],
+      "http://schema.org/url": [
+        "https://athenacard.gr/index.jsp "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Greece has introduced a single electronic card, the ATH.ENA card, for all means of public transport in the city of Athens."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/VATrefundsandexciseduties",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "VAT refunds and excise duties"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Finance, General Secretariat for Information Systems"
+      ],
+      "http://schema.org/url": [
+        "http://www.gsis.gr/gsis/info/gsis_site/index.html "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The ‘TAXISnet’ service, introduced in May 2000, provides a variety of services to individual and corporate taxpayers, like electronic submission of VAT forms. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Jobsearchservicesbylabouroffices",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Job search services by labour offices"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Employment and Social Solidarity, Greek Manpower Employment Organisation"
+      ],
+      "http://schema.org/url": [
+        "http://www.oaed.gr/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Fully functional job search online service. Citizens and employers can search for jobs/manpower. They can refine searches according to a variety of criteria. By specifying the geographical location of interest, they are respectively presented with a list of companies seeking manpower in specific regions (along with relevant contact details) or with a list of citizens seeking for a job."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Legalinformationsystem",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Legal information system"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Information Society S.A."
+      ],
+      "http://schema.org/url": [
+        "http://www.ethemis.gr/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The eThemis online legislation portal was realised within the framework of a project regarding the ‘Design and Implementation of a System for Automating the Administration, Archiving and Dissemination of Legislation to the Broader Public’."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Unemploymentbenefits",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Unemployment benefits"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Employment and Social Solidarity, Greek Manpower Employment Organisation"
+      ],
+      "http://schema.org/url": [
+        "http://www.ermis.gov.gr"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information on the procedures & certificates required, enabling citizens to start the procedure in order to apply for unemployment benefits, electronic submission of forms."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Driverslicence",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Driver’s licence"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Infrastructure, Transports and Networks"
+      ],
+      "http://schema.org/url": [
+        "http://www.ermis.gov.gr"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and forms to download, enabling citizens to start the procedure to obtain a driving licence."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Carregistrationnewusedimportedcars",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Car registration (new, used, imported cars)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Finance, General Secretariat for Information Systems"
+      ],
+      "http://schema.org/url": [
+        "http://www.gsis.gr/gsis/info/gsis_site/index.html "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Online registration of a new car and the ability for online submission of changes in the data of already registered vehicles."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Housingbuildingandhousingenvironment",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Housing (building and housing, environment)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Prefectural Administrations"
+      ],
+      "http://schema.org/url": [
+        "http://www.ermis.gov.gr"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and forms to start the procedure to obtain a building or renovation permission."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Announcementofmovingchangeofaddress",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Announcement of moving (change of address)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Finance, General Secretariat for Information Systems, Citizen Service Centres (KEP)"
+      ],
+      "http://schema.org/url": [
+        "http://www.gsis.gr/gsis/info/gsis_site/index.html; http://www.ermis.gov.gr"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "In Greece, there is no general obligation to inform the authorities of a change of address. The only exception is for those on a taxable income, for whom the obligation exists. Taxpayers should inform their local tax office for every change of address, by submitting the appropriate form. Information and forms to download."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Declarationtothepoliceegincaseoftheft",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Declaration to the police (e.g. in case of theft)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Citizen's Protection"
+      ],
+      "http://schema.org/url": [
+        "www.astynomia.gr"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information only."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Enrolmentinhighereducationuniversity",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Enrolment in higher education/university"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Education, Lifelong learning and Religious Affairs"
+      ],
+      "http://schema.org/url": [
+        "http://www.minedu.gov.gr/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and forms to start the procedure for digital enrolment in higher education and Greek universities. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Publiclibrariesavailabilityofcataloguessearchtools",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Public libraries (availability of catalogues, search tools)",
+        "Public libraries (availability of catalogues, search tools)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Education, Lifelong learning and Religious Affairs",
+        "Central Government, Ministry of Education, Lifelong learning and Religious Affairs"
+      ],
+      "http://schema.org/url": [
+        "http://www.minedu.gov.gr/; http://www.nlg.gr",
+        "http://www.minedu.gov.gr/; http://www.nlg.gr"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The website of the Ministry of Education, Lifelong learning and Religious Affairs provides a full list of Greek libraries. The National Library of Greece offers the possibility to search for a specific title and make an electronic reservation. The Hellenic Academic Libraries Link offers the possibility to search for a specific title.",
+        "The website of the Ministry of Education, Lifelong learning and Religious Affairs provides a full list of Greek libraries. The National Library of Greece offers the possibility to search for a specific title and make an electronic reservation. The Hellenic Academic Libraries Link offers the possibility to search for a specific title."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Studentgrants",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Student grants"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Education, Lifelong learning and Religious Affairs, State Scholarships Foundation"
+      ],
+      "http://schema.org/url": [
+        "http://www.iky.gr"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The State Scholarships Foundation (I.K.Y.) grants scholarships for postgraduate or postdoctoral studies to Greek and foreign graduates. Its administrative responsibility includes the Erasmus exchange programme. Information and forms are available to download."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Informationandassistancetoresearchersresearchfundingsupport",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Information and assistance to researchers; research funding support "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "EURAXESS Greece"
+      ],
+      "http://schema.org/url": [
+        "http://euraxess.obi.gr/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "EURAXESS Portal of the Hellenic Industrial Property Organisation (OBI): the main objective of this portal is to help foreign researchers planning to come to Greece or already staying in Greece look for assistance, career opportunities or funding."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Healthrelatedservicesinteractiveadviceontheavailabilityofservicesindifferenthospitalsappointmentsforhospitals",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Health related services (interactive advice on the availability of services in different hospitals; appointments for hospitals)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Health and Social Solidarity"
+      ],
+      "http://schema.org/url": [
+        "http://www.moh.gov.gr/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Provides basic information on the organisation of the ministry and the availability of hospitals."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/eAppointments",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "eAppointments"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Ministry of Health and Social Solidarity"
+      ],
+      "http://schema.org/url": [
+        "http://rdv.ehealthnet.gr"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Greek citizens visiting the online page are able to choose the Primary National Health Network Unit or Health Centre, medical specialisation required or even the physician and make an appointment completely free of charge. This way they can locate the nearest care point and choose the earliest available appointment. Safe access to services (authentication) takes place through the use of the personal codes for TAXISnet."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/ePrescription",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "ePrescription"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Ministry of Health and Social Solidarity"
+      ],
+      "http://schema.org/url": [
+        "N/A"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The ePrescription system facilitates of the usage of paperless medical prescriptions."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/FamilyDoctor",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Family Doctor"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Ministry of Health and Social Solidarity"
+      ],
+      "http://schema.org/url": [
+        "http://www.idika.gr/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Family Doctor is a new, free operation of the NHS. It is the first point of contact with the National Health System and among other things it works as a health consultant. Using an online application, users can register with the family doctor of their choice."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/ElectronicHealthRecord",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Electronic Health Record"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Ministry of Health and Social Solidarity"
+      ],
+      "http://schema.org/url": [
+        "http://www.idika.gr/pfy/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Through the application, the citizen has access to your Personal Health Record, which is enriched by various sources, such as: Electronic Prescribing Data, Hospitals in Secondary Care Units, visits to private doctors, family doctor."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Childallowances",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Child allowances "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Employment and Social Solidarity, Greek Manpower Employment Organisation"
+      ],
+      "http://schema.org/url": [
+        "http://www.ermis.gov.gr"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and forms to download."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Certificatesbirthmarriagerequestanddelivery",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Certificates (birth, marriage): request and delivery"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Municipalities and communities - Registers"
+      ],
+      "http://schema.org/url": [
+        "http://www.ermis.gov.gr "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Online request and delivery of birth and marriage certificates."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Intellectualpropertyrights",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Intellectual property rights"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Patent Office"
+      ],
+      "http://schema.org/url": [
+        "https://www.latvija.lv/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The website offers multiple eServices relating to the protection of intellectual property."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Patents",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Patents"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Hellenic Industrial Property Organisation"
+      ],
+      "http://schema.org/url": [
+        "http://www.obi.gr/obi/?tabid=74 "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Hellenic Industrial Property Organisation is the only legally qualified institution for the protection of inventions and industrial designs. It also provides technological information from worldwide patent databases. Additionally, OBI has established three regional electronic patent libraries (in Thessaloniki, Patras and Herakleion of Crete) in order to promote the technological information in the greater Greek region with the availability of some services online such as Espacenet, National Patent Register, Dues Online Payment, etc. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Registrationofanewcompany",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Registration of a new company"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Development, Competitiveness and Shipping, General Secretariat for Commerce"
+      ],
+      "http://schema.org/url": [
+        "http://www.gge.gr/; www.eu-go.gr; http://www.businessportal.gr/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "General information and forms to download in order to start the procedure to register a company. Company registration services are handled by local courts and one stop shops (chambers)."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/StartupGreece",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Startup Greece"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Ministry of Development, Competitiveness and Shipping, The government of Greece, young entrepreneurs"
+      ],
+      "http://schema.org/url": [
+        "http://www.startupgreece.gov.gr/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The portal 'Startup Greece', an information, networking and collaboration space aimed at creating a new generation of entrepreneurs in Greece was launched in April 2011. 'Startup Greece' is a ‘one stop shop’ aimed at inspiring young people to believe in their own ideas, to cultivate novelty and innovation and to start their own business."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/OneStopShop",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "One Stop Shop"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Responsibility:"
+      ],
+      "http://schema.org/url": [
+        "https://www.acci.gr/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "A digital platform in which the interested person makes his/her own company without having to visit any public service. (Established by Article 8 of Law 4441/2016). Currently, private equity companies, either single or multiple, unregulated and limited partnerships companies, and limited liability companies can be set up via the platform. Gradually and until the end of 2019, the remaining legal forms can be established."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/VATdeclarationnotification",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "VAT: declaration, notification"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Finance, General Secretariat for Information Systems"
+      ],
+      "http://schema.org/url": [
+        "http://www.gsis.gr/gsis/info/gsis_site/index.html "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The ‘TAXISnet’ service, introduced in May 2000, provides a variety of services to individual and corporate taxpayers, like electronic submission of VAT forms. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Corporatetaxdeclarationnotification",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Corporate tax: declaration, notification"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Finance, General Secretariat for Information Systems"
+      ],
+      "http://schema.org/url": [
+        "http://www.gsis.gr/gsis/info/gsis_site/index.html "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The ‘TAXISnet’ service, introduced in May 2000, provides a variety of services to corporate taxpayers, including electronic submission of income tax forms."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/CustomsdeclarationseCustoms",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Customs declarations (eCustoms)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Finance, General Secretariat for Information Systems"
+      ],
+      "http://schema.org/url": [
+        "http://www.gsis.gr/gsis/info/gsis_site/index.html "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The ‘TAXISnet’ service, as provided through the website of the General Secretariat for Information Systems, offers the possibility to submit customs declarations online."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/PublicprocurementeProcurement",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Public procurement / eProcurement "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Development, Competitiveness and Shipping, General Secretariat for Commerce"
+      ],
+      "http://schema.org/url": [
+        "http://www.gge.gr/; http://www.eprocurement.gov.gr/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The website of the General Secretariat for Commerce provides information and forms about public procurement. Please refer to the subsection Presidential Decree 118/2007 on the Regulation of Public Procurement for further information on public procurement status in Greece. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Socialcontributionsforemployees",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Social contributions for employees"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Employment and Social Insurance, Social Insurance Institute (IKA)"
+      ],
+      "http://schema.org/url": [
+        "http://www.ika.gr/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The IKA website treats employees' declaration of social contributions online."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/WebportalofLabourInspectorate",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Web portal of Labour Inspectorate"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Ministry of Employment and Social Protection (YP.A.K.P) "
+      ],
+      "http://schema.org/url": [
+        "http://www.ypakp.gr/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The website of the Ministry of Employment and Social Protection contains all necessary information in regard to the legislation related to the safety and health at work in its e-library. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/CommercialandindustrialnormsinGreece",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Commercial and industrial norms in Greece"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Information Society S.A."
+      ],
+      "http://schema.org/url": [
+        "http://www.ethemis.gr/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The eThemis online legislation portal has been realised within the framework of a project regarding the ‘Design and Implementation of a System for Automating the Administration, Archiving and Dissemination of Legislation to the Broader Public’."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Environmentrelatedpermitsinclreporting",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Environment-related permits (incl. reporting)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Prefectural Administrations"
+      ],
+      "http://schema.org/url": [
+        "http://www.ermis.gov.gr"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and forms to download."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Greece/Submissionofdatatostatisticaloffices",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Submission of data to statistical offices"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Greece"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Hellenic Statistical Authority "
+      ],
+      "http://schema.org/url": [
+        "http://www.statistics.gr/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Online submission of ‘Intrastat’ declarations."
+      ]
+    }
+  ]
+}

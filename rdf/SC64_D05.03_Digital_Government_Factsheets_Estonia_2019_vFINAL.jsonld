@@ -1,0 +1,2557 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/",
+    "rdfa": "http://www.w3.org/ns/rdfa#"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Estonia",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Estonia"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2019-07"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/EST"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/dataset/DigitalGovernmentIndicatorsEstonia"
+        },
+        {
+          "@id": "http://example.org/nifo/dataset/ThefollowinggraphspresentdataforthelatestDigitalGovernmentIndicatorsforEstoniacomparedtotheEUaverage.StatisticalindicatorsinthissectionreflectthoseofEurostatatthetimetheEditionisbeingprepared.Estonia"
+        },
+        {
+          "@id": "http://example.org/nifo/legalframework/Estonia"
+        },
+        {
+          "@id": "http://example.org/nifo/person/KertKingo"
+        },
+        {
+          "@id": "http://example.org/nifo/person/SiimSikkut"
+        },
+        {
+          "@id": "http://example.org/nifo/person/KristoVaher"
+        },
+        {
+          "@id": "http://example.org/nifo/person/OttVelsberg"
+        },
+        {
+          "@id": "http://example.org/nifo/person/MiiaM%C3%A4nd"
+        },
+        {
+          "@id": "http://example.org/nifo/person/JanekRozov"
+        },
+        {
+          "@id": "http://example.org/nifo/person/SandraS%C3%A4rav"
+        },
+        {
+          "@id": "http://example.org/nifo/person/RaulRikk"
+        },
+        {
+          "@id": "http://example.org/nifo/person/KristiKivilo"
+        },
+        {
+          "@id": "http://example.org/nifo/person/MargusNoormaa"
+        }
+      ],
+      "http://dbpedia.org/ontology/populationTotal": [
+        "1 319 133 inhabitants (2018)"
+      ],
+      "http://dbpedia.org/property/gdpNominal": [
+        "25 656 million Euros (2018)"
+      ],
+      "http://dbpedia.org/property/gdpPppPerCapita": [
+        "79 (2017)"
+      ],
+      "http://dbpedia.org/ontology/areaTotal": [
+        "45 200 km²"
+      ],
+      "http://dbpedia.org/ontology/capital": [
+        "Tallinn"
+      ],
+      "http://dbpedia.org/ontology/currency": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/currency/Euro"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "http://ec.europa.eu/eurostat/data/database"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/undefined"
+        },
+        {
+          "@id": "https://ec.europa.eu/digital-single-market/en/news/egovernment-benchmark-2018-digital-efforts-european-countries-are-visibly-paying"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/dataset/DigitalGovernmentIndicatorsEstonia",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataSet"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Government Indicators"
+      ],
+      "http://purl.org/linked-data/cube#structure": [
+        {
+          "@id": "http://example.org/nifo/structure/DigitalGovernmentIndicatorsEstonia"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Estonia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.riigiteataja.ee/akt/556659"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/en/eli/529032019012/consolide"
+        },
+        {
+          "@id": "http://www.legaltext.ee/text/en/X2058K5.htm"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/en/eli/527102016001/consolide"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/en/eli/ee/527102016001/consolide/current"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/en/eli/523052018003/consolide"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/akt/112072014051"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/akt/13125331?leiaKehtiv"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/en/eli/529032019012/consolide"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/en/eli/516012014003/consolide"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/akt/12769835"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/en/compare_original?id=507012014005"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/en/eli/ee/505092017003/consolide/current"
+        },
+        {
+          "@id": "https://www.riigikogu.ee/tegevus/eelnoud/eelnou/667615bb-4a13-4a02-812f-550c5dedeef3/Raamatupidamise%2520seaduse%2520muutmise%2520seadus"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/en/eli/ee/504112013008/consolide/current"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/en/eli/522122017001/consolide"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/akt/120112018003"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/en/eli/ee/503012019004/consolide/current"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/DigitalGovernmentIndicatorsEstonia",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
+      "http://purl.org/linked-data/cube#component": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinEstonia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinEstonia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinEstonia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinEstonia"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinEstonia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinEstonia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinEstonia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinEstonia"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinEstonia",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinEstonia",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinEstonia",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinEstonia",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/en/eli/523052018003/consolide",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Cybersecurity Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/akt/120112018003",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation regarding cross-border exchange of information regarding health services"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/akt/556659",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Public Information Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.riigiteataja.ee/akt/12900546"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/akt/12900546",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Public Information Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.riigiteataja.ee/akt/32230"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/akt/32230",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Databases Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/en/eli/529032019012/consolide",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Public Information Act",
+        "law"
+      ]
+    },
+    {
+      "@id": "http://www.legaltext.ee/text/en/X2058K5.htm",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Archives Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/en/eli/527102016001/consolide",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Electronic Identification and Trust Services for Electronic Transactions Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.riigiteataja.ee/akt/114032014012"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/akt/114032014012",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Digital Signatures Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/en/eli/ee/527102016001/consolide/current",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "amendments to the Electronic Identification and Trust Services for Electronic Transactions Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/akt/112072014051",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Personal Data Protection Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/akt/13125331?leiaKehtiv",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/en/eli/516012014003/consolide",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Population Registry Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/akt/12769835",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Land Registry Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/en/compare_original?id=507012014005",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "General Traffic Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/en/eli/ee/505092017003/consolide/current",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Public Procurement Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigikogu.ee/tegevus/eelnoud/eelnou/667615bb-4a13-4a02-812f-550c5dedeef3/Raamatupidamise%2520seaduse%2520muutmise%2520seadus",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "https://www.riigikogu.ee/tegevus/eelnoud/eelnou/667615bb-4a13-4a02-812f-550c5dedeef3/Raamatupidamise%20seaduse%20muutmise%20seadus",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Accounting Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/en/eli/ee/504112013008/consolide/current",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Information Society Services Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/en/eli/522122017001/consolide",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Simplified Business Income Taxation Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/en/eli/ee/503012019004/consolide/current",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Public Information Act"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/KertKingo",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Kert Kingo"
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-MinisterofForeignTradeandInformationTechnology"
+        },
+        {
+          "@id": "http://example.org/nifo/post/Post-DeputySecretaryGeneralforITandTelecom,GovernmentChiefInformationOfficer(CIO)"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/8215"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-MinisterofForeignTradeandInformationTechnology",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-MinisterofForeignTradeandInformationTechnology"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-MinisterofForeignTradeandInformationTechnology",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Minister of Foreign Trade and Information Technology "
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/8215",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/email": [
+        "hele.karilaid@mkm.ee (Advisor to the Minister)"
+      ],
+      "http://schema.org/telephone": [
+        "+372 7153415"
+      ],
+      "http://schema.org/url": [
+        "Source: https://www.mkm.ee/en/ministry-contact/minister-foreign-trade-and-information-technology "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/SiimSikkut",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Siim Sikkut"
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/1271"
+        }
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-GovernmentChiefTechnologyOfficer"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-DeputySecretaryGeneralforITandTelecom,GovernmentChiefInformationOfficer(CIO)",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-DeputySecretaryGeneralforITandTelecom,GovernmentChiefInformationOfficer(CIO)"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-DeputySecretaryGeneralforITandTelecom,GovernmentChiefInformationOfficer(CIO)",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Deputy Secretary General for IT and Telecom, Government Chief Information Officer (CIO)"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/1271",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/email": [
+        "siim.sikkut@mkm.ee "
+      ],
+      "http://schema.org/telephone": [
+        "+372 63 97 680"
+      ],
+      "http://schema.org/url": [
+        "http://www.mkm.ee/en"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/KristoVaher",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Kristo Vaher"
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/305"
+        }
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-GovernmentChiefDataOfficer"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-GovernmentChiefTechnologyOfficer",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-GovernmentChiefTechnologyOfficer"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-GovernmentChiefTechnologyOfficer",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Government Chief Technology Officer"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/305",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/email": [
+        "kristo.vaher@mkm.ee "
+      ],
+      "http://schema.org/telephone": [
+        "+372 6208149"
+      ],
+      "http://schema.org/url": [
+        "http://www.mkm.ee/en"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/OttVelsberg",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Ott Velsberg"
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/5063"
+        }
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-ChiefOperationsOfficer,DeputyGCIO"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-GovernmentChiefDataOfficer",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-GovernmentChiefDataOfficer"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-GovernmentChiefDataOfficer",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Government Chief Data Officer"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/5063",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/email": [
+        "ott.velsberg@mkm.ee "
+      ],
+      "http://schema.org/telephone": [
+        "+372 6256417 "
+      ],
+      "http://schema.org/url": [
+        "http://www.mkm.ee/en"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/MiiaM%C3%A4nd",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Miia Mänd"
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/1614"
+        }
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-GovernmentChiefDigitalOfficer,DeputyGCIO"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-ChiefOperationsOfficer,DeputyGCIO",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-ChiefOperationsOfficer,DeputyGCIO"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-ChiefOperationsOfficer,DeputyGCIO",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Chief Operations Officer, Deputy GCIO"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/1614",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/email": [
+        "miia.mand@mkm.ee "
+      ],
+      "http://schema.org/telephone": [
+        "+372 6256372"
+      ],
+      "http://schema.org/url": [
+        "http://www.mkm.ee/en"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/JanekRozov",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Janek Rozov"
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/9775"
+        }
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-GlobalAffairsDirector"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-GovernmentChiefDigitalOfficer,DeputyGCIO",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-GovernmentChiefDigitalOfficer,DeputyGCIO"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-GovernmentChiefDigitalOfficer,DeputyGCIO",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Government Chief Digital Officer, Deputy GCIO"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/9775",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/email": [
+        "janek.rozov@mkm.ee "
+      ],
+      "http://schema.org/telephone": [
+        "+372 6256364 "
+      ],
+      "http://schema.org/url": [
+        "http://www.mkm.ee/en"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/SandraS%C3%A4rav",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Sandra Särav"
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/9756"
+        }
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-NationalCyberSecurityPolicyDirector"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-GlobalAffairsDirector",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-GlobalAffairsDirector"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-GlobalAffairsDirector",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Global Affairs Director"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/9756",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/email": [
+        "sandra.sarav@mkm.ee"
+      ],
+      "http://schema.org/telephone": [
+        "+372 55 12 001"
+      ],
+      "http://schema.org/url": [
+        "http://www.mkm.ee/en"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/RaulRikk",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Raul Rikk"
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/2252"
+        }
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-ICTSkillsCoordinationDirector"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-NationalCyberSecurityPolicyDirector",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-NationalCyberSecurityPolicyDirector"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-NationalCyberSecurityPolicyDirector",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "National Cyber Security Policy Director"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/2252",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/email": [
+        "raul.rikk@mkm.ee "
+      ],
+      "http://schema.org/telephone": [
+        "+372 6256338"
+      ],
+      "http://schema.org/url": [
+        "https://ega.ee/people/raul-rikk/"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/KristiKivilo",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Kristi Kivilo"
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/1963"
+        }
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-DirectorGeneraloftheEstonianInformationSystemAuthority(RIA)"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-ICTSkillsCoordinationDirector",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-ICTSkillsCoordinationDirector"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-ICTSkillsCoordinationDirector",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "ICT Skills Coordination Director"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/1963",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/email": [
+        "kristi.kivilo@mkm.ee"
+      ],
+      "http://schema.org/telephone": [
+        "+372 63 97 643"
+      ],
+      "http://schema.org/url": [
+        "http://www.mkm.ee/en"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/MargusNoormaa",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Margus Noormaa"
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/4302"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-DirectorGeneraloftheEstonianInformationSystemAuthority(RIA)",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-DirectorGeneraloftheEstonianInformationSystemAuthority(RIA)"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-DirectorGeneraloftheEstonianInformationSystemAuthority(RIA)",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Director General of the Estonian Information System Authority (RIA)"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/4302",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/email": [
+        "margus.noormaa@ria.ee "
+      ],
+      "http://schema.org/telephone": [
+        "Not available"
+      ],
+      "http://schema.org/url": [
+        "http://www.ria.ee/kontakt"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/EuropeanHealthInsuranceCard",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "European Health Insurance Card"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Estonian Health Insurance Fund"
+      ],
+      "http://schema.org/url": [
+        "https://www.eesti.ee/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Estonian residents traveling in the European Union need to carry the European health insurance card or its replacement certificate. The card can be applied for in four ways:Through the citizen portal,By bringing an application personally to a customer service office, By sending an application to the health insurance fund’s customer service office via regular mail, andBy sending a digitally signed application to the Health Insurance Fund by e-mail to info@haigekassa.ee."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/IdentityCard",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Identity Card"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government"
+      ],
+      "http://schema.org/url": [
+        "https://etaotlus.politsei.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Citizens can apply online for a new ID card."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Passport",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Passport"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Police and Border Guard Board"
+      ],
+      "http://schema.org/url": [
+        "http://www.politsei.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and application forms to download. The website allows for online application for ID documents. This service requires the use of an electronic signature. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/JobsearchservicesI",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Job search services I"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Unemployment Insurance Fund"
+      ],
+      "http://schema.org/url": [
+        "https://www.tootukassa.ee/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The website provides an updated list of all job offers at national and regional labour offices in Estonia, with a short description of each job, deadlines for application and contacts for applying."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/JobsearchservicesII",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Job search services II"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Health and Labour"
+      ],
+      "http://schema.org/url": [
+        "https://www.eesti.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The website provides useful links regarding occupational health and safety, working time and also a section regarding unemployment or search for an employment."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Incometaxesdeclarationnotificationofassessment",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Income taxes: declaration, notification of assessment"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Tax and Customs Board"
+      ],
+      "http://schema.org/url": [
+        "http://www.emta.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The eTaxBoard (eMaksuamet) enables taxpayers to file, view and correct their income tax returns online and to check their tax account balances. Citizens can use their electronic ID card as the identification method for accessing the eTaxBoard. Those having submitted their tax returns online can benefit from accelerated tax refunds."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Unemploymentbenefits",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Unemployment benefits"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Estonian Unemployment Insurance Fund"
+      ],
+      "http://schema.org/url": [
+        "https://www.tootukassa.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and forms to download. Useful to notify changes in the job search process. The forms can be then uploaded and submitted provided the user is logged on."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/VATrefundsandexciseduties",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "VAT refunds and excise duties"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Estonian Tax and Customs Board"
+      ],
+      "http://schema.org/url": [
+        "http://www.emta.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Application of VAT refunds can be submitted electronically. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Actionsregardingowningsellingbuyingavehicle",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Actions regarding owning, selling, buying a vehicle"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Estonian Road Administration"
+      ],
+      "http://schema.org/url": [
+        "https://eteenindus.mnt.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Estonian Road Administration website concludes all information and actions regarding owning, selling, buying a vehicle and also activities related to driver’s license. In addition to seeing the data of documents certifying your right to drive, to apply for documents (driving licence, instructor’s certificate, digital tachograph driver card, etc.), to register for examinations; checking the data of vehicles, formalise a vehicle’s sale or purchase, temporarily delete a vehicle from the register, change users, order a registration certificate or a registration number, etc; users can apply for a special carriage permit (for large and/or heavy goods vehicles) and view the data of previously issued special permits."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Driverslicence",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Driver’s licence"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Estonian Road Administration"
+      ],
+      "http://schema.org/url": [
+        "http://www.mnt.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The first driver’s licence is issued after examination and must be applied in person at the Estonian Road Administration Department. After expiration or in case of losing the licence, it can be changed or reapplied using the e-service."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Carregistrationnewusedimportedcars",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Car registration (new, used, imported cars)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Estonian Road Administration"
+      ],
+      "http://schema.org/url": [
+        "http://www.mnt.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information only. Applications must be submitted in person at the Estonian Road Administration Department."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Announcementofmovingchangeofaddress",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Announcement of moving (change of address)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (Estonian Population Register)/Local Government"
+      ],
+      "http://schema.org/url": [
+        "https://www.eesti.ee/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "On the state e-portal, it is possible for citizens to make the announcement of moving via electronical form."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Certificatesbirthmarriagerequestanddelivery",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Certificates (birth, marriage): request and delivery",
+        "Certificates (birth, marriage): request and delivery"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Local Government",
+        "Local Government"
+      ],
+      "http://schema.org/url": [
+        "https://www.eesti.ee/",
+        "http://www.eesti.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information only. Requests for certificates are handled by the local authorities.",
+        "Information only. Requests for certificates are handled by the local authorities."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/CriminalRecordCertificate",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Criminal Record Certificate"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Interior"
+      ],
+      "http://schema.org/url": [
+        "https://www.politsei.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "It is possible to request a certificate from the Police and Border Guard website, by downloading the applications forms."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Declarationtothepoliceegincaseoftheft",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Declaration to the police (e.g. in case of theft)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Police and Border Guard Board"
+      ],
+      "http://schema.org/url": [
+        "https://www.politsei.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "It is possible to notify the police about every crime, although some serious crime applications cannot be submitted by e-mail."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Housingbuildingenvironment",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Housing (building, environment)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Local Government"
+      ],
+      "http://schema.org/url": [
+        "https://www.eesti.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The state e-portal sets up a list of links to use to find a place (construction, buying or renting), as well as services related to Housing such as joining the gas network, choosing an electricity supplier, connecting to the public water supply and sewer system, or registering residence."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Waste",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Waste"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Local Government"
+      ],
+      "http://schema.org/url": [
+        "https://www.eesti.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Local government bodies must organise waste management within their administrative territories, but residents must have an opportunity to collect waste separately. The website gives information about the different opportunities for citizens to collect waste."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Participationinelections",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Participation in elections"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government "
+      ],
+      "http://schema.org/url": [
+        "https://www.valimised.ee/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The webportal is designed to help Estonian citizens abroad to vote if they have their e-citizenship, or e-ID. For i-voting, citizens need their ID-card or a mobile-ID, and a computer. I-voting is not possible on a smart device."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/EnrolmentinhighereducationuniversityI",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Enrolment in higher education/university I"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Higher Education institutions"
+      ],
+      "http://schema.org/url": [
+        "https://www.sais.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Enrolment in higher education is managed by Higher Education institutions. An enrolment information system called SAIS (SissAstumise InfoSüsteem) has been developed to enable the entire enrolment, processing, decision-making and information in a single environment on the Internet for participating universities. The system uses the eID card as an authentication tool. It can however be entered through one of the Estonian Internet Banks. Since the results of high school examinations are already in the online database, students can see immediately if they have been accepted to a participating university."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/EnrolmentinhighereducationuniversityII",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Enrolment in higher education/university II"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Education"
+      ],
+      "http://schema.org/url": [
+        "https://www.hm.ee/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The portal is designed to help citizens find information about the vocational possibilities in Estonia. It provides links to universities under public ownership, privately owned universities, private professional higher education institutions, and state professional higher education institutions."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Publiclibrariesavailabilityofcataloguessearchtools",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Public libraries (availability of catalogues, search tools)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Culture; Ministry of Education and research"
+      ],
+      "http://schema.org/url": [
+        "http://www.nlib.ee/ ; http://www.libdex.com/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Public libraries are municipal libraries whose work is supervised by local governments. National Library of Estonia website gives access to the federated Search Portal, E-catalogue ESTER, database of Estonian articles ISE, and digital archive. E-journals includes over 60,000 full text e-journals; and e-books includes over 80,000 e-books. A chat service online helps users find what they are looking for."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Studentgrants",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Student grants"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Education and Research, Higher Education institutions"
+      ],
+      "http://schema.org/url": [
+        "http://www.hm.ee/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "With the Study Allowances and Study Loans Act (2003), Estonia has established a system of study allowances and created the possibilities to obtain study loans. The main objective of the system of study allowances, only accessible at a certain level of income and for students who successfully progress in their studies, is to motivate students to study full time and successfully complete the study programme within the nominal period. Study loans secured by the State intend to give full-time students who are not entitled to receive study allowances the possibility to finance their studies. Applications, attributions and payments of study grants are managed directly by Higher Education institutions."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Informationandassistancetoresearchers",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Information and assistance to researchers"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Education and Research"
+      ],
+      "http://schema.org/url": [
+        "https://www.etis.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Estonian Research Portal is the public section of the Estonian Research Information System. Estonian Research Portal concentrates information on Estonian R&D and offers an environment for operative information exchange. Research Portal gives an overview on various aspects of Estonian R&D. The Research Portal is also a channel for latest research news and where upcoming events have been gathered. The forum of the portal offers a possibility for expressing opinion on research related topics and discussing issues with other portal users."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Researchfundingsupport",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Research funding support"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Education and Research"
+      ],
+      "http://schema.org/url": [
+        "https://www.etis.ee/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "ETIS is the Estonian Research Information System. The Estonian Research Information System concentrates information on research- and development institutions, researchers, research projects and various research results. The Estonian Research Information System is also an information channel for submitting and processing grant applications and for submitting and confirming project reports."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Electronicservicesrelatedtohealthcare",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Electronic services related to healthcare"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Estonian Health Insurance Fund"
+      ],
+      "http://schema.org/url": [
+        "https://www.eesti.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Internet banking clients or holders of the Estonian eID card can use eServices available through the national portal to check the validity of their health insurance, their address and the payment of sickness benefits."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Healthrelatedservicesinteractiveadviceontheavailabilityofservicesindifferenthospitalsappointmentsforhospitals",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Health related services (interactive advice on the availability of services in different hospitals; appointments for hospitals)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Social Affairs"
+      ],
+      "http://schema.org/url": [
+        "http://www.digilugu.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The East Tallinn Central Hospital became the first in Estonia to introduce an ePatient portal in April 2008 (currently under further development). Patients can access the portal from the hospital’s website. Through the portal, patients can view their medical records, book doctors’ appointments and pay consultation fees. It is also possible to order an appointment reminder via SMS or email. The project consists of four sub-projects: Electronic Health Record (EHR); Digital Imaging; Digital Prescription; and Digital Registration. Today the similar portal is also available for patients of West Tallinn Central Hospital.The Digital Registrar option has been added, offering the possibility to book ambulatory appointments, pay bills, view and Cancel registered ambulatory appointment times. This adds the possibility to do different transactions in one view for all health care institutions that interact with the solution. In Phase I of the solution, the focus is on the specialist (except the GP, dentist) booking time. In the future, bookings for family physicians, dentists can also be added if the service provider has joined the national digital registration. The solution is designed with sufficient flexibility from the perspective of future interfaces and developments."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Medicalcostsreimbursementordirectsettlement",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Medical costs (reimbursement or direct settlement)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Estonian Health Insurance Fund"
+      ],
+      "http://schema.org/url": [
+        "https://www.eesti.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Health Insurance Fund covers the cost of health services required in case of illness regardless of the amount of social tax paid by each citizen. Internet banking clients or holders of the Estonian eID card can use eServices available through the national portal to check the validity of their health insurance, their address and the payment of sickness benefits."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Healthcareabroad",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Healthcare abroad"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Estonian Health Insurance Fund"
+      ],
+      "http://schema.org/url": [
+        "https://www.eesti.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Estonian Health Insurance Fund issues the European health insurance cards. European Health Insurance card could be applied through the state portal, or by e-mail from the customer service of the Health Insurance Fund, by submitting the digitally signed application."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Childallowances",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Child allowances"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Social Insurance Board"
+      ],
+      "http://schema.org/url": [
+        "https://www.eesti.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "As a result of the Parental Benefit Act, the online service was launched at the beginning of 2004. The service is 100% electronic: persons without Internet access can go to the Social Insurance Board to submit their application, but even there the application is filed electronically with the assistance of Insurance Board employees. The whole process is paperless. Based on the X-tee middleware system connecting different State databases, this service does not require citizens to submit data already known by the State."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Consumerprotection",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Consumer protection"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Economic Affairs and Communications"
+      ],
+      "http://schema.org/url": [
+        "http://www.tarbijakaitseamet.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The webportal is the place where consumers can find all the necessary information about consumer rights and obligations, contracts, submitting a complaint, or unfair trading methods."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/ConsumersDisputesCommission",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Consumers Disputes Commission"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Consumers Disputes Commission"
+      ],
+      "http://schema.org/url": [
+        "https://komisjon.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "It is up to the Commission to deal only with disputes between the consumer and the trader, whether domestic or cross-border. On the website of the Consumers Disputes Commission, users can submit a statement about the dispute with a trader and consult a black list of companies that do not comply with the Commission’s decisions."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Patents",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Patents"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, The Estonian Patent Office"
+      ],
+      "http://schema.org/url": [
+        "http://www.epa.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Estonian Patent Office is a government agency that operates in the area of government and Ministry of Justice and implements national economic policy in the field of legal protection of industrial property.The Office provides legal protection to patents, trademarks, utility models, industrial designs, geographical indicators and integrated circuits.In fulfilling its tasks, the Office represents the State (Statutes of the Estonian Patent Office)."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/GatewaytoEstonia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Gateway to Estonia"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government"
+      ],
+      "http://schema.org/url": [
+        "https://www.eesti.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "All information and requirements regarding opening up and running a company are gathered in one place under the new eesti.ee portal. It provides information and supports the procedures that aid the operation of the citizens’ service portal. By offering information (administrative activities, starting a business, tax and legal requirements) and transaction services, it intends to help established and continuing businesses to fulfil their information obligations and to reduce their administrative burden. Information and advice are provided on administrative activities, including starting a business or the tax and legal framework."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Registrationofanewcompany",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Registration of a new company"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Centre of Registers and Information Systems"
+      ],
+      "http://schema.org/url": [
+        "https://ariregister.rik.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Centre of Registers and Information Systems is a State Agency working under the Ministry of Justice. Its main function is the administration of a number of central databases and registers, e.g. the Estonian enterprises register. Since February 2007, entrepreneurs have been enabled to submit data to the Commercial Register through the new Company registration portal. They can submit registry documents processed within the next working day, at the earliest. Persons are identified and procedures are performed using the Estonian eID card and digital signature."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/CompanyRegistrationPortal",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Company Registration Portal"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Justice"
+      ],
+      "http://schema.org/url": [
+        "https://e-resident.gov.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Company Registration Portal or eResidency is an Internet environment that allows entrepreneurs to submit electronic applications, documents and annual reports to the Commercial Register. Applications can only be signed using your ID-card or Mobile-ID."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/EntrepreneurAccount",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Entrepreneur Account"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "LHV"
+      ],
+      "http://schema.org/url": [
+        "https://www.lhv.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "An Entrepreneur Account is a way for a private person to operate as an entrepreneur in a bureaucracy-free and affordable manner, without worrying about financial statements, monthly tax declarations and the payment of taxes."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Electronic",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Electronic"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Payments",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Payments"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Tax and Customs Board"
+      ],
+      "http://schema.org/url": [
+        "http://www.emta.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The eTaxBoard (eMaksuamet) enables corporate taxpayers to view their VAT returns, submit VAT refund applications and view their tax account balances."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/VATdeclarationnotification",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "VAT: declaration, notification"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Tax and Customs Board"
+      ],
+      "http://schema.org/url": [
+        "http://www.emta.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The eTaxBoard (eMaksuamet) enables corporate taxpayers to view their VAT returns, submit VAT refund applications and view their tax account balances."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Corporatetaxdeclarationnotification",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Corporate tax: declaration, notification"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Tax and Customs Board"
+      ],
+      "http://schema.org/url": [
+        "http://www.emta.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The eTaxBoard (eMaksuamet) enables corporate taxpayers to view their VAT returns, submit VAT refund applications and view their tax account balances."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/PublicprocurementeProcurement",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Public procurement / eProcurement"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Public Procurement Office"
+      ],
+      "http://schema.org/url": [
+        "https://riigihanked.riik.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Established in 2001, the Public Procurement State Register is an 'eTenders' portal where all public procurement notices are published electronically."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/CollectionofEstonianlaw",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Collection of Estonian law"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Justice"
+      ],
+      "http://schema.org/url": [
+        "https://www.riigiteataja.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The website is a platform providing information on Estonian law. Its main contents are legislations in its most current version."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/CustomsdeclarationseCustoms",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Customs declarations (e-Customs)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Tax and Customs Board"
+      ],
+      "http://schema.org/url": [
+        "http://www.emta.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Estonian Tax and Customs Board developed an eCustoms application (eToll) that enables online filing of customs declarations. A web-based system called COMPLEX was launched in May 2006 for processing customs declarations. This system can be used from every computer with Internet access. The Tax and Customs Board updates and maintains the system on a day-to-day basis: users do not have to do it themselves; which allows greater savings for enterprises. Customs declarations can also be drawn up and submitted in XML-format. To use COMPLEX, a client can enter the eTaxBoard, via the Tax and Customs Board's web-page, or an Internet bank."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Socialcontributionsforemployees",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Social contributions for employees"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Tax and Customs Board"
+      ],
+      "http://schema.org/url": [
+        "http://www.emta.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Estonian employers are required by law to pay a social tax for all persons employed. The social tax can be calculated, filed and paid online using the eTaxBoard (eMaksuamet)."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/CommercialandindustrialnormsinEstonia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Commercial and industrial norms in Estonia"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Estonia Centre for Standardisation"
+      ],
+      "http://schema.org/url": [
+        "https://www.evs.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The website enables businesses to validate or acquire standards in accordance to EU harmonised standards."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/EstonianCentreforStandardisation",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Estonian Centre for Standardisation"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Estonian Centre for Standardisation"
+      ],
+      "http://schema.org/url": [
+        "https://www.evs.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The website enables businesses to validate or acquire standards in accordance to the EU harmonised standards."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/EstonianREACHRegistrationEvaluationAuthorisationandRestrictionofChemicalsEURegulationno19072006",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Estonian REACH (Registration, Evaluation, Authorisation and Restriction of Chemicals, EU Regulation no 1907/2006)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government; Health Board; Department of Chemicals Safety"
+      ],
+      "http://schema.org/url": [
+        "http://reach.sm.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Useful information materials and the text of the national enforcement legislation are available on the website. Furthermore, the Estonian REACH Helpdesk Service is available to provide further information via an online formulary."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Environmentrelatedpermitsinclreporting",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Environment-related permits (incl. reporting)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of the Environment, Estonian Environment Information Centre"
+      ],
+      "http://schema.org/url": [
+        "http://klis.envir.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Fully transactional service."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/MinistryofAgriculture",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Ministry of Agriculture"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Ministry of Agriculture"
+      ],
+      "http://schema.org/url": [
+        "https://portaal.agri.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Ministry of Agriculture now has a new client portal, to which citizens can log in with digital IDs."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Submissionofdatatostatisticaloffices",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Submission of data to statistical offices"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Statistical Office of Estonia"
+      ],
+      "http://schema.org/url": [
+        "https://estat.stat.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Data can be submitted electronically to the Statistical Office. The eSTAT is a web-based channel which has been available since February 2006 for filing official statistical reports. It offers an operational overview of the reports filed through different channels in the Statistical Office, as well as contacts with the providers of these reports."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Informationalwebsitefor",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Informational website for "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Estonian Ministry of Finance"
+      ],
+      "http://schema.org/url": [
+        "http://www.struktuurifondid.ee/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The website gathers and holds an information about the framework of structural assistance as well as practical information about different funding opportunities in Estonia."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia/Grants",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Grants"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Estonia"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government"
+      ],
+      "http://schema.org/url": [
+        "https://www.eesti.ee/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The state e-portal provides the businesses with links to different websites offering grants or specific loans to young entrepreneurs."
+      ]
+    }
+  ]
+}

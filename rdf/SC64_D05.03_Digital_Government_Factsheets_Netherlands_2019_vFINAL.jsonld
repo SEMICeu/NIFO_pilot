@@ -1,0 +1,1805 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/",
+    "rdfa": "http://www.w3.org/ns/rdfa#"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Netherlands",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Netherlands"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2019-07"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/NLD"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/dataset/DigitalGovernmentIndicatorsNetherlands"
+        },
+        {
+          "@id": "http://example.org/nifo/legalframework/Netherlands"
+        },
+        {
+          "@id": "http://example.org/nifo/person/RaymondKnoops"
+        },
+        {
+          "@id": "http://example.org/nifo/person/BasdenHollander"
+        },
+        {
+          "@id": "http://example.org/nifo/person/Andr%C3%A9Regtop"
+        },
+        {
+          "@id": "http://example.org/nifo/person/YvonnevanderBrugge-Wolring"
+        }
+      ],
+      "http://dbpedia.org/ontology/populationTotal": [
+        "17 181 084 inhabitants (2018)"
+      ],
+      "http://dbpedia.org/property/gdpNominal": [
+        "773 373 million Euros (2018)"
+      ],
+      "http://dbpedia.org/property/gdpPppPerCapita": [
+        "128 (2017) "
+      ],
+      "http://dbpedia.org/ontology/areaTotal": [
+        "41 542 km²"
+      ],
+      "http://dbpedia.org/ontology/capital": [
+        "Amsterdam"
+      ],
+      "http://purl.org/dc/terms/language": [
+        "Dutch"
+      ],
+      "http://dbpedia.org/ontology/currency": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/currency/Euro"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://ec.europa.eu/eurostat/data/database"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/undefined"
+        },
+        {
+          "@id": "https://ec.europa.eu/digital-single-market/en/news/egovernment-benchmark-2018-digital-efforts-european-countries-are-visibly-paying"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/dataset/DigitalGovernmentIndicatorsNetherlands",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataSet"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Government Indicators"
+      ],
+      "http://purl.org/linked-data/cube#structure": [
+        {
+          "@id": "http://example.org/nifo/structure/DigitalGovernmentIndicatorsNetherlands"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Netherlands",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?cfg=wetsvoorsteldetails&qry=wetsvoorstel:34972"
+        },
+        {
+          "@id": "https://wetten.overheid.nl/BWBR0005537/2019-04-02"
+        },
+        {
+          "@id": "https://www.overheid.nl/"
+        },
+        {
+          "@id": "http://www.freedominfo.org/wp-content/uploads/documents/NL%2520public_access_government_info_10-91.pdf"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG"
+        },
+        {
+          "@id": "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?cfg=wetsvoorsteldetails&qry=wetsvoorstel:34972"
+        },
+        {
+          "@id": "http://wetten.overheid.nl/BWBR0033715/2015-09-01"
+        },
+        {
+          "@id": "http://wetten.overheid.nl/BWBR0021777/2016-07-01"
+        },
+        {
+          "@id": "http://wetten.overheid.nl/BWBR0022428/2014-01-06"
+        },
+        {
+          "@id": "https://wetten.overheid.nl/BWBR0032203/2019-01-01"
+        },
+        {
+          "@id": "https://zoek.officielebekendmakingen.nl/stb-2018-1.html"
+        },
+        {
+          "@id": "https://wetten.overheid.nl/BWBR0026759/2019-01-01"
+        },
+        {
+          "@id": "https://wetten.overheid.nl/BWBR0013060/2015-07-01/2"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/DigitalGovernmentIndicatorsNetherlands",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
+      "http://purl.org/linked-data/cube#component": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesintheNetherlands"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesintheNetherlands"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesintheNetherlands"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesintheNetherlands"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesintheNetherlands"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesintheNetherlands"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesintheNetherlands"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesintheNetherlands"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesintheNetherlands",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesintheNetherlands",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesintheNetherlands",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesintheNetherlands",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?cfg=wetsvoorsteldetails&qry=wetsvoorstel:34972",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Digital Government Law",
+        "Digital Government Law"
+      ]
+    },
+    {
+      "@id": "https://wetten.overheid.nl/BWBR0005537/2019-04-02",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Legislation on administrative law"
+      ]
+    },
+    {
+      "@id": "https://www.overheid.nl/",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Electronic Announcement Act"
+      ]
+    },
+    {
+      "@id": "http://www.freedominfo.org/wp-content/uploads/documents/NL%2520public_access_government_info_10-91.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "http://www.freedominfo.org/wp-content/uploads/documents/NL%20public_access_government_info_10-91.pdf",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act of 31 October 1991 on public access to Government information"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "EU Regulation 910/2014"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://zoek.officielebekendmakingen.nl/stb-2017-81.html"
+        }
+      ]
+    },
+    {
+      "@id": "https://zoek.officielebekendmakingen.nl/stb-2017-81.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "eIDAS Implementation Act"
+      ]
+    },
+    {
+      "@id": "http://wetten.overheid.nl/BWBR0033715/2015-09-01",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Base Registry Persons and the BRP law"
+      ]
+    },
+    {
+      "@id": "http://wetten.overheid.nl/BWBR0021777/2016-07-01",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Trade Registry Act"
+      ]
+    },
+    {
+      "@id": "http://wetten.overheid.nl/BWBR0022428/2014-01-06",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Unique Identifying Numbers Law"
+      ]
+    },
+    {
+      "@id": "https://wetten.overheid.nl/BWBR0032203/2019-01-01",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Procurement Act 2012"
+      ]
+    },
+    {
+      "@id": "https://zoek.officielebekendmakingen.nl/stb-2018-1.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "e-Invoicing Directive 2014/55/EU"
+      ]
+    },
+    {
+      "@id": "https://wetten.overheid.nl/BWBR0026759/2019-01-01",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Services Act (Dienstenwet)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.minv.sk/swift_data/source/verejna_sprava/zivnostenske_podnikanie_zuborova/Services%2520Directive.pdf"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.minv.sk/swift_data/source/verejna_sprava/zivnostenske_podnikanie_zuborova/Services%2520Directive.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "http://www.minv.sk/swift_data/source/verejna_sprava/zivnostenske_podnikanie_zuborova/Services%20Directive.pdf",
+      "http://data.europa.eu/eli/ontology#title": [
+        "EU Services Directive"
+      ]
+    },
+    {
+      "@id": "https://wetten.overheid.nl/BWBR0013060/2015-07-01/2",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "SUWI act"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/RaymondKnoops",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Raymond Knoops"
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-StateSecretaryfortheInteriorandKingdomRelation"
+        },
+        {
+          "@id": "http://example.org/nifo/post/Post-DirectorInformationSocietyandGovernment"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/8550"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-StateSecretaryfortheInteriorandKingdomRelation",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-StateSecretaryfortheInteriorandKingdomRelation"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-StateSecretaryfortheInteriorandKingdomRelation",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "State Secretary for the Interior and Kingdom Relation "
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/8550",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+31 70 426 63 02"
+      ],
+      "http://schema.org/email": [
+        "info@minbzk.nl "
+      ],
+      "http://schema.org/url": [
+        "https://www.government.nl/"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/BasdenHollander",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Bas den Hollander "
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/2950"
+        }
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-Director,GovernmentICTUnit(ICTU)"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-DirectorInformationSocietyandGovernment",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-DirectorInformationSocietyandGovernment"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-DirectorInformationSocietyandGovernment",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Director Information Society and Government "
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/2950",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+31 70 426 6176"
+      ],
+      "http://schema.org/email": [
+        "info@minbzk.nl "
+      ],
+      "http://schema.org/url": [
+        "https://www.rijksoverheid.nl/"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/Andr%C3%A9Regtop",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "André Regtop "
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/5762"
+        }
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-GeneralDirectorLogius"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-Director,GovernmentICTUnit(ICTU)",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-Director,GovernmentICTUnit(ICTU)"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-Director,GovernmentICTUnit(ICTU)",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Director, Government ICT Unit (ICTU)"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/5762",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+31 70 7000 900"
+      ],
+      "http://schema.org/email": [
+        "info@ictu.nl"
+      ],
+      "http://schema.org/url": [
+        "https://www.ictu.nl/"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/YvonnevanderBrugge-Wolring",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Yvonne van der Brugge-Wolring"
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/5387"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-GeneralDirectorLogius",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-GeneralDirectorLogius"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-GeneralDirectorLogius",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "General Director Logius"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/5387",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+31 70 888 75 10"
+      ],
+      "http://schema.org/email": [
+        "yvonne.vander.brugge@logius.nl "
+      ],
+      "http://schema.org/url": [
+        "https://www.logius.nl/"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Passport",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Passport",
+        "Passport"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (delivery by municipalities)",
+        "Central Government, (delivery by Municipalities)"
+      ],
+      "http://schema.org/url": [
+        "https://www.rijksoverheid.nl/onderwerpen/paspoort-en-identiteitskaart ",
+        "https://www.rijksoverheid.nl/onderwerpen/paspoort-en-identiteitskaart "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Citizens are required to apply for a passport at a local municipality. Information on the procedure is available on most municipal websites. Citizens have to personally visit a municipality office to obtain their passports and cannot apply online. In most municipalities the appointment can be booked online. In a few municipalities the document can be delivered.",
+        "Citizens are required to apply for a passport at a local municipality. Information on the procedure is available on most municipal websites. Citizens have to personally visit a municipality office to obtain their passports and cannot apply online. In most municipalities the appointment can be booked online."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Reportingamissingtraveldocument",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Reporting a missing travel document"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (delivery by municipalities)"
+      ],
+      "http://schema.org/url": [
+        "https://www.rijksoverheid.nl/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Citizens who have misplaced or lost a travel document, such as their passport or ID card can now fill in a form online and report the lost document."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Jobsearchservicesbylabouroffices",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Job search services by labour offices"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Employee Insurance Agency (UWV)"
+      ],
+      "http://schema.org/url": [
+        "https://www.werk.nl/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "All job seekers can make use of the UWV e-services via the website werk.nl. Registration and benefit applications take place digitally; clients create a CV and personal Work folder online. In the Work folder they can easily keep track of their job applications and have access to thousands of vacancies and can communicate online with an employment adviser. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Informationonregulatedprofessions",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Information on regulated professions"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government and Nuffic"
+      ],
+      "http://schema.org/url": [
+        "https://www.nuffic.nl/en/subjects/your-foreign-diploma-in-the-netherlands/#working-in-the-netherlands-with-a-foreign-diploma"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The website of the Ministry of Social Affairs included information on the regulated professions and professional qualifications. NGO Nuffic serves as the assistance centre (AC) in the Netherlands. Nuffic issues AC- declarations for Dutch citizens. These can be applied online. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Unemploymentbenefits",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Unemployment benefits"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Employee Insurance Agency (UWV)"
+      ],
+      "http://schema.org/url": [
+        "https://www.werk.nl/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "All job seekers can make use of the UWV eServices via the website werk.nl. Registration and benefit applications take place digitally; Citizens do not apply for unemployment benefits independently; they are required to first register as job seeker. They need to login with DigiD."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Incometaxdeclarationnotificationofassessment",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Income tax: declaration, notification of assessment"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Tax Administration"
+      ],
+      "http://schema.org/url": [
+        "http://www.belastingdienst.nl/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Online tax declaration, highly automated processing of returns. A user can get access to prefilled digital forms with DigiD, check the data and sign. The tax administration has also developed an app for simple returns. Messages will be delivered in the message box."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Driverslicence",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Driver’s licence "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, RDW (delivery by Municipalities)"
+      ],
+      "http://schema.org/url": [
+        "http://www.rijbewijs.nl/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Citizens are required to visit their municipality office in person to obtain a driving licence after passing the required tests and obtaining the necessary certificates. Information on the procedure is provided on most municipality websites. In most municipalities the appointment can be booked online. Citizens get a notification when the driving licence expires."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Carregistrationnewusedimportedcars",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Car registration (new, used, imported cars)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, RDW"
+      ],
+      "http://schema.org/url": [
+        "http://www.rdw.nl/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information only. Car dealers can be seen as a one-stop shop. Most dealers have electronic access to RDW using tailor-made software and a Public Key Infrastructure (PKI) solution using certificates linked to an existing register of certified garage companies. Real-time checks are made with the Central Drivers Licenses Register (also maintained by the RDW) for verification purposes. Individuals buying cars from third parties require registration via a post office. An online service for registration is available."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Announcementofmovingchangeofaddress",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Announcement of moving (change of address)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (service delivery by municipalities)"
+      ],
+      "http://schema.org/url": [
+        "https://www.overheid.nl"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Dutch citizens are obliged to report changes of their personal data (including home address) to their local authority, which manages the data in the base registry of persons (BRP). The change of address is automatically reported to other public organisations. The majority of municipalities provide information and forms to download on their websites and an increasing number of municipalities have online notification applications (mainly for intra municipal movements). DigiD is used for authentication. The portal overheid.nl provides links to the websites of the responsible municipal bodies and does not provide the eService itself."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Certificatesbirthmarriagerequestanddelivery",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Certificates (birth, marriage): request and delivery",
+        "Certificates (birth, marriage): request and delivery"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government (service delivery by municipalities)",
+        "Local Government"
+      ],
+      "http://schema.org/url": [
+        "http://www.overheid.nl/",
+        "http://www.overheid.nl/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Civil certificate requests are handled by the local authorities. Most provide information and forms to download and many offer online applications via DigiD. The policy is also to reduce the number of times requests are made. The portal provides links to the websites of the responsible municipal bodies but does not provide this eService itself.",
+        "Civil certificate requests are handled by the local authorities. Most provide information and forms to download and many offer online applications via DigiD. The policy is also to reduce the occasions for which they are requested. The aforementioned portal provides links to the websites of the responsible municipal bodies and does not provide this eService itself."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Turning18yearsold",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Turning 18 years old"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government"
+      ],
+      "http://schema.org/url": [
+        "https://www.rijksoverheid.nl/onderwerpen/achttien-jaar-worden/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "On the website it is possible to find all relevant information for individuals turning 18 years old, including information related to health care allowance, driving licence, voting for elections, requesting the DigiD. A personal checklist can also be filled in."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Separationordivorce",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Separation or divorce"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government"
+      ],
+      "http://schema.org/url": [
+        "https://www.rijksoverheid.nl/onderwerpen/scheiden"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The webpage provides information in case of separation or divorce, giving also the opportunity to fill in a personal checklist to better meet the persons’ needs."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Declaringadeceasedperson",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Declaring a deceased person"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Local Government"
+      ],
+      "http://schema.org/url": [
+        "http://www.ondernemersplein.nl/regel/aangifte-akte-overlijden/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The local authorities must be informed when someone dies. Relatives can do it themselves or leave it to their funeral undertaker. The undertaker can register a person decease’ online and also check the relevant procedures and regulations in their municipality. The portal provides links to the websites of the responsible municipal bodies but does not provide this eService itself."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Certificateofgoodconduct",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Certificate of good conduct"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Justis"
+      ],
+      "http://schema.org/url": [
+        "https://www.justis.nl/producten/vog/certificate-of-conduct/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "A certificate of conduct (Verklaring Omtrent het Gedrag, VOG) is a document which declares that the applicant did not commit any criminal offences relevant to the performance of his or her duties. The declaration can be applied for online at Justis, once the requesting organisation has done their preparations."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Declarationtothepoliceegincaseoftheft",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Declaration to the police (e.g. in case of theft)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, regional Police branches"
+      ],
+      "http://schema.org/url": [
+        "http://www.politie.nl/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Electronic notification of certain 'smaller' crimes possible."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Checkingtherealestatevalue",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Checking the real estate value "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government and local governments"
+      ],
+      "http://schema.org/url": [
+        "https://www.wozwaardeloket.nl/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "This real-property value box allows citizens to view the real-property value of homes. The WOZ value box is designed for individual consultation of particular dwellings. The central government provides tools, municipalities the WOZ data."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Publiclibrariesavailabilityofcataloguessearchtools",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Public libraries (availability of catalogues, search tools)",
+        "Public libraries (availability of catalogues, search tools)",
+        "Public libraries (availability of catalogues, search tools)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Netherlands Association of Public Libraries (VOB)",
+        "Central Government, DUO",
+        "Netherlands Association of Public Libraries (VOB)"
+      ],
+      "http://schema.org/url": [
+        "http://www.bibliotheek.nl/",
+        "http://www.duo.nl/",
+        "http://www.bibliotheek.nl/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Online catalogue of public libraries across the country. Online requests are possible in some cases.",
+        "DUO is commissioned by the Ministry of Education, Culture and Science for administering student loans. Students can manage their own information and communicate changes in study and/or personal circumstances online. Monthly loan payments are an integrated service.",
+        "Online catalogue of public libraries across the country. Online requests are possible in some cases."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Enrolmentinhighereducationuniversity",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Enrolment in higher education/university"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Studielink (cooperation between higher education, ministry and DUO)"
+      ],
+      "http://schema.org/url": [
+        "https://app.studielink.nl/front-office/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Online catalogue of public libraries across the country. Online requests are possible in some cases."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Fundingsupport",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Funding support"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Enterprise Agency"
+      ],
+      "http://schema.org/url": [
+        "http://www.rvo.nl/subsidies-regelingen"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Netherlands Enterprise Agency (RVO.nl) encourages entrepreneurs in sustainable, agrarian, innovative and international business. RVO publishes information for entrepreneurs in different branches including researchers on available funding opportunities from various ministries and the European union. Subsidies and permits managed by RVO can often be applied for online."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Informationandassistancetoresearchers",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Information and assistance to researchers"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Enterprise Agency"
+      ],
+      "http://schema.org/url": [
+        "http://www.euraxess.nl/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "EURAXESS Netherlands provides information and assistance to mobile researchers – by means of the web portal and with the support of the national EURAXESS Service Centres. The portal contains practical information concerning professional and daily life, as well as information on job and funding opportunities."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Disabilitieschronicdiseasesandelderly",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Disabilities, chronic diseases and elderly"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government"
+      ],
+      "http://schema.org/url": [
+        "http://www.rvo.nl/subsidies-regelingen"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information on important care and social security provisions for people with disabilities, chronic illnesses and the elderly is provided by the special website."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Medicalcostsreimbursementordirectsettlement",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Medical costs (reimbursement or direct settlement)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, health insurance companies"
+      ],
+      "http://schema.org/url": [
+        "http://www.rijksoverheid.nl/onderwerpen/zorgverzekering"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information purposes only. Citizens are insured by private health insurance companies. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Healthcareabroad",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Healthcare abroad"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, CAK and National Health Care Institute (Zorginstituut Nederland)"
+      ],
+      "http://schema.org/url": [
+        "http://www.cbhc.nl/nl-nl/; https://www.zorginstituutnederland.nl/Verzekerde+zorg/z/zorg-en-buitenland-zvw "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "In the Netherlands the CAK implements tasks for the National Contact Point (NCP) for cross-border healthcare. CAK has been commissioned to do this by the Ministry of Health, Welfare and Sport (VWS). CAK provides general information for patients who want to undergo medical treatment in another EU-country. On our website you will find information about what you have to do in such cases and how you can obtain reimbursement of such treatment."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Childallowances",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Child allowances"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Social Insurance Bank (SVB)"
+      ],
+      "http://schema.org/url": [
+        "http://www.svb.nl/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The child benefit is payable up to 18 years of age. The child allowance process starts the moment the authorities (via the municipality) are notified of a child’s birth (which must currently be done in person). Municipalities electronically notify (SVB). SVB will contact 2 - 4 weeks after the registration of the child's birth. Citizens can then claim child benefit online via My SVB, using DigiD as login and fill in the claim form. If further children are born, the child benefit will be entitled automatically."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Consumerprotection",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Consumer protection",
+        "Consumer protection"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government",
+        "Central Government, Juridisch loket"
+      ],
+      "http://schema.org/url": [
+        "https://www.rijksoverheid.nl/onderwerpen/bescherming-van-consumenten ",
+        "https://www.eccnederland.nl/nl "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The portal gives information on what consumers’ rights are, who one can complain to, what regulations are in place, etc. Regulators such as the Authority for Consumers and Markets, ensure that companies adhere to the rules.",
+        "The European Consumer Centre belongs to the European Consumer Centre Network-ECC Net, founded by the European Commission in 28 Member States in collaboration with National Governments. It informs consumers on their rights and assisting them in their cross-border consumption issues, promoting and supporting out of court disputes resolution more quickly and at lower cost than the Court claim procedures."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Registrationofanewcompany",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Registration of a new company"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Chambers of Commerce"
+      ],
+      "http://schema.org/url": [
+        "http://www.kvk.nl/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and forms to download. Forms then have to be printed out, filled in, signed and returned to the Chamber of Commerce by post."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/BusinessportalII",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Business portal II"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government"
+      ],
+      "http://schema.org/url": [
+        "http://www.ondernemersplein.nl/ (NL)"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Ondernemersplein is the point of contact for businesses and entrepreneurs in areas such as legislation, subsidies and permits. The information provided covers all levels of government. It is made available through various channels (websites, email, telephone and chat) and focuses on the issues and needs of the business community."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Businessforum",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Business forum"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government"
+      ],
+      "http://schema.org/url": [
+        "https://www.higherlevel.nl/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Ministry of Interior and Kingdom Relations administers the business forum, where entrepreneurs can discuss matters of direct concern."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Patents",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Patents"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Netherlands Enterprise Agency (RVO)"
+      ],
+      "http://schema.org/url": [
+        "http://mijnoctrooi.rvo.nl/bpp-portal/home"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Benelux Patent Platform is a large-scale project implemented for the Benelux countries (Belgium, the Netherlands and Luxembourg) in the field of patents. It constitutes a set of IT applications and infrastructure for supporting the establishment, processing and tracking of each of the key patent elements throughout all the stages of the patent life-cycle."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/VATdeclarationnotification",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "VAT: declaration, notification"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Tax Agency"
+      ],
+      "http://schema.org/url": [
+        "http://www.belastingdienst.nl/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Entrepreneurs are obliged to file their VAT returns digitally. This can be done via website of the tax agency or via software. As from 1 January 2014 VAT returns filing may solely via Standard Business Reporting (SBR)"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Corporatetaxdeclarationnotification",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Corporate tax: declaration, notification"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Tax Agency"
+      ],
+      "http://schema.org/url": [
+        "http://www.belastingdienst.nl/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Entrepreneurs have the obligation to file corporate income tax declarations digitally. As from the 2012 tax year software must comply with the Standard Business Reporting"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/CustomsdeclarationseCustoms",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Customs declarations (e-Customs)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Tax Administration"
+      ],
+      "http://schema.org/url": [
+        "http://www.belastingdienst.nl/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Customs declarations can be performed online. Customs will respond electronically with information on the next step (which varies according to the particular declaration). Businesses are required to first contact the Customs department to obtain software (or information on suitable software), licences and a subscription to a network service (depending upon the type of software chosen)."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Dutchlaw",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Dutch law"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government"
+      ],
+      "http://schema.org/url": [
+        " https://www.rijksoverheid.nl/onderwerpen/mededinging"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "This dedicated webpage offers a comprehensive overview of the different information and sources relating to competition, offering also the possibility to search through relevant documents, such as regulations, directives and policy notes. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/PublicprocurementeProcurement",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Public procurement / eProcurement"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, PIANOo"
+      ],
+      "http://schema.org/url": [
+        "http://www.tenderned.nl "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Tenderned is the online market place for public procurement in the Netherlands. Tenderned supports the entire tender procedure from award to award for all contracting (central and local) authorities and suppliers."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Socialcontributionsforemployees",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Social contributions for employees"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Tax Agency"
+      ],
+      "http://schema.org/url": [
+        "http://www.belastingdienst.nl/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Employers have to register employees and report for pay roll taxes. Employees are obliged to report digitally. Data is exchanged between the tax agency and UWV (Employees Insurance Agency) and CBS (bureau for statistics). "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/DutchREACHRegistrationEvaluationAuthorisationandRestrictionofChemicalsEURegulationno19072006Helpdesk",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Dutch REACH (Registration, Evaluation, Authorisation and Restriction of Chemicals, EU Regulation no 1907/2006) Helpdesk"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, National Institute for Public Health and the Environment (RIVM)"
+      ],
+      "http://schema.org/url": [
+        "http://www.reachhelpdesk.nl/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The website (Dutch only) offers ample information particularly for small and medium-scale enterprises."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Environmentrelatedpermitsinclreporting",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Environment-related permits (incl. reporting)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government/regional and local Government (depending on the type of permit required)"
+      ],
+      "http://schema.org/url": [
+        "http://www.omgevingsloket.nl/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Entrepreneurs can apply for an environment related permit at the website 'omgevingsloket'. The application will automatically be processed to the competent authority(s). For the authentication eherkenning level 2 is needed."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Subsidiesandfinancing",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Subsidies and financing"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Netherlands Enterprise Agency (RVO)"
+      ],
+      "http://schema.org/url": [
+        "http://www.rvo.nl/subsidies-regelingen "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information on available funding opportunities from various ministries and the European union. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Netherlands/Submissionofdatatostatisticaloffices",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Submission of data to statistical offices"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/Netherlands"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government, Statistics Netherlands (CBS)"
+      ],
+      "http://schema.org/url": [
+        "http://www.cbs.nl/"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Submission of data to the statistical office can be made electronically."
+      ]
+    }
+  ]
+}

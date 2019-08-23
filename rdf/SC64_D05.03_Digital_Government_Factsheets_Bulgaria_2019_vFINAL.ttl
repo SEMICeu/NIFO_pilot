@@ -1,0 +1,375 @@
+<http://data.europa.eu/nifo/factsheet/Bulgaria> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Bulgaria>;
+ <http://purl.org/dc/terms/issued> "2019-07";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/BGR";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/dataset/DigitalGovernmentIndicatorsBulgaria>, <http://example.org/nifo/legalframework/Bulgaria>, <http://example.org/nifo/person/AtanasTemelkov>, <http://example.org/nifo/person/AlexanderYolovski>, <http://example.org/nifo/person/KrasimirSimonski>, <http://example.org/nifo/person/RossenJeliazkov>, <http://example.org/nifo/person/DimitarGenovski>;
+ <http://dbpedia.org/ontology/populationTotal> "7 050 034 inhabitants (2018)";
+ <http://dbpedia.org/property/gdpNominal> "55 182 million Euros (2018)";
+ <http://dbpedia.org/property/gdpPppPerCapita> "49 (2017)";
+ <http://dbpedia.org/ontology/areaTotal> "111.000 km²";
+ <http://dbpedia.org/ontology/capital> "Sofia";
+ <http://purl.org/dc/terms/source> <http://ec.europa.eu/eurostat/data/database>, <http://data.europa.eu/nifo/factsheet/undefined>, <https://ec.europa.eu/digital-single-market/en/news/egovernment-benchmark-2018-digital-efforts-european-countries-are-visibly-paying> .
+<http://example.org/nifo/dataset/DigitalGovernmentIndicatorsBulgaria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataSet>;
+ <http://purl.org/dc/terms/title> "Digital Government Indicators";
+ <http://purl.org/linked-data/cube#structure> <http://example.org/nifo/structure/DigitalGovernmentIndicatorsBulgaria>;
+ <http://purl.org/dc/terms/source> "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en" .
+<http://example.org/nifo/structure/DigitalGovernmentIndicatorsBulgaria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition> .
+<http://example.org/nifo/legalframework/Bulgaria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://e-gov.bg/upload/4338/E-Govt%252520Act_S.E.G.A_EN.pdf>, <https://www.me.government.bg/en/library/access-to-public-information-act-448-c25-m258-2.html>, <https://www.lex.bg/laws/ldoc/2135180800>, <http://www.lex.bg/bg/laws/ldoc/2136822116>, <http://blog.apis.bg/2018/11/polezno-v-dv-br-94-ot-13-11-2018-g/>, <https://parliament.bg/bg/bills/ID/78179>, <http://brra.bg/Default.ra>, <http://www.cadastre.bg/zakoni/zakon-za-kadastura-i-imotniya-registur-izm-dv-br66-ot-26-yuli-2013g-izm-i-dop-dv-br49-ot-13-y>, <https://www.lex.bg/laws/ldoc/2134673409>, <https://lex.bg/bg/laws/ldoc/2136735703>, <http://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=130598> .
+<https://e-gov.bg/upload/4338/E-Govt%252520Act_S.E.G.A_EN.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<https://e-gov.bg/upload/4338/E-Govt%20Act_S.E.G.A_EN.pdf> <http://data.europa.eu/eli/ontology#title> "eGovernment Act (EGA)", "Electronic Government Act", "eGovernment Act" .
+<https://www.me.government.bg/en/library/access-to-public-information-act-448-c25-m258-2.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Access to Public Information Act" .
+<https://www.lex.bg/laws/ldoc/2135180800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Electronic Document and Electronic Signature" .
+<http://www.lex.bg/bg/laws/ldoc/2136822116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Electronic Identification Act" .
+<http://blog.apis.bg/2018/11/polezno-v-dv-br-94-ot-13-11-2018-g/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Cybersecurity Act" .
+<https://parliament.bg/bg/bills/ID/78179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law for Protection of Personal Data";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "EU Directive 95/46/EC" .
+<http://brra.bg/Default.ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act" .
+<http://www.cadastre.bg/zakoni/zakon-za-kadastura-i-imotniya-registur-izm-dv-br66-ot-26-yuli-2013g-izm-i-dop-dv-br49-ot-13-y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Cadastre and Property Registry Act" .
+<https://www.lex.bg/laws/ldoc/2134673409> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Civil Registry Act" .
+<https://lex.bg/bg/laws/ldoc/2136735703> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Public Procurement" .
+<http://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=130598> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Public Procurement Act" .
+<http://example.org/nifo/person/AtanasTemelkov> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Atanas Temelkov";
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-ChairpersonofStateeGovernmentAgency>, <http://example.org/nifo/post/Post-DeputyChairpersonofStateeGovernmentAgency>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/234> .
+<http://example.org/nifo/post/Post-ChairpersonofStateeGovernmentAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-ChairpersonofStateeGovernmentAgency> .
+<http://example.org/nifo/role/Role-ChairpersonofStateeGovernmentAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Chairperson of State eGovernment Agency" .
+<http://example.org/ContactPoint/234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "mail@e-gov.bg ";
+ <http://schema.org/telephone> "+359 2 949 21 15 ";
+ <http://schema.org/url> "Source: https://e-gov.bg" .
+<http://example.org/nifo/person/AlexanderYolovski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Alexander Yolovski ";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8218>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DeputyChairpersonofStateeGovernmentAgency> .
+<http://example.org/nifo/post/Post-DeputyChairpersonofStateeGovernmentAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DeputyChairpersonofStateeGovernmentAgency> .
+<http://example.org/nifo/role/Role-DeputyChairpersonofStateeGovernmentAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Deputy Chairperson of State eGovernment Agency" .
+<http://example.org/ContactPoint/8218> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "ayolovski@e-gov.bg";
+ <http://schema.org/telephone> "+359 2 949 24 68 ";
+ <http://schema.org/url> "Source: https://e-gov.bg" .
+<http://example.org/nifo/person/KrasimirSimonski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Krasimir Simonski";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/7496>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofTransport,InformationTechnologyandCommunications> .
+<http://example.org/ContactPoint/7496> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "ksimonski@e-gov.bg";
+ <http://schema.org/telephone> "+359 2 949 21 24 ";
+ <http://schema.org/url> "Source: https://e-gov.bg" .
+<http://example.org/nifo/person/RossenJeliazkov> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Rossen Jeliazkov";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4217>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DeputyMinisterofTransport,InformationTechnologyandCommunications> .
+<http://example.org/nifo/post/Post-MinisterofTransport,InformationTechnologyandCommunications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofTransport,InformationTechnologyandCommunications> .
+<http://example.org/nifo/role/Role-MinisterofTransport,InformationTechnologyandCommunications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Transport, Information Technology and Communications " .
+<http://example.org/ContactPoint/4217> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "mail@mtitc.government.bg ";
+ <http://schema.org/telephone> "+359 2 940 97 71 ";
+ <http://schema.org/url> "http://www.mtitc.government.bg/page.php?category=134" .
+<http://example.org/nifo/person/DimitarGenovski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Dimitar Genovski ";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/1566> .
+<http://example.org/nifo/post/Post-DeputyMinisterofTransport,InformationTechnologyandCommunications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DeputyMinisterofTransport,InformationTechnologyandCommunications> .
+<http://example.org/nifo/role/Role-DeputyMinisterofTransport,InformationTechnologyandCommunications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Deputy Minister of Transport, Information Technology and Communications " .
+<http://example.org/ContactPoint/1566> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "mail@mtitc.government.bg";
+ <http://schema.org/telephone> "+359 2 940 97 71 ";
+ <http://schema.org/url> "http://www.mtitc.government.bg/" .
+<http://example.org/nifo/publicservice/Bulgaria/Passport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Passport";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Interior, District Police Stations (Identity Documents and Passport Regime Units)";
+ <http://schema.org/url> "http://dbds.mvr.bg/";
+ <http://purl.org/dc/terms/description> "Online information on how to start the process of obtaining an ID card or passport. Online services include verifying whether the document was issued but not received and to validate personal documents. " .
+<http://example.org/nifo/publicservice/Bulgaria/Jobsearchservicesbylabouroffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Job search services by labour offices";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Labour and Social Policy, National Employment Agency";
+ <http://schema.org/url> "http://www.az.government.bg/ ";
+ <http://purl.org/dc/terms/description> "Registered job seekers receive an online job listing match based on their profile while employers receive a list of matching CVs from job seekers." .
+<http://example.org/nifo/publicservice/Bulgaria/Legalinformationsysteminclinformationontheregulatedprofessions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Legal information system (incl. information on the regulated professions)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Netinfo";
+ <http://schema.org/url> "http://lex.bg/; http://nacid.bg/sites/qual/index.php?id=21";
+ <http://purl.org/dc/terms/description> "The website allows users to search through enacted legislation, as well as gain useful information regarding citizens’ rights, including work related. Users from the EU, Iceland, Lichtenstein, Norway, or Switzerland wishing to pursue a regulated profession in Bulgaria must select a profession that is on the list. In this way he/she will the correct information to make the right decisions concerning their professional recognition." .
+<http://example.org/nifo/publicservice/Bulgaria/Unemploymentbenefits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Unemployment benefits";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Labour and Social Policy, National Employment Agency";
+ <http://schema.org/url> "http://www.az.government.bg/ ";
+ <http://purl.org/dc/terms/description> "The National Employment Agency provides those registered at the Labour Office Directorates with unemployment benefits in accordance with the Social Security Codex. Online registration and information are available." .
+<http://example.org/nifo/publicservice/Bulgaria/Incometaxesdeclarationnotificationofassessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Income taxes: declaration, notification of assessment";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Finance, National Revenue Agency";
+ <http://schema.org/url> "http://www.nap.bg/en/ ";
+ <http://purl.org/dc/terms/description> "Online information and forms can be downloaded, submitted and signed electronically, allowing for the online submission of personal income taxes." .
+<http://example.org/nifo/publicservice/Bulgaria/Driverslicence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Driver’s licence";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Interior";
+ <http://schema.org/url> "http://www.mvr.bg/; https://e-services.mfa.bg/";
+ <http://purl.org/dc/terms/description> "Through the eGovernment system of the Ministry of Foreign Affairs, Bulgarian citizens who live abroad and who want to renew their personal documents can submit an electronic application, pay for this service electronically and receive the documents in a consulate, under the delivery conditions they have chosen (diplomatic mail or fast delivery by courier service). This system saves time and money for one trip to the consular office for filing an application. " .
+<http://example.org/nifo/publicservice/Bulgaria/Carregistrationnewusedimportedcars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Car registration (new, used, imported cars)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Interior, Ministry of Transport, Information Technology and Communications, Executive Agency for Automobile Administration (supervision and conformance control)";
+ <http://schema.org/url> "http://www.mvr.bg/; http://www.rta.government.bg/ ";
+ <http://purl.org/dc/terms/description> "General information on how to obtain a new licence and how to register a car is provided online by the Ministry of Transport, Information Technology and Communications' Executive Agency for Automobile Administration." .
+<http://example.org/nifo/publicservice/Bulgaria/Announcementofmovingchangeofaddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Announcement of moving (change of address)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Regional Development and Public Works, Directorate General for Citizen Registration";
+ <http://schema.org/url> "http://www.mrrb.government.bg/; http://www.grao.government.bg ";
+ <http://purl.org/dc/terms/description> "The change of address notification service is available." .
+<http://example.org/nifo/publicservice/Bulgaria/Certificatesbirthmarriagerequestanddelivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Certificates (birth, marriage): request and delivery";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Regional Development and Public Works, Directorate General for Citizen Registration";
+ <http://schema.org/url> "http://www.mrrb.government.bg/; http://www.grao.government.bg ";
+ <http://purl.org/dc/terms/description> "The management and control of the functioning and development of the Citizen Registration System (ESGRAON) are assigned to the Directorate General for Citizen Registration of the Ministry of Regional Development and Public Works and to the 28 ‘Citizen Registration’ Territorial Units located in the former administrative centres of the districts. Online information is available.", "Management and control of the functioning and development of the Citizen Registration System (ESGRAON) are assigned to the Directorate General for Citizen Registration of the Ministry of Regional Development and Public Works and to the 28 ‘Citizen Registration’ Territorial Units located in the former administrative centres of the districts. Online information is available." .
+<http://example.org/nifo/publicservice/Bulgaria/Housingbuildingandhousingcartography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Housing (building and housing, cartography)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Geodesy, cartography and cadastre agency";
+ <http://schema.org/url> "http://kais.cadastre.bg/ ";
+ <http://purl.org/dc/terms/description> "The website of the Bulgarian Geodesy, cartography and cadastre agency allows users to access electronic services. In the Requests page, electronic applications are filed regarding the services of the office of geodesy, cartography, cadastre and Geocardfond. Requests are handled by AGKK employees, in the statutory deadline, where the result is received electronically or at a counter depending on the final document. Real time references, which are automatically generated by the system, are implemented in the REFERENCES page." .
+<http://example.org/nifo/publicservice/Bulgaria/Waste> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Waste";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Environment and Water";
+ <http://schema.org/url> "https://www.moew.government.bg/ ";
+ <http://purl.org/dc/terms/description> "The website provides different sample applications related to waste related activities, as well as information on the waste management for household waste. " .
+<http://example.org/nifo/publicservice/Bulgaria/ParticipationinBulgarianelections> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Participation in Bulgarian elections";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central elections committee";
+ <http://schema.org/url> "https://www.cik.bg/ ";
+ <http://purl.org/dc/terms/description> "Bulgarian voters residing abroad can vote in elections, depending on the type of elections. With each election campaign, the information about voting abroad, as well as voting points, is published on the website." .
+<http://example.org/nifo/publicservice/Bulgaria/Enrolmentinhighereducationuniversity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Enrolment in higher education/university";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Education and Science";
+ <http://schema.org/url> "https://www.mon.bg/ ";
+ <http://purl.org/dc/terms/description> "Information is available online at the portal of the Ministry of Education and Science." .
+<http://example.org/nifo/publicservice/Bulgaria/Publiclibrariesavailabilityofcataloguessearchtools> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Public libraries (availability of catalogues, search tools) ";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Culture";
+ <http://schema.org/url> "http://www.nationallibrary.bg/ ";
+ <http://purl.org/dc/terms/description> "The St. Cyril and Methodius National Library provides an electronic catalogue. More advanced online facilities are offered by university libraries, such as the Sofia University Library." .
+<http://example.org/nifo/publicservice/Bulgaria/Studentgrants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Student grants";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Education and Science";
+ <http://schema.org/url> "https://www.mon.bg ";
+ <http://purl.org/dc/terms/description> "Information is available online at the portal of the Ministry of Education and Science." .
+<http://example.org/nifo/publicservice/Bulgaria/Careerbeginning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Career beginning";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Labour and Social Policy";
+ <http://schema.org/url> "http://www.az.government.bg/pages/programa-start-na-karierata/ ";
+ <http://purl.org/dc/terms/description> "The main objective of the programme is to provide opportunities to acquire work experience for unemployed young people who have completed secondary or higher education in order to facilitate the transition between education and employment." .
+<http://example.org/nifo/publicservice/Bulgaria/Volunteering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Volunteering";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Bulgarian Centre for Not-for-Profit Law (BCNL) ";
+ <http://schema.org/url> "http://www.ngobg.info/en/index.html ";
+ <http://purl.org/dc/terms/description> "The website represents a volunteering platform, and information can be found online of BCNL. The centre was founded in July 2001 and is incorporated as a public-benefit foundation in the Central Register at the Ministry of Justice." .
+<http://example.org/nifo/publicservice/Bulgaria/Fundingsupport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Funding support";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Fund Scientific Research";
+ <http://schema.org/url> "http://www.fni.bg/ ";
+ <http://purl.org/dc/terms/description> "Fund Scientific Research (NSF) aims to support projects and activities to promote research consistent with the ratified Framework Programmes with specific priorities of the European Union, as well as the \"Strategy for Development of Science in Bulgaria\" to 2020." .
+<http://example.org/nifo/publicservice/Bulgaria/Informationandassistancetoresearchers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Information and assistance to researchers";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "EURAXESS Bulgaria";
+ <http://schema.org/url> "http://www.euraxess.bg/ ";
+ <http://purl.org/dc/terms/description> "EURAXESS Bulgaria provides information and assistance to mobile researchers – by means of the web portal and with the support of our national EURAXESS Service Centres. The portal contains practical information concerning professional and daily life, as well as information on job and funding opportunities." .
+<http://example.org/nifo/publicservice/Bulgaria/Healthinsurancestatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Health insurance status";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "National Revenue Agency";
+ <http://schema.org/url> "https://inetdec.nra.bg/ ";
+ <http://purl.org/dc/terms/description> "The website allows for online verification of health insurance status, health insurance calculator, information for persons registered for VAT, and persons authorised to implement a system of cash accounting VAT, as well for making electronic payments to the budget." .
+<http://example.org/nifo/publicservice/Bulgaria/Healthrelatedservices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Health-related services";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Health";
+ <http://schema.org/url> "http://www.mh.government.bg ";
+ <http://purl.org/dc/terms/description> "Online information." .
+<http://example.org/nifo/publicservice/Bulgaria/Medicalcostsreimbursementordirectsettlement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Medical costs (reimbursement or direct settlement)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, National Social Security Institute";
+ <http://schema.org/url> "http://www.noi.bg/en/index.html ; http://www.en.nhif.bg/";
+ <http://purl.org/dc/terms/description> "The National Social Security Institute administers the mandatory insurance programmes for disability, old age and survivors' benefits, sickness and maternity, work injuries and occupational diseases, as well as collection, control and information services for all obligatory contributions. " .
+<http://example.org/nifo/publicservice/Bulgaria/HealthcareabroadI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Healthcare abroad I";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "National Health Insurance Fund, Ministry of Health";
+ <http://schema.org/url> "http://www.ezok.bg/ ";
+ <http://purl.org/dc/terms/description> "The European Health Insurance Card (EHIC) is used to claim health insurance entitlements. It is also for users who are temporarily outside Bulgaria (e.g. while on holiday or on a business trip) in EU states, the countries of the EEA or Switzerland. Bulgarian residents using an EHIC card when out of the country must make sure that their insurance is valid. The website gives instructions on how to request the card by filling in a template. " .
+<http://example.org/nifo/publicservice/Bulgaria/HealthcareabroadII> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Healthcare abroad II";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Health";
+ <http://schema.org/url> "http://www.mh.government.bg/ ";
+ <http://purl.org/dc/terms/description> "The website provides information for citizens which would like to be treated abroad." .
+<http://example.org/nifo/publicservice/Bulgaria/Childallowances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Child allowances";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Labour and Social Policy, National Employment Agency";
+ <http://schema.org/url> "http://www.az.government.bg/ ";
+ <http://purl.org/dc/terms/description> "The National Employment Agency provides those registered at the Labour Office Directorates with family benefits for children in accordance with the Family Assistance for Children Act. Online registration and information are available." .
+<http://example.org/nifo/publicservice/Bulgaria/Consumerprotection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Consumer protection";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Commission for Consumer Protection";
+ <http://schema.org/url> "http://www.kzp.bg/podavane-na-zhalba ";
+ <http://purl.org/dc/terms/description> "The portal provides information on consumer rights and a register of dangerous goods, and also allows for the online submission of complaints/signals." .
+<http://example.org/nifo/publicservice/Bulgaria/Consumerprotectioncrossborder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Consumer protection (cross-border)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "ECC-Net Bulgaria";
+ <http://schema.org/url> "http://www.ecc.bg/ ";
+ <http://purl.org/dc/terms/description> "The European Consumer Centre belongs to the European Consumer Centre Network-ECC Net, founded by the European Commission in 28 Member States in collaboration with National Governments. It informs consumers on their rights and assists them in their cross-border consumption issues. It promotes and supports out-of-court dispute resolutions more quickly and at a lower cost than the usual court claim procedures." .
+<http://example.org/nifo/publicservice/Bulgaria/Cybercrime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Cybercrime";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Interior";
+ <http://schema.org/url> "http://www.cybercrime.bg/ ";
+ <http://purl.org/dc/terms/description> "The website allows for reporting crimes on the Internet." .
+<http://example.org/nifo/publicservice/Bulgaria/Alternativedisputeresolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Alternative dispute resolution";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Economy; Comission for Consumer Protection and European Consumer Center - Bulgaria ";
+ <http://schema.org/url> "https://www.ecc.bg/en/ ";
+ <http://purl.org/dc/terms/description> "A list of all Alternative Dispute Resolution Bodies notified by Member States is available on the European Commission's Online Dispute Resolution Platform. The European Consumer Centre is a contact point for Bulgaria within the online dispute resolution contact points network and helps consumers to access the relevant competent alternative dispute resolution authority in another Member State in the event of cross-border dispute, with obligations arising from sales contracts or provision of services. " .
+<http://example.org/nifo/publicservice/Bulgaria/Patents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Patents";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Patent office of Republic of Bulgaria";
+ <http://schema.org/url> "http://www.bpo.bg/ ";
+ <http://purl.org/dc/terms/description> "The website gives information on multiple services regarding patents (only in Bulgarian). It provides sample templates and information for paid services." .
+<http://example.org/nifo/publicservice/Bulgaria/ElectronicSignatureCertificateforBusinesses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Electronic Signature Certificate for Businesses";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Communications Regulation Commission";
+ <http://schema.org/url> "http://www.crc.bg/ ";
+ <http://purl.org/dc/terms/description> "The website gives information on registered providers of certified services in Bulgaria, from whom electronic signature certificate can be requested." .
+<http://example.org/nifo/publicservice/Bulgaria/Registrationofanewcompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Registration of a new company";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Justice, Registry Agency";
+ <http://schema.org/url> "http://www.brra.bg/; http://www.registryagency.bg/ ";
+ <http://purl.org/dc/terms/description> "An online commercial register enables the establishment and re- organisation, restructuring and liquidation of a business. Applications in paper form still apply, especially for businesses that do not possess an eSignature certificate. An option to pay electronically is provided. It is necessary to own an electronic signature." .
+<http://example.org/nifo/publicservice/Bulgaria/Corporatetaxdeclarationnotification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Corporate tax: declaration, notification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Finance, National Revenue Agency";
+ <http://schema.org/url> "http://www.nap.bg/ ";
+ <http://purl.org/dc/terms/description> "Online information and forms can be downloaded, submitted and signed electronically, allowing for the online submission of corporate taxes." .
+<http://example.org/nifo/publicservice/Bulgaria/VATdeclarationnotification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "VAT: declaration, notification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Finance, National Revenue Agency";
+ <http://schema.org/url> "http://www.nap.bg/";
+ <http://purl.org/dc/terms/description> "Online information and forms can be downloaded, submitted and signed electronically, allowing for the online submission of VAT declarations." .
+<http://example.org/nifo/publicservice/Bulgaria/ElectronicPayments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Electronic Payments";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "National Revenue Agency";
+ <http://schema.org/url> "https://inetdec.nra.bg/";
+ <http://purl.org/dc/terms/description> "The website allows for electronic payments of different type of taxes." .
+<http://example.org/nifo/publicservice/Bulgaria/CustomsdeclarationseCustoms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Customs declarations (e-Customs)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Finance, National Customs Agency";
+ <http://schema.org/url> "https://customs.bg/wps/portal/ ";
+ <http://purl.org/dc/terms/description> "There are model forms to download, complete and submit." .
+<http://example.org/nifo/publicservice/Bulgaria/PublicprocurementeProcurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Public procurement / eProcurement";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Finance, Public Procurement Agency, Small Scale Public Procurement Electronic Market";
+ <http://schema.org/url> "http://www.aop.bg/; http://dv.parliament.bg/; http://minfin.bg/ ";
+ <http://purl.org/dc/terms/description> "Contracting authorities in Bulgaria are obliged to publish their tender notices in the Bulgarian State Gazette, as well as in the web-based Public Procurement Register (PPR)." .
+<http://example.org/nifo/publicservice/Bulgaria/Bulgarianlaw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Bulgarian law";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Netinfo; Point of Single Contact for Service Providers";
+ <http://schema.org/url> "http://lex.bg/ ; http://www.psc.egov.bg ";
+ <http://purl.org/dc/terms/description> "The website allows users to search through adopted laws, as well as provides useful information on different topics, such as businesses and consumers. The main task of Point of Single Contact (PSC) is to help entrepreneurs in the field of provision of services by facilitating the process of starting a business. Through PSC, the service providers can obtain all necessary information and complete electronically all administrative procedures required to start and exercise the activity of provision of services.The PSCs are accessible to all service providers whether established on national territory or on the territory of another Member State. Through the PSC the entrepreneurs in the field of provision of services will reduce significantly their time and costs for starting a business across Europe.The PSC Portal in Bulgaria is on the National e-government portal.The PSCs of all EU Member States are available through the Portal of the European Commission." .
+<http://example.org/nifo/publicservice/Bulgaria/Protectionofcompetition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Protection of competition";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Commission for Protection of Competition";
+ <http://schema.org/url> "https://www.cpc.bg/Default.aspx ";
+ <http://purl.org/dc/terms/description> "The Commission is empowered to enforce the Law on Protection of Competition, the Public Procurement Act and the Concessions Act. The CPC scope of activity covers all requests on ascertaining infringements of free market competition, direct enforcement of the provisions of Art. 81 and Art. 82 of the EC Treaty, cooperation with the European Commission and the other national competition authorities of the EC member states in conformity to EC Regulation No. 1/2003 and EC Regulation No. 139/2004, conducting sector analyses and competition advocacy. Under the rules and procedures, envisaged by the Public Procurement Act and the Concessions Act, the Commission examines the appeals on lawfulness of a decision, actions or lack of actions/omissions of the contracting authorities or concessioners in the public procurement or concession awarding procedure." .
+<http://example.org/nifo/publicservice/Bulgaria/Checkinganemploymentcontract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Checking an employment contract";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "All employers; Ministry of Labour and Social Policy; National Revenue Agency.";
+ <http://schema.org/url> "https://nap.bg/ ";
+ <http://purl.org/dc/terms/description> "Citizens with an electronic signature or personal identification code (provided by NRA) can the current status of their employment contracts online. " .
+<http://example.org/nifo/publicservice/Bulgaria/Workingabroad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Working abroad";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Labour and Social Policy";
+ <http://schema.org/url> "https://www.az.government.bg/pages/rabota-v-chuzhbina/ ";
+ <http://purl.org/dc/terms/description> "The website provides useful information for Bulgarian citizens looking for a job abroad." .
+<http://example.org/nifo/publicservice/Bulgaria/Socialcontributionsforemployees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Social contributions for employees";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, National Social Security Institute, National Revenue Agency";
+ <http://schema.org/url> "http://www.nap.bg/; http://www.nssi.bg/ ";
+ <http://purl.org/dc/terms/description> "Contributions by employers can be filed electronically through the National Revenue Agency web pages." .
+<http://example.org/nifo/publicservice/Bulgaria/GeneralLabourInspectoratesportal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "General Labour Inspectorate’s portal";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "General Labour Inspectorate Executive Agency";
+ <http://schema.org/url> "http://www.gli.government.bg/en/ ";
+ <http://purl.org/dc/terms/description> "The website of the Labour Inspectorate contains all necessary information related to the safety and health at work. It also allows users to report irregularities." .
+<http://example.org/nifo/publicservice/Bulgaria/REACHRegistrationEvaluationAuthorisationandRestrictionofChemicalsEURegulationno19072006Helpdesk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "REACH (Registration, Evaluation, Authorisation and Restriction of Chemicals, EU Regulation no 1907/2006) Helpdesk";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "National Institute for Public Health and the Environment, RIVM";
+ <http://schema.org/url> "http://www.moew.government.bg/";
+ <http://purl.org/dc/terms/description> "The website offers information, particularly for small and medium-scale enterprises. There is also a form for asking questions." .
+<http://example.org/nifo/publicservice/Bulgaria/Environmentrelatedpermitsinclreporting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Environment-related permits (incl. reporting)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Environment and Water";
+ <http://schema.org/url> "http://www.moew.government.bg/ ";
+ <http://purl.org/dc/terms/description> "Online information is available along with documents which can also be downloaded." .
+<http://example.org/nifo/publicservice/Bulgaria/Submissionofdatatostatisticaloffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Submission of data to statistical offices";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Bulgaria>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, National Statistical Institute";
+ <http://schema.org/url> "http://www.nsi.bg/";
+ <http://purl.org/dc/terms/description> "Businesses can download and submit online forms concerning their facilities, key indicators, salaries and other labour costs, among other activities. Furthermore, businesses can perform their annual reporting online." .

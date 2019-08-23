@@ -1,0 +1,521 @@
+<http://data.europa.eu/nifo/factsheet/Belgium> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Belgium>;
+ <http://purl.org/dc/terms/issued> "2019-07";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/BEL";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/dataset/DigitalGovernmentIndicatorsBelgium>, <http://example.org/nifo/legalframework/Belgium>, <http://example.org/nifo/person/AlexanderDeCroo>, <http://example.org/nifo/person/TheoFrancken>, <http://example.org/nifo/person/BenSmeets>, <http://example.org/nifo/person/FrankRobben>, <http://example.org/nifo/person/LiesbethHomans>, <http://example.org/nifo/person/AldaGreoli>, <http://example.org/nifo/person/BiancaDebaets>, <http://example.org/nifo/person/AndréFlahaut>, <http://example.org/nifo/person/OliverPaasch>, <http://example.org/nifo/person/BrunoHick>, <http://example.org/nifo/person/BarbaraVanDenHaute>, <http://example.org/nifo/person/HervéFeuillien>, <http://example.org/nifo/person/OliverSchneider>;
+ <http://dbpedia.org/ontology/populationTotal> "11 398 589 inhabitants (2018)";
+ <http://dbpedia.org/property/gdpNominal> "450 505 million euros (2018) ";
+ <http://dbpedia.org/property/gdpPppPerCapita> "117 (2017)";
+ <http://dbpedia.org/ontology/areaTotal> "30 688 km2";
+ <http://dbpedia.org/ontology/capital> "Brussels";
+ <http://purl.org/dc/terms/language> "Dutch, French and German ";
+ <http://dbpedia.org/ontology/currency> <http://publications.europa.eu/resource/authority/currency/Euro>;
+ <http://purl.org/dc/terms/source> <https://ec.europa.eu/eurostat/data/database>, <http://data.europa.eu/nifo/factsheet/undefined>, <https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=55490> .
+<http://example.org/nifo/dataset/DigitalGovernmentIndicatorsBelgium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataSet>;
+ <http://purl.org/dc/terms/title> "Digital Government Indicators";
+ <http://purl.org/linked-data/cube#structure> <http://example.org/nifo/structure/DigitalGovernmentIndicatorsBelgium>;
+ <http://purl.org/dc/terms/source> "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en" .
+<http://example.org/nifo/structure/DigitalGovernmentIndicatorsBelgium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition>;
+ <http://purl.org/linked-data/cube#component> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinBelgium>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinBelgium>;
+ <http://www.w3.org/2000/01/rdf-schema#label> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinBelgium>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinBelgium> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinBelgium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinBelgium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/legalframework/Belgium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://europam.eu/data/mechanisms/FOI/FOI%252520Laws/Belgium/Belgium_Law%252520on%252520Access%252520to%252520Admin%252520Documents_1994_amended%2525202010.pdf>, <http://www.uvcw.be/articles/3,14,2,0,252.htm>, <http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&table_name=loi&cn=2007030736>, <http://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?sql=(text%252520contains%252520(''))&language=fr&rech=1&tri=dd%252520AS%252520RANK&value=&table_name=loi&F=&cn=2017071809&caller=image_a1&fromtab=loi&la=F>, <http://www.ejustice.just.fgov.be/cgi_loi/loi_a.pl?language=fr&caller=list&cn=2001070943&la=f&fromtab=loi&sql=dt='loi'&tri=dd+as+rank&rech=1&numero=1>, <http://www.ejustice.just.fgov.be/cgi_loi/loi_a.pl?language=fr&caller=list&cn=2000102040&la=f&fromtab=loi&sql=dt='loi'&tri=dd+as+rank&rech=1&numero=1>, <https://eur-lex.europa.eu/eli/reg/2016/679/oj>, <http://www.legislationline.org/download/action/download/id/2638/file/Belgium_Protection_Privacy_Processing_Data_Act_1992upd2008.pdf>, <http://www.droit-technologie.org/upload/legislation/doc/212-1.pdf>, <http://www.uvcw.be/impressions/toPdf.cfm?urlToPdf=/articles/0,0,0,0,1957.htm> .
+<http://europam.eu/data/mechanisms/FOI/FOI%252520Laws/Belgium/Belgium_Law%252520on%252520Access%252520to%252520Admin%252520Documents_1994_amended%2525202010.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://europam.eu/data/mechanisms/FOI/FOI%20Laws/Belgium/Belgium_Law%20on%20Access%20to%20Admin%20Documents_1994_amended%202010.pdf> <http://data.europa.eu/eli/ontology#title> "Article 32 of the Belgian Constitution" .
+<http://www.uvcw.be/articles/3,14,2,0,252.htm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "1997 Law" .
+<http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&table_name=loi&cn=2007030736> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "law" .
+<http://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?sql=(text%252520contains%252520(''))&language=fr&rech=1&tri=dd%252520AS%252520RANK&value=&table_name=loi&F=&cn=2017071809&caller=image_a1&fromtab=loi&la=F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?sql=(text%20contains%20(''))&language=fr&rech=1&tri=dd%20AS%20RANK&value=&table_name=loi&F=&cn=2017071809&caller=image_a1&fromtab=loi&la=F> <http://data.europa.eu/eli/ontology#title> "Belgian law on electronic identification" .
+<http://www.ejustice.just.fgov.be/cgi_loi/loi_a.pl?language=fr&caller=list&cn=2001070943&la=f&fromtab=loi&sql=dt='loi'&tri=dd+as+rank&rech=1&numero=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "eSignature Act" .
+<http://www.ejustice.just.fgov.be/cgi_loi/loi_a.pl?language=fr&caller=list&cn=2000102040&la=f&fromtab=loi&sql=dt='loi'&tri=dd+as+rank&rech=1&numero=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "This law" .
+<https://eur-lex.europa.eu/eli/reg/2016/679/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "General Data Protection Regulation (EU) 2016/679" .
+<http://www.legislationline.org/download/action/download/id/2638/file/Belgium_Protection_Privacy_Processing_Data_Act_1992upd2008.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Privacy Law" .
+<http://www.droit-technologie.org/upload/legislation/doc/212-1.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "specific law containing provisions relating to spamming" .
+<http://www.uvcw.be/impressions/toPdf.cfm?urlToPdf=/articles/0,0,0,0,1957.htm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "This law" .
+<http://example.org/nifo/person/AlexanderDeCroo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Alexander De Croo";
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DeputyPrimeMinisterandMinisterforDevelopmentCooperation,DigitalAgenda,PostandTelecom>, <http://example.org/nifo/post/Post-StateSecretaryforAsylumandMigration,inchargeofAdministrativeSimplification,linkedtotheMinisterforSafetyandInternalAffairs>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4485> .
+<http://example.org/nifo/post/Post-DeputyPrimeMinisterandMinisterforDevelopmentCooperation,DigitalAgenda,PostandTelecom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DeputyPrimeMinisterandMinisterforDevelopmentCooperation,DigitalAgenda,PostandTelecom> .
+<http://example.org/nifo/role/Role-DeputyPrimeMinisterandMinisterforDevelopmentCooperation,DigitalAgenda,PostandTelecom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Deputy Prime Minister and Minister for Development Cooperation, Digital Agenda, Post and Telecom" .
+<http://example.org/ContactPoint/4485> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "Tel.:+32 2 792 99 00";
+ <http://schema.org/url> "http://www.alexanderdecroo.be/" .
+<http://example.org/nifo/person/TheoFrancken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Theo Francken";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/6694>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DirectorGeneralDigitalTransformationOffice> .
+<http://example.org/nifo/post/Post-StateSecretaryforAsylumandMigration,inchargeofAdministrativeSimplification,linkedtotheMinisterforSafetyandInternalAffairs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-StateSecretaryforAsylumandMigration,inchargeofAdministrativeSimplification,linkedtotheMinisterforSafetyandInternalAffairs> .
+<http://example.org/nifo/role/Role-StateSecretaryforAsylumandMigration,inchargeofAdministrativeSimplification,linkedtotheMinisterforSafetyandInternalAffairs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "State Secretary for Asylum and Migration, in charge of Administrative Simplification, linked to the Minister for Safety and Internal Affairs" .
+<http://example.org/ContactPoint/6694> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "cab.dvz@ibz.fgov.be";
+ <http://schema.org/url> "http://www.theofrancken.be/" .
+<http://example.org/nifo/person/BenSmeets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Ben Smeets ";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/133>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-GeneralManageroftheCrossroadsBankforSocialSecurity(CBSS)> .
+<http://example.org/nifo/post/Post-DirectorGeneralDigitalTransformationOffice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DirectorGeneralDigitalTransformationOffice> .
+<http://example.org/nifo/role/Role-DirectorGeneralDigitalTransformationOffice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Director General Digital Transformation Office " .
+<http://example.org/ContactPoint/133> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+ 32 2 740 75 00";
+ <http://schema.org/email> "secretariat.dto@bosa.fgov.be ";
+ <http://schema.org/url> "https://dt.bosa.be/" .
+<http://example.org/nifo/person/FrankRobben> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Frank Robben";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/7887>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DeputyPrimeMinisteroftheFlemishGovernmentandFlemishMinisterforLocalandProvincialGovernment,UrbanPolicy,AdministrativeAffairs,CivicIntegration,Housing,SocialEconomy,PovertyandEqualOpportunities> .
+<http://example.org/nifo/post/Post-GeneralManageroftheCrossroadsBankforSocialSecurity(CBSS)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-GeneralManageroftheCrossroadsBankforSocialSecurity(CBSS)> .
+<http://example.org/nifo/role/Role-GeneralManageroftheCrossroadsBankforSocialSecurity(CBSS)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "General Manager of the Crossroads Bank for Social Security (CBSS)" .
+<http://example.org/ContactPoint/7887> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+ 32 2 741 84 02";
+ <http://schema.org/email> "Management@ksz-bcss.fgov.be";
+ <http://schema.org/url> "http://www.ksz-bcss.fgov.be/fr/bcss/static/content/websites/belgium/contact.html" .
+<http://example.org/nifo/person/LiesbethHomans> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Liesbeth Homans";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2239>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Vice-President,MinisterofCultureandChildhood> .
+<http://example.org/nifo/post/Post-DeputyPrimeMinisteroftheFlemishGovernmentandFlemishMinisterforLocalandProvincialGovernment,UrbanPolicy,AdministrativeAffairs,CivicIntegration,Housing,SocialEconomy,PovertyandEqualOpportunities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DeputyPrimeMinisteroftheFlemishGovernmentandFlemishMinisterforLocalandProvincialGovernment,UrbanPolicy,AdministrativeAffairs,CivicIntegration,Housing,SocialEconomy,PovertyandEqualOpportunities> .
+<http://example.org/nifo/role/Role-DeputyPrimeMinisteroftheFlemishGovernmentandFlemishMinisterforLocalandProvincialGovernment,UrbanPolicy,AdministrativeAffairs,CivicIntegration,Housing,SocialEconomy,PovertyandEqualOpportunities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Deputy Prime Minister of the Flemish Government and Flemish Minister for Local and Provincial Government, Urban Policy, Administrative Affairs, Civic Integration, Housing, Social Economy, Poverty and Equal Opportunities " .
+<http://example.org/ContactPoint/2239> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+32 2 552 69 00";
+ <http://schema.org/faxNumber> "+32 2 552 69 01 ";
+ <http://schema.org/url> "http://www.liesbethhomans.be/" .
+<http://example.org/nifo/person/AldaGreoli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Alda Greoli";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8382>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-StateSecretaryoftheBrussels-CapitalRegion,responsibleforDevelopmentCooperation,RoadSafety,RegionalandCommunityInformaticsandDigitalTransition,EqualOpportunitiesandAnimalWelfare> .
+<http://example.org/nifo/post/Post-Vice-President,MinisterofCultureandChildhood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Vice-President,MinisterofCultureandChildhood> .
+<http://example.org/nifo/role/Role-Vice-President,MinisterofCultureandChildhood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Vice-President, Minister of Culture and Childhood" .
+<http://example.org/ContactPoint/8382> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "02-801.79.11";
+ <http://schema.org/email> "alda.greoli@gov.wallonie.be ";
+ <http://schema.org/url> "http://greoli.cfwb.be" .
+<http://example.org/nifo/person/BiancaDebaets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Bianca Debaets";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/1420>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisteroftheFrenchCommunityforBudget,PublicServiceandAdministrativeSimplification> .
+<http://example.org/nifo/post/Post-StateSecretaryoftheBrussels-CapitalRegion,responsibleforDevelopmentCooperation,RoadSafety,RegionalandCommunityInformaticsandDigitalTransition,EqualOpportunitiesandAnimalWelfare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-StateSecretaryoftheBrussels-CapitalRegion,responsibleforDevelopmentCooperation,RoadSafety,RegionalandCommunityInformaticsandDigitalTransition,EqualOpportunitiesandAnimalWelfare> .
+<http://example.org/nifo/role/Role-StateSecretaryoftheBrussels-CapitalRegion,responsibleforDevelopmentCooperation,RoadSafety,RegionalandCommunityInformaticsandDigitalTransition,EqualOpportunitiesandAnimalWelfare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "State Secretary of the Brussels-Capital Region, responsible for Development Cooperation, Road Safety, Regional and Community Informatics and Digital Transition, Equal Opportunities and Animal Welfare" .
+<http://example.org/ContactPoint/1420> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+32 2 517 13 33";
+ <http://schema.org/faxNumber> "+32 2 511 50 83";
+ <http://schema.org/url> "https://www.biancadebaets.be/en" .
+<http://example.org/nifo/person/AndréFlahaut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "André Flahaut";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/7924>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Minister-President;MinisteroftheGerman-speakingCommunity(Ministerpr%C3%A4sidentderDeutschsprachigenGemeinschaftBelgiens)> .
+<http://example.org/nifo/post/Post-MinisteroftheFrenchCommunityforBudget,PublicServiceandAdministrativeSimplification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisteroftheFrenchCommunityforBudget,PublicServiceandAdministrativeSimplification> .
+<http://example.org/nifo/role/Role-MinisteroftheFrenchCommunityforBudget,PublicServiceandAdministrativeSimplification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Minister of the French Community for Budget, Public Service and Administrative Simplification" .
+<http://example.org/ContactPoint/7924> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+ 32 2 801 75 11";
+ <http://schema.org/faxNumber> "+32 2 801 75 17";
+ <http://schema.org/url> "http://flahaut.cfwb.be/" .
+<http://example.org/nifo/person/OliverPaasch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Oliver Paasch";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8571>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-HeadofDepartmentofInformatics> .
+<http://example.org/nifo/post/Post-Minister-President;MinisteroftheGerman-speakingCommunity(MinisterpräsidentderDeutschsprachigenGemeinschaftBelgiens)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Minister-President;MinisteroftheGerman-speakingCommunity(Ministerpr%C3%A4sidentderDeutschsprachigenGemeinschaftBelgiens)> .
+<http://example.org/nifo/role/Role-Minister-President;MinisteroftheGerman-speakingCommunity(MinisterpräsidentderDeutschsprachigenGemeinschaftBelgiens)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Minister-President; Minister of the German-speaking Community (Ministerpräsident der Deutschsprachigen Gemeinschaft Belgiens)" .
+<http://example.org/ContactPoint/8571> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "serge.heinen@dgov.be";
+ <http://schema.org/url> "http://oliver-paasch.eu/home/" .
+<http://example.org/nifo/person/BrunoHick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Bruno Hick";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/933>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Administrateur-Generaal,FlandersInformationAgency> .
+<http://example.org/nifo/post/Post-HeadofDepartmentofInformatics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-HeadofDepartmentofInformatics> .
+<http://example.org/nifo/role/Role-HeadofDepartmentofInformatics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Head of Department of Informatics" .
+<http://example.org/ContactPoint/933> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+32 8 759 63 09 ";
+ <http://schema.org/faxNumber> "+32 8 759 64 11";
+ <http://schema.org/url> "http://www.dglive.be/PortalData/2/Resources/downloads/divers/Organigramm_MDG.pdf" .
+<http://example.org/nifo/person/BarbaraVanDenHaute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Barbara Van Den Haute";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/6991>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Director-GeneraloftheBrusselsRegionalInformaticsCentre(BRIC)> .
+<http://example.org/nifo/post/Post-Administrateur-Generaal,FlandersInformationAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Administrateur-Generaal,FlandersInformationAgency> .
+<http://example.org/nifo/role/Role-Administrateur-Generaal,FlandersInformationAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Administrateur-Generaal, Flanders Information Agency" .
+<http://example.org/ContactPoint/6991> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+32 2 553 72 05";
+ <http://schema.org/email> "barbara.vandenhaute@kb.vlaanderen.be";
+ <http://schema.org/url> "https://overheid.vlaanderen.be/informatie-vlaanderen" .
+<http://example.org/nifo/person/HervéFeuillien> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Hervé Feuillien";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/9069>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-AssistantDirectorGeneralTransitionTowardsDigital> .
+<http://example.org/nifo/post/Post-Director-GeneraloftheBrusselsRegionalInformaticsCentre(BRIC)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Director-GeneraloftheBrusselsRegionalInformaticsCentre(BRIC)> .
+<http://example.org/nifo/role/Role-Director-GeneraloftheBrusselsRegionalInformaticsCentre(BRIC)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Director-General of the Brussels Regional Informatics Centre (BRIC)" .
+<http://example.org/ContactPoint/9069> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+ 32 2 282 47 70";
+ <http://schema.org/email> "information@cirb.irisnet.be";
+ <http://schema.org/url> "http://bric.brussels/en/about-the-bric/structure" .
+<http://example.org/nifo/person/OliverSchneider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Oliver Schneider";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/5406> .
+<http://example.org/nifo/post/Post-AssistantDirectorGeneralTransitionTowardsDigital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-AssistantDirectorGeneralTransitionTowardsDigital> .
+<http://example.org/nifo/role/Role-AssistantDirectorGeneralTransitionTowardsDigital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Assistant Director General Transition Towards Digital" .
+<http://example.org/ContactPoint/5406> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/faxNumber> "+32 2 413 35 10";
+ <http://schema.org/email> "oliver.schneider@cfwb.be ";
+ <http://schema.org/url> "http://www.federation-wallonie-bruxelles.be/" .
+<http://example.org/nifo/publicservice/Belgium/Passport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Passport";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Department Foreign Affairs";
+ <http://schema.org/url> "http://diplomatie.belgium.be/en/ ";
+ <http://purl.org/dc/terms/description> "Information only. Passport applications are handled by local authorities (communes)." .
+<http://example.org/nifo/publicservice/Belgium/Declaringyourtripabroad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Declaring your trip abroad";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Flanders administration";
+ <http://schema.org/url> "https://travellersonline.diplomatie.be ";
+ <http://purl.org/dc/terms/description> "The service allows travellers to notify officials before they travel, so that in the event of an emergency they can be traced." .
+<http://example.org/nifo/publicservice/Belgium/Declaringaroadincident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Declaring a road incident ";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal)";
+ <http://schema.org/url> "https://meldpuntwegen.be/ ";
+ <http://purl.org/dc/terms/description> "The service allows travellers in Flanders to road traffic incidents and accidents. " .
+<http://example.org/nifo/publicservice/Belgium/Jobsearchservices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Job search services";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Regional Government, Regional Employment Offices";
+ <http://schema.org/url> "http://www.leforem.be (Wallonia), http://www.vdab.be (Flanders), http://www.actiris.be (Brussels-Capital Region)";
+ <http://purl.org/dc/terms/description> "Websites of the Regional Employment Offices allow users to post CVs online, browse and search job ads, and obtain information on companies and on professional training programmes. All websites provide a link to a specific application, the ‘Front Office Employment’, (www.autravail.be in FR, www.aandeslag.be in NL), the support jobseekers are entitled to in order to find a job." .
+<http://example.org/nifo/publicservice/Belgium/Careermanagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Career management";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Sigedis";
+ <http://schema.org/url> "http://mycareer.be/ ";
+ <http://purl.org/dc/terms/description> "The page provides users with an overview of their present and previously held employment in the form of a timeline. Users use their eIDs to login to the page. " .
+<http://example.org/nifo/publicservice/Belgium/Jobsearchservicesabroad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Job search services abroad";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "The international service of Actiris";
+ <http://schema.org/url> "http://www.actirisinternational.be/Accueil.aspx ";
+ <http://purl.org/dc/terms/description> "Actiris is the Public Employment Service acting within the Brussels-Capital Region. To meet the increasing demand of jobseekers willing to gain professional experience abroad, Actiris created the department Actiris International. Actiris International’s main mission is the promotion of international mobility from and towards the Brussels Region. " .
+<http://example.org/nifo/publicservice/Belgium/Socialsecurityabroad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Social security abroad";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal)";
+ <http://schema.org/url> "https://www.socialsecurity.be/CMS/nl/leaving_belgium/index.html ";
+ <http://purl.org/dc/terms/description> "The site provides information to Belgian citizens planning to live, study or work abroad. " .
+<http://example.org/nifo/publicservice/Belgium/Pensions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Pensions";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Digital Transformation Office";
+ <http://schema.org/url> "https://iamapps.belgium.be/sma/generalinfo?redirectUrl=/sma&language=en ";
+ <http://purl.org/dc/terms/description> "The application allows citizens to consult their pension files online. " .
+<http://example.org/nifo/publicservice/Belgium/Applicationforpensions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Application for pensions";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal)";
+ <http://schema.org/url> "https://www.socialsecurity.be/citizen/nl/static/applics/penonline/index.htm ";
+ <http://purl.org/dc/terms/description> "The page allows its users to apply online for their pension or income guarantee for the elderly (IGO)." .
+<http://example.org/nifo/publicservice/Belgium/Incometaxesdeclarationnotificationofassessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Income taxes: declaration, notification of assessment";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Department Finance";
+ <http://schema.org/url> "http://www.taxonweb.be ";
+ <http://purl.org/dc/terms/description> "Tax-on-web allows Belgian residents to file their tax returns online, by enabling taxpayers to calculate the amount of their income tax, validate and save their data, submit their returns and receive receipts from the Tax Administration." .
+<http://example.org/nifo/publicservice/Belgium/UnemploymentBenefits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Unemployment Benefits";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), National Office for Employment";
+ <http://schema.org/url> "http://www.onem.be ";
+ <http://purl.org/dc/terms/description> "Information on unemployment benefits. Enrolment must take place in person with the organisations in charge of managing unemployment benefits payments: either the public body CAPAC-HVW (Auxiliary Fund for the Payment of Unemployment Benefits), or the accredited trade-unions (CSC-ACV, FGTB-ABVV and CGSLB-ACLVB)." .
+<http://example.org/nifo/publicservice/Belgium/Personalunemploymentfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Personal unemployment file";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), National Office for Employment";
+ <http://schema.org/url> "https://www.socialsecurity.be/nl/citizen/static/applics/dossier_Chomage/index.htm ";
+ <http://purl.org/dc/terms/description> "The platform allows users to consult their unemployment files online. " .
+<http://example.org/nifo/publicservice/Belgium/BreakWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Break@Work";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal)";
+ <http://schema.org/url> "https://www.socialsecurity.be/citizen/nl/static/applics/breakatwork/index.htm ";
+ <http://purl.org/dc/terms/description> "The page allows workers to check how many days of holidays they have left. " .
+<http://example.org/nifo/publicservice/Belgium/StudentWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Student@Work";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal)";
+ <http://schema.org/url> "https://www.mysocialsecurity.be/student/en/index.html ";
+ <http://purl.org/dc/terms/description> "The page allows students to check how many days of work they can still take without being penalised. " .
+<http://example.org/nifo/publicservice/Belgium/HorecaWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Horeca@Work";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal)";
+ <http://schema.org/url> "https://www.socialsecurity.be/citizen/nl/static/applics/horecaatwork/index.htm ";
+ <http://purl.org/dc/terms/description> "The page allows occasional employees in the hospitality industry to check how many days he can use an advantageous calculation of social security contributions." .
+<http://example.org/nifo/publicservice/Belgium/Careerinterruption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Career interruption ";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal)";
+ <http://schema.org/url> "https://www.socialsecurity.be/citizen/nl/static/applics/elo/index.htm ";
+ <http://purl.org/dc/terms/description> "The page allows workers to calculate their monthly amount of a career break or the available credit for untaken days. " .
+<http://example.org/nifo/publicservice/Belgium/Workaccidentcertificate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Work accident certificate ";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Federal agency for occupational risks";
+ <http://schema.org/url> "http://fedris.be/fr/redirect-301 ";
+ <http://purl.org/dc/terms/description> "The page allows workers to apply for a certificate of an accident at work. " .
+<http://example.org/nifo/publicservice/Belgium/Ecoscore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Eco-score";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ecoscore";
+ <http://schema.org/url> "http://ecoscore.be/nl/calculator ";
+ <http://purl.org/dc/terms/description> "The service allows car users in Belgium to check the eco-score of their vehicle. " .
+<http://example.org/nifo/publicservice/Belgium/DrivingLicense> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Driving License";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Department Mobility and Transport";
+ <http://schema.org/url> "http://www.belgium.be/fr/mobilite/permis_de_conduire/ ";
+ <http://purl.org/dc/terms/description> "Information only. Driving licence applications and renewals are handled by local authorities." .
+<http://example.org/nifo/publicservice/Belgium/Carregistrationnewusedimportedcars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Car registration (new, used, imported cars)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Department Mobility and Transport, Vehicles Registration Directorate";
+ <http://schema.org/url> "http://www.belgium.be/fr/mobilite/vehicules/immatriculation/ ";
+ <http://purl.org/dc/terms/description> "The service has been fully integrated through the WebDIV application that allows insurance companies and car dealers to register cars online." .
+<http://example.org/nifo/publicservice/Belgium/Checkingstatusofthecaronline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Checking status of the car online";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Department Mobility and Transport, Vehicles Registration Directorate";
+ <http://schema.org/url> "http://www.mobilit.fgov.be:7082/";
+ <http://purl.org/dc/terms/description> "The service allows users to check the status of their request for a registration, a number plate or a chassis number. " .
+<http://example.org/nifo/publicservice/Belgium/Announcementofmovingchangeofaddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Announcement of moving (change of address)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Municipal (Brussels Region)";
+ <http://schema.org/url> "https://irisbox.irisnet.be ";
+ <http://purl.org/dc/terms/description> "On-Line delivery of several certificates including criminal records." .
+<http://example.org/nifo/publicservice/Belgium/Checkingpersonalfilesinthenationalregister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Checking personal files in the national register";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal) Directorate General Institutions and Population ";
+ <http://schema.org/url> "https://www.ibz.rrn.fgov.be/nl/rijksregister/mijn-dossier ";
+ <http://purl.org/dc/terms/description> "The service allows citizens to check their information available in the national register and request a change of address, etc. " .
+<http://example.org/nifo/publicservice/Belgium/Certificatesbirthmarriagerequestanddelivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Certificates (birth, marriage): request and delivery";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Municipal (Brussels Region)";
+ <http://schema.org/url> "https://irisbox.irisnet.be/ ", "https://irisbox.irisnet.be ";
+ <http://purl.org/dc/terms/description> "On-Line delivery of several certificates including birth, death and marriage certificate, family composition and others.", "On-Line delivery of several certificates among which birth, death and marriage certificate, family composition and many others" .
+<http://example.org/nifo/publicservice/Belgium/CriminalRecordCertificate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Criminal Record Certificate";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Municipal (Brussels Region)";
+ <http://schema.org/url> "https://irisbox.irisnet.be/ ";
+ <http://purl.org/dc/terms/description> "On-Line delivery of several certificates among which criminal records." .
+<http://example.org/nifo/publicservice/Belgium/Declarationtothepoliceegincaseoftheft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Declaration to the police (e.g. in case of theft)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal)";
+ <http://schema.org/url> "https://policeonweb.belgium.be ";
+ <http://purl.org/dc/terms/description> "Police-on-web is a joint initiative of police and Fedict under leadership of the responsible ministers. Police-on-web allows citizens to pursue several types of claims/statements to the police and to register an alarm system by which it increases the availability of the police’s services. The list of statements is available online and is subject to regular additions." .
+<http://example.org/nifo/publicservice/Belgium/MyRent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "MyRent";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Department of Finance";
+ <http://schema.org/url> "https://financien.belgium.be/nl/E-services/MyRent ";
+ <http://purl.org/dc/terms/description> "The page allows users to declare properties being rented and submit signed contracts via the webpage. It also allows for commercial or garage rentals. " .
+<http://example.org/nifo/publicservice/Belgium/Enrolmentinhighereducationuniversity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Enrolment in higher education/university";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Department Foreign Affairs";
+ <http://schema.org/url> "http://diplomatie.belgium.be/en/ ";
+ <http://purl.org/dc/terms/description> "Information only. Passport applications are handled by local authorities (communes)." .
+<http://example.org/nifo/publicservice/Belgium/Publiclibrariesavailabilityofcataloguessearchtools> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Public libraries (availability of catalogues, search tools)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Community/Regional Government";
+ <http://schema.org/url> "http://www.bib.belgium.be (Federal Department Libraries)";
+ <http://purl.org/dc/terms/description> "Information and online catalogues for all three Communities' libraries. A common online catalogue of the Libraries of the Federal Department Libraries is available at http://www.bib.belgium.be." .
+<http://example.org/nifo/publicservice/Belgium/Studentgrants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Student grants";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Community/Regional Government: Government of Flanders, Government of the French Community, Government of the German-speaking Community";
+ <http://schema.org/url> "http://www.ostbelgienlive.be/ (German-speaking Community)";
+ <http://purl.org/dc/terms/description> "The scholarships website of the Flanders Region/Community offers information and downloadable forms, while the other websites provide information only." .
+<http://example.org/nifo/publicservice/Belgium/Informationandassistancetoresearchers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Information and assistance to researchers";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "EURAXESS Belgium";
+ <http://schema.org/url> "https://www.euraxess.be/belgium ";
+ <http://purl.org/dc/terms/description> "EURAXESS Belgium provides information and assistance to mobile researchers – by means of the web portal and with the support of our national EURAXESS Service Centres. The portal contains practical information concerning professional and daily life, as well as information on job and funding opportunities. " .
+<http://example.org/nifo/publicservice/Belgium/Healthrelatedservicesinteractiveadviceontheavailabilityofservicesindifferenthospitalsappointmentsforhospitals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Health related services (interactive advice on the availability of services in different hospitals; appointments for hospitals)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal Department Health, Food Security and Environment) and Regional Government";
+ <http://schema.org/url> "http://www.belgium.be/fr/sante/index.jsp ";
+ <http://purl.org/dc/terms/description> "The federal portal ‘Belgium.be’ provides general healthcare information online, as well as Internet links to the websites of hospitals." .
+<http://example.org/nifo/publicservice/Belgium/Medicalcostsreimbursementordirectsettlement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Medical costs (reimbursement or direct settlement)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Department Social Security, National Institute of Medical and Invalidity Insurance (RIZIV-INAMI)";
+ <http://schema.org/url> "http://inami.fgov.be ";
+ <http://purl.org/dc/terms/description> "The website of the National Institute of Medical and Invalidity Insurance (RIZIV-INAMI) provides information on the reimbursement of medical costs. Belgium introduced a smart social insurance card (SIS card) that enables direct settlement of certain medical costs, while other costs are reimbursed through mandatory/complementary private social insurances (relevant websites). " .
+<http://example.org/nifo/publicservice/Belgium/MyeBox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "My eBox";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Social Security";
+ <http://schema.org/url> "https://www.socialsecurity.be/citizen/nl/static/infos/ebox/transit.htm ";
+ <http://purl.org/dc/terms/description> "The service allows citizens to receive any required official documents from their social security institutions." .
+<http://example.org/nifo/publicservice/Belgium/MyHealthRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "My Health Record";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal)";
+ <http://schema.org/url> "https://www.mijngezondheid.belgie.be/#/ ";
+ <http://purl.org/dc/terms/description> "Allows registered patients to check various pieces of information related to their health." .
+<http://example.org/nifo/publicservice/Belgium/Childallowances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Child allowances";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Department Social Security, National Office for Family Allowances for Employed Workers (ONAFTS-RKW)";
+ <http://schema.org/url> "http://www.rkw.be; https://www.groeipakket.be/ ";
+ <http://purl.org/dc/terms/description> "This RKW service is fully automated in Belgium. Groeipakket provides automatic financial support for each child living in Flanders from 1 January 2019. It includes family allowances (the former child benefit) and other customised financial allowances for each child." .
+<http://example.org/nifo/publicservice/Belgium/MyFamifed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "MyFamifed";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), FAMIFED";
+ <http://schema.org/url> "https://bruxelles.famifed.be/nl/nieuws/myfamifed-geeft-je-toegang-tot-je-kinderbijslagdossier ";
+ <http://purl.org/dc/terms/description> "This service allows parents to consult and manage their child benefits files online. " .
+<http://example.org/nifo/publicservice/Belgium/ConsumerprotectionBelmed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Consumer protection: Belmed";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "FPS Economy, S.M.E.s, Self-employed and Energy";
+ <http://schema.org/url> "http://economie.fgov.be/en/entreprises/dispute_resolution/#.WNGh-lUrK00 ";
+ <http://purl.org/dc/terms/description> "Belmed is an online Mediation service that aids to solve problems quickly and at a lower cost. The sectors that are covered are the following: energy, travel, financial services, second-hand cars, furniture, and building sector. " .
+<http://example.org/nifo/publicservice/Belgium/ConsumerprotectionSafeonweb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Consumer protection: Safeonweb";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Belgian Federal Government";
+ <http://schema.org/url> "https://www.safeonweb.be/ ";
+ <http://purl.org/dc/terms/description> "Safeonweb.be aims to quickly and effectively inform Belgian citizens in computer security and inform them about the latest and most important digital threats and Internet security." .
+<http://example.org/nifo/publicservice/Belgium/Registrationofanewcompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Registration of a new company";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Department Economy, SMEs, Self-employed and Energy, Crossroads Bank for Enterprises";
+ <http://schema.org/url> "https://economie.fgov.be/fr/themes/entreprises/creer-une-entreprise/les-demarches-pour-creer-une ";
+ <http://purl.org/dc/terms/description> "Since June 2006, a company can be created within three working days (instead of the original 67 days), thanks to an electronic registration desk through which the data required for the company registration can be electronically exchanged." .
+<http://example.org/nifo/publicservice/Belgium/Informationportalforbusinesses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Information portal for businesses";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Department Economy, SMEs, Self-employed and Energy, Crossroads Bank for Enterprises";
+ <http://schema.org/url> "https://www.1890.be ";
+ <http://purl.org/dc/terms/description> "This newly launched information portal aims to help guide businesses through various stages of their lifecycles. " .
+<http://example.org/nifo/publicservice/Belgium/Corporatetaxdeclarationnotification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Corporate tax: declaration, notification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Department of Finance";
+ <http://schema.org/url> "http://finance.belgium.be/en/ ";
+ <http://purl.org/dc/terms/description> "Corporate income tax declarations can be submitted online via the application VENSOC, now Biztax, using an eID card or a digital certificate. " .
+<http://example.org/nifo/publicservice/Belgium/CustomsdeclarationseCustoms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Customs declarations (eCustoms)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Department of Finance, Customs and Excise Administration";
+ <http://schema.org/url> "http://plda.fgov.be ";
+ <http://purl.org/dc/terms/description> "The application 'Paperless Customs and Excise' (PDLA) has been operational since 4 February 2008. PDLA allows for the electronic introduction and processing of customs and excise declarations. The electronic filing of customs' declarations became mandatory in July 2009. The Customs and Excise Administration developed a web-based application called WEB - N.C.T.S. for managing transit operations, based on the EU's New Computerised Transit System (NCTS)." .
+<http://example.org/nifo/publicservice/Belgium/VATdeclarationnotification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "VAT: declaration, notification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Department of Finance";
+ <http://schema.org/url> "http://finance.belgium.be/en/ ";
+ <http://purl.org/dc/terms/description> "Apart from the Federal Government official website, two other websites allow online submission of VAT. 'InterVAT' enables electronic submission of VAT declarations, and 'EdiVAT' allows submission based on the EDI (Electronic Data Interchange)." .
+<http://example.org/nifo/publicservice/Belgium/PublicProcurementeProcurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Public Procurement / eProcurement";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal eProcurement Service within the Federal Department Staff and Organisation, Directorate of the Official Journal (Belgian Monitor), Bulletin of Adjudications (BDA)";
+ <http://schema.org/url> "http://www.publicprocurement.be/portal/page/portal/pubproc";
+ <http://purl.org/dc/terms/description> "The Belgian public procurement portal brings together links to: (1) the eNotification portal; (2) the eTendering platform; and (3) the eCatalogue platform. " .
+<http://example.org/nifo/publicservice/Belgium/PublicProcurementeTendering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Public Procurement / eTendering";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Service Public Federal Personnel et Organisation (SPF P&O)";
+ <http://schema.org/url> "https://eten.publicprocurement.be/etendering/home.do ";
+ <http://purl.org/dc/terms/description> "The eProcurement platform offers contracting authorities (federal, regional and local) and companies quick and easy access to different applications that allow public procurements take place electronically. With eTendering contracting authorities can electronically open tenders/requests for participation, electronically generate the report of opening and make it available. Companies can electronically submit their tenders/requests to participate and digitally sign them. " .
+<http://example.org/nifo/publicservice/Belgium/Legislationinregardtoworkingconditionsremunerationandemployment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Legislation in regard to working conditions, remuneration and employment";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Federal Public Service (SPF) Employment, Labour and Social Dialogue ";
+ <http://schema.org/url> "http://be.brussels/links-fr/economie-emploi/emploi/spf-emploi-travail-et-concertation-sociale-reglementation-du-travail-nl-fr-en-1 ";
+ <http://purl.org/dc/terms/description> "An employer who employs workers in Belgium is required to respect working conditions, remuneration and employment laid down by the legal provisions. You will find all legal provisions work in Belgium on the website of the Federal Public Service (FPS) Employment, Labour and Social Dialogue." .
+<http://example.org/nifo/publicservice/Belgium/Socialcontributionsforemployees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Social contributions for employees";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Department Social Security";
+ <http://schema.org/url> "https://www.socialsecurity.be ";
+ <http://purl.org/dc/terms/description> "Belgian companies can carry out 42 electronic transactions online, via the Social Security portal. Since January 2003, employers must submit their quarterly declaration of wages and working times electronically to the National Office for Social Security." .
+<http://example.org/nifo/publicservice/Belgium/Training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Training";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Bruxelles Economie et Emploi, Impulse, Brussels, Actiris";
+ <http://schema.org/url> "http://be.brussels/enseignement-formation/formation-continue/trouver-une-formation ";
+ <http://purl.org/dc/terms/description> "A wide range of support measures and subsidies to companies in the field of training. Personnel training organisations and information on training aid are listed on the Train the Staff of this website." .
+<http://example.org/nifo/publicservice/Belgium/WebportalofLabourInspectorate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Web portal of Labour Inspectorate";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Labour Inspectorate, Federal Public Service Employment, Labour and Social Dialogue (FPS)";
+ <http://schema.org/url> "http://www.employment.belgium.be/home.aspx ";
+ <http://purl.org/dc/terms/description> "The Labour Inspectorate in Belgium depends on the Federal Public Service Employment, Labour and Social Dialogue (FPS) Division and comprises several federal departments. eService is not available." .
+<http://example.org/nifo/publicservice/Belgium/Commercialandindustrialnorms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Commercial and industrial norms";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "FPS Economy, S.M.E.s, Self-employed and Energy";
+ <http://schema.org/url> "https://economie.fgov.be/fr/themes/politique-commerciale ";
+ <http://purl.org/dc/terms/description> "This website lists product safety information for consumers. It explains the law and regulations pertaining to such things as cable installations, childcare articles and toys, extreme entertainments, food imitating products, lifts, lighters, machinery, and many other items. The extensive list can be found on the website. " .
+<http://example.org/nifo/publicservice/Belgium/REACHRegistrationEvaluationAuthorisationandRestrictionofChemicalsEURegulationno19072006Belgium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "REACH (Registration, Evaluation, Authorisation and Restriction of Chemicals, EU Regulation no 1907/2006) Belgium";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "FPS Economy, S.M.E.s, Self-employed and Energy";
+ <http://schema.org/url> "http://www.reachinbelgium.be/index.php?page=home&hl=en_US ";
+ <http://purl.org/dc/terms/description> "The website offers information for small and medium-scale enterprises." .
+<http://example.org/nifo/publicservice/Belgium/Submissionofdatatostatisticaloffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Submission of data to statistical offices";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Department Economy, SMEs, Self-employed and Energy, Statistics Division";
+ <http://schema.org/url> "http://www.statbel.fgov.be ";
+ <http://purl.org/dc/terms/description> "Data concerning company revenues and data related to employees already declared to the Tax Administration does not need to be re-submitted separately to the Statistics Division. " .
+<http://example.org/nifo/publicservice/Belgium/ConsumerMediationService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Consumer Mediation Service";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Belgium>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Federal), Federal Department Economy, SMEs, Self-employed and Energy";
+ <http://schema.org/url> "https://www.consumentenombudsdienst.be/ ";
+ <http://purl.org/dc/terms/description> "Provides the consumer with information on existing out-of-court (amicable) consumer dispute resolution mechanisms. It receives all consumer complaints and sends them to the appropriate service, and it handles the complaint in order to reach an amicable solution when no other mediation service is able to help the consumer. " .

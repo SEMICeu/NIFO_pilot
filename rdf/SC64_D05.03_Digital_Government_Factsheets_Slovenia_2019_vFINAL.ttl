@@ -1,0 +1,450 @@
+<http://data.europa.eu/nifo/factsheet/Slovenia> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Slovenia>;
+ <http://purl.org/dc/terms/issued> "2019-07";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/SVN";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/dataset/DigitalGovernmentIndicatorsSlovenia>, <http://example.org/nifo/legalframework/Slovenia>, <http://example.org/nifo/person/RudiMedved>, <http://example.org/nifo/person/Mag.MihaelKrišelj>, <http://example.org/nifo/person/Dr.UrošSvete>;
+ <http://dbpedia.org/ontology/populationTotal> "2 066 880 inhabitants (2018)";
+ <http://dbpedia.org/property/gdpNominal> "45 947 million Euros (2018) ";
+ <http://dbpedia.org/property/gdpPppPerCapita> "85% (2017)";
+ <http://dbpedia.org/ontology/areaTotal> "20 273 km²";
+ <http://dbpedia.org/ontology/capital> "Ljubljana";
+ <http://dbpedia.org/ontology/currency> <http://publications.europa.eu/resource/authority/currency/Euro>;
+ <http://purl.org/dc/terms/source> <https://ec.europa.eu/eurostat/data/database>, <http://data.europa.eu/nifo/factsheet/undefined>, <https://ec.europa.eu/digital-single-market/en/news/egovernment-benchmark-2018-digital-efforts-european-countries-are-visibly-paying> .
+<http://example.org/nifo/dataset/DigitalGovernmentIndicatorsSlovenia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataSet>;
+ <http://purl.org/dc/terms/title> "Digital Government Indicators";
+ <http://purl.org/linked-data/cube#structure> <http://example.org/nifo/structure/DigitalGovernmentIndicatorsSlovenia>;
+ <http://purl.org/dc/terms/source> "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en" .
+<http://example.org/nifo/structure/DigitalGovernmentIndicatorsSlovenia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition>;
+ <http://purl.org/linked-data/cube#component> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinSlovenia>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinSlovenia>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinSlovenia>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinSlovenia>;
+ <http://www.w3.org/2000/01/rdf-schema#label> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinSlovenia>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinSlovenia>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinSlovenia>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinSlovenia> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinSlovenia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinSlovenia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinSlovenia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinSlovenia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/legalframework/Slovenia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO7718>, <http://www2.fu.uni-lj.si/mediawiki/index.php?title=Zak:GAPA>, <https://www.ip-rs.si/en/legislation/access-to-public-information-act/>, <http://www.uradni-list.si/1/objava.jsp?sop=2016-01-0994>, <http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:31993L0093>, <https://eur-lex.europa.eu/eli/dir/2016/1148/oj>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679>, <http://www.uradni-list.si/1/objava.jsp?urlurid=20074690>, <http://www.pisrs.si/Pis.web/pregledPredpisa?id=URED4247>, <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO3603>, <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO1708>, <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO5791>, <http://www.djn.mju.gov.si/resources/files/Predpisi/ZJN-3_ang_prevod.pdf>, <http://www.djn.mju.gov.si/resources/files/Sistem_javnega_narocanja/ZPVPJN/ZPVPJN_ang_julij_18.pdf>, <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO5770>, <http://www.vlada.si/en/media_room/government_press_releases/press_release/article/167th_regular_session_of_the_government_of_the_republic_of_slovenia_60969/>, <http://www.akos-rs.si/files/ZVDAGAA.pdf> .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO7718> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act";
+ <http://purl.org/dc/terms/relation> <http://www.pisrs.si/Pis.web/pregledPredpisa?sop=2018-01-1351> .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?sop=2018-01-1351> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Accessibility of Websites and Mobile Applications Act" .
+<http://www2.fu.uni-lj.si/mediawiki/index.php?title=Zak:GAPA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "General Administrative Procedures Act" .
+<https://www.ip-rs.si/en/legislation/access-to-public-information-act/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Access to Public Information Act";
+ <http://purl.org/dc/terms/relation> <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO7087> .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO7087> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "law transposing the EU Directive for re-use of data", "Access to Public Information Act";
+ <http://purl.org/dc/terms/relation> <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO7087> .
+<http://www.uradni-list.si/1/objava.jsp?sop=2016-01-0994> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree on the Delivery and Re-use of Information of Public Character (adopted by the Slovenian Government in April 2016); " .
+<http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:31993L0093> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "e-Signature Directive (1993/93/EC)";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1518451626252&uri=CELEX:32014R0910> .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1518451626252&uri=CELEX:32014R0910> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation (EU) No 910/2014" .
+<https://eur-lex.europa.eu/eli/dir/2016/1148/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive (EU) 2016/1148";
+ <http://purl.org/dc/terms/relation> <http://nio.gov.si/nio/asset/zakon+o+informacijski+varnosti+zinfv?lang=en> .
+<http://nio.gov.si/nio/asset/zakon+o+informacijski+varnosti+zinfv?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "General Data Protection Regulation" .
+<http://www.uradni-list.si/1/objava.jsp?urlurid=20074690> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Personal Data Protection Act";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 95/46/EC" .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=URED4247> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation on Keeping and Maintaining the Business Registry of Slovenia" .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO3603> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Land Registry Act (ZZK)" .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO1708> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Central Population Register (CRP)";
+ <http://purl.org/dc/terms/relation> <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO4555> .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO4555> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on amending and supplementing the Law on the Central Population Register" .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO5791> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Motor Vehicles (BFBC)" .
+<http://www.djn.mju.gov.si/resources/files/Predpisi/ZJN-3_ang_prevod.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Public Procurement Act" .
+<http://www.djn.mju.gov.si/resources/files/Sistem_javnega_narocanja/ZPVPJN/ZPVPJN_ang_julij_18.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Legal Protection in Public Procurement Procedures Act" .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO5770> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on the Provision of Payment Services to Budget Users" .
+<http://www.vlada.si/en/media_room/government_press_releases/press_release/article/167th_regular_session_of_the_government_of_the_republic_of_slovenia_60969/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Healthcare Databases Act in 2015" .
+<http://www.akos-rs.si/files/ZVDAGAA.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act" .
+<http://example.org/nifo/person/RudiMedved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Rudi Medved";
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofPublicAdministration>, <http://example.org/nifo/post/Post-Director-GeneraloftheITDirectorate%E2%80%93MinistryofPublicAdministration>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/1901> .
+<http://example.org/nifo/post/Post-MinisterofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofPublicAdministration> .
+<http://example.org/nifo/role/Role-MinisterofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Public Administration " .
+<http://example.org/ContactPoint/1901> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+386 1 478 8399";
+ <http://schema.org/email> "gp.mju@gov.si ";
+ <http://schema.org/url> "http://www.mju.gov.si/en/about_the_ministry/leadership/" .
+<http://example.org/nifo/person/Mag.MihaelKrišelj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Mag. Mihael Krišelj";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2528>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-ActingDirector-GeneralofInformationSocietyDirectorate%E2%80%93MinistryofPublicAdministration> .
+<http://example.org/nifo/post/Post-Director-GeneraloftheITDirectorate–MinistryofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Director-GeneraloftheITDirectorate%E2%80%93MinistryofPublicAdministration> .
+<http://example.org/nifo/role/Role-Director-GeneraloftheITDirectorate–MinistryofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Director- General of the IT Directorate – Ministry of Public Administration" .
+<http://example.org/ContactPoint/2528> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+386 1 478 86 51";
+ <http://schema.org/email> "gp.mju@gov.si";
+ <http://schema.org/url> "http://www.mju.gov.si/en/about_the_ministry/leadership/" .
+<http://example.org/nifo/person/Dr.UrošSvete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Dr. Uroš Svete";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/5900> .
+<http://example.org/nifo/post/Post-ActingDirector-GeneralofInformationSocietyDirectorate–MinistryofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-ActingDirector-GeneralofInformationSocietyDirectorate%E2%80%93MinistryofPublicAdministration> .
+<http://example.org/nifo/role/Role-ActingDirector-GeneralofInformationSocietyDirectorate–MinistryofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Acting Director- General of Information Society Directorate – Ministry of Public Administration" .
+<http://example.org/ContactPoint/5900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+386 1 478 86 51";
+ <http://schema.org/email> "gp.mju@gov.si ";
+ <http://schema.org/url> "http://www.mju.gov.si/en/about_the_ministry/leadership/" .
+<http://example.org/nifo/publicservice/Slovenia/Passport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Passport";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Administrative Units, Ministry of the Interior";
+ <http://schema.org/url> "http://upravneenote.gov.si/; http://www.mnz.gov.si/", "http://e-uprava.gov.si/ ";
+ <http://purl.org/dc/terms/description> "Passports are issued by respective Administrative Units. In urgent cases, they can also be issued directly by the Ministry of the Interior. Information on the application process is available on the Administrative Units Portal and on the website of the Ministry of the Interior. Since April 2007, an eService launched by the Ministry of Public Administration has sent automatic reminder e-mail messages on the expiration date of personal documents, including passport.", "Passports are issued by the Administrative Units. In urgent cases, they can also be issued directly by the Ministry of the Interior. Information on the application process is available on the Administrative Units Portal and on the website of the Ministry of the Interior. " .
+<http://example.org/nifo/publicservice/Slovenia/Informationfortravellers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Information for travellers";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Administrative Units, Ministry of the Interior, Ministry of Foreign Affairs.";
+ <http://schema.org/url> "http://www.mzz.gov.si/en/";
+ <http://purl.org/dc/terms/description> "Travellers access information about foreign destinations." .
+<http://example.org/nifo/publicservice/Slovenia/Subsidisedtransportticketforstudents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Subsidised transport ticket for students";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "The Ministry of Infrastructure";
+ <http://schema.org/url> "http://www.mzi.gov.si/en/; ";
+ <http://purl.org/dc/terms/description> "As part of the new Integrated Public Passenger Transport Project (IJPP), users apply for a single subsidised IJPP ticket for the purpose of traveling to school and back. The new IJPP subsidised ticket is a single electronic ticket, which can be used by the transport's beneficiary in order to take the train, long distance bus and also the city bus in Ljubljana and Maribor. It allows users to freely choose a public long-distance transport service on a day-to-day basis stated on the application. " .
+<http://example.org/nifo/publicservice/Slovenia/Jobsearchservicesbylabouroffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Job search services by labour offices";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Employment Service and Ministry of Labour, Family, Social Affairs and Equal Opportunities";
+ <http://schema.org/url> "http://www.ess.gov.si/; http://www.mddsz.gov.si/";
+ <http://purl.org/dc/terms/description> "Users can consult databases with job offerings and subscribe to a weekly notification service of pre-selected jobs related to a personalised job-seeker's profile. Employers can also consult databases of candidates." .
+<http://example.org/nifo/publicservice/Slovenia/Legalinformationsysteminclinformationontheregulatedprofessions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Legal information system (incl. information on the regulated professions)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Government Office for Legislation";
+ <http://schema.org/url> "http://www.pisrs.si/Pis.web/ ";
+ <http://purl.org/dc/terms/description> "The legal Information System of the Republic of Slovenia provides free access to legislation and other legal documents of state bodies and holders of public powers, plus all documents issued by the institutions of the European Union and the Council of Europe." .
+<http://example.org/nifo/publicservice/Slovenia/Unemploymentbenefits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Unemployment benefits";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Employment Service of Slovenia";
+ <http://schema.org/url> "http://e-uprava.gov.si/";
+ <http://purl.org/dc/terms/description> "Claims for unemployment benefits can be handled via the website by filling the corresponding online form." .
+<http://example.org/nifo/publicservice/Slovenia/Incometaxesdeclarationnotificationofassessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Income taxes: declaration, notification of assessment";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Finance, Financial Administration of the Republic of Slovenia";
+ <http://schema.org/url> "https://edavki.durs.si/ ";
+ <http://purl.org/dc/terms/description> "The eDavki (eTaxes) portal enables all legal and natural entities to conduct business with the tax office electronically. Taxpayers can use it to submit their income tax returns online via a qualified certificate issued by any registered certification authority in the country or through a user account with a password. The entire process consists of filling out a form, validating data, digitally signing and time stamping the form. The application also allows taxpayers to calculate the amount of their tax and to import or export their data. Since 2007, taxpayers have received their pre-filled tax declarations with a pre-calculation of the amount of tax owed." .
+<http://example.org/nifo/publicservice/Slovenia/Vehicleregistryinsight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Vehicle registry insight";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Infrastructure";
+ <http://schema.org/url> "http://www.mzi.gov.si/si/; https://e-uprava.gov.si/";
+ <http://purl.org/dc/terms/description> "The State government portal eUprava allows users to access a vehicle registry. Users can view all data about their cars (only cars owned or used by the user) with eIdentification. Users can also view data for vehicles registered in Slovenia if they have the vehicle registration certificate and registration code. " .
+<http://example.org/nifo/publicservice/Slovenia/Driverslicence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Driver’s licence ";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Administrative Units, Ministry of the Interior";
+ <http://schema.org/url> "http://e-uprava.gov.si/; ";
+ <http://purl.org/dc/terms/description> "Driving licences are issued by the Administrative Units. Information on the application process and downloadable forms are available on the Administrative Units Portal and on the website of the Ministry of the Interior. Citizens can apply online for their driving licence renewal via the eGovernment portal eUprava and submitting an electronic form and paying online. The new driving licence arrives in the post. Since April 2007, an eService launched by the Ministry of Public Administration automatically has sent e-mail reminders on the expiration date of personal documents, including driving licences." .
+<http://example.org/nifo/publicservice/Slovenia/Driversrecordofpenalties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Driver’s record of penalties ";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Justice ";
+ <http://schema.org/url> "http://e-uprava.gov.si/; ";
+ <http://purl.org/dc/terms/description> "The State government portal eUprava allows Slovenian drivers to view their record and driving penalties. " .
+<http://example.org/nifo/publicservice/Slovenia/Motorvehicleliabilityinsurance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Motor vehicle liability insurance";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Slovenian Insurance Association";
+ <http://schema.org/url> "https://www.zav-zdruzenje.si/en/";
+ <http://purl.org/dc/terms/description> "The website contains comprehensive information on different situations regarding the motor vehicle liability insurance, as well as for other types of insurances." .
+<http://example.org/nifo/publicservice/Slovenia/Carregistrationnewusedimportedcars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Car registration (new, used, imported cars)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Administrative Units, Ministry of the Interior";
+ <http://schema.org/url> "http://e-uprava.gov.si/storitve/epodaljsanje ";
+ <http://purl.org/dc/terms/description> "Information and forms to download. All citizens of Slovenia must renew their vehicle registration every year. An eService launched by the Ministry of Public Administration in May 2006 offers the possibility of doing this online. It uses ePayments and eSignatures. The new certificate is either sent to a specified mailing address, or can be collected at an administrative office." .
+<http://example.org/nifo/publicservice/Slovenia/Announcementofmovingchangeofaddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Announcement of moving (change of address)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Interior, Administrative Units";
+ <http://schema.org/url> "http://e-uprava.gov.si/ ";
+ <http://purl.org/dc/terms/description> "This service enables citizens to announce their change of residence electronically. This procedure can be completed only by holders of qualified digital certificates issued in Slovenia. Users need to send the electronically signed application form together with the requested enclosed documents." .
+<http://example.org/nifo/publicservice/Slovenia/Certificatesbirthmarriagerequestanddelivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Certificates (birth, marriage): request and delivery";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Interior, Administrative Units";
+ <http://schema.org/url> "http://e-uprava.gov.si/", "https://e-uprava.gov.si/";
+ <http://purl.org/dc/terms/description> "Birth or marriage certificates can be requested and obtained online through the e-SJU system accessible via the e-Uprava portal. The system supports full electronic handling of administrative forms contained in a centrally maintained registry of procedures. The application can be used by all residents equipped with qualified digital certificates valid in Slovenia." .
+<http://example.org/nifo/publicservice/Slovenia/Criminalrecordcertificate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Criminal record certificate";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Justice";
+ <http://schema.org/url> "http://e-uprava.gov.si/ ";
+ <http://purl.org/dc/terms/description> "The website allows users to request a certificate of good conduct online. " .
+<http://example.org/nifo/publicservice/Slovenia/ParticipationinSlovenianelections> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Participation in Slovenian elections";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "State Election Commission ";
+ <http://schema.org/url> "http://www.dvk-rs.si/ ";
+ <http://purl.org/dc/terms/description> "The website provides detailed information on voting from abroad in Slovenian elections. " .
+<http://example.org/nifo/publicservice/Slovenia/Publiclibrariesavailabilityofcataloguessearchtools> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Public libraries (availability of catalogues, search tools)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Institute of Information Science (IZUM)";
+ <http://schema.org/url> "http://cobiss.izum.si/; http://www.ctk.uni-lj.si/";
+ <http://purl.org/dc/terms/description> "The Co-operative Online Bibliographic System and Services (COBISS) forms the virtual library of Slovenia. Of vital importance for COBISS is the COBIB.SI online union bibliographic/catalogue database. COBIB.SI contains over 3.1 million bibliographic records on book and non-book materials (monographs, serials, articles). The database offers multimedia presentation and contains information on the location of the sought items. COBISS also provides a booking system. New arrivals are published on the web sites; the central Technological Library can also inform users via by e-mail or RSS." .
+<http://example.org/nifo/publicservice/Slovenia/Enrolmentinhighereducationuniversity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Enrolment in higher education/university";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Education, Science and Sport, Universities";
+ <http://schema.org/url> "https://www.uni-lj.si/eng/ (University of Ljubljana);";
+ <http://purl.org/dc/terms/description> "The records and analytical information system for higher education contains a complete record of student data and can be used to record, track and analyse student records. This portal is the official source on information on student status, dormitories, as well as on health insurance, pensions, student work, employment agency and national statistics. The system supports an online application system for enrolment in study programmes and serves as an application system for subsidised student accommodation places. In 2014, users filled 48 595 on-line applications. An analysis revealed that the estimated savings amounted to EUR 800 000 annually, as a result of the creation of an electronic data collection method in the field of higher education." .
+<http://example.org/nifo/publicservice/Slovenia/Grants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Grants";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Education, Science and Sport ";
+ <http://schema.org/url> "http://www.mizs.gov.si/ ";
+ <http://purl.org/dc/terms/description> "The Ministry of Education, Science and Sport offers information and forms to download on educational affairs related to pre-school children, basic education, music schools, secondary education, adult education institutions, higher vocational education and sport. The Ministry of Education, Science and Sport awards grants to foreign students and issues calls for proposals requesting grants for Slovenian citizens." .
+<http://example.org/nifo/publicservice/Slovenia/Internships> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Internships";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Employment Service of Slovenia";
+ <http://schema.org/url> "http://www.ess.gov.si/mladi ";
+ <http://purl.org/dc/terms/description> "The website offers all the information on employment, which young people need when entering the labour market." .
+<http://example.org/nifo/publicservice/Slovenia/Fundingsupport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Funding support";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Economic Development and Technology";
+ <http://schema.org/url> "http://www.mgrt.gov.si/en/ ";
+ <http://purl.org/dc/terms/description> "The website presents the ways for promoting innovation and technological development and gives information on available funding opportunities. " .
+<http://example.org/nifo/publicservice/Slovenia/Informationandassistancetoresearchers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Information and assistance to researchers";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "EURAXESS Slovenia";
+ <http://schema.org/url> "http://www.euraxess.si/en/ ";
+ <http://purl.org/dc/terms/description> "EURAXESS Slovenia provides information and assistance to mobile researchers – by means of the web portal and with the support of the national EURAXESS Service Centres. The portal contains practical information concerning professional and daily life, as well as information on job and funding opportunities. " .
+<http://example.org/nifo/publicservice/Slovenia/Volunteering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Volunteering";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Zavod Voluntariat";
+ <http://schema.org/url> "http://www.zavod-voluntariat.si/?lang=en ";
+ <http://purl.org/dc/terms/description> "The website offers extensive information on volunteering, including short-term and long-term volunteering, advices and guidelines and links to apply to the different offers. " .
+<http://example.org/nifo/publicservice/Slovenia/Healthrelatedservicesinteractiveadviceontheavailabilityofservicesindifferenthospitalsappointmentsforhospitals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Health related services (interactive advice on the availability of services in different hospitals; appointments for hospitals)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Health";
+ <http://schema.org/url> "https://zvem.ezdrav.si/domov; http://www.zzzs.si/cakdobe";
+ <http://purl.org/dc/terms/description> "Portal zVEM is a One Stop Shop. The eHealth portal, which offers information on waiting times and access to electronic referrals and appointment, provides access to electronic health data and access to electronically prescribed and dispensed medication.Security and privacy of the user are protected. The Health Insurance Institute publishes information on waiting times for different health services across the country. Users can schedule hospital appointments via the web. " .
+<http://example.org/nifo/publicservice/Slovenia/HealthrelatedservicesPatientsaccesstohealthrecords> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Health related services: Patient’s access to health records ";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Health, Health Insurance Institute of Slovenia";
+ <http://schema.org/url> "http://www.zzzs.si/ ";
+ <http://purl.org/dc/terms/description> "Portal zVEM is a One Stop Shop patient portal. A registered user authenticated by a digital certificate can access their own records in eHealth databases. " .
+<http://example.org/nifo/publicservice/Slovenia/HealthrelatedservicesBookingofeAppointments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Health related services: Booking of eAppointments";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Health";
+ <http://schema.org/url> "https://enarocanje.ezdrav.si ";
+ <http://purl.org/dc/terms/description> "Public web for eAppointments. A patient can book an appointment by entering his/her eReferral ID and health insurance ID." .
+<http://example.org/nifo/publicservice/Slovenia/HealthrelatedservicesWaitingtimesandavailabilityofservicesatdifferenthealthcareproviders> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Health related services: Waiting times and availability of services at different healthcare providers";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Health";
+ <http://schema.org/url> "https://cakalnedobe.ezdrav.si ";
+ <http://purl.org/dc/terms/description> "Public web site providing up-to-date waiting times for healthcare services." .
+<http://example.org/nifo/publicservice/Slovenia/Medicalcostsreimbursementordirectsettlement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Medical costs (reimbursement or direct settlement)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Health Insurance Institute";
+ <http://schema.org/url> "https://e-uprava.gov.si/ ";
+ <http://purl.org/dc/terms/description> "The Health Insurance Institute provides effective collection and distribution of public funds for healthcare. The rights arising from compulsory health insurance are the right to health care services and the right to several financial benefits. The institute comprises 10 regional units and 45 branch offices distributed all over Slovenia." .
+<http://example.org/nifo/publicservice/Slovenia/Applicationfororganandtissuedonation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Application for organ and tissue donation";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Public Administration";
+ <http://schema.org/url> "https://e-uprava.gov.si/ ";
+ <http://purl.org/dc/terms/description> "In 2018, the Ministry of Public Administration introduced new services for citizens on the eGovernment portal eUprava. It includes an eApplication for organ and tissue donation in case of death. " .
+<http://example.org/nifo/publicservice/Slovenia/Healthcareabroad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Healthcare abroad";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Health Insurance Institute";
+ <http://schema.org/url> "https://e-uprava.gov.si/";
+ <http://purl.org/dc/terms/description> "The European Health Insurance Card (EHIC) is used to claim health insurance entitlements while temporarily outside Slovenia (e.g. while on holiday or on a business trip) in EU states, the countries of the EEA or Switzerland. The website gives information on how to request the EHIC (which can be requested online)." .
+<http://example.org/nifo/publicservice/Slovenia/Childallowances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Child allowances";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Labour, Family, Social Affairs and Equal Opportunities; Centres for Social Work";
+ <http://schema.org/url> "https://e-uprava.gov.si/; http://www.mddsz.gov.si/;";
+ <http://purl.org/dc/terms/description> "There are 62 Centres for Social Work (CSW) operating in Slovenia, to which fully electronic requests for child allowances can be sent. Forms are available on the eGovernment portal and citizens can use them in combination with their electronic certificates. It is not obligatory to attach supporting data such as proof of financial status; CSW obtain these data through official channels. Child allowance is granted for a renewable period of one year." .
+<http://example.org/nifo/publicservice/Slovenia/Inheritance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Inheritance";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Justice";
+ <http://schema.org/url> "https://e-justice.europa.eu/content_adapting_rights_in_rem-486-sl.do";
+ <http://purl.org/dc/terms/description> "E-justice portal provide an information overview of national law and procedures for the adjustment of rights in rem in individual EU countries." .
+<http://example.org/nifo/publicservice/Slovenia/Consumerprotection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Consumer protection";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of economy, Slovenian Consumers' Association";
+ <http://schema.org/url> "http://www.arhiv.uvp.gov.si/; https://www.zps.si/ ";
+ <http://purl.org/dc/terms/description> "The portal of the Slovenian Consumers' Association provides users with comprehensive information on consumer protection rules in Slovenia and offers help and advice for consumers. It provides the public with tests to perform to test purchased products. " .
+<http://example.org/nifo/publicservice/Slovenia/Consumerprotectioncrossborder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Consumer protection (cross border)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "The European Consumer Centre belongs to the European Consumer Centre Network ECC - Net Slovenia";
+ <http://schema.org/url> "https://www.epc.si/pages/en/about-us/consumer-assistance.php ";
+ <http://purl.org/dc/terms/description> "The European Consumer Centre belongs to the European Consumer Centre Network-ECC Net, founded by the European Commission in 28 Member States in collaboration with National Governments. It informs consumers of their rights and assists them with cross-border consumption issues, promoting and supporting out of court disputes resolution more quickly and at lower cost than the Court claim procedures. " .
+<http://example.org/nifo/publicservice/Slovenia/EuropeanConsumerCentreSlovenia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "European Consumer Centre Slovenia";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, The European Consumer Centre Slovenia, Ministry of Economic Development and Technology";
+ <http://schema.org/url> "https://www.epc.si/pages/en/about-us/ecc-slovenia.php";
+ <http://purl.org/dc/terms/description> "ECC advises consumers of their rights when making purchases with foreign sellers, either online or in a shop, when travelling by aircraft, ship, train, or coach, when hire a car, book accommodation or a package holiday, etc. " .
+<http://example.org/nifo/publicservice/Slovenia/SlovenianIntellectualPropertyOfficeSIPO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Slovenian Intellectual Property Office (SIPO)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "The Slovenian Intellectual Property Office (SIPO)";
+ <http://schema.org/url> "http://www.uil-sipo.si/sipo/office/tools/home/";
+ <http://purl.org/dc/terms/description> "The website provides a range of information services such as standard information about Slovenian and foreign patents, trademarks and industrial designs, searches in SIPO databases, searches for similar or identical trademarks, and other relevant information. From February 2015, SIPO has provided online eApplication services for trademarks and industrial designs." .
+<http://example.org/nifo/publicservice/Slovenia/Registrationofanewcompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Registration of a new company";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Public Administration ";
+ <http://schema.org/url> "http://evem.gov.si/";
+ <http://purl.org/dc/terms/description> "The eVEM portal for businesses serves as a one-stop shop for faster and cheaper start-up procedures for enterprises. Company registration applications are submitted electronically using a qualified digital certificate. Entrepreneurs applying for registration receive a digitally signed decision in response.After registration, the business entity must register their tax data on the eVEM portal." .
+<http://example.org/nifo/publicservice/Slovenia/SloveniaBusinessPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Slovenia Business Point";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Public Administration ";
+ <http://schema.org/url> "http://eugo.gov.si/ ";
+ <http://purl.org/dc/terms/description> "The EUGO portal provides accurate information about procedures for performing business in Slovenia. " .
+<http://example.org/nifo/publicservice/Slovenia/VATdeclarationnotification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "VAT: declaration, notification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Finance, Financial Administration of the Republic of Slovenia";
+ <http://schema.org/url> "https://edavki.durs.si/";
+ <http://purl.org/dc/terms/description> "The eDavki (eTaxes) portal enables all legal and natural entities to conduct business with the tax office. Users can submit VAT returns online by using a qualified certificate issued by any registered certification authority in the country. The entire process consists of filling out a form, validating data, digitally signing and time stamping the form. The application also allows taxpayers to calculate the amount of their tax and to import or export their data.", "The mobile app eDavki provides access to an eService for reimbursement/refund of excise duties and environmental taxes. It is available on Google Play and App Store." .
+<http://example.org/nifo/publicservice/Slovenia/CorporatetaxCorporateincometaxreturnDDPOreturnwithholdingtaxreturnODO1return> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Corporate tax: Corporate income tax return (DDPO return), withholding tax return (ODO - 1 return)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Finance, Financial Administration of the Republic of Slovenia";
+ <http://schema.org/url> "https://edavki.durs.si/";
+ <http://purl.org/dc/terms/description> "The eDavki (eTaxes) portal enables all legal and natural entities to conduct business with the tax office. Users can submit DDPO returns and ODO -1 returns online by using a qualified certificate issued by any registered certification authority in the country. The entire process consists of filling out a form, validating data, digitally signing and time stamping the form. The application also allows taxpayers to calculate the amount of their tax and to import or export their data." .
+<http://example.org/nifo/publicservice/Slovenia/CustomsdeclarationseCustoms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Customs declarations (eCustoms)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Finance, Financial Administration of the Republic of Slovenia";
+ <http://schema.org/url> "https://ecarina.carina.gov.si/";
+ <http://purl.org/dc/terms/description> "Slovenia offers this single-entry point to obtain registration and lodge customs declarations. The EPOS application is the central module of the system that accepts declarations, verifies digitally signed messages and provides routing. It implements PKI authentication and ensures non-repudiation via eSignature and time stamping. The application supports all qualified digital certificates valid in the country. All information about registration is available on Slovenian Financial Administration. " .
+<http://example.org/nifo/publicservice/Slovenia/InformationsystemeJN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Information system e-JN";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Public Administration ";
+ <http://schema.org/url> "http://ejn.gov.si/ ";
+ <http://purl.org/dc/terms/description> "The eProcurement portal contains national eProcurement applications that support procedures like eSubmissions, eAuctions, eDossier, eCatalogue and eInternal procedures. " .
+<http://example.org/nifo/publicservice/Slovenia/Publicprocurementportal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Public procurement portal";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Public Administration ";
+ <http://schema.org/url> "https://www.enarocanje.si/";
+ <http://purl.org/dc/terms/description> "Contracting authorities publish all procurement notices, decisions on awarding contracts, contracts and their modifications and the list of public contracts awarded in the previous year with a value equal to or greater than EUR 10 000 net of VAT." .
+<http://example.org/nifo/publicservice/Slovenia/Legalinformationsystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Legal information system";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Government Office for Legislation";
+ <http://schema.org/url> "http://www.pisrs.si/Pis.web/ ";
+ <http://purl.org/dc/terms/description> "The legal Information System of the Republic of Slovenia provides free access to legislation and other public documents of state bodies and holders of public powers in the Republic of Slovenia and the documents issued by the institutions of the European Union and the Council of Europe." .
+<http://example.org/nifo/publicservice/Slovenia/Socialcontributionsforemployees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Social contributions for employees";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Finance, Financial Administration of the Republic of Slovenia";
+ <http://schema.org/url> "https://edavki.durs.si/";
+ <http://purl.org/dc/terms/description> "The eDavki (eTaxes) portal allows for the declaration of employee social contributions. " .
+<http://example.org/nifo/publicservice/Slovenia/Postingabroad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Posting abroad";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Employment Service of Slovenia";
+ <http://schema.org/url> "http://english.ess.gov.si/eures ";
+ <http://purl.org/dc/terms/description> "This site provides information on working abroad in the European Union countries, part of the EURES network. " .
+<http://example.org/nifo/publicservice/Slovenia/Mandatoryemployeeinsurance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Mandatory employee insurance";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Public Administration and Central Government Health Insurance Institute of Slovenia";
+ <http://schema.org/url> "http://www.evem.gov.si; zzzs.si";
+ <http://purl.org/dc/terms/description> "Registration of employees in the social security insurance, de-registration and changes of social security insurance, is mandatory through the eVEM portal. The entire procedure is electronic. " .
+<http://example.org/nifo/publicservice/Slovenia/Confirmationofmandatoryemployeeinsurancefortransportsectorworkers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Confirmation of mandatory employee insurance for transport sector workers";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Labour, Family, Social Affairs and Equal Opportunities, Ministry of Infrastructure";
+ <http://schema.org/url> "http://www.mddsz.gov.si/en/, http://www.mzi.gov.si/en/, evem.gov.si";
+ <http://purl.org/dc/terms/description> "Through the eVEM portal, employers apply for a A1 certificate which is the confirmation for foreign authorities that the employee is insured in Republic of Slovenia. " .
+<http://example.org/nifo/publicservice/Slovenia/Confirmationofmandatoryemployeeinsuranceforpostedworkers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Confirmation of mandatory employee insurance for posted workers ";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Labour, Family, Social Affairs and Equal Opportunities";
+ <http://schema.org/url> "http://www.mddsz.gov.si/en/, evem.gov.si ";
+ <http://purl.org/dc/terms/description> "Through the eVEM portal, employers must apply for A1 certificate for A1 certificate, which is confirmation for foreign authorities that the employee is insured in the Republic of Slovenia. " .
+<http://example.org/nifo/publicservice/Slovenia/MIRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "MIRS";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Economic Development and Technology, Metrology Institute of the Republic of Slovenia";
+ <http://schema.org/url> "http://www.mirs.gov.si/en/";
+ <http://purl.org/dc/terms/description> "MIRS establishes and leads the national metrology system of the Republic of Slovenia" .
+<http://example.org/nifo/publicservice/Slovenia/REACHRegistrationEvaluationAuthorisationandRestrictionofChemicalsEURegulationno19072006Helpdesk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "REACH (Registration, Evaluation, Authorisation and Restriction of Chemicals, EU Regulation no 1907/2006) Helpdesk";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Chemical Office of the Republic of Slovenia";
+ <http://schema.org/url> "http://www.uk.gov.si/ ";
+ <http://purl.org/dc/terms/description> "This website offers information directed at small and medium-scale enterprises." .
+<http://example.org/nifo/publicservice/Slovenia/Environmentrelatedpermitsinclreporting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Environment-related permits (incl. reporting)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Environment and Spatial Planning, Environmental Agency";
+ <http://schema.org/url> "http://www.mop.gov.si/; https://e-uprava.gov.si/ ";
+ <http://purl.org/dc/terms/description> "Customised and segmented information on new environment-related regulations and obligations. Users must first register with the service, which is available via e-Uprava. Other similarly available services also allow for the online handling of environment-related permits." .
+<http://example.org/nifo/publicservice/Slovenia/Submissionofdatatostatisticaloffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Submission of data to statistical offices";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Statistical Office";
+ <http://schema.org/url> "http://www.stat.si/; http://intrastat-surs.gov.si";
+ <http://purl.org/dc/terms/description> "Enterprises can submit statistical data online." .
+<http://example.org/nifo/publicservice/Slovenia/Subsidiesandfinancing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Subsidies and financing";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Startup Slovenia, Ministry of Economic Development and Technology";
+ <http://schema.org/url> "http://www.startup.si/en-us ";
+ <http://purl.org/dc/terms/description> "This website provides information on various sources for financing start-ups. " .
+<http://example.org/nifo/publicservice/Slovenia/Youthguarantee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Youth guarantee";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Employment Service of Slovenia";
+ <http://schema.org/url> "http://www.ess.gov.si/mladi ";
+ <http://purl.org/dc/terms/description> "This website offers information on employment those entering the labour market." .
+<http://example.org/nifo/publicservice/Slovenia/SlovenianCentreforCoordinationofSecurityIncidentSICERT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Slovenian Centre for Coordination of Security Incident SI-CERT";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Slovenia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Justice, Information Commissioner, ARNES SI-CERT";
+ <http://schema.org/url> "https://www.cert.si/en/";
+ <http://purl.org/dc/terms/description> "The main activities of the Slovenian Centre for the Coordination of Security Incident SI-CERT include raising awareness and informing users and the general public about safety warnings, and descriptions of risks in the network, and conducting expert workshops and training in the field of Internet security. " .

@@ -1,0 +1,367 @@
+<http://data.europa.eu/nifo/factsheet/France> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/France>;
+ <http://purl.org/dc/terms/issued> "2019-07";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/FRA";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/legalframework/France>, <http://example.org/nifo/person/ÉdouardPhilippe>, <http://example.org/nifo/person/CédricO>, <http://example.org/nifo/person/ThomasCazenave>, <http://example.org/nifo/person/NadiBouHanna>;
+ <http://dbpedia.org/ontology/populationTotal> "66 926 166 inhabitants (2018)";
+ <http://dbpedia.org/property/gdpNominal> "2 348 991 million Euro (2017)";
+ <http://dbpedia.org/property/gdpPppPerCapita> "104 (2017)";
+ <http://dbpedia.org/ontology/areaTotal> "643 801 km2 ";
+ <http://dbpedia.org/ontology/capital> "Paris";
+ <http://purl.org/dc/terms/language> "French ";
+ <http://dbpedia.org/ontology/currency> <http://publications.europa.eu/resource/authority/currency/EUR>;
+ <http://purl.org/dc/terms/source> <https://ec.europa.eu/eurostat/data/database>, <http://data.europa.eu/nifo/factsheet/undefined>, <https://ec.europa.eu/digital-single-market/en/news/egovernment-benchmark-2018-digital-efforts-european-countries-are-visibly-paying> .
+<http://example.org/nifo/legalframework/France> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.vie-publique.fr/actualite/panorama/texte-discussion/projet-loi-pour-etat-au-service-societe-confiance.html>, <http://www.gouvernement.fr/en/the-digital-bill>, <https://www.arcep.fr/>, <https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000031701525&dateTexte=20180315>, <https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=LEGITEXT000006068643&dateTexte=20080117>, <https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000037388867&cidTexte=LEGITEXT000006051257>, <https://www.numerique.gouv.fr/actualites/simplification-des-demarches-administratives-dites-le-nous-une-fois-passe-a-la-vitesse-superieure/>, <http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000439399&dateTexte=>, <http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000399095&dateTexte=>, <http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000801164&dateTexte>, <https://www.legifrance.gouv.fr/eli/loi/2018/2/26/INTX1728622L/jo/texte/>, <https://www.vie-publique.fr/actualite/dossier/securite-internet/protection-donnees-personnelles-que-contient-loi-du-20-juin-2018.html>, <http://www.cnil.fr/index.php?id=301>, <https://www.vie-publique.fr/actualite/panorama/texte-discussion/projet-loi-programmation-2018-2022-reforme-pour-justice.html> .
+<https://www.vie-publique.fr/actualite/panorama/texte-discussion/projet-loi-pour-etat-au-service-societe-confiance.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "law" .
+<http://www.gouvernement.fr/en/the-digital-bill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "law for a digital republic", "Law on a digital republic" .
+<https://www.arcep.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Authority for Regulation of the Electronic Communications and Postal sectors (ARCEP)" .
+<https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000031701525&dateTexte=20180315> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "law" .
+<https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=LEGITEXT000006068643&dateTexte=20080117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law of 17 July 1978" .
+<https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000037388867&cidTexte=LEGITEXT000006051257> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Article 47 of the Disability Act of 2005";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "European Directive on digital accessibility of websites and mobile applications" .
+<https://www.numerique.gouv.fr/actualites/simplification-des-demarches-administratives-dites-le-nous-une-fois-passe-a-la-vitesse-superieure/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Trust law" .
+<http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000439399&dateTexte=> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "law implemented the EU regulatory framework for electronic communications" .
+<http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000399095&dateTexte=> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law" .
+<http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000801164&dateTexte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "law for trust in the digital economy" .
+<https://www.legifrance.gouv.fr/eli/loi/2018/2/26/INTX1728622L/jo/texte/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "law on various provisions for adapting to European Union law in the field of security" .
+<https://www.vie-publique.fr/actualite/dossier/securite-internet/protection-donnees-personnelles-que-contient-loi-du-20-juin-2018.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Personal Data Protection Act" .
+<http://www.cnil.fr/index.php?id=301> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Informatics and Liberty";
+ <http://purl.org/dc/terms/relation> <http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000441676&dateTexte=> .
+<http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000441676&dateTexte=> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "law no. 2004-801" .
+<https://www.vie-publique.fr/actualite/panorama/texte-discussion/projet-loi-programmation-2018-2022-reforme-pour-justice.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Programming 2018-2022 and Reform for Justice" .
+<http://example.org/nifo/person/ÉdouardPhilippe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Édouard Philippe";
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-PrimeMinister>, <http://example.org/nifo/post/Post-SecretaryofStateforDigitalTechnology>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/7383> .
+<http://example.org/nifo/post/Post-PrimeMinister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-PrimeMinister> .
+<http://example.org/nifo/role/Role-PrimeMinister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Prime Minister " .
+<http://example.org/ContactPoint/7383> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+33 1 42 75 80 00";
+ <http://schema.org/email> "N/A";
+ <http://schema.org/url> "http://www.gouvernement.fr" .
+<http://example.org/nifo/person/CédricO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Cédric O";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8139>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-InterministerialDelegateforPublic> .
+<http://example.org/nifo/post/Post-SecretaryofStateforDigitalTechnology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-SecretaryofStateforDigitalTechnology> .
+<http://example.org/nifo/role/Role-SecretaryofStateforDigitalTechnology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Secretary of State for Digital Technology" .
+<http://example.org/ContactPoint/8139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "01 40 04 04 04";
+ <http://schema.org/email> "N/A";
+ <http://schema.org/url> "http://www.gouvernement.fr/ministre/christophe-sirugue" .
+<http://example.org/nifo/person/ThomasCazenave> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Thomas Cazenave";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/3858>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Interdepartmentaldirectorofdigitalandstateinformationsystems> .
+<http://example.org/nifo/post/Post-InterministerialDelegateforPublic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-InterministerialDelegateforPublic> .
+<http://example.org/nifo/role/Role-InterministerialDelegateforPublic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Interministerial Delegate for Public" .
+<http://example.org/ContactPoint/3858> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+33 1 53 18 76 25";
+ <http://schema.org/email> "sec.sgmap@modernisation.gouv.fr";
+ <http://schema.org/url> "http://www.modernisation.gouv.fr" .
+<http://example.org/nifo/person/NadiBouHanna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Nadi Bou Hanna";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/5785> .
+<http://example.org/nifo/post/Post-Interdepartmentaldirectorofdigitalandstateinformationsystems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Interdepartmentaldirectorofdigitalandstateinformationsystems> .
+<http://example.org/nifo/role/Role-Interdepartmentaldirectorofdigitalandstateinformationsystems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Interdepartmental director of digital and state information systems " .
+<http://example.org/ContactPoint/5785> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+33 1 40 15 72 60";
+ <http://schema.org/email> "dinsic-sec.sgmap@modernisation.gouv.fr";
+ <http://schema.org/url> "Source: https://lannuaire.service-public.fr/gouvernement/administration-centrale-ou-ministere_194230" .
+<http://example.org/nifo/publicservice/France/Passports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Passports";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Directorate of Legal and Administrative Information (Prime Minister)";
+ <http://schema.org/url> "https://www.service-public.fr/particuliers/vosdroits/N360 ";
+ <http://purl.org/dc/terms/description> "Information and links to online pre-filling of the file. Passport applications are processed by municipal authorities." .
+<http://example.org/nifo/publicservice/France/Consularservices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Consular services";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Directorate of Legal and Administrative Information (Prime Minister)";
+ <http://schema.org/url> "https://www.service-public.fr/particuliers/vosdroits/F33307 ";
+ <http://purl.org/dc/terms/description> "Consular registration (Register of French citizens established outside France). Registration facilitates administrative processes abroad of expatriate citizens, especially for registration on consular electoral lists." .
+<http://example.org/nifo/publicservice/France/Arianealertsystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Ariane: alert system";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Foreign Affairs";
+ <http://schema.org/url> "https://pastel.diplomatie.gouv.fr/fildariane/dyn/public/login.html";
+ <http://purl.org/dc/terms/description> "This free of charge service allows travellers to report data on his/her trip abroad. It will be accessed in the event of a crisis." .
+<http://example.org/nifo/publicservice/France/Jobsearchservicesbylabouroffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Job search services by labour offices";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Pôle Emploi";
+ <http://schema.org/url> "http://www.pole-emploi.fr/; https://labonneboite.pole-emploi.fr/";
+ <http://purl.org/dc/terms/description> "Fully functional job search facility. Users can access personalised job offers and display their CV online. A summer jobs search portal was made available in March 2007." .
+<http://example.org/nifo/publicservice/France/Legalinformationinclinformationontheregulatedprofessions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Legal information (incl. information on the regulated professions)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Directorate of Legal and Administrative Information (Prime Minister)";
+ <http://schema.org/url> "https://www.legifrance.gouv.fr ";
+ <http://purl.org/dc/terms/description> "Legifrance is the French government website where legal texts are published. It provides access, in French, to laws and decrees published in the Journal officiel, important court rulings, and collective labour agreements, standards issued by European institutions, and international treaties and agreements to which France is a party. For reference purposes, Legifrance also provides a number of useful links (to parliamentary assemblies, courts, independent administrative authorities…)." .
+<http://example.org/nifo/publicservice/France/AccesstoFamilyAllowancesFundCaissedallocationsfamilialesCaf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Access to Family Allowances Fund (Caisse d'allocations familiales (Caf))";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Caisse nationale des allocations familiales (Cnaf)";
+ <http://schema.org/url> "https://wwwd.caf.fr/";
+ <http://purl.org/dc/terms/description> "Allows citizens to check their accounts, declare assets and update their personal situation as it changes (for example pregnancy, birth, adoption, death, a new address, new bank account)." .
+<http://example.org/nifo/publicservice/France/Unemploymentbenefits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Unemployment benefits";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, 'Pôle Emploi'";
+ <http://schema.org/url> "http://www.pole-emploi.fr/";
+ <http://purl.org/dc/terms/description> "Information on unemployment benefits, an online application system and monthly unemployment status notification." .
+<http://example.org/nifo/publicservice/France/Retirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Retirement";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Retirement Union";
+ <http://schema.org/url> "https://www.info-retraite.fr/portail-services/#/login#header ";
+ <http://purl.org/dc/terms/description> "Information on retirement. The site is accessible for users through their France Connect login credentials. They can simulate the amount of their retirement money." .
+<http://example.org/nifo/publicservice/France/Incometaxesdeclarationnotificationofassessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Income taxes: declaration, notification of assessment";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Economy, Industry and the Digital Sector, Directorate-General for Public Finances";
+ <http://schema.org/url> "http://www.impots.gouv.fr/";
+ <http://purl.org/dc/terms/description> "The tax portal allows individual users to file returns and pay their income tax online, as well as access individual fiscal account. Tax declarations are pre-filled by tax authorities before being sent out and tax payers can modify or add information online, if necessary. No supporting documents are needed and the amount of tax to be paid is indicated. Since 2007, citizens can calculate their tax bill themselves and make adjustments to their monthly tax payments, where necessary.Application Impôt.gouv This mobile application allows taxpayers to declare their income and pay taxes with their prefilled statement." .
+<http://example.org/nifo/publicservice/France/Driverslicence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Driver’s licence ";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Directorate of Legal and Administrative Information (Prime Minister)";
+ <http://schema.org/url> "https://www.service-public.fr/particuliers/vosdroits/N530 ";
+ <http://purl.org/dc/terms/description> "Information and online services. Driving licence applications are handled online by the Ministry of Interior. Drivers can log on via a secured website and check the status of the driving points on their licence." .
+<http://example.org/nifo/publicservice/France/Carregistrationnewusedimportedcars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Car registration (new, used, imported cars)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Directorate of Legal and Administrative Information (Prime Minister)";
+ <http://schema.org/url> "https://www.service-public.fr/particuliers/vosdroits/N367 ";
+ <http://purl.org/dc/terms/description> "Information and online services. Vehicle registration services are handled online by the Ministry of Interior and in some cases through the car dealers." .
+<http://example.org/nifo/publicservice/France/Announcementofmovingchangeofaddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Announcement of moving (change of address)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Directorate of Legal and Administrative Information (Prime Minister)";
+ <http://schema.org/url> "https://www.service-public.fr/particuliers/vosdroits/R11193 ";
+ <http://purl.org/dc/terms/description> "Citizens can communicate their change of address to a number of public services through a single notification service." .
+<http://example.org/nifo/publicservice/France/CriminalRecordCertificate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Criminal Record Certificate";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Justice, Casier Judicaire National";
+ <http://schema.org/url> "www.cjn.justice.gouv.fr";
+ <http://purl.org/dc/terms/description> "The availability of an application for the Criminal Record Certificate depends on several criteria. It is available as an eService to people born in metropolitan France Saint-Barthélemy, Saint-Martin or Saint-Pierre-et-Miquelon via the application procedure on the website (in French) of the Ministry of Justice. For people born in New-Caledonia, French Polynesia or Wallis & Futuna, an application at the Tribunaloft their birth place must be submitted. If a person was born outside of France, they should apply in writing, by post or email, to the Casier Judiciaire National. " .
+<http://example.org/nifo/publicservice/France/Certificatesbirthmarriagerequestanddelivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Certificates (birth, marriage): request and delivery";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Directorate of Legal and Administrative Information (Prime Minister)";
+ <http://schema.org/url> "https://www.service-public.fr/particuliers/vosdroits/N359";
+ <http://purl.org/dc/terms/description> "The national online request system for birth, marriage and death certificates is accessible via the portal ‘www.service-public.fr’. If the municipality is connected to the national system, the requested document will be sent to the applicant by regular mail. The same service is provided by the Ministry of Foreign Affairs in the event it was registered abroad." .
+<http://example.org/nifo/publicservice/France/Declarationtothepoliceegincaseoftheft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Declaration to the police (e.g. in case of theft)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Interior";
+ <http://schema.org/url> "https://www.pre-plainte-en-ligne.gouv.fr/";
+ <http://purl.org/dc/terms/description> "Citizens can make preliminary declarations to the police online." .
+<http://example.org/nifo/publicservice/France/Housingbuildingandhousingenvironment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Housing (building and housing, environment)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Directorate of Legal and Administrative Information (Prime Minister)";
+ <http://schema.org/url> "https://www.service-public.fr/particuliers/vosdroits/N19808 ";
+ <http://purl.org/dc/terms/description> "Information, forms and online services. Planning and building permission services are handled by Local Governments or by State local authorities." .
+<http://example.org/nifo/publicservice/France/Subscriptiontotheelectoralregistry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Subscription to the electoral registry";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Directorate of Legal and Administrative Information (Prime Minister)";
+ <http://schema.org/url> "https://www.service-public.fr/particuliers/vosdroits/R16396 ";
+ <http://purl.org/dc/terms/description> "This online service allows users to be registered on the electoral lists." .
+<http://example.org/nifo/publicservice/France/Studentportal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Student portal";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Education";
+ <http://schema.org/url> "http://www.etudiant.gouv.fr/ ";
+ <http://purl.org/dc/terms/description> "A digital portal available to services. Information included ranges from exchange mobility and accommodation to meal vouchers, etc." .
+<http://example.org/nifo/publicservice/France/DigitalresourcebankfortheSchool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Digital resource bank for the School ";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Minister of National Education and Youth";
+ <http://schema.org/url> "http://eduscol.education.fr/pid35206/brne.html";
+ <http://purl.org/dc/terms/description> "Digital educational resource banks (BRNE) are made available free of charge to teachers and students from fifth to eighth grade and are organised by learning cycles. They offer resources (content and tools) to increase learning through the creation of activities and course materials, course delivery, monitoring and evaluation of skills, training or revision situations." .
+<http://example.org/nifo/publicservice/France/Enrolmentinhighereducationuniversity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Enrolment in higher education/university";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government/Higher education institutions";
+ <http://schema.org/url> "https://www.parcoursup.fr/ ";
+ <http://purl.org/dc/terms/description> "Information on higher education enrolment and forms to download. Enrolment is handled by individual universities or regional academies. " .
+<http://example.org/nifo/publicservice/France/Studentgrants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Student grants";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, National Centre for University and School Achievements (CNOUS)";
+ <http://schema.org/url> "http://www.cnous.fr/";
+ <http://purl.org/dc/terms/description> "Information on the different types of grants available for students and online application for some of them. The ‘www.service-public.fr’ portal provides online access to the ‘student social file’, which can be filled out online. This single file allows students to request both grants and accommodations managed by the Regional Centres for University and School Achievements (CROUS)." .
+<http://example.org/nifo/publicservice/France/StudentgrantsII> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Student grants II";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government";
+ <http://schema.org/url> "https://bourse.beta.gouv.fr/ ";
+ <http://purl.org/dc/terms/description> "The user no longer has to provide proof of residence. After having entered his information, he agrees that the staff in charge in the establishment will have access to his/her tax notice. " .
+<http://example.org/nifo/publicservice/France/Informationandassistancetoresearchers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Information and assistance to researchers";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "EURAXESS France";
+ <http://schema.org/url> "http://www.euraxess.fr/ ";
+ <http://purl.org/dc/terms/description> "EURAXESS France provides information and assistance to mobile researchers – by means of the web portal and with the support of our national EURAXESS Service Centres. The portal contains practical information concerning professional and daily life, as well as information on job and funding opportunities. " .
+<http://example.org/nifo/publicservice/France/Publiclibrariesavailabilityofcataloguessearchtools> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Public libraries (availability of catalogues, search tools)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Ministry of Culture and Communication)/Local Government";
+ <http://schema.org/url> "http://gallica.bnf.fr/";
+ <http://purl.org/dc/terms/description> "Most public libraries provide an online catalogue searching facility. Gallica, the digital library of the Bibiliothèque Nationale de France (BnF), provides access to digital works (press documents included), as well as images and hours of audio material. http://data.bnf.fr " .
+<http://example.org/nifo/publicservice/France/PubliclibrariesavailabilityofcataloguessearchtoolsII> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Public libraries (availability of catalogues, search tools) II";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government (Ministry of Higher Education and Research/Local Government";
+ <http://schema.org/url> "https://www.fun-mooc.fr/ ";
+ <http://purl.org/dc/terms/description> "FUN is a MOOC platform (Massive Open Online Courses) at the disposal of the French higher education institutions and academic partners in the world." .
+<http://example.org/nifo/publicservice/France/Researchfundingsupport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Research funding support";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "EURAXESS France";
+ <http://schema.org/url> "http://www.euraxess.fr/fr/funding/search/country/france-1104 ";
+ <http://purl.org/dc/terms/description> "EURAXESS France provides regularly updated information on the available fellowship and grant opportunities (programmes de bourses) for researchers. " .
+<http://example.org/nifo/publicservice/France/Accesstopersonalmedicaldossier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Access to personal medical dossier";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministère des Affaires sociales, de la Sante et des Droits des femmes";
+ <http://schema.org/url> "http://www.dmp.gouv.fr/  ";
+ <http://purl.org/dc/terms/description> "Provides access to personal medical accounts (‘dossier médical personnel’). " .
+<http://example.org/nifo/publicservice/France/Healthrelatedservicesinteractiveadviceontheavailabilityofservicesindifferenthospitalsappointmentsforhospitals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Health related services (interactive advice on the availability of services in different hospitals; appointments for hospitals)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government";
+ <http://schema.org/url> "http://www.hopital.fr/";
+ <http://purl.org/dc/terms/description> "Practical information is enlisted on the web portal. No eService is available." .
+<http://example.org/nifo/publicservice/France/Medicalcostsreimbursementordirectsettlement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Medical costs (reimbursement or direct settlement)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, National Medical Insurance Fund (CNAM)";
+ <http://schema.org/url> "http://www.ameli.fr/";
+ <http://purl.org/dc/terms/description> "Information on medical insurance forms to download, and online tracking of reimbursements. Direct settlement of some costs is made possible with the smart health insurance card Vitale. Moreover, the eGovernment portal www.service-public.fr provides citizens with direct access to the online tracking of medical reimbursements. " .
+<http://example.org/nifo/publicservice/France/Childallowances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Child allowances";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, National Family Allowances Fund (CNAF)";
+ <http://schema.org/url> "https://www.caf.fr/";
+ <http://purl.org/dc/terms/description> "The right to child allowances is automatically calculated by the Family Allowance Funds on the basis of one’s tax declaration." .
+<http://example.org/nifo/publicservice/France/ChildallowancesinLyon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Child allowances in Lyon";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Municipality of Lyon";
+ <http://schema.org/url> "https://www.lyon.fr/demarche/loisirs/calcul-du-quotient-familial-municipal ";
+ <http://purl.org/dc/terms/description> "Reduction of price for meals in the school canteen, for sport activities, and after-class activities. The amount is determined by the income and composition of the family." .
+<http://example.org/nifo/publicservice/France/Livingfacilitiesandenergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Living facilities and energy";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "N/A";
+ <http://schema.org/url> "http://calculettes.energie-info.fr/calculettes/evolution-electricite ";
+ <http://purl.org/dc/terms/description> "eService is available to calculate electricity and gas bills. Further support is provided via a helpline and an online formulary. " .
+<http://example.org/nifo/publicservice/France/Patents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Patents";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Institut National de la Propriété Industrielle, Minstry of Economy";
+ <http://schema.org/url> "http://www.inpi.fr/fr/services-et-prestations/demarches-en-ligne.html ";
+ <http://purl.org/dc/terms/description> "INPI is a public, fully funded, under the Ministry of Economy, Industry and Digital. This website provides information on patents, trademarks, designs and access to information on industrial property and businesses. Several forms and online formularies are available on the website as an eService, for example application for patent, trademark or design online, online brand renewal, and other. " .
+<http://example.org/nifo/publicservice/France/Registrationofanewcompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Registration of a new company";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Chambers of Commerce and Industry";
+ <http://schema.org/url> "http://www.cfenet.cci.fr/";
+ <http://purl.org/dc/terms/description> "Online administrative procedures for businesses, including business registration." .
+<http://example.org/nifo/publicservice/France/VATdeclarationnotification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "VAT: declaration, notification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Economy, Industry and the Digital Sector, Directorate-General for Public Finances";
+ <http://schema.org/url> "http://www.impots.gouv.fr/";
+ <http://purl.org/dc/terms/description> "Online declaration and payment of VAT." .
+<http://example.org/nifo/publicservice/France/Corporatetaxdeclarationnotification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Corporate tax: declaration, notification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Economy, Industry and the Digital Sector, Directorate-General for Public Finances";
+ <http://schema.org/url> "http://www.impots.gouv.fr/";
+ <http://purl.org/dc/terms/description> "Online information and services for all businesses and professionals, including corporate tax declaration and payment." .
+<http://example.org/nifo/publicservice/France/PublicprocurementeProcurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Public procurement / eProcurement ";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Economy, Industry and Digital Sector";
+ <http://schema.org/url> "Simplified Public Market";
+ <http://purl.org/dc/terms/description> "All central government ministries and entities – with the exception of the Ministry of Defence, which has its own platform – can meet this requirement of using the government-wide eProcurement platform ‘Marches-Publics.gouv.fr’. Through this platform, public sector bodies publish calls for tenders online and receive electronic bids. Its use by local authorities is optional, as they are free to develop their own eProcurement solutions, or to adopt commercial solutions.\"Simplified Public Market\" (MPS) is widespread since 1 October 2014. It allows companies to respond to call for tenders for public contracts by providing only their Siret number and a certificate of honour instead of supporting documents." .
+<http://example.org/nifo/publicservice/France/Purchaseofthefiscalstampsonline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Purchase of the fiscal stamps online";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "N/A";
+ <http://schema.org/url> "https://timbres.impots.gouv.fr/pages/achat/choixTimbres.jsp ";
+ <http://purl.org/dc/terms/description> "Citizens are allowed to purchase fiscal stamps online for the following purposes: fiscal stamps for passports, fiscal stamps for the French Office for Immigration and Integration (OFII), and the fiscal stamps to make an appeal to a court decision. " .
+<http://example.org/nifo/publicservice/France/Frenchlaw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "French law";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Directorate of Legal and Administrative Information (Prime Minister)";
+ <http://schema.org/url> "https://www.legifrance.gouv.fr ";
+ <http://purl.org/dc/terms/description> "Legifrance is the French government website where legal texts are published. It provides access, in French, to laws and decrees published in the Journal officiel, important court rulings, and collective labour agreements, standards issued by European institutions, and international treaties and agreements to which France is a party. For reference purposes, Legifrance also provides a number of useful links (to parliamentary assemblies, courts, independent administrative authorities, etc.)." .
+<http://example.org/nifo/publicservice/France/Defenderofrights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Defender of rights";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Défenseur des droits";
+ <http://schema.org/url> "https://formulaire.defenseurdesdroits.fr/defenseur/ ";
+ <http://purl.org/dc/terms/description> "The Defender of Rights is an independent authority of government in charge since 29 March 2011 to ensure the protection of individual rights and freedoms. It is based on the work of a network of delegates through the country: they may receive you, inform you, guide you and process your claim. This claim can be submitted online as an eService. " .
+<http://example.org/nifo/publicservice/France/Socialcontributionsforemployees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Social contributions for employees";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Public Interest Group on the Modernisation of Social Declarations";
+ <http://schema.org/url> "http://www.net-entreprises.fr/";
+ <http://purl.org/dc/terms/description> "The Net-entreprises.fr portal provides a range of services relating to social security contributions including information, simulation, as well as secured declarations and payment using electronic certificates." .
+<http://example.org/nifo/publicservice/France/DeclarationofanaccidentatworkonlineDAT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Declaration of an accident at work online (DAT)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Federal Ministry of Labour, Social Affairs and Consumer Protection (Labour Inspectorate)";
+ <http://schema.org/url> "http://www.net-entreprises.fr/vos-declarations-en-ligne/dat/#lessentiel ";
+ <http://purl.org/dc/terms/description> "The web portal allows an employer to declare an accident at work or whilst commuting online after registration. The declaration must be submitted by the employer or the agent to the primary health insurance fund (CPAM) within 48 hours from the acknowledgment of the accident. " .
+<http://example.org/nifo/publicservice/France/Environmentrelatedpermitsinclreporting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Environment-related permits (incl. reporting)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Ecology, Energy, Sustainable Development and the Sea";
+ <http://schema.org/url> "https://www.ecologique-solidaire.gouv.fr/ ";
+ <http://purl.org/dc/terms/description> "Information and downloadable forms for environment-related permits." .
+<http://example.org/nifo/publicservice/France/Submissionofdatatostatisticaloffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Submission of data to statistical offices";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, State Secretariat for Industry";
+ <http://schema.org/url> "http://www.insee.fr/";
+ <http://purl.org/dc/terms/description> "Data concerning company revenues already declared to the Tax Administration need not resubmit separately to statistical offices. The same is valid for employees' data submitted to Social security and Employment administrations. " .
+<http://example.org/nifo/publicservice/France/CustomsdeclarationseCustoms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Customs declarations (e-Customs)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/France>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Economy, Industry and Digital Sector";
+ <http://schema.org/url> "http://www.douane.gouv.fr/";
+ <http://purl.org/dc/terms/description> "eServices for customs declarations and payments." .

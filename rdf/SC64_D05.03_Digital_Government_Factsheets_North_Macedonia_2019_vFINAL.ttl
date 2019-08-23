@@ -1,0 +1,277 @@
+<http://data.europa.eu/nifo/factsheet/North%20Macedonia> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/North_Macedonia>;
+ <http://purl.org/dc/terms/issued> "2019-07";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/MKD";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/dataset/DigitalGovernmentIndicatorsNorth_Macedonia>, <http://example.org/nifo/legalframework/North_Macedonia>, <http://example.org/nifo/person/DamjanManchevski>;
+ <http://dbpedia.org/ontology/populationTotal> "2 075 301 inhabitants (2018)";
+ <http://dbpedia.org/property/gdpNominal> "10 734 million Euros (2016)";
+ <http://dbpedia.org/property/gdpPppPerCapita> "36 (2017)";
+ <http://dbpedia.org/ontology/areaTotal> "25 713 km²";
+ <http://dbpedia.org/ontology/capital> "Skopje";
+ <http://purl.org/dc/terms/language> "Macedonian ";
+ <http://dbpedia.org/ontology/currency> <http://publications.europa.eu/resource/authority/currency/MKD>;
+ <http://purl.org/dc/terms/source> <http://ec.europa.eu/eurostat/data/database> .
+<http://example.org/nifo/dataset/DigitalGovernmentIndicatorsNorth_Macedonia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataSet>;
+ <http://purl.org/dc/terms/title> "Digital Government Indicators";
+ <http://purl.org/linked-data/cube#structure> <http://example.org/nifo/structure/DigitalGovernmentIndicatorsNorth_Macedonia>;
+ <http://purl.org/dc/terms/source> "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en,http://appsso.eurostat.ec.europa.eu/nui/submitViewTableAction.do" .
+<http://example.org/nifo/structure/DigitalGovernmentIndicatorsNorth_Macedonia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition>;
+ <http://purl.org/linked-data/cube#component> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinNorthMacedonia>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinNorthMacedonia>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinNorthMacedonia>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinNorthMacedonia>;
+ <http://www.w3.org/2000/01/rdf-schema#label> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinNorthMacedonia>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinNorthMacedonia>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinNorthMacedonia>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinNorthMacedonia> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinNorthMacedonia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinNorthMacedonia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinNorthMacedonia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinNorthMacedonia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/legalframework/North_Macedonia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://mioa.gov.mk/sites/default/files/pbl_files/documents/legislation/zakon_za_koristenje_na_podatocite_od_javniot_sektor-eng.pdf>, <http://www.slvesnik.com.mk/content/pdf/Zakon%252520za%252520sloboden%252520pristap%252520do%252520informacii.PDF>, <https://ener.gov.mk/default.aspx?item=pub_regulation&subitem=view_reg_detail&itemid=NywWTHQThPnqZxK/MiFlmg==>, <http://ca.kibs.com.mk/Repository/Repository/Law%252520on%252520data%252520in%252520electronic%252520form%252520and%252520electronic%252520signature.pdf>, <https://dzlp.mk/sites/default/files/u4/zakon_za_zashtita_na_lichnite_podatoci.pdf>, <https://ener.gov.mk/default.aspx?item=pub_regulation&subitem=view_reg_detail&itemid=rozw4hqUYyoY2/MKscqaog==>, <http://www.bjn.gov.mk/wp-content/uploads/2018/11/ZJN_precisten-tekst_Fevruari-2018.docx>, <http://www.bjn.gov.mk/wp-content/uploads/2018/11/Zakon-za-izmenuvanje-na-ZJN_08.05.2018.pdf>, <http://www.economy.gov.mk/Upload/Documents/%2525C3%252590%2525E2%252580%252594%2525C3%252590%2525C2%252590%2525C3%252590%2525C5%2525A1%2525C3%252590%2525C5%2525BE%2525C3%252590%2525C2%25259D%252520%2525C3%252590%2525E2%252580%252594%2525C3%252590%2525C2%252590%252520%2525C3%252590%2525E2%252580%2525A2%2525C3%252590%2525E2%252580%2525BA%2525C3%252590%2525E2%252580%2525A2%2525C3%252590%2525C5%2525A1%2525C3%252590%2525C2%2525A2%2525C3%252590%2525C2%2525A0%2525C3%252590%2525C5%2525BE%2525C3%252590%2525C2%25259D%2525C3%252590%2525C2%2525A1%2525C3%252590%2525C5%2525A1%2525C3%252590%2525C2%252590%252520%2525C3%252590%2525C2%2525A2%2525C3%252590%2525C2%2525A0%2525C3%252590%2525E2%252580%25259C%2525C3%252590%2525C5%2525BE%2525C3%252590%2525E2%252580%252599%2525C3%252590%2525CB%25259C%2525C3%252590%2525CB%252586%2525C3%252590%2525C2%252590%252520.pdf>, <http://www.arhiv.gov.mk/materijali/Konsolidiran%252520ZakonAM.pdf>, <http://mioa.gov.mk/files/pdf/dokumenti/zakoni/zeu/ZAKON_ZA_ELEKTRONSKO_UPRAVUVANJE_SV-105-2009.pdf>, <http://arhiva.mioa.gov.mk/files/pdf/dokumenti/zakoni/zeu/ZAKON_ZA_ELEKTRONSKO_UPRAVUVANJE_SV-105-2009.pdf>, <https://ener.gov.mk/default.aspx?item=pub_regulation&subitem=view_reg_detail&itemid=hWAHA3bkEkBOoOJ3TRk9uQ==>, <https://www.pravdiko.mk/wp-content/uploads/2019/02/1_predlog_zakon_za_uslugi_so_eu_zname.pdf> .
+<http://mioa.gov.mk/sites/default/files/pbl_files/documents/legislation/zakon_za_koristenje_na_podatocite_od_javniot_sektor-eng.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "law" .
+<http://www.slvesnik.com.mk/content/pdf/Zakon%252520za%252520sloboden%252520pristap%252520do%252520informacii.PDF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://www.slvesnik.com.mk/content/pdf/Zakon%20za%20sloboden%20pristap%20do%20informacii.PDF> <http://data.europa.eu/eli/ontology#title> "Law on Free Access to Public Information" .
+<https://ener.gov.mk/default.aspx?item=pub_regulation&subitem=view_reg_detail&itemid=NywWTHQThPnqZxK/MiFlmg==> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Electronic Documents, Electronic Identification and Trust Services" .
+<http://ca.kibs.com.mk/Repository/Repository/Law%252520on%252520data%252520in%252520electronic%252520form%252520and%252520electronic%252520signature.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://ca.kibs.com.mk/Repository/Repository/Law%20on%20data%20in%20electronic%20form%20and%20electronic%20signature.pdf> <http://data.europa.eu/eli/ontology#title> "Law on Data in Electronic Form and Electronic Signature", "law" .
+<https://dzlp.mk/sites/default/files/u4/zakon_za_zashtita_na_lichnite_podatoci.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Personal Data Protection" .
+<https://ener.gov.mk/default.aspx?item=pub_regulation&subitem=view_reg_detail&itemid=rozw4hqUYyoY2/MKscqaog==> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Central Population Register" .
+<http://www.bjn.gov.mk/wp-content/uploads/2018/11/ZJN_precisten-tekst_Fevruari-2018.docx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Public Procurement" .
+<http://www.bjn.gov.mk/wp-content/uploads/2018/11/Zakon-za-izmenuvanje-na-ZJN_08.05.2018.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Further amendments to the law" .
+<http://www.economy.gov.mk/Upload/Documents/%2525C3%252590%2525E2%252580%252594%2525C3%252590%2525C2%252590%2525C3%252590%2525C5%2525A1%2525C3%252590%2525C5%2525BE%2525C3%252590%2525C2%25259D%252520%2525C3%252590%2525E2%252580%252594%2525C3%252590%2525C2%252590%252520%2525C3%252590%2525E2%252580%2525A2%2525C3%252590%2525E2%252580%2525BA%2525C3%252590%2525E2%252580%2525A2%2525C3%252590%2525C5%2525A1%2525C3%252590%2525C2%2525A2%2525C3%252590%2525C2%2525A0%2525C3%252590%2525C5%2525BE%2525C3%252590%2525C2%25259D%2525C3%252590%2525C2%2525A1%2525C3%252590%2525C5%2525A1%2525C3%252590%2525C2%252590%252520%2525C3%252590%2525C2%2525A2%2525C3%252590%2525C2%2525A0%2525C3%252590%2525E2%252580%25259C%2525C3%252590%2525C5%2525BE%2525C3%252590%2525E2%252580%252599%2525C3%252590%2525CB%25259C%2525C3%252590%2525CB%252586%2525C3%252590%2525C2%252590%252520.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://www.economy.gov.mk/Upload/Documents/%C3%90%E2%80%94%C3%90%C2%90%C3%90%C5%A1%C3%90%C5%BE%C3%90%C2%9D%20%C3%90%E2%80%94%C3%90%C2%90%20%C3%90%E2%80%A2%C3%90%E2%80%BA%C3%90%E2%80%A2%C3%90%C5%A1%C3%90%C2%A2%C3%90%C2%A0%C3%90%C5%BE%C3%90%C2%9D%C3%90%C2%A1%C3%90%C5%A1%C3%90%C2%90%20%C3%90%C2%A2%C3%90%C2%A0%C3%90%E2%80%9C%C3%90%C5%BE%C3%90%E2%80%99%C3%90%CB%9C%C3%90%CB%86%C3%90%C2%90%20.pdf> <http://data.europa.eu/eli/ontology#title> "Law on Electronic Commerce" .
+<http://www.arhiv.gov.mk/materijali/Konsolidiran%252520ZakonAM.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://www.arhiv.gov.mk/materijali/Konsolidiran%20ZakonAM.pdf> <http://data.europa.eu/eli/ontology#title> "law" .
+<http://mioa.gov.mk/files/pdf/dokumenti/zakoni/zeu/ZAKON_ZA_ELEKTRONSKO_UPRAVUVANJE_SV-105-2009.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Electronic Management" .
+<http://arhiva.mioa.gov.mk/files/pdf/dokumenti/zakoni/zeu/ZAKON_ZA_ELEKTRONSKO_UPRAVUVANJE_SV-105-2009.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Electronic Management" .
+<https://ener.gov.mk/default.aspx?item=pub_regulation&subitem=view_reg_detail&itemid=hWAHA3bkEkBOoOJ3TRk9uQ==> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Electronic Management and Electronic Services" .
+<https://www.pravdiko.mk/wp-content/uploads/2019/02/1_predlog_zakon_za_uslugi_so_eu_zname.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Draft Law" .
+<http://example.org/nifo/person/DamjanManchevski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Damjan Manchevski";
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofInformationSocietyandAdministration>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/9784> .
+<http://example.org/nifo/post/Post-MinisterofInformationSocietyandAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofInformationSocietyandAdministration> .
+<http://example.org/nifo/role/Role-MinisterofInformationSocietyandAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Information Society and Administration" .
+<http://example.org/ContactPoint/9784> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+389(0)2 320-0870";
+ <http://schema.org/faxNumber> "+389(0)2 322-1883";
+ <http://schema.org/url> "http://www.mio.gov.mk/?q=node/2549" .
+<http://example.org/nifo/publicservice/North_Macedonia/Passport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Passport";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Foreign Affaires", "Ministry of Internal Affairs";
+ <http://schema.org/url> "http://www.mfa.gov.mk/index.php?option=com_content&view=article&id=131&Itemid=433&lang=en ", "https://termin.mvr.gov.mk/ReqiuredDocuments";
+ <http://purl.org/dc/terms/description> "The service provides information and forms to download." .
+<http://example.org/nifo/publicservice/North_Macedonia/Jobsearchservicesbylabouroffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Job search services by labour offices";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "and The Agency of administration ";
+ <http://schema.org/url> "http://prijava.aa.mk/; ";
+ <http://purl.org/dc/terms/description> "Offers on-line registration of employment and unemployment for all public sector employee. It publishes vacancy announcements and other services. The Apply-On-Line system has registered a high level of usage. This system for applying, evaluation, selection and testing for employment has been operational since 2006. These procedures for public servant employment are now conducted through the system." .
+<http://example.org/nifo/publicservice/North_Macedonia/Legalinformationsysteminclinformationontheregulatedprofessions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Legal information system (incl. information on the regulated professions)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Education and Science";
+ <http://schema.org/url> "(2) NQF – National Qualifications Framework";
+ <http://purl.org/dc/terms/description> "(1) As part of EU Acquis compliance, and in order to enhance the clarity and accuracy of data, the country was required to set up and maintain a publicly available database of regulated professions. The official list of regulated professions and a description of regulated activities covered by each profession is recorded in the database.(2) NQF is an important tool and makes a valuable contribution for modernising education and training, with a view to improving the quality and improving adaptability of education of labour market needs. Providing opportunities for improving skills, competences and knowledge through the system of adult education is crucial in order to address market needs.Both systems (1) & (2) are under development." .
+<http://example.org/nifo/publicservice/North_Macedonia/Papertaxdeclarationsonlinesubmission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Paper tax declarations online submission";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Public Revenue Office (PRO)";
+ <http://schema.org/url> "https://e-pdd.ujp.gov.mk/ppf/home.seam";
+ <http://purl.org/dc/terms/description> "Since January 2018, PRO has collected personal tax data. From 2019, for the first time there was no need for citizens to submit paper tax declarations." .
+<http://example.org/nifo/publicservice/North_Macedonia/Incometaxesdeclarationnotificationofassessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Income taxes: declaration, notification of assessment";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Public Revenue Office, Ministry of Finance";
+ <http://schema.org/url> "https://etax-fl.ujp.gov.mk/ ";
+ <http://purl.org/dc/terms/description> "The eTax system for legal entities offers all services to be issued online, one of which is the possibility to submit tax declarations. Since 2013, submitting tax declarations online has been compulsory for all businesses except those with exemptions. " .
+<http://example.org/nifo/publicservice/North_Macedonia/PersonalinformationApplicationform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Personal information / Application form";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "The Pension and Disability Fund of North Macedonia";
+ <http://schema.org/url> "https://uslugi.piom.com.mk/ords/f?p=654:LOGIN";
+ <http://purl.org/dc/terms/description> "Access is assigned through the process of application in the PDF offices. Since 2016, the personal certificate from the official CA in North Macedonia has been sufficient to provide access to e-services. At this moment: 1. Personal report on years of services, 2. Application form on old age or survivor retirement." .
+<http://example.org/nifo/publicservice/North_Macedonia/Driverslicence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Driver’s licence";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Internal Affairs";
+ <http://schema.org/url> "https://termin.mvr.gov.mk/ReqiuredDocuments ";
+ <http://purl.org/dc/terms/description> "The service provides information and forms to download." .
+<http://example.org/nifo/publicservice/North_Macedonia/Carregistrationnewusedimportedcars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Car registration (new, used, imported cars)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Internal Affairs";
+ <http://schema.org/url> "https://mvr.gov.mk/upravni-rab/22 ";
+ <http://purl.org/dc/terms/description> "The service provides information and forms to download." .
+<http://example.org/nifo/publicservice/North_Macedonia/eBuildingpermits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "eBuilding permits";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Regional Government";
+ <http://schema.org/url> "https://www.gradezna-dozvola.mk/Account/Login?ReturnUrl=/";
+ <http://purl.org/dc/terms/description> "The portal for the eBuilding permit is under construction. It is being developed and maintained by ZELS, and it is available on their site, as a single point. However, service and responsibility reside with the municipalities and in some cases the Ministry of transport and Communication." .
+<http://example.org/nifo/publicservice/North_Macedonia/Certificatesbirthmarriagerequestanddelivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Certificates (birth, marriage): request and delivery";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "The Office for Certificates, Ministry of Justice";
+ <http://schema.org/url> "https://e-portal.uvmk.gov.mk/", "https://e-portal.uvmk.gov.mk/external/portalHomePage";
+ <http://purl.org/dc/terms/description> "Certificates for birth and marriage can be obtained online. ", "Description: " .
+<http://example.org/nifo/publicservice/North_Macedonia/Housingbuildingandhousingenvironment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Housing (building and housing, environment)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Environment and Physical Planning";
+ <http://schema.org/url> "http://www.moepp.gov.mk/";
+ <http://purl.org/dc/terms/description> "The service provides information and forms to download." .
+<http://example.org/nifo/publicservice/North_Macedonia/Enrolmentinhighereducationuniversity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Enrolment in higher education/university";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Universities";
+ <http://schema.org/url> "http://www.ukim.edu.mk/ ";
+ <http://purl.org/dc/terms/description> "This service (iKnow) is offered by the State Universities, and it offers forms for candidates to fill in their data. " .
+<http://example.org/nifo/publicservice/North_Macedonia/Publiclibrariesavailabilityofcataloguessearchtools> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Public libraries (availability of catalogues, search tools)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Local self-government";
+ <http://schema.org/url> "N/A";
+ <http://purl.org/dc/terms/description> "The majority of municipalities have portals for public libraries that offer catalogues of books available, as well as search tools.", "The majority of municipalities have portals for their public libraries that offer catalogues of books available, as well as search tools." .
+<http://example.org/nifo/publicservice/North_Macedonia/Studentgrants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Student grants";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Education and Science";
+ <http://schema.org/url> "http://www.mon.gov.mk/ ";
+ <http://purl.org/dc/terms/description> "The Ministry of Education and Science opens online calls for grants and tuitions annually. The National Agency is in charge of European Educational Programmes and Mobility. " .
+<http://example.org/nifo/publicservice/North_Macedonia/Informationandassistancetoresearchers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Information and assistance to researchers";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "EURAXESS North Macedonia";
+ <http://schema.org/url> "http://www.euraxess.mk/ ";
+ <http://purl.org/dc/terms/description> "EURAXESS North Macedonia provides information and assistance to mobile researchers. The EURAXESS website is a tool that helps researchers find research jobs in North Macedonia. The EURAXESS Service Centre provides free of charge practical information for relocation to North Macedonia. The portal contains information concerning professional and daily life, as well as information on job and funding opportunities. " .
+<http://example.org/nifo/publicservice/North_Macedonia/eHealth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "e-Health";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Health Insurance Fund (HIF). ";
+ <http://schema.org/url> "https://portal.fzo.org.mk ";
+ <http://purl.org/dc/terms/description> "The portal offers various e-services such as: electronic registration/deregistration of a family member; validation of the status of health insurance of the insured/patients; submission of e-statements for regular students, thus ensuring continuity of health insurance for full-time students; electing/changing general practitioner doctor; preparation and publishing reports on the prevention of work and temporary inability to work – forms that are further communicated to the medical commissions and officers in the HIF for processing illness cases; filing submission of certificate of bio-medically assisted fertilisation; verifying acceptance of orthopaedics; and others. " .
+<http://example.org/nifo/publicservice/North_Macedonia/Healthrelatedservicesinteractiveadviceontheavailabilityofservicesindifferenthospitalsappointmentsforhospitals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Health related services (interactive advice on the availability of services in different hospitals; appointments for hospitals)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Health";
+ <http://schema.org/url> "http://mojtermin.mk/ ";
+ <http://purl.org/dc/terms/description> "Scheduling appointments with specialists and sub-specialists. It is available for each General Practitioner and includes notifications and reminders for patients. " .
+<http://example.org/nifo/publicservice/North_Macedonia/Systemforregistrationandmanagementofmedicines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "System for registration and management of medicines";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "National Agency for Drugs and Medical Devices (MALMED)";
+ <http://schema.org/url> "https://registracija.malmed.gov.mk/pages/login/login.xhtml ";
+ <http://purl.org/dc/terms/description> "Covers the procedure for electronic submission of all requests for medicines (registration, a variation of medicines, etc.) for all types of medicines (humane, homeopathic, traditional medicine) as well as the implementation of the procedure for drug registration itself." .
+<http://example.org/nifo/publicservice/North_Macedonia/NationalPharmacovigilanceSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "National Pharmacovigilance System";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "National Agency for Drugs and Medical Devices (MALMED)";
+ <http://schema.org/url> "https://farmakovigilanca.malmed.gov.mk";
+ <http://purl.org/dc/terms/description> "Reports adverse drug reactions. The system collects all information related to adverse drug reactions, whether they come from patients, the general public or healthcare providers and healthcare professionals, in a standardised form prescribed by the standard terminology of the World Health Organisation WHO-Art, i.e. medical dictionary of regulatory activities MEDRA." .
+<http://example.org/nifo/publicservice/North_Macedonia/CertificatesbirthWelcomeNewborn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Certificates (birth): Welcome New-born";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Health, Office for Certificates Births, Marriage and Death";
+ <http://schema.org/url> "https://www.uvmk.gov.mk/mk/dobredojde_novorodence";
+ <http://purl.org/dc/terms/description> "Project Welcome New-Born allows new parents to register baby births through the E-Health portal. The main project leader is the Ministry of Health, while the Office for Certificates and the Ministry of Internal Affairs are key involved partners. With this project, parents receive the birth certificate within 48 hours.Another option is to submit the application and choose the branch office where they would like to pick up the certificate, or receive a notification when the certificate is ready." .
+<http://example.org/nifo/publicservice/North_Macedonia/Consumerprotection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Consumer protection";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Consumers' Organisation of North Macedonia (OPM). ";
+ <http://schema.org/url> "http://www.opm.org.mk/ ";
+ <http://purl.org/dc/terms/description> "The Consumers' Organisation of North Macedonia (OPM) advocates for citizens to fully exercise their consumer rights and practice responsible consumption. It is committed to the idea that consumers have the right to a better quality of life, while exercising their responsibility not to endanger this right of future generations through our selection and use of products and services.OPM exists to protect consumers in the exercise of their fundamental rights, such as:Availability of the most essential products and services;Safe and good quality products and services;Accurate and timely information and education for consumers on the correct choice of products and services;Redress when consumer rights are violated;Healthy environment and sustainable consumption.The purpose of OPM is accomplished by providing advice, information and education of consumers in terms of their individual and collective consumer rights through the representation of their interests in the processes of policy and legislation.The service is available for the clients only on informational level." .
+<http://example.org/nifo/publicservice/North_Macedonia/Patents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Patents";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Industrial Property Protection Office (IPPO)";
+ <http://schema.org/url> "http://www.ippo.gov.mk/EN/Index_en.aspx ";
+ <http://purl.org/dc/terms/description> "Database of patent, trademarks and industrial designs is available online for search. " .
+<http://example.org/nifo/publicservice/North_Macedonia/Registrationofanewcompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Registration of a new company";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Register";
+ <http://schema.org/url> "http://e-submit.crm.com.mk/eFiling/redefault.aspx ";
+ <http://purl.org/dc/terms/description> "From March 2014, company registration (incorporation) was made available on-line through e-registration. It allows for the registration of all changes in the trade register (amendments, statutory changes, announcements, registering working time, liquidations, deletions). " .
+<http://example.org/nifo/publicservice/North_Macedonia/Submissionofdatatostatisticaloffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Submission of data to statistical offices";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "State Statistical Office";
+ <http://schema.org/url> "https://estat.stat.gov.mk/";
+ <http://purl.org/dc/terms/description> "In the direction of modernisation and simplification of the data collection process, the State Statistical Office started with electronic data collection with the gradual introduction of e-forms for statistical surveys. eStat is intended for collecting data from business entities via an e-form." .
+<http://example.org/nifo/publicservice/North_Macedonia/VATrefundsandexciseduties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "VAT refunds and excise duties";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central government, Ministry of Finance";
+ <http://schema.org/url> "https://etax-fl.ujp.gov.mk/ ";
+ <http://purl.org/dc/terms/description> "Through the eTax system the taxpayer can electronically submit all types of application forms (tax returns, claims, balance sheets, reports, attachments, etc.). Furthermore, the eTax system sends notes and email reminders for deadlines for the submission of tax returns. " .
+<http://example.org/nifo/publicservice/North_Macedonia/VATdeclarationnotification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "VAT: declaration, notification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Public Revenue Office, Ministry of Finance";
+ <http://schema.org/url> "http://etax.ujp.gov.mk";
+ <http://purl.org/dc/terms/description> "This service is one of the services integrated in the eTax system (stated above in Corporate tax)." .
+<http://example.org/nifo/publicservice/North_Macedonia/Corporatetaxdeclarationnotification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Corporate tax: declaration, notification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Public Revenue Office, Ministry of Finance";
+ <http://schema.org/url> "http://etax.ujp.gov.mk";
+ <http://purl.org/dc/terms/description> "The eTax service provides online submission and tax returns functionalities for companies, using authentication by digital signatures. From 1 January 2013, usage of the system became mandatory for all businesses. The system offers forms for submission of all declarations, VAT declaration and notifications, annual tax returns as for big, middle and small taxpayers and independent business workers, and it offers the possibility to send payment orders to the banks." .
+<http://example.org/nifo/publicservice/North_Macedonia/CustomsdeclarationseCustoms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Customs declarations (eCustoms)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Customs Administration";
+ <http://schema.org/url> "http://exim.gov.mk";
+ <http://purl.org/dc/terms/description> "The Single Window for export/import licenses and tariff quotas system, (EXIM) is a web-based portal through which businesses can submit requests and receive the necessary licences for export, import and transit of goods. Unified requests for 66 different types of licenses can be filled in and submitted online, at any time and any place providing stable internet connection. To simplify and automate the process for submission of request electronically only once and from one location, two new software modules were introduced: module for automatic confirmation of paid administrative fees (which means that there is no need for the submission of the original receipt), and module for digital signing." .
+<http://example.org/nifo/publicservice/North_Macedonia/MAKCIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "MAKCIS ";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Customs Administration";
+ <http://schema.org/url> "N/A";
+ <http://purl.org/dc/terms/description> "MAKCIS is an electronic system used for processing of the customs declarations." .
+<http://example.org/nifo/publicservice/North_Macedonia/CustomsDeclarationsandExciseDocumentsProcessingSystemCDEPS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Customs Declarations and Excise Documents Processing System (CDEPS)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Customs Administration";
+ <http://schema.org/url> "N/A";
+ <http://purl.org/dc/terms/description> "The Customs Administration is developing a new Customs Declarations and Excise Documents Processing System (CDEPS). It will ensure an uninterrupted flow of electronic information among all participants in the customs and excise procedures by interconnecting the external, national and common EU domain and the domain of other state agencies." .
+<http://example.org/nifo/publicservice/North_Macedonia/IntegratedTariffEnvironmentITE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Integrated Tariff Environment (ITE)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Customs Administration";
+ <http://schema.org/url> "www.ite.customs.gov.mk";
+ <http://purl.org/dc/terms/description> "The Integrated Tariff Environment (ITE) is a business concept that groups several computer systems as part of an information exchange between the European Commission and EU Member States." .
+<http://example.org/nifo/publicservice/North_Macedonia/NewComputerisedTransitSystemNCTS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "New Computerised Transit System (NCTS)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Customs Administration";
+ <http://schema.org/url> "http://ncts-traders.customs.gov.mk:8787/";
+ <http://purl.org/dc/terms/description> "The New Computerised Transit System (NCTS) uses advanced technologies and electronic data processing. It is a modern tool for transit procedures through exchange of electronic messages between economic operators and customs offices, as well as only between customs offices." .
+<http://example.org/nifo/publicservice/North_Macedonia/mTaxEnapsysSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "mTax - Enapsys System";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Information Society and Administration";
+ <http://schema.org/url> "https://e-plakanje.gov.mk/";
+ <http://purl.org/dc/terms/description> "The Enapsys system provides payment of administrative taxes via SMS. The system was modernised." .
+<http://example.org/nifo/publicservice/North_Macedonia/PublicprocurementeProcurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Public procurement / eProcurement";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Public Procurement Bureau, Ministry of Finance";
+ <http://schema.org/url> "https://www.e-nabavki.gov.mk";
+ <http://purl.org/dc/terms/description> "The latest version of the eProcurement system (EPPS) provides an integrated software solution for publishing contract notices and notifications, developed by the Public Procurement Bureau. The new system is a one-stop-shop for public procurement, which streamlines complex procedures and facilitates interaction between businesses and government institutions. It is compliant with the EU Directives and supports all forms of public procurement, including electronic auctions. All public institutions and businesses can register with the system and obtain the obligatory digital certificates for posting tenders or sending bids. The Central Register of North Macedonia together with the Public Procurement Bureau have introduced a simplified issuance of package of documents, and cost reduction for the Public Sector Procurement process. The process of ordering a package of documents and paying can be done through the Electronic System, and all documents are automatically issued and available on the suppliers’ profile." .
+<http://example.org/nifo/publicservice/North_Macedonia/Socialcontributionsforemployees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Social contributions for employees";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/North%2520Macedonia>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Pension and Disability Insurance Fund, Ministry of Labour and Social Policy";
+ <http://schema.org/url> "http://www.piom.com.mk/ ";
+ <http://purl.org/dc/terms/description> "The portal provides e-services, services information, some forms to download and a call centre." .
