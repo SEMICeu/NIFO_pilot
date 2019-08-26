@@ -50,23 +50,23 @@
 <http://example.org/nifo/person/AdrianHasler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Adrian Hasler";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-PrimeMinister>, <http://example.org/nifo/post/Post-BusinessConsultantEGOV(AI)>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/8164> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8865> .
 <http://example.org/nifo/post/Post-PrimeMinister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-PrimeMinister> .
 <http://example.org/nifo/role/Role-PrimeMinister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Prime Minister " .
-<http://example.org/ContactPoint/8164> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/8865> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/faxNumber> "+423 236 60 28";
  <http://schema.org/email> "N/A";
  <http://schema.org/url> "Source: https://www.regierung.li/ " .
 <http://example.org/nifo/person/SylvanFux> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Sylvan Fux";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/491> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4306> .
 <http://example.org/nifo/post/Post-BusinessConsultantEGOV(AI)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-BusinessConsultantEGOV(AI)> .
 <http://example.org/nifo/role/Role-BusinessConsultantEGOV(AI)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Business Consultant EGOV (AI)" .
-<http://example.org/ContactPoint/491> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/4306> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "sylvan.fux@llv.li";
  <http://schema.org/url> "Source: https://ai.llv.li/ " .
 <http://example.org/nifo/publicservice/Liechtenstein/Passport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;

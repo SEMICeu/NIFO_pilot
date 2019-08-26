@@ -57,70 +57,70 @@
 <http://example.org/nifo/person/Dr.AliTahaKOÇ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Dr. Ali Taha KOÇ";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-HeadofDigitalTransformationOfficeofthePresidency>, <http://example.org/nifo/post/Post-Minister-MinistryofTransportandInfrastructure>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/8897> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/6674> .
 <http://example.org/nifo/post/Post-HeadofDigitalTransformationOfficeofthePresidency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-HeadofDigitalTransformationOfficeofthePresidency> .
 <http://example.org/nifo/role/Role-HeadofDigitalTransformationOfficeofthePresidency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Head of Digital Transformation Office of the Presidency" .
-<http://example.org/ContactPoint/8897> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/6674> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "ali.t.koc@cbddo.gov.tr ";
  <http://schema.org/url> "http://www.cbddo.gov.tr/" .
 <http://example.org/nifo/person/MehmetCahitTURHAN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Mehmet Cahit TURHAN";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/2491>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/3538>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DeputyMinister-MinistryofTransportandInfrastructure> .
 <http://example.org/nifo/post/Post-Minister-MinistryofTransportandInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Minister-MinistryofTransportandInfrastructure> .
 <http://example.org/nifo/role/Role-Minister-MinistryofTransportandInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister - Ministry of Transport and Infrastructure" .
-<http://example.org/ContactPoint/2491> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/3538> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/faxNumber> "+90 312 212 49 30";
  <http://schema.org/email> "okm@uab.gov.tr";
  <http://schema.org/url> "http://www.uab.gov.tr/" .
 <http://example.org/nifo/person/Dr.ÖmerFatihSAYAN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Dr. Ömer Fatih SAYAN";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/8970>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2399>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-GeneralManageroftheDirectorateofCommunications> .
 <http://example.org/nifo/post/Post-DeputyMinister-MinistryofTransportandInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DeputyMinister-MinistryofTransportandInfrastructure> .
 <http://example.org/nifo/role/Role-DeputyMinister-MinistryofTransportandInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Deputy Minister - Ministry of Transport and Infrastructure" .
-<http://example.org/ContactPoint/8970> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/2399> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/faxNumber> "+90 312 212 41 87";
  <http://schema.org/email> "of.sayan@btk.gov.tr";
  <http://schema.org/url> "http://www.uab.gov.tr/" .
 <http://example.org/nifo/person/GökhanEVREN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Gökhan EVREN";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/8272>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/188>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-HeadofeGovernmentServicesDepartment-DirectorateofCommunications-MinistryofTransportandInfrastructure> .
 <http://example.org/nifo/post/Post-GeneralManageroftheDirectorateofCommunications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-GeneralManageroftheDirectorateofCommunications> .
 <http://example.org/nifo/role/Role-GeneralManageroftheDirectorateofCommunications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "General Manager of the Directorate of Communications" .
-<http://example.org/ContactPoint/8272> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/188> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/faxNumber> "+90 312 212 41 87";
  <http://schema.org/email> "gokhan.evren@btk.gov.tr";
  <http://schema.org/url> "http://www.uab.gov.tr/" .
 <http://example.org/nifo/person/SezenYEŞİL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Sezen YEŞİL";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/906>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4187>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-CEOofTURKSAT(TurksatSatelliteCommunicationCableTVandOperationInc.)> .
 <http://example.org/nifo/post/Post-HeadofeGovernmentServicesDepartment-DirectorateofCommunications-MinistryofTransportandInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-HeadofeGovernmentServicesDepartment-DirectorateofCommunications-MinistryofTransportandInfrastructure> .
 <http://example.org/nifo/role/Role-HeadofeGovernmentServicesDepartment-DirectorateofCommunications-MinistryofTransportandInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Head of eGovernment Services Department - Directorate of Communications - Ministry of Transport and Infrastructure" .
-<http://example.org/ContactPoint/906> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/4187> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/faxNumber> "+90 312 212 41 87";
  <http://schema.org/email> "sezen.yesil@uab.gov.tr";
  <http://schema.org/url> "http://www.uab.gov.tr/eng" .
 <http://example.org/nifo/person/Prof.Dr.CenkŞEN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Cenk ŞEN";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/7865> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/1062> .
 <http://example.org/nifo/post/Post-CEOofTURKSAT(TurksatSatelliteCommunicationCableTVandOperationInc.)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-CEOofTURKSAT(TurksatSatelliteCommunicationCableTVandOperationInc.)> .
 <http://example.org/nifo/role/Role-CEOofTURKSAT(TurksatSatelliteCommunicationCableTVandOperationInc.)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "CEO of TURKSAT (Turksat Satellite Communication Cable TV and Operation Inc.)" .
-<http://example.org/ContactPoint/7865> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/1062> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/faxNumber> "+90 312 4995115";
  <http://schema.org/email> "info@turksat.com.tr";
  <http://schema.org/url> "https://www.turksat.com.tr/en" .

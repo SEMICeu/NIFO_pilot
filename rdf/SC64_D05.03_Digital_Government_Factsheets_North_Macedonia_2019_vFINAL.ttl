@@ -56,12 +56,12 @@
 <http://example.org/nifo/person/DamjanManchevski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Damjan Manchevski";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofInformationSocietyandAdministration>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/9784> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/9490> .
 <http://example.org/nifo/post/Post-MinisterofInformationSocietyandAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofInformationSocietyandAdministration> .
 <http://example.org/nifo/role/Role-MinisterofInformationSocietyandAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Information Society and Administration" .
-<http://example.org/ContactPoint/9784> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/9490> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+389(0)2 320-0870";
  <http://schema.org/faxNumber> "+389(0)2 322-1883";
  <http://schema.org/url> "http://www.mio.gov.mk/?q=node/2549" .

@@ -46,152 +46,152 @@
 <http://example.org/nifo/person/AlexanderDeCroo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Alexander De Croo";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DeputyPrimeMinisterandMinisterforDevelopmentCooperation,DigitalAgenda,PostandTelecom>, <http://example.org/nifo/post/Post-StateSecretaryforAsylumandMigration,inchargeofAdministrativeSimplification,linkedtotheMinisterforSafetyandInternalAffairs>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/4485> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/7074> .
 <http://example.org/nifo/post/Post-DeputyPrimeMinisterandMinisterforDevelopmentCooperation,DigitalAgenda,PostandTelecom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DeputyPrimeMinisterandMinisterforDevelopmentCooperation,DigitalAgenda,PostandTelecom> .
 <http://example.org/nifo/role/Role-DeputyPrimeMinisterandMinisterforDevelopmentCooperation,DigitalAgenda,PostandTelecom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Deputy Prime Minister and Minister for Development Cooperation, Digital Agenda, Post and Telecom" .
-<http://example.org/ContactPoint/4485> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/7074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "Tel.:+32 2 792 99 00";
  <http://schema.org/url> "http://www.alexanderdecroo.be/" .
 <http://example.org/nifo/person/TheoFrancken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Theo Francken";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/6694>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/5357>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DirectorGeneralDigitalTransformationOffice> .
 <http://example.org/nifo/post/Post-StateSecretaryforAsylumandMigration,inchargeofAdministrativeSimplification,linkedtotheMinisterforSafetyandInternalAffairs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-StateSecretaryforAsylumandMigration,inchargeofAdministrativeSimplification,linkedtotheMinisterforSafetyandInternalAffairs> .
 <http://example.org/nifo/role/Role-StateSecretaryforAsylumandMigration,inchargeofAdministrativeSimplification,linkedtotheMinisterforSafetyandInternalAffairs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "State Secretary for Asylum and Migration, in charge of Administrative Simplification, linked to the Minister for Safety and Internal Affairs" .
-<http://example.org/ContactPoint/6694> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/5357> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "cab.dvz@ibz.fgov.be";
  <http://schema.org/url> "http://www.theofrancken.be/" .
 <http://example.org/nifo/person/BenSmeets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Ben Smeets ";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/133>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4388>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-GeneralManageroftheCrossroadsBankforSocialSecurity(CBSS)> .
 <http://example.org/nifo/post/Post-DirectorGeneralDigitalTransformationOffice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DirectorGeneralDigitalTransformationOffice> .
 <http://example.org/nifo/role/Role-DirectorGeneralDigitalTransformationOffice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Director General Digital Transformation Office " .
-<http://example.org/ContactPoint/133> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/4388> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+ 32 2 740 75 00";
  <http://schema.org/email> "secretariat.dto@bosa.fgov.be ";
  <http://schema.org/url> "https://dt.bosa.be/" .
 <http://example.org/nifo/person/FrankRobben> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Frank Robben";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/7887>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8244>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DeputyPrimeMinisteroftheFlemishGovernmentandFlemishMinisterforLocalandProvincialGovernment,UrbanPolicy,AdministrativeAffairs,CivicIntegration,Housing,SocialEconomy,PovertyandEqualOpportunities> .
 <http://example.org/nifo/post/Post-GeneralManageroftheCrossroadsBankforSocialSecurity(CBSS)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-GeneralManageroftheCrossroadsBankforSocialSecurity(CBSS)> .
 <http://example.org/nifo/role/Role-GeneralManageroftheCrossroadsBankforSocialSecurity(CBSS)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "General Manager of the Crossroads Bank for Social Security (CBSS)" .
-<http://example.org/ContactPoint/7887> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/8244> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+ 32 2 741 84 02";
  <http://schema.org/email> "Management@ksz-bcss.fgov.be";
  <http://schema.org/url> "http://www.ksz-bcss.fgov.be/fr/bcss/static/content/websites/belgium/contact.html" .
 <http://example.org/nifo/person/LiesbethHomans> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Liesbeth Homans";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/2239>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/3836>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Vice-President,MinisterofCultureandChildhood> .
 <http://example.org/nifo/post/Post-DeputyPrimeMinisteroftheFlemishGovernmentandFlemishMinisterforLocalandProvincialGovernment,UrbanPolicy,AdministrativeAffairs,CivicIntegration,Housing,SocialEconomy,PovertyandEqualOpportunities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DeputyPrimeMinisteroftheFlemishGovernmentandFlemishMinisterforLocalandProvincialGovernment,UrbanPolicy,AdministrativeAffairs,CivicIntegration,Housing,SocialEconomy,PovertyandEqualOpportunities> .
 <http://example.org/nifo/role/Role-DeputyPrimeMinisteroftheFlemishGovernmentandFlemishMinisterforLocalandProvincialGovernment,UrbanPolicy,AdministrativeAffairs,CivicIntegration,Housing,SocialEconomy,PovertyandEqualOpportunities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Deputy Prime Minister of the Flemish Government and Flemish Minister for Local and Provincial Government, Urban Policy, Administrative Affairs, Civic Integration, Housing, Social Economy, Poverty and Equal Opportunities " .
-<http://example.org/ContactPoint/2239> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/3836> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+32 2 552 69 00";
  <http://schema.org/faxNumber> "+32 2 552 69 01 ";
  <http://schema.org/url> "http://www.liesbethhomans.be/" .
 <http://example.org/nifo/person/AldaGreoli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Alda Greoli";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/8382>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4269>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-StateSecretaryoftheBrussels-CapitalRegion,responsibleforDevelopmentCooperation,RoadSafety,RegionalandCommunityInformaticsandDigitalTransition,EqualOpportunitiesandAnimalWelfare> .
 <http://example.org/nifo/post/Post-Vice-President,MinisterofCultureandChildhood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Vice-President,MinisterofCultureandChildhood> .
 <http://example.org/nifo/role/Role-Vice-President,MinisterofCultureandChildhood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Vice-President, Minister of Culture and Childhood" .
-<http://example.org/ContactPoint/8382> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/4269> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "02-801.79.11";
  <http://schema.org/email> "alda.greoli@gov.wallonie.be ";
  <http://schema.org/url> "http://greoli.cfwb.be" .
 <http://example.org/nifo/person/BiancaDebaets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Bianca Debaets";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/1420>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4143>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisteroftheFrenchCommunityforBudget,PublicServiceandAdministrativeSimplification> .
 <http://example.org/nifo/post/Post-StateSecretaryoftheBrussels-CapitalRegion,responsibleforDevelopmentCooperation,RoadSafety,RegionalandCommunityInformaticsandDigitalTransition,EqualOpportunitiesandAnimalWelfare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-StateSecretaryoftheBrussels-CapitalRegion,responsibleforDevelopmentCooperation,RoadSafety,RegionalandCommunityInformaticsandDigitalTransition,EqualOpportunitiesandAnimalWelfare> .
 <http://example.org/nifo/role/Role-StateSecretaryoftheBrussels-CapitalRegion,responsibleforDevelopmentCooperation,RoadSafety,RegionalandCommunityInformaticsandDigitalTransition,EqualOpportunitiesandAnimalWelfare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "State Secretary of the Brussels-Capital Region, responsible for Development Cooperation, Road Safety, Regional and Community Informatics and Digital Transition, Equal Opportunities and Animal Welfare" .
-<http://example.org/ContactPoint/1420> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/4143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+32 2 517 13 33";
  <http://schema.org/faxNumber> "+32 2 511 50 83";
  <http://schema.org/url> "https://www.biancadebaets.be/en" .
 <http://example.org/nifo/person/AndréFlahaut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "André Flahaut";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/7924>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/7740>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Minister-President;MinisteroftheGerman-speakingCommunity(Ministerpr%C3%A4sidentderDeutschsprachigenGemeinschaftBelgiens)> .
 <http://example.org/nifo/post/Post-MinisteroftheFrenchCommunityforBudget,PublicServiceandAdministrativeSimplification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisteroftheFrenchCommunityforBudget,PublicServiceandAdministrativeSimplification> .
 <http://example.org/nifo/role/Role-MinisteroftheFrenchCommunityforBudget,PublicServiceandAdministrativeSimplification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of the French Community for Budget, Public Service and Administrative Simplification" .
-<http://example.org/ContactPoint/7924> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/7740> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+ 32 2 801 75 11";
  <http://schema.org/faxNumber> "+32 2 801 75 17";
  <http://schema.org/url> "http://flahaut.cfwb.be/" .
 <http://example.org/nifo/person/OliverPaasch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Oliver Paasch";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/8571>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/3339>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-HeadofDepartmentofInformatics> .
 <http://example.org/nifo/post/Post-Minister-President;MinisteroftheGerman-speakingCommunity(MinisterpräsidentderDeutschsprachigenGemeinschaftBelgiens)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Minister-President;MinisteroftheGerman-speakingCommunity(Ministerpr%C3%A4sidentderDeutschsprachigenGemeinschaftBelgiens)> .
 <http://example.org/nifo/role/Role-Minister-President;MinisteroftheGerman-speakingCommunity(MinisterpräsidentderDeutschsprachigenGemeinschaftBelgiens)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister-President; Minister of the German-speaking Community (Ministerpräsident der Deutschsprachigen Gemeinschaft Belgiens)" .
-<http://example.org/ContactPoint/8571> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/3339> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "serge.heinen@dgov.be";
  <http://schema.org/url> "http://oliver-paasch.eu/home/" .
 <http://example.org/nifo/person/BrunoHick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Bruno Hick";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/933>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/9161>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Administrateur-Generaal,FlandersInformationAgency> .
 <http://example.org/nifo/post/Post-HeadofDepartmentofInformatics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-HeadofDepartmentofInformatics> .
 <http://example.org/nifo/role/Role-HeadofDepartmentofInformatics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Head of Department of Informatics" .
-<http://example.org/ContactPoint/933> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/9161> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+32 8 759 63 09 ";
  <http://schema.org/faxNumber> "+32 8 759 64 11";
  <http://schema.org/url> "http://www.dglive.be/PortalData/2/Resources/downloads/divers/Organigramm_MDG.pdf" .
 <http://example.org/nifo/person/BarbaraVanDenHaute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Barbara Van Den Haute";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/6991>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/128>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Director-GeneraloftheBrusselsRegionalInformaticsCentre(BRIC)> .
 <http://example.org/nifo/post/Post-Administrateur-Generaal,FlandersInformationAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Administrateur-Generaal,FlandersInformationAgency> .
 <http://example.org/nifo/role/Role-Administrateur-Generaal,FlandersInformationAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Administrateur-Generaal, Flanders Information Agency" .
-<http://example.org/ContactPoint/6991> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+32 2 553 72 05";
  <http://schema.org/email> "barbara.vandenhaute@kb.vlaanderen.be";
  <http://schema.org/url> "https://overheid.vlaanderen.be/informatie-vlaanderen" .
 <http://example.org/nifo/person/HervéFeuillien> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Hervé Feuillien";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/9069>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4716>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-AssistantDirectorGeneralTransitionTowardsDigital> .
 <http://example.org/nifo/post/Post-Director-GeneraloftheBrusselsRegionalInformaticsCentre(BRIC)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Director-GeneraloftheBrusselsRegionalInformaticsCentre(BRIC)> .
 <http://example.org/nifo/role/Role-Director-GeneraloftheBrusselsRegionalInformaticsCentre(BRIC)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Director-General of the Brussels Regional Informatics Centre (BRIC)" .
-<http://example.org/ContactPoint/9069> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/4716> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+ 32 2 282 47 70";
  <http://schema.org/email> "information@cirb.irisnet.be";
  <http://schema.org/url> "http://bric.brussels/en/about-the-bric/structure" .
 <http://example.org/nifo/person/OliverSchneider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Oliver Schneider";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/5406> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4446> .
 <http://example.org/nifo/post/Post-AssistantDirectorGeneralTransitionTowardsDigital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-AssistantDirectorGeneralTransitionTowardsDigital> .
 <http://example.org/nifo/role/Role-AssistantDirectorGeneralTransitionTowardsDigital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Assistant Director General Transition Towards Digital" .
-<http://example.org/ContactPoint/5406> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/4446> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/faxNumber> "+32 2 413 35 10";
  <http://schema.org/email> "oliver.schneider@cfwb.be ";
  <http://schema.org/url> "http://www.federation-wallonie-bruxelles.be/" .

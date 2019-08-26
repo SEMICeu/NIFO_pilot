@@ -437,7 +437,7 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/2584"
+          "@id": "http://example.org/ContactPoint/1186"
         }
       ]
     },
@@ -462,7 +462,7 @@
       ]
     },
     {
-      "@id": "http://example.org/ContactPoint/2584",
+      "@id": "http://example.org/ContactPoint/1186",
       "@type": [
         "http://schema.org/ContactPoint"
       ],

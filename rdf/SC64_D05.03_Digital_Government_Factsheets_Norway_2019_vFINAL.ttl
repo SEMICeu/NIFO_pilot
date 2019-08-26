@@ -69,35 +69,35 @@
 <http://example.org/nifo/person/NikolaiAstrup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Nikolai Astrup";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofDigitalisation>, <http://example.org/nifo/post/Post-MinistryofLocalGovernment&Modernisation>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/1162> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2537> .
 <http://example.org/nifo/post/Post-MinisterofDigitalisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofDigitalisation> .
 <http://example.org/nifo/role/Role-MinisterofDigitalisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Digitalisation" .
-<http://example.org/ContactPoint/1162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/2537> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+47 22 24 68 00 ";
  <http://schema.org/email> "postmottak@kmd.dep.no";
  <http://schema.org/url> "Source: https://www.regjeringen.no/en/dep/kmd/organisation/minister-of-digitalisation-nikolai-astrup/id2626348/" .
 <http://example.org/nifo/person/MonicaMæland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Monica Mæland";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/4860>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/5798>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Director,AgencyforPublicManagementandeGovernment> .
 <http://example.org/nifo/post/Post-MinistryofLocalGovernment&Modernisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinistryofLocalGovernment&Modernisation> .
 <http://example.org/nifo/role/Role-MinistryofLocalGovernment&Modernisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Ministry of Local Government & Modernisation" .
-<http://example.org/ContactPoint/4860> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/5798> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+ 47 22 24 90 90";
  <http://schema.org/email> "postmottak@kmd.dep.no";
  <http://schema.org/url> "https://www.regjeringen.no/en/id4/" .
 <http://example.org/nifo/person/SteffenSutorius> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Steffen Sutorius ";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/2619> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8453> .
 <http://example.org/nifo/post/Post-Director,AgencyforPublicManagementandeGovernment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Director,AgencyforPublicManagementandeGovernment> .
 <http://example.org/nifo/role/Role-Director,AgencyforPublicManagementandeGovernment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Director, Agency for Public Management and eGovernment " .
-<http://example.org/ContactPoint/2619> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/8453> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+47 93068459";
  <http://schema.org/email> "steffen.sutorius@difi.no";
  <http://schema.org/url> "http://www.difi.no/" .

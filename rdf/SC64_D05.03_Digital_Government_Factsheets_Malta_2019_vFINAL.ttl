@@ -74,46 +74,46 @@
 <http://example.org/nifo/person/Mr.SilvioSchembri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Mr. Silvio Schembri";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-ParliamentarySecretaryforFinancialServices,DigitalEconomyandInnovation>, <http://example.org/nifo/post/Post-Head%E2%80%93eGovernment&CorporateSolutionsDepartment-MaltaInformationTechnologyAgency(MITA)>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/440> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/5389> .
 <http://example.org/nifo/post/Post-ParliamentarySecretaryforFinancialServices,DigitalEconomyandInnovation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-ParliamentarySecretaryforFinancialServices,DigitalEconomyandInnovation> .
 <http://example.org/nifo/role/Role-ParliamentarySecretaryforFinancialServices,DigitalEconomyandInnovation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Parliamentary Secretary for Financial Services, Digital Economy and Innovation" .
-<http://example.org/ContactPoint/440> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/5389> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "silvio.schembri@gov.mt ";
  <http://schema.org/url> "Source: http://www.opm.gov.mt " .
 <http://example.org/nifo/person/Ms.PriscillaBugeja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Ms. Priscilla Bugeja";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/6198>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/9564>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Head-ProgrammeManagementDepartment%E2%80%93> .
 <http://example.org/nifo/post/Post-Head–eGovernment&CorporateSolutionsDepartment-MaltaInformationTechnologyAgency(MITA)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Head%E2%80%93eGovernment&CorporateSolutionsDepartment-MaltaInformationTechnologyAgency(MITA)> .
 <http://example.org/nifo/role/Role-Head–eGovernment&CorporateSolutionsDepartment-MaltaInformationTechnologyAgency(MITA)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Head – eGovernment & Corporate Solutions Department - Malta Information Technology Agency (MITA)" .
-<http://example.org/ContactPoint/6198> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/9564> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+356 2123 4710";
  <http://schema.org/email> "priscilla.bugeja@gov.mt";
  <http://schema.org/url> "Source: https://www.mita.gov.mt/en/  " .
 <http://example.org/nifo/person/PierreVella> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Pierre Vella";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/6590>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/3123>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-ChiefExecutiveOfficer%E2%80%93MaltaCommunicationAuthority> .
 <http://example.org/nifo/post/Post-Head-ProgrammeManagementDepartment–> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Head-ProgrammeManagementDepartment%E2%80%93> .
 <http://example.org/nifo/role/Role-Head-ProgrammeManagementDepartment–> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Head - Programme Management Department – " .
-<http://example.org/ContactPoint/6590> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/3123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+356 2123 4710";
  <http://schema.org/email> "pierre.vella@gov.mt";
  <http://schema.org/url> "Source: https://www.mita.gov.mt/en/  " .
 <http://example.org/nifo/person/JesmondBugeja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Jesmond Bugeja";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/3592> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/9159> .
 <http://example.org/nifo/post/Post-ChiefExecutiveOfficer–MaltaCommunicationAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-ChiefExecutiveOfficer%E2%80%93MaltaCommunicationAuthority> .
 <http://example.org/nifo/role/Role-ChiefExecutiveOfficer–MaltaCommunicationAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Chief Executive Officer – Malta Communication Authority" .
-<http://example.org/ContactPoint/3592> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/9159> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+356 2133 6840";
  <http://schema.org/email> "info@mca.org.mt  ";
  <http://schema.org/url> "http://www.mca.org.mt" .

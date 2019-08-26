@@ -70,71 +70,71 @@
 <http://example.org/nifo/person/JanHamáček> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Jan Hamáček";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisteroftheInterior>, <http://example.org/nifo/post/Post-DeputyInteriorMinisterforInformationandCommunicationTechnologies>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/5974> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2280> .
 <http://example.org/nifo/post/Post-MinisteroftheInterior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisteroftheInterior> .
 <http://example.org/nifo/role/Role-MinisteroftheInterior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of the Interior" .
-<http://example.org/ContactPoint/5974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/2280> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "ministr@mvcr.cz  ";
  <http://schema.org/telephone> "+420 974 833 151";
  <http://schema.org/url> "http://www.mvcr.cz/" .
 <http://example.org/nifo/person/JaroslavStrouhal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Jaroslav Strouhal";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/4673>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/9874>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofIndustryandTrade> .
 <http://example.org/nifo/post/Post-DeputyInteriorMinisterforInformationandCommunicationTechnologies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DeputyInteriorMinisterforInformationandCommunicationTechnologies> .
 <http://example.org/nifo/role/Role-DeputyInteriorMinisterforInformationandCommunicationTechnologies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Deputy Interior Minister for Information and Communication Technologies " .
-<http://example.org/ContactPoint/4673> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/9874> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "jaroslav.strouhal@mvcr.cz ";
  <http://schema.org/telephone> "+420 974 817 702";
  <http://schema.org/url> "http://www.mvcr.cz/" .
 <http://example.org/nifo/person/KarelHavlíček> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Karel Havlíček ";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/4451>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/9541>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-ChiefDigitalOfficer> .
 <http://example.org/nifo/post/Post-MinisterofIndustryandTrade> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofIndustryandTrade> .
 <http://example.org/nifo/role/Role-MinisterofIndustryandTrade> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Industry and Trade" .
-<http://example.org/ContactPoint/4451> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/9541> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "karel.havlicek@mpo.cz";
  <http://schema.org/telephone> "+420 224 851 111";
  <http://schema.org/url> "https://www.mpo.cz" .
 <http://example.org/nifo/person/VladimírDzurilla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Vladimír Dzurilla";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/2976>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/7241>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DirectorofeGovernmentDepartment> .
 <http://example.org/nifo/post/Post-ChiefDigitalOfficer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-ChiefDigitalOfficer> .
 <http://example.org/nifo/role/Role-ChiefDigitalOfficer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Chief Digital Officer " .
-<http://example.org/ContactPoint/2976> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/7241> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "N/A";
  <http://schema.org/telephone> "+420 225 515 737";
  <http://schema.org/url> "https://www.spcss.cz/kontakty/spcss" .
 <http://example.org/nifo/person/RomanVrba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Roman Vrba";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/8339>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/596>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DirectoroftheNationalRegistersAuthority> .
 <http://example.org/nifo/post/Post-DirectorofeGovernmentDepartment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DirectorofeGovernmentDepartment> .
 <http://example.org/nifo/role/Role-DirectorofeGovernmentDepartment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Director of eGovernment Department " .
-<http://example.org/ContactPoint/8339> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/596> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "roman.vrba@mvcr.cz";
  <http://schema.org/telephone> "+420 974 817 544 ";
  <http://schema.org/url> "http://www.mvcr.cz/clanek/odbor-egovernmentu.aspx" .
 <http://example.org/nifo/person/MichalPešek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Michal Pešek";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/3185> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2968> .
 <http://example.org/nifo/post/Post-DirectoroftheNationalRegistersAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DirectoroftheNationalRegistersAuthority> .
 <http://example.org/nifo/role/Role-DirectoroftheNationalRegistersAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Director of the National Registers Authority" .
-<http://example.org/ContactPoint/3185> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/2968> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "szr@szrcr.cz ";
  <http://schema.org/telephone> "+420 236 031 751; +420 236 031 759";
  <http://schema.org/url> "http://www.szrcr.cz/kontakty" .

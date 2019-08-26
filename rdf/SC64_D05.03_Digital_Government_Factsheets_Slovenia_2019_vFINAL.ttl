@@ -80,35 +80,35 @@
 <http://example.org/nifo/person/RudiMedved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Rudi Medved";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofPublicAdministration>, <http://example.org/nifo/post/Post-Director-GeneraloftheITDirectorate%E2%80%93MinistryofPublicAdministration>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/1901> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/6270> .
 <http://example.org/nifo/post/Post-MinisterofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofPublicAdministration> .
 <http://example.org/nifo/role/Role-MinisterofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Public Administration " .
-<http://example.org/ContactPoint/1901> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/6270> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+386 1 478 8399";
  <http://schema.org/email> "gp.mju@gov.si ";
  <http://schema.org/url> "http://www.mju.gov.si/en/about_the_ministry/leadership/" .
 <http://example.org/nifo/person/Mag.MihaelKrišelj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Mag. Mihael Krišelj";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/2528>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8179>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-ActingDirector-GeneralofInformationSocietyDirectorate%E2%80%93MinistryofPublicAdministration> .
 <http://example.org/nifo/post/Post-Director-GeneraloftheITDirectorate–MinistryofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Director-GeneraloftheITDirectorate%E2%80%93MinistryofPublicAdministration> .
 <http://example.org/nifo/role/Role-Director-GeneraloftheITDirectorate–MinistryofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Director- General of the IT Directorate – Ministry of Public Administration" .
-<http://example.org/ContactPoint/2528> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/8179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+386 1 478 86 51";
  <http://schema.org/email> "gp.mju@gov.si";
  <http://schema.org/url> "http://www.mju.gov.si/en/about_the_ministry/leadership/" .
 <http://example.org/nifo/person/Dr.UrošSvete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Dr. Uroš Svete";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/5900> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/7793> .
 <http://example.org/nifo/post/Post-ActingDirector-GeneralofInformationSocietyDirectorate–MinistryofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-ActingDirector-GeneralofInformationSocietyDirectorate%E2%80%93MinistryofPublicAdministration> .
 <http://example.org/nifo/role/Role-ActingDirector-GeneralofInformationSocietyDirectorate–MinistryofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Acting Director- General of Information Society Directorate – Ministry of Public Administration" .
-<http://example.org/ContactPoint/5900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/7793> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+386 1 478 86 51";
  <http://schema.org/email> "gp.mju@gov.si ";
  <http://schema.org/url> "http://www.mju.gov.si/en/about_the_ministry/leadership/" .

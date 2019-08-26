@@ -54,48 +54,48 @@
 <http://example.org/nifo/person/GiuliaBongiorno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Giulia Bongiorno ";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterSimplificationforPublicAdministration>, <http://example.org/nifo/post/Post-StateSecretaryattheMinistryofPublicAdministration>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/3475> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4631> .
 <http://example.org/nifo/post/Post-MinisterSimplificationforPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterSimplificationforPublicAdministration> .
 <http://example.org/nifo/role/Role-MinisterSimplificationforPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister Simplification for Public Administration " .
-<http://example.org/ContactPoint/3475> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/4631> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "(+39) 06 68997580";
  <http://schema.org/faxNumber> "(+39) 06 68997188 ";
  <http://schema.org/email> "ministropa@governo.it ";
  <http://schema.org/url> "http://www.funzionepubblica.gov.it/" .
 <http://example.org/nifo/person/MattiaFantinati> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Mattia Fantinati ";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/8454>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4770>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DirectorGeneraloftheAgencyforDigitalItaly> .
 <http://example.org/nifo/post/Post-StateSecretaryattheMinistryofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-StateSecretaryattheMinistryofPublicAdministration> .
 <http://example.org/nifo/role/Role-StateSecretaryattheMinistryofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "State Secretary at the Ministry of Public Administration" .
-<http://example.org/ContactPoint/8454> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/4770> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "(+39) 06 0668997151";
  <http://schema.org/email> "segreteriafantinati@governo.it";
  <http://schema.org/url> "http://www.funzionepubblica.gov.it/" .
 <http://example.org/nifo/person/TeresaAlvaro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Teresa Alvaro";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/5175>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2588>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-ExtraordinaryCommissionerfortheImplementationoftheDigitalAgenda> .
 <http://example.org/nifo/post/Post-DirectorGeneraloftheAgencyforDigitalItaly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DirectorGeneraloftheAgencyforDigitalItaly> .
 <http://example.org/nifo/role/Role-DirectorGeneraloftheAgencyforDigitalItaly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Director General of the Agency for Digital Italy" .
-<http://example.org/ContactPoint/5175> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/2588> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "(+39) 06852641";
  <http://schema.org/email> "protocollo@pec.agid.gov.it ";
  <http://schema.org/url> "http://www.agid.gov.it/" .
 <http://example.org/nifo/person/LucaAttias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Luca Attias";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/8474> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/5809> .
 <http://example.org/nifo/post/Post-ExtraordinaryCommissionerfortheImplementationoftheDigitalAgenda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-ExtraordinaryCommissionerfortheImplementationoftheDigitalAgenda> .
 <http://example.org/nifo/role/Role-ExtraordinaryCommissionerfortheImplementationoftheDigitalAgenda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Extraordinary Commissioner for the Implementation of the Digital Agenda " .
-<http://example.org/ContactPoint/8474> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/5809> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "teamdigitale@governo.it";
  <http://schema.org/url> "Source: https://teamdigitale.governo.it/en/team" .
 <http://example.org/nifo/publicservice/Italy/Passport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
