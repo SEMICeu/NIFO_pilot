@@ -43,36 +43,36 @@
 <http://example.org/nifo/person/UeliMaurer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Ueli Maurer";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-HeadoftheFederalDepartmentofFinanceandChairoftheSteeringCommitteeforimplementationoftheeGovernmentstrategy>, <http://example.org/nifo/post/Post-DirectoroftheFederalITSteeringUnit(FITSU),DelegateforFederalITSteering>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/2273> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4820> .
 <http://example.org/nifo/post/Post-HeadoftheFederalDepartmentofFinanceandChairoftheSteeringCommitteeforimplementationoftheeGovernmentstrategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-HeadoftheFederalDepartmentofFinanceandChairoftheSteeringCommitteeforimplementationoftheeGovernmentstrategy> .
 <http://example.org/nifo/role/Role-HeadoftheFederalDepartmentofFinanceandChairoftheSteeringCommitteeforimplementationoftheeGovernmentstrategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Head of the Federal Department of Finance and Chair of the Steering Committee for implementation of the eGovernment strategy" .
-<http://example.org/ContactPoint/2273> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/4820> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+41 31 322 2111";
  <http://schema.org/faxNumber> "+41 31 323 3852";
  <http://schema.org/email> "info@gs-efd.admin.ch";
  <http://schema.org/url> "http://www.egovernment.ch/" .
 <http://example.org/nifo/person/PeterFischer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Peter Fischer";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/8101>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4289>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-ManagerProgrammeOffice,E-GovernmentSwitzerland> .
 <http://example.org/nifo/post/Post-DirectoroftheFederalITSteeringUnit(FITSU),DelegateforFederalITSteering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DirectoroftheFederalITSteeringUnit(FITSU),DelegateforFederalITSteering> .
 <http://example.org/nifo/role/Role-DirectoroftheFederalITSteeringUnit(FITSU),DelegateforFederalITSteering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Director of the Federal IT Steering Unit (FITSU), Delegate for Federal IT Steering " .
-<http://example.org/ContactPoint/8101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/4289> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+41 (0)58 46 245 38";
  <http://schema.org/email> "info@isb.admin.ch";
  <http://schema.org/url> "https://www.isb.admin.ch/" .
 <http://example.org/nifo/person/CedricRoy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Cedric Roy";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/2190> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/1> .
 <http://example.org/nifo/post/Post-ManagerProgrammeOffice,E-GovernmentSwitzerland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-ManagerProgrammeOffice,E-GovernmentSwitzerland> .
 <http://example.org/nifo/role/Role-ManagerProgrammeOffice,E-GovernmentSwitzerland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Manager Programme Office, E-Government Switzerland" .
-<http://example.org/ContactPoint/2190> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+ 41 58 464 79 21";
  <http://schema.org/email> "cedric.roy@egovernment.ch";
  <http://schema.org/url> "http://www.egovernment.ch/" .

@@ -43,23 +43,23 @@
 <http://example.org/nifo/person/SándorPintér> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Sándor Pintér";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofInterior>, <http://example.org/nifo/post/Post-DeputyStateSecretaryforInformatics,MinistryofInterior>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/359> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/7806> .
 <http://example.org/nifo/post/Post-MinisterofInterior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofInterior> .
 <http://example.org/nifo/role/Role-MinisterofInterior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Interior" .
-<http://example.org/ContactPoint/359> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/7806> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+36-1-441-1717 ";
  <http://schema.org/email> "miniszter@bm.gov.hu ";
  <http://schema.org/url> "http://www.kormany.hu/en/ministry-of-interior/the-minister" .
 <http://example.org/nifo/person/KárolyHajzer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Károly Hajzer";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/5641> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8547> .
 <http://example.org/nifo/post/Post-DeputyStateSecretaryforInformatics,MinistryofInterior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DeputyStateSecretaryforInformatics,MinistryofInterior> .
 <http://example.org/nifo/role/Role-DeputyStateSecretaryforInformatics,MinistryofInterior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Deputy State Secretary for Informatics, Ministry of Interior" .
-<http://example.org/ContactPoint/5641> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/8547> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "karoly.hajzer@bm.gov.hu ";
  <http://schema.org/url> "http://www.kormany.hu/hu/belugyminiszterium/helyettes-allamtitkarok" .
 <http://example.org/nifo/publicservice/Hungary/Passport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;

@@ -1,5 +1,6 @@
 {
   "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
     "dct": "http://purl.org/dc/terms/",
     "dcmi": "http://purl.org/dc/dcmitype/",
     "dbo": "http://dbpedia.org/ontology/",
@@ -10,8 +11,7 @@
     "eli": "http://data.europa.eu/eli/ontology#",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "org": "http://www.w3.org/ns/org#",
-    "schema": "http://schema.org/",
-    "rdfa": "http://www.w3.org/ns/rdfa#"
+    "schema": "http://schema.org/"
   },
   "@graph": [
     {
@@ -701,7 +701,7 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/9478"
+          "@id": "http://example.org/ContactPoint/6780"
         }
       ]
     },
@@ -726,7 +726,7 @@
       ]
     },
     {
-      "@id": "http://example.org/ContactPoint/9478",
+      "@id": "http://example.org/ContactPoint/6780",
       "@type": [
         "http://schema.org/ContactPoint"
       ],
@@ -750,7 +750,7 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/4170"
+          "@id": "http://example.org/ContactPoint/657"
         }
       ],
       "http://www.w3.org/ns/org#holds": [
@@ -780,7 +780,7 @@
       ]
     },
     {
-      "@id": "http://example.org/ContactPoint/4170",
+      "@id": "http://example.org/ContactPoint/657",
       "@type": [
         "http://schema.org/ContactPoint"
       ],
@@ -807,7 +807,7 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/4656"
+          "@id": "http://example.org/ContactPoint/7581"
         }
       ],
       "http://www.w3.org/ns/org#holds": [
@@ -837,7 +837,7 @@
       ]
     },
     {
-      "@id": "http://example.org/ContactPoint/4656",
+      "@id": "http://example.org/ContactPoint/7581",
       "@type": [
         "http://schema.org/ContactPoint"
       ],
@@ -864,7 +864,7 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/3942"
+          "@id": "http://example.org/ContactPoint/198"
         }
       ],
       "http://www.w3.org/ns/org#holds": [
@@ -894,7 +894,7 @@
       ]
     },
     {
-      "@id": "http://example.org/ContactPoint/3942",
+      "@id": "http://example.org/ContactPoint/198",
       "@type": [
         "http://schema.org/ContactPoint"
       ],
@@ -918,7 +918,7 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/6079"
+          "@id": "http://example.org/ContactPoint/2531"
         }
       ]
     },
@@ -943,7 +943,7 @@
       ]
     },
     {
-      "@id": "http://example.org/ContactPoint/6079",
+      "@id": "http://example.org/ContactPoint/2531",
       "@type": [
         "http://schema.org/ContactPoint"
       ],

@@ -115,19 +115,19 @@
 <http://example.org/nifo/person/AlexandruPetrescu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Alexandru Petrescu";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofCommunicationsandInformationSociety>, <http://example.org/nifo/post/Post-DirectorGeneralforInformationSociety>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/9336> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4410> .
 <http://example.org/nifo/post/Post-MinisterofCommunicationsandInformationSociety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofCommunicationsandInformationSociety> .
 <http://example.org/nifo/role/Role-MinisterofCommunicationsandInformationSociety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Communications and Information Society" .
-<http://example.org/ContactPoint/9336> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/4410> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+40 21 400 11 90";
  <http://schema.org/faxNumber> "+40 21 311 41 31";
  <http://schema.org/email> "cabinetministru@comunicatii.gov.ro";
  <http://schema.org/url> "https://www.comunicatii.gov.ro/conducere-ministru/" .
 <http://example.org/nifo/person/CorneliuMănescu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Corneliu Mănescu";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/5165>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/778>;
  <http://schema.org/telephone> "+40 21 311 41 40";
  <http://schema.org/faxNumber> "+40 21 311 41 40";
  <http://schema.org/email> "monica.chiffa@comunicatii.gov.ro ";
@@ -136,7 +136,7 @@
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DirectorGeneralforInformationSociety> .
 <http://example.org/nifo/role/Role-DirectorGeneralforInformationSociety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Director General for Information Society " .
-<http://example.org/ContactPoint/5165> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+40 21 311 41 50";
  <http://schema.org/faxNumber> "+40 21 311 41 03";
  <http://schema.org/email> "corneliu.manescu@comunicatii.gov.ro ";

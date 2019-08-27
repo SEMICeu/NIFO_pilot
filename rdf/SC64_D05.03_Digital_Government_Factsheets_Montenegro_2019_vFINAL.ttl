@@ -58,12 +58,12 @@
 <http://example.org/nifo/person/SuzanaPribilović> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Suzana Pribilović";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofPublicAdministration>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/6840> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/5260> .
 <http://example.org/nifo/post/Post-MinisterofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofPublicAdministration> .
 <http://example.org/nifo/role/Role-MinisterofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Public Administration" .
-<http://example.org/ContactPoint/6840> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/5260> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+382 20 482 131";
  <http://schema.org/email> "kabinet@mju.gov.me ";
  <http://schema.org/url> "Source: www.mju.gov.me " .

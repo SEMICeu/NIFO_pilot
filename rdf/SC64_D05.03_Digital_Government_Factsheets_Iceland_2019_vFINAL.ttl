@@ -45,24 +45,24 @@
 <http://example.org/nifo/person/SigurðurIngiJóhannsson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Sigurður Ingi Jóhannsson";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofTransportandLocalGovernment>, <http://example.org/nifo/post/Post-DirectorofInformationSocietyAffairs>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/1083> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8256> .
 <http://example.org/nifo/post/Post-MinisterofTransportandLocalGovernment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofTransportandLocalGovernment> .
 <http://example.org/nifo/role/Role-MinisterofTransportandLocalGovernment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Transport and Local Government" .
-<http://example.org/ContactPoint/1083> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/8256> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+354 545 9000";
  <http://schema.org/faxNumber> "+354 552 7340";
  <http://schema.org/email> "N/A";
  <http://schema.org/url> "http://eng.innanrikisraduneyti.is/" .
 <http://example.org/nifo/person/GuðbjörgSigurðardóttir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Guðbjörg Sigurðardóttir";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/3706> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4440> .
 <http://example.org/nifo/post/Post-DirectorofInformationSocietyAffairs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DirectorofInformationSocietyAffairs> .
 <http://example.org/nifo/role/Role-DirectorofInformationSocietyAffairs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Director of Information Society Affairs" .
-<http://example.org/ContactPoint/3706> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/4440> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+354 545 9000";
  <http://schema.org/faxNumber> "+354 552 7340";
  <http://schema.org/email> "gudbjorg.sigurdardottir@irr.is";
