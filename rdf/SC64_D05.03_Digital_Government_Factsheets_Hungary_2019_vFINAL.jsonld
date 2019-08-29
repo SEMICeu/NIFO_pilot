@@ -275,7 +275,7 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/7806"
+          "@id": "http://example.org/ContactPoint/2193"
         }
       ]
     },
@@ -300,7 +300,7 @@
       ]
     },
     {
-      "@id": "http://example.org/ContactPoint/7806",
+      "@id": "http://example.org/ContactPoint/2193",
       "@type": [
         "http://schema.org/ContactPoint"
       ],
@@ -324,7 +324,7 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/8547"
+          "@id": "http://example.org/ContactPoint/7205"
         }
       ]
     },
@@ -349,7 +349,7 @@
       ]
     },
     {
-      "@id": "http://example.org/ContactPoint/8547",
+      "@id": "http://example.org/ContactPoint/7205",
       "@type": [
         "http://schema.org/ContactPoint"
       ],

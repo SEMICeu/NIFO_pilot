@@ -422,7 +422,7 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/1663"
+          "@id": "http://example.org/ContactPoint/6445"
         }
       ]
     },
@@ -447,7 +447,7 @@
       ]
     },
     {
-      "@id": "http://example.org/ContactPoint/1663",
+      "@id": "http://example.org/ContactPoint/6445",
       "@type": [
         "http://schema.org/ContactPoint"
       ],
@@ -471,7 +471,7 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/297"
+          "@id": "http://example.org/ContactPoint/7145"
         }
       ],
       "http://www.w3.org/ns/org#holds": [
@@ -501,7 +501,7 @@
       ]
     },
     {
-      "@id": "http://example.org/ContactPoint/297",
+      "@id": "http://example.org/ContactPoint/7145",
       "@type": [
         "http://schema.org/ContactPoint"
       ],
@@ -525,7 +525,7 @@
       ],
       "http://schema.org/contactPoint": [
         {
-          "@id": "http://example.org/ContactPoint/8073"
+          "@id": "http://example.org/ContactPoint/9694"
         }
       ]
     },
@@ -550,7 +550,7 @@
       ]
     },
     {
-      "@id": "http://example.org/ContactPoint/8073",
+      "@id": "http://example.org/ContactPoint/9694",
       "@type": [
         "http://schema.org/ContactPoint"
       ],

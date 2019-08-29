@@ -57,35 +57,35 @@
 <http://example.org/nifo/person/XavierBettel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Xavier Bettel";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-PrimeMinister/MinisterforDigitalisation>, <http://example.org/nifo/post/Post-MinisterDelegateforDigitalisation>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/1011> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/6236> .
 <http://example.org/nifo/post/Post-PrimeMinister/MinisterforDigitalisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-PrimeMinister/MinisterforDigitalisation> .
 <http://example.org/nifo/role/Role-PrimeMinister/MinisterforDigitalisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Prime Minister / Minister for Digitalisation" .
-<http://example.org/ContactPoint/1011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/6236> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "info@digital.etat.lu ";
  <http://schema.org/telephone> "(+352) 247 82 101";
  <http://schema.org/url> "https://gouvernement.lu/en/gouvernement/xavier-bettel.html" .
 <http://example.org/nifo/person/MarcHansen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Marc Hansen";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/4925>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/936>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Director,StateInformationTechnologyCentre> .
 <http://example.org/nifo/post/Post-MinisterDelegateforDigitalisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterDelegateforDigitalisation> .
 <http://example.org/nifo/role/Role-MinisterDelegateforDigitalisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister Delegate for Digitalisation" .
-<http://example.org/ContactPoint/4925> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/936> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "info@digital.etat.lu ";
  <http://schema.org/telephone> "(+352) 247 83 101 ";
  <http://schema.org/url> "https://gouvernement.lu/en/gouvernement/marc-hansen.html" .
 <http://example.org/nifo/person/PatrickHoutsch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Patrick Houtsch";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/3439> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/7606> .
 <http://example.org/nifo/post/Post-Director,StateInformationTechnologyCentre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Director,StateInformationTechnologyCentre> .
 <http://example.org/nifo/role/Role-Director,StateInformationTechnologyCentre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Director, State Information Technology Centre " .
-<http://example.org/ContactPoint/3439> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/7606> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "secretariat@ctie.etat.lu ";
  <http://schema.org/telephone> "(+352) 247 81723 ";
  <http://schema.org/url> "http://www.fonction-publique.public.lu/ " .

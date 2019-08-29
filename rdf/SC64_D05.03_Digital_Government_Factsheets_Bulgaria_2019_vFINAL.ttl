@@ -45,55 +45,55 @@
 <http://example.org/nifo/person/AtanasTemelkov> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Atanas Temelkov";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-ChairpersonofStateeGovernmentAgency>, <http://example.org/nifo/post/Post-DeputyChairpersonofStateeGovernmentAgency>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/8792> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8931> .
 <http://example.org/nifo/post/Post-ChairpersonofStateeGovernmentAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-ChairpersonofStateeGovernmentAgency> .
 <http://example.org/nifo/role/Role-ChairpersonofStateeGovernmentAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Chairperson of State eGovernment Agency" .
-<http://example.org/ContactPoint/8792> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/8931> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "mail@e-gov.bg ";
  <http://schema.org/telephone> "+359 2 949 21 15 ";
  <http://schema.org/url> "Source: https://e-gov.bg" .
 <http://example.org/nifo/person/AlexanderYolovski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Alexander Yolovski ";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/480>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8887>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DeputyChairpersonofStateeGovernmentAgency> .
 <http://example.org/nifo/post/Post-DeputyChairpersonofStateeGovernmentAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DeputyChairpersonofStateeGovernmentAgency> .
 <http://example.org/nifo/role/Role-DeputyChairpersonofStateeGovernmentAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Deputy Chairperson of State eGovernment Agency" .
-<http://example.org/ContactPoint/480> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/8887> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "ayolovski@e-gov.bg";
  <http://schema.org/telephone> "+359 2 949 24 68 ";
  <http://schema.org/url> "Source: https://e-gov.bg" .
 <http://example.org/nifo/person/KrasimirSimonski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Krasimir Simonski";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/1210>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2348>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofTransport,InformationTechnologyandCommunications> .
-<http://example.org/ContactPoint/1210> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/2348> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "ksimonski@e-gov.bg";
  <http://schema.org/telephone> "+359 2 949 21 24 ";
  <http://schema.org/url> "Source: https://e-gov.bg" .
 <http://example.org/nifo/person/RossenJeliazkov> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Rossen Jeliazkov";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/9620>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/354>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DeputyMinisterofTransport,InformationTechnologyandCommunications> .
 <http://example.org/nifo/post/Post-MinisterofTransport,InformationTechnologyandCommunications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofTransport,InformationTechnologyandCommunications> .
 <http://example.org/nifo/role/Role-MinisterofTransport,InformationTechnologyandCommunications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Transport, Information Technology and Communications " .
-<http://example.org/ContactPoint/9620> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/354> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "mail@mtitc.government.bg ";
  <http://schema.org/telephone> "+359 2 940 97 71 ";
  <http://schema.org/url> "http://www.mtitc.government.bg/page.php?category=134" .
 <http://example.org/nifo/person/DimitarGenovski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Dimitar Genovski ";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/9659> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/5833> .
 <http://example.org/nifo/post/Post-DeputyMinisterofTransport,InformationTechnologyandCommunications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DeputyMinisterofTransport,InformationTechnologyandCommunications> .
 <http://example.org/nifo/role/Role-DeputyMinisterofTransport,InformationTechnologyandCommunications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Deputy Minister of Transport, Information Technology and Communications " .
-<http://example.org/ContactPoint/9659> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/5833> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "mail@mtitc.government.bg";
  <http://schema.org/telephone> "+359 2 940 97 71 ";
  <http://schema.org/url> "http://www.mtitc.government.bg/" .

@@ -79,24 +79,24 @@
 <http://example.org/nifo/person/JurisPūce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Juris Pūce";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofEnvironmentalProtectionandRegionalDevelopment>, <http://example.org/nifo/post/Post-DeputySecretaryofStateforinformationandcommunicationtechnologyissues>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/2579> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/5800> .
 <http://example.org/nifo/post/Post-MinisterofEnvironmentalProtectionandRegionalDevelopment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofEnvironmentalProtectionandRegionalDevelopment> .
 <http://example.org/nifo/role/Role-MinisterofEnvironmentalProtectionandRegionalDevelopment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Environmental Protection and Regional Development" .
-<http://example.org/ContactPoint/2579> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/5800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+371 67026400 ";
  <http://schema.org/faxNumber> "+371 67820442";
  <http://schema.org/email> "juris.puce@varam.gov.lv ";
  <http://schema.org/url> "Source: http://www.varam.gov.lv " .
 <http://example.org/nifo/person/EdmundsBelskis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Edmunds Belskis";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/21> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/5943> .
 <http://example.org/nifo/post/Post-DeputySecretaryofStateforinformationandcommunicationtechnologyissues> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DeputySecretaryofStateforinformationandcommunicationtechnologyissues> .
 <http://example.org/nifo/role/Role-DeputySecretaryofStateforinformationandcommunicationtechnologyissues> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Deputy Secretary of State for information and communication technology issues" .
-<http://example.org/ContactPoint/21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/5943> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+371 67026535";
  <http://schema.org/faxNumber> "+371 67820442";
  <http://schema.org/email> "edmunds.belskis@varam.gov.lv ";

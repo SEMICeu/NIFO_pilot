@@ -70,119 +70,119 @@
 <http://example.org/nifo/person/KertKingo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Kert Kingo";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofForeignTradeandInformationTechnology>, <http://example.org/nifo/post/Post-DeputySecretaryGeneralforITandTelecom,GovernmentChiefInformationOfficer(CIO)>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/9579> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2654> .
 <http://example.org/nifo/post/Post-MinisterofForeignTradeandInformationTechnology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofForeignTradeandInformationTechnology> .
 <http://example.org/nifo/role/Role-MinisterofForeignTradeandInformationTechnology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Foreign Trade and Information Technology " .
-<http://example.org/ContactPoint/9579> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/2654> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "hele.karilaid@mkm.ee (Advisor to the Minister)";
  <http://schema.org/telephone> "+372 7153415";
  <http://schema.org/url> "Source: https://www.mkm.ee/en/ministry-contact/minister-foreign-trade-and-information-technology " .
 <http://example.org/nifo/person/SiimSikkut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Siim Sikkut";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/4475>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/6107>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-GovernmentChiefTechnologyOfficer> .
 <http://example.org/nifo/post/Post-DeputySecretaryGeneralforITandTelecom,GovernmentChiefInformationOfficer(CIO)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DeputySecretaryGeneralforITandTelecom,GovernmentChiefInformationOfficer(CIO)> .
 <http://example.org/nifo/role/Role-DeputySecretaryGeneralforITandTelecom,GovernmentChiefInformationOfficer(CIO)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Deputy Secretary General for IT and Telecom, Government Chief Information Officer (CIO)" .
-<http://example.org/ContactPoint/4475> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/6107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "siim.sikkut@mkm.ee ";
  <http://schema.org/telephone> "+372 63 97 680";
  <http://schema.org/url> "http://www.mkm.ee/en" .
 <http://example.org/nifo/person/KristoVaher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Kristo Vaher";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/4357>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/3535>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-GovernmentChiefDataOfficer> .
 <http://example.org/nifo/post/Post-GovernmentChiefTechnologyOfficer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-GovernmentChiefTechnologyOfficer> .
 <http://example.org/nifo/role/Role-GovernmentChiefTechnologyOfficer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Government Chief Technology Officer" .
-<http://example.org/ContactPoint/4357> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/3535> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "kristo.vaher@mkm.ee ";
  <http://schema.org/telephone> "+372 6208149";
  <http://schema.org/url> "http://www.mkm.ee/en" .
 <http://example.org/nifo/person/OttVelsberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Ott Velsberg";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/7568>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/6154>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-ChiefOperationsOfficer,DeputyGCIO> .
 <http://example.org/nifo/post/Post-GovernmentChiefDataOfficer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-GovernmentChiefDataOfficer> .
 <http://example.org/nifo/role/Role-GovernmentChiefDataOfficer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Government Chief Data Officer" .
-<http://example.org/ContactPoint/7568> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/6154> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "ott.velsberg@mkm.ee ";
  <http://schema.org/telephone> "+372 6256417 ";
  <http://schema.org/url> "http://www.mkm.ee/en" .
 <http://example.org/nifo/person/MiiaMänd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Miia Mänd";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/4632>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/3847>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-GovernmentChiefDigitalOfficer,DeputyGCIO> .
 <http://example.org/nifo/post/Post-ChiefOperationsOfficer,DeputyGCIO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-ChiefOperationsOfficer,DeputyGCIO> .
 <http://example.org/nifo/role/Role-ChiefOperationsOfficer,DeputyGCIO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Chief Operations Officer, Deputy GCIO" .
-<http://example.org/ContactPoint/4632> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/3847> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "miia.mand@mkm.ee ";
  <http://schema.org/telephone> "+372 6256372";
  <http://schema.org/url> "http://www.mkm.ee/en" .
 <http://example.org/nifo/person/JanekRozov> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Janek Rozov";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/9850>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/9958>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-GlobalAffairsDirector> .
 <http://example.org/nifo/post/Post-GovernmentChiefDigitalOfficer,DeputyGCIO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-GovernmentChiefDigitalOfficer,DeputyGCIO> .
 <http://example.org/nifo/role/Role-GovernmentChiefDigitalOfficer,DeputyGCIO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Government Chief Digital Officer, Deputy GCIO" .
-<http://example.org/ContactPoint/9850> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/9958> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "janek.rozov@mkm.ee ";
  <http://schema.org/telephone> "+372 6256364 ";
  <http://schema.org/url> "http://www.mkm.ee/en" .
 <http://example.org/nifo/person/SandraSärav> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Sandra Särav";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/1094>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/7201>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-NationalCyberSecurityPolicyDirector> .
 <http://example.org/nifo/post/Post-GlobalAffairsDirector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-GlobalAffairsDirector> .
 <http://example.org/nifo/role/Role-GlobalAffairsDirector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Global Affairs Director" .
-<http://example.org/ContactPoint/1094> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/7201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "sandra.sarav@mkm.ee";
  <http://schema.org/telephone> "+372 55 12 001";
  <http://schema.org/url> "http://www.mkm.ee/en" .
 <http://example.org/nifo/person/RaulRikk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Raul Rikk";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/7917>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2257>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-ICTSkillsCoordinationDirector> .
 <http://example.org/nifo/post/Post-NationalCyberSecurityPolicyDirector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-NationalCyberSecurityPolicyDirector> .
 <http://example.org/nifo/role/Role-NationalCyberSecurityPolicyDirector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "National Cyber Security Policy Director" .
-<http://example.org/ContactPoint/7917> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/2257> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "raul.rikk@mkm.ee ";
  <http://schema.org/telephone> "+372 6256338";
  <http://schema.org/url> "https://ega.ee/people/raul-rikk/" .
 <http://example.org/nifo/person/KristiKivilo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Kristi Kivilo";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/5597>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/572>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DirectorGeneraloftheEstonianInformationSystemAuthority(RIA)> .
 <http://example.org/nifo/post/Post-ICTSkillsCoordinationDirector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-ICTSkillsCoordinationDirector> .
 <http://example.org/nifo/role/Role-ICTSkillsCoordinationDirector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "ICT Skills Coordination Director" .
-<http://example.org/ContactPoint/5597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/572> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "kristi.kivilo@mkm.ee";
  <http://schema.org/telephone> "+372 63 97 643";
  <http://schema.org/url> "http://www.mkm.ee/en" .
 <http://example.org/nifo/person/MargusNoormaa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Margus Noormaa";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/9228> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/1725> .
 <http://example.org/nifo/post/Post-DirectorGeneraloftheEstonianInformationSystemAuthority(RIA)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DirectorGeneraloftheEstonianInformationSystemAuthority(RIA)> .
 <http://example.org/nifo/role/Role-DirectorGeneraloftheEstonianInformationSystemAuthority(RIA)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Director General of the Estonian Information System Authority (RIA)" .
-<http://example.org/ContactPoint/9228> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/1725> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "margus.noormaa@ria.ee ";
  <http://schema.org/telephone> "Not available";
  <http://schema.org/url> "http://www.ria.ee/kontakt" .

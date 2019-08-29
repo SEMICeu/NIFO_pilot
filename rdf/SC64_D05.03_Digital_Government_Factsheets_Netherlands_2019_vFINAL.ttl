@@ -58,47 +58,47 @@
 <http://example.org/nifo/person/RaymondKnoops> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Raymond Knoops";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-StateSecretaryfortheInteriorandKingdomRelation>, <http://example.org/nifo/post/Post-DirectorInformationSocietyandGovernment>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/2743> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/5184> .
 <http://example.org/nifo/post/Post-StateSecretaryfortheInteriorandKingdomRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-StateSecretaryfortheInteriorandKingdomRelation> .
 <http://example.org/nifo/role/Role-StateSecretaryfortheInteriorandKingdomRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "State Secretary for the Interior and Kingdom Relation " .
-<http://example.org/ContactPoint/2743> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/5184> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+31 70 426 63 02";
  <http://schema.org/email> "info@minbzk.nl ";
  <http://schema.org/url> "https://www.government.nl/" .
 <http://example.org/nifo/person/BasdenHollander> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Bas den Hollander ";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/1199>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/9457>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Director,GovernmentICTUnit(ICTU)> .
 <http://example.org/nifo/post/Post-DirectorInformationSocietyandGovernment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DirectorInformationSocietyandGovernment> .
 <http://example.org/nifo/role/Role-DirectorInformationSocietyandGovernment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Director Information Society and Government " .
-<http://example.org/ContactPoint/1199> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/9457> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+31 70 426 6176";
  <http://schema.org/email> "info@minbzk.nl ";
  <http://schema.org/url> "https://www.rijksoverheid.nl/" .
 <http://example.org/nifo/person/AndréRegtop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "André Regtop ";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/8016>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2752>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-GeneralDirectorLogius> .
 <http://example.org/nifo/post/Post-Director,GovernmentICTUnit(ICTU)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Director,GovernmentICTUnit(ICTU)> .
 <http://example.org/nifo/role/Role-Director,GovernmentICTUnit(ICTU)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Director, Government ICT Unit (ICTU)" .
-<http://example.org/ContactPoint/8016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/2752> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+31 70 7000 900";
  <http://schema.org/email> "info@ictu.nl";
  <http://schema.org/url> "https://www.ictu.nl/" .
 <http://example.org/nifo/person/YvonnevanderBrugge-Wolring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Yvonne van der Brugge-Wolring";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/9291> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/5043> .
 <http://example.org/nifo/post/Post-GeneralDirectorLogius> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-GeneralDirectorLogius> .
 <http://example.org/nifo/role/Role-GeneralDirectorLogius> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "General Director Logius" .
-<http://example.org/ContactPoint/9291> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/5043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+31 70 888 75 10";
  <http://schema.org/email> "yvonne.vander.brugge@logius.nl ";
  <http://schema.org/url> "https://www.logius.nl/" .

@@ -60,59 +60,59 @@
 <http://example.org/nifo/person/NikosPappas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Nikos Pappas";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofDigitalPolicy,Telecommunications&Media>, <http://example.org/nifo/post/Post-MinisterSecretaryGeneralforDigitalPolicy>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/2402> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2694> .
 <http://example.org/nifo/post/Post-MinisterofDigitalPolicy,Telecommunications&Media> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofDigitalPolicy,Telecommunications&Media> .
 <http://example.org/nifo/role/Role-MinisterofDigitalPolicy,Telecommunications&Media> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Digital Policy, Telecommunications & Media" .
-<http://example.org/ContactPoint/2402> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/2694> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+30 210 9098600-2";
  <http://schema.org/email> "minister@mindigital.gr, sec@mindigital.gr ";
  <http://schema.org/url> "Source: http://www.mindigital.gr/ " .
 <http://example.org/nifo/person/SteliosRallis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Stelios Rallis";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/1205>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4077>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofAdministrativeReconstruction> .
 <http://example.org/nifo/post/Post-MinisterSecretaryGeneralforDigitalPolicy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterSecretaryGeneralforDigitalPolicy> .
 <http://example.org/nifo/role/Role-MinisterSecretaryGeneralforDigitalPolicy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister Secretary General for Digital Policy" .
-<http://example.org/ContactPoint/1205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/4077> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+30 210 4803255, 210 4802010";
  <http://schema.org/email> "gen_gramm@gsdp.gr";
  <http://schema.org/url> "Source: http://www.mindigital.gr/" .
 <http://example.org/nifo/person/MariaElizaXenogiannakopoulou> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Maria Eliza Xenogiannakopoulou";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/27>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/921>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-SecretaryGeneralforAdministrativeReconstruction> .
 <http://example.org/nifo/post/Post-MinisterofAdministrativeReconstruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofAdministrativeReconstruction> .
 <http://example.org/nifo/role/Role-MinisterofAdministrativeReconstruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Administrative Reconstruction" .
-<http://example.org/ContactPoint/27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/921> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+30 213 1313590 /508 /603";
  <http://schema.org/email> "ypourgos@ydmed.gov.gr";
  <http://schema.org/url> "Source: http://www.minadmin.gov.gr/" .
 <http://example.org/nifo/person/GrigorisTheodorakis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Grigoris Theodorakis ";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/2173>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/6145>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-PresidentofInformationSocietyS.A.> .
 <http://example.org/nifo/post/Post-SecretaryGeneralforAdministrativeReconstruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-SecretaryGeneralforAdministrativeReconstruction> .
 <http://example.org/nifo/role/Role-SecretaryGeneralforAdministrativeReconstruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Secretary General for Administrative Reconstruction" .
-<http://example.org/ContactPoint/2173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/6145> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+30 213 1313482/6/9, 213 1313679";
  <http://schema.org/email> "ggd@ydmed.gov.gr ";
  <http://schema.org/url> "Source: http://www.minadmin.gov.gr/" .
 <http://example.org/nifo/person/GatosVasileios> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Gatos Vasileios";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/7287> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2419> .
 <http://example.org/nifo/post/Post-PresidentofInformationSocietyS.A.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-PresidentofInformationSocietyS.A.> .
 <http://example.org/nifo/role/Role-PresidentofInformationSocietyS.A.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "President of Information Society S.A." .
-<http://example.org/ContactPoint/7287> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/2419> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+30 213 130 0700";
  <http://schema.org/faxNumber> "+30 213 130 0801, 210 973 6760";
  <http://schema.org/email> "info@ktpae.gr ";

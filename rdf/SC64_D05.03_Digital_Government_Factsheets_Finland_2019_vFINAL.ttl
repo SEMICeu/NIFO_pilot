@@ -56,12 +56,12 @@
 <http://example.org/nifo/person/Anna-MaijaKarjalainen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Anna-Maija Karjalainen ";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DirectorGeneral,PublicSectorICT>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/4684> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/1742> .
 <http://example.org/nifo/post/Post-DirectorGeneral,PublicSectorICT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DirectorGeneral,PublicSectorICT> .
 <http://example.org/nifo/role/Role-DirectorGeneral,PublicSectorICT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Director General, Public Sector ICT " .
-<http://example.org/ContactPoint/4684> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/1742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "anna-maija.karjalainen@vm.fi ";
  <http://schema.org/telephone> "+ 35 82 95 530 165";
  <http://schema.org/url> "https://vm.fi/en/public-sector-ICT" .
