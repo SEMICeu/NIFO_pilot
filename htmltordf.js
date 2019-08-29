@@ -65,7 +65,7 @@ var createHtmlToRDFa = function() {
         /*LOAD DOM STRUCTURE*/
         /*==================*/
         html = fs.readFileSync(filePath + '/' + fileName);
-        $ = cheerio.load('<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body>'+html+'</body></html>', {
+        $ = cheerio.load(html, {
             normalizeWhitespace: true,
             xmlMode:true
         });
