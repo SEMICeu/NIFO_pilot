@@ -103,6 +103,11 @@ var createHtmlToRDFa = function() {
                 country = config['prefix']['nifo']+'Czech%20Republic';
                 countryLabel = 'Czech_Republic';
                 countryCode = 'CZE';
+            } else if (fileName.indexOf('EU_editor') >= 0) {
+                // European Union Editor
+                country = config['prefix']['nifo']+'European%20Union';
+                countryLabel = 'EU_editor';
+                countryCode = 'EU';
             } 
         }    
     
@@ -377,8 +382,13 @@ var createHtmlToRDFa = function() {
         });
 
         $('body').children('div').first().children('p').each(function(index, element){
-             if ($(this).text().indexOf("Digital Government Factsheet 2019") >= 0 || $(this).text().indexOf(countryLabel) >= 0 || $(this).text().indexOf('The United Kingdom') >= 0 || $(this).text().indexOf('Czech Republic') >= 0 || $(this).text().indexOf('Republic of North Macedonia') >= 0) {
-                 $(this).remove();
+             if ($(this).text().indexOf("Digital Government Factsheet 2019") >= 0 ||
+                 $(this).text().indexOf(countryLabel) >= 0 || 
+                 $(this).text().indexOf('The United Kingdom') >= 0 || 
+                 $(this).text().indexOf('Czech Republic') >= 0 || 
+                 $(this).text().indexOf('Republic of North Macedonia') >= 0 ||
+                 $(this).text().indexOf('European Union') >= 0) {
+                    $(this).remove();
              }
          });
 
@@ -408,6 +418,9 @@ var createHtmlToRDFa = function() {
                 break;
             case 'Czech_Republic':
                 $('p.image-container').after('<h2>Czech Republic</h2>');
+                break;
+            case 'EU_editor':
+                $('p.image-container').after('<h2>European%20Union</h2>');
                 break;
             default:
                 $('p.image-container').after('<h2>'+countryLabel+'</h2>');

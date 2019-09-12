@@ -51,47 +51,47 @@
 <http://example.org/nifo/person/ÉdouardPhilippe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Édouard Philippe";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-PrimeMinister>, <http://example.org/nifo/post/Post-SecretaryofStateforDigitalTechnology>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/9206> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/7509> .
 <http://example.org/nifo/post/Post-PrimeMinister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-PrimeMinister> .
 <http://example.org/nifo/role/Role-PrimeMinister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Prime Minister " .
-<http://example.org/ContactPoint/9206> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/7509> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+33 1 42 75 80 00";
  <http://schema.org/email> "N/A";
  <http://schema.org/url> "http://www.gouvernement.fr" .
 <http://example.org/nifo/person/CédricO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Cédric O";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/4148>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8821>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-InterministerialDelegateforPublic> .
 <http://example.org/nifo/post/Post-SecretaryofStateforDigitalTechnology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-SecretaryofStateforDigitalTechnology> .
 <http://example.org/nifo/role/Role-SecretaryofStateforDigitalTechnology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Secretary of State for Digital Technology" .
-<http://example.org/ContactPoint/4148> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/8821> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "01 40 04 04 04";
  <http://schema.org/email> "N/A";
  <http://schema.org/url> "http://www.gouvernement.fr/ministre/christophe-sirugue" .
 <http://example.org/nifo/person/ThomasCazenave> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Thomas Cazenave";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/8916>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8615>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Interdepartmentaldirectorofdigitalandstateinformationsystems> .
 <http://example.org/nifo/post/Post-InterministerialDelegateforPublic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-InterministerialDelegateforPublic> .
 <http://example.org/nifo/role/Role-InterministerialDelegateforPublic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Interministerial Delegate for Public" .
-<http://example.org/ContactPoint/8916> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/8615> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+33 1 53 18 76 25";
  <http://schema.org/email> "sec.sgmap@modernisation.gouv.fr";
  <http://schema.org/url> "http://www.modernisation.gouv.fr" .
 <http://example.org/nifo/person/NadiBouHanna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Nadi Bou Hanna";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/1474> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8090> .
 <http://example.org/nifo/post/Post-Interdepartmentaldirectorofdigitalandstateinformationsystems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Interdepartmentaldirectorofdigitalandstateinformationsystems> .
 <http://example.org/nifo/role/Role-Interdepartmentaldirectorofdigitalandstateinformationsystems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Interdepartmental director of digital and state information systems " .
-<http://example.org/ContactPoint/1474> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/8090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+33 1 40 15 72 60";
  <http://schema.org/email> "dinsic-sec.sgmap@modernisation.gouv.fr";
  <http://schema.org/url> "Source: https://lannuaire.service-public.fr/gouvernement/administration-centrale-ou-ministere_194230" .

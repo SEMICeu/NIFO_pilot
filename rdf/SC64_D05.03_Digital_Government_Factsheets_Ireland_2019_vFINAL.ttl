@@ -67,37 +67,37 @@
 <http://example.org/nifo/person/PaschalDonohoeTD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Paschal Donohoe TD";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterforFinance,PublicExpenditureandReform>, <http://example.org/nifo/post/Post-MinisterofStateattheDepartmentsofFinanceandPublicExpenditureandReform,withspecialresponsibilityforPublicProcurement,OpenGovernmentandeGovernment>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/9136> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/5048> .
 <http://example.org/nifo/post/Post-MinisterforFinance,PublicExpenditureandReform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterforFinance,PublicExpenditureandReform> .
 <http://example.org/nifo/role/Role-MinisterforFinance,PublicExpenditureandReform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister for Finance, Public Expenditure and Reform " .
-<http://example.org/ContactPoint/9136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/5048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+353 1 676 75 71";
  <http://schema.org/faxNumber> "+353 1 678 99 36";
  <http://schema.org/email> "minister@per.gov.ie ";
  <http://schema.org/url> "Source: http://per.gov.ie/" .
 <http://example.org/nifo/person/PatrickO’DonovanTD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Patrick O’Donovan TD";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/701>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/9016>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-GovernmentChiefInformationOfficer> .
 <http://example.org/nifo/post/Post-MinisterofStateattheDepartmentsofFinanceandPublicExpenditureandReform,withspecialresponsibilityforPublicProcurement,OpenGovernmentandeGovernment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofStateattheDepartmentsofFinanceandPublicExpenditureandReform,withspecialresponsibilityforPublicProcurement,OpenGovernmentandeGovernment> .
 <http://example.org/nifo/role/Role-MinisterofStateattheDepartmentsofFinanceandPublicExpenditureandReform,withspecialresponsibilityforPublicProcurement,OpenGovernmentandeGovernment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of State at the Departments of Finance and Public Expenditure and Reform, with special responsibility for Public Procurement, Open Government and eGovernment" .
-<http://example.org/ContactPoint/701> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/9016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+353 1 676 75 71";
  <http://schema.org/faxNumber> "+353 1 678 99 36";
  <http://schema.org/email> "patrick.odonovan@oir.ie";
  <http://schema.org/url> "Source: http://per.gov.ie/" .
 <http://example.org/nifo/person/BarryLowry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Barry Lowry";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/5726> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4091> .
 <http://example.org/nifo/post/Post-GovernmentChiefInformationOfficer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-GovernmentChiefInformationOfficer> .
 <http://example.org/nifo/role/Role-GovernmentChiefInformationOfficer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Government Chief Information Officer" .
-<http://example.org/ContactPoint/5726> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/4091> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+353 1 676 75 71";
  <http://schema.org/faxNumber> "+353 1 678 99 36";
  <http://schema.org/email> "barry.lowry@per.gov.ie ";

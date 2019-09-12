@@ -71,62 +71,62 @@
 <http://example.org/nifo/person/DavidLidington> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "David Lidington";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterfortheCabinetOffice>, <http://example.org/nifo/post/Post-PermanentSecretaryoftheCabinetOffice>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/1076> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/737> .
 <http://example.org/nifo/post/Post-MinisterfortheCabinetOffice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterfortheCabinetOffice> .
 <http://example.org/nifo/role/Role-MinisterfortheCabinetOffice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister for the Cabinet Office" .
-<http://example.org/ContactPoint/1076> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/737> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+ 44 20 7276 1234 (CO)", "+ 44 20 7219 7090";
  <http://schema.org/email> "david.lidington.mp@parliament.uk ";
  <http://schema.org/url> "Source: https://www.gov.uk/ " .
 <http://example.org/nifo/person/JohnManzoni> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "John Manzoni";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/4987>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4498>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterforImplementationintheCabinetOffice> .
 <http://example.org/nifo/post/Post-PermanentSecretaryoftheCabinetOffice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-PermanentSecretaryoftheCabinetOffice> .
 <http://example.org/nifo/role/Role-PermanentSecretaryoftheCabinetOffice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Permanent Secretary of the Cabinet Office " .
-<http://example.org/ContactPoint/4987> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/4498> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+44 20 7276 1234";
  <http://schema.org/faxNumber> "N/A";
  <http://schema.org/email> "N/A";
  <http://schema.org/url> "Source: https://www.gov.uk/" .
 <http://example.org/nifo/person/OliverDowden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Oliver Dowden";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/395>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/3380>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofStatefortheDepartmentforDigital,Culture,MediaandSport> .
 <http://example.org/nifo/post/Post-MinisterforImplementationintheCabinetOffice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterforImplementationintheCabinetOffice> .
 <http://example.org/nifo/role/Role-MinisterforImplementationintheCabinetOffice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister for Implementation in the Cabinet Office" .
-<http://example.org/ContactPoint/395> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/3380> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+ 44 20 7276 1234 (CO)";
  <http://schema.org/faxNumber> "N/A";
  <http://schema.org/email> "N/A";
  <http://schema.org/url> "Source: https://www.gov.uk/" .
 <http://example.org/nifo/person/MargotJames> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Margot James";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/7265>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/738>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DirectorGeneral-GovernmentDigitalService> .
 <http://example.org/nifo/post/Post-MinisterofStatefortheDepartmentforDigital,Culture,MediaandSport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofStatefortheDepartmentforDigital,Culture,MediaandSport> .
 <http://example.org/nifo/role/Role-MinisterofStatefortheDepartmentforDigital,Culture,MediaandSport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of State for the Department for Digital, Culture, Media and Sport " .
-<http://example.org/ContactPoint/7265> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/738> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "020 7219 7226";
  <http://schema.org/faxNumber> "020 7219 6434";
  <http://schema.org/email> "margot.james.mp@parliament.uk";
  <http://schema.org/url> "Source: https://www.gov.uk/" .
 <http://example.org/nifo/person/KevinCunnington> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Kevin Cunnington ";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/3715> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/940> .
 <http://example.org/nifo/post/Post-DirectorGeneral-GovernmentDigitalService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DirectorGeneral-GovernmentDigitalService> .
 <http://example.org/nifo/role/Role-DirectorGeneral-GovernmentDigitalService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Director General - Government Digital Service" .
-<http://example.org/ContactPoint/3715> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/940> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+44 20 7276 1234";
  <http://schema.org/faxNumber> "N/A";
  <http://schema.org/email> "N/A";

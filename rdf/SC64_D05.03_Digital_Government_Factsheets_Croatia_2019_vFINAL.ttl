@@ -81,35 +81,35 @@
 <http://example.org/nifo/person/Mr.LovroKuščević> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Mr. Lovro Kuščević ";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofPublicAdministration>, <http://example.org/nifo/post/Post-AssistantMinisterofPublicAdministration>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/6359> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/3537> .
 <http://example.org/nifo/post/Post-MinisterofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofPublicAdministration> .
 <http://example.org/nifo/role/Role-MinisterofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Public Administration" .
-<http://example.org/ContactPoint/6359> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/3537> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "kabinet@uprava.hr";
  <http://schema.org/telephone> "+385 1 235 7500 ";
  <http://schema.org/url> "https://vlada.gov.hr/o-vladi/clanovi-vlade/clanovi-vlade-128/dubravka-jurlina-alibegovic/18259" .
 <http://example.org/nifo/person/Mrs.ZrinkaBulić> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Mrs. Zrinka Bulić ";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/3219>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/1352>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-StateSecretaryoftheStateOfficefortheDevelopmentoftheDigitalSociety> .
 <http://example.org/nifo/post/Post-AssistantMinisterofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-AssistantMinisterofPublicAdministration> .
 <http://example.org/nifo/role/Role-AssistantMinisterofPublicAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Assistant Minister of Public Administration" .
-<http://example.org/ContactPoint/3219> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/1352> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "e-hrvatska@uprava.hr ";
  <http://schema.org/telephone> "+385 1 235 7543 ";
  <http://schema.org/url> "https://uprava.gov.hr/" .
 <http://example.org/nifo/person/Mr.BernardGršić> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Mr. Bernard Gršić";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/898> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2123> .
 <http://example.org/nifo/post/Post-StateSecretaryoftheStateOfficefortheDevelopmentoftheDigitalSociety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-StateSecretaryoftheStateOfficefortheDevelopmentoftheDigitalSociety> .
 <http://example.org/nifo/role/Role-StateSecretaryoftheStateOfficefortheDevelopmentoftheDigitalSociety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "State Secretary of the State Office for the Development of the Digital Society " .
-<http://example.org/ContactPoint/898> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/2123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "ured@rdd.hr ";
  <http://schema.org/telephone> "+385 1 4400 840";
  <http://schema.org/url> "https://rdd.gov.hr/" .
