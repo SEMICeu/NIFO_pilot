@@ -121,61 +121,61 @@
 <http://example.org/nifo/person/MarianaVieiradaSilva> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Mariana Vieira da Silva";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofthePresidencyandofAdministrativeModernisation>, <http://example.org/nifo/post/Post-SecretaryofStateAssistantandofAdministrativeModernisation>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/7972> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/418> .
 <http://example.org/nifo/post/Post-MinisterofthePresidencyandofAdministrativeModernisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofthePresidencyandofAdministrativeModernisation> .
 <http://example.org/nifo/role/Role-MinisterofthePresidencyandofAdministrativeModernisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of the Presidency and of Administrative Modernisation" .
-<http://example.org/ContactPoint/7972> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/418> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+351 21 3 927 600";
  <http://schema.org/faxNumber> "+351 21 3 927 860";
  <http://schema.org/url> "http://www.portugal.gov.pt/" .
 <http://example.org/nifo/person/LuísGoesPinheiro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Luís Goes Pinheiro";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/7875>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/6086>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MemberoftheBoardofDirectors,AdministrativeModernisationAgency(AMA)> .
 <http://example.org/nifo/post/Post-SecretaryofStateAssistantandofAdministrativeModernisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-SecretaryofStateAssistantandofAdministrativeModernisation> .
 <http://example.org/nifo/role/Role-SecretaryofStateAssistantandofAdministrativeModernisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Secretary of State Assistant and of Administrative Modernisation" .
-<http://example.org/ContactPoint/7875> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/6086> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+351 21 3 927 600";
  <http://schema.org/faxNumber> "+351 21 3 927 312";
  <http://schema.org/email> "gabinete.seama@mpma.gov.pt";
  <http://schema.org/url> "http://www.portugal.gov.pt/" .
 <http://example.org/nifo/person/SaraCarrasqueiro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Sara Carrasqueiro";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/2597>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/6261>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Director,CEGER-ManagementCentrefortheElectronicGovernmentNetwork> .
 <http://example.org/nifo/post/Post-MemberoftheBoardofDirectors,AdministrativeModernisationAgency(AMA)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MemberoftheBoardofDirectors,AdministrativeModernisationAgency(AMA)> .
 <http://example.org/nifo/role/Role-MemberoftheBoardofDirectors,AdministrativeModernisationAgency(AMA)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Member of the Board of Directors, Administrative Modernisation Agency (AMA)" .
-<http://example.org/ContactPoint/2597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/6261> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+351 21 723 12 00";
  <http://schema.org/faxNumber> "+351 21 723 12 20";
  <http://schema.org/email> "ama@ama.pt";
  <http://schema.org/url> "http://www.ama.pt" .
 <http://example.org/nifo/person/TitoCarlosSoaresVieira> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Tito Carlos Soares Vieira";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/1125>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4558>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-President,eSPap%E2%80%93GovernmentSharedServicesEntity> .
 <http://example.org/nifo/post/Post-Director,CEGER-ManagementCentrefortheElectronicGovernmentNetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Director,CEGER-ManagementCentrefortheElectronicGovernmentNetwork> .
 <http://example.org/nifo/role/Role-Director,CEGER-ManagementCentrefortheElectronicGovernmentNetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Director, CEGER - Management Centre for the Electronic Government Network" .
-<http://example.org/ContactPoint/1125> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/4558> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "(+351) 213 923 400";
  <http://schema.org/faxNumber> "(+351) 213 923 499";
  <http://schema.org/url> "http://www.ceger.gov.pt/" .
 <http://example.org/nifo/person/CésarPestana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "César Pestana";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/1780> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/3628> .
 <http://example.org/nifo/post/Post-President,eSPap–GovernmentSharedServicesEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-President,eSPap%E2%80%93GovernmentSharedServicesEntity> .
 <http://example.org/nifo/role/Role-President,eSPap–GovernmentSharedServicesEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "President, eSPap – Government Shared Services Entity" .
-<http://example.org/ContactPoint/1780> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/3628> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+351 214 723 100 ";
  <http://schema.org/faxNumber> "+351 214 723 103";
  <http://schema.org/email> "cc@espap.pt";

@@ -70,59 +70,59 @@
 <http://example.org/nifo/person/LuisPlanasPuchades> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Luis Planas Puchades";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-ActingMinisterofTerritorialPolicyandCivilService>, <http://example.org/nifo/post/Post-StateSecretaryofCivilService>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/821> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/3534> .
 <http://example.org/nifo/post/Post-ActingMinisterofTerritorialPolicyandCivilService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-ActingMinisterofTerritorialPolicyandCivilService> .
 <http://example.org/nifo/role/Role-ActingMinisterofTerritorialPolicyandCivilService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Acting Minister of Territorial Policy and Civil Service" .
-<http://example.org/ContactPoint/821> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/3534> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+34 91 2739000";
  <http://schema.org/email> "N/A";
  <http://schema.org/url> "Source: http://www.mptfp.gob.es/portal/ministerio.html" .
 <http://example.org/nifo/person/JoséAntonioBenedictoIruiñ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "José Antonio Benedicto Iruiñ";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/2365>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/9929>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-GeneralSecretaryofDigitalAdministration> .
 <http://example.org/nifo/post/Post-StateSecretaryofCivilService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-StateSecretaryofCivilService> .
 <http://example.org/nifo/role/Role-StateSecretaryofCivilService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "State Secretary of Civil Service " .
-<http://example.org/ContactPoint/2365> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/9929> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+34 91 2739000";
  <http://schema.org/email> "N/A";
  <http://schema.org/url> "Source: http://transparencia.gob.es/servicios-buscador/contenido/curriculums.htm?id=CV_4330&lang=es&fcAct=2018-11-08T07:35:39.064Z" .
 <http://example.org/nifo/person/FernandodePabloMartín> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Fernando de Pablo Martín";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/8294>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/6295>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofEconomyandEnterprise> .
 <http://example.org/nifo/post/Post-GeneralSecretaryofDigitalAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-GeneralSecretaryofDigitalAdministration> .
 <http://example.org/nifo/role/Role-GeneralSecretaryofDigitalAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "General Secretary of Digital Administration" .
-<http://example.org/ContactPoint/8294> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/6295> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+34 91 2739000";
  <http://schema.org/email> "N/A";
  <http://schema.org/url> "http://www.hacienda.gob.es/gl-ES/El Ministerio/Paginas/Organigrama/CVs/SecretarÃ­aGeneraldeAdministracionDigital.aspx" .
 <http://example.org/nifo/person/NadiaCalviño> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Nadia Calviño";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/5741>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/1027>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-SecretaryofStatefortheDigitalAdvance> .
 <http://example.org/nifo/post/Post-MinisterofEconomyandEnterprise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofEconomyandEnterprise> .
 <http://example.org/nifo/role/Role-MinisterofEconomyandEnterprise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Economy and Enterprise" .
-<http://example.org/ContactPoint/5741> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/1027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+34 902 44 60 06";
  <http://schema.org/email> "N/A";
  <http://schema.org/url> "http://www.mineco.gob.es/portal/site/mineco/economia" .
 <http://example.org/nifo/person/FranciscodePaulaPoloLlavata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Francisco de Paula Polo Llavata";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/6710> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/9443> .
 <http://example.org/nifo/post/Post-SecretaryofStatefortheDigitalAdvance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-SecretaryofStatefortheDigitalAdvance> .
 <http://example.org/nifo/role/Role-SecretaryofStatefortheDigitalAdvance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Secretary of State for the Digital Advance " .
-<http://example.org/ContactPoint/6710> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/9443> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+34 902 44 60 06";
  <http://schema.org/email> "N/A";
  <http://schema.org/url> "http://www.mineco.gob.es/portal/site/mineco/economia" .

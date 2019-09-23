@@ -1,0 +1,2455 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/UK"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2019-07"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/GBR"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/dataset/DigitalGovernmentIndicatorsUK"
+        },
+        {
+          "@id": "http://example.org/nifo/legalframework/UK"
+        },
+        {
+          "@id": "http://example.org/nifo/person/DavidLidington"
+        },
+        {
+          "@id": "http://example.org/nifo/person/JohnManzoni"
+        },
+        {
+          "@id": "http://example.org/nifo/person/OliverDowden"
+        },
+        {
+          "@id": "http://example.org/nifo/person/MargotJames"
+        },
+        {
+          "@id": "http://example.org/nifo/person/KevinCunnington"
+        }
+      ],
+      "http://dbpedia.org/ontology/populationTotal": [
+        "66 273 576 (2018)"
+      ],
+      "http://dbpedia.org/property/gdpNominal": [
+        "2 393 692.8 million euro"
+      ],
+      "http://dbpedia.org/property/gdpPppPerCapita": [
+        "105 (2017)"
+      ],
+      "http://dbpedia.org/ontology/areaTotal": [
+        "247 763 km²"
+      ],
+      "http://dbpedia.org/ontology/capital": [
+        "London"
+      ],
+      "http://purl.org/dc/terms/language": [
+        "English"
+      ],
+      "http://dbpedia.org/ontology/currency": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/currency/GBP"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://ec.europa.eu/eurostat"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/undefined"
+        },
+        {
+          "@id": "https://ec.europa.eu/digital-single-market/en/news/egovernment-benchmark-2018-digital-efforts-european-countries-are-visibly-paying"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/dataset/DigitalGovernmentIndicatorsUK",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataSet"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Government Indicators"
+      ],
+      "http://purl.org/linked-data/cube#structure": [
+        {
+          "@id": "http://example.org/nifo/structure/DigitalGovernmentIndicatorsUK"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_r_broad_h&lang=en,http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15b_e&lang=en"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/UK",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.gov.uk/government/collections/digital-economy-bill-2016"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/uksi/2015/1415/contents/made"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/ukpga/2000/36/contents"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/uksi/2002/318/contents/made"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/ukpga/2017/30/pdfs/ukpga_20170030_en.pdf"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/ukpga/Eliz2/1-2/20/contents"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/ukpga/1969/27/contents"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/ukpga/2006/46/contents"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/ukpga/2002/9/contents"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/ssi/2015/446/contents/made"
+        },
+        {
+          "@id": "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/437471/PPN_e-invoicing.pdf"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/uksi/2002/2013/contents/made"
+        },
+        {
+          "@id": "http://www.legislation.gov.uk/uksi/2003/2500/contents/made"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/DigitalGovernmentIndicatorsUK",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ]
+    },
+    {
+      "@id": "https://www.gov.uk/government/collections/digital-economy-bill-2016",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Digital Economy Act 2017"
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/uksi/2015/1415/contents/made",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Re-use of Public Sector Information Regulations 2015"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2013:175:0001:0008:EN:PDF"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2013:175:0001:0008:EN:PDF",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2013/37/EU of the European Parliament and of the Council of 26 June 2013"
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/ukpga/2000/36/contents",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Freedom of Information Act 2000"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.legislation.gov.uk/asp/2002/13/contents"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/asp/2002/13/contents",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Freedom of Information (Scotland) Act 2002"
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/uksi/2002/318/contents/made",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act"
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/ukpga/2010/24/pdfs/ukpga_20100024_en.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Digital Economy Act"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "General Data Protection Regulation"
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/ukpga/2017/30/pdfs/ukpga_20170030_en.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.legislation.gov.uk/ukpga/2010/24/pdfs/ukpga_20100024_en.pdf"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/ukpga/Eliz2/1-2/20/contents",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Births and Deaths Registration Act 1953"
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/ukpga/1969/27/contents",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Vehicle and Driving Licences Act 1969"
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/ukpga/2006/46/contents",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Companies Act 2006"
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/ukpga/2002/9/contents",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Land Registration Act"
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/ssi/2015/446/contents/made",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Public Contracts Regulations 2015"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "European Directive 2014/24/EU"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.legislation.gov.uk/ssi/2012/108/contents/made"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/ssi/2012/108/contents/made",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Public Contracts Regulations (2012)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.legislation.gov.uk/uksi/2016/274/contents/made"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/uksi/2016/274/contents/made",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Utilities Contracts Regulations 2016"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.legislation.gov.uk/ssi/2016/49/contents/made"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/ssi/2016/49/contents/made",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Utilities Contracts (Scotland) Regulations 2006"
+      ]
+    },
+    {
+      "@id": "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/437471/PPN_e-invoicing.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "central, regional and local contracting authorities"
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/uksi/2002/2013/contents/made",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Electronic Commerce Regulations 2002"
+      ]
+    },
+    {
+      "@id": "http://www.legislation.gov.uk/uksi/2003/2500/contents/made",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "regulation"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/DavidLidington",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "David Lidington"
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-MinisterfortheCabinetOffice"
+        },
+        {
+          "@id": "http://example.org/nifo/post/Post-PermanentSecretaryoftheCabinetOffice"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/9165"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-MinisterfortheCabinetOffice",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-MinisterfortheCabinetOffice"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-MinisterfortheCabinetOffice",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Minister for the Cabinet Office"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/9165",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+ 44 20 7276 1234 (CO)",
+        "+ 44 20 7219 7090"
+      ],
+      "http://schema.org/email": [
+        "david.lidington.mp@parliament.uk "
+      ],
+      "http://schema.org/url": [
+        "Source: https://www.gov.uk/ "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/JohnManzoni",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "John Manzoni"
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/6216"
+        }
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-MinisterforImplementationintheCabinetOffice"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-PermanentSecretaryoftheCabinetOffice",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-PermanentSecretaryoftheCabinetOffice"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-PermanentSecretaryoftheCabinetOffice",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Permanent Secretary of the Cabinet Office "
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/6216",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+44 20 7276 1234"
+      ],
+      "http://schema.org/faxNumber": [
+        "N/A"
+      ],
+      "http://schema.org/email": [
+        "N/A"
+      ],
+      "http://schema.org/url": [
+        "Source: https://www.gov.uk/"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/OliverDowden",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Oliver Dowden"
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/2882"
+        }
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-MinisterofStatefortheDepartmentforDigital,Culture,MediaandSport"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-MinisterforImplementationintheCabinetOffice",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-MinisterforImplementationintheCabinetOffice"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-MinisterforImplementationintheCabinetOffice",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Minister for Implementation in the Cabinet Office"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/2882",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+ 44 20 7276 1234 (CO)"
+      ],
+      "http://schema.org/faxNumber": [
+        "N/A"
+      ],
+      "http://schema.org/email": [
+        "N/A"
+      ],
+      "http://schema.org/url": [
+        "Source: https://www.gov.uk/"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/MargotJames",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Margot James"
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/9589"
+        }
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-DirectorGeneral-GovernmentDigitalService"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-MinisterofStatefortheDepartmentforDigital,Culture,MediaandSport",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-MinisterofStatefortheDepartmentforDigital,Culture,MediaandSport"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-MinisterofStatefortheDepartmentforDigital,Culture,MediaandSport",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Minister of State for the Department for Digital, Culture, Media and Sport "
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/9589",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "020 7219 7226"
+      ],
+      "http://schema.org/faxNumber": [
+        "020 7219 6434"
+      ],
+      "http://schema.org/email": [
+        "margot.james.mp@parliament.uk"
+      ],
+      "http://schema.org/url": [
+        "Source: https://www.gov.uk/"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/KevinCunnington",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Kevin Cunnington "
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/7847"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-DirectorGeneral-GovernmentDigitalService",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-DirectorGeneral-GovernmentDigitalService"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-DirectorGeneral-GovernmentDigitalService",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Director General - Government Digital Service"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/7847",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+44 20 7276 1234"
+      ],
+      "http://schema.org/faxNumber": [
+        "N/A"
+      ],
+      "http://schema.org/email": [
+        "N/A"
+      ],
+      "http://schema.org/url": [
+        "Source: https://www.gov.uk/"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/LostorstolenpassportID",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Lost or stolen passport/ID "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, HM Passport Office"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/report-a-lost-or-stolen-passport/y"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Lost or stolen passports/identity cards (in the UK or abroad) must be reported as soon as possible in order to reduce the risk of anyone else using the passport or the identity. Furthermore, the lost or stolen passport/IDs can be reported on behalf of someone else if they can’t do it themselves. A prerequisite is the ownership of a daytime telephone number and either an email address or UK mobile number to use the online service."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Passportrenewal",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Passport (renewal)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, HM Passport Office"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/renew-adult-passport"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Identity and Passport Service (IPS) allows British citizens residing in the UK to apply for or renew all types of British passports. Users can request online or telephone help, if necessary. The application fee can be paid online. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/JobsearchservicesbyUniversalJobmatch",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Job search services by Universal Jobmatch "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, Department for Work and Pensions"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/jobsearch "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "'GOV.UK' assists citizens searching for a job in the UK or abroad via the service Universal Jobmatch. It offers a broad spectrum of relevant information, along with a fully functional job search facility enabling job seekers to conduct nationwide searches online. Universal Jobmatch has replaced the Jobcentre Plus job search tool."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/JobsearchfraudreportingSAFERjobs",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Job search fraud reporting SAFERjobs"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, Department for Work and Pensions"
+      ],
+      "http://schema.org/url": [
+        "https://www.safer-jobs.com/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "SAFERjobs (Safe Advice for Employment and Recruitment) is a non-profit, joint industry and law enforcement organisation created in 2008 to raise awareness and combat criminal activities that may be attempted on those seeking a job, or through the services provided by the recruitment industry. Information about job scams as well as reporting tools is available online. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Legalinformationsysteminclinformationontheregulatedprofessions",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Legal information system (incl. information on the regulated professions)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "HM Government, Department for Culture, Media and Sport"
+      ],
+      "http://schema.org/url": [
+        "http://www.legislation.gov.uk "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Official online database of primary and secondary legislation in the United Kingdom."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Unemploymentbenefits",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Unemployment benefits"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/browse/benefits/jobseekers-allowance "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "All interested citizens can find information on how to fill vacancies, on where to apply for benefits and on welfare policies."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Benefitscalculator",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Benefits calculator "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/benefits-calculators "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The GOV.UK website provides access to an independent benefits calculator that enables users to find out what benefits they could get, how to claim them, and how the benefits will be affected if one starts to work. The service is free to use, anonymous, and have replaced the Benefits Adviser service."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Signintopersonaltaxaccount",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Sign in to personal tax account"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, HM Revenue & Customs (HMRC)"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/personal-tax-account "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Through GOV.UK Verify, one can use their personal tax account to check records and manage details with HM Revenue & Customs."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Incometaxesdeclarationnotificationofassessment",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Income taxes: declaration, notification of assessment"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, HM Revenue & Customs (HMRC)"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/log-in-file-self-assessment-tax-return "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "An online self-assessment system enables individuals and agents to send tax returns over the Internet and offer automatic calculation of tax and faster repayments. The system features improved response to customer feedback and is now able to remember personal details securely, pre-fill forms, perform all calculations automatically and make instant refunds electronically. To participate, registration with the 'Government Gateway' is required. Comprehensive information on taxes is available on the 'GOV.UK' website. HMRC is developing personalised digital accounts for businesses and individuals. The accounts will be tailored to their specific circumstance and enrolments, bringing together everything they need in one place."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/CheckIncomeTaxforthecurrentyear",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Check Income Tax for the current year"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, HM Revenue & Customs (HMRC)"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/check-income-tax-current-year "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The service covers the ongoing tax year where citizens can check their tax code and Personal Allowance; tell the HMRC about changes affecting the tax code; update employer details; and see an estimate for the upcoming year."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Helpfriendsorfamilywiththeirtax",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Help friends or family with their tax"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, HM Revenue & Customs (HMRC)"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/help-friends-family-tax "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "One can register online as a ‘trusted helper’ to help a friend or relative to check they are paying the right amount of Income Tax; to check or update their personal tax account; to claim a tax refund; to check or update the company car tax. The service must be used by the person receiving help, and if not possible then the HMRC must be contacted."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/JobseekersAllowanceOnline",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Jobseeker’s Allowance Online"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, Jobcentre PLUS"
+      ],
+      "http://schema.org/url": [
+        "http://www.nidirect.gov.uk/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Jobseeker’s Allowance (JSA) is paid to help people who are unemployed or on a low income and looking for work. If someone is eligible, he/she can make an application online or contact the Telephone Jobcentre Plus on Freephone at 0800 055 6688."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/UniversalCredit",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Universal Credit"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, Department for Work and Pensions"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/apply-universal-credit "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "After checking the eligibility criteria depending on place of residence, citizens can apply online to receive universal credit."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Ruralgrantsandpaymentsdetails",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Rural grants and payments details"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, Department for Environment, Food and Rural Affairs"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/claim-rural-payments "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Through GOV.UK Verify, citizens can sign in and use the service to apply for rural grants and payments; update personal and business details; check and update digital maps of registered land; and give someone permission to act on their behalf."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Claimforredundancyandmoniesowed",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Claim for redundancy and monies owed"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, Department for Business, Energy and Industrial Strategy"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/claim-redundancy "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Through GOV.UK Verify, users can claim money if they lost their job because the employer has been made insolvent."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/CheckStatePension",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Check State Pension"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, Department for Work and Pensions"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/check-state-pension "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Citizens can find out how much State Pension they can get; when; and how to increase it if possible."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Checkorupdatecompanytaxcar",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Check or update company tax car"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, HM Revenue & Customs (HMRC)"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/update-company-car-details "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "If an individual person needs to pay taxes on his/her company car, the service can be used for checking the company car’s details; tell HMRC about any changes to the car; update fuel benefit."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Driverslicence",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Driver’s licence"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, Driver and Vehicle Licensing Agency (DVLA)"
+      ],
+      "http://schema.org/url": [
+        "http://www.dvla.gov.uk/; http://www.gov.uk/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and online application service. Self-service facilities enable private motorists to go online to apply for a first provisional driving licence, renew an existing one or apply for a replacement. Relevant information provided by the DVLA can be found in the GOV.UK website."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Vieworsharedrivinglicenceinformation",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "View or share driving licence information"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, Driver and Vehicle Licensing Agency (DVLA)"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/view-driving-licence "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Motor insurers will access DVLA data on penalty points and what vehicles users are allowed to drive to check insurance applications and cut honest drivers’ premiums, thus implementing Financial Services Authority requirements. Drivers will be able to check their personal data through a portal."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Applyforvehicleoperatorlicence",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Apply for vehicle operator licence"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, Driver and Vehicle Standards Agency (DVSA)"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/apply-vehicle-operator-licence "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "This service can be used to apply for a heavy goods vehicle operator’s licence; a public service vehicle operator’s licence; and an interim operator licence. All fees can be paid online."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Reportamedicalconditionthataffectsdriving",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Report a medical condition that affects driving"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, Driver and Vehicle Licensing Agency (DVLA)"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/report-driving-medical-condition "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "An online platform to tell the DVLA about a health or medical condition that can affect one’s driving. If this is not done, the person can be fined."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Renewshorttermmedicaldrivinglicence",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Renew short-term medical driving licence"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, Driver and Vehicle Licensing Agency (DVLA)"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/renew-medical-driving-licence "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Short-term medical driving licences can be renewed in the event of a medical condition. This service will soon be expanded."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Thirdpartyinsurance",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Third-party insurance"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "British Insurance Broker’s Association"
+      ],
+      "http://schema.org/url": [
+        "http://www.biba.org.uk/CustomerHome.aspx "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Third party insurance is mandatory legal minimum to drive a vehicle on UK roads. The website of central government redirects the users searching for a broker to the website of British Insurance Brokers’ Association in order to search for a broker via online search. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Carregistrationnewusedimportedcars",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Car registration (new, used, imported cars)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, Driver and Vehicle Licensing Agency (DVLA)"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/vehicle-registration "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and forms for download purposes are available on the GOV.UK website."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/AnnouncementofmovingchangeofaddressforHMRC",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Announcement of moving (change of address) for HMRC"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "HM Revenue and Customs (HMRC)"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/tell-hmrc-change-of-details "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The service of change of address in general is not relevant in the UK, where there is no obligation to inform the authorities of a change of address. However, if one needs to update for the purposes of HMRC, an online service is available either via the website of HMRC or if registered for Self-Assessment using a personal HMRC online account. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Certificatesbirthmarriagerequestanddelivery",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Certificates (birth, marriage): request and delivery",
+        "Certificates (birth, marriage): request and delivery"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, General Register Office",
+        "Central government, General Register Office"
+      ],
+      "http://schema.org/url": [
+        "http://www.gro-scotland.gov.uk/  (Scotland)",
+        "http://www.gro-scotland.gov.uk/ (Scotland)"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The General Register Offices offer the facility to order certificates online. General Information on birth and marriage certificates is available on the 'Directgov' portal.",
+        "The General Register Offices offer the facility to order certificates online. General Information on birth and marriage certificates is available on the GOV.UK website"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/CriminalPoliceRecords",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Criminal Police Records"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Police, HM Prison Service, HM Courts and Tribunals Service, Crown Prosecution Service (CPS)"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/copy-of-police-records "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "A person wishing to get a copy of his police records needs to contact local police for a copy. The certificate may also be requested from the HM Prison Service, HM Court and Tribunals Service, and Crown Prosecution Service (CPS). "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/CriminalRecordCertificate",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Criminal Record Certificate"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, Disclosure and Barring Service (DBS)"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/request-copy-criminal-record "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Citizens can apply for a basic DBS check to get a copy of their criminal record. This is called ‘basic disclosure’. It is available for people living or working in England and Wales."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Signmortgagedeed",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Sign mortgage deed"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, HM Land Registry"
+      ],
+      "http://schema.org/url": [
+        "https://sign-your-mortgage-deed.landregistry.gov.uk/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Only available as a BETA service at the moment, citizens can test the service on signing their mortgage deed online through the GOV.UK portal."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Housingbuildingandhousingenvironment",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Housing (building and housing, environment)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, local government"
+      ],
+      "http://schema.org/url": [
+        "http://www.planningportal.gov.uk; http://www.gov.uk/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The 'Planning Portal', developed by the Planning Inspectorate and a number of other stakeholders, provides access to information on the planning process and allows users to download planning applications forms. Applications can be submitted online through the portal's online application system to all local authorities in England and Wales. The associated fee can be calculated, with an option to pay electronically in certain cases."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Waste",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Waste"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Department for Environment, Food & Rural Affairs, Environment Agency "
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/topic/environmental-management/waste "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information is available on the GOV.UK website. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Declarationtothepoliceegincaseoftheft",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Declaration to the police (e.g. in case of theft)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, Police Information Technology Organisation (PITO)"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/report-hate-crime"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information on reporting a crime is available on the 'GOV.UK' portal. An online search facility for locating the nearest local police authority is also available."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Enrolmentinhighereducationuniversity",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Enrolment in higher education/university"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Universities and other higher education institutions, Universities and Colleges Admissions Service (UCAS)"
+      ],
+      "http://schema.org/url": [
+        "https://www.ucas.com/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "UCAS is the central organisation that processes applications for full-time undergraduate courses at UK universities and colleges. 'UCAS Apply' is a secure web-based system that allows applicants to apply online for UK higher education courses."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Publiclibrariesavailabilityofcataloguessearchtools",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Public libraries (availability of catalogues, search tools)",
+        "Public libraries (availability of catalogues, search tools)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government/local government",
+        "Central government/local government"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/government/publications/public-libraries-in-england-basic-dataset ",
+        "https://www.gov.uk/government/publications/public-libraries-in-england-basic-dataset"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Most public libraries possess online catalogues. Many councils offer online access to their library catalogue. Available in England and Wales only.",
+        "Most public libraries possess online catalogues."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Studentgrants",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Student grants"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Department for Business, Innovation and Skills"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/student-finance "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "New online application process for loan products such as full-time, part-time and 24+ Advanced Learning Loans"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Internshipsworkexperience",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Internships/work experience"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Education Funding Agency"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/student-finance"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information on funding work experience in 16 to 19 study programmes is available on the GOV.UK website"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/EuraxessUKFundingSearch",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Euraxess UK Funding Search"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "EURAXESS United Kingdom"
+      ],
+      "http://schema.org/url": [
+        "http://euraxessfunds.britishcouncil.org/Search.aspx/Index "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and search function for funding opportunities in United Kingdom is available online for researchers. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Informationandassistancetoresearchersresearch",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Information and assistance to researchers, research "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "EURAXESS United Kingdom"
+      ],
+      "http://schema.org/url": [
+        "http://www.britishcouncil.org/new/euraxess/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "EURAXESS United Kingdom provides information and assistance to mobile researchers – by means of the web portal and with the support of our national EURAXESS Service Centres. The portal contains practical information concerning professional and daily life, as well as information on job and funding opportunities. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Voluntarysocialinvolvement",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Voluntary social involvement"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Several "
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/volunteering "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Extensive information on various volunteering opportunities is available on the GOV.UK website. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/eHealthservicesofNHSUK",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "e-Health services of NHS UK"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Nationality Hospitality Service (NHS) UK"
+      ],
+      "http://schema.org/url": [
+        "http://www.nhs.uk/pages/home.aspx "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "NHS offers the following services online: booking a GP appointment, eReferral Service or a service of buying of the prescription pre-payment certificate. The European Health Insurance Card can be also requested online as detailed below. The website of NHS UK also allows to search for a local service of GPs, urgent care, hospitals and dentists. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/EuropeanHealthInsuranceCardEHIC",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "European Health Insurance Card (EHIC)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Nationality Hospitality Service (NHS) UK"
+      ],
+      "http://schema.org/url": [
+        "http://www.nhs.uk/NHSEngland/Healthcareabroad/EHIC/Pages/about-the-ehic.aspx "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Application for the European Health Insurance Card (or its renewal) can be submitted online by citizens from UK, European Economic Area or Switzerland – otherwise it must be applied for by post with a proof of residency. EHIC allows people to get state healthcare in other EEA countries and Switzerland at a reduced cost or sometimes for free. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/CarersAllowance",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Carers’ Allowance"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government - Department for Work and Pensions"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/carers-allowance "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Carer’s Allowance is a benefit for people looking after someone with substantial caring needs. Users can currently make a claim through the post or online. The exemplar project replaced the previous online claim process which had low take-up and did not meet the standards set out in the department’s digital strategy."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Childallowances",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Child allowances"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, HM Revenue & Customs"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/child-benefit "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "‘Child Benefit’ is a tax-free monthly payment to anyone bringing up a child or young person. It is not affected by income or savings; therefore, most people who are bringing up a child or a young person are entitled. The Child Benefit Online Service allows parents to claim child benefit electronically, report a change of circumstances or issue a message to Child Benefit over the Internet. It uses the 'Government Gateway' to carry this out securely. Since 2003, part of family support is payable under the form of tax credits (Child Tax Credit and Working Tax Credit) paid by HM Revenue & Customs. The tax credits website enables online calculation of entitlement, filling and submission of applications, prior to electronic payment – although these tax credits cannot be claimed online recipients can renew their claim online with the new online service."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Consumerprotectionguidance",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Consumer protection guidance"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Competition and Markets Authority"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/government/collections/cma-consumer-enforcement-guidance "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Guidance on consumer protection and unfair terms is available on the portal ‘GOV.UK’ as gathered under several topical fields such as general consumer protection, consumer protection from unfair trading, unfair contract term, children’s online games, higher education, and several other related fields. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Consumerprotection",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Consumer protection"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Department for Business, Innovation & Skills"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/government/policies/consumer-protection "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Regularly updated information on the government’s activities in the area of consumer protection. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/MoneyandTax",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Money and Tax"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Several "
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/browse/tax "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Exhaustive information and access to several online services under the category ‘Money and Tax’ is enlisted with description on the portal of ‘GOV.UK’. These includes information about the following areas: Capital Gains Tax, Court claims, debt and bankruptcy, dealing with HM Revenue and Customs, Income Tax, Inheritance Tax, National Insurance, Self-Assessment (including deadlines, pay and tax records), and VAT. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/DomesticRenewableHeatIncentiveRHI",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Domestic Renewable Heat Incentive (RHI)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Energy Saving Advice Service, Home Energy Scotland "
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/domestic-renewable-heat-incentive "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "UK citizens can get money towards renewable heating costs in their home for the following three means of renewable heating source: biomass boilers, solar water heating and certain heat pumps. Payments are made for seven years and are based on the amount of renewable heat made by the heating system. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Intellectualproperty",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Intellectual property"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Intellectual Property Office at Department for Business, Innovation & Skills"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/government/organisations/intellectual-property-office; https://www.gov.uk/topic/intellectual-property/law-practice "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information on the patent processes in the UK are freely available at the web portal of the Intellectual Property Office that is the official government body responsible for intellectual property (IP) rights including patents, designs, trademarks and copyright. Furthermore, it offers the following multiple online application forms – for example online application forms and fees information about patents. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/SetupaBusiness",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Set up a Business"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/set-up-business"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "This service allows to register your business in the UK. The set up depends on the type of business, where the person work and whether the person take people on to help. This includes self-employment and starting a business"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/GovernmentDigitalService",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Government Digital Service"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Cabinet Office - government digital service"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/digital-marketplace "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Digital Marketplace replaces CloudStore. It includes G-Cloud services. Use the Digital Services Store to find people or teams to help design and build digital services in an agile way."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Registrationofanewcompany",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Registration of a new company"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, Registrar of Companies (Companies House)"
+      ],
+      "http://schema.org/url": [
+        "http://www.companieshouse.gov.uk "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and forms for company registration and company information submission. Forms for company registration can be submitted electronically using an online 'Software Filing' service. Information on company registration can also be retrieved via the GOV.UK website."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Submissionofdatatostatisticaloffices",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Submission of data to statistical offices"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Office for National Statistics (ONS), UK Statistics Authority"
+      ],
+      "http://schema.org/url": [
+        "http://www.statistics.gov.uk/default.asp "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Office for National Statistics (ONS) is the executive office of the UK Statistics Authority, a non-ministerial department which reports directly to the parliament. ONS is the UK government's single largest statistical producer. The website provides independent statistical information on a series of themes, including the latest Census Day of 27 March 2011."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/VATdeclarationnotification",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "VAT: declaration, notification"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, HM Revenue & Customs"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/send-vat-return "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Service enabling declaration and payment of VAT online. Requires registration and enrolment with the 'Government Gateway'. Similar information can be also found on the 'GOV.UK' portal. Furthermore, HMRC is developing personalised digital accounts for businesses and individuals. The accounts will be tailored to their specific circumstance and enrolments, bringing together everything they need in one place."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/MakingTaxDigital",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Making Tax Digital"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "HM Revenue and Customs"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/government/publications/making-tax-digital/overview-of-making-tax-digital"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Making Tax Digital is a key part of the government’s plans to make it easier for individuals and businesses to get their tax right and keep on top of their affairs."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Corporatetaxdeclarationnotification",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Corporate tax: declaration, notification"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, HM Revenue & Customs"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/file-your-company-accounts-and-tax-return "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Service enabling companies and agents to send corporation tax returns, computations and accounts over the Internet, and to make corresponding payments. Companies can also view details of their corporate tax position, including liabilities and payments for each accounting period, and any interest or penalties that may have been charged. The system requires registration and enrolment with the 'Government Gateway'. Information on corporate tax may also be found on the GOV.UK website."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/CustomsdeclarationseCustoms",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Customs declarations (eCustoms)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, HM Revenue & Customs"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/topic/business-tax/import-export "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Electronic services (web-based and EDI-based) available to importers/exporters and for declaration and payment of customs operations. Similar information on customs may also be found on the GOV.UK website."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Nationalarchives",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "National archives"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "HM Government, Department for Culture, Media and Sport"
+      ],
+      "http://schema.org/url": [
+        "http://www.legislation.gov.uk "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Official online database of primary and secondary legislation in the United Kingdom."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/PublicprocurementeProcurement",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Public procurement / eProcurement"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Crown Commercial Service, Cabinet Office"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/government/organisations/crown-commercial-service  "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The Crown Commercial Service is the UK's non-mandatory national eProcurement platform, which is an executive agency of the Cabinet Office. It is a Trading Fund, run on commercial lines, which generates income to cover its costs and operates at no cost to the taxpayer. It is the largest Professional Buying Organisation (PBO) in the public sector."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/BusinessfortheUKleavingtheEU",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Business for the UK leaving the EU"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/business-uk-leaving-eu"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "This is a tool which can be used to find out what your business or organisation may need to do to prepare for the UK leaving the EU, what is changing in the industry of the existing business and what is the information on specific rules and regulations."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Exportinganddoingbusinessabroad",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Exporting and doing business abroad"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/starting-to-export/within-eu"
+      ],
+      "http://purl.org/dc/terms/description": [
+        "This is a service which explains what the tasks are to move goods within the EU. If the UK leaves the EU without a deal, it is necessary to follow specific rules for exporting goods from the rest of the world."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Socialcontributionsforemployees",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Social contributions for employees"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, HM Revenue & Customs"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/paye-online-log-in "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Internet service enabling employers to submit and receive PAYE (Pay as You Earn) and NIC (National Insurance Contributions) forms and returns over the Internet, and to make payments electronically. Requires registration and enrolment with the 'Government Gateway'. An EDI-based service is also available. This type of information is obtainable via the GOV.UK website."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/HealthandSafetyExecutivewebportal",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Health and Safety Executive web portal"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Health and Safety Executive (HSE)"
+      ],
+      "http://schema.org/url": [
+        "http://www.hse.gov.uk/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "The website of the Labour Inspectorate contains all necessary information in regard to the legislation related to the safety and health at work. If a person needs to report an incident or has a complaint about a health and safety matter in the workplace, the HSE services are available for help and guidance on how to do this."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/LicensingintheUnitedKingdom",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Licensing in the United Kingdom"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central Government"
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.uk/browse/business/licences "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Extensive information on the process for licencing and licence applications are available on the GOV.UK website. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/REACHRegistrationEvaluationAuthorisationandRestrictionofChemicalsEURegulationno19072006",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "REACH (Registration, Evaluation, Authorisation and Restriction of Chemicals, EU Regulation no 1907/2006)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Health and Safety Executive"
+      ],
+      "http://schema.org/url": [
+        "http://www.hse.gov.uk/reach/ "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Manufacturers, importers, exporters, distributors, downstream users and others should be able to get key information regarding the chemicals legislation in the UK on the webpage or via their e-mail or telephone contacts as enlisted on the portal. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/UK/Environmentrelatedpermitsinclreporting",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService",
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Environment-related permits (incl. reporting)",
+        "Environment-related permits (incl. reporting)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/United%20Kingdom"
+        }
+      ],
+      "http://data.europa.eu/m8g/hasCompetentAuthority": [
+        "Central government, Environment Agency (England and Wales only)",
+        "Central government, Environment Agency (England and Wales only)"
+      ],
+      "http://schema.org/url": [
+        "http://www.environment-agency.gov.uk/ ",
+        "https://www.ofgem.gov.uk/environmental-programmes/non-domestic-renewable-heat-incentive-rhi/eligibility-non-domestic-rhi "
+      ],
+      "http://purl.org/dc/terms/description": [
+        "Information and downloadable forms. Similar information may also be retrieved from the GOV.uk website.",
+        "The non-domestic Renewable Heat Incentive (RHI) helps businesses, public sector and non-profit organisations meet the cost of installing renewable heat technologies for the following means of renewable heating sources: biomass, heat pumps (ground source, water source and air source), deep geothermal, solar thermal collectors, biomethane and biogas, and combined heat and power (CHP) systems. Payments are made over 20 years and are based on the amount of heat output of the system. The applications and further information is available online on the website of Ofgem - a non-ministerial government department and an independent National Regulatory Authority, recognised by EU Directives and governed by the Gas and Electricity Authority (GEMA)."
+      ]
+    }
+  ]
+}

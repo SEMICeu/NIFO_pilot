@@ -32,22 +32,22 @@
 <http://example.org/nifo/person/VolodymyrGroysman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Volodymyr Groysman";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-PrimeMinisterofUkraine>, <http://example.org/nifo/post/Post-HeadoftheStateAgencyforeGovernanceofUkraine>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/5777> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/9267> .
 <http://example.org/nifo/post/Post-PrimeMinisterofUkraine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-PrimeMinisterofUkraine> .
 <http://example.org/nifo/role/Role-PrimeMinisterofUkraine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Prime Minister of Ukraine" .
-<http://example.org/ContactPoint/5777> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/9267> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "zmi@kmu.gov.ua ";
  <http://schema.org/url> "https://www.kmu.gov.ua" .
 <http://example.org/nifo/person/OleksandrRyzhenko> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Oleksandr Ryzhenko";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/6805> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/710> .
 <http://example.org/nifo/post/Post-HeadoftheStateAgencyforeGovernanceofUkraine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-HeadoftheStateAgencyforeGovernanceofUkraine> .
 <http://example.org/nifo/role/Role-HeadoftheStateAgencyforeGovernanceofUkraine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Head of the State Agency for eGovernance of Ukraine " .
-<http://example.org/ContactPoint/6805> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/710> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "agency@e.gov.ua ";
  <http://schema.org/url> "https://www.e.gov.ua/ua" .
 <http://example.org/nifo/publicservice/Ukraine/Electronicqueuetoreceivepassportsfortravellingabroad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
