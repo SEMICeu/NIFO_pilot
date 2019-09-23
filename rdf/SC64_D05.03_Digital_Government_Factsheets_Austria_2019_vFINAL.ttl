@@ -93,23 +93,23 @@
 <http://example.org/nifo/person/MargareteSchramböck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Margarete Schramböck";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-FederalMinisterforDigitalandEconomicAffairs>, <http://example.org/nifo/post/Post-DirectorGeneralofDivisionIforDigitizationandE-GovernmentattheFederalMinistryforDigitalandEconomicAffairs>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/9015> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/7264> .
 <http://example.org/nifo/post/Post-FederalMinisterforDigitalandEconomicAffairs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-FederalMinisterforDigitalandEconomicAffairs> .
 <http://example.org/nifo/role/Role-FederalMinisterforDigitalandEconomicAffairs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Federal Minister for Digital and Economic Affairs " .
-<http://example.org/ContactPoint/9015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/7264> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/email> "buero.schramboeck@bmdw.gv.at ";
  <http://schema.org/url> "http://www.bmdw.gv.at/" .
 <http://example.org/nifo/person/ReinhardPosch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Gerhard Popp", "Reinhard Posch";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/9228>, <http://example.org/ContactPoint/2094>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2951>, <http://example.org/ContactPoint/7752>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-HeadoftheDirectorate%E2%80%9CE-GovernmentforCitizens%E2%80%9D> .
 <http://example.org/nifo/post/Post-DirectorGeneralofDivisionIforDigitizationandE-GovernmentattheFederalMinistryforDigitalandEconomicAffairs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DirectorGeneralofDivisionIforDigitizationandE-GovernmentattheFederalMinistryforDigitalandEconomicAffairs> .
 <http://example.org/nifo/role/Role-DirectorGeneralofDivisionIforDigitizationandE-GovernmentattheFederalMinistryforDigitalandEconomicAffairs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Director General of Division I for Digitization and E-Government at the Federal Ministry for Digital and Economic Affairs" .
-<http://example.org/ContactPoint/9228> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/2951> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+43 1 711 00 505000";
  <http://schema.org/email> "POST.ISL_19@bmdw.gv.at ";
  <http://schema.org/url> "http://www.bmdw.gv.at/" .
@@ -118,53 +118,53 @@
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-FederalChiefInformationOfficer> .
 <http://example.org/nifo/role/Role-FederalChiefInformationOfficer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Federal Chief Information Officer " .
-<http://example.org/ContactPoint/2094> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/7752> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+43 1 711 00 202551";
  <http://schema.org/email> "reinhard.posch@bmdw.gv.at ";
  <http://schema.org/url> "http://www.bmdw.gv.at/" .
 <http://example.org/nifo/person/RolandLedinger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Roland Ledinger";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/1751>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/7954>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-HeadoftheDirectorate%E2%80%9CDigitizationPolicy,Innovation,ICT-ManagementandSupport%E2%80%9D> .
 <http://example.org/nifo/post/Post-HeadoftheDirectorate“E-GovernmentforCitizens”> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-HeadoftheDirectorate%E2%80%9CE-GovernmentforCitizens%E2%80%9D> .
 <http://example.org/nifo/role/Role-HeadoftheDirectorate“E-GovernmentforCitizens”> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Head of the Directorate “E-Government for Citizens” " .
-<http://example.org/ContactPoint/1751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/7954> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+43 1 711 00 202745";
  <http://schema.org/email> "roland.ledinger@bmdw.gv.at ";
  <http://schema.org/url> "http://www.digitales.oesterreich.gv.at/" .
 <http://example.org/nifo/person/WolfgangEbner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Wolfgang Ebner";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/6032>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2016>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-HeadoftheDirectorate%E2%80%9CInternationalandLegalAffairs%E2%80%9D> .
 <http://example.org/nifo/post/Post-HeadoftheDirectorate“DigitizationPolicy,Innovation,ICT-ManagementandSupport”> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-HeadoftheDirectorate%E2%80%9CDigitizationPolicy,Innovation,ICT-ManagementandSupport%E2%80%9D> .
 <http://example.org/nifo/role/Role-HeadoftheDirectorate“DigitizationPolicy,Innovation,ICT-ManagementandSupport”> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Head of the Directorate “Digitization Policy, Innovation, ICT-Management and Support” " .
-<http://example.org/ContactPoint/6032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+43 1 711 00 505020";
  <http://schema.org/email> "wolfgang.ebner@bmf.gv.at " .
 <http://example.org/nifo/person/PeterKustor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Peter Kustor";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/4138>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/5651>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DirectoroftheAustrianDigitisationAgency(DIA)> .
 <http://example.org/nifo/post/Post-HeadoftheDirectorate“InternationalandLegalAffairs”> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-HeadoftheDirectorate%E2%80%9CInternationalandLegalAffairs%E2%80%9D> .
 <http://example.org/nifo/role/Role-HeadoftheDirectorate“InternationalandLegalAffairs”> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Head of the Directorate “International and Legal Affairs” " .
-<http://example.org/ContactPoint/4138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/5651> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+43 1 711 00 202554";
  <http://schema.org/email> "peter.kustor@bmdw.gv.at ";
  <http://schema.org/url> "http://www.bmdw.gv.at/" .
 <http://example.org/nifo/person/AndreasTschas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Andreas Tschas";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/1009> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4979> .
 <http://example.org/nifo/post/Post-DirectoroftheAustrianDigitisationAgency(DIA)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DirectoroftheAustrianDigitisationAgency(DIA)> .
 <http://example.org/nifo/role/Role-DirectoroftheAustrianDigitisationAgency(DIA)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Director of the Austrian Digitisation Agency (DIA)" .
-<http://example.org/ContactPoint/1009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/4979> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+43 5 7755 3501";
  <http://schema.org/email> "andreas.tschas@ffg.at";
  <http://schema.org/url> "https://www.ffg.at/en/content/digitalisation-agency" .

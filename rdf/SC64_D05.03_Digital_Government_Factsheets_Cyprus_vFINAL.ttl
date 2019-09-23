@@ -57,50 +57,50 @@
 <http://example.org/nifo/person/HarrisGeorgiades> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Harris Georgiades";
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofFinance>, <http://example.org/nifo/post/Post-MinisterofTransport,CommunicationsandWorks>;
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/1174> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/9401> .
 <http://example.org/nifo/post/Post-MinisterofFinance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofFinance> .
 <http://example.org/nifo/role/Role-MinisterofFinance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Finance" .
-<http://example.org/ContactPoint/1174> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/9401> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+357 226010104";
  <http://schema.org/faxNumber> "+357 22602723";
  <http://schema.org/email> "minister@mof.gov.cy";
  <http://schema.org/url> "http://www.mof.gov.cy/mof/mof.nsf/page12_en/page12_en?OpenDocument" .
 <http://example.org/nifo/person/VassilikiAnastassiadou> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Vassiliki Anastassiadou ";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/1224>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/678>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Director,MedicalandPublicHealthServices> .
 <http://example.org/nifo/post/Post-MinisterofTransport,CommunicationsandWorks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofTransport,CommunicationsandWorks> .
 <http://example.org/nifo/role/Role-MinisterofTransport,CommunicationsandWorks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Transport, Communications and Works" .
-<http://example.org/ContactPoint/1224> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/678> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> " +357 22800102";
  <http://schema.org/faxNumber> "+357 22776265";
  <http://schema.org/email> "minister@mcw.gov.cy ";
  <http://schema.org/url> "http://www.mcw.gov.cy" .
 <http://example.org/nifo/person/Dr.ElisavetConstantinou> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Dr. Elisavet Constantinou";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/4637>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4171>;
  <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Director,DepartmentofInformationTechnologyServices(DITS)> .
 <http://example.org/nifo/post/Post-Director,MedicalandPublicHealthServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Director,MedicalandPublicHealthServices> .
 <http://example.org/nifo/role/Role-Director,MedicalandPublicHealthServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Director, Medical and Public Health Services " .
-<http://example.org/ContactPoint/4637> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/4171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+357 22 605 600";
  <http://schema.org/faxNumber> "+357 22 605 601";
  <http://schema.org/email> "director@mphs.moh.gov.cy";
  <http://schema.org/url> "https://www.moh.gov.cy/moh/moh.nsf/page34_en/page34_en?OpenDocument" .
 <http://example.org/nifo/person/KaterinaPericleous> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
  <http://xmlns.com/foaf/0.1/name> "Katerina Pericleous";
- <http://schema.org/contactPoint> <http://example.org/ContactPoint/6015> .
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/9166> .
 <http://example.org/nifo/post/Post-Director,DepartmentofInformationTechnologyServices(DITS)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
  <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Director,DepartmentofInformationTechnologyServices(DITS)> .
 <http://example.org/nifo/role/Role-Director,DepartmentofInformationTechnologyServices(DITS)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
  <http://www.w3.org/2000/01/rdf-schema#label> "Director, Department of Information Technology Services (DITS)" .
-<http://example.org/ContactPoint/6015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+<http://example.org/ContactPoint/9166> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
  <http://schema.org/telephone> "+357 22601352";
  <http://schema.org/faxNumber> "+357 22 60 27 45";
  <http://schema.org/email> "director@dits.mof.gov.cy";
