@@ -65,7 +65,7 @@ var createHtmlToRDFa = function() {
         /*LOAD DOM STRUCTURE*/
         /*==================*/
         html = fs.readFileSync(filePath + '/' + fileName);
-        $ = cheerio.load('<html><body>'+html+'</body></html>', {
+        $ = cheerio.load(html, {
             normalizeWhitespace: true,
             xmlMode:true
         });
@@ -103,6 +103,11 @@ var createHtmlToRDFa = function() {
                 country = config['prefix']['nifo']+'Czech%20Republic';
                 countryLabel = 'Czech_Republic';
                 countryCode = 'CZE';
+            } else if (fileName.indexOf('EU_editor') >= 0) {
+                // European Union Editor
+                country = config['prefix']['nifo']+'European%20Union';
+                countryLabel = 'EU_editor';
+                countryCode = 'EU';
             } 
         }    
     
@@ -110,7 +115,7 @@ var createHtmlToRDFa = function() {
         $('body').contents().wrapAll('<div resource="'+country+'" prefix="'+config['prefixes']+'"></div>');
         $('body').children('div').first().children('p').first().before('<p class="image-container" style="text-align: center;"></p>');
         $('body').children('div').first().children('p').first().before('<span property="'+config['prop']['ispartof']+'" href="'+config['prefix']['factsheets']+'"><span property="'+config['prop']['seealso']+'" href="http://dbpedia.org/resource/'+countryLabel+'"></span><span property="'+config['prop']['issued']+'" content="'+config['issued']+'"></span><span property="'+config['prop']['licence']+'" content="'+config['licence']+'"></span><span property="'+config['prop']['country']+'" content="'+config['prefix']['country']+countryCode+'"></span>');
-        $( "p:contains('ISA')" ).remove();
+        // $( "p:contains('ISA')" ).remove();
         $( "h3" ).each(function(index, element){
             $(this).css("color", "#0070c0");
         });
@@ -364,9 +369,12 @@ var createHtmlToRDFa = function() {
                                 });
                             });
                             if ($(this).text().indexOf("The Digital Government Factsheets") >= 0) {
-                                $(this).nextAll().remove();
-                                $(this).remove();
-                                return false;
+                                $(this).nextAll("p:contains('isa'), p:contains('ISA')").each(function(index, element){
+                                    $(this).addClass('keepElement');
+                                });
+                                // $(this).nextAll().remove();
+                                // $(this).remove();
+                                // return false;
                             }
                         });
                     break;
@@ -374,9 +382,21 @@ var createHtmlToRDFa = function() {
         });
 
         $('body').children('div').first().children('p').each(function(index, element){
-             if ($(this).text().indexOf("Digital Government Factsheet 2019") >= 0 || $(this).text().indexOf(countryLabel) >= 0 || $(this).text().indexOf('The United Kingdom') >= 0 || $(this).text().indexOf('Czech Republic') >= 0 || $(this).text().indexOf('Republic of North Macedonia') >= 0) {
-                 $(this).remove();
+             if ($(this).text().indexOf("Digital Government Factsheet 2019") >= 0 ||
+                 $(this).text().indexOf(countryLabel) >= 0 || 
+                 $(this).text().indexOf('The United Kingdom') >= 0 || 
+                 $(this).text().indexOf('Czech Republic') >= 0 || 
+                 $(this).text().indexOf('Republic of North Macedonia') >= 0 ||
+                 $(this).text().indexOf('European Union') >= 0) {
+                    $(this).remove();
              }
+         });
+
+         $( "p:contains('ISA')" ).each(function(index, element){
+            var _this = $(this);
+            if(!_this.hasClass("keepElement")) {
+                _this.remove();
+            }
          });
     
         $( "img" ).each(function(index, element){
@@ -398,6 +418,9 @@ var createHtmlToRDFa = function() {
                 break;
             case 'Czech_Republic':
                 $('p.image-container').after('<h2>Czech Republic</h2>');
+                break;
+            case 'EU_editor':
+                $('p.image-container').after('<h2>European%20Union</h2>');
                 break;
             default:
                 $('p.image-container').after('<h2>'+countryLabel+'</h2>');
