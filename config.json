@@ -1,8 +1,9 @@
 {
-    "issued" : "2018-02",
+    "issued" : "2019-07",
     "licence" : "https://creativecommons.org/licenses/by/4.0/",
     "section_header" : "h1",
     "subsection_header" : "h2",
+    "subsubsection_header" : "h3",
     "prefix": {
         "nifo" : "http://data.europa.eu/nifo/factsheet/",
         "factsheets" : "http://data.europa.eu/nifo/factsheets/",

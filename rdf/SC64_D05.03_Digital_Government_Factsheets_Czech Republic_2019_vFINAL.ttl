@@ -1,0 +1,590 @@
+<http://data.europa.eu/nifo/factsheet/Czech%20Republic> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Czech_Republic>;
+ <http://purl.org/dc/terms/issued> "2019-07";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/CZE";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/dataset/DigitalGovernmentIndicatorsCzech_Republic>, <http://example.org/nifo/dataset/ThefollowinggraphspresentdataforthelatestDigitalGovernmentIndicatorsforCzechRepubliccomparedtotheEUaverage.StatisticalindicatorsinthissectionreflectthoseofEurostatatthetimetheEditionisbeingprepared.Czech_Republic>, <http://example.org/nifo/legalframework/Czech_Republic>, <http://example.org/nifo/person/JanHamáček>, <http://example.org/nifo/person/JaroslavStrouhal>, <http://example.org/nifo/person/KarelHavlíček>, <http://example.org/nifo/person/VladimírDzurilla>, <http://example.org/nifo/person/RomanVrba>, <http://example.org/nifo/person/MichalPešek>;
+ <http://dbpedia.org/ontology/populationTotal> "10 610 055 inhabitants (2018)";
+ <http://dbpedia.org/property/gdpNominal> "206 822 million Euro (2018)";
+ <http://dbpedia.org/property/gdpPppPerCapita> "89 (2017)";
+ <http://dbpedia.org/ontology/areaTotal> "78 900 km²";
+ <http://dbpedia.org/ontology/capital> "Prague";
+ <http://purl.org/dc/terms/language> "Czech";
+ <http://dbpedia.org/ontology/currency> <http://publications.europa.eu/resource/authority/currency/Czech%20koruna%20(CZK)>;
+ <http://purl.org/dc/terms/source> <https://ec.europa.eu/eurostat?>, <http://data.europa.eu/nifo/factsheet/undefined>, <https://ec.europa.eu/digital-single-market/en/news/egovernment-benchmark-2018-digital-efforts-european-countries-are-visibly-paying> .
+<http://example.org/nifo/dataset/DigitalGovernmentIndicatorsCzech_Republic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataSet>;
+ <http://purl.org/dc/terms/title> "Digital Government Indicators";
+ <http://purl.org/linked-data/cube#structure> <http://example.org/nifo/structure/DigitalGovernmentIndicatorsCzech_Republic>;
+ <http://purl.org/dc/terms/source> "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en" .
+<http://example.org/nifo/structure/DigitalGovernmentIndicatorsCzech_Republic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition>;
+ <http://purl.org/linked-data/cube#component> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinCzechRepublic>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinCzechRepublic>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinCzechRepublic>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinCzechRepublic>;
+ <http://www.w3.org/2000/01/rdf-schema#label> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinCzechRepublic>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinCzechRepublic>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinCzechRepublic>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinCzechRepublic> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinCzechRepublic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinCzechRepublic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinCzechRepublic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinCzechRepublic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/legalframework/Czech_Republic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://www.psp.cz/sqw/historie.sqw?o=8&t=447&snzp=1>, <https://www.zakonyprolidi.cz/cs/2000-365>, <https://www.portal.gov.cz/app/zakony/download?idBiblio=47807&nr=106~2F1999~20Sb.&ft=pdf>, <https://www.zakonyprolidi.cz/cs/2017-250>, <https://www.zakonyprolidi.cz/cs/2017-195>, <http://www.mvcr.cz/mvcren/article/electronic-signature-773488.aspx?q=Y2hudW09Mg==>, <https://www.portal.gov.cz/app/zakony/download?idBiblio=49228&nr=101~2F2000~20Sb.&ft=pdf>, <https://www.govcert.cz/en/info/events/2464-the-law-no-1812014-coll-on-cyber-security-entered-into-force/>, <https://www.zakonyprolidi.cz/cs/2016-192>, <http://www.szrcr.cz/file/2>, <http://www.portal-vz.cz/cs/Jak-na-zadavani-verejnych-zakazek/Legislativa-a-Judikatura/Legislativa/Zakon-o-zadavani-verejnych-zakazek-a-jeho-provadeci-predpisy/Uplne-aktualni-zneni-zakona-o-zadavani-verejnych-zakazek>, <http://www.portal-vz.cz/CMSPages/GetFile.aspx?guid=eac625fd-7993-4ecf-b1c1-8e009e7f5606>, <http://www.czechlegislation.com/en/137-2006-sb>, <http://www.portal-vz.cz/getmedia/ac061a0a-d8c1-4ff1-b8d2-691aa89269b1/Zakon-c-134_2016-Sb-o-zadavani-verejnych-zakazek.pdf>, <https://www.portal.gov.cz/app/zakony/download?idBiblio=67315&nr=300~2F2008~20Sb.&ft=pdf>, <https://www.uoou.cz/zakon-c-480-2004-sb-o-nekterych-sluzbach-informacni-spolecnosti-ve-zneni-ucinnem-od-1-cervence-2017/ds-1497/p1=1497>, <https://www.zakonyprolidi.cz/cs/2011-372> .
+<http://www.psp.cz/sqw/historie.sqw?o=8&t=447&snzp=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the Right to Digital Services" .
+<https://www.zakonyprolidi.cz/cs/2000-365> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Public Administration Information Systems", "Act on Information Systems of Public Administration";
+ <http://purl.org/dc/terms/relation> <https://www.portal.gov.cz/app/zakony/download?idBiblio=47807&nr=106~2F1999~20Sb.&ft=pdf> .
+<https://www.portal.gov.cz/app/zakony/download?idBiblio=47807&nr=106~2F1999~20Sb.&ft=pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Free Access to Information";
+ <http://purl.org/dc/terms/relation> <http://www.mvcr.cz/soubor/act-on-archiving-and-records-management-pdf.aspx> .
+<https://www.zakonyprolidi.cz/cs/2017-250> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Electronic Identification" .
+<https://www.zakonyprolidi.cz/cs/2017-195> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Citizen Identity Cards" .
+<http://www.mvcr.cz/mvcren/article/electronic-signature-773488.aspx?q=Y2hudW09Mg==> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Trust Services for Electronic Transactions" .
+<https://www.portal.gov.cz/app/zakony/download?idBiblio=49228&nr=101~2F2000~20Sb.&ft=pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Data Protection" .
+<https://www.govcert.cz/en/info/events/2464-the-law-no-1812014-coll-on-cyber-security-entered-into-force/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Cyber Security" .
+<https://www.zakonyprolidi.cz/cs/2016-192> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Base Registries", "Act No. 192/2016 Coll.";
+ <http://purl.org/dc/terms/relation> <https://www.zakonyprolidi.cz/cs/2016-192> .
+<http://www.szrcr.cz/file/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act amending certain acts in connection with adoption of the Act on Base Registries" .
+<http://www.portal-vz.cz/cs/Jak-na-zadavani-verejnych-zakazek/Legislativa-a-Judikatura/Legislativa/Zakon-o-zadavani-verejnych-zakazek-a-jeho-provadeci-predpisy/Uplne-aktualni-zneni-zakona-o-zadavani-verejnych-zakazek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Public Procurement" .
+<http://www.portal-vz.cz/CMSPages/GetFile.aspx?guid=eac625fd-7993-4ecf-b1c1-8e009e7f5606> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "former Public Procurement Act" .
+<http://www.czechlegislation.com/en/137-2006-sb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Public Procurement" .
+<http://www.portal-vz.cz/getmedia/ac061a0a-d8c1-4ff1-b8d2-691aa89269b1/Zakon-c-134_2016-Sb-o-zadavani-verejnych-zakazek.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Public Procurement", "Act No. 134/2016 Coll.) ";
+ <http://purl.org/dc/terms/relation> <http://www.portal-vz.cz/getmedia/ac061a0a-d8c1-4ff1-b8d2-691aa89269b1/Zakon-c-134_2016-Sb-o-zadavani-verejnych-zakazek.pdf>, <http://eur-lex.europa.eu/legal-content/CS/TXT/HTML/?uri=CELEX:32014L0055&from=EN> .
+<http://eur-lex.europa.eu/legal-content/CS/TXT/HTML/?uri=CELEX:32014L0055&from=EN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2014/55/EU" .
+<https://www.portal.gov.cz/app/zakony/download?idBiblio=67315&nr=300~2F2008~20Sb.&ft=pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Electronic Actions and Authorised Document Conversion" .
+<https://www.uoou.cz/zakon-c-480-2004-sb-o-nekterych-sluzbach-informacni-spolecnosti-ve-zneni-ucinnem-od-1-cervence-2017/ds-1497/p1=1497> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Certain Information Society Services" .
+<https://www.zakonyprolidi.cz/cs/2011-372> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Health Services" .
+<http://www.mvcr.cz/soubor/act-on-archiving-and-records-management-pdf.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Archiving and Records Management" .
+<http://example.org/nifo/person/JanHamáček> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Jan Hamáček";
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisteroftheInterior>, <http://example.org/nifo/post/Post-DeputyInteriorMinisterforInformationandCommunicationTechnologies>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/1111> .
+<http://example.org/nifo/post/Post-MinisteroftheInterior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisteroftheInterior> .
+<http://example.org/nifo/role/Role-MinisteroftheInterior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Minister of the Interior" .
+<http://example.org/ContactPoint/1111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "ministr@mvcr.cz  ";
+ <http://schema.org/telephone> "+420 974 833 151";
+ <http://schema.org/url> "http://www.mvcr.cz/" .
+<http://example.org/nifo/person/JaroslavStrouhal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Jaroslav Strouhal";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4286>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofIndustryandTrade> .
+<http://example.org/nifo/post/Post-DeputyInteriorMinisterforInformationandCommunicationTechnologies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DeputyInteriorMinisterforInformationandCommunicationTechnologies> .
+<http://example.org/nifo/role/Role-DeputyInteriorMinisterforInformationandCommunicationTechnologies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Deputy Interior Minister for Information and Communication Technologies " .
+<http://example.org/ContactPoint/4286> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "jaroslav.strouhal@mvcr.cz ";
+ <http://schema.org/telephone> "+420 974 817 702";
+ <http://schema.org/url> "http://www.mvcr.cz/" .
+<http://example.org/nifo/person/KarelHavlíček> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Karel Havlíček ";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8296>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-ChiefDigitalOfficer> .
+<http://example.org/nifo/post/Post-MinisterofIndustryandTrade> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofIndustryandTrade> .
+<http://example.org/nifo/role/Role-MinisterofIndustryandTrade> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Industry and Trade" .
+<http://example.org/ContactPoint/8296> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "karel.havlicek@mpo.cz";
+ <http://schema.org/telephone> "+420 224 851 111";
+ <http://schema.org/url> "https://www.mpo.cz" .
+<http://example.org/nifo/person/VladimírDzurilla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Vladimír Dzurilla";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2904>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DirectorofeGovernmentDepartment> .
+<http://example.org/nifo/post/Post-ChiefDigitalOfficer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-ChiefDigitalOfficer> .
+<http://example.org/nifo/role/Role-ChiefDigitalOfficer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Chief Digital Officer " .
+<http://example.org/ContactPoint/2904> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "N/A";
+ <http://schema.org/telephone> "+420 225 515 737";
+ <http://schema.org/url> "https://www.spcss.cz/kontakty/spcss" .
+<http://example.org/nifo/person/RomanVrba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Roman Vrba";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/1622>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DirectoroftheNationalRegistersAuthority> .
+<http://example.org/nifo/post/Post-DirectorofeGovernmentDepartment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DirectorofeGovernmentDepartment> .
+<http://example.org/nifo/role/Role-DirectorofeGovernmentDepartment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Director of eGovernment Department " .
+<http://example.org/ContactPoint/1622> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "roman.vrba@mvcr.cz";
+ <http://schema.org/telephone> "+420 974 817 544 ";
+ <http://schema.org/url> "http://www.mvcr.cz/clanek/odbor-egovernmentu.aspx" .
+<http://example.org/nifo/person/MichalPešek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Michal Pešek";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4211> .
+<http://example.org/nifo/post/Post-DirectoroftheNationalRegistersAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DirectoroftheNationalRegistersAuthority> .
+<http://example.org/nifo/role/Role-DirectoroftheNationalRegistersAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Director of the National Registers Authority" .
+<http://example.org/ContactPoint/4211> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "szr@szrcr.cz ";
+ <http://schema.org/telephone> "+420 236 031 751; +420 236 031 759";
+ <http://schema.org/url> "http://www.szrcr.cz/kontakty" .
+<http://example.org/nifo/publicservice/Czech_Republic/Filingapplications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Filing applications";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of the Interior";
+ <http://schema.org/url> "http://www.obcanky.cz/ ";
+ <http://purl.org/dc/terms/description> "The Ministry of the Interior launched a new reservation system for filing applications for ID cards and travel documents issued to citizens of the Czech Republic in shorter terms." .
+<http://example.org/nifo/publicservice/Czech_Republic/Passport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Passport";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Interior (production), Local Government (applications/distribution)";
+ <http://schema.org/url> "https://www.mvcr.cz/";
+ <http://purl.org/dc/terms/description> "Information purposes only. Passport applications are managed by municipalities." .
+<http://example.org/nifo/publicservice/Czech_Republic/Complaintform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Complaint form";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Civil Aviation Authority; National Carrier of České Drahy A.S. and other institutions";
+ <http://schema.org/url> "http://www.caa.cz/; https://www.cd.cz/ ";
+ <http://purl.org/dc/terms/description> "Information purposes only with the possibility to print out a form to fill out." .
+<http://example.org/nifo/publicservice/Czech_Republic/Disabledtravellers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Disabled travellers";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "National carrier of České Dráhy A.S., Civil Aviation Authority and others";
+ <http://schema.org/url> "https://www.cd.cz/; http://www.caa.cz/ ";
+ <http://purl.org/dc/terms/description> "The Czech Railways allows the order of services for assistance for wheelchair users, visually impaired and hearing impaired online." .
+<http://example.org/nifo/publicservice/Czech_Republic/Drivinglicenceinsurance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Driving licence, insurance ";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Transportation";
+ <http://schema.org/url> "http://www.mdcr.cz/; https://gov.cz/";
+ <http://purl.org/dc/terms/description> "Information for citizens of the Czech Republic travelling abroad by vehicle and issuing of the international driving licence. Electronic forms are available for filling and printing." .
+<http://example.org/nifo/publicservice/Czech_Republic/Travelrecommendations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Travel recommendations";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Foreign Affairs";
+ <http://schema.org/url> "https://www.mzv.cz/ ";
+ <http://purl.org/dc/terms/description> "Information for citizens of the Czech Republic travelling abroad." .
+<http://example.org/nifo/publicservice/Czech_Republic/Crisismanagementemergencies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Crisis management, emergencies";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Prague City Hall, The official website of the city of Písek";
+ <http://schema.org/url> "https://bezpecnost.praha.eu/; http://www.mesto-pisek.cz/ ";
+ <http://purl.org/dc/terms/description> "Comprehensive information on crisis management for Prague. Documents for emergency and crisis situations contain overviews of the activities of the emergency services." .
+<http://example.org/nifo/publicservice/Czech_Republic/Extrajudicialsettlementofconsumerdisputes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Extrajudicial settlement of consumer disputes";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Association of Czech Travel Agencies; Czech Trade Inspection";
+ <http://schema.org/url> "https://www.coi.cz/informace-o-adr/";
+ <http://purl.org/dc/terms/description> "General information for travel agency clients;Information on the out-of-court resolution of consumer disputes (Czech Trade inspection);An electronic form for submitting an initiative including its dispatch." .
+<http://example.org/nifo/publicservice/Czech_Republic/Jobsearchservicesbylabouroffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Job search services by labour offices";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Labour and Social Affairs, Employment Services Administration";
+ <http://schema.org/url> "http://portal.mpsv.cz/sz";
+ <http://purl.org/dc/terms/description> "The website of the employment services of the Ministry of Labour and Social Affairs contains the national job vacancies database, contacts to all labour offices and a list of accredited private employment agencies." .
+<http://example.org/nifo/publicservice/Czech_Republic/Pensioncalculation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Pension calculation";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Czech Social Security Administration";
+ <http://schema.org/url> "https://eportal.cssz.cz/web/portal/sluzby-pro-pojistence ";
+ <http://purl.org/dc/terms/description> "Various online services are available at the ePortal of the Czech Social Security Administration. These are provided to employees, free-lancers and entrepreneurs. For the online service, people have to identify themselves via their DataBox." .
+<http://example.org/nifo/publicservice/Czech_Republic/Requestforrecognitionofaprofessionalqualification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Request for recognition of a professional qualification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Education, Youth and Sports";
+ <http://schema.org/url> "https://www.businessinfo.cz/";
+ <http://purl.org/dc/terms/description> "The applicant verifies the activities he wants to perform in the Czech Republic. If the activity is regulated, the regulated professions database shall identify the requirements for enforcement and complete the application for recognition of the professional qualification and contact the competent recognition authority that has the profession in its administration. The application should also be accompanied by an identity card and evidence of professional qualification or other competence and proof of payment of the administrative fee." .
+<http://example.org/nifo/publicservice/Czech_Republic/Unemploymentbenefits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Unemployment benefits";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Labour and Social Affairs, State Social Benefits";
+ <http://schema.org/url> "http://portal.mpsv.cz/sz";
+ <http://purl.org/dc/terms/description> "The website of the employment services of the Ministry of Labour and Social Affairs contains the national job vacancies database, contacts to all labour offices and a list of accredited private employment agencies." .
+<http://example.org/nifo/publicservice/Czech_Republic/Incometaxesdeclarationnotificationofassessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Income taxes: declaration, notification of assessment";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Finance, Czech Tax Administration";
+ <http://schema.org/url> "http://www.financnisprava.cz/en/ ";
+ <http://purl.org/dc/terms/description> "The Czech Tax Administration website enables the electronic filing of income tax returns. Since July 2006, taxpayers have been able to gain access to their personal tax account information through the 'Tax portal for the public'. " .
+<http://example.org/nifo/publicservice/Czech_Republic/Esubmissionforfinancialadministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "E-submission for financial administration";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Finance, Tax portal";
+ <http://schema.org/url> "http://adisspr.mfcr.cz/adistc/adis/idpr_pub/dpr/uvod.faces ";
+ <http://purl.org/dc/terms/description> "The tax portal is used for communication with the financial administration and for obtaining information from the tax procedure." .
+<http://example.org/nifo/publicservice/Czech_Republic/Vehicleregistration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Vehicle registration";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Transportation (production), Local Government";
+ <http://schema.org/url> "https://www.mdcr.cz/Dokumenty/Silnicni-doprava/Elektronicke-formulare-(1)";
+ <http://purl.org/dc/terms/description> "Car registration applications are managed by municipalities. On the website of the Ministry of Transport, the application form for registration of road vehicle is now available in the Register of road vehicles." .
+<http://example.org/nifo/publicservice/Czech_Republic/Driverslicence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Driver’s licence";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Transportation (production), Local Government (applications/distribution)";
+ <http://schema.org/url> "http://www.mdcr.cz/ ";
+ <http://purl.org/dc/terms/description> "Information purposes only. Driving licence applications are managed by municipalities." .
+<http://example.org/nifo/publicservice/Czech_Republic/Driversranking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Driver’s ranking";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "N/A";
+ <http://schema.org/url> "https://portal.gov.cz/obcan/ ";
+ <http://purl.org/dc/terms/description> "Accessing the driver’s ranking listing is a new service offered on the Citizen’s Portal." .
+<http://example.org/nifo/publicservice/Czech_Republic/Insuranceinformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Insurance information";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Czech Insurance Association (ČAP); Private insurance companies.";
+ <http://schema.org/url> "http://www.cap.cz/vse-o-pojisteni/pojisteni-v-praxi/nejcastejsi-dotazy/356-nejcastejsi-dotazy-pojisteni-motorovych-vozidel";
+ <http://purl.org/dc/terms/description> "General information, some insurance companies offer a calculation of insurance and insurance online.Since 1998, the Czech Insurance Association has been a full member of Insurance Europe (formerly the European Insurance and Reinsurance Federation-CEA), whose mission is to coordinate, represent, defend and enforce the joint interests of insurance companies in relation to state administration bodies and Other people in relation to foreign countries. The share of ČAP member insurance companies in the total premiums written in the Czech Republic is almost 97%." .
+<http://example.org/nifo/publicservice/Czech_Republic/Carregistrationnewusedimportedcars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Car registration (new, used, imported cars)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Transportation, Local Government";
+ <http://schema.org/url> "https://www.mdcr.cz/Dokumenty/Silnicni-doprava/Elektronicke-formulare-(1)/ ";
+ <http://purl.org/dc/terms/description> "Information and electronic forms purposes only. Car registration applications are managed by municipalities." .
+<http://example.org/nifo/publicservice/Czech_Republic/StayofforeignersintheCzechRepublicEUandthirdcountrycitizens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Stay of foreigners in the Czech Republic (EU and third country citizens)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Interior";
+ <http://schema.org/url> "https://www.mvcr.cz/clanek/formulare-zadosti.aspx";
+ <http://purl.org/dc/terms/description> "Information on the rights of residence of foreigners in the Czech Republic, forms for printing and filling." .
+<http://example.org/nifo/publicservice/Czech_Republic/AllaboutresidenceintheCzechRepublic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "All about residence in the Czech Republic";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Interior";
+ <http://schema.org/url> "https://www.mvcr.cz/clanek/formulare-zadosti.aspx";
+ <http://purl.org/dc/terms/description> "Detailed information including forms to fill." .
+<http://example.org/nifo/publicservice/Czech_Republic/Announcementofmovingchangeofaddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Announcement of moving (change of address)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government and Local Government, Ministry of the Interior and Municipalities";
+ <http://schema.org/url> "http://www.mvcr.cz/ ";
+ <http://purl.org/dc/terms/description> "Information purposes only. Residents have to notify the municipalities of their change of address, which then proceed to update the central population register managed by the Ministry of the Interior. A central address change notification service accessible through the Public Administration portal has been implemented." .
+<http://example.org/nifo/publicservice/Czech_Republic/Registrationandverificationofpropertyrights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Registration and verification of property rights";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Czech Office for Surveying, Mapping and Cadastre";
+ <http://schema.org/url> "http://www.cuzk.cz/english/ ";
+ <http://purl.org/dc/terms/description> "Citizens can consult on-line the Cadastre of Real Estate for the precise location or real estates, property and other rights to real estates registered either for natural or legal persons across the country. They can use e-forms, register their rights and file changes online. Property owners can use the service “Monitoring of Changes”. " .
+<http://example.org/nifo/publicservice/Czech_Republic/CriminalRecordCertificateindividualslegalentities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Criminal Record Certificate (individuals, legal entities)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Local Government (Municipalities) – Criminal Records Authority";
+ <http://schema.org/url> "https://www.ceskaposta.cz/";
+ <http://purl.org/dc/terms/description> "Criminal record certificates can be requested via the eService CzechPOINT and the Citizen’s Portal." .
+<http://example.org/nifo/publicservice/Czech_Republic/Declarationtothepoliceegincaseoftheft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Declaration to the police (e.g. in case of theft)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Interior, Czech Police";
+ <http://schema.org/url> "http://www.policie.cz/ ";
+ <http://purl.org/dc/terms/description> "Declarations to the police can be made by email." .
+<http://example.org/nifo/publicservice/Czech_Republic/Housingbuildingandhousingenvironment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Housing (building and housing, environment)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Local Government";
+ <http://schema.org/url> "N/A";
+ <http://purl.org/dc/terms/description> "Applications for building/planning permission are managed by municipalities. Some municipalities provide related information on their websites." .
+<http://example.org/nifo/publicservice/Czech_Republic/Listofproperties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "List of properties";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "N/A";
+ <http://schema.org/url> "https://portal.gov.cz/obcan/ ";
+ <http://purl.org/dc/terms/description> "On the Citizen’s Portal, the user can access a list of properties owned by the user, i.e. preview the cadastre." .
+<http://example.org/nifo/publicservice/Czech_Republic/HoldingofelectionsatEmbassiesoftheCzechRepublicabroad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Holding of elections at Embassies of the Czech Republic abroad";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Foreign Affairs, Ministry of Interior";
+ <http://schema.org/url> "https://www.mvcr.cz/volby.aspx";
+ <http://purl.org/dc/terms/description> "Information only on the possibility to participate in elections abroad." .
+<http://example.org/nifo/publicservice/Czech_Republic/Enrolmentinhighereducationuniversity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Enrolment in higher education/university";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government and Local Government, Higher Education Institutions";
+ <http://schema.org/url> "http://www.msmt.cz/ ";
+ <http://purl.org/dc/terms/description> "There is no central enrolment system in the Czech Republic. Enrolment falls under the responsibility of individual schools and universities. The majority offer information and downloadable forms." .
+<http://example.org/nifo/publicservice/Czech_Republic/Diploma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Diploma";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "State universities, Ministry of Education, Youth and Sports";
+ <http://schema.org/url> "http://www.msmt.cz/areas-of-work/tertiary-education/recognition-of-foreign-higher-education-in-the-czech";
+ <http://purl.org/dc/terms/description> "Nostrification of higher education diploma may be required when applying for certain jobs. Individual state universities provide this service. More information can be found on the webpage above. " .
+<http://example.org/nifo/publicservice/Czech_Republic/Nationallibrary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "National library";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "National Library of the Czech Republic";
+ <http://schema.org/url> "http://www.en.nkp.cz/ ";
+ <http://purl.org/dc/terms/description> "National Library of the Czech Republic provides access to digitalised books, newspapers and journals, articles, manuscripts and Incunabula, music collections, early printed books, sound recordings, maps, licensed databases, etc." .
+<http://example.org/nifo/publicservice/Czech_Republic/Publiclibrariesavailabilityofcataloguessearchtools> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Public libraries (availability of catalogues, search tools)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Regional and Local Governments";
+ <http://schema.org/url> "https://www.mzk.cz/en/about-library/membership-organizations ";
+ <http://purl.org/dc/terms/description> "Public libraries are managed by regional and local governments. Several libraries, such as the Municipal Library of Prague, provide an online catalogue and a number of online services, including: electronic listings of the newly-available items in the library collection; email notifications at the end of the lending period; automatic extension of the lending period by email; facility for reserving an item from the online catalogue. Many public libraries and university portals accept online identification service MojeID. By March 2018, there were more than 605 275 active users of this eID. For several life events, citizens can consult the mobile application of the Ministry of Interior, available for Android and iOS. The application provides authoritative step-by-step information on procedures, obligations, documents and public administration office locations. It can also navigate users to the nearest public administration, the Czech POINT office and the police station. Life events currently supported by the mobile application include Birth of a child, Moving, Loss of (personal ID) documents, Death in the family and Transfer of property rights." .
+<http://example.org/nifo/publicservice/Czech_Republic/ExchangestudystaysforstudentsandstaffofUniversities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Exchange study stays for students and staff of Universities";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Individual universities";
+ <http://schema.org/url> "https://ozs.vse.cz/chci-vyjet-2/jak/vyberove-rizeni-v-ramci-vse/";
+ <http://purl.org/dc/terms/description> "Universities organise exchange study stays for their students and teaching staff, e.g. Under the Erasmus (EuRopean Action Scheme for the Mobility of University Students) programme, which supports the foreign mobility of higher education students and educators, and co-operation in higher educational institutions in Europe. Some forms are also available to fill in." .
+<http://example.org/nifo/publicservice/Czech_Republic/Informationandassistancetoresearchers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Information and assistance to researchers";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "EURAXESS Czech Republic";
+ <http://schema.org/url> "http://www.euraxess.cz/ ";
+ <http://purl.org/dc/terms/description> "EURAXESS Czech Republic provides information and assistance to mobile researchers – by means of the web portal and with the support of the national EURAXESS Service Centres. The portal contains practical information concerning professional and daily life, as well as information on job and funding opportunities." .
+<http://example.org/nifo/publicservice/Czech_Republic/Volunteerservice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Volunteer service";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of the Interior";
+ <http://schema.org/url> "https://www.mvcr.cz/";
+ <http://purl.org/dc/terms/description> "Detailed information about volunteering in the Czech Republic.Voluntering centres ADRA in Czech Republic; Diakonie of the Evangelical Church of the Czech Republic; National Youth Information Centre. " .
+<http://example.org/nifo/publicservice/Czech_Republic/eHealthbook> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "e-Health book";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "General Health Insurance Company (Všeobecná zdravotní pojišťovna VZP CR)";
+ <http://schema.org/url> "http://www.izip.cz/ ";
+ <http://purl.org/dc/terms/description> "eHealth book is the summary of a highly secure patient health information in electronic form, accessible 24 hours a day via the Internet. It is also a safe environment connecting healthcare providers, patients and health insurers. It can be used for the transmission of health information between doctor and patient and the doctors themselves, in an emergency it can help save a life. The registration and use is free only for insurers of VZP CR." .
+<http://example.org/nifo/publicservice/Czech_Republic/ePrescriptionservices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "ePrescription services";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "State institute for drug control";
+ <http://schema.org/url> "https://www.epreskripce.cz/; https://portal.gov.cz/obcan/ ";
+ <http://purl.org/dc/terms/description> "The use of ePrescription services is mandatory since 1 January 2018. Advanced functionalities will require changes in legislation as well as building additional components of the national eHealth infrastructure and will be implemented during the next phases of the project. The implementation of the service is part of a broader National eHealth Strategy (adopted in the autumn of 2016) which defines a number of national eHealth projects to be implemented in the coming years focusing on data sharing between health care providers, provision of online patient information and telemedicine development.Through the Citizen’s Portal, users can also access their online medicine account (eRecept)." .
+<http://example.org/nifo/publicservice/Czech_Republic/Medicalcostsreimbursementordirectsettlement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Medical costs (reimbursement or direct settlement)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Health insurance companies";
+ <http://schema.org/url> "N/A";
+ <http://purl.org/dc/terms/description> "Health insurance is compulsory in the Czech Republic, but administered by private health insurance companies. These companies are non-profit independent bodies; hence, any surplus is allocated to a special account called the Reserve Fund. The system is financed by the contributions of individuals, employers and the State. Opting out of the insurance system is not permitted." .
+<http://example.org/nifo/publicservice/Czech_Republic/Healthrelatedservicesinteractiveadviceontheavailabilityofservicesindifferenthospitalsappointmentsforhospitals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Health related services (interactive advice on the availability of services in different hospitals; appointments for hospitals)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Health, Regional Government";
+ <http://schema.org/url> "http://www.mzcr.cz/en/ ";
+ <http://purl.org/dc/terms/description> "Information purposes only. The national health policy is coordinated by the Ministry of Health; however, the operation of hospitals is managed by regional governments." .
+<http://example.org/nifo/publicservice/Czech_Republic/DigitalservicesoftheregionalhealthcaresystemattheVysoinaregion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Digital services of the regional health care system at the Vysočina region";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Regional administration of the Vysočina region";
+ <http://schema.org/url> "http://www.eambulance.cz/ ";
+ <http://purl.org/dc/terms/description> "People living in the Vysočina region make their appointments to the health service providers from several local hospitals online, and benefit from the electronic health data exchange between hospitals and ambulances. In 2017, the Vysočina region was authorised by the Ministry of Health to pilot cross-border exchange of medical information over the TESTA network between the Czech Republic and Croatia as a part of a larger EU eHealth project." .
+<http://example.org/nifo/publicservice/Czech_Republic/Healthinsurance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Health insurance";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Individual health insurance companies";
+ <http://schema.org/url> "Health Insurance Office";
+ <http://purl.org/dc/terms/description> "Information and application forms of the insured person for consent to reimbursement of planned health services abroad." .
+<http://example.org/nifo/publicservice/Czech_Republic/EuropeanHealthInsuranceCardabroad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "European Health Insurance Card abroad";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "N/A";
+ <http://schema.org/url> "https://www.kancelarzp.cz/";
+ <http://purl.org/dc/terms/description> "Possibility to receive medication in pharmacies for a prescription, which is issued by a doctor. The European Health Insurance Card (EHIC) or certificate temporarily replacing the EHIC must be shown when the medicine is picked up." .
+<http://example.org/nifo/publicservice/Czech_Republic/NationaleHealthcontactpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "National eHealth contact point";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "N/A";
+ <http://schema.org/url> "https://portal.gov.cz/obcan/ ";
+ <http://purl.org/dc/terms/description> "Citizens can access their national eHealth contact point through the Citizen’s Portal." .
+<http://example.org/nifo/publicservice/Czech_Republic/Birthparentalandchildallowances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Birth, parental and child allowances";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Labour and Social Affairs, State Social Benefits";
+ <http://schema.org/url> "https://portal.gov.cz/obcan/zivotni-situace/rodina/narozeni-ditete/rodicovsky-prispevek.html; https://portal.gov.cz/obcan/zivotni-situace/rodina/pece-o-dite/pridavek-na-dite.html";
+ <http://purl.org/dc/terms/description> "Allowances applications are submitted and managed electronically via a web-enabled application system. A server enables users to choose a specific form, either to be filled out manually, or to be filled out and submitted online, using a digital signature." .
+<http://example.org/nifo/publicservice/Czech_Republic/Certificatesbirthmarriagerequestanddelivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Certificates (birth, marriage): request and delivery";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Interior and Local Government";
+ <http://schema.org/url> "http://www.mvcr.cz/";
+ <http://purl.org/dc/terms/description> "Mainly for information purposes. Requests and issuance of certificates are managed by municipalities. Some of these provide downloadable application forms on their websites." .
+<http://example.org/nifo/publicservice/Czech_Republic/Inheritanceproceeding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Inheritance proceeding";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Notarial Chamber of the Czech Republic";
+ <http://schema.org/url> "https://www.nkcr.cz/";
+ <http://purl.org/dc/terms/description> "Information purposes only." .
+<http://example.org/nifo/publicservice/Czech_Republic/Consumerprotection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Consumer protection";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Industry and Trade, Consumer protection associations and other consumer organisations";
+ <http://schema.org/url> "https://www.mpo.cz/cz/ochrana-spotrebitele/spotrebitelsky-ombudsman/";
+ <http://purl.org/dc/terms/description> "Information on consumer protections and how users can seek advice and contact the authorities. " .
+<http://example.org/nifo/publicservice/Czech_Republic/ConsumerProtection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Consumer Protection";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Czech Telecommunications Authority";
+ <http://schema.org/url> "https://www.ctu.cz/resene-spory-ctu";
+ <http://purl.org/dc/terms/description> "Information and filling in request forms with options is electronically signed and sent by email or data mailbox.The most common fixes for the following issues: https://www.ctu.cz/nejcastejsi-problemy " .
+<http://example.org/nifo/publicservice/Czech_Republic/Informationpagesforenergyconsumers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Information pages for energy consumers";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Energy Regulatory Authority";
+ <http://schema.org/url> "https://www.eru.cz/cs/informacni-centrum/potrebujete-pomoc";
+ <http://purl.org/dc/terms/description> "Information and practical advice to consumers. The ability to assess the appropriateness of changing suppliers help the application of the ERÚ calculator. There is a contact form for submitting inquiries." .
+<http://example.org/nifo/publicservice/Czech_Republic/Customercomplaints> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Customer complaints";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Industry and Trade, Energy Regulatory Authority; Consumer protection associations and other consumer organisations";
+ <http://schema.org/url> "https://www.asociace-sos.cz/vzory-dopisu/";
+ <http://purl.org/dc/terms/description> "Practical information and advice on dealing with consumer complaints." .
+<http://example.org/nifo/publicservice/Czech_Republic/Registrationofanewcompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Registration of a new company";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government";
+ <http://schema.org/url> "http://www.businessinfo.cz/ ";
+ <http://purl.org/dc/terms/description> "The Czech Business Web provides a one-stop shop for business information, including business registration. Entrepreneurs can also file an online business inquiry using the “online tools” of the portal. " .
+<http://example.org/nifo/publicservice/Czech_Republic/RegistrationForm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Registration Form";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "N/A";
+ <http://schema.org/url> "https://portal.gov.cz/obcan/ ";
+ <http://purl.org/dc/terms/description> "The Citizen’s Portal offers a single registration form for businesses." .
+<http://example.org/nifo/publicservice/Czech_Republic/Corporatetaxdeclarationnotification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Corporate tax: declaration, notification";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Finance, Czech Tax Administration";
+ <http://schema.org/url> "http://www.financnisprava.cz/";
+ <http://purl.org/dc/terms/description> "The Czech Tax Administration website enables the electronic filing of corporate tax returns. Case handling, decision and delivery of a standard procedure to declare corporate tax can be treated online at the eTax portal." .
+<http://example.org/nifo/publicservice/Czech_Republic/FinancialManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Financial Management";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> " N/A";
+ <http://schema.org/url> "https://portal.gov.cz/obcan/ ";
+ <http://purl.org/dc/terms/description> "On the Citizen’s Portal, users can electronically submit documents for financial management such as VAT control reports and tax returns." .
+<http://example.org/nifo/publicservice/Czech_Republic/PublicprocurementeProcurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Public procurement / eProcurement";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry for Regional Development";
+ <http://schema.org/url> "http://www.portal-vz.cz/en/Homepage ";
+ <http://purl.org/dc/terms/description> "Public procurement and the concessions portal administered by the Ministry for regional development provide an access to Public procurement notice (Public gazette), list of qualified suppliers, certification systems, public procurement statistics, indexes and a list of certified online eProcurement tools. In addition, it is possible to find information on eProcurement together with the National eProcurement strategy for 2016-2020.Government eProcurement tool called “NEN” helps to plan, administer and manage public procurement in compliance with national legislation. Starting from 1 July 2018, it became mandatory for central state administrations and their subordinate organisations to use this system. " .
+<http://example.org/nifo/publicservice/Czech_Republic/CustomsdeclarationseCustoms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Customs declarations (eCustoms)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of Industry and Trade /CzechTrade";
+ <http://schema.org/url> "http://www.businessinfo.cz/en/";
+ <http://purl.org/dc/terms/description> "Businessinfo.cz portal is sponsored by the Ministry of Industry and Trade of the Czech Republic. It is operated by CzechTrade, the agency responsible for promoting exports. In addition to providing comprehensive information services for local companies, one of the main tasks of the portal is to help foreign businesses navigate the Czech business environment." .
+<http://example.org/nifo/publicservice/Czech_Republic/Extractingdocuments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Extracting documents";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "N/A";
+ <http://schema.org/url> "https://portal.gov.cz/obcan/ ";
+ <http://purl.org/dc/terms/description> "Through the Citizen’s Portal, various documents can be extracted. These are from the Trade Register, the list of qualified suppliers, the insolvency register and a non-public extract of the natural person’s business." .
+<http://example.org/nifo/publicservice/Czech_Republic/Reportinganticompetitivebehaviour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Reporting anti-competitive behaviour";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Office for the Protection of competition";
+ <http://schema.org/url> "https://www.uohs.cz/";
+ <http://purl.org/dc/terms/description> "The Office for the Protection of competition offers the use of an electronic mailroom to send incentives. Electronic filing can also be done via an e-mail message signed by electronic signature and sent to the address posta@compet.cz." .
+<http://example.org/nifo/publicservice/Czech_Republic/Workingconditions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Working conditions";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Labour and Social Affairs, State Office of Labour Inspectorate";
+ <http://schema.org/url> "http://www.suip.cz/informacni-materialy/pracovnepravni-vztahy/";
+ <http://purl.org/dc/terms/description> "Information for the public (employees and employers) through public consultation days, inquiries can be emailed to here or here. A Web Form is also set up to initiate a complaint to control the employer.The EURES Network is also an important source of information on working conditions in the Czech Republic, and detailed information on each country is available on the European Commission website. In the Czech Republic, EURES advisers are at the employment offices, and a web form can be used for inquiries. A database of job vacancies in the EU countries is part of the EURES portal." .
+<http://example.org/nifo/publicservice/Czech_Republic/Transportsectorworkers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Transport sector workers";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Transport, State Office of Labour Inspectorate";
+ <http://schema.org/url> "https://portal.mpsv.cz; http://www.suip.cz/ ";
+ <http://purl.org/dc/terms/description> "Partial information only on the following web pages:Inspection of work in road transport;Norwegian campaign for freight drivers;Minimum wages for bus drivers;Drivers’ rules on posting of workers." .
+<http://example.org/nifo/publicservice/Czech_Republic/Postedworkers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Posted workers";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Transport, state Office of Labour Inspectorate";
+ <http://schema.org/url> "http://www.suip.cz/vysilani-pracovniku/";
+ <http://purl.org/dc/terms/description> "In accordance with Directive 2014/67/EU (Article 5), the Czech Republic operates a national information site for posted workers (whose addressees are both workers and employers-sending companies. In the Czech Republic the role of the national website is done by the State Office of Labour Inspectorate webpage." .
+<http://example.org/nifo/publicservice/Czech_Republic/Socialcontributionsforemployees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Social contributions for employees";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Czech Social Security Administration";
+ <http://schema.org/url> "http://www.cssz.cz/; https://portal.gov.cz/obcan/ ";
+ <http://purl.org/dc/terms/description> "The declaration of social contribution for employees can be fully carried out through the Czech Social Security Administration website. No other formal procedure is necessary for the applicant via paperwork. Legal entities can receive confirmation of their non-indebtedness as well as information on their payments on employee social security online via ePortal of the Czech Social Security Administration. They have to identify online by their DataBox in order to do so. The service is also available on the Citizen’s Portal." .
+<http://example.org/nifo/publicservice/Czech_Republic/Recognitionofprofessionalqualifications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Recognition of professional qualifications";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Education, Youth and Sports; Ombudsman for the protection of rights";
+ <http://schema.org/url> "https://www.ochrance.cz/ (Equal treatment of EU citizens)";
+ <http://purl.org/dc/terms/description> "Information purposes only." .
+<http://example.org/nifo/publicservice/Czech_Republic/CommercialandindustrialnormsinCzechRepublicBusinessInfoportal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Commercial and industrial norms in Czech Republic (Business Info portal)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Agency CzechTrade (subordinate to the Ministry of Industry and Trade)";
+ <http://schema.org/url> "http://www.businessinfo.cz/cs/legislativa-pravo/pravo-eu.html ";
+ <http://purl.org/dc/terms/description> "Business Info portal provides information related to the commercial and industrial norms for businesses’ needs. The portal is operated by the CzechTrade that is a subordinate agency of the Ministry of Industry and Trade with aim to promote trade. The Agency's aim is to facilitate businesses’ decision making, shorten the time of entry into the market and promote activities aimed at further development of the companies abroad." .
+<http://example.org/nifo/publicservice/Czech_Republic/REACHITSubmissionToolRegistrationEvaluationAuthorisationandRestrictionofChemicalsEURegulationno19072006Helpdesk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "REACH-IT Submission Tool (Registration, Evaluation, Authorisation and Restriction of Chemicals, EU Regulation no 1907/2006) Helpdesk";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "European Chemical Agency";
+ <http://schema.org/url> "http://echa.europa.eu/cs/support/dossier-submission-tools/reach-it ";
+ <http://purl.org/dc/terms/description> "The European Chemicals Agency (ECHA) is the driving force among regulatory authorities in implementing REACH. REACH-IT is the central IT system that supports Industry, Member State competent authorities and the European Chemicals Agency to securely submit, process and manage data and dossiers. These three parties each have access to specific functions of REACH-IT which they can use to fulfil their requirements under the REACH and CLP regulations. REACH-IT also provides a secure communication channel between these three parties to help them coordinate the processing and evaluation of data and dossiers." .
+<http://example.org/nifo/publicservice/Czech_Republic/CommercialandindustrialnormsinCzechRepublic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Commercial and industrial norms in Czech Republic";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Agency CzechTrade (subordinate to the Ministry of Industry and Trade)";
+ <http://schema.org/url> "http://www.businessinfo.cz/cs/legislativa-pravo/pravo-eu.html ";
+ <http://purl.org/dc/terms/description> "Business Info portal provides information related to the commercial and industrial norms for businesses’ needs. The portal is operated by the CzechTrade that is a subordinate agency of the Ministry of Industry and Trade with aim to promote trade. The Agency's aim is to facilitate businesses’ decision making, shorten the time of entry into the market and promote activities aimed at further development of the companies abroad." .
+<http://example.org/nifo/publicservice/Czech_Republic/Environmentrelatedpermitsinclreporting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Environment-related permits (incl. reporting)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Environment, Local Government";
+ <http://schema.org/url> "http://www.mzp.cz/ ";
+ <http://purl.org/dc/terms/description> "Users are given the option of fully treating the delivery of environment-related permits electronically. Case handling, decision and delivery of a standard procedure to obtain an environment-related permit can be treated via eServices." .
+<http://example.org/nifo/publicservice/Czech_Republic/CzechEnvironmentalInformationAgencyCENIA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Czech Environmental Information Agency (CENIA)";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Ministry of the Environment";
+ <http://schema.org/url> "http://www1.cenia.cz/www/organisation-profile";
+ <http://purl.org/dc/terms/description> "CENIA collects, evaluates, interprets and distributes environmental information. All available resources, digital publications, useful links and guidelines on how to use the agency's services are at its webpage. The agency manages the Integrated System of Reporting Obligations. This system ensures compliance with mandatory reporting legislation which aims to protect the environment whilst providing cross-sectional data for gaining essential environmental information." .
+<http://example.org/nifo/publicservice/Czech_Republic/Submissionofdatatostatisticaloffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Submission of data to statistical offices";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Central Government, Czech Statistical Office";
+ <http://schema.org/url> "https://www.czso.cz/csu/czso/home ";
+ <http://purl.org/dc/terms/description> "Businesses and public authorities are able to transmit statistical data electronically." .
+<http://example.org/nifo/publicservice/Czech_Republic/NationalTradePromotionAgencyCzechTrade> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "National Trade Promotion Agency CzechTrade";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Agency CzechTrade (subordinate to the Ministry of Industry and Trade)";
+ <http://schema.org/url> "http://www.czechtradeoffices.com/ ";
+ <http://purl.org/dc/terms/description> "CzechTrade, the National Trade Promotion Agency, provides contacts and information on export opportunities worldwide and financial assistance towards market research, export catalogues and establishment of business contacts." .
+<http://example.org/nifo/publicservice/Czech_Republic/CzechExportBank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Czech Export Bank";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Czech Export Bank / Česká exportní banka, a.s. (ČEB) ";
+ <http://schema.org/url> "http://www.ceb.cz/content/view/153/71/ ";
+ <http://purl.org/dc/terms/description> "The Czech Export Bank provides Czech exporters with state-supported financing in order to create export conditions comparable to those available to their foreign competitors." .
+<http://example.org/nifo/publicservice/Czech_Republic/TheFarmersportaleAgri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "The Farmer's portal eAgri";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "Ministry of Agriculture";
+ <http://schema.org/url> "http://eagri.cz/public/web/mze/dotace/";
+ <http://purl.org/dc/terms/description> "The portal provides information on available subsidies and funding for farmers, both national and EU programmes. There is also an easy access to other registers and applications making the work of farmers a little bit easier. " .
+<http://example.org/nifo/publicservice/Czech_Republic/Documentmodels> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Document models";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "CzechTrade – Entrepreneurs Portal BusinessInfo";
+ <http://schema.org/url> "https://www.businessinfo.cz/ ";
+ <http://purl.org/dc/terms/description> "Information on contracts and commercial law can be found on the BusinessInfo website, including model contracts and legal documents." .
+<http://example.org/nifo/publicservice/Czech_Republic/Extrajudicialdisputeresolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Extrajudicial dispute resolution";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "CzechTrade – Entrepreneurs Portal BusinessInfo";
+ <http://schema.org/url> "https://www.businessinfo.cz/ ";
+ <http://purl.org/dc/terms/description> "Information for extrajudicial dispute resolution on the BusinessInfo website." .
+<http://example.org/nifo/publicservice/Czech_Republic/Privacyinformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://purl.org/dc/terms/title> "Privacy information";
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/Czech%2520Republic>;
+ <http://data.europa.eu/m8g/hasCompetentAuthority> "CzechTrade – Entrepreneurs Portal BusinessInfo";
+ <http://schema.org/url> "https://www.businessinfo.cz/ ";
+ <http://purl.org/dc/terms/description> "Privacy information and procedures for misuse of personal data." .

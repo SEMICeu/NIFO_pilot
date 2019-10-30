@@ -6,7 +6,7 @@ The objective of this pilot is to develop a reusable proof of concept, to conver
 
 * [ISA Core Vocabularies](https://joinup.ec.europa.eu/page/core-vocabularies)
 * [Dublin Core Terms](http://dublincore.org/documents/dcmi-terms/)
-* [European Legislation Identifier Ontology](http://publications.europa.eu/mdr/eli/)
+* [European Legislation Identifier Ontology](https://publications.europa.eu/en/web/eu-vocabularies/eli)
 * [DBPedia Ontology](http://wiki.dbpedia.org/services-resources/ontology)
 * [Schema.org](http://schema.org/)
 * [RDF Data Cube Vocabulary](https://www.w3.org/TR/vocab-data-cube/)
@@ -28,6 +28,7 @@ This pilot requires [Node JS](https://nodejs.org/en/download/) v8.10.0 or above,
 * rdfa-parser v1.0.1
 * request v2.85.0
 * sync-request v6.0.0
+* xml2js v0.4.19
 
 ## Architecture
 
@@ -57,10 +58,11 @@ The `config.json` file allows users to customise the transformation script and m
 * Configure document metadata, including the date issued, the applicable licence, the HTML tag used to identify the main sections in the document and the HTML tag used to identify the subsections in the document:
 ```
 {
-    "issued" : "2018-02",
+    "issued" : "2019-07",
     "licence" : "https://creativecommons.org/licenses/by/4.0/",
     "section_header" : "h1",
     "subsection_header" : "h2",
+    "subsubsection_header" : "h3"
 ```
 
 * Configure the prefixes that are used to generate URIs for new entities discovered within the document:
@@ -146,27 +148,31 @@ More detailed customisation of the annotations can be achieved by modifying the 
 The different sections are identified based on their title. To apply the annotations, we refer to the [methods provided by the Cheerio module](https://github.com/cheeriojs/cheerio).
 ```
 switch(content){
-     case "Basic Data":
-         //Custom code here
-         break;
-     case "Political Structure":
-         //Custom code here
-         break;
-     case "Information Society Indicators":
-         //Custom code here
-         break;
-     case "eGovernment State of Play":
-         //Custom code here
-         break;
-     case "eGovernment Legal Framework":
-         //Custom code here
-         break;
-     case "National eGovernment":
-         //Custom code here
-         break;
-     case "eGovernment Services for Citizens":
-         //Custom code here
-         break;
+    case "Country Profile":
+        //Custom code here
+        break;
+    case "Digital Government Highlights":
+        //Custom code here
+        break;
+    case "Digital Government Political Communications":
+        //Custom code here
+        break;
+    case "Digital Government Legislation":
+        //Custom code here
+        break;
+    case "Digital Government Governance":
+        //Custom code here
+        break;
+    case "Digital Government Infrastructure":
+        //Custom code here
+        break;
+    case "Digital Government Services for Citizens":
+        //Custom code here                 
+        break;
+    case "Digital Government Services for Businesses":
+        //Custom code here
+        break;
+}
 ```
 
 ## Licence

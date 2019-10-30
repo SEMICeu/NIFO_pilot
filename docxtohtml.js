@@ -27,7 +27,10 @@ var options = {
     styleMap: [
     	"h1 => h1.title",
         "p[style-name='HEAD 1'] => h1",
-        "p[style-name='HEAD 2'] => h2"
+        "p[style-name='HEAD 2'] => h2",
+        "p[style-name='Caption'] => h2.caption",
+        "p[style-name='HEAD 3'] => h3",
+        "p[style-name='Subtitle'] => p.subtitle"
     ],
     convertImage: mammoth.images.imgElement(function(element) {
         imageIndex++;
@@ -53,9 +56,10 @@ input.forEach(function(fileName){
     bar1.increment(100);
 	mammoth.convertToHtml({path: filePath+'/'+fileName}, options)
 	    .then(function(result){
-	        var html = result.value; // The generated HTML
+            var generatedHTML = result.value; // The generated HTML
+            var html = '<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body>'+generatedHTML+'</body></html>'
 	        var messages = result.messages; // Any messages, such as warnings during conversion
-			output = fileName.split('.');
+			output = fileName.split('.docx');
 			fs.writeFileSync(outputPath+"/"+output[0]+".html", unescape(html));
 	        fs.writeFileSync('log/'+output[0]+'.log', messages);
 	    })
