@@ -1,0 +1,164 @@
+<http://data.europa.eu/nifo/factsheet/Netherlands> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Netherlands>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/NLD";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsNetherlands>, <http://example.org/nifo/dataset/ThefollowinggraphspresentdataforthelatestDigitalPublicAdministrationIndicatorsfortheNetherlandscomparedtotheEUaverage.StatisticalindicatorsinthissectionreflectthoseofEurostatatthetimetheEditionisbeingprepared.Netherlands>, <http://example.org/nifo/legalframework/Netherlands>, <https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2021>, <https://www.rijksoverheid.nl/documenten/rapporten/2013/09/01/actieplan-open-overheid>, <https://nlaic.com/toepassingsgebied/publieke-diensten/>, <http://example.org/nifo/person/RaymondKnops>, <http://example.org/nifo/person/BasdenHollander>, <http://example.org/nifo/person/AndréRegtop>, <http://example.org/nifo/person/YvonnevanderBrugge-Wolring>, <https://www.overheid.nl/>, <https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/Country%20factsheets%202020/Netherlands/data.overheid.nl>, <https://mijn.overheid.nl/?r=1>, <https://www.higherlevel.nl/>, <https://www.logius.nl/diensten/samenwerkende-catalogi>, <http://www.ondernemersplein.nl/>, <https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/Country%20factsheets%202020/Netherlands/Mijnoverheid.nl>, <https://www.rijksoverheid.nl/actueel/nieuws/2018/10/09/post-van-de-overheid-direct-op-mobiel-met-de-berichtenbox-app>, <https://www.logius.nl/diensten/digipoort/>, <http://www.ckan.org/>, <https://data.overheid.nl/en/datasets?sort=score%20desc,sys_modified%20desc&facet_sys_language%5B0%5D=http://publications.europa.eu/resource/authority/language/ENG>, <https://www.geonovum.nl/themas/kennisplatform-apis>, <https://developer.overheid.nl/>, <https://www.logius.nl/diensten/diginetwerk/>, <https://www.logius.nl/diensten/digikoppeling>, <https://www.logius.nl/diensten/digilevering>, <https://www.logius.nl/diensten/digimelding/>, <https://www.logius.nl/diensten/stelselcatalogus/>, <https://www.digid.nl/over-digid/app/>, <https://www.eherkenning.nl/>, <https://www.digitaleoverheid.nl/dossiers/certificeringpki-overheid/>, <https://www.pianoo.nl/>, <https://www.stpe.nl>, <https://www.stpe.nl/over_stpe.html>, <https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/dienstverlening-aan-burgers-en-ondernemers/efactureren/>, <https://www.it-academieoverheid.nl/>, <https://www.gebruikercentraal.nl/>, <https://www.digitaleoverheid.nl/onderwerpen/stelselinformatiepunt/stelselthemas/twaalf-eisen>, <https://www.rijksoverheid.nl/ministeries/ministerie-van-binnenlandse-zaken-en-koninkrijksrelaties/documenten/rapporten/2017/06/01/rapport-monitor-generieke-digitale-infrastructuur-2017>, <https://www.cbs.nl/nl-nl/maatwerk/2016/50/eenmeting-kwaliteit-basisregistraties-in-samenhang-2016>, <https://www.cbs.nl/nl-nl/maatwerk/2018/38/tweemeting-kwaliteit-samenhang-basisregistraties-2017).>, <https://www.pdok.nl/>, <http://www.rijksoverheid.nl/onderwerpen/persoonsgegevens/basisregistratie-personen-brp>, <https://www.nldigitalgovernment.nl/dossiers/key-registers-and-system-standards/>, <http://www.digitaleoverheid.nl/onderwerpen/stelselinformatiepunt/stelsel-van-basisregistraties/basisregistraties-adressen-en-gebouwen>, <https://www.digitaleoverheid.nl/planning/releasekalender-digitale-overheid/voorziening/basisregistratie-topografie-brt/>, <http://www.digitaleoverheid.nl/onderwerpen/stelselinformatiepunt/stelsel-van-basisregistraties/basisregistratie-grootschalige-topografie>, <https://www.digitaleoverheid.nl/planning/releasekalender-digitale-overheid/voorziening/basisregistratie-kadaster-brk/>, <http://www.digitaleoverheid.nl/onderwerpen/stelselinformatiepunt/stelsel-van-basisregistraties/basisregistratie-voertuigen>, <http://www.digitaleoverheid.nl/onderwerpen/stelselinformatiepunt/stelsel-van-basisregistraties/basisregistratie-inkomen>, <http://www.digitaleoverheid.nl/onderwerpen/stelselinformatiepunt/stelsel-van-basisregistraties/basisregistratie-waarde-onroerende-zaken>, <https://www.basisregistratieondergrond.nl/>, <https://vng.nl/artikelen/about-the-vng>;
+ <http://dbpedia.org/ontology/populationTotal> "17 344 874 inhabitants (2019)";
+ <http://dbpedia.org/property/gdpNominal> "800 095 million Euros (2020)	";
+ <http://dbpedia.org/property/gdpPppPerCapita> "133 (2020) ";
+ <http://dbpedia.org/ontology/areaTotal> "41 542 km²";
+ <http://dbpedia.org/ontology/capital> "Amsterdam";
+ <http://purl.org/dc/terms/language> "Dutch";
+ <http://dbpedia.org/ontology/currency> <http://publications.europa.eu/resource/authority/currency/Euro>;
+ <http://purl.org/dc/terms/source> <https://ec.europa.eu/eurostat/data/database>, "Source: European Interoperability Framework Monitoring Mechanism 2020", <https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2021>;
+ <http://purl.org/dc/terms/title> "Interoperability State of Play", "eGovernment State of Play ", "Digital Public Administration Political Communications ", "In April 2020, the Dutch government published the annual update of the Government Data Agenda. The goals remain unchanged, that is to say safeguarding public values, improving quality of government data, increasing (responsible) reuse of government data, sharing knowledge, and investing in people in order to stimulate data-driven government. ", "In April 2020, the Dutch government also published a letter to Parliament about the release and active sharing of the source code of government software. " .
+<http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsNetherlands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataSet>;
+ <http://purl.org/dc/terms/title> "Digital Public Administration Indicators";
+ <http://purl.org/linked-data/cube#structure> <http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsNetherlands>;
+ <http://purl.org/dc/terms/source> "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en" .
+<http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsNetherlands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition>;
+ <http://purl.org/linked-data/cube#component> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesintheNetherlands>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesintheNetherlands>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesintheNetherlands>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesintheNetherlands>;
+ <http://www.w3.org/2000/01/rdf-schema#label> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesintheNetherlands>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesintheNetherlands>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesintheNetherlands>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesintheNetherlands> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesintheNetherlands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesintheNetherlands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesintheNetherlands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesintheNetherlands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<https://www.rijksoverheid.nl/documenten/rapporten/2013/09/01/actieplan-open-overheid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>, <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/title> "Open Government Vision and Action Plan" .
+<https://nlaic.com/toepassingsgebied/publieke-diensten/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Community of Practice" .
+<http://example.org/nifo/legalframework/Netherlands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.digitaleoverheid.nl/dossiers/wet-digitale-overheid/>, <https://wetten.overheid.nl/BWBR0005537/2019-04-02>, <https://www.overheid.nl/>, <http://www.freedominfo.org/wp-content/uploads/documents/NL%252520public_access_government_info_10-91.pdf>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024>, <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG>, <https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?cfg=wetsvoorsteldetails&qry=wetsvoorstel:34972>, <http://wetten.overheid.nl/BWBR0033715/2015-09-01>, <http://wetten.overheid.nl/BWBR0021777/2016-07-01>, <http://wetten.overheid.nl/BWBR0022428/2014-01-06>, <https://wetten.overheid.nl/BWBR0032203/2019-01-01>, <https://zoek.officielebekendmakingen.nl/stb-2018-1.html>, <https://wetten.overheid.nl/BWBR0026759/2019-01-01>, <https://wetten.overheid.nl/BWBR0013060/2015-07-01/2>, <https://www.government.nl/latest/news/2019/07/02/green-light-for-experimental-law-for-testing-self-driving-vehicles-on-public-roads> .
+<https://www.digitaleoverheid.nl/dossiers/wet-digitale-overheid/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Digital Government Law" .
+<https://wetten.overheid.nl/BWBR0005537/2019-04-02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Legislation on Administrative Law" .
+<https://www.overheid.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>, <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://data.europa.eu/eli/ontology#title> "Electronic Announcement Act" .
+<http://www.freedominfo.org/wp-content/uploads/documents/NL%252520public_access_government_info_10-91.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://www.freedominfo.org/wp-content/uploads/documents/NL%20public_access_government_info_10-91.pdf> <http://data.europa.eu/eli/ontology#title> "Act of 31 October 1991 on Public Access to Government Information" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive (EU) 2019/1024";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX:32003L0098> .
+<http://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX:32003L0098> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2003/98/EC";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/legal-content/FR/ALL/?uri=CELEX:32013L0037> .
+<http://eur-lex.europa.eu/legal-content/FR/ALL/?uri=CELEX:32013L0037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2013/37/EU" .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "EU Regulation 910/2014";
+ <http://purl.org/dc/terms/relation> <https://zoek.officielebekendmakingen.nl/stb-2017-81.html> .
+<https://zoek.officielebekendmakingen.nl/stb-2017-81.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "eIDAS Implementation Act";
+ <http://purl.org/dc/terms/relation> <https://www.digitaleoverheid.nl/dossiers/wet-digitale-overheid/> .
+<https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?cfg=wetsvoorsteldetails&qry=wetsvoorstel:34972> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Digital Government Law" .
+<http://wetten.overheid.nl/BWBR0033715/2015-09-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Persons Base Registry and BRP law" .
+<http://wetten.overheid.nl/BWBR0021777/2016-07-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Trade Registry Act" .
+<http://wetten.overheid.nl/BWBR0022428/2014-01-06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Unique Identifying Numbers Law" .
+<https://wetten.overheid.nl/BWBR0032203/2019-01-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Procurement Act 2012" .
+<https://zoek.officielebekendmakingen.nl/stb-2018-1.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "eInvoicing Directive 2014/55/EU" .
+<https://wetten.overheid.nl/BWBR0026759/2019-01-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Services Act (Dienstenwet)";
+ <http://purl.org/dc/terms/relation> <http://www.minv.sk/swift_data/source/verejna_sprava/zivnostenske_podnikanie_zuborova/Services%252520Directive.pdf> .
+<http://www.minv.sk/swift_data/source/verejna_sprava/zivnostenske_podnikanie_zuborova/Services%252520Directive.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://www.minv.sk/swift_data/source/verejna_sprava/zivnostenske_podnikanie_zuborova/Services%20Directive.pdf> <http://data.europa.eu/eli/ontology#title> "EU Services Directive" .
+<https://wetten.overheid.nl/BWBR0013060/2015-07-01/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "SUWI act" .
+<https://www.government.nl/latest/news/2019/07/02/green-light-for-experimental-law-for-testing-self-driving-vehicles-on-public-roads> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Experimental Law on Self-Driving Vehicles" .
+<http://example.org/nifo/person/RaymondKnops> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Raymond Knops";
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-StateSecretaryfortheInteriorandKingdomRelations>, <http://example.org/nifo/post/Post-DirectorforDigitalSociety>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/7184> .
+<http://example.org/nifo/post/Post-StateSecretaryfortheInteriorandKingdomRelations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-StateSecretaryfortheInteriorandKingdomRelations> .
+<http://example.org/nifo/role/Role-StateSecretaryfortheInteriorandKingdomRelations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "State Secretary for the Interior and Kingdom Relations " .
+<http://example.org/ContactPoint/7184> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+31 70 426 63 02";
+ <http://schema.org/email> "info@minbzk.nl ";
+ <http://schema.org/url> "https://www.government.nl/" .
+<http://example.org/nifo/person/BasdenHollander> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Bas den Hollander ";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/7926>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Director,GovernmentICTUnit(ICTU)> .
+<http://example.org/nifo/post/Post-DirectorforDigitalSociety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DirectorforDigitalSociety> .
+<http://example.org/nifo/role/Role-DirectorforDigitalSociety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Director for Digital Society " .
+<http://example.org/ContactPoint/7926> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+31 70 426 6176";
+ <http://schema.org/email> "bas.hollander@minbzk.nl ";
+ <http://schema.org/url> "https://www.rijksoverheid.nl/" .
+<http://example.org/nifo/person/AndréRegtop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "André Regtop ";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8874>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-GeneralDirectorofLogius> .
+<http://example.org/nifo/post/Post-Director,GovernmentICTUnit(ICTU)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Director,GovernmentICTUnit(ICTU)> .
+<http://example.org/nifo/role/Role-Director,GovernmentICTUnit(ICTU)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Director, Government ICT Unit (ICTU)" .
+<http://example.org/ContactPoint/8874> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+31 70 7000 900";
+ <http://schema.org/email> "info@ictu.nl";
+ <http://schema.org/url> "https://www.ictu.nl/" .
+<http://example.org/nifo/person/YvonnevanderBrugge-Wolring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Yvonne van der Brugge-Wolring";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/6039> .
+<http://example.org/nifo/post/Post-GeneralDirectorofLogius> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-GeneralDirectorofLogius> .
+<http://example.org/nifo/role/Role-GeneralDirectorofLogius> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "General Director of Logius" .
+<http://example.org/ContactPoint/6039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+31 70 888 75 10";
+ <http://schema.org/email> "yvonne.vander.brugge@logius.nl ";
+ <http://schema.org/url> "https://www.logius.nl/" .
+<https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/Country%20factsheets%202020/Netherlands/data.overheid.nl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://mijn.overheid.nl/?r=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.higherlevel.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.logius.nl/diensten/samenwerkende-catalogi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.ondernemersplein.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/Country%20factsheets%202020/Netherlands/Mijnoverheid.nl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.rijksoverheid.nl/actueel/nieuws/2018/10/09/post-van-de-overheid-direct-op-mobiel-met-de-berichtenbox-app> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.logius.nl/diensten/digipoort/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.ckan.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://data.overheid.nl/en/datasets?sort=score%20desc,sys_modified%20desc&facet_sys_language%5B0%5D=http://publications.europa.eu/resource/authority/language/ENG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.geonovum.nl/themas/kennisplatform-apis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://developer.overheid.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.logius.nl/diensten/diginetwerk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.logius.nl/diensten/digikoppeling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.logius.nl/diensten/digilevering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.logius.nl/diensten/digimelding/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.logius.nl/diensten/stelselcatalogus/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.digid.nl/over-digid/app/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.eherkenning.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.digitaleoverheid.nl/dossiers/certificeringpki-overheid/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.pianoo.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.stpe.nl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.stpe.nl/over_stpe.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/dienstverlening-aan-burgers-en-ondernemers/efactureren/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.it-academieoverheid.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gebruikercentraal.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.digitaleoverheid.nl/onderwerpen/stelselinformatiepunt/stelselthemas/twaalf-eisen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.rijksoverheid.nl/ministeries/ministerie-van-binnenlandse-zaken-en-koninkrijksrelaties/documenten/rapporten/2017/06/01/rapport-monitor-generieke-digitale-infrastructuur-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.cbs.nl/nl-nl/maatwerk/2016/50/eenmeting-kwaliteit-basisregistraties-in-samenhang-2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.cbs.nl/nl-nl/maatwerk/2018/38/tweemeting-kwaliteit-samenhang-basisregistraties-2017).> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.pdok.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.rijksoverheid.nl/onderwerpen/persoonsgegevens/basisregistratie-personen-brp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.nldigitalgovernment.nl/dossiers/key-registers-and-system-standards/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.digitaleoverheid.nl/onderwerpen/stelselinformatiepunt/stelsel-van-basisregistraties/basisregistraties-adressen-en-gebouwen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.digitaleoverheid.nl/planning/releasekalender-digitale-overheid/voorziening/basisregistratie-topografie-brt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.digitaleoverheid.nl/onderwerpen/stelselinformatiepunt/stelsel-van-basisregistraties/basisregistratie-grootschalige-topografie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.digitaleoverheid.nl/planning/releasekalender-digitale-overheid/voorziening/basisregistratie-kadaster-brk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.digitaleoverheid.nl/onderwerpen/stelselinformatiepunt/stelsel-van-basisregistraties/basisregistratie-voertuigen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.digitaleoverheid.nl/onderwerpen/stelselinformatiepunt/stelsel-van-basisregistraties/basisregistratie-inkomen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.digitaleoverheid.nl/onderwerpen/stelselinformatiepunt/stelsel-van-basisregistraties/basisregistratie-waarde-onroerende-zaken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.basisregistratieondergrond.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://vng.nl/artikelen/about-the-vng> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .

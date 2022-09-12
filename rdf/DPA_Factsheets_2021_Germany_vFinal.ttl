@@ -1,0 +1,83 @@
+<http://data.europa.eu/nifo/factsheet/Germany> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Germany>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/DEU";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/legalframework/Germany>, <http://example.org/nifo/person/NancyFaeser>, <http://example.org/nifo/person/Dr.Markus Richter>, <http://example.org/nifo/person/PiaKarger>, <http://example.org/nifo/person/ErnstBürger>, <http://example.org/nifo/person/ArneSchönbohm>, <http://example.org/nifo/person/UlrichKelber>;
+ <http://purl.org/dc/terms/title> "Digital Public Administration Political Communications", "To this end, the BMI provides skills training for its own staff and employees of the whole federal administration as well as support in the form of consolidated administrative services to empower not only its own employees but also those of the" .
+<http://example.org/nifo/legalframework/Germany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/person/NancyFaeser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Nancy Faeser ";
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-FederalMinisteroftheInteriorandCommunity%C2%A0>, <http://example.org/nifo/post/Post-StateSecretaryintheFederalMinistryoftheInterior%C2%A0>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2614> .
+<http://example.org/nifo/post/Post-FederalMinisteroftheInteriorandCommunity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-FederalMinisteroftheInteriorandCommunity%C2%A0> .
+<http://example.org/nifo/role/Role-FederalMinisteroftheInteriorandCommunity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Federal Minister of the Interior and Community " .
+<http://example.org/ContactPoint/2614> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "Tel.: +49 30 18 681-0 ";
+ <http://schema.org/faxNumber> "Fax: +49 30 18 681-12926 ";
+ <http://schema.org/email> "E-mail: poststelle@bmi.bund.de ";
+ <http://schema.org/url> "Source: http://www.bmi.bund.de/ " .
+<http://example.org/nifo/person/Dr.Markus Richter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Dr. Markus Richter ";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/9259>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DirectorGeneralforDigitalSocietyandInformationTechnology> .
+<http://example.org/nifo/post/Post-StateSecretaryintheFederalMinistryoftheInterior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-StateSecretaryintheFederalMinistryoftheInterior%C2%A0> .
+<http://example.org/nifo/role/Role-StateSecretaryintheFederalMinistryoftheInterior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "State Secretary in the Federal Ministry of the Interior " .
+<http://example.org/ContactPoint/9259> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+49 30 18 681-0 ";
+ <http://schema.org/url> "Source: https://www.cio.bund.de" .
+<http://example.org/nifo/person/PiaKarger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Pia Karger ";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/3031>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DirectorGeneralforDigitalAdministrationandManagementoftheOnlineAccessAct> .
+<http://example.org/nifo/post/Post-DirectorGeneralforDigitalSocietyandInformationTechnology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DirectorGeneralforDigitalSocietyandInformationTechnology> .
+<http://example.org/nifo/role/Role-DirectorGeneralforDigitalSocietyandInformationTechnology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Director General for Digital Society and Information Technology " .
+<http://example.org/ContactPoint/3031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "Tel.: +49 30 18 681-0 ";
+ <http://schema.org/faxNumber> "Fax: +49 30 18 681-58185 ";
+ <http://schema.org/email> "E-mail: IT-Beauftragter@bmi.bund.de";
+ <http://schema.org/url> "Source: http://www.bmi.bund.de/" .
+<http://example.org/nifo/person/ErnstBürger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Ernst Bürger";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8780>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-PresidentoftheFederalOfficeforInformationSecurity(BSI)%C2%A0> .
+<http://example.org/nifo/post/Post-DirectorGeneralforDigitalAdministrationandManagementoftheOnlineAccessAct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DirectorGeneralforDigitalAdministrationandManagementoftheOnlineAccessAct> .
+<http://example.org/nifo/role/Role-DirectorGeneralforDigitalAdministrationandManagementoftheOnlineAccessAct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Director General for Digital Administration and Management of the Online Access Act" .
+<http://example.org/ContactPoint/8780> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "Tel.: +49 30 18 681-0 ";
+ <http://schema.org/faxNumber> "Fax: +49 30 18 681-12983 ";
+ <http://schema.org/email> "E-mail: DV@bmi.bund.de ";
+ <http://schema.org/url> "Source: http://www.bmi.bund.de." .
+<http://example.org/nifo/person/ArneSchönbohm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Arne Schönbohm ";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8360>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-TheFederalCommissionerforDataProtectionandFreedomofInformation%C2%A0> .
+<http://example.org/nifo/post/Post-PresidentoftheFederalOfficeforInformationSecurity(BSI)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-PresidentoftheFederalOfficeforInformationSecurity(BSI)%C2%A0> .
+<http://example.org/nifo/role/Role-PresidentoftheFederalOfficeforInformationSecurity(BSI)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "President of the Federal Office for Information Security (BSI) " .
+<http://example.org/ContactPoint/8360> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "Tel.: +49 228 99 95 82-0 ";
+ <http://schema.org/faxNumber> "Fax: +49 228 99 95 82-5400 ";
+ <http://schema.org/email> "E-mail: bsi@bsi.bund.de ";
+ <http://schema.org/url> "Source: https://www.bsi.bund.de/ " .
+<http://example.org/nifo/person/UlrichKelber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Ulrich Kelber ";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/7436> .
+<http://example.org/nifo/post/Post-TheFederalCommissionerforDataProtectionandFreedomofInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-TheFederalCommissionerforDataProtectionandFreedomofInformation%C2%A0> .
+<http://example.org/nifo/role/Role-TheFederalCommissionerforDataProtectionandFreedomofInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "The Federal Commissioner for Data Protection and Freedom of Information " .
+<http://example.org/ContactPoint/7436> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "Tel.: +49 228 99 77 99-0 ";
+ <http://schema.org/faxNumber> "Fax: +49 228 99 77 99-550 ";
+ <http://schema.org/email> "E-mail: poststelle@bfdi.bund.de ";
+ <http://schema.org/url> "Source: https://www.bfdi.bund.de/ " .

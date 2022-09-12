@@ -1,0 +1,1231 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Slovenia",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Slovenia"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/SVN"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsSlovenia"
+        },
+        {
+          "@id": "http://example.org/nifo/dataset/ThefollowinggraphspresentdataforthelatestDigitalPublicAdministrationIndicatorsforSloveniacomparedtotheEUaverage.StatisticalindicatorsinthissectionreflectthoseofEurostatatthetimetheEditionisbeingprepared.Slovenia"
+        },
+        {
+          "@id": "http://example.org/nifo/legalframework/Slovenia"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2021"
+        },
+        {
+          "@id": "https://nio.gov.si/nio/asset/zakon+o+informacijski+varnosti+zinfv?lang=en"
+        },
+        {
+          "@id": "http://example.org/nifo/person/Bo%C5%A1tjanKoritnik"
+        },
+        {
+          "@id": "http://example.org/nifo/person/MarkBorisAndrijani%C4%8D"
+        },
+        {
+          "@id": "http://example.org/nifo/person/dr.Uro%C5%A1Svete"
+        },
+        {
+          "@id": "https://spot.gov.si/"
+        },
+        {
+          "@id": "https://spot.gov.si/"
+        },
+        {
+          "@id": "https://www.gov.si/teme/koronavirus-sars-cov-2/"
+        },
+        {
+          "@id": "https://www.stopbirokraciji.gov.si/en/home"
+        },
+        {
+          "@id": "https://www.youtube.com/watch?v=cE4DkYB1BBU&feature=emb_title"
+        },
+        {
+          "@id": "https://enotnazbirkaukrepov.gov.si/"
+        },
+        {
+          "@id": "https://nio.gov.si/nio/asset/geohubsi?lang=en"
+        },
+        {
+          "@id": "https://podatki.gov.si/"
+        },
+        {
+          "@id": "https://ejn.gov.si/en/"
+        },
+        {
+          "@id": "https://www.gov.si/en/state-authorities/national-council/"
+        },
+        {
+          "@id": "https://zvem.ezdrav.si/"
+        },
+        {
+          "@id": "http://www.e-prostor.gov.si/"
+        },
+        {
+          "@id": "https://www.fu.gov.si/davki_in_druge_dajatve/poslovanje_z_nami/e_davki/mobilna_aplikacija_edavki/"
+        },
+        {
+          "@id": "https://www.gov.si/en/state-authorities/bodies-within-ministries/public-payments-administration/about-us/"
+        },
+        {
+          "@id": "https://play.google.com/store/apps/details?id=com.mfrs.mujpnet&hl=en_US"
+        },
+        {
+          "@id": "http://www.vlada.si/delo_vlade/"
+        },
+        {
+          "@id": "http://www.vlada.si/delo_vlade/"
+        },
+        {
+          "@id": "https://portal.mzz.gov.si/"
+        },
+        {
+          "@id": "https://nio.gov.si/nio/asset/ejr+informacijska+podpora+izvajanju+javnih+razpisov?lang=en"
+        },
+        {
+          "@id": "https://izboljsajmo.maribor.si/"
+        },
+        {
+          "@id": "http://izboljsajmo.ptuj.si/"
+        },
+        {
+          "@id": "https://www.mariborsodeluj.si/"
+        },
+        {
+          "@id": "https://predlagam-odlocam.koper.si/"
+        },
+        {
+          "@id": "http://www.servis48.si/"
+        },
+        {
+          "@id": "https://pobude.ljubljana.si/"
+        },
+        {
+          "@id": "https://www.krpovej.si/"
+        },
+        {
+          "@id": "https://mol-ljubljana.hub.arcgis.com/"
+        },
+        {
+          "@id": "http://nio.gov.si/nio/asset/komunikacijsko+omrezje+drzavnih+organov+hkom"
+        },
+        {
+          "@id": "http://znet.ezdrav.si/"
+        },
+        {
+          "@id": "https://ec.europa.eu/isa2/solutions/testa_en"
+        },
+        {
+          "@id": "http://nio.gov.si/nio/asset/interoperabilnostna+komponenta+pladenj-368?lang=en"
+        },
+        {
+          "@id": "http://nio.gov.si/nio/asset/interoperabilnostna+komponenta+iomodul-369?lang=en"
+        },
+        {
+          "@id": "http://nio.gov.si/nio/asset/interoperabilnostna+komponenta+asinhroni+modul-370?lang=en"
+        },
+        {
+          "@id": "https://www.ezdrav.si/storitve/erecept/"
+        },
+        {
+          "@id": "https://zvem.ezdrav.si/"
+        },
+        {
+          "@id": "https://www.ezdrav.si/storitve/enarocanje/"
+        },
+        {
+          "@id": "http://www.ezdrav.si/category/projekti/enarocanje/"
+        },
+        {
+          "@id": "https://cakalnedobe.ezdrav.si/"
+        },
+        {
+          "@id": "https://zvem.ezdrav.si/"
+        },
+        {
+          "@id": "http://sicas.gov.si/"
+        },
+        {
+          "@id": "https://www.si-trust.gov.si/en/si-pass/mobile-identity-smspass/"
+        },
+        {
+          "@id": "http://nio.gov.si/nio/asset/centralni+avtentikacijski+sistem+sicas?lang=en"
+        },
+        {
+          "@id": "https://nio.gov.si/nio/asset/centralni+sistem+za+evrocanje+sicev-813?lang=en"
+        },
+        {
+          "@id": "https://www.enarocanje.si/"
+        },
+        {
+          "@id": "https://ejn.gov.si/"
+        },
+        {
+          "@id": "https://ejn.gov.si/en/"
+        },
+        {
+          "@id": "https://ejn.gov.si/statist.html"
+        },
+        {
+          "@id": "https://ejn.gov.si/statist.html"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055"
+        },
+        {
+          "@id": "https://www.ujp.gov.si/dokumenti/dokument.asp?id=295"
+        },
+        {
+          "@id": "https://www.mbills.si/"
+        },
+        {
+          "@id": "https://en.wikipedia.org/wiki/Knowledge"
+        },
+        {
+          "@id": "https://ua.gov.si/"
+        },
+        {
+          "@id": "http://nio.gov.si/nio/asset/jedro+elektronskih+postopkov+jep?lang=en"
+        },
+        {
+          "@id": "https://ec.europa.eu/inea/en/connecting-europe-facility/cef-telecom/2018-eu-ia-0032"
+        },
+        {
+          "@id": "https://www.toop.eu/"
+        },
+        {
+          "@id": "https://www.de4a.eu/"
+        },
+        {
+          "@id": "http://www.fu.gov.si/fileadmin/Internet/Davki_in_druge_dajatve/Podrocja/Dohodnina/Dohodek_iz_dejavnosti/Opis/GB_Podrobnejsi_opis_3_izdaja_Brosura_za_sobodajalce_-_fizicne_osebe.docx"
+        },
+        {
+          "@id": "https://www.ajpes.si/Registri/Drugi_registri/Register_nastanitvenih_obratov/Splosno"
+        },
+        {
+          "@id": "https://www.gov.si/en/state-authorities/ministries/ministry-of-culture/"
+        },
+        {
+          "@id": "https://nio.gov.si/nio/asset/centralni+besednjak"
+        },
+        {
+          "@id": "https://nio.gov.si/nio/asset/evidenca+aplikacij?lang=en"
+        },
+        {
+          "@id": "https://nio.gov.si/nio/asset/evidenca+aplikacij?lang=en"
+        },
+        {
+          "@id": "https://github.com/biolab/text-semantics"
+        }
+      ],
+      "http://dbpedia.org/ontology/populationTotal": [
+        "2 102 419 inhabitants (2020)"
+      ],
+      "http://dbpedia.org/property/gdpNominal": [
+        "46 297.2 million Euros (2020) "
+      ],
+      "http://dbpedia.org/property/gdpPppPerCapita": [
+        "89 (2020)"
+      ],
+      "http://dbpedia.org/ontology/areaTotal": [
+        "20.3 km²"
+      ],
+      "http://dbpedia.org/ontology/capital": [
+        "Ljubljana"
+      ],
+      "http://dbpedia.org/ontology/currency": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/currency/Euro"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://ec.europa.eu/eurostat/data/database"
+        },
+        "Source: European Interoperability Framework Monitoring Mechanism 2020",
+        "Source: European Interoperability Framework Monitoring Mechanism 2020",
+        "Source: European Interoperability Framework Monitoring Mechanism 2020",
+        "Source: European Interoperability Framework Monitoring Mechanism 2020",
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2021"
+        }
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Interoperability State of Play",
+        "eGovernment State of Play ",
+        "Digital Public Administration Political Communications",
+        "Digital Public Administration Legislation"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsSlovenia",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataSet"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Public Administration Indicators"
+      ],
+      "http://purl.org/linked-data/cube#structure": [
+        {
+          "@id": "http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsSlovenia"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Slovenia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www2.fu.uni-lj.si/mediawiki/index.php?title=Zak:GAPA"
+        },
+        {
+          "@id": "http://www2.fu.uni-lj.si/mediawiki/index.php?title=Zak:GAPA"
+        },
+        {
+          "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO5657"
+        },
+        {
+          "@id": "https://www.ip-rs.si/en/legislation/access-to-public-information-act/"
+        },
+        {
+          "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO7718"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:31993L0093"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/eli/dir/2016/1148/oj"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679"
+        },
+        {
+          "@id": "http://www.uradni-list.si/1/objava.jsp?urlurid=20074690"
+        },
+        {
+          "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO5758"
+        },
+        {
+          "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=URED4247"
+        },
+        {
+          "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO3603"
+        },
+        {
+          "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO5657"
+        },
+        {
+          "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO4544"
+        },
+        {
+          "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO1708"
+        },
+        {
+          "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO5791"
+        },
+        {
+          "@id": "http://www.djn.mju.gov.si/resources/files/Predpisi/ZJN-3_ang_prevod.pdf"
+        },
+        {
+          "@id": "http://www.djn.mju.gov.si/resources/files/Sistem_javnega_narocanja/ZPVPJN/ZPVPJN_ang_julij_18.pdf"
+        },
+        {
+          "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO7120"
+        },
+        {
+          "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO7120"
+        },
+        {
+          "@id": "http://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO1419"
+        },
+        {
+          "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO4284"
+        },
+        {
+          "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO4703"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsSlovenia",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
+      "http://purl.org/linked-data/cube#component": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinSlovenia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinSlovenia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinSlovenia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinSlovenia"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinSlovenia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinSlovenia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinSlovenia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinSlovenia"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinSlovenia",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinSlovenia",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinSlovenia",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinSlovenia",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "https://spot.gov.si/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://nio.gov.si/nio/asset/zakon+o+informacijski+varnosti+zinfv?lang=en",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Information Security Act"
+      ]
+    },
+    {
+      "@id": "http://www2.fu.uni-lj.si/mediawiki/index.php?title=Zak:GAPA",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "General Administrative Procedures Act",
+        "General Administrative Procedures Act"
+      ]
+    },
+    {
+      "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO5657",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Infrastructure for Spatial Information Act",
+        "Infrastructure for Spatial Information Act"
+      ]
+    },
+    {
+      "@id": "https://www.ip-rs.si/en/legislation/access-to-public-information-act/",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Access to Public Information Act"
+      ]
+    },
+    {
+      "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO7718",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Accessibility of Websites and Mobile Applications Act "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?sop=2018-01-1351"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?sop=2018-01-1351",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "act "
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:31993L0093",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "eSignature Directive (1993/93/EC)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1518451626252&uri=CELEX:32014R0910"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1518451626252&uri=CELEX:32014R0910",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation (EU) No. 910/2014 on electronic identification and trust services for electronic transactions in the internal market (eIDAS Regulation)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://e-uprava.gov.si/drzava-in-druzba/e-demokracija/predlogi-predpisov/predlog-predpisa.html?id=9860"
+        }
+      ]
+    },
+    {
+      "@id": "https://e-uprava.gov.si/drzava-in-druzba/e-demokracija/predlogi-predpisov/predlog-predpisa.html?id=9860",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "law"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/eli/dir/2016/1148/oj",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive (EU) 2016/1148 (NIS Directive)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://nio.gov.si/nio/asset/zakon+o+informacijski+varnosti+zinfv?lang=en"
+        }
+      ]
+    },
+    {
+      "@id": "http://nio.gov.si/nio/asset/zakon+o+informacijski+varnosti+zinfv?lang=en",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Information Security Act"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "General Data Protection Regulation (GDPR)"
+      ]
+    },
+    {
+      "@id": "http://www.uradni-list.si/1/objava.jsp?urlurid=20074690",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Personal Data Protection Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 95/46/EC"
+      ]
+    },
+    {
+      "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO5758",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Identity Card Act"
+      ]
+    },
+    {
+      "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=URED4247",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on the Business Registry of Slovenia",
+        "Regulation on Keeping and Maintaining the Business Registry of Slovenia"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=URED4247"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO3603",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Land Registry Act "
+      ]
+    },
+    {
+      "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO4544",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Real Estate Registration Act"
+      ]
+    },
+    {
+      "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO1708",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Central Population Registry "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO4555"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO4555",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law amending and supplementing the Law on the Central Population Registry"
+      ]
+    },
+    {
+      "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO5791",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Motor Vehicles "
+      ]
+    },
+    {
+      "@id": "http://www.djn.mju.gov.si/resources/files/Predpisi/ZJN-3_ang_prevod.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Public Procurement Act"
+      ]
+    },
+    {
+      "@id": "https://www.enarocanje.si/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ejn.gov.si/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.djn.mju.gov.si/resources/files/Sistem_javnega_narocanja/ZPVPJN/ZPVPJN_ang_julij_18.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Legal Protection in Public Procurement Procedures Act"
+      ]
+    },
+    {
+      "@id": "https://www.ujp.gov.si/dokumenti/dokument.asp?id=295",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO7120",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Provision of Payment Services to Budget Users Act",
+        "Provision of Payment Services to Budget Users Act"
+      ]
+    },
+    {
+      "@id": "http://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO1419",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Healthcare Databases Act"
+      ]
+    },
+    {
+      "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO4284",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Protection of Documents, Archives and Archival Institutions Act"
+      ]
+    },
+    {
+      "@id": "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO4703",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Tax Procedure Act"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/Bo%C5%A1tjanKoritnik",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Boštjan Koritnik"
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-MinisterofPublicAdministration"
+        },
+        {
+          "@id": "http://example.org/nifo/post/Post-MinisterforDigitalTransformation"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/1152"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-MinisterofPublicAdministration",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-MinisterofPublicAdministration"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-MinisterofPublicAdministration",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Minister of Public Administration "
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/1152",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+386 1 478 83 99"
+      ],
+      "http://schema.org/email": [
+        "gp.mju@gov.si "
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.si/en/state-authorities/ministries/ministry-of-public-administration/about-the-ministry/"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/MarkBorisAndrijani%C4%8D",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Mark Boris Andrijanič"
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/1882"
+        }
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-ActingDirectoroftheGovernmentInformationSecurityOffice"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-MinisterforDigitalTransformation",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-MinisterforDigitalTransformation"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-MinisterforDigitalTransformation",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Minister for Digital Transformation "
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/1882",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/email": [
+        "gp.sdp@gov.si "
+      ],
+      "http://schema.org/url": [
+        "https://www.gov.si/en/state-authorities/government-offices/government-office-for-digital-transformation/about-the-office/"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/dr.Uro%C5%A1Svete",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "dr. Uroš Svete"
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/4093"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-ActingDirectoroftheGovernmentInformationSecurityOffice",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-ActingDirectoroftheGovernmentInformationSecurityOffice"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-ActingDirectoroftheGovernmentInformationSecurityOffice",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Acting Director of the Government Information Security Office"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/4093",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ]
+    },
+    {
+      "@id": "https://www.gov.si/teme/koronavirus-sars-cov-2/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.stopbirokraciji.gov.si/en/home",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.youtube.com/watch?v=cE4DkYB1BBU&feature=emb_title",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://enotnazbirkaukrepov.gov.si/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://nio.gov.si/nio/asset/geohubsi?lang=en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://podatki.gov.si/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.gov.si/en/state-authorities/national-council/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://zvem.ezdrav.si/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.e-prostor.gov.si/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.fu.gov.si/davki_in_druge_dajatve/poslovanje_z_nami/e_davki/mobilna_aplikacija_edavki/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.gov.si/en/state-authorities/bodies-within-ministries/public-payments-administration/about-us/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://play.google.com/store/apps/details?id=com.mfrs.mujpnet&hl=en_US",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.vlada.si/delo_vlade/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://portal.mzz.gov.si/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://nio.gov.si/nio/asset/ejr+informacijska+podpora+izvajanju+javnih+razpisov?lang=en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://izboljsajmo.maribor.si/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://izboljsajmo.ptuj.si/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mariborsodeluj.si/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://predlagam-odlocam.koper.si/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.servis48.si/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://pobude.ljubljana.si/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.krpovej.si/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://mol-ljubljana.hub.arcgis.com/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://nio.gov.si/nio/asset/komunikacijsko+omrezje+drzavnih+organov+hkom",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://znet.ezdrav.si/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/isa2/solutions/testa_en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://nio.gov.si/nio/asset/interoperabilnostna+komponenta+pladenj-368?lang=en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://nio.gov.si/nio/asset/interoperabilnostna+komponenta+iomodul-369?lang=en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://nio.gov.si/nio/asset/interoperabilnostna+komponenta+asinhroni+modul-370?lang=en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ezdrav.si/storitve/erecept/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ezdrav.si/storitve/enarocanje/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.ezdrav.si/category/projekti/enarocanje/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://cakalnedobe.ezdrav.si/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://sicas.gov.si/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.si-trust.gov.si/en/si-pass/mobile-identity-smspass/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://nio.gov.si/nio/asset/centralni+avtentikacijski+sistem+sicas?lang=en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://nio.gov.si/nio/asset/centralni+sistem+za+evrocanje+sicev-813?lang=en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ejn.gov.si/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ejn.gov.si/statist.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mbills.si/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://en.wikipedia.org/wiki/Knowledge",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ua.gov.si/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://nio.gov.si/nio/asset/jedro+elektronskih+postopkov+jep?lang=en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/inea/en/connecting-europe-facility/cef-telecom/2018-eu-ia-0032",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.toop.eu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.de4a.eu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.fu.gov.si/fileadmin/Internet/Davki_in_druge_dajatve/Podrocja/Dohodnina/Dohodek_iz_dejavnosti/Opis/GB_Podrobnejsi_opis_3_izdaja_Brosura_za_sobodajalce_-_fizicne_osebe.docx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ajpes.si/Registri/Drugi_registri/Register_nastanitvenih_obratov/Splosno",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.gov.si/en/state-authorities/ministries/ministry-of-culture/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://nio.gov.si/nio/asset/centralni+besednjak",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://nio.gov.si/nio/asset/evidenca+aplikacij?lang=en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://github.com/biolab/text-semantics",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

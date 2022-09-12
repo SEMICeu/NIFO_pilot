@@ -1,0 +1,569 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Hungary",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Hungary"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/HUN"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsHungary"
+        },
+        {
+          "@id": "http://example.org/nifo/legalframework/Hungary"
+        },
+        {
+          "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=193173"
+        },
+        {
+          "@id": "http://example.org/nifo/person/S%C3%A1ndorPint%C3%A9r"
+        },
+        {
+          "@id": "http://example.org/nifo/person/K%C3%A1rolyHajzer"
+        },
+        {
+          "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=193173.316582"
+        },
+        {
+          "@id": "https://ugyfelkapu.magyarorszag.hu/"
+        },
+        {
+          "@id": "https://tarhely.gov.hu/ckp-regisztracio/tajekoztato.html"
+        },
+        {
+          "@id": "https://ugyintezes.magyarorszag.hu/szolgaltatasok/hkp.html"
+        },
+        {
+          "@id": "https://e-egeszsegugy.gov.hu/ekapu"
+        },
+        {
+          "@id": "https://e-onkormanyzat.gov.hu/"
+        },
+        {
+          "@id": "https://idomsoft.hu/rolunk/termekeink/kkszb/"
+        },
+        {
+          "@id": "https://kau.gov.hu/informacio/kau"
+        },
+        {
+          "@id": "https://eszemelyi.hu/"
+        },
+        {
+          "@id": "https://ekr.gov.hu/"
+        },
+        {
+          "@id": "https://nekszt.hu/"
+        },
+        {
+          "@id": "https://onlineszamla.nav.gov.hu/"
+        },
+        {
+          "@id": "https://onlineszamla.nav.gov.hu/home"
+        },
+        {
+          "@id": "https://www.nisz.hu/hu/efer-%C3%A2%C2%80%C2%93-elektronikus-fizet%C3%83%C2%A9si-%C3%83%C2%A9s-elsz%C3%83%C2%A1mol%C3%83%C2%A1si-rendszer"
+        },
+        {
+          "@id": "https://www.nyilvantarto.hu/hu/adatszolgaltatas_szemelyi"
+        },
+        {
+          "@id": "https://euf.gov.hu/"
+        },
+        {
+          "@id": "https://e-ugyintezes.onyf.hu/enyenyi/LoginPage.aspx"
+        }
+      ],
+      "http://dbpedia.org/ontology/populationTotal": [
+        "9 750 149 (2020)"
+      ],
+      "http://dbpedia.org/property/gdpNominal": [
+        "135 924.5 (2020)\t"
+      ],
+      "http://dbpedia.org/property/gdpPppPerCapita": [
+        "74 (2020)"
+      ],
+      "http://dbpedia.org/ontology/areaTotal": [
+        "93 000 km²"
+      ],
+      "http://dbpedia.org/ontology/capital": [
+        "Budapest"
+      ],
+      "http://purl.org/dc/terms/language": [
+        "Hungarian"
+      ],
+      "http://dbpedia.org/ontology/currency": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/currency/Hungarian%20Forint%20HUF"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "http://ec.europa.eu/eurostat/data/database"
+        },
+        "Source: European Interoperability Framework Monitoring Mechanism 2020",
+        "Source: European Interoperability Framework Monitoring Mechanism 2020",
+        "Source: European Interoperability Framework Monitoring Mechanism 2020",
+        "Source: European Interoperability Framework Monitoring Mechanism 2020",
+        "Source: eGovernment Benchmark Report 2020 Country Factsheets"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Interoperability State of Play ",
+        "eGovernment State of Play",
+        "Digital Public Administration Political Communications",
+        "By 2018, the majority of public administration bodies providing digital public services had implemented at least the minimum level of provision of eGovernment services, in accordance with the eAdministration Act. Throughout 2019 and 2020, the growing tendencies continued, as several developments have taken place leading to more and more modern, user-friendly electronic services.",
+        "Indeed, the break-out of the COVID-19 pandemic in March 2020 also proved that digitalisation can effectively ensure the functioning of the administration and public services in such radically changed conditions, thus reducing the economic downturn caused by the pandemic. The eGovernment services provided access for citizens to the most important administrative affairs and the digital public services have played a key role in maintaining public trust in the state during the crisis.",
+        "According to the data available from domestic surveys, and the latest data of the Eurostat Information Society Indicators, the number of the users interacting digitally with the public administration have increased by 7 to 10 percentage points, and the goal is to continue with this trend, by further developing user-centric services in the upcoming years. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsHungary",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataSet"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Public Administration Indicators"
+      ],
+      "http://purl.org/linked-data/cube#structure": [
+        {
+          "@id": "http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsHungary"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Hungary",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=193173.316582"
+        },
+        {
+          "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=193173.316582"
+        },
+        {
+          "@id": "http://net.jogtar.hu/jr/gen/hjegy_doc.cgi?docid=A1600121.TV&txtreferer=00000003.TXT"
+        },
+        {
+          "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=199170.338647"
+        },
+        {
+          "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=193173.316582"
+        },
+        {
+          "@id": "https://net.jogtar.hu/jogszabaly?docid=a1200063.tv"
+        },
+        {
+          "@id": "http://www.naih.hu/files/Privacy_Act-CXII-of-2011_EN_201310.pdf"
+        },
+        {
+          "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=193173.316582"
+        },
+        {
+          "@id": "https://net.jogtar.hu/jogszabaly?docid=a1300050.tv"
+        },
+        {
+          "@id": "https://net.jogtar.hu/jogszabaly?docid=99200066.TV"
+        },
+        {
+          "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=101684"
+        },
+        {
+          "@id": "https://njt.hu/translated/doc/J2015T0143P_20180808_FIN.pdf"
+        },
+        {
+          "@id": "http://net.jogtar.hu/jr/gen/hjegy_doc.cgi?docid=A0100108.TV"
+        },
+        {
+          "@id": "https://njt.hu/jogszabaly/2019-80-00-00"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsHungary",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ]
+    },
+    {
+      "@id": "https://e-onkormanyzat.gov.hu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=193173",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Act CCXXII of 2015 on eAdministration and Trust Services"
+      ]
+    },
+    {
+      "@id": "https://idomsoft.hu/rolunk/termekeink/kkszb/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=193173.316582",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. CCXXII of 2015",
+        "Act No CCXXII of 2015",
+        "eAdministration Act",
+        "Act No CCXXII of 2015 on the General Rules for Electronic Administration and Trust Services (eAdministration Act)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "eIDAS Regulation (910/2014/EU); and",
+        "eIDAS Regulation (910/2014/EU)"
+      ]
+    },
+    {
+      "@id": "http://net.jogtar.hu/jr/gen/hjegy_doc.cgi?docid=A1600121.TV&txtreferer=00000003.TXT",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. CXXI of 2016"
+      ]
+    },
+    {
+      "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=199170.338647",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. CL of 2016"
+      ]
+    },
+    {
+      "@id": "https://net.jogtar.hu/jogszabaly?docid=a1200063.tv",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. LXIII of 2012 on the Reuse of Public Data"
+      ]
+    },
+    {
+      "@id": "http://www.naih.hu/files/Privacy_Act-CXII-of-2011_EN_201310.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. CXII of 2011 on Informational Self-Determination and Freedom of Information "
+      ]
+    },
+    {
+      "@id": "https://net.jogtar.hu/jogszabaly?docid=a1300050.tv",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. L on the Electronic Information Security of State and Municipal Bodies"
+      ]
+    },
+    {
+      "@id": "https://net.jogtar.hu/jogszabaly?docid=99200066.TV",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. LXVI of 1992 on Citizens’ Personal Data and Address of Registration "
+      ]
+    },
+    {
+      "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=101684",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. V of 2006 on Public Company Information, Company Registration and Winding-up Proceedings"
+      ]
+    },
+    {
+      "@id": "https://njt.hu/translated/doc/J2015T0143P_20180808_FIN.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. CXLIII of 2015 on Public Procurement"
+      ]
+    },
+    {
+      "@id": "http://net.jogtar.hu/jr/gen/hjegy_doc.cgi?docid=A0100108.TV",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. CVIII of 2001"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2000/31/EC on certain legal aspects of information society services, in particular electronic commerce"
+      ]
+    },
+    {
+      "@id": "https://njt.hu/jogszabaly/2019-80-00-00",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Vocational Training Act"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/S%C3%A1ndorPint%C3%A9r",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Sándor Pintér"
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-MinisteroftheInterior"
+        },
+        {
+          "@id": "http://example.org/nifo/post/Post-DeputySecretaryofStateforInformatics,MinistryoftheInterior"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/5683"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-MinisteroftheInterior",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-MinisteroftheInterior"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-MinisteroftheInterior",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Minister of the Interior"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/5683",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+36-1-441-1717 "
+      ],
+      "http://schema.org/email": [
+        "miniszter@bm.gov.hu "
+      ],
+      "http://schema.org/url": [
+        "Source: https://kormany.hu/belugyminiszterium/miniszter "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/K%C3%A1rolyHajzer",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Károly Hajzer"
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/2013"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-DeputySecretaryofStateforInformatics,MinistryoftheInterior",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-DeputySecretaryofStateforInformatics,MinistryoftheInterior"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-DeputySecretaryofStateforInformatics,MinistryoftheInterior",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Deputy Secretary of State for Informatics, Ministry of the Interior"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/2013",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/email": [
+        "ihat@bm.gov.hu "
+      ],
+      "http://schema.org/url": [
+        "http://www.kormany.hu/hu/belugyminiszterium/helyettes-allamtitkarok"
+      ]
+    },
+    {
+      "@id": "https://ugyfelkapu.magyarorszag.hu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://tarhely.gov.hu/ckp-regisztracio/tajekoztato.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ugyintezes.magyarorszag.hu/szolgaltatasok/hkp.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://e-egeszsegugy.gov.hu/ekapu",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://kau.gov.hu/informacio/kau",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eszemelyi.hu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ekr.gov.hu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://nekszt.hu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://onlineszamla.nav.gov.hu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://onlineszamla.nav.gov.hu/home",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.nisz.hu/hu/efer-%C3%A2%C2%80%C2%93-elektronikus-fizet%C3%83%C2%A9si-%C3%83%C2%A9s-elsz%C3%83%C2%A1mol%C3%83%C2%A1si-rendszer",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.nyilvantarto.hu/hu/adatszolgaltatas_szemelyi",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://euf.gov.hu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://e-ugyintezes.onyf.hu/enyenyi/LoginPage.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

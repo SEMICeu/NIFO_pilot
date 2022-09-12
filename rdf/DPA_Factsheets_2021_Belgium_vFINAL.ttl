@@ -1,0 +1,303 @@
+<http://data.europa.eu/nifo/factsheet/Belgium> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Belgium>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/BEL";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsBelgium>, <http://example.org/nifo/legalframework/Belgium>, <https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2021>, <http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2019022708&table_name=loi>, <https://eur-lex.europa.eu/eli/reg/2016/679/oj>, <https://www.ehealth.fgov.be/file/view/AWjHQ9zDgwvToiwBkf13?filename=Actieplan%2525202019-2021%252520e-Gezondheid_final.pdf>, <https://www.ewi-vlaanderen.be/nieuws/vlaams-actieplan-artificiele-intelligentie-gelanceerd>, <http://example.org/nifo/person/MathieuMichel>, <http://example.org/nifo/person/NicoWaeyaert>, <http://example.org/nifo/person/JacquesDruart>, <http://example.org/nifo/person/FrankRobben>, <http://example.org/nifo/person/JanJambon>, <http://example.org/nifo/person/WillyBorsus>, <http://example.org/nifo/person/ValérieDeBue>, <http://example.org/nifo/person/BernardClerfayt>, <http://example.org/nifo/person/FrédéricDaerden>, <http://example.org/nifo/person/OliverPaasch>, <http://example.org/nifo/person/BrunoHick>, <http://example.org/nifo/person/BarbaraVanDenHaute>, <http://example.org/nifo/person/NicolasLocoge>, <http://example.org/nifo/person/OliverSchneider>, <http://example.org/nifo/person/GéraldineGrosjean>, <http://www.belgium.be>, <http://www.belgium.be/fr/services_en_ligne/>, <http://www.fedict.be/>, <http://www.fedweb.belgium.be/fr/>, <http://www.fedweb.belgium.be/fr/newsletter/>, <https://www.socialsecurity.be/>, <https://www.mijngezondheid.belgie.be/#/>, <https://data.gov.be/en>, <https://www.wallonie.be/en>, <https://www.wallonie.be/fr/guide/guide-services/15955>, <https://www.1890.be/>, <https://ec.europa.eu/info/strategy/recovery-plan-europe_en>, <https://monespace.wallonie.be/>, <https://monespace.fw-b.be/>, <http://www.vlaanderen.be/nl?nav=burger>, <https://overheid.vlaanderen.be/ontdek-mijn-burgerprofiel>, <https://be.brussels/>, <https://irisbox.irisnet.be/>, <http://www.accueildesenfants.be/>, <http://as-e.be/>, <http://www.federation-wallonie-bruxelles.be/>, <http://www.odwb.be/>, <https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/Country%20factsheets%202020/Belgium/data.gov.be>, <http://data.europa.eu/>, <http://www.dglive.be/>, <https://www.vlaanderenonderneemt.be/>, <http://www.belnet.be/en>, <http://archive.dante.net/Backbones/GEANT/Pages/GEANT.aspx>, <http://www.internet2.edu/>, <http://www.fedict.belgium.be/de/Images/FEDMAN-CASE_tcm463-119515.pdf>, <http://www.fedict.belgium.be/en/infrastructure/network_access/fedman>, <http://ec.europa.eu/idabc/en/document/5014/5584.html>, <http://registry.fsb.pr.belgium.be/web/service-catalog/partner/homepage>, <http://www.irisnet.eu/en?set_language=en>, <http://www.urbizone.be/>, <https://dtservices.bosa.be/fr/faq/01-generalites-le-federal-service-bus-fsb-cest-quoi>, <https://overheid.vlaanderen.be/informatie-vlaanderen/ontdek-onze-producten-en-diensten/kruispuntbank-vlaanderen>, <http://eid.belgium.be/>, <https://my.belgium.be/nl>, <https://sign.belgium.be/>, <https://signature.wallonie.be/eSign/>, <https://www.vlaanderen.be/nl>, <http://www.belgianchambers.be/en/>, <https://www.passezaudigital.be/croissance-itsme>, <https://iamapps.belgium.be/sma/generalinfo?view=home>, <https://enot.publicprocurement.be/enot-war/>, <https://enot.publicprocurement.be/home.do>, <https://eten.publicprocurement.be/etendering/home.do>, <https://ecat.publicprocurement.be/ecat/home.action>, <https://peppol.eu/about-openpeppol/what-is-openpeppol/>, <https://overheid.vlaanderen.be/e-ordering>, <http://www.ibz.rrn.fgov.be/index.php?id=34&L=0>, <http://economie.fgov.be/fr/entreprises/BCE/index.jsp>, <http://www.corve.be/producten/magda-diensten/ondernemingsgegevens/scherm/index.php>, <http://www.ksz-bcss.fgov.be/fr/bcss/page/content/websites/belgium/security/security_05.html>, <https://bric.brussels/en/our-solutions/infrastructure-solutions/fidus?set_language=en>, <https://joinup.ec.europa.eu/collection/egovernment/document/magda-20-platform-magda>, <https://fedweb.belgium.be/nl/over_de_organisatie/kennismanagement/beconnected>, <http://www.belgium.be/>, <https://www.computable.be/artikel/achtergrond/awards-nieuws/6618380/6499266/belgie-en-nederland-delen-diplomas-via-blockchain.html>, <https://sources-authentiques.belgium.be/fr/cross-search>, <https://overheid.vlaanderen.be/informatie-vlaanderen-flanders-information-agency>, <https://joinup.ec.europa.eu/collection/oslo-open-standards-linked-organisations-0/about>, <https://overheid.vlaanderen.be/informatie-vlaanderen/producten-diensten/centraal-referentieadressenbestand-crab>, <http://leerenervaringsbewijzendatabank.be/>, <https://dt.bosa.be/fr/echange_de_donnees/sources_authentiques>, <http://artificialintelligence.brussels/>;
+ <http://dbpedia.org/ontology/populationTotal> "11 488 980 inhabitants (2020)";
+ <http://dbpedia.org/property/gdpNominal> "EUR 471 177 million (2020) ";
+ <http://dbpedia.org/property/gdpPppPerCapita> "117 (2020)";
+ <http://dbpedia.org/ontology/areaTotal> "30 688 km2";
+ <http://dbpedia.org/ontology/capital> "Brussels";
+ <http://purl.org/dc/terms/language> "Dutch, French and German ";
+ <http://dbpedia.org/ontology/currency> <http://publications.europa.eu/resource/authority/currency/Euro>;
+ <http://purl.org/dc/terms/source> <https://ec.europa.eu/eurostat/data/database>, "Source: European Interoperability Framework Monitoring Mechanism 2020", <https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2021>;
+ <http://purl.org/dc/terms/title> "Interoperability State of Play ", "eGovernment State of Play ", "Digital Public Administration Political Communications", "In June 2020, a new Strategic Plan of the Steering Organization of the Flemish Information and ICT Policy was adopted by the Flemish government. The plan outlines the priorities with regards to information and ICT policy for the Flemish administration and local authorities for the period 2020-2024.", "In February 2021, the Federal Public Service Policy and Support renewed the agreement with Belgian Mobile ID, the developer of the mobile identity app ITSME, for a period of three years. This agreement follows the federal government’s intention to continue engaging in public-private partnerships.", "(1) Society and AI; (2) Companies and AI; (3) Training and AI; and (4) Partnership, Innovation, Research and AI." .
+<http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsBelgium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataSet>;
+ <http://purl.org/dc/terms/title> "Digital Public Administration Indicators";
+ <http://purl.org/linked-data/cube#structure> <http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsBelgium>;
+ <http://purl.org/dc/terms/source> "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en" .
+<http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsBelgium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition>;
+ <http://purl.org/linked-data/cube#component> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinBelgium>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinBelgium>;
+ <http://www.w3.org/2000/01/rdf-schema#label> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinBelgium>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinBelgium> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinBelgium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinBelgium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2019022708&table_name=loi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>, <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://purl.org/dc/terms/title> "new law";
+ <http://data.europa.eu/eli/ontology#title> "eBox Law" .
+<https://eur-lex.europa.eu/eli/reg/2016/679/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>, <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://purl.org/dc/terms/title> "Regulation 2016/679/EU";
+ <http://data.europa.eu/eli/ontology#title> "General Data Protection Regulation (EU) 2016/679" .
+<https://www.ehealth.fgov.be/file/view/AWjHQ9zDgwvToiwBkf13?filename=Actieplan%2525202019-2021%252520e-Gezondheid_final.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint> .
+<https://www.ehealth.fgov.be/file/view/AWjHQ9zDgwvToiwBkf13?filename=Actieplan%202019-2021%20e-Gezondheid_final.pdf> <http://purl.org/dc/terms/title> "eHealth Action Plan" .
+<https://www.ewi-vlaanderen.be/nieuws/vlaams-actieplan-artificiele-intelligentie-gelanceerd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "AI Action Plan" .
+<http://example.org/nifo/legalframework/Belgium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://europam.eu/data/mechanisms/FOI/FOI%252520Laws/Belgium/Belgium_Law%252520on%252520Access%252520to%252520Admin%252520Documents_1994_amended%2525202010.pdf>, <http://www.uvcw.be/articles/3,14,2,0,252.htm>, <http://www.ejustice.just.fgov.be/eli/wet/2016/05/04/2016009236/justel>, <http://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?sql=(text%252520contains%252520(''))&language=fr&rech=1&tri=dd%252520AS%252520RANK&value=&table_name=loi&F=&cn=2017071809&caller=image_a1&fromtab=loi&la=F>, <http://www.ejustice.just.fgov.be/cgi_loi/loi_a.pl?language=fr&caller=list&cn=2000102040&la=f&fromtab=loi&sql=dt='loi'&tri=dd+as+rank&rech=1&numero=1>, <https://eur-lex.europa.eu/eli/reg/2016/679/oj>, <http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2019040715&table_name=loi>, <http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2019022708&table_name=loi>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024>, <https://www.publicprocurement.be/fr/documents/loi-du-17-juin-2016> .
+<http://europam.eu/data/mechanisms/FOI/FOI%252520Laws/Belgium/Belgium_Law%252520on%252520Access%252520to%252520Admin%252520Documents_1994_amended%2525202010.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://europam.eu/data/mechanisms/FOI/FOI%20Laws/Belgium/Belgium_Law%20on%20Access%20to%20Admin%20Documents_1994_amended%202010.pdf> <http://data.europa.eu/eli/ontology#title> "Article 32 of the Belgian Constitution";
+ <http://purl.org/dc/terms/relation> <https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=nl&la=N&cn=1994041151&table_name=wet> .
+<https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=nl&la=N&cn=1994041151&table_name=wet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law of 11 April 1994" .
+<http://www.uvcw.be/articles/3,14,2,0,252.htm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "1997 Law" .
+<http://www.ejustice.just.fgov.be/eli/wet/2016/05/04/2016009236/justel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "The Law of 4 May 2016";
+ <http://purl.org/dc/terms/relation> <http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&table_name=loi&cn=2007030736> .
+<http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&table_name=loi&cn=2007030736> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law of 7 March 2007";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32013L0037&qid=1580477688322&from=EN> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32013L0037&qid=1580477688322&from=EN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "of the European Parliament and of the Council of 26 June 2013, amending Directive 2003/98/EC on the re-use of public sector information" .
+<http://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?sql=(text%252520contains%252520(''))&language=fr&rech=1&tri=dd%252520AS%252520RANK&value=&table_name=loi&F=&cn=2017071809&caller=image_a1&fromtab=loi&la=F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?sql=(text%20contains%20(''))&language=fr&rech=1&tri=dd%20AS%20RANK&value=&table_name=loi&F=&cn=2017071809&caller=image_a1&fromtab=loi&la=F> <http://data.europa.eu/eli/ontology#title> "Belgian Law on Electronic Identification" .
+<http://www.ejustice.just.fgov.be/cgi_loi/loi_a.pl?language=fr&caller=list&cn=2000102040&la=f&fromtab=loi&sql=dt='loi'&tri=dd+as+rank&rech=1&numero=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "A law" .
+<http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2019040715&table_name=loi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the Establishment of a Security Framework for the Information Systems Having General Interest" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive (EU) 2019/1024 on open data and the re-use of public sector information" .
+<https://www.publicprocurement.be/fr/documents/loi-du-17-juin-2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law of 17 June 2016 on Public Procurement";
+ <http://purl.org/dc/terms/relation> <https://www.publicprocurement.be/sites/default/files/documents/2019_04_07_loi_wet_fact_elec_3.pdf> .
+<https://www.publicprocurement.be/sites/default/files/documents/2019_04_07_loi_wet_fact_elec_3.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law of 7 April 2019" .
+<http://example.org/nifo/person/MathieuMichel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Mathieu Michel ";
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-SecretaryofStateforDigitalisation,responsibleforAdministrativeSimplification,PrivacyandtheBelgianBuildingsAgency>, <http://example.org/nifo/post/Post-ChairmanFederalPublicServicePolicy&Support>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/7376> .
+<http://example.org/nifo/post/Post-SecretaryofStateforDigitalisation,responsibleforAdministrativeSimplification,PrivacyandtheBelgianBuildingsAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-SecretaryofStateforDigitalisation,responsibleforAdministrativeSimplification,PrivacyandtheBelgianBuildingsAgency> .
+<http://example.org/nifo/role/Role-SecretaryofStateforDigitalisation,responsibleforAdministrativeSimplification,PrivacyandtheBelgianBuildingsAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Secretary of State for Digitalisation, responsible for Administrative Simplification, Privacy and the Belgian Buildings Agency " .
+<http://example.org/ContactPoint/7376> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+32 2 501 03 27" .
+<http://example.org/nifo/person/NicoWaeyaert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Nico Waeyaert ";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/9798>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Director-GeneralDGDigitalTransformationa.i.> .
+<http://example.org/nifo/post/Post-ChairmanFederalPublicServicePolicy&Support> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-ChairmanFederalPublicServicePolicy&Support> .
+<http://example.org/nifo/role/Role-ChairmanFederalPublicServicePolicy&Support> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Chairman Federal Public Service Policy & Support" .
+<http://example.org/ContactPoint/9798> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+32 (0)2 740 74 74";
+ <http://schema.org/email> "info@bosa.fgov.be ";
+ <http://schema.org/url> "https://bosa.belgium.be" .
+<http://example.org/nifo/person/JacquesDruart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Jacques Druart";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/3036>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-GeneralManageroftheCrossroadsBankforSocialSecurity(CBSS)andCEOofSmals> .
+<http://example.org/nifo/post/Post-Director-GeneralDGDigitalTransformationa.i.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Director-GeneralDGDigitalTransformationa.i.> .
+<http://example.org/nifo/role/Role-Director-GeneralDGDigitalTransformationa.i.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Director-General DG Digital Transformation a.i." .
+<http://example.org/ContactPoint/3036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+32 2 740 74 96";
+ <http://schema.org/url> "https://bosa.belgium.be" .
+<http://example.org/nifo/person/FrankRobben> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Frank Robben";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/1079>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Minister-PresidentoftheGovernmentofFlanders,> .
+<http://example.org/nifo/post/Post-GeneralManageroftheCrossroadsBankforSocialSecurity(CBSS)andCEOofSmals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-GeneralManageroftheCrossroadsBankforSocialSecurity(CBSS)andCEOofSmals> .
+<http://example.org/nifo/role/Role-GeneralManageroftheCrossroadsBankforSocialSecurity(CBSS)andCEOofSmals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "General Manager of the Crossroads Bank for Social Security (CBSS) and CEO of Smals" .
+<http://example.org/ContactPoint/1079> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+ 32 2 741 84 02";
+ <http://schema.org/email> "Management@ksz-bcss.fgov.be";
+ <http://schema.org/url> "http://www.ksz-bcss.fgov.be/fr/bcss/static/content/websites/belgium/contact.html" .
+<http://example.org/nifo/person/JanJambon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Jan Jambon";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/7956>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Vice-President,MinisteroftheEconomy,ForeignTrade,Research&Innovation,Digitalisation,RegionalPlanning,theWalloonFormationAgencyandCompetencyCentres> .
+<http://example.org/nifo/post/Post-Minister-PresidentoftheGovernmentofFlanders,> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Minister-PresidentoftheGovernmentofFlanders,> .
+<http://example.org/nifo/role/Role-Minister-PresidentoftheGovernmentofFlanders,> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Minister-President of the Government of Flanders," .
+<http://example.org/ContactPoint/7956> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+32 2 552 60 00";
+ <http://schema.org/faxNumber> "+32 2 552 69 01 ";
+ <http://schema.org/url> "https://www.janjambon.be/" .
+<http://example.org/nifo/person/WillyBorsus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Willy Borsus";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2609>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofCivilServiceMatters,AdministrativeSimplification,ChildBenefits,Tourism,HeritageandTrafficSafety> .
+<http://example.org/nifo/post/Post-Vice-President,MinisteroftheEconomy,ForeignTrade,Research&Innovation,Digitalisation,RegionalPlanning,theWalloonFormationAgencyandCompetencyCentres> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Vice-President,MinisteroftheEconomy,ForeignTrade,Research&Innovation,Digitalisation,RegionalPlanning,theWalloonFormationAgencyandCompetencyCentres> .
+<http://example.org/nifo/role/Role-Vice-President,MinisteroftheEconomy,ForeignTrade,Research&Innovation,Digitalisation,RegionalPlanning,theWalloonFormationAgencyandCompetencyCentres> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Vice-President, Minister of the Economy, Foreign Trade, Research & Innovation, Digitalisation, Regional Planning, the Walloon Formation Agency and Competency Centres " .
+<http://example.org/ContactPoint/2609> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+32 81 32 17 11";
+ <http://schema.org/email> "willy.borsus@gov.wallonie.be ";
+ <http://schema.org/url> "https://borsus.wallonie.be/home.html" .
+<http://example.org/nifo/person/ValérieDeBue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Valérie De Bue";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/1525>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisteroftheBrussels-CapitalRegion,responsibleforEmploymentandVocationalTraining,Digitalisation,LocalAuthoritiesandAnimalWelfare> .
+<http://example.org/nifo/post/Post-MinisterofCivilServiceMatters,AdministrativeSimplification,ChildBenefits,Tourism,HeritageandTrafficSafety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofCivilServiceMatters,AdministrativeSimplification,ChildBenefits,Tourism,HeritageandTrafficSafety> .
+<http://example.org/nifo/role/Role-MinisterofCivilServiceMatters,AdministrativeSimplification,ChildBenefits,Tourism,HeritageandTrafficSafety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Civil Service Matters, Administrative Simplification, Child Benefits, Tourism, Heritage and Traffic Safety" .
+<http://example.org/ContactPoint/1525> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "valerie.debue@gov.wallonie.be   " .
+<http://example.org/nifo/person/BernardClerfayt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Bernard Clerfayt";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/617>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisteroftheFrenchCommunityfore-Government,BudgetandAdministrativeSimplification> .
+<http://example.org/nifo/post/Post-MinisteroftheBrussels-CapitalRegion,responsibleforEmploymentandVocationalTraining,Digitalisation,LocalAuthoritiesandAnimalWelfare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisteroftheBrussels-CapitalRegion,responsibleforEmploymentandVocationalTraining,Digitalisation,LocalAuthoritiesandAnimalWelfare> .
+<http://example.org/nifo/role/Role-MinisteroftheBrussels-CapitalRegion,responsibleforEmploymentandVocationalTraining,Digitalisation,LocalAuthoritiesandAnimalWelfare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Minister of the Brussels-Capital Region, responsible for Employment and Vocational Training, Digitalisation, Local Authorities and Animal Welfare" .
+<http://example.org/ContactPoint/617> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+32 (0)2 517 12 59";
+ <http://schema.org/faxNumber> "+32 (0)2 511 54 64";
+ <http://schema.org/url> "Source: https://clerfayt.brussels/" .
+<http://example.org/nifo/person/FrédéricDaerden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Frédéric Daerden";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/6593>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Minister-President;MinisteroftheGerman-speakingCommunity(Ministerpr%C3%A4sidentderdeutschsprachigenGemeinschaftBelgiens)> .
+<http://example.org/nifo/post/Post-MinisteroftheFrenchCommunityfore-Government,BudgetandAdministrativeSimplification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisteroftheFrenchCommunityfore-Government,BudgetandAdministrativeSimplification> .
+<http://example.org/nifo/role/Role-MinisteroftheFrenchCommunityfore-Government,BudgetandAdministrativeSimplification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Minister of the French Community for e-Government, Budget and Administrative Simplification" .
+<http://example.org/ContactPoint/6593> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+ 32 2 801 79 11";
+ <http://schema.org/url> "https://daerden.cfwb.be" .
+<http://example.org/nifo/person/OliverPaasch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Oliver Paasch";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/1704>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-HeadoftheDepartmentofInformatics> .
+<http://example.org/nifo/post/Post-Minister-President;MinisteroftheGerman-speakingCommunity(MinisterpräsidentderdeutschsprachigenGemeinschaftBelgiens)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Minister-President;MinisteroftheGerman-speakingCommunity(Ministerpr%C3%A4sidentderdeutschsprachigenGemeinschaftBelgiens)> .
+<http://example.org/nifo/role/Role-Minister-President;MinisteroftheGerman-speakingCommunity(MinisterpräsidentderdeutschsprachigenGemeinschaftBelgiens)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Minister-President; Minister of the German-speaking Community (Ministerpräsident der deutschsprachigen Gemeinschaft Belgiens)" .
+<http://example.org/ContactPoint/1704> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "serge.heinen@dgov.be";
+ <http://schema.org/url> "http://oliver-paasch.eu/home/" .
+<http://example.org/nifo/person/BrunoHick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Bruno Hick";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/3849>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Administrateur-Generaal,FlandersInformationAgency> .
+<http://example.org/nifo/post/Post-HeadoftheDepartmentofInformatics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-HeadoftheDepartmentofInformatics> .
+<http://example.org/nifo/role/Role-HeadoftheDepartmentofInformatics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Head of the Department of Informatics" .
+<http://example.org/ContactPoint/3849> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+32 8 759 63 09 ";
+ <http://schema.org/faxNumber> "+32 8 759 64 11";
+ <http://schema.org/url> "http://www.dglive.be/PortalData/2/Resources/downloads/divers/Organigramm_MDG.pdf" .
+<http://example.org/nifo/person/BarbaraVanDenHaute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Barbara Van Den Haute";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8408>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Director-GeneraloftheBrusselsRegionalInformaticsCentre(BRIC)> .
+<http://example.org/nifo/post/Post-Administrateur-Generaal,FlandersInformationAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Administrateur-Generaal,FlandersInformationAgency> .
+<http://example.org/nifo/role/Role-Administrateur-Generaal,FlandersInformationAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Administrateur-Generaal, Flanders Information Agency" .
+<http://example.org/ContactPoint/8408> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+32 2 553 72 01";
+ <http://schema.org/faxNumber> "+32 2 553 72 05";
+ <http://schema.org/email> "barbara.vandenhaute@vlaanderen.be ";
+ <http://schema.org/url> "https://overheid.vlaanderen.be/informatie-vlaanderen" .
+<http://example.org/nifo/person/NicolasLocoge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Nicolas Locoge";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/5112>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-AssistantDirectorGeneralTransitionTowardsDigital> .
+<http://example.org/nifo/post/Post-Director-GeneraloftheBrusselsRegionalInformaticsCentre(BRIC)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Director-GeneraloftheBrusselsRegionalInformaticsCentre(BRIC)> .
+<http://example.org/nifo/role/Role-Director-GeneraloftheBrusselsRegionalInformaticsCentre(BRIC)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Director-General of the Brussels Regional Informatics Centre (BRIC)" .
+<http://example.org/ContactPoint/5112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+ 32 2 282 47 70";
+ <http://schema.org/email> "irisline@cirb.brussels";
+ <http://schema.org/url> "http://bric.brussels/en/about-the-bric/structure" .
+<http://example.org/nifo/person/OliverSchneider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Oliver Schneider";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/9937>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-ManagingDirectoreAdministrationandSimplificationUnit(eWBS)> .
+<http://example.org/nifo/post/Post-AssistantDirectorGeneralTransitionTowardsDigital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-AssistantDirectorGeneralTransitionTowardsDigital> .
+<http://example.org/nifo/role/Role-AssistantDirectorGeneralTransitionTowardsDigital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Assistant Director General Transition Towards Digital" .
+<http://example.org/ContactPoint/9937> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/faxNumber> "+32 2 413 35 10";
+ <http://schema.org/email> "oliver.schneider@cfwb.be ";
+ <http://schema.org/url> "http://www.federation-wallonie-bruxelles.be/" .
+<http://example.org/nifo/person/GéraldineGrosjean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Géraldine Grosjean";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/2498> .
+<http://example.org/nifo/post/Post-ManagingDirectoreAdministrationandSimplificationUnit(eWBS)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-ManagingDirectoreAdministrationandSimplificationUnit(eWBS)> .
+<http://example.org/nifo/role/Role-ManagingDirectoreAdministrationandSimplificationUnit(eWBS)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Managing Director eAdministration and Simplification Unit (eWBS)" .
+<http://example.org/ContactPoint/2498> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "geraldine.grosjean@ensemblesimplifions.be ";
+ <http://schema.org/url> "https://ensemblesimplifions.be/" .
+<http://www.belgium.be> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.belgium.be/fr/services_en_ligne/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.fedict.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.fedweb.belgium.be/fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.fedweb.belgium.be/fr/newsletter/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.socialsecurity.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mijngezondheid.belgie.be/#/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://data.gov.be/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.wallonie.be/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.wallonie.be/fr/guide/guide-services/15955> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.1890.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/info/strategy/recovery-plan-europe_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://monespace.wallonie.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://monespace.fw-b.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.vlaanderen.be/nl?nav=burger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://overheid.vlaanderen.be/ontdek-mijn-burgerprofiel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://be.brussels/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://irisbox.irisnet.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.accueildesenfants.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://as-e.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.federation-wallonie-bruxelles.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.odwb.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/Country%20factsheets%202020/Belgium/data.gov.be> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://data.europa.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.dglive.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.vlaanderenonderneemt.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.belnet.be/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://archive.dante.net/Backbones/GEANT/Pages/GEANT.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.internet2.edu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.fedict.belgium.be/de/Images/FEDMAN-CASE_tcm463-119515.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.fedict.belgium.be/en/infrastructure/network_access/fedman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://ec.europa.eu/idabc/en/document/5014/5584.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://registry.fsb.pr.belgium.be/web/service-catalog/partner/homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.irisnet.eu/en?set_language=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.urbizone.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://dtservices.bosa.be/fr/faq/01-generalites-le-federal-service-bus-fsb-cest-quoi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://overheid.vlaanderen.be/informatie-vlaanderen/ontdek-onze-producten-en-diensten/kruispuntbank-vlaanderen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://eid.belgium.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://my.belgium.be/nl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://sign.belgium.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://signature.wallonie.be/eSign/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.vlaanderen.be/nl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.belgianchambers.be/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.passezaudigital.be/croissance-itsme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://iamapps.belgium.be/sma/generalinfo?view=home> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://enot.publicprocurement.be/enot-war/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://enot.publicprocurement.be/home.do> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eten.publicprocurement.be/etendering/home.do> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ecat.publicprocurement.be/ecat/home.action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://peppol.eu/about-openpeppol/what-is-openpeppol/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://overheid.vlaanderen.be/e-ordering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.ibz.rrn.fgov.be/index.php?id=34&L=0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://economie.fgov.be/fr/entreprises/BCE/index.jsp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.corve.be/producten/magda-diensten/ondernemingsgegevens/scherm/index.php> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.ksz-bcss.fgov.be/fr/bcss/page/content/websites/belgium/security/security_05.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://bric.brussels/en/our-solutions/infrastructure-solutions/fidus?set_language=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://joinup.ec.europa.eu/collection/egovernment/document/magda-20-platform-magda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://fedweb.belgium.be/nl/over_de_organisatie/kennismanagement/beconnected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.belgium.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.computable.be/artikel/achtergrond/awards-nieuws/6618380/6499266/belgie-en-nederland-delen-diplomas-via-blockchain.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://sources-authentiques.belgium.be/fr/cross-search> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://overheid.vlaanderen.be/informatie-vlaanderen-flanders-information-agency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://joinup.ec.europa.eu/collection/oslo-open-standards-linked-organisations-0/about> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://overheid.vlaanderen.be/informatie-vlaanderen/producten-diensten/centraal-referentieadressenbestand-crab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://leerenervaringsbewijzendatabank.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://dt.bosa.be/fr/echange_de_donnees/sources_authentiques> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://artificialintelligence.brussels/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .

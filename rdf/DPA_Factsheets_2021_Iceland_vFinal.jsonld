@@ -1,0 +1,506 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Iceland",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Iceland"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/ISL"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsIceland"
+        },
+        {
+          "@id": "http://example.org/nifo/legalframework/Iceland"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2021"
+        },
+        {
+          "@id": "https://www.stjornarradid.is/gogn/rit-og-skyrslur/stakt-rit/2021/04/14/Sjalfbaer-innkaup-Adgerdaaaetlun-2021-2024/"
+        },
+        {
+          "@id": "http://example.org/nifo/person/BjarniBenediktsson"
+        },
+        {
+          "@id": "https://www.fjs.is/en"
+        },
+        {
+          "@id": "https://skra.is/english/"
+        },
+        {
+          "@id": "https://www.samgongustofa.is/umferd/okutaeki/okutaekjaskra/uppfletting/"
+        },
+        {
+          "@id": "https://www.rsk.is/fyrirtaekjaskra/"
+        },
+        {
+          "@id": "https://www.skra.is/english/properties/property-registration/"
+        }
+      ],
+      "http://dbpedia.org/ontology/populationTotal": [
+        " 366 463 inhabitants (2020)"
+      ],
+      "http://dbpedia.org/property/gdpNominal": [
+        "19 022.2 (2020)"
+      ],
+      "http://dbpedia.org/property/gdpPppPerCapita": [
+        "125 (2020)"
+      ],
+      "http://dbpedia.org/ontology/areaTotal": [
+        "103 000 km²"
+      ],
+      "http://dbpedia.org/ontology/capital": [
+        "Reykjavik"
+      ],
+      "http://dbpedia.org/ontology/currency": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/currency/ISK"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "http://ec.europa.eu/eurostat/data/database"
+        },
+        "Source: European Interoperability Framework Monitoring Mechanism 2020",
+        "Source: European Interoperability Framework Monitoring Mechanism 2020",
+        "Source: European Interoperability Framework Monitoring Mechanism 2020",
+        "Source: European Interoperability Framework Monitoring Mechanism 2020",
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2021"
+        }
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Interoperability State of Play ",
+        "eGovernment State of Play",
+        "Digital Public Administration Political Communications",
+        "In April 2021, the new policy on sustainable public procurement was published and an action plan for the years 2021-2024 has been approved. Both documents followed the publication of a policy draft which emphasised the use of eProcurement and data in order to achieve cost-efficient and environmentally friendly procurement.",
+        "Digital policy was posted in the consultation portal and is expected to be announced early summer 2021. "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsIceland",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataSet"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Public Administration Indicators"
+      ],
+      "http://purl.org/linked-data/cube#structure": [
+        {
+          "@id": "http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsIceland"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en,http://appsso.eurostat.ec.europa.eu/nui/submitViewTableAction.do"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Iceland",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2020/12/09/Skilvirkari-og-betri-opinber-thjonusta-med-stafraenu-postholfi-/"
+        },
+        {
+          "@id": "https://www.althingi.is/lagas/nuna/2012140.html"
+        },
+        {
+          "@id": "http://www.althingi.is/lagas/141b/2012140.html"
+        },
+        {
+          "@id": "https://www.government.is/publications/legislation/lex/?newsid=fe364017-fd27-11e7-9423-005056bc4d74"
+        },
+        {
+          "@id": "http://www.althingi.is/lagas/141b/2012140.html"
+        },
+        {
+          "@id": "https://www.althingi.is/lagas/151b/2018045.html"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG"
+        },
+        {
+          "@id": "https://www.stjornarradid.is/media/atvinnuvegaraduneyti-media/media/Acrobat/Act-No-30-2002-on-Electronic-Commerce-and-other-Electronic-Services.pdf"
+        },
+        {
+          "@id": "https://www.personuvernd.is/media/uncategorized/Act_No_90_2018_on_Data_Protection_and_the_Processing_of_Personal_Data.pdf"
+        },
+        {
+          "@id": "https://www.althingi.is/lagas/nuna/2019078.html"
+        },
+        {
+          "@id": "https://www.stjornarradid.is/lisalib/getfile.aspx?itemid=ec4a126d-8818-11e7-9419-005056bc4d74"
+        },
+        {
+          "@id": "https://www.atvinnuvegaraduneyti.is/media/Acrobat/Act-No-30-2002-on-Electronic-Commerce-and-other-Electronic-Services.pdf"
+        },
+        {
+          "@id": "https://www.reglugerd.is/reglugerdir/eftir-raduneytum/fjarmala--og-efnahagsraduneyti/nr/21393"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsIceland",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
+      "http://purl.org/linked-data/cube#component": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinIceland"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinIceland"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinIceland"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinIceland"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinIceland"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinIceland"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinIceland"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinIceland"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinIceland",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinIceland",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinIceland",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinIceland",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "https://www.stjornarradid.is/gogn/rit-og-skyrslur/stakt-rit/2021/04/14/Sjalfbaer-innkaup-Adgerdaaaetlun-2021-2024/",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "action plan"
+      ]
+    },
+    {
+      "@id": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2020/12/09/Skilvirkari-og-betri-opinber-thjonusta-med-stafraenu-postholfi-/",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Digital Mailbox"
+      ]
+    },
+    {
+      "@id": "https://www.althingi.is/lagas/nuna/2012140.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Information Act"
+      ]
+    },
+    {
+      "@id": "http://www.althingi.is/lagas/141b/2012140.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Information Act ",
+        "Information Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2003:345:0090:0096:en:PDF"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.government.is/publications/legislation/lex/?newsid=fe364017-fd27-11e7-9423-005056bc4d74",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Administrative Procedures Act"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2003:345:0090:0096:en:PDF",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "PSI Directive"
+      ]
+    },
+    {
+      "@id": "https://www.althingi.is/lagas/151b/2018045.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on the reuse of public information"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "eIDAS Regulation"
+      ]
+    },
+    {
+      "@id": "https://www.stjornarradid.is/media/atvinnuvegaraduneyti-media/media/Acrobat/Act-No-30-2002-on-Electronic-Commerce-and-other-Electronic-Services.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Electronic Commerce Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.althingi.is/lagas/150a/1993037.html"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.althingi.is/lagas/150a/1993037.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Administrative Procedures Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.althingi.is/lagas/nuna/2016120.html"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.althingi.is/lagas/nuna/2016120.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Public Procurement Act"
+      ]
+    },
+    {
+      "@id": "https://www.personuvernd.is/media/uncategorized/Act_No_90_2018_on_Data_Protection_and_the_Processing_of_Personal_Data.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Data Protection and the Processing of Personal Data"
+      ]
+    },
+    {
+      "@id": "https://www.althingi.is/lagas/nuna/2019078.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. 78/2019"
+      ]
+    },
+    {
+      "@id": "https://www.stjornarradid.is/lisalib/getfile.aspx?itemid=ec4a126d-8818-11e7-9419-005056bc4d74",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Public Procurement Act"
+      ]
+    },
+    {
+      "@id": "https://www.atvinnuvegaraduneyti.is/media/Acrobat/Act-No-30-2002-on-Electronic-Commerce-and-other-Electronic-Services.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Electronic Commerce and Other Electronic Services"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.government.is/media/fjarmalaraduneyti-media/media/Act_no_90_2003_01022012.pdf"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.government.is/media/fjarmalaraduneyti-media/media/Act_no_90_2003_01022012.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Income Tax Act "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.government.is/media/fjarmalaraduneyti-media/media/skjal/Regulation_No_470_1991.pdf"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.government.is/media/fjarmalaraduneyti-media/media/skjal/Regulation_No_470_1991.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Value Added Tax Act"
+      ]
+    },
+    {
+      "@id": "https://www.reglugerd.is/reglugerdir/eftir-raduneytum/fjarmala--og-efnahagsraduneyti/nr/21393",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation 44/2019"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/BjarniBenediktsson",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Bjarni Benediktsson"
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-MinisterforFinanceandEconomicAffairs"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/734"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-MinisterforFinanceandEconomicAffairs",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-MinisterforFinanceandEconomicAffairs"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-MinisterforFinanceandEconomicAffairs",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Minister for Finance and Economic Affairs"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/734",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+354 545 9200"
+      ],
+      "http://schema.org/email": [
+        "fjr@fjr.is"
+      ],
+      "http://schema.org/url": [
+        "https://www.government.is/ministries/ministry-of-finance-and-economic-affairs/"
+      ]
+    },
+    {
+      "@id": "https://www.fjs.is/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://skra.is/english/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.samgongustofa.is/umferd/okutaeki/okutaekjaskra/uppfletting/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.rsk.is/fyrirtaekjaskra/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.skra.is/english/properties/property-registration/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

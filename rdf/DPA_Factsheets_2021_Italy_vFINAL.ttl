@@ -1,0 +1,136 @@
+<http://data.europa.eu/nifo/factsheet/Italy> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Italy>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/ITA";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsItaly>, <http://example.org/nifo/legalframework/Italy>, <https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2021>, <http://example.org/nifo/person/VittorioColao>, <http://example.org/nifo/person/MauroMinenna>, <http://example.org/nifo/person/FrancescoPaorici>, <https://www.anpr.interno.it/portale/>, <https://www.esteri.it/mae/it/italiani_nel_mondo/serviziconsolari/aire.html>, <http://www.impresainungiorno.gov.it/psc-italy>, <http://www.impresa.gov.it/areademo/servizi/Control?action=welcome>, <https://www.normattiva.it/>, <http://www.parlamento.it/>, <http://www.cortedicassazione.it/>, <https://www.ipzs.it/ext/index.html>, <http://www.cliclavoro.gov.it/Pagine/default.aspx>, <https://www.sicurezzait.gov.it/home>, <https://ia.italia.it/>, <https://www.agid.gov.it/it/infrastrutture/sistema-pubblico-connettivita>, <https://www.dati.gov.it/>, <https://developers.italia.it/>, <https://www.spid.gov.it/>, <https://readthedocs.org/>, <https://forum.italia.it/>, <https://www.discourse.org/>, <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/bozza/>, <http://www.agid.gov.it/agenda-digitale/infrastrutture-architetture/spid>, <http://www.edscuola.it/archivio/norme/decreti/dpr068_05.pdf>, <http://www.openpec.org/eng/index.shtml>, <http://www.progettocns.it/index.aspx?AspxAutoDetectCookieSupport=1>, <https://appaltinnovativi.gov.it/>, <https://www.agid.gov.it/it/piattaforme/procurement/forum-procurement>, <https://www.acquistinretepa.it/opencms/opencms/>, <http://www.fatturapa.gov.it/export/fatturazione/it/sdi.htm>, <https://www.agid.gov.it/it/piattaforme/pagopa>, <http://www.funzionepubblica.gov.it/articolo/dipartimento/24-10-2018/competenze-digitali-la-pa-al-la-consultazione-del-syllabus>, <http://www.magellanopa.it/>, <https://www.eid.gov.it/>, <http://geodati.gov.it/geoportale/>, <http://portaletrasparenza.anticorruzione.it/microstrategy/html/index.htm>, <https://certificaticasellario.giustizia.it/sac/>, <http://www.registroimprese.it/>, <http://www.indicepa.gov.it/documentale/index.php>, <https://www.inipec.gov.it/>;
+ <http://dbpedia.org/ontology/populationTotal> "59 729 081 inhabitants (2020)";
+ <http://dbpedia.org/property/gdpNominal> "EUR 1 651 595 million (2020)";
+ <http://dbpedia.org/property/gdpPppPerCapita> "94 (2020) ";
+ <http://dbpedia.org/ontology/areaTotal> "301 338 km²";
+ <http://dbpedia.org/ontology/capital> "Rome";
+ <http://purl.org/dc/terms/language> "Italian";
+ <http://dbpedia.org/ontology/currency> <http://publications.europa.eu/resource/authority/currency/Euro%20(EUR)>;
+ <http://purl.org/dc/terms/source> <https://ec.europa.eu/eurostat/data/database>, "	Source: European Interoperability Framework Monitoring Mechanism 2020", "Source: European Interoperability Framework Monitoring Mechanism 2020", <https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2021>;
+ <http://purl.org/dc/terms/title> "Interoperability State of Play ", "eGovernment State of Play", "Digital Public Administration Political Communications", "In May 2020, the Italian government has been appointed as member of the Steering Committee of the Open Government Partnership. Hence, as member of the committee, the Italian government will play an important role in bringing together governments, the civil society and all the other stakeholders to guarantee an open and effective response to the COVID-19 crises.", "On 2 July 2020, the Ministry of Economic Development (MISE) published the National Strategy on Artificial Intelligence (AI). The strategy is structured in three parts. The first part includes an assessment of the global, European, and Italian AI markets. The second contains the foundations of the strategy, while the third part brings forward several proposals on AI governance as well as the necessity of an agile and adaptive legislative framework. ", "On 21 July 2020, the Presidency of the Council of Ministries has approved the National strategy for digital competences. The strategy accounts for the relevance to digital competences given by the European Commission in its communication (COM/2020/67) “Shaping Europe’s digital future.” The strategy acknowledges that digital competences represent a strategic priority for social and economic growth." .
+<http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsItaly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataSet>;
+ <http://purl.org/dc/terms/title> "Digital Public Administration Indicators";
+ <http://purl.org/linked-data/cube#structure> <http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsItaly>;
+ <http://purl.org/dc/terms/source> "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en,http://appsso.eurostat.ec.europa.eu/nui/submitViewTableAction.do" .
+<http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsItaly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition>;
+ <http://purl.org/linked-data/cube#component> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinItaly>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinItaly>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinItaly>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinItaly>;
+ <http://www.w3.org/2000/01/rdf-schema#label> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinItaly>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinItaly>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinItaly>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinItaly> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinItaly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinItaly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinItaly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinItaly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/legalframework/Italy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.gazzettaufficiale.it/eli/id/2019/12/30/19G00165/sg>, <http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014R0910&from=EN>, <https://www.gazzettaufficiale.it/eli/id/1990/08/18/090G0294/sg>, <https://www.gazzettaufficiale.it/eli/id/2015/08/13/15G00138/sg>, <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32013L0037>, <http://www.parlamento.it/parlam/leggi/97059l.htm>, <https://www.gazzettaufficiale.it/eli/id/2019/11/20/19G00140/sg>, <https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32016R0679>, <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2007:108:0001:0014:it:PDF>, <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32004L0017:EN:HTML>, <https://eur-lex.europa.eu/legal-content/en/ALL/?uri=celex:32004L0017>, <http://www.infoparlamento.it/Pdf/ShowPdf/4054>, <https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML>, <https://www.gazzettaufficiale.it/eli/id/2019/02/12/19G00017/sg> .
+<https://www.gazzettaufficiale.it/eli/id/2019/12/30/19G00165/sg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 160/2019" .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014R0910&from=EN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation 2014/910" .
+<https://www.gazzettaufficiale.it/eli/id/1990/08/18/090G0294/sg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Chapter V of Law No. 241 of 7 August 1990" .
+<https://www.gazzettaufficiale.it/eli/id/2015/08/13/15G00138/sg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 124 of 7 August 2015" .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2003/98/EC" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32013L0037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2013/37/EU" .
+<http://www.parlamento.it/parlam/leggi/97059l.htm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 59 of 15 March 1997 ";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31999L0093:EN:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31999L0093:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 1999/93/EC" .
+<https://www.gazzettaufficiale.it/eli/id/2019/11/20/19G00140/sg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 133/2019" .
+<https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32016R0679> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation (EU) 2016/679" .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2007:108:0001:0014:it:PDF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "European Directive 2007/2/E" .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32004L0017:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2004/17/EC";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32004L0018:EN:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32004L0018:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2004/18/EC" .
+<https://eur-lex.europa.eu/legal-content/en/ALL/?uri=celex:32004L0017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2004/17/CE";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex:32004L0018> .
+<https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex:32004L0018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2004/18/CE" .
+<http://www.infoparlamento.it/Pdf/ShowPdf/4054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 12 of 11 February 2019" .
+<https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2000/31/EC" .
+<https://www.gazzettaufficiale.it/eli/id/2019/02/12/19G00017/sg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 12 of 11 February 2019" .
+<http://example.org/nifo/person/VittorioColao> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Vittorio Colao";
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofInnovationTechnologyandDigitalTransition>, <http://example.org/nifo/post/Post-DirectoroftheDigitalTransformationDepartment>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4827> .
+<http://example.org/nifo/post/Post-MinisterofInnovationTechnologyandDigitalTransition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofInnovationTechnologyandDigitalTransition> .
+<http://example.org/nifo/role/Role-MinisterofInnovationTechnologyandDigitalTransition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Innovation Technology and Digital Transition" .
+<http://example.org/ContactPoint/4827> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "segreteria.trasformazionedigitale@governo.it";
+ <http://schema.org/url> "Source: https://innovazione.gov.it/" .
+<http://example.org/nifo/person/MauroMinenna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Mauro Minenna";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8463>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-DirectoroftheAgencyforDigitalItaly> .
+<http://example.org/nifo/post/Post-DirectoroftheDigitalTransformationDepartment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DirectoroftheDigitalTransformationDepartment> .
+<http://example.org/nifo/role/Role-DirectoroftheDigitalTransformationDepartment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Director of the Digital Transformation Department " .
+<http://example.org/ContactPoint/8463> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "segreteria.trasformazionedigitale@governo.it";
+ <http://schema.org/url> "Source: https://innovazione.gov.it/" .
+<http://example.org/nifo/person/FrancescoPaorici> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Francesco Paorici ";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/3779> .
+<http://example.org/nifo/post/Post-DirectoroftheAgencyforDigitalItaly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-DirectoroftheAgencyforDigitalItaly> .
+<http://example.org/nifo/role/Role-DirectoroftheAgencyforDigitalItaly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Director of the Agency for Digital Italy" .
+<http://example.org/ContactPoint/3779> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "protocollo@pec.agid.gov.it ";
+ <http://schema.org/url> "http://www.agid.gov.it/" .
+<https://www.anpr.interno.it/portale/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.esteri.it/mae/it/italiani_nel_mondo/serviziconsolari/aire.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.impresainungiorno.gov.it/psc-italy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.impresa.gov.it/areademo/servizi/Control?action=welcome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.normattiva.it/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.parlamento.it/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.cortedicassazione.it/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ipzs.it/ext/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.cliclavoro.gov.it/Pagine/default.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.sicurezzait.gov.it/home> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ia.italia.it/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.agid.gov.it/it/infrastrutture/sistema-pubblico-connettivita> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.dati.gov.it/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://developers.italia.it/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.spid.gov.it/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://readthedocs.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://forum.italia.it/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.discourse.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/bozza/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.agid.gov.it/agenda-digitale/infrastrutture-architetture/spid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.edscuola.it/archivio/norme/decreti/dpr068_05.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.openpec.org/eng/index.shtml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.progettocns.it/index.aspx?AspxAutoDetectCookieSupport=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://appaltinnovativi.gov.it/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.agid.gov.it/it/piattaforme/procurement/forum-procurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.acquistinretepa.it/opencms/opencms/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.fatturapa.gov.it/export/fatturazione/it/sdi.htm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.agid.gov.it/it/piattaforme/pagopa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.funzionepubblica.gov.it/articolo/dipartimento/24-10-2018/competenze-digitali-la-pa-al-la-consultazione-del-syllabus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.magellanopa.it/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.eid.gov.it/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://geodati.gov.it/geoportale/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://portaletrasparenza.anticorruzione.it/microstrategy/html/index.htm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://certificaticasellario.giustizia.it/sac/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.registroimprese.it/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.indicepa.gov.it/documentale/index.php> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.inipec.gov.it/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .

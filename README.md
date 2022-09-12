@@ -14,7 +14,7 @@ The objective of this pilot is to develop a reusable proof of concept, to conver
 
 ## Requirements and dependencies
 
-This pilot requires [Node JS](https://nodejs.org/en/download/) v8.10.0 or above, and uses the following packages:
+This pilot requires **Node JS** [v14.16.1](https://nodejs.org/ja/blog/release/v14.16.1/) or [above](https://nodejs.org/en/download/), and uses the following packages:
 
 * cheerio v1.0.0-rc.2
 * cli-progress v1.8.0
@@ -23,12 +23,20 @@ This pilot requires [Node JS](https://nodejs.org/en/download/) v8.10.0 or above,
 * jsesc v2.5.1
 * jsonld-request v0.2.0
 * ldtr v0.2.3
-* mammoth v1.4.4
+* mammoth v1.4.19
 * rdf-translator v2.0.0
 * rdfa-parser v1.0.1
 * request v2.85.0
 * sync-request v6.0.0
 * xml2js v0.4.19
+
+**Important Note!!!** The project was tested in Node JS **v14.16.1** so it is recommended to download this version of Node JS. In order to install Node JS v14.16.1 follow the link in v14.16.1, then download “Windows 64-bit Installer” and run the downloaded installer.
+
+## Requirements for input files
+
+* The documents that will be used in **docx** folder must be of type **docx**
+* Images that will be used in documents must be of **jpeg** type
+* It would be helpful if the names of the documents were in a specific format. For example, there was a file named xxx**EU_editor**xxx and now there is a file named xxx**EU_v3.00**xxx
 
 ## Architecture
 
@@ -58,7 +66,7 @@ The `config.json` file allows users to customise the transformation script and m
 * Configure document metadata, including the date issued, the applicable licence, the HTML tag used to identify the main sections in the document and the HTML tag used to identify the subsections in the document:
 ```
 {
-    "issued" : "2019-07",
+    "issued" : "2021-09",
     "licence" : "https://creativecommons.org/licenses/by/4.0/",
     "section_header" : "h1",
     "subsection_header" : "h2",
@@ -151,26 +159,23 @@ switch(content){
     case "Country Profile":
         //Custom code here
         break;
-    case "Digital Government Highlights":
+    case "Digital Public Administration Highlights":
         //Custom code here
         break;
-    case "Digital Government Political Communications":
+    case "Digital Public Administration Political Communications":
         //Custom code here
         break;
-    case "Digital Government Legislation":
+    case "Digital Public Administration Legislation":
         //Custom code here
         break;
-    case "Digital Government Governance":
+    case "Digital Public Administration Governance":
         //Custom code here
         break;
-    case "Digital Government Infrastructure":
+    case "Digital Public Administration Infrastructure":
         //Custom code here
         break;
-    case "Digital Government Services for Citizens":
+    case "Cross Border Digital Public Administration Services for Citizens and Business":
         //Custom code here                 
-        break;
-    case "Digital Government Services for Businesses":
-        //Custom code here
         break;
 }
 ```

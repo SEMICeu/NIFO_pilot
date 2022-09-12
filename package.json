@@ -36,7 +36,7 @@
     "jsesc": "^2.5.1",
     "jsonld-request": "^0.2.0",
     "ldtr": "^0.2.3",
-    "mammoth": "^1.4.4",
+    "mammoth": "^1.4.19",
     "rdf-translator": "^2.0.0",
     "rdfa-parser": "^1.0.1",
     "request": "^2.85.0",

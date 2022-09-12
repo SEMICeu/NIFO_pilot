@@ -58,11 +58,16 @@ input.forEach(function(fileName){
 	    .then(function(result){
             var generatedHTML = result.value; // The generated HTML
             var html = '<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body>'+generatedHTML+'</body></html>'
-	        var messages = result.messages; // Any messages, such as warnings during conversion
-			output = fileName.split('.docx');
-			fs.writeFileSync(outputPath+"/"+output[0]+".html", unescape(html));
-	        fs.writeFileSync('log/'+output[0]+'.log', messages);
-	    })
-	    .done();
+            var messages = result.messages; // Any messages, such as warnings during conversion
+            output = fileName.split('.docx');
+            fs.writeFileSync(outputPath+"/"+output[0]+".html", unescape(html));
+            const tarr = new Uint8Array(messages);
+            fs.writeFileSync('log/'+output[0]+'.log', tarr);
+        }).catch(() => {
+        console.log('Error converting file named : ' + filePath+'/'+fileName);
+        console.log('Processing ... ');
+    }).finally(() => {
+    })
+        .done();
 });
 bar1.stop();

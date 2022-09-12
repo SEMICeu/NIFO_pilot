@@ -1,0 +1,407 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Germany",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Germany"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/DEU"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/legalframework/Germany"
+        },
+        {
+          "@id": "http://example.org/nifo/person/NancyFaeser"
+        },
+        {
+          "@id": "http://example.org/nifo/person/Dr.Markus%C2%A0Richter%C2%A0"
+        },
+        {
+          "@id": "http://example.org/nifo/person/PiaKarger%C2%A0"
+        },
+        {
+          "@id": "http://example.org/nifo/person/ErnstB%C3%BCrger"
+        },
+        {
+          "@id": "http://example.org/nifo/person/ArneSch%C3%B6nbohm%C2%A0"
+        },
+        {
+          "@id": "http://example.org/nifo/person/UlrichKelber"
+        }
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Public Administration Political Communications",
+        "To this end, the BMI provides skills training for its own staff and employees of the whole federal administration as well as support in the form of consolidated administrative services to empower not only its own employees but also those of the"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Germany",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/NancyFaeser",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Nancy Faeser "
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-FederalMinisteroftheInteriorandCommunity%C2%A0"
+        },
+        {
+          "@id": "http://example.org/nifo/post/Post-StateSecretaryintheFederalMinistryoftheInterior%C2%A0"
+        }
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/2614"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-FederalMinisteroftheInteriorandCommunity%C2%A0",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-FederalMinisteroftheInteriorandCommunity%C2%A0"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-FederalMinisteroftheInteriorandCommunity%C2%A0",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Federal Minister of the Interior and Community "
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/2614",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "Tel.: +49 30 18 681-0 "
+      ],
+      "http://schema.org/faxNumber": [
+        "Fax: +49 30 18 681-12926 "
+      ],
+      "http://schema.org/email": [
+        "E-mail: poststelle@bmi.bund.de "
+      ],
+      "http://schema.org/url": [
+        "Source: http://www.bmi.bund.de/ "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/Dr.Markus%C2%A0Richter%C2%A0",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Dr. Markus Richter "
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/9259"
+        }
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-DirectorGeneralforDigitalSocietyandInformationTechnology"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-StateSecretaryintheFederalMinistryoftheInterior%C2%A0",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-StateSecretaryintheFederalMinistryoftheInterior%C2%A0"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-StateSecretaryintheFederalMinistryoftheInterior%C2%A0",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "State Secretary in the Federal Ministry of the Interior "
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/9259",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "+49 30 18 681-0 "
+      ],
+      "http://schema.org/url": [
+        "Source: https://www.cio.bund.de"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/PiaKarger%C2%A0",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Pia Karger "
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/3031"
+        }
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-DirectorGeneralforDigitalAdministrationandManagementoftheOnlineAccessAct"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-DirectorGeneralforDigitalSocietyandInformationTechnology",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-DirectorGeneralforDigitalSocietyandInformationTechnology"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-DirectorGeneralforDigitalSocietyandInformationTechnology",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Director General for Digital Society and Information Technology "
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/3031",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "Tel.: +49 30 18 681-0 "
+      ],
+      "http://schema.org/faxNumber": [
+        "Fax: +49 30 18 681-58185 "
+      ],
+      "http://schema.org/email": [
+        "E-mail: IT-Beauftragter@bmi.bund.de"
+      ],
+      "http://schema.org/url": [
+        "Source: http://www.bmi.bund.de/"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/ErnstB%C3%BCrger",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Ernst Bürger"
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/8780"
+        }
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-PresidentoftheFederalOfficeforInformationSecurity(BSI)%C2%A0"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-DirectorGeneralforDigitalAdministrationandManagementoftheOnlineAccessAct",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-DirectorGeneralforDigitalAdministrationandManagementoftheOnlineAccessAct"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-DirectorGeneralforDigitalAdministrationandManagementoftheOnlineAccessAct",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Director General for Digital Administration and Management of the Online Access Act"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/8780",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "Tel.: +49 30 18 681-0 "
+      ],
+      "http://schema.org/faxNumber": [
+        "Fax: +49 30 18 681-12983 "
+      ],
+      "http://schema.org/email": [
+        "E-mail: DV@bmi.bund.de "
+      ],
+      "http://schema.org/url": [
+        "Source: http://www.bmi.bund.de."
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/ArneSch%C3%B6nbohm%C2%A0",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Arne Schönbohm "
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/8360"
+        }
+      ],
+      "http://www.w3.org/ns/org#holds": [
+        {
+          "@id": "http://example.org/nifo/post/Post-TheFederalCommissionerforDataProtectionandFreedomofInformation%C2%A0"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-PresidentoftheFederalOfficeforInformationSecurity(BSI)%C2%A0",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-PresidentoftheFederalOfficeforInformationSecurity(BSI)%C2%A0"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-PresidentoftheFederalOfficeforInformationSecurity(BSI)%C2%A0",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "President of the Federal Office for Information Security (BSI) "
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/8360",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "Tel.: +49 228 99 95 82-0 "
+      ],
+      "http://schema.org/faxNumber": [
+        "Fax: +49 228 99 95 82-5400 "
+      ],
+      "http://schema.org/email": [
+        "E-mail: bsi@bsi.bund.de "
+      ],
+      "http://schema.org/url": [
+        "Source: https://www.bsi.bund.de/ "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/person/UlrichKelber",
+      "@type": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "http://xmlns.com/foaf/0.1/name": [
+        "Ulrich Kelber "
+      ],
+      "http://schema.org/contactPoint": [
+        {
+          "@id": "http://example.org/ContactPoint/7436"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/post/Post-TheFederalCommissionerforDataProtectionandFreedomofInformation%C2%A0",
+      "@type": [
+        "http://www.w3.org/ns/org#Post"
+      ],
+      "http://www.w3.org/ns/org#role": [
+        {
+          "@id": "http://example.org/nifo/role/Role-TheFederalCommissionerforDataProtectionandFreedomofInformation%C2%A0"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/role/Role-TheFederalCommissionerforDataProtectionandFreedomofInformation%C2%A0",
+      "@type": [
+        "http://www.w3.org/ns/org#Role"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "The Federal Commissioner for Data Protection and Freedom of Information "
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/7436",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://schema.org/telephone": [
+        "Tel.: +49 228 99 77 99-0 "
+      ],
+      "http://schema.org/faxNumber": [
+        "Fax: +49 228 99 77 99-550 "
+      ],
+      "http://schema.org/email": [
+        "E-mail: poststelle@bfdi.bund.de "
+      ],
+      "http://schema.org/url": [
+        "Source: https://www.bfdi.bund.de/ "
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+<http://data.europa.eu/nifo/factsheet/Liechtenstein> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Liechtenstein>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/LIE";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsLiechtenstein>, <http://example.org/nifo/legalframework/Liechtenstein>, <http://example.org/nifo/person/DanielRisch>, <http://example.org/nifo/person/SylvanFux>, <https://www.serviceportal.li/de>, <http://www.serviceportal.li>, <http://www.e-archiv.li/>;
+ <http://dbpedia.org/ontology/populationTotal> "38 459 inhabitants (2020)*";
+ <http://dbpedia.org/property/gdpNominal> "CHF 6.5 billion (2020)**";
+ <http://dbpedia.org/property/gdpPppPerCapita> "Not available";
+ <http://dbpedia.org/ontology/areaTotal> "160km²**";
+ <http://dbpedia.org/ontology/capital> "Vaduz**";
+ <http://purl.org/dc/terms/language> "German**";
+ <http://dbpedia.org/ontology/currency> <http://publications.europa.eu/resource/authority/currency/CHF**>;
+ <http://purl.org/dc/terms/source> "Sources: ", "Source: European Interoperability Framework Monitoring Mechanism 2020";
+ <http://purl.org/dc/terms/title> "Interoperability State of Play ", "eGovernment State of Play ", "Digital Public Administration Legislation", "On 15 December 2020, the eGovernment Ordinance implemented the eGovernment Act and subsequent amendments by regulating the details of electronic business transactions between public authorities as well as authorities and individuals.", "On 1 December 2020, the law No. 455 amended the Data Protection Ordinance by amending the list of third countries and international organisations considered to have an adequate level of data protection. " .
+<http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsLiechtenstein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataSet>;
+ <http://purl.org/dc/terms/title> "Digital Public Administration Indicators";
+ <http://purl.org/linked-data/cube#structure> <http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsLiechtenstein>;
+ <http://purl.org/dc/terms/source> "" .
+<http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsLiechtenstein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition> .
+<http://example.org/nifo/legalframework/Liechtenstein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.gesetze.li/konso/2011.575>, <https://www.gesetze.li/chrono/pdf/2020359000>, <https://www.gesetze.li/konso/2011600000>, <https://www.gesetze.li/konso/1999.159>, <https://ec.europa.eu/digital-single-market/en/news/liechtenstein-law-no-172016-further-use-public-sector-information-implementing-psi-directive>, <https://www.gesetze.li/konso/2019114000?search_text=&search_loc=text&lrnr=&lgblid_von=2019.114&observe_date=17.02.2020>, <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31999L0093>, <https://www.regierung.li/de/mitteilungen/194853/?typ=content&nid=11080>, <https://www.gesetze.li/konso/2018272000?search_text=Datenschutzgesetz%252520&search_loc=text&lrnr=&lgblid_von=&observe_date=17.04.2019>, <https://www.gesetze.li/chrono/2020455000>, <https://www.gesetze.li/lilexprod/lgsystpage2.jsp?formname=showlaw&lgblid=2011574000&version=2&search_text=ZPRG&search_loc=text&sel_lawtype=conso&compl_list=1&rechts_gebiet=0&menu=0&tablesel=0&observe_date=05.10.2016>, <https://www.gesetze.li/lilexprod/lgsystpage2.jsp?formname=showlaw&lgblid=2006184000&gueltigdate=06102016>, <https://www.gesetze.li/lilexprod/lgsystpage2.jsp?formname=showlaw&lgblid=1926004000&version=36&search_text=%2525C3%252596ffentlichkeitsregister&search_loc=text&sel_lawtype=conso&compl_list=1&rechts_gebiet=0&menu=0&tablesel=0&observe_date=06.10.2016>, <https://www.gesetze.li/lilexprod/lgsystpage2.jsp?formname=showlaw&lgblid=2005148000&version=5&search_text=Grundbuch&search_loc=text&sel_lawtype=conso&compl_list=1&rechts_gebiet=0&menu=0&tablesel=0&observe_date=06.10.2016>, <https://www.gesetze.li/lilexprod/lgsystpage2.jsp?formname=showlaw&lgblid=2003133000&gueltigdate=23102015>, <https://www.gesetze.li/konso/2006091000?search_text=Kommunikationsgesetz&search_loc=text&lrnr=&lgblid_von=&observe_date=29.01.2018> .
+<https://www.gesetze.li/konso/2011.575> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "eGovernment Act (eGovG) " .
+<https://www.gesetze.li/chrono/pdf/2020359000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 359 (eGovernment Law)" .
+<https://www.gesetze.li/konso/2011600000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Amendment to the Service of Official Documents Act (ZustG) " .
+<https://www.gesetze.li/konso/1999.159> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Information Act";
+ <http://purl.org/dc/terms/relation> <https://www.gesetze.li/konso/1999206000?search_text=Informationsverordnung&search_loc=text&lrnr=&lgblid_von=&observe_date=17.04.2019> .
+<https://www.gesetze.li/konso/1999206000?search_text=Informationsverordnung&search_loc=text&lrnr=&lgblid_von=&observe_date=17.04.2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation on the Information Ordinance (Informationsverordnung)" .
+<https://ec.europa.eu/digital-single-market/en/news/liechtenstein-law-no-172016-further-use-public-sector-information-implementing-psi-directive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the Reuse of Public Sector Information (Law No. 172/016)";
+ <http://purl.org/dc/terms/relation> <http://www.gesetze.li/DisplayLGBl.jsp?Jahr=1999&Nr=206> .
+<http://www.gesetze.li/DisplayLGBl.jsp?Jahr=1999&Nr=206> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation on Information";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "European Directive on the reuse of public sector information (2003/98/EC)" .
+<https://www.gesetze.li/konso/2019114000?search_text=&search_loc=text&lrnr=&lgblid_von=2019.114&observe_date=17.02.2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Electronic Signature and Electronic Transactions";
+ <http://purl.org/dc/terms/relation> <https://www.gesetze.li/konso/2019180000?search_text=&search_loc=text&lrnr=&lgblid_von=2019.180&observe_date=17.02.2020> .
+<https://www.gesetze.li/konso/2019180000?search_text=&search_loc=text&lrnr=&lgblid_von=2019.180&observe_date=17.02.2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Ordinance on Electronic Signature and Electronic Transactions" .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31999L0093> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "European Directive 1999/93/EC on a Community framework for Electronic Signatures" .
+<https://www.regierung.li/de/mitteilungen/194853/?typ=content&nid=11080> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Consultation Report on the Adoption of a Law";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG> .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation on electronic identification and trust services for electronic transactions in the internal market (eIDAS Regulation)" .
+<https://www.gesetze.li/konso/2018272000?search_text=Datenschutzgesetz%252520&search_loc=text&lrnr=&lgblid_von=&observe_date=17.04.2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<https://www.gesetze.li/konso/2018272000?search_text=Datenschutzgesetz%20&search_loc=text&lrnr=&lgblid_von=&observe_date=17.04.2019> <http://data.europa.eu/eli/ontology#title> "Data Protection Act";
+ <http://purl.org/dc/terms/relation> <https://www.gesetze.li/chrono/2020389000> .
+<https://www.gesetze.li/chrono/2020389000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 389" .
+<https://www.gesetze.li/chrono/2020455000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 455" .
+<https://www.gesetze.li/lilexprod/lgsystpage2.jsp?formname=showlaw&lgblid=2011574000&version=2&search_text=ZPRG&search_loc=text&sel_lawtype=conso&compl_list=1&rechts_gebiet=0&menu=0&tablesel=0&observe_date=05.10.2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law of 21 September 2011 on the Central Civil Registration (ZPRG) " .
+<https://www.gesetze.li/lilexprod/lgsystpage2.jsp?formname=showlaw&lgblid=2006184000&gueltigdate=06102016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Commercial Law" .
+<https://www.gesetze.li/lilexprod/lgsystpage2.jsp?formname=showlaw&lgblid=1926004000&version=36&search_text=%2525C3%252596ffentlichkeitsregister&search_loc=text&sel_lawtype=conso&compl_list=1&rechts_gebiet=0&menu=0&tablesel=0&observe_date=06.10.2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<https://www.gesetze.li/lilexprod/lgsystpage2.jsp?formname=showlaw&lgblid=1926004000&version=36&search_text=%C3%96ffentlichkeitsregister&search_loc=text&sel_lawtype=conso&compl_list=1&rechts_gebiet=0&menu=0&tablesel=0&observe_date=06.10.2016> <http://data.europa.eu/eli/ontology#title> "Persons and Companies Act (PGR)" .
+<https://www.gesetze.li/lilexprod/lgsystpage2.jsp?formname=showlaw&lgblid=2005148000&version=5&search_text=Grundbuch&search_loc=text&sel_lawtype=conso&compl_list=1&rechts_gebiet=0&menu=0&tablesel=0&observe_date=06.10.2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law of 19 May 2005 on the Cadastral Survey (Survey Act; Property Act" .
+<https://www.gesetze.li/lilexprod/lgsystpage2.jsp?formname=showlaw&lgblid=2003133000&gueltigdate=23102015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on eCommerce";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:en:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:en:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2000/31/EC on certain legal aspects of information society services, in particular on electronic commerce in the Internal Market (Directive on electronic commerce)" .
+<https://www.gesetze.li/konso/2006091000?search_text=Kommunikationsgesetz&search_loc=text&lrnr=&lgblid_von=&observe_date=29.01.2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Electronic Communication" .
+<http://example.org/nifo/person/DanielRisch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Daniel Risch";
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-PrimeMinister>, <http://example.org/nifo/post/Post-HeadofBusinessConsultingDigitisation>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/6547> .
+<http://example.org/nifo/post/Post-PrimeMinister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-PrimeMinister> .
+<http://example.org/nifo/role/Role-PrimeMinister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Prime Minister " .
+<http://example.org/ContactPoint/6547> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "N/A";
+ <http://schema.org/url> "Source: https://www.regierung.li " .
+<http://example.org/nifo/person/SylvanFux> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Sylvan Fux";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/1668> .
+<http://example.org/nifo/post/Post-HeadofBusinessConsultingDigitisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-HeadofBusinessConsultingDigitisation> .
+<http://example.org/nifo/role/Role-HeadofBusinessConsultingDigitisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Head of Business Consulting Digitisation " .
+<http://example.org/ContactPoint/1668> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "N/A";
+ <http://schema.org/url> "Source: https://ai.llv.li/ " .
+<https://www.serviceportal.li/de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.serviceportal.li> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.e-archiv.li/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .

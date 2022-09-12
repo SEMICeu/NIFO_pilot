@@ -1,0 +1,165 @@
+<http://data.europa.eu/nifo/factsheet/Denmark> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Denmark>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/DNK";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsDenmark>, <http://example.org/nifo/dataset/ThefollowinggraphspresentdataforthelatestDigitalPublicAdministrationIndicatorsforDenmarkcomparedtotheEUaverage.StatisticalindicatorsinthissectionreflectthoseofEurostatatthetimetheEditionisbeingprepared.Denmark>, <http://example.org/nifo/legalframework/Denmark>, <https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2020-egovernment-works-people>, <https://twitter.com/Joinup_eu>, <http://example.org/nifo/person/NicolaiWammen>, <http://example.org/nifo/person/TanjaFranck>, <http://example.org/nifo/person/SimonKollerup>, <http://example.org/nifo/person/MichaelØrnø>, <https://datafordeler.dk/>, <https://lifeindenmark.borger.dk/>, <https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIV-SC442/Shared%20Documents/D04.01%20Digital%20Public%20Administration%20factsheets%20and%20infographics/Country%20factsheets%202021/Denmark/Factsheet/-%09www.borger.dk/flytteguide>, <https://virk.dk/assistent>, <https://cpr.dk/>, <https://eur-lex.europa.eu/legal-content/EN/TXT/>, <http://www.datatilsynet.dk/english/>, <https://rm.coe.int/16806af0e6>, <http://www.kl.dk/English/Local-Government-Denmark/>, <https://virksomhedsguiden.dk/erhvervsfremme/content/>, <http://www.nemhandel.dk/>, <https://www.nemkonto.dk/>, <https://www.borger.dk/internet-og-sikkerhed/Digital-Post/Post>, <https://fm.dk/arbejdsomraader/kommuner-og-regioner/opgaver-for-kommuner-og-regioner/>, <https://www.regioner.dk/>, <https://en.digst.dk/data-and-it-architecture/>, <https://ast.dk/>, <http://www.udbudsportalen.dk/>, <http://www.ski.dk>, <https://www.ethics.dk/ethics/eo%22%20%5Cl%20%22/SKI/>, <https://indberet.virk.dk/>, <http://www.boligejer.dk/>, <https://www.digitaliser.dk/services>, <https://www.digst.dk/It-loesninger/NemLogin>;
+ <http://dbpedia.org/ontology/populationTotal> "5 814 422 inhabitants (2020)";
+ <http://dbpedia.org/property/gdpNominal> "311 726 million (2020)";
+ <http://dbpedia.org/property/gdpPppPerCapita> "136 (2020)";
+ <http://dbpedia.org/ontology/areaTotal> "42 924 km2";
+ <http://dbpedia.org/ontology/capital> "Copenhagen";
+ <http://purl.org/dc/terms/language> "Danish";
+ <http://dbpedia.org/ontology/currency> <http://publications.europa.eu/resource/authority/currency/DKK>;
+ <http://purl.org/dc/terms/source> <https://ec.europa.eu/isa2/home_en>, "Source: European Interoperability Framework Monitoring Mechanism 2020", <https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2020-egovernment-works-people>;
+ <http://purl.org/dc/terms/title> "Interoperability State of Play", "eGovernment State of Play ", "Digital Public Administration Political Communications", "Digital Public Administration Legislation", "In 2021, the government has evaluated the work with digital-ready legislation conducted over the last three years. The review indicates there is an increased focus on the application of new digital possibilities, and that several ministries find it advantageous to describe and incorporate digital solutions and possibilities in the early stages of the political decision-making process. Additionally, the COVID-19 pandemic has underlined the benefits of digital-ready legislation and an evolved digital infrastructure. " .
+<http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsDenmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataSet>;
+ <http://purl.org/dc/terms/title> "Digital Public Administration Indicators";
+ <http://purl.org/linked-data/cube#structure> <http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsDenmark>;
+ <http://purl.org/dc/terms/source> "https://europa.eu/youreurope/business/product-requirements/index_en.htm?dataset=isoc_bde15ei&lang=en,https://europa.eu/youreurope/business/finance-funding/index_en.htm?dataset=isoc_bde15ei&lang=en,http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en" .
+<http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsDenmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition>;
+ <http://purl.org/linked-data/cube#component> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinDenmark>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinDenmark>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinDenmark>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinDenmark>;
+ <http://www.w3.org/2000/01/rdf-schema#label> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinDenmark>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinDenmark>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinDenmark>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinDenmark> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinDenmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinDenmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinDenmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinDenmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<https://twitter.com/Joinup_eu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "National Action Plan (2019–2021)" .
+<http://example.org/nifo/legalframework/Denmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.retsinformation.dk/eli/lta/2018/439>, <https://arkitektur.digst.dk/?uri=uriserv:OJ.L_.2018.295.01.0001.01.ENG&toc=OJ:L:2018:295:TOC>, <https://arkitektur.digst.dk/en/metoder/regler-begrebs-og-datamodellering?id=152299>, <https://www.opengovpartnership.org/members/denmark/?id=163488>, <https://datafordeler.dk/>, <https://www.norden.org/en/digitalisation-and-innovation?id=180237>, <https://digst.dk/it-loesninger/nemid/om-loesningen/samarbejde/>, <https://www.retsinformation.dk/Forms/r0710.aspx?id=180237>, <https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering>, <https://eng.em.dk/media/13081/305755-gb-version_4k.pdf?uri=CELEX:32016R0679&from=EN>, <https://www.retsinformation.dk/Forms/r0710.aspx?id=201319>, <https://www.retsinformation.dk/eli/lta/2019/1052>, <https://www.retsinformation.dk/eli/lta/2018/899?id=208715>, <https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?id=201922>, <https://www.retsinformation.dk/Forms/R0710.aspx?id=188505>, <https://uk.rigsrevisionen.dk/?uri=celex:32014L0024>, <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32014L0055&from=EN>, <https://www.retsinformation.dk/Forms/R0710.aspx?id=205978>, <https://www.nemid.nu/dk-da/>, <https://en.digst.dk/policy-and-strategy/mandatory-digitisation/>, <http://www.datatilsynet.dk/?uri=CELEX:32016L2102&from=EN> .
+<https://www.retsinformation.dk/eli/lta/2018/439> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. 439 of 08 May 2018";
+ <http://purl.org/dc/terms/relation> <https://arkitektur.digst.dk/> .
+<https://arkitektur.digst.dk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. 899 of 21 June 2018" .
+<https://arkitektur.digst.dk/?uri=uriserv:OJ.L_.2018.295.01.0001.01.ENG&toc=OJ:L:2018:295:TOC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Single Digital Gateway (SDG) Regulation" .
+<https://arkitektur.digst.dk/en/metoder/regler-begrebs-og-datamodellering?id=152299> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Access to Public Administration Documents Act" .
+<https://www.opengovpartnership.org/members/denmark/?id=163488> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act Amending the Law on the Reuse of Public Sector Information";
+ <http://purl.org/dc/terms/relation> <https://statens-it.dk/english/?uri=CELEX:32013L0037&from=EN> .
+<https://statens-it.dk/english/?uri=CELEX:32013L0037&from=EN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 37/2013/EU of 26 June 2013 amending Directive 2003/98/EC on the re-use of public sector information" .
+<https://datafordeler.dk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>, <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://data.europa.eu/eli/ontology#title> "Open Data Directive, 2019" .
+<https://www.norden.org/en/digitalisation-and-innovation?id=180237> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation (EU) No. 910/2014 on electronic identification and trust services for electronic transactions in the internal market (eIDAS Regulation)" .
+<https://digst.dk/it-loesninger/nemid/om-loesningen/samarbejde/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on the Issuance of the NemID with Public Digital Signature for Physical Persons and Employees in Legal Entities" .
+<https://www.retsinformation.dk/Forms/r0710.aspx?id=180237> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. 617 of 8  June 2016" .
+<https://arkitektur.digst.dk/metoder/regler-begrebs-og-datamodellering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on the Processing of Personal Data";
+ <http://purl.org/dc/terms/relation> <https://www.retsinformation.dk/eli/lta/2018/439?uri=CELEX:31995L0046:EN:HTML> .
+<https://www.retsinformation.dk/eli/lta/2018/439?uri=CELEX:31995L0046:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 95/46/EC on the protection of individuals with regard to the processing of personal data and on the free movement of such data";
+ <http://purl.org/dc/terms/relation> <https://eng.em.dk/media/13081/305755-gb-version_4k.pdf> .
+<https://eng.em.dk/media/13081/305755-gb-version_4k.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Public Administration Act", "Publicity and Freedom of Information Act";
+ <http://purl.org/dc/terms/relation> <https://eng.em.dk/media/13081/305755-gb-version_4k.pdf> .
+<https://eng.em.dk/media/13081/305755-gb-version_4k.pdf?uri=CELEX:32016R0679&from=EN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "General Data Protection Regulation" .
+<https://www.retsinformation.dk/Forms/r0710.aspx?id=201319> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Data Protection" .
+<https://www.retsinformation.dk/eli/lta/2019/1052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on the Central Business Registry" .
+<https://www.retsinformation.dk/eli/lta/2018/899?id=208715> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Building and Dwelling Registration" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?id=201922> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Subdivision" .
+<https://www.retsinformation.dk/Forms/R0710.aspx?id=188505> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Spatial Information" .
+<https://uk.rigsrevisionen.dk/?uri=celex:32014L0024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2014/24/EU";
+ <http://purl.org/dc/terms/relation> <https://digital-strategy.ec.europa.eu/en/policies/open-data> .
+<https://digital-strategy.ec.europa.eu/en/policies/open-data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Public Procurement Act";
+ <http://purl.org/dc/terms/relation> <https://www.retsinformation.dk/Forms/r0710.aspx?uri=CELEX:52015PC0671> .
+<https://www.retsinformation.dk/Forms/r0710.aspx?uri=CELEX:52015PC0671> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Executive Order on the Procedures for Contracts within Water and Energy Supply, Transport and Postal Services" .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32014L0055&from=EN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2014/55/EU on electronic invoicing in public procurement" .
+<https://www.retsinformation.dk/Forms/R0710.aspx?id=205978> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Business Promotion" .
+<https://www.nemid.nu/dk-da/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Information Society Services and Electronic Commerce";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/FR/ALL/?uri=CELEX:32000L0031:en:HTML> .
+<https://eur-lex.europa.eu/legal-content/FR/ALL/?uri=CELEX:32000L0031:en:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2000/31/EC of 8 June 2000 on certain legal aspects of information society services, in particular electronic commerce in the Internal Market" .
+<https://en.digst.dk/policy-and-strategy/mandatory-digitisation/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Public Digital Post" .
+<http://www.datatilsynet.dk/?uri=CELEX:32016L2102&from=EN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> " Directive 2016/2102";
+ <http://purl.org/dc/terms/relation> <https://eng.em.dk/media/13081/305755-gb-version_4k.pdf?id=201794> .
+<https://eng.em.dk/media/13081/305755-gb-version_4k.pdf?id=201794> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Web Accessibility" .
+<http://example.org/nifo/person/NicolaiWammen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Nicolai Wammen";
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofFinance>, <http://example.org/nifo/post/Post-Director-GeneraloftheDanishAgencyforDigitisation>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/1365> .
+<http://example.org/nifo/post/Post-MinisterofFinance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofFinance> .
+<http://example.org/nifo/role/Role-MinisterofFinance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Finance" .
+<http://example.org/ContactPoint/1365> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+45 3392 3333 (switchboard)";
+ <http://schema.org/email> "minister@fm.dk ";
+ <http://schema.org/url> "http://uk.fm.dk" .
+<http://example.org/nifo/person/TanjaFranck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Tanja Franck";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4612>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterforIndustry,Business,andFinancialAffairs> .
+<http://example.org/nifo/post/Post-Director-GeneraloftheDanishAgencyforDigitisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Director-GeneraloftheDanishAgencyforDigitisation> .
+<http://example.org/nifo/role/Role-Director-GeneraloftheDanishAgencyforDigitisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Director-General of the Danish Agency for Digitisation" .
+<http://example.org/ContactPoint/4612> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "digst@digst.dk";
+ <http://schema.org/url> "Source: https://en.digst.dk/ " .
+<http://example.org/nifo/person/SimonKollerup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Simon Kollerup";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/4739>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Director-GeneraloftheAgencyforGovernmentalITServices> .
+<http://example.org/nifo/post/Post-MinisterforIndustry,Business,andFinancialAffairs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterforIndustry,Business,andFinancialAffairs> .
+<http://example.org/nifo/role/Role-MinisterforIndustry,Business,andFinancialAffairs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Minister for Industry, Business, and Financial Affairs" .
+<http://example.org/ContactPoint/4739> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+ 45 3392 3350";
+ <http://schema.org/email> "em@em.dk";
+ <http://schema.org/url> "Source: https://eng.em.dk/ " .
+<http://example.org/nifo/person/MichaelØrnø> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Michael Ørnø";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/5567> .
+<http://example.org/nifo/post/Post-Director-GeneraloftheAgencyforGovernmentalITServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Director-GeneraloftheAgencyforGovernmentalITServices> .
+<http://example.org/nifo/role/Role-Director-GeneraloftheAgencyforGovernmentalITServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Director-General of the Agency for Governmental IT Services" .
+<http://example.org/ContactPoint/5567> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/email> "direktionssekretariat@statens-it.dk";
+ <http://schema.org/url> "https://www.consumereurope.dk/menu/laws/danish-laws/the-e-commerce-act/" .
+<https://lifeindenmark.borger.dk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIV-SC442/Shared%20Documents/D04.01%20Digital%20Public%20Administration%20factsheets%20and%20infographics/Country%20factsheets%202021/Denmark/Factsheet/-%09www.borger.dk/flytteguide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://virk.dk/assistent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://cpr.dk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.datatilsynet.dk/english/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://rm.coe.int/16806af0e6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.kl.dk/English/Local-Government-Denmark/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://virksomhedsguiden.dk/erhvervsfremme/content/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.nemhandel.dk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.nemkonto.dk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.borger.dk/internet-og-sikkerhed/Digital-Post/Post> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://fm.dk/arbejdsomraader/kommuner-og-regioner/opgaver-for-kommuner-og-regioner/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.regioner.dk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://en.digst.dk/data-and-it-architecture/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ast.dk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.udbudsportalen.dk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.ski.dk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ethics.dk/ethics/eo%22%20%5Cl%20%22/SKI/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://indberet.virk.dk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.boligejer.dk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.digitaliser.dk/services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.digst.dk/It-loesninger/NemLogin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .

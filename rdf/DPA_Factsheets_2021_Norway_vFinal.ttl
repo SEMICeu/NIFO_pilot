@@ -1,0 +1,139 @@
+<http://data.europa.eu/nifo/factsheet/Norway> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Norway>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/NOR";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsNorway>, <http://example.org/nifo/dataset/ThefollowinggraphspresentdataforthelatestDigitalPublicAdministrationIndicatorsforNorwaycomparedtotheEUaverage.StatisticalindicatorsinthissectionreflectthoseofEurostatatthetimetheEditionisbeingprepared.Norway>, <http://example.org/nifo/legalframework/Norway>, <https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2021>, <http://example.org/nifo/person/NikolaiAstrup>, <http://example.org/nifo/person/LindaHofstadHelleland>, <http://example.org/nifo/person/SteffenSutorius>, <https://ovelse.no/>, <https://www.dsb.no/veiledere-handboker-og-informasjonsmateriell/metodehefte-diskusjonsovelse/>, <https://www.altinn.no/en/>, <https://www.digdir.no/digitalisering-og-samordning/referansekatalogen-it-standardar/1480>, <https://www.norge.no/en>, <https://helsedata.no/>, <https://doc.difi.no/nasjonal-arkitektur/nab_referanse_arkitekturer/#_aktuelle_referansearkitekturer>, <http://eid.difi.no/en/minid>, <http://www.difi.no/digital-forvaltning/felles-it-losninger-fra-difi/id-porten>, <http://eid.difi.no/en/buypass-id>, <http://eid.difi.no/en/commfides>, <http://eid.difi.no/en/bankid>, <https://www.anskaffelser.no/idefault>, <https://www.anskaffelser.no/verktoy/vellykket-innforing-av-e-handel>, <https://doffin.no/>, <https://einnsyn.no/sok?sort=>, <https://www.arkivverket.no/en/>, <https://www.digitalarkivet.no/en/>, <https://www.bouvet.no/bouvet-deler/et-ordentlig-datasjoprosjekt>, <http://www.ebr.org/index.php/member-countries/european-interactive-map/norway/>, <https://www.sdir.no/en/about-us/>, <http://www.toop.eu/>, <https://nordicsmartgovernment.org/>, <http://www.ssb.no/kostra/>, <https://altinn.github.io/docs/ny-funksjonalitet/prosjekter/tjenester30/>, <https://www.altinndigital.no/altinn-studio/>, <https://kartverket.no/en/about-the-norwegian-mapping-authority/>, <https://www.norge.no/en/update-your-contact-information>;
+ <http://dbpedia.org/ontology/populationTotal> "5 379 475 (2020)";
+ <http://dbpedia.org/property/gdpNominal> "318 336 (2020)";
+ <http://dbpedia.org/property/gdpPppPerCapita> "142 (2020)";
+ <http://dbpedia.org/ontology/areaTotal> "384 802 km² *";
+ <http://dbpedia.org/ontology/capital> "Oslo";
+ <http://purl.org/dc/terms/language> "Norwegian";
+ <http://dbpedia.org/ontology/currency> <http://publications.europa.eu/resource/authority/currency/Norwegian%20krone%20(NOK)>;
+ <http://purl.org/dc/terms/source> <https://ec.europa.eu/eurostat/data/database>, "Source: European Interoperability Framework Monitoring Mechanism 2020", <https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2021>;
+ <http://purl.org/dc/terms/title> "Interoperability State of Play", "eGovernment State of Play ", "Digital Public Administration Political Communications", "In July 2020, the government presented a White paper on innovation in the public sector to the Norwegian Parliament (Stortinget). The white paper focuses on how modern methodologies can contribute to developing innovative policies. The paper highlights the importance of culture, leadership and skills. ", "As with most activities in Norwegian public administration, political communications in 2020 and 2021 have mostly centred on the COVID-19 public health crisis. One key political communication was the guide Our New Digital Everyday Life, published in January 2021, which highlights how the pandemic has accelerated the digitalisation of society in large and public administration." .
+<http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsNorway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataSet>;
+ <http://purl.org/dc/terms/title> "Digital Public Administration Indicators";
+ <http://purl.org/linked-data/cube#structure> <http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsNorway>;
+ <http://purl.org/dc/terms/source> "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en" .
+<http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsNorway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition>;
+ <http://purl.org/linked-data/cube#component> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinNorway>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinNorway>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinNorway>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinNorway>;
+ <http://www.w3.org/2000/01/rdf-schema#label> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinNorway>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinNorway>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinNorway>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinNorway> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinNorway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinNorway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinNorway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinNorway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/legalframework/Norway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://www.ub.uio.no/ujur/ulovdata/lov-19670210-000-eng.pdf>, <http://www.lovdata.no/cgi-wift/ldles?doc=/sf/sf/sf-20040625-0988.html>, <https://lovdata.no/forskrift/2013-04-05-959>, <http://www.regjeringen.no/se/dok/lagat-ja-njuolggadusat-/Lover/almmolavuoalahka.html?id=446951&epslanguage=NO-SE>, <http://ec.europa.eu/information_society/policy/psi/actions_eu/policy_actions/index_en.htm>, <https://eng.nkom.no/laws-and-rules/_attachment/9586?_download=true&_ts=140e6e8f4dd>, <https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014R0910&from=EN>, <http://unpan1.un.org/intradoc/groups/public/documents/unpan/unpan033937.pdf>, <https://lovdata.no/dokument/NL/lov/2018-06-15-38>, <https://lovdata.no/dokument/NL/lov/2016-12-09-88>, <https://lovdata.no/dokument/NL/lov/1994-06-03-15>, <https://www.regjeringen.no/en/dokumenter/act-land-registration/id455461/>, <http://www.ub.uio.no/ujur/ulovdata/lov-20030523-035-eng.pdf>, <http://www.wipo.int/wipolex/en/details.jsp?id=10754>, <https://lovdata.no/lov/1992-12-04-126> .
+<http://www.ub.uio.no/ujur/ulovdata/lov-19670210-000-eng.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Public Administration Act" .
+<http://www.lovdata.no/cgi-wift/ldles?doc=/sf/sf/sf-20040625-0988.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation on Electronic Communication with and within Public Administration" .
+<https://lovdata.no/forskrift/2013-04-05-959> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation on IT Standards in Public Administration" .
+<http://www.regjeringen.no/se/dok/lagat-ja-njuolggadusat-/Lover/almmolavuoalahka.html?id=446951&epslanguage=NO-SE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Freedom of Information Act No. 69 of 19 June 1970 ";
+ <http://purl.org/dc/terms/relation> <http://www.ub.uio.no/ujur/ulovdata/lov-20060519-016-eng.pdf> .
+<http://www.ub.uio.no/ujur/ulovdata/lov-20060519-016-eng.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. 16 of 19 May 2006" .
+<http://ec.europa.eu/information_society/policy/psi/actions_eu/policy_actions/index_en.htm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "PSI Directive" .
+<https://eng.nkom.no/laws-and-rules/_attachment/9586?_download=true&_ts=140e6e8f4dd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Electronic Signature Act";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31999L0093:EN:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31999L0093:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 1999/93/EC" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014R0910&from=EN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "EU Regulation 910/2014";
+ <http://purl.org/dc/terms/relation> <https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nordisk-samarbeid/nordic-baltic-eid-nobid/eidas-regulation> .
+<https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nordisk-samarbeid/nordic-baltic-eid-nobid/eidas-regulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Norwegian law" .
+<http://unpan1.un.org/intradoc/groups/public/documents/unpan/unpan033937.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. 31 of 14 April 2000";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 95/46/EC" .
+<https://lovdata.no/dokument/NL/lov/2018-06-15-38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Personal Data Act", "Personal Data Regulations" .
+<https://lovdata.no/dokument/NL/lov/2016-12-09-88> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Population Registry Act" .
+<https://lovdata.no/dokument/NL/lov/1994-06-03-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Legal Entities No. 15 of 3 June 1994 " .
+<https://www.regjeringen.no/en/dokumenter/act-land-registration/id455461/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Land Registration ";
+ <http://purl.org/dc/terms/relation> <https://lovdata.no/dokument/NL/lov/2005-06-17-101> .
+<https://lovdata.no/dokument/NL/lov/2005-06-17-101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Cadastre " .
+<http://www.ub.uio.no/ujur/ulovdata/lov-20030523-035-eng.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "eCommerce Act No. 35 of 23 May 2003";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:En:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:En:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2000/31/EC" .
+<http://www.wipo.int/wipolex/en/details.jsp?id=10754> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Electronic Communications Act No. 83 of 4 July 2003" .
+<https://lovdata.no/lov/1992-12-04-126> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Archival Act No. 126 of 4 December 1992" .
+<http://example.org/nifo/person/NikolaiAstrup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Nikolai Astrup";
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-MinisterofLocalGovernmentandModernisation>, <http://example.org/nifo/post/Post-MinisterofRegionalDevelopmentandDigitalisation>;
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/9503> .
+<http://example.org/nifo/post/Post-MinisterofLocalGovernmentandModernisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofLocalGovernmentandModernisation> .
+<http://example.org/nifo/role/Role-MinisterofLocalGovernmentandModernisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Local Government and Modernisation" .
+<http://example.org/ContactPoint/9503> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+47 22 24 67 00 ";
+ <http://schema.org/email> "postmottak@kmd.dep.no";
+ <http://schema.org/url> "https://www.regjeringen.no/en/dep/kmd/organisation/minister-of-local-government-and-modernisation-nikolai-astrup/id2626348/" .
+<http://example.org/nifo/person/LindaHofstadHelleland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Linda Hofstad Helleland";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/8935>;
+ <http://www.w3.org/ns/org#holds> <http://example.org/nifo/post/Post-Director,NorwegianDigitalisationAgency> .
+<http://example.org/nifo/post/Post-MinisterofRegionalDevelopmentandDigitalisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-MinisterofRegionalDevelopmentandDigitalisation> .
+<http://example.org/nifo/role/Role-MinisterofRegionalDevelopmentandDigitalisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Minister of Regional Development and Digitalisation" .
+<http://example.org/ContactPoint/8935> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+ 47 22 24 90 90";
+ <http://schema.org/email> "postmottak@kmd.dep.no";
+ <http://schema.org/url> "https://www.regjeringen.no/en/dep/kmd/organisation/minister-of-regional-development-and-digitalisation-linda-hofstad-helleland/id2687557/" .
+<http://example.org/nifo/person/SteffenSutorius> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>;
+ <http://xmlns.com/foaf/0.1/name> "Steffen Sutorius ";
+ <http://schema.org/contactPoint> <http://example.org/ContactPoint/462> .
+<http://example.org/nifo/post/Post-Director,NorwegianDigitalisationAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Post>;
+ <http://www.w3.org/ns/org#role> <http://example.org/nifo/role/Role-Director,NorwegianDigitalisationAgency> .
+<http://example.org/nifo/role/Role-Director,NorwegianDigitalisationAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Role>;
+ <http://www.w3.org/2000/01/rdf-schema#label> "Director, Norwegian Digitalisation Agency" .
+<http://example.org/ContactPoint/462> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://schema.org/telephone> "+47 93068459";
+ <http://schema.org/email> "steffen.sutorius@digdir.no";
+ <http://schema.org/url> "http://www.digdir.no/" .
+<https://ovelse.no/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.dsb.no/veiledere-handboker-og-informasjonsmateriell/metodehefte-diskusjonsovelse/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.altinn.no/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.digdir.no/digitalisering-og-samordning/referansekatalogen-it-standardar/1480> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.norge.no/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://helsedata.no/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://doc.difi.no/nasjonal-arkitektur/nab_referanse_arkitekturer/#_aktuelle_referansearkitekturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://eid.difi.no/en/minid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.difi.no/digital-forvaltning/felles-it-losninger-fra-difi/id-porten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://eid.difi.no/en/buypass-id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://eid.difi.no/en/commfides> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://eid.difi.no/en/bankid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.anskaffelser.no/idefault> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.anskaffelser.no/verktoy/vellykket-innforing-av-e-handel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://doffin.no/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://einnsyn.no/sok?sort=> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.arkivverket.no/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.digitalarkivet.no/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.bouvet.no/bouvet-deler/et-ordentlig-datasjoprosjekt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.ebr.org/index.php/member-countries/european-interactive-map/norway/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.sdir.no/en/about-us/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.toop.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://nordicsmartgovernment.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.ssb.no/kostra/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://altinn.github.io/docs/ny-funksjonalitet/prosjekter/tjenester30/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.altinndigital.no/altinn-studio/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://kartverket.no/en/about-the-norwegian-mapping-authority/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.norge.no/en/update-your-contact-information> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
