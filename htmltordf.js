@@ -108,7 +108,12 @@ var createHtmlToRDFa = function() {
                 country = config['prefix']['nifo']+'European%20Union';
                 countryLabel = 'European_Union';
                 countryCode = 'EU';
-            } 
+            } else if (fileName.indexOf('Türkiye') >= 0) {
+                // Turkey
+                country = config['prefix']['nifo']+'Turkey';
+                countryLabel = 'Turkey';
+                countryCode = 'TUR';
+            }
         }    
     
         //Add root node and namespaces to document
