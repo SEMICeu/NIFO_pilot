@@ -1,0 +1,1981 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Turkey",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Turkey"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/TUR"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsTurkey"
+        },
+        {
+          "@id": "http://example.org/nifo/dataset/ThefollowinggraphspresentdataforthelatestDigitalPublicAdministrationIndicatorsforT%C3%BCrkiyecomparedtotheEUaverage.StatisticalindicatorsinthissectionreflectthoseofEurostatatthetimetheEditionisbeingprepared.Turkey"
+        },
+        {
+          "@id": "http://example.org/nifo/legalframework/Turkey"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2022"
+        },
+        {
+          "@id": "https://hgm.uab.gov.tr/uploads/pages/strateji-eylem-planlari/ulusal-siber-guvenlik-stratejisi-ve-eylem-plani-2020-2023.pdf"
+        },
+        {
+          "@id": "https://www.resmigazete.gov.tr/eskiler/2013/11/20131111-6.htm"
+        },
+        {
+          "@id": "http://www.akillisehirler.gov.tr/wp-content/uploads/strategyplan.pdf"
+        },
+        {
+          "@id": "https://www.uab.gov.tr/uploads/pages/bakanlik-yayinlari/ulusal-akilli-ulas-im-sistemleri-strateji-belgesi-ve-2020-2023-eylem-plani-eng.pdf"
+        },
+        {
+          "@id": "https://www.uab.gov.tr/uploads/pages/bakanlik-yayinlari/ulusal-akilli-ulas-im-sistemleri-strateji-belgesi-ve-2020-2023-eylem-plani-eng.pdf"
+        },
+        {
+          "@id": "https://www.turkiye.gov.tr/"
+        },
+        {
+          "@id": "http://www.turkiye.gov.tr/"
+        },
+        {
+          "@id": "https://www.turksat.com.tr/en"
+        },
+        {
+          "@id": "https://www.iso.org/standard/37031.html"
+        },
+        {
+          "@id": "https://www.iso.org/standard/58625.html"
+        },
+        {
+          "@id": "http://www.e-justice.gov.tr/"
+        },
+        {
+          "@id": "http://www.cimer.gov.tr/"
+        },
+        {
+          "@id": "https://enabiz.gov.tr/"
+        },
+        {
+          "@id": "https://sina.saglik.gov.tr/#/login"
+        },
+        {
+          "@id": "https://www.mhrs.gov.tr/"
+        },
+        {
+          "@id": "https://recetem.enabiz.gov.tr/"
+        },
+        {
+          "@id": "https://asos1.saglik.gov.tr/Authentication/Login?ReturnUrl=/"
+        },
+        {
+          "@id": "https://miz.saglik.gov.tr/login"
+        },
+        {
+          "@id": "https://erapor.saglik.gov.tr/portal"
+        },
+        {
+          "@id": "https://healthtourism.saglik.gov.tr/"
+        },
+        {
+          "@id": "https://ebys.saglik.gov.tr/account/auth/redirecttosso/"
+        },
+        {
+          "@id": "http://www.ysk.gov.tr/tr/secsis-genel-bilgi/1528"
+        },
+        {
+          "@id": "http://fatihprojesi.meb.gov.tr/en/index.html"
+        },
+        {
+          "@id": "https://tuketicisikayeti.gtb.gov.tr/home/Dashboard"
+        },
+        {
+          "@id": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6502.pdf"
+        },
+        {
+          "@id": "https://www.mevzuat.gov.tr/File/GeneratePdf?mevzuatNo=19783&mevzuatTur=KurumVeKurulusYonetmeligi&mevzuatTertip=5"
+        },
+        {
+          "@id": "https://www.servis.gov.tr/"
+        },
+        {
+          "@id": "https://www.resmigazete.gov.tr/eskiler/2017/08/20170811-7.htm"
+        },
+        {
+          "@id": "https://www.eticaret.gov.tr/"
+        },
+        {
+          "@id": "https://www.eticaret.gov.tr/"
+        },
+        {
+          "@id": "https://ebeyanname.gib.gov.tr/index.html"
+        },
+        {
+          "@id": "https://e-plan.gov.tr/"
+        },
+        {
+          "@id": "https://eortak.dtm.gov.tr/eortak/login/getPage.htm?page=TAREKSTanim.htm"
+        },
+        {
+          "@id": "https://gbs.sanayi.gov.tr/"
+        },
+        {
+          "@id": "https://www.turkiye.gov.tr/gumruk-ve-ticaret-tek-pencere"
+        },
+        {
+          "@id": "https://ecalismaizni.csgb.gov.tr/eizin"
+        },
+        {
+          "@id": "http://www.sebatlas.gov.tr/"
+        },
+        {
+          "@id": "https://www.kap.org.tr/"
+        },
+        {
+          "@id": "https://egk.mkk.com.tr/egkweb/"
+        },
+        {
+          "@id": "https://katalog.devletarsivleri.gov.tr/"
+        },
+        {
+          "@id": "https://tuketicisikayet.btk.gov.tr/tsys/giris.html"
+        },
+        {
+          "@id": "https://yobis.cbiko.gov.tr/Login?ReturnUrl=/"
+        },
+        {
+          "@id": "https://yoksis.yok.gov.tr/"
+        },
+        {
+          "@id": "https://www.siberkume.org.tr/Index"
+        },
+        {
+          "@id": "https://www.siberkume.org.tr/Index"
+        },
+        {
+          "@id": "https://ddo.link/uvs"
+        },
+        {
+          "@id": "https://randevu.nvi.gov.tr/"
+        },
+        {
+          "@id": "https://e-ikamet.goc.gov.tr/"
+        },
+        {
+          "@id": "https://www.belediye.gov.tr/"
+        },
+        {
+          "@id": "https://www.belediye.gov.tr/"
+        },
+        {
+          "@id": "https://www.belediye.gov.tr/"
+        },
+        {
+          "@id": "https://www.turkiye.gov.tr/icisleri-e-basvuru"
+        },
+        {
+          "@id": "https://hgm.uab.gov.tr/kamu-net"
+        },
+        {
+          "@id": "https://en.hmb.gov.tr/"
+        },
+        {
+          "@id": "https://ivd.gib.gov.tr/tvd_side/main.jsp?token=d1078f5e3dc646b78d5d4e5842f21e97feb48d366bc7617458b6679dec12675154a01fccc42292bb04d926bc259dbc75e39dd8e202535fd70a7098396c74a6f7"
+        },
+        {
+          "@id": "https://sba.saglik.gov.tr/"
+        },
+        {
+          "@id": "https://cbddo.gov.tr/en/opendata/about-the-project/"
+        },
+        {
+          "@id": "https://data.ibb.gov.tr/"
+        },
+        {
+          "@id": "https://kamu.turkiye.gov.tr/"
+        },
+        {
+          "@id": "https://kamu.turkiye.gov.tr/index?page=hizmet-listesi"
+        },
+        {
+          "@id": "https://kpsbasvuru.nvi.gov.tr/"
+        },
+        {
+          "@id": "https://giris.turkiye.gov.tr/Giris/T-C-Kimlik-Karti"
+        },
+        {
+          "@id": "https://www.nvi.gov.tr/ekds"
+        },
+        {
+          "@id": "https://bilgem.tubitak.gov.tr/en"
+        },
+        {
+          "@id": "https://www.resmigazete.gov.tr/eskiler/2020/10/20201022-15.htm"
+        },
+        {
+          "@id": "https://www.icisleri.gov.tr/merkez-nufus-idare-sistemi-mernis"
+        },
+        {
+          "@id": "https://www.nvi.gov.tr/"
+        },
+        {
+          "@id": "https://www.havelsan.com.tr/en"
+        },
+        {
+          "@id": "https://www.ihale.gov.tr/"
+        },
+        {
+          "@id": "https://ekap.kik.gov.tr/"
+        },
+        {
+          "@id": "http://www.resmigazete.gov.tr/eskiler/2018/06/20180619M1-3.htm"
+        },
+        {
+          "@id": "http://www.resmigazete.gov.tr/eskiler/2019/03/20190316-7.htm"
+        },
+        {
+          "@id": "https://ekap.kik.gov.tr/EKAP/Yardim/Default.aspx?l=2"
+        },
+        {
+          "@id": "https://www.dmo.gov.tr/"
+        },
+        {
+          "@id": "https://www.dmo.gov.tr/Esatis"
+        },
+        {
+          "@id": "https://www.turkiye.gov.tr/?CHK=69a5b52317d4b1a3ee549d1bdc35678e"
+        },
+        {
+          "@id": "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Temel+Faaliyetler/Odeme+Hizmetleri/Elektronik+Para+Kuruluslari"
+        },
+        {
+          "@id": "http://www.efatura.gov.tr/"
+        },
+        {
+          "@id": "https://ekobs.saglik.gov.tr/Login"
+        },
+        {
+          "@id": "http://www.mkutup.gov.tr/tr/Sayfalar/default.aspx"
+        },
+        {
+          "@id": "https://www.turkiye.gov.tr/milli-kutuphane-gorme-engelliler-icin-sesli-kitaplarin-postayla-gonderim-talebi"
+        },
+        {
+          "@id": "https://www.yok.gov.tr/"
+        },
+        {
+          "@id": "https://tez.yok.gov.tr/UlusalTezMerkezi/"
+        },
+        {
+          "@id": "http://www.eba.gov.tr/"
+        },
+        {
+          "@id": "https://hsys.saglik.gov.tr/Account/Login?ReturnUrl=http://hsys.saglik.gov.tr:8080/"
+        },
+        {
+          "@id": "https://aydes.gov.tr/login"
+        },
+        {
+          "@id": "https://www.preventionweb.net/publication/turkey-national-disaster-response-plan"
+        },
+        {
+          "@id": "https://en.afad.gov.tr/"
+        },
+        {
+          "@id": "https://www.kaysis.gov.tr/"
+        },
+        {
+          "@id": "https://mersis.gtb.gov.tr/"
+        },
+        {
+          "@id": "https://www.icisleri.gov.tr/merkez-nufus-idare-sistemi-mernis"
+        },
+        {
+          "@id": "https://adres.nvi.gov.tr/Home"
+        },
+        {
+          "@id": "https://www.nvi.gov.tr/maks"
+        },
+        {
+          "@id": "https://www.tkgm.gov.tr/en/land-registry-and-cadastre-information-system-takbis"
+        },
+        {
+          "@id": "https://portal.tnb.org.tr/Artes/Sayfalar/AnaSayfa.aspx"
+        },
+        {
+          "@id": "https://cbs.csb.gov.tr/en"
+        },
+        {
+          "@id": "https://www.atlas.gov.tr/"
+        },
+        {
+          "@id": "https://b3lab.org/en/sayfalar/safir_zeka-11/"
+        },
+        {
+          "@id": "https://www.kolayihracat.gov.tr/"
+        },
+        {
+          "@id": "https://yimer.gov.tr/EN/Index"
+        },
+        {
+          "@id": "https://vatandas.uyap.gov.tr/main/vatandas/index.jsp?v=3780"
+        },
+        {
+          "@id": "https://www.justice.gov.tr/"
+        },
+        {
+          "@id": "https://b3lab.org/en/sayfa/mues_museum_national_inventory_system_project-32"
+        },
+        {
+          "@id": "https://www.ktb.gov.tr/?_Dil=2"
+        },
+        {
+          "@id": "https://bilgem.tubitak.gov.tr/en"
+        },
+        {
+          "@id": "https://cbddo.gov.tr/en/projects/turkish-brain-project/"
+        },
+        {
+          "@id": "https://cbddo.gov.tr/en/projects/digital-eye-project/"
+        },
+        {
+          "@id": "https://blockchain.bilgem.tubitak.gov.tr/"
+        },
+        {
+          "@id": "https://blockchain.bilgem.tubitak.gov.tr/"
+        },
+        {
+          "@id": "https://www.trade.gov.tr/"
+        },
+        {
+          "@id": "https://en.hmb.gov.tr/"
+        },
+        {
+          "@id": "https://www.ebrd.com/home"
+        },
+        {
+          "@id": "https://www.atez.com.tr/ebrd-tarafindan-desteklenen-blockchain-ile-ihracat-projesi-basladi/"
+        },
+        {
+          "@id": "https://www.takasbank.com.tr/tr"
+        },
+        {
+          "@id": "https://borsaistanbul.com/en"
+        },
+        {
+          "@id": "https://www.cmb.gov.tr/"
+        },
+        {
+          "@id": "https://biga.takasbank.com.tr/en/"
+        },
+        {
+          "@id": "https://biga.takasbank.com.tr/biga_whitepaper_en.pdf"
+        },
+        {
+          "@id": "https://play.google.com/store/apps/details?id=com.sceptive.sdbn_accgw_fl_mobile&hl=en_US&gl=US"
+        },
+        {
+          "@id": "https://www.ibb.istanbul/"
+        },
+        {
+          "@id": "https://www.b3lab.org/en/"
+        },
+        {
+          "@id": "https://bilgem.tubitak.gov.tr/en"
+        },
+        {
+          "@id": "https://bte.bilgem.tubitak.gov.tr/en"
+        },
+        {
+          "@id": "https://b3lab.org/en/sayfalar/safir_buyuk_veri-5/"
+        },
+        {
+          "@id": "https://b3lab.org/en/sayfalar/safir_buyuk_veri_ve_ileri_analitik_uygulamalari-7/"
+        },
+        {
+          "@id": "https://dijitalhastane.saglik.gov.tr/TR,4881/hbys-hastane-bilgi-yonetim-sistemi.html"
+        },
+        {
+          "@id": "https://sbsgm.saglik.gov.tr/TR-12270/aile-hekimligi-bilgi-sistemi-minimum-veri-modeli-ahbs-vem.html"
+        },
+        {
+          "@id": "https://tb.saglik.gov.tr/Account/Login"
+        },
+        {
+          "@id": "https://enabiz.gov.tr/"
+        },
+        {
+          "@id": "https://turboardtest.saglik.gov.tr/#/login"
+        },
+        {
+          "@id": "https://mebbis.meb.gov.tr/"
+        },
+        {
+          "@id": "https://e-okul.meb.gov.tr/"
+        },
+        {
+          "@id": "https://e-yaygin.meb.gov.tr/"
+        },
+        {
+          "@id": "http://www.eba.gov.tr/"
+        },
+        {
+          "@id": "http://www.meb.gov.tr/duyurular/duyurular2012/basinmus/mebim.php"
+        },
+        {
+          "@id": "https://www.sgk.gov.tr/"
+        },
+        {
+          "@id": "https://medula.sgk.gov.tr/hastane/login.jsf"
+        },
+        {
+          "@id": "https://www.sayistay.gov.tr/pages/122-denetimde-veri-analizi"
+        },
+        {
+          "@id": "https://www.sayistay.gov.tr/?lang=en"
+        },
+        {
+          "@id": "https://b3lab.org/en/sayfalar/safir_bulut-13/"
+        },
+        {
+          "@id": "https://www.weforum.org/projects/sme-futures"
+        },
+        {
+          "@id": "https://www.weforum.org/centre-for-the-fourth-industrial-revolution/c4ir-turkey"
+        },
+        {
+          "@id": "https://tusside.tubitak.gov.tr/en"
+        },
+        {
+          "@id": "https://www.mess.org.tr/en/homepage/"
+        },
+        {
+          "@id": "https://www.uhem.itu.edu.tr/"
+        },
+        {
+          "@id": "https://www.itu.edu.tr/en/homepage"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/news/turkey-joins-eurohpc-joint-undertaking"
+        },
+        {
+          "@id": "https://www.tubitak.gov.tr/en"
+        },
+        {
+          "@id": "https://eurocc.truba.gov.tr/?page_id=2640&lang=en"
+        },
+        {
+          "@id": "https://csb.gov.tr/en"
+        },
+        {
+          "@id": "https://csb.gov.tr/hava-kirliliginin-kaynagi-3-boyutlu-yazilim-ile-tespit-edilecek-bakanlik-faaliyetleri-30898"
+        },
+        {
+          "@id": "https://5gtrforum.org.tr/en/5g-valley-open-test-site"
+        },
+        {
+          "@id": "https://www.btk.gov.tr/"
+        },
+        {
+          "@id": "https://www.metu.edu.tr/"
+        },
+        {
+          "@id": "https://w3.bilkent.edu.tr/bilkent/"
+        },
+        {
+          "@id": "https://www.hacettepe.edu.tr/english"
+        },
+        {
+          "@id": "https://www.turktelekom.com.tr/sayfalar/ana-sayfa.aspx"
+        },
+        {
+          "@id": "https://www.turkcell.com.tr/"
+        },
+        {
+          "@id": "https://www.vodafone.com.tr/"
+        },
+        {
+          "@id": "https://5gtrforum.org.tr/haberler/5g-ve-otesi-ortak-lisansustu-destekleme-programi-2021-2022-bahar-donemi-basvuru-duyurusu"
+        },
+        {
+          "@id": "https://www.b3lab.org/sayfa/5g_mobix_projesi-15"
+        }
+      ],
+      "http://purl.org/dc/terms/title": [
+        " Interoperability State of Play",
+        "eGovernment State of Play",
+        "Digital Public Administration Political Communications ",
+        "The legislation regarding Circular on the Use of Open Source Code in Public, which is under preparation, aims to expand the use of the open source software model, which allows its users to examine, audit, develop and republish, in the public sector and to increase information sharing and cooperation. In this direction, a guideline study is also being carried out, which includes instructions for public institutions to replace their commercially licensed software with their open source counterparts. The work started in 2021 and is planned to be completed in 2022.",
+        "In order to meet the information technology infrastructure (IT) needs of public institutions more effectively and to increase the quality of public services, the Public Cloud Computing Strategy and Action Plan is planned to be ready by the end of 2022. The strategy and action plan prepared for public institutions to make the most of all the advantages of cloud technologies includes the following outputs: ",
+        "Country ReviewsCurrent Situation Analysis and RecommendationsPublic Cloud Computing Strategy and Action StepsAccreditation Criteria and Migration Guide"
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2022"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsTurkey",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataSet"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Public Administration Indicators"
+      ],
+      "http://purl.org/linked-data/cube#structure": [
+        {
+          "@id": "http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsTurkey"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en,http://appsso.eurostat.ec.europa.eu/nui/submitViewTableAction.do"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Turkey",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.4982.pdf"
+        },
+        {
+          "@id": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.4982.pdf"
+        },
+        {
+          "@id": "https://www.resmigazete.gov.tr/eskiler/2020/10/20201022-15.htm"
+        },
+        {
+          "@id": "http://www.mevzuat.gov.tr/Metin.Aspx?MevzuatKod=7.5.7224&MevzuatIliski=0&sourceXmlSearch=elektronik%2520imza"
+        },
+        {
+          "@id": "https://www.resmigazete.gov.tr/eskiler/2016/01/20160127-1.pdf"
+        },
+        {
+          "@id": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5070.pdf"
+        },
+        {
+          "@id": "mailto:https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5070.pdf"
+        },
+        {
+          "@id": "https://www.resmigazete.gov.tr/eskiler/2018/12/20181206-2.htm"
+        },
+        {
+          "@id": "https://www.resmigazete.gov.tr/eskiler/2016/04/20160407-8.pdf"
+        },
+        {
+          "@id": "https://bilgiguvenligi.saglik.gov.tr/Home/Mevzuat"
+        },
+        {
+          "@id": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5809.pdf"
+        },
+        {
+          "@id": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5809.pdf"
+        },
+        {
+          "@id": "https://www.tkgm.gov.tr/en/page/law-establishement"
+        },
+        {
+          "@id": "https://www.resmigazete.gov.tr/eskiler/2018/06/20180626-5.htm"
+        },
+        {
+          "@id": "http://www.mevzuat.gov.tr/MevzuatMetin/3.5.200611249.pdf"
+        },
+        {
+          "@id": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.4734.pdf"
+        },
+        {
+          "@id": "https://www.resmigazete.gov.tr/eskiler/2018/05/20180531-6.htm"
+        },
+        {
+          "@id": "https://www.resmigazete.gov.tr/eskiler/2018/03/20180310-7.pdf"
+        },
+        {
+          "@id": "https://www.resmigazete.gov.tr/eskiler/2019/02/20190215-3.htm"
+        },
+        {
+          "@id": "https://www.resmigazete.gov.tr/eskiler/2018/09/20180919-2.htm"
+        },
+        {
+          "@id": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6563.pdf"
+        },
+        {
+          "@id": "https://www.resmigazete.gov.tr/eskiler/2019/12/20191207-1.htm"
+        },
+        {
+          "@id": "https://kisiselveri.saglik.gov.tr/"
+        },
+        {
+          "@id": "https://rm.coe.int/possible-elements-of-a-legal-framework-on-artificial-intelligence/1680a5ae6b"
+        },
+        {
+          "@id": "https://rm.coe.int/cdpc-2021-2-terms-of-reference-cdpc-aicl/1680a18ffe"
+        },
+        {
+          "@id": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.1211.pdf"
+        },
+        {
+          "@id": "https://www.resmigazete.gov.tr/eskiler/2021/02/20210226-2.htm"
+        },
+        {
+          "@id": "https://ms.hmb.gov.tr/uploads/2020/11/SIB-REHBERI-DIGER-YUKUMLULER.pdf"
+        },
+        {
+          "@id": "https://www.kvkk.gov.tr/Icerik/6649/Personal-Data-Protection-Law"
+        },
+        {
+          "@id": "https://www.resmigazete.gov.tr/eskiler/2021/02/20210220-16.htm"
+        },
+        {
+          "@id": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6550.pdf"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsTurkey",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
+      "http://purl.org/linked-data/cube#component": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinT%C3%BCrkiye"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinT%C3%BCrkiye"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinT%C3%BCrkiye"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsubmittingcompletedformstopublicauthoritiesinT%C3%BCrkiye"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinT%C3%BCrkiye"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinT%C3%BCrkiye"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinT%C3%BCrkiye"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsubmittingcompletedformstopublicauthoritiesinT%C3%BCrkiye"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinT%C3%BCrkiye",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinT%C3%BCrkiye",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinT%C3%BCrkiye",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsubmittingcompletedformstopublicauthoritiesinT%C3%BCrkiye",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://www.mevzuat.gov.tr/Metin.Aspx?MevzuatKod=7.5.7224&MevzuatIliski=0&sourceXmlSearch=elektronik%20imza",
+      "http://data.europa.eu/eli/ontology#title": [
+        "By-Law on the Procedures and Principles Pertaining to the Implementation of the Electronic Signature Law"
+      ]
+    },
+    {
+      "@id": "https://www.resmigazete.gov.tr/eskiler/2021/02/20210226-2.htm",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation Amending"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5549.pdf"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.turkiye.gov.tr/?CHK=69a5b52317d4b1a3ee549d1bdc35678e",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Temel+Faaliyetler/Odeme+Hizmetleri/Elektronik+Para+Kuruluslari",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.turkiye.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://hgm.uab.gov.tr/uploads/pages/strateji-eylem-planlari/ulusal-siber-guvenlik-stratejisi-ve-eylem-plani-2020-2023.pdf",
+      "@type": [
+        "http://schema.org/ContactPoint",
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "National Cybersecurity Strategy and Action Plan",
+        "National Cyber Security Strategy and Action Plan"
+      ]
+    },
+    {
+      "@id": "https://www.resmigazete.gov.tr/eskiler/2013/11/20131111-6.htm",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "The Communiqué on the Procedures and Principles Regarding the Establishment, Duties, and Activities of Cyber Security Incident Response Teams"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://hgm.uab.gov.tr/uploads/pages/strateji-eylem-planlari/ulusal-siber-guvenlik-stratejisi-ve-eylem-plani-2020-2023.pdf"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.kaysis.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.akillisehirler.gov.tr/wp-content/uploads/strategyplan.pdf",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "2020-2023 National Smart Cities Strategy and Action Plan"
+      ]
+    },
+    {
+      "@id": "https://www.uab.gov.tr/uploads/pages/bakanlik-yayinlari/ulusal-akilli-ulas-im-sistemleri-strateji-belgesi-ve-2020-2023-eylem-plani-eng.pdf",
+      "@type": [
+        "http://schema.org/ContactPoint",
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "2020-2023 National Intelligent Transportation Systems Strategy Document and Action Plan",
+        "2020-2023 National Intelligent Transportation Systems (ITS) Strategy and Action Plan"
+      ]
+    },
+    {
+      "@id": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.4982.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Right to Information Act",
+        "Right to Information Act"
+      ]
+    },
+    {
+      "@id": "https://www.resmigazete.gov.tr/eskiler/2020/10/20201022-15.htm",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        " Electronic Identity Card Authentication System Regulation"
+      ]
+    },
+    {
+      "@id": "https://www.nvi.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.mevzuat.gov.tr/Metin.Aspx?MevzuatKod=7.5.7224&MevzuatIliski=0&sourceXmlSearch=elektronik%2520imza",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "https://www.resmigazete.gov.tr/eskiler/2016/01/20160127-1.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Articles 8 and 12 of Law No. 6661"
+      ]
+    },
+    {
+      "@id": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5070.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Electronic Signatures"
+      ]
+    },
+    {
+      "@id": "mailto:https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5070.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No.5070 on Electronic Signatures"
+      ]
+    },
+    {
+      "@id": "https://www.resmigazete.gov.tr/eskiler/2018/12/20181206-2.htm",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation Regarding Electronic Notification"
+      ]
+    },
+    {
+      "@id": "https://www.resmigazete.gov.tr/eskiler/2016/04/20160407-8.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Personal Data Protection Law"
+      ]
+    },
+    {
+      "@id": "https://bilgiguvenligi.saglik.gov.tr/Home/Mevzuat",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive on Health Information Security Policies"
+      ]
+    },
+    {
+      "@id": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5809.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "By-Law on Network and Information Security in the Electronic Communications Sector",
+        "Electronic Communications Law No. 5809"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.resmigazete.gov.tr/eskiler/2020/12/20201204-13.htm"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.resmigazete.gov.tr/eskiler/2020/12/20201204-13.htm",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "By-Law on the Processing of Personal Data and Protection of Privacy in the Electronic Communications Sector"
+      ]
+    },
+    {
+      "@id": "https://www.tkgm.gov.tr/en/page/law-establishement",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation regarding the Data Sharing of the Land Registry and Cadastre"
+      ]
+    },
+    {
+      "@id": "https://www.resmigazete.gov.tr/eskiler/2018/06/20180626-5.htm",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation regarding the Principles of Implementation of the Integrated Public Financial Management Information System"
+      ]
+    },
+    {
+      "@id": "http://www.mevzuat.gov.tr/MevzuatMetin/3.5.200611249.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "By-Law on the Identity Registry System Sharing"
+      ]
+    },
+    {
+      "@id": "http://www.resmigazete.gov.tr/eskiler/2018/06/20180619M1-3.htm",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.resmigazete.gov.tr/eskiler/2019/03/20190316-7.htm",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.4734.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 4734"
+      ]
+    },
+    {
+      "@id": "https://www.resmigazete.gov.tr/eskiler/2018/05/20180531-6.htm",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Authorisation for the Implementation of Investment Incentive Certificate Transactions in the Electronic Environment"
+      ]
+    },
+    {
+      "@id": "https://www.resmigazete.gov.tr/eskiler/2018/03/20180310-7.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law regarding the Improvement of the Investment Environment"
+      ]
+    },
+    {
+      "@id": "https://www.resmigazete.gov.tr/eskiler/2019/02/20190215-3.htm",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation regarding Service Providers and Intermediary Service Providers in Electronic Commerce"
+      ]
+    },
+    {
+      "@id": "https://www.resmigazete.gov.tr/eskiler/2018/09/20180919-2.htm",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation regarding the Activities, Studies and Auditing Principles of the Data Storage Organisations"
+      ]
+    },
+    {
+      "@id": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6563.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 6563 on eCommerce"
+      ]
+    },
+    {
+      "@id": "https://www.resmigazete.gov.tr/eskiler/2019/12/20191207-1.htm",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 7194"
+      ]
+    },
+    {
+      "@id": "https://kisiselveri.saglik.gov.tr/",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation on Personal Health Data"
+      ]
+    },
+    {
+      "@id": "https://rm.coe.int/possible-elements-of-a-legal-framework-on-artificial-intelligence/1680a5ae6b",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Possible elements of a legal framework on artificial intelligence, based on the Council of Europe’s standards on human rights, democracy and the rule of law"
+      ]
+    },
+    {
+      "@id": "https://rm.coe.int/cdpc-2021-2-terms-of-reference-cdpc-aicl/1680a18ffe",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Drafting Committee on Artificial Intelligence and Criminal Law (CDPC-AICL)"
+      ]
+    },
+    {
+      "@id": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.1211.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 1211"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6493.pdf"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6493.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 6493"
+      ]
+    },
+    {
+      "@id": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5549.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 5549"
+      ]
+    },
+    {
+      "@id": "https://ms.hmb.gov.tr/uploads/2020/11/SIB-REHBERI-DIGER-YUKUMLULER.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "suspicious transaction reporting guide"
+      ]
+    },
+    {
+      "@id": "https://www.kvkk.gov.tr/Icerik/6649/Personal-Data-Protection-Law",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 6698 on the Protection of Personal Data"
+      ]
+    },
+    {
+      "@id": "https://www.resmigazete.gov.tr/eskiler/2021/02/20210220-16.htm",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "regulation"
+      ]
+    },
+    {
+      "@id": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6550.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 6550 on Supporting Research Infrastructures"
+      ]
+    },
+    {
+      "@id": "http://www.turkiye.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.turksat.com.tr/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.iso.org/standard/37031.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.iso.org/standard/58625.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.e-justice.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.cimer.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://enabiz.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://sina.saglik.gov.tr/#/login",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mhrs.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://recetem.enabiz.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://asos1.saglik.gov.tr/Authentication/Login?ReturnUrl=/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://miz.saglik.gov.tr/login",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://erapor.saglik.gov.tr/portal",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://healthtourism.saglik.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ebys.saglik.gov.tr/account/auth/redirecttosso/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.ysk.gov.tr/tr/secsis-genel-bilgi/1528",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://fatihprojesi.meb.gov.tr/en/index.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://tuketicisikayeti.gtb.gov.tr/home/Dashboard",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6502.pdf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mevzuat.gov.tr/File/GeneratePdf?mevzuatNo=19783&mevzuatTur=KurumVeKurulusYonetmeligi&mevzuatTertip=5",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.servis.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.resmigazete.gov.tr/eskiler/2017/08/20170811-7.htm",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.eticaret.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ebeyanname.gib.gov.tr/index.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://e-plan.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eortak.dtm.gov.tr/eortak/login/getPage.htm?page=TAREKSTanim.htm",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://gbs.sanayi.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.turkiye.gov.tr/gumruk-ve-ticaret-tek-pencere",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ecalismaizni.csgb.gov.tr/eizin",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.sebatlas.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.kap.org.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://egk.mkk.com.tr/egkweb/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://katalog.devletarsivleri.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://tuketicisikayet.btk.gov.tr/tsys/giris.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://yobis.cbiko.gov.tr/Login?ReturnUrl=/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://yoksis.yok.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.siberkume.org.tr/Index",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ddo.link/uvs",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://randevu.nvi.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://e-ikamet.goc.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.belediye.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.turkiye.gov.tr/icisleri-e-basvuru",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://hgm.uab.gov.tr/kamu-net",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://en.hmb.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ivd.gib.gov.tr/tvd_side/main.jsp?token=d1078f5e3dc646b78d5d4e5842f21e97feb48d366bc7617458b6679dec12675154a01fccc42292bb04d926bc259dbc75e39dd8e202535fd70a7098396c74a6f7",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://sba.saglik.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://cbddo.gov.tr/en/opendata/about-the-project/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://data.ibb.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://kamu.turkiye.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://kamu.turkiye.gov.tr/index?page=hizmet-listesi",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://kpsbasvuru.nvi.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://giris.turkiye.gov.tr/Giris/T-C-Kimlik-Karti",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.nvi.gov.tr/ekds",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://bilgem.tubitak.gov.tr/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.icisleri.gov.tr/merkez-nufus-idare-sistemi-mernis",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.havelsan.com.tr/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ihale.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ekap.kik.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ekap.kik.gov.tr/EKAP/Yardim/Default.aspx?l=2",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.dmo.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.dmo.gov.tr/Esatis",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.efatura.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ekobs.saglik.gov.tr/Login",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.mkutup.gov.tr/tr/Sayfalar/default.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.turkiye.gov.tr/milli-kutuphane-gorme-engelliler-icin-sesli-kitaplarin-postayla-gonderim-talebi",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.yok.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://tez.yok.gov.tr/UlusalTezMerkezi/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.eba.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://hsys.saglik.gov.tr/Account/Login?ReturnUrl=http://hsys.saglik.gov.tr:8080/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://aydes.gov.tr/login",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.preventionweb.net/publication/turkey-national-disaster-response-plan",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://en.afad.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://mersis.gtb.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://adres.nvi.gov.tr/Home",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.nvi.gov.tr/maks",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.tkgm.gov.tr/en/land-registry-and-cadastre-information-system-takbis",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://portal.tnb.org.tr/Artes/Sayfalar/AnaSayfa.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://cbs.csb.gov.tr/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.atlas.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://b3lab.org/en/sayfalar/safir_zeka-11/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.kolayihracat.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://yimer.gov.tr/EN/Index",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://vatandas.uyap.gov.tr/main/vatandas/index.jsp?v=3780",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.justice.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://b3lab.org/en/sayfa/mues_museum_national_inventory_system_project-32",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ktb.gov.tr/?_Dil=2",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://cbddo.gov.tr/en/projects/turkish-brain-project/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://cbddo.gov.tr/en/projects/digital-eye-project/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://blockchain.bilgem.tubitak.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.trade.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ebrd.com/home",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.atez.com.tr/ebrd-tarafindan-desteklenen-blockchain-ile-ihracat-projesi-basladi/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.takasbank.com.tr/tr",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://borsaistanbul.com/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.cmb.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://biga.takasbank.com.tr/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://biga.takasbank.com.tr/biga_whitepaper_en.pdf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://play.google.com/store/apps/details?id=com.sceptive.sdbn_accgw_fl_mobile&hl=en_US&gl=US",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ibb.istanbul/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.b3lab.org/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://bte.bilgem.tubitak.gov.tr/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://b3lab.org/en/sayfalar/safir_buyuk_veri-5/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://b3lab.org/en/sayfalar/safir_buyuk_veri_ve_ileri_analitik_uygulamalari-7/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dijitalhastane.saglik.gov.tr/TR,4881/hbys-hastane-bilgi-yonetim-sistemi.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://sbsgm.saglik.gov.tr/TR-12270/aile-hekimligi-bilgi-sistemi-minimum-veri-modeli-ahbs-vem.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://tb.saglik.gov.tr/Account/Login",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://turboardtest.saglik.gov.tr/#/login",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://mebbis.meb.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://e-okul.meb.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://e-yaygin.meb.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.meb.gov.tr/duyurular/duyurular2012/basinmus/mebim.php",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.sgk.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://medula.sgk.gov.tr/hastane/login.jsf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.sayistay.gov.tr/pages/122-denetimde-veri-analizi",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.sayistay.gov.tr/?lang=en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://b3lab.org/en/sayfalar/safir_bulut-13/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.weforum.org/projects/sme-futures",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.weforum.org/centre-for-the-fourth-industrial-revolution/c4ir-turkey",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://tusside.tubitak.gov.tr/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mess.org.tr/en/homepage/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.uhem.itu.edu.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.itu.edu.tr/en/homepage",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://digital-strategy.ec.europa.eu/en/news/turkey-joins-eurohpc-joint-undertaking",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.tubitak.gov.tr/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eurocc.truba.gov.tr/?page_id=2640&lang=en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://csb.gov.tr/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://csb.gov.tr/hava-kirliliginin-kaynagi-3-boyutlu-yazilim-ile-tespit-edilecek-bakanlik-faaliyetleri-30898",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://5gtrforum.org.tr/en/5g-valley-open-test-site",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.btk.gov.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.metu.edu.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://w3.bilkent.edu.tr/bilkent/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.hacettepe.edu.tr/english",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.turktelekom.com.tr/sayfalar/ana-sayfa.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.turkcell.com.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.vodafone.com.tr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://5gtrforum.org.tr/haberler/5g-ve-otesi-ortak-lisansustu-destekleme-programi-2021-2022-bahar-donemi-basvuru-duyurusu",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.b3lab.org/sayfa/5g_mobix_projesi-15",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

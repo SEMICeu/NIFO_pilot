@@ -1,0 +1,551 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Luxembourg",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Luxembourg"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/LUX"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsLuxembourg"
+        },
+        {
+          "@id": "http://example.org/nifo/legalframework/Luxembourg"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2022"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/news/berlin-declaration-digital-society-and-value-based-digital-government"
+        },
+        {
+          "@id": "https://www.luxtrust.com/trust-services/"
+        },
+        {
+          "@id": "https://guichet.public.lu/fr/actualites/2021/juillet/05-app-myguichet.html"
+        },
+        {
+          "@id": "http://www.sante.public.lu/fr/index.php"
+        },
+        {
+          "@id": "http://www.justice.public.lu/fr/index.html"
+        },
+        {
+          "@id": "http://chd.lu/wps/portal/public/Accueil/Actualite"
+        },
+        {
+          "@id": "http://g-o.lu/ios"
+        },
+        {
+          "@id": "http://www.vosidees.lu/"
+        },
+        {
+          "@id": "https://www.zesumme-vereinfachen.lu/en-GB/"
+        },
+        {
+          "@id": "http://www.justice.public.lu/fr/index.html"
+        },
+        {
+          "@id": "https://www.c-3.lu/"
+        },
+        {
+          "@id": "https://ctie.gouvernement.lu/en/e-administration/gouvcheck.html"
+        },
+        {
+          "@id": "http://www.marches.public.lu/"
+        },
+        {
+          "@id": "https://peppol.eu/"
+        },
+        {
+          "@id": "https://www.digicash.lu/en/"
+        },
+        {
+          "@id": "https://guichet.public.lu/en/citoyens/citoyennete/papiers-identite/carte-identite/nouv-carte-identite-adulte.html"
+        },
+        {
+          "@id": "https://guichet.public.lu/en/citoyens/citoyennete/papiers-identite/titre-voyage/passeport-biometrique.html"
+        },
+        {
+          "@id": "https://guichet.public.lu/en/myguichet.html"
+        }
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Interoperability State of Play ",
+        "eGovernment State of Play ",
+        "Digital Public Administration Political Communications ",
+        "Make connectivity accessible to all; Accelerate the transition of households and businesses to more efficient and   sustainable technologies;Accelerate the deployment of future-proof infrastructure, while respecting   technological neutrality; Improve transparency and strengthen consumer protection; andDevelop Luxembourg as the launchpad of choice for ICT service providers of today and tomorrow. ",
+        "In the framework of the national 5G strategy, in October 2021, the Department of Media, Connectivity and Digital Policy launched a call for project."
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        "Source: eGovernment Benchmark Report 2022 Country Factsheets"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsLuxembourg",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataSet"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Public Administration Indicators"
+      ],
+      "http://purl.org/linked-data/cube#structure": [
+        {
+          "@id": "http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsLuxembourg"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Luxembourg",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo"
+        },
+        {
+          "@id": "http://legilux.public.lu/eli/etat/leg/loi/2015/07/25/n1/jo"
+        },
+        {
+          "@id": "http://legilux.public.lu/eli/etat/leg/loi/2018/09/14/a883/jo"
+        },
+        {
+          "@id": "https://legilux.public.lu/eli/etat/leg/loi/2020/07/17/a644/jo"
+        },
+        {
+          "@id": "http://legilux.public.lu/eli/etat/leg/loi/2000/08/14/n8/jo"
+        },
+        {
+          "@id": "https://gdpr.eu/"
+        },
+        {
+          "@id": "http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo"
+        },
+        {
+          "@id": "http://legilux.public.lu/eli/etat/leg/loi/2005/05/30/n4/jo"
+        },
+        {
+          "@id": "http://legilux.public.lu/eli/etat/leg/loi/2013/06/19/n3/jo"
+        },
+        {
+          "@id": "http://eli.legilux.public.lu/eli/etat/leg/loi/2002/12/19/n1"
+        },
+        {
+          "@id": "http://legilux.public.lu/eli/etat/leg/loi/2002/07/25/n8/jo"
+        },
+        {
+          "@id": "http://legilux.public.lu/eli/etat/leg/loi/2003/11/11/n1/jo"
+        },
+        {
+          "@id": "http://legilux.public.lu/eli/etat/leg/loi/2002/07/25/n8/jo"
+        },
+        {
+          "@id": "http://legilux.public.lu/eli/etat/leg/rgd/1993/09/02/n1/jo"
+        },
+        {
+          "@id": "http://legilux.public.lu/eli/etat/leg/loi/2019/12/20/a877/jo"
+        },
+        {
+          "@id": "http://legilux.public.lu/eli/etat/leg/loi/2018/04/08/a243/jo"
+        },
+        {
+          "@id": "http://legilux.public.lu/eli/etat/leg/loi/2019/05/16/a345/jo"
+        },
+        {
+          "@id": "https://legilux.public.lu/eli/etat/leg/loi/2021/12/13/a869/jo"
+        },
+        {
+          "@id": "http://legilux.public.lu/eli/etat/leg/loi/2019/03/01/a111/jo"
+        },
+        {
+          "@id": "https://legilux.public.lu/eli/etat/leg/loi/2021/01/22/a43/jo"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsLuxembourg",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ]
+    },
+    {
+      "@id": "https://digital-strategy.ec.europa.eu/en/news/berlin-declaration-digital-society-and-value-based-digital-government",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "eGovernment Action Plan 2016—2020"
+      ]
+    },
+    {
+      "@id": "http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on the Accessibility of the Websites and Mobile Applications of Public Sector Bodies"
+      ]
+    },
+    {
+      "@id": "http://legilux.public.lu/eli/etat/leg/loi/2015/07/25/n1/jo",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Electronic Archiving "
+      ]
+    },
+    {
+      "@id": "http://legilux.public.lu/eli/etat/leg/loi/2018/09/14/a883/jo",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law relating to a Transparent and Open Administration"
+      ]
+    },
+    {
+      "@id": "https://legilux.public.lu/eli/etat/leg/loi/2020/07/17/a644/jo",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "law of 17 July 2020"
+      ]
+    },
+    {
+      "@id": "http://legilux.public.lu/eli/etat/leg/loi/2000/08/14/n8/jo",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "amended eCommerce Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.legilux.public.lu/leg/a/archives/2001/0712206/0712206.pdf#page=17"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.legilux.public.lu/leg/a/archives/2001/0712206/0712206.pdf#page=17",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation on Electronic Signatures and Electronic Payments"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31999L0093:en:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31999L0093:en:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "EU Directive on Electronic Signatures"
+      ]
+    },
+    {
+      "@id": "https://gdpr.eu/",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "EU General Data Protection Regulation (GDPR)"
+      ]
+    },
+    {
+      "@id": "http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on the Organisation of the National Commission for Data Protection and the General Data Protection Scheme"
+      ]
+    },
+    {
+      "@id": "http://legilux.public.lu/eli/etat/leg/loi/2005/05/30/n4/jo",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "amended Act on Data Protection and Electronic Communications"
+      ]
+    },
+    {
+      "@id": "http://legilux.public.lu/eli/etat/leg/loi/2013/06/19/n3/jo",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on the Identification of Natural Persons"
+      ]
+    },
+    {
+      "@id": "http://eli.legilux.public.lu/eli/etat/leg/loi/2002/12/19/n1",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on the Trade and Companies Registry and Companies’ Accounting"
+      ]
+    },
+    {
+      "@id": "http://legilux.public.lu/eli/etat/leg/loi/2002/07/25/n8/jo",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on the Reorganisation of the Cadastre and Topography Administration",
+        "Law on the Reorganisation of the Cadastre and Topography Administration"
+      ]
+    },
+    {
+      "@id": "http://legilux.public.lu/eli/etat/leg/loi/2003/11/11/n1/jo",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Land Registration "
+      ]
+    },
+    {
+      "@id": "http://legilux.public.lu/eli/etat/leg/rgd/1993/09/02/n1/jo",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "amended Grand-Ducal Regulation"
+      ]
+    },
+    {
+      "@id": "http://legilux.public.lu/eli/etat/leg/loi/2019/12/20/a877/jo",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "law "
+      ]
+    },
+    {
+      "@id": "http://legilux.public.lu/eli/etat/leg/loi/2018/04/08/a243/jo",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "amended Act on Public Procurement"
+      ]
+    },
+    {
+      "@id": "http://legilux.public.lu/eli/etat/leg/loi/2019/05/16/a345/jo",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Electronic Invoicing in Public Procurement and Concession Contracts"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2014/55/EU of the European Parliament and of the Council of 16 April 2014 on electronic invoicing in public procurement"
+      ]
+    },
+    {
+      "@id": "https://legilux.public.lu/eli/etat/leg/loi/2021/12/13/a869/jo",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "law "
+      ]
+    },
+    {
+      "@id": "http://legilux.public.lu/eli/etat/leg/loi/2019/03/01/a111/jo",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on the Circulation of Securities"
+      ]
+    },
+    {
+      "@id": "https://legilux.public.lu/eli/etat/leg/loi/2021/01/22/a43/jo",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law of 22 January 2021 on the Issuance of Dematerialised Securities Using the Distributed Ledger Technology"
+      ]
+    },
+    {
+      "@id": "https://www.luxtrust.com/trust-services/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://guichet.public.lu/fr/actualites/2021/juillet/05-app-myguichet.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.sante.public.lu/fr/index.php",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.justice.public.lu/fr/index.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://chd.lu/wps/portal/public/Accueil/Actualite",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://g-o.lu/ios",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.vosidees.lu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.zesumme-vereinfachen.lu/en-GB/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.c-3.lu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ctie.gouvernement.lu/en/e-administration/gouvcheck.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.marches.public.lu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://peppol.eu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.digicash.lu/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://guichet.public.lu/en/citoyens/citoyennete/papiers-identite/carte-identite/nouv-carte-identite-adulte.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://guichet.public.lu/en/citoyens/citoyennete/papiers-identite/titre-voyage/passeport-biometrique.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://guichet.public.lu/en/myguichet.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

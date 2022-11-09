@@ -1,0 +1,401 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Germany",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Germany"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/DEU"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsGermany"
+        },
+        {
+          "@id": "http://example.org/nifo/legalframework/Germany"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2022"
+        },
+        {
+          "@id": "https://www.onlinezugangsgesetz.de/Webs/OZG/DE/umsetzung/ozg-infrastruktur/portalverbund/portalverbund-node.html"
+        },
+        {
+          "@id": "https://www.fitko.de/produktmanagement/pvog"
+        },
+        {
+          "@id": "https://www.cio.bund.de/Web/DE/Strategische-Themen/Moderne-Verwaltungskommunikation/moderne_verwaltungskommunikation_node.html"
+        },
+        {
+          "@id": "https://www.evergabe-online.de/start.html?4"
+        },
+        {
+          "@id": "http://www.service.bund.de/"
+        },
+        {
+          "@id": "http://www.kdb.bund.de/KdB/DE/Startseite/home_node.html"
+        }
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Interoperability State of Play ",
+        "eGovernment State of Play ",
+        "Digital Public Administration Political Communications ",
+        "On 6 July 2021, the federal cabinet adopted the Open Data Strategy of the German Federal Government. The overarching data policy framework for the open data strategy forms the German government’s data strategy and its objectives, which also include open data.",
+        "Over the next five years, the Open Data Strategy will cover three areas of action with a total of 68 measures taken by various federal ministries and federal authorities to improve data provision, promote data skills and establish a data culture in the federal administration to improve the quality and usability of data provided.",
+        "Digital Public Administration Legislation "
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2022"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsGermany",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataSet"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Public Administration Indicators "
+      ],
+      "http://purl.org/linked-data/cube#structure": [
+        {
+          "@id": "http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsGermany"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        "The following graphs present data for the latest Digital Public Administration Indicators for Germany compared to the EU average. Statistical indicators in this section reflect those of Eurostat at the time the factsheet is being prepared.  Percentage of individuals using the internet for interacting with public authorities in Germany Percentage of individuals using the internet for obtaining information from public authorities in Germany   Source: Eurostat Information Society Indicators Source: Eurostat Information Society Indicators   Percentage of individuals using the internet for downloading official forms from public authorities in Germany Percentage of individuals using the internet for submitting filled forms to public authorities in Germany    Source: Eurostat Information Society Indicators Source: Eurostat Information Society Indicators   "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Germany",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.bmi.bund.de/SharedDocs/pressemitteilungen/DE/2021/04/registermodernisierungsgesetz-verkuendet.html#:~:text=Mit%2520dem%2520Registermodernisierungsgesetz%2520kann%2520die,Qualit%25C3%2583%25C2%25A4t%2520der%2520Registerdaten%2520nachhaltig%2520gesteigert"
+        },
+        {
+          "@id": "https://www.gesetze-im-internet.de/idnrg/BJNR059110021.html"
+        },
+        {
+          "@id": "https://www.gesetze-im-internet.de/ozg/BJNR313800017.html"
+        },
+        {
+          "@id": "http://www.gesetze-im-internet.de/egovg/BJNR274910013.html"
+        },
+        {
+          "@id": "https://www.gesetze-im-internet.de/gg/art_91c.html"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32018R1724"
+        },
+        {
+          "@id": "https://www.gesetze-im-internet.de/ifg/BJNR272200005.html"
+        },
+        {
+          "@id": "https://www.bmi.bund.de/Webs/PA/EN/government/eIDAS_Regulation/action-and-implementation-needed/action-and-implementation-needed-node.html;jsessionid=2DCB4CAA61B712FF952413B56D1FA8EC.2_cid287"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R0910&qid=1654624103708"
+        },
+        {
+          "@id": "https://www.bgbl.de/xaver/bgbl/start.xav?start=//*%255B@attr_id=%27bgbl117s2310.pdf%27%255D#__bgbl__//*%255B@attr_id='bgbl117s2310.pdf'%255D__1654624216006"
+        },
+        {
+          "@id": "https://www.bmi.bund.de/EN/topics/administrative-reform/registration/registration.html"
+        },
+        {
+          "@id": "http://www.gesetze-im-internet.de/englisch_egovg/englisch_egovg.html#p0031"
+        },
+        {
+          "@id": "https://www.gesetze-im-internet.de/de-mail-g/BJNR066610011.html"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsGermany",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
+      "http://purl.org/linked-data/cube#component": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/Percentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesin%C2%A0Germany"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/Percentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesin%C2%A0Germany"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/Percentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesin%C2%A0Germany"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/Percentageofindividualsusingtheinternetforsubmittingfilledformstopublicauthoritiesin%C2%A0Germany"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/Percentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesin%C2%A0Germany"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/Percentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesin%C2%A0Germany"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/Percentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesin%C2%A0Germany"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/Percentageofindividualsusingtheinternetforsubmittingfilledformstopublicauthoritiesin%C2%A0Germany"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/Percentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesin%C2%A0Germany",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/Percentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesin%C2%A0Germany",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/Percentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesin%C2%A0Germany",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/Percentageofindividualsusingtheinternetforsubmittingfilledformstopublicauthoritiesin%C2%A0Germany",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "https://www.bmi.bund.de/SharedDocs/pressemitteilungen/DE/2021/04/registermodernisierungsgesetz-verkuendet.html#:~:text=Mit%2520dem%2520Registermodernisierungsgesetz%2520kann%2520die,Qualit%25C3%2583%25C2%25A4t%2520der%2520Registerdaten%2520nachhaltig%2520gesteigert",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "https://www.bmi.bund.de/SharedDocs/pressemitteilungen/DE/2021/04/registermodernisierungsgesetz-verkuendet.html#:~:text=Mit%20dem%20Registermodernisierungsgesetz%20kann%20die,Qualit%C3%83%C2%A4t%20der%20Registerdaten%20nachhaltig%20gesteigert",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Register Modernisation Act"
+      ]
+    },
+    {
+      "@id": "https://www.gesetze-im-internet.de/idnrg/BJNR059110021.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "German Identification Number Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.onlinezugangsgesetz.de/Webs/OZG/EN/home/home-node.html"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.onlinezugangsgesetz.de/Webs/OZG/EN/home/home-node.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "German Online Access Act"
+      ]
+    },
+    {
+      "@id": "https://www.gesetze-im-internet.de/ozg/BJNR313800017.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act for the Improvement of Online Access to Administration Services "
+      ]
+    },
+    {
+      "@id": "http://www.gesetze-im-internet.de/egovg/BJNR274910013.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on the promotion of electronic government "
+      ]
+    },
+    {
+      "@id": "https://www.gesetze-im-internet.de/gg/art_91c.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "German Basic Law "
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32018R1724",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "SDG Regulation 2018/1724 "
+      ]
+    },
+    {
+      "@id": "https://www.gesetze-im-internet.de/ifg/BJNR272200005.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Freedom of Information (FOI) Act "
+      ]
+    },
+    {
+      "@id": "https://www.bmi.bund.de/Webs/PA/EN/government/eIDAS_Regulation/action-and-implementation-needed/action-and-implementation-needed-node.html;jsessionid=2DCB4CAA61B712FF952413B56D1FA8EC.2_cid287",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "eIDAS Implementation Act "
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R0910&qid=1654624103708",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Electronic Identification Promotion Act "
+      ]
+    },
+    {
+      "@id": "https://www.bgbl.de/xaver/bgbl/start.xav?start=//*%255B@attr_id=%27bgbl117s2310.pdf%27%255D#__bgbl__//*%255B@attr_id='bgbl117s2310.pdf'%255D__1654624216006",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "https://www.bgbl.de/xaver/bgbl/start.xav?start=//*%5B@attr_id=%27bgbl117s2310.pdf%27%5D#__bgbl__//*%5B@attr_id='bgbl117s2310.pdf'%5D__1654624216006",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Electronic Signature Act "
+      ]
+    },
+    {
+      "@id": "https://www.bmi.bund.de/EN/topics/administrative-reform/registration/registration.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Federal Registration Act (BMG)."
+      ]
+    },
+    {
+      "@id": "http://www.gesetze-im-internet.de/englisch_egovg/englisch_egovg.html#p0031",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "eInvoicing Law of 4 April 2017"
+      ]
+    },
+    {
+      "@id": "https://www.gesetze-im-internet.de/de-mail-g/BJNR066610011.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on De-Mail services and Amendments to Other Legislation "
+      ]
+    },
+    {
+      "@id": "https://www.onlinezugangsgesetz.de/Webs/OZG/DE/umsetzung/ozg-infrastruktur/portalverbund/portalverbund-node.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.fitko.de/produktmanagement/pvog",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.cio.bund.de/Web/DE/Strategische-Themen/Moderne-Verwaltungskommunikation/moderne_verwaltungskommunikation_node.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.evergabe-online.de/start.html?4",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.service.bund.de/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.kdb.bund.de/KdB/DE/Startseite/home_node.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

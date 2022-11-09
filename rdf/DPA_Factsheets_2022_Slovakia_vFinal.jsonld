@@ -1,0 +1,555 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Slovakia",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Slovakia"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/SVK"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsSlovakia"
+        },
+        {
+          "@id": "http://example.org/nifo/dataset/ThefollowinggraphspresentdataforthelatestDigitalPublicAdministrationIndicatorsforSlovakiacomparedtotheEUaverage.StatisticalindicatorsinthissectionreflectthoseofEurostatatthetimethefactsheetisbeingprepared.Slovakia"
+        },
+        {
+          "@id": "http://example.org/nifo/legalframework/Slovakia"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2022"
+        },
+        {
+          "@id": "https://datalab.digital/wp-content/uploads/AP-OGP-2020-2021_material.pdf"
+        },
+        {
+          "@id": "https://www.nbu.gov.sk/wp-content/uploads/kyberneticka-bezpecnost/Akcny-plan-kybernetickej-bezpecnosti.pdf"
+        },
+        {
+          "@id": "http://www.oversi.gov.sk/"
+        },
+        {
+          "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2018/177/20210101"
+        },
+        {
+          "@id": "https://www.mirri.gov.sk/"
+        },
+        {
+          "@id": "https://www.slov-lex.sk/web/en"
+        },
+        {
+          "@id": "https://www.nases.gov.sk/govnet/sluzby/index.html"
+        },
+        {
+          "@id": "https://stopbyrokracii.sk/ziadost-o-pripojenie-do-portalu-oversi-gov-sk/"
+        },
+        {
+          "@id": "https://stopbyrokracii.sk/ziadost-o-pripojenie-do-portalu-oversi-gov-sk/"
+        },
+        {
+          "@id": "http://www.informatizacia.sk/poskytovanie-sluzieb-vladneho-cloudu/22858s"
+        },
+        {
+          "@id": "https://www.slovensko.sk/sk/eid/_eid-karta/"
+        },
+        {
+          "@id": "https://www.sk-cert.sk/en/the-cyber-security-competence-and-certification-centre-published-a-list-of-cybersecurity-auditors/index.html"
+        },
+        {
+          "@id": "https://www.uvo.gov.sk/viac-o-is-evo-5f6.html"
+        },
+        {
+          "@id": "https://e-fakturacia.finance.gov.sk/e-fakturacia/"
+        },
+        {
+          "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2013/305/20201230"
+        },
+        {
+          "@id": "https://www.slovensko.sk/en/title"
+        },
+        {
+          "@id": "https://www.slovensko.sk/en/life-situation"
+        }
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Interoperability State of Play ",
+        "eGovernment State of Play",
+        "Digital Public Administration Political Communications ",
+        " "
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2022"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsSlovakia",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataSet"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Public Administration Indicators"
+      ],
+      "http://purl.org/linked-data/cube#structure": [
+        {
+          "@id": "http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsSlovakia"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en,http://appsso.eurostat.ec.europa.eu/nui/submitViewTableAction.do"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Slovakia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2019/95/20210101.html"
+        },
+        {
+          "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2013/305/20201230.html"
+        },
+        {
+          "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2018/177/20210101.html"
+        },
+        {
+          "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2000/211/20210101.html"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML"
+        },
+        {
+          "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2018/69/20200701.html"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/eli/dir/2016/1148/oj"
+        },
+        {
+          "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2018/18/20190901.html"
+        },
+        {
+          "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2013/305/20201230.html"
+        },
+        {
+          "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2018/177/20210101.html"
+        },
+        {
+          "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2013/95/"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055"
+        },
+        {
+          "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2004/22/"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsSlovakia",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
+      "http://purl.org/linked-data/cube#component": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinSlovakia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinSlovakia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinSlovakia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsubmittingcompletedformstopublicauthoritiesinSlovakia"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinSlovakia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinSlovakia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinSlovakia"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsubmittingcompletedformstopublicauthoritiesinSlovakia"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinSlovakia",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinSlovakia",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinSlovakia",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsubmittingcompletedformstopublicauthoritiesinSlovakia",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2019/95/20210101.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Information Technologies in the Public Sector Act  No. 95/2019"
+      ]
+    },
+    {
+      "@id": "https://datalab.digital/wp-content/uploads/AP-OGP-2020-2021_material.pdf",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Action Plan "
+      ]
+    },
+    {
+      "@id": "https://www.nbu.gov.sk/wp-content/uploads/kyberneticka-bezpecnost/Akcny-plan-kybernetickej-bezpecnosti.pdf",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Action Plan for the implementation of the National Cybersecurity Strategy for 2021–2025 "
+      ]
+    },
+    {
+      "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2013/305/20201230.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. 305/2013 on eGovernment",
+        "Act No. 305/2013 on eGovernment"
+      ]
+    },
+    {
+      "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2018/177/20210101.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. 177/2018",
+        "Act No. 177/2018 against Bureaucracy",
+        "Act against Bureaucracy"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2018/177/20210101.html"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2000/211/20210101.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Free Access to Information"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2003/98/EC of the European Parliament and of the Council of 17 November 2003 on the re-use of public sector information (PSI Directive)",
+        "Directive 2003/98/EC of the European Parliament and of the Council of 17 November 2003 on the re-use of public sector information (PSI Directive)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2000/211/"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.172.01.0056.01.ENG"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2000/211/",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. 211/2000 on Free Access to Public Information",
+        "Act No. 211/2000 on Free Access to Public Information"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.172.01.0056.01.ENG",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive (EU) 2019/1024 of the European Parliament and of the Council of 20 June 2019 on open data and the re-use of public sector information"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2000/211/"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2018/69/20200701.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Cybersecurity"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/eli/dir/2016/1148/oj",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "EU Directive on network and information security (NIS Directive) "
+      ]
+    },
+    {
+      "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2018/18/20190901.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. 18/2018"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "General Data Protection Regulation 2016/679 (GDPR)"
+      ]
+    },
+    {
+      "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2013/95/",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. 95/2013 on Public Procurement"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2006/25/20160418.html"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2006/25/20160418.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. 25/2006 on Public Procurement"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2007:335:0031:0046:EN:PDF"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2007:335:0031:0046:EN:PDF",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2007/66/EC"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2014/55/EC"
+      ]
+    },
+    {
+      "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2004/22/",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. 22/2004 on Electronic Commerce"
+      ]
+    },
+    {
+      "@id": "http://www.oversi.gov.sk/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2018/177/20210101",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mirri.gov.sk/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.slov-lex.sk/web/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.nases.gov.sk/govnet/sluzby/index.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://stopbyrokracii.sk/ziadost-o-pripojenie-do-portalu-oversi-gov-sk/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.informatizacia.sk/poskytovanie-sluzieb-vladneho-cloudu/22858s",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.slovensko.sk/sk/eid/_eid-karta/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.sk-cert.sk/en/the-cyber-security-competence-and-certification-centre-published-a-list-of-cybersecurity-auditors/index.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.uvo.gov.sk/viac-o-is-evo-5f6.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://e-fakturacia.finance.gov.sk/e-fakturacia/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2013/305/20201230",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.slovensko.sk/en/title",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.slovensko.sk/en/life-situation",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

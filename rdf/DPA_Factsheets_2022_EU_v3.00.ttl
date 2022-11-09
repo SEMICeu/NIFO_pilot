@@ -1,0 +1,141 @@
+<http://data.europa.eu/nifo/factsheet/European%20Union> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/European_Union>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/EU";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsEuropean_Union>, <http://example.org/nifo/dataset/ThefollowinggraphspresentdataforthelatestDigitalPublicAdministrationIndicatorsintheEuropeanUnion,asoutlinedbyEurostatatthetimeofthisfactsheet%E2%80%99spreparation.European_Union>, <http://example.org/nifo/legalframework/European_Union>, <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring>, <https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2022>, <https://ec.europa.eu/info/sites/info/files/communication-enforcement-implementation-single-market-rules_en_0.pdf>, <https://ec.europa.eu/digital-single-market/en/news/communication-eu-egovernment-action-plan-2016-2020-accelerating-digital-transformation>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020PC0767>, <https://digital-strategy.ec.europa.eu/en/policies/data-act>, <https://digital-strategy.ec.europa.eu/en/library/proposal-directive-measures-high-common-level-cybersecurity-across-union>, <https://education.ec.europa.eu/focus-topics/digital-education/about/digital-education-action-plan>, <https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/13207-Digital-education-enabling-factors-for-success_en>, <https://ec.europa.eu/home-affairs/sites/default/files/pdf/action_plan_on_integration_and_inclusion_2021-2027.pdf>, <https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/about>, <https://joinup.ec.europa.eu/solution/imaps>, <https://joinup.ec.europa.eu/sites/default/files/distribution/access_url/2018-02/402ca761-e487-48e3-8aee-23335200ca42/IMAPS%20v1.1.1%20Questionnaire.pdf>, <https://ec.europa.eu/isa2/sites/isa/files/imaps_value_proposition.pdf>, <https://joinup.ec.europa.eu/community/european_catalogue/og_page/catalogue>, <https://joinup.ec.europa.eu/collection/ict-standards-procurement/catalogue>, <https://ec.europa.eu/isa2/solutions/core-vocabularies_en>, <https://ec.europa.eu/info/news/european-parliament-and-commission-launch-free-open-source-software-european-public-services-fosseps-pilot-project-2022-feb-11_fr>, <https://ec.europa.eu/commission/presscorner/detail/en/IP_21_2663>, <https://futurium.ec.europa.eu/en/digital-identity>, <https://digiplace-my.sharepoint.com/personal/elena_gazia_wavestone_com/Documents/090166e5e791c6e9.pdf>, <https://www.geant.org/About>, <https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-blockchain>;
+ <http://purl.org/dc/terms/source> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring>, "User Centricity – indicates to what extent (information about) a service is provided online and how this is perceived.Transparency – indicates to what extent governments are transparent regarding:their own responsibilities and performance, ii) the process of service delivery, and iii) personal data.Cross-Border Mobility – indicates to what extent EU citizens and businesses can use online services in another country.Key Enablers – indicates the extent to which four technical pre-conditions are available online. These are: Identification (eID), Electronic documents (eDocuments), Authoritative Sources, and Digital Post.", <https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2022>;
+ <http://dbpedia.org/ontology/areaTotal> "The results in Scoreboard 1 show an overall good implementation of the EIF principles for the 27 Member States with multiple principles scoring at 4. Areas of improvement are concentrated in the Principles 1 (Subsidiarity and Proportionality), 7 (Inclusion and Accessibility), 9 (Multilingualism) and 12 (Assessment of Effectiveness and Efficiency), for which the score of 3 shows an upper-medium performance in the implementation of the corresponding recommendations.";
+ <http://purl.org/dc/terms/title> "eGovernment State of Play " .
+<http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsEuropean_Union> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataSet>;
+ <http://purl.org/dc/terms/title> "Digital Public Administration Indicators";
+ <http://purl.org/linked-data/cube#structure> <http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsEuropean_Union>;
+ <http://purl.org/dc/terms/source> "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en" .
+<http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsEuropean_Union> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition>;
+ <http://purl.org/linked-data/cube#component> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinEU>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinEU>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinEU>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinEU>;
+ <http://www.w3.org/2000/01/rdf-schema#label> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinEU>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinEU>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinEU>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinEU> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinEU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinEU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinEU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsendingfilledformstopublicauthoritiesinEU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<https://ec.europa.eu/info/sites/info/files/communication-enforcement-implementation-single-market-rules_en_0.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Action", "Action Plan for better implementation and" .
+<https://ec.europa.eu/digital-single-market/en/news/communication-eu-egovernment-action-plan-2016-2020-accelerating-digital-transformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "eGovernment Action Plan 2016-2020" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020PC0767> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>, <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://purl.org/dc/terms/title> "regulation on European data";
+ <http://data.europa.eu/eli/ontology#title> "Data Governance Act" .
+<https://digital-strategy.ec.europa.eu/en/policies/data-act> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Regulation on harmonised rules on fair access to and use of data" .
+<https://digital-strategy.ec.europa.eu/en/library/proposal-directive-measures-high-common-level-cybersecurity-across-union> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>, <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://purl.org/dc/terms/title> "Directive on measures for high common level of cybersecurity across the";
+ <http://purl.org/dc/terms/relation> <https://ec.europa.eu/home-affairs/news/commission-proposes-new-directive-enhance-resilience-critical-entities-providing-essential_en>;
+ <http://data.europa.eu/eli/ontology#title> "Directive on Security of Network and Information Systems " .
+<https://ec.europa.eu/home-affairs/news/commission-proposes-new-directive-enhance-resilience-critical-entities-providing-essential_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Critical Entities Resilience (CER) Directive" .
+<https://education.ec.europa.eu/focus-topics/digital-education/about/digital-education-action-plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Digital Education Action Plan actions for the period 2021-2027" .
+<https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/13207-Digital-education-enabling-factors-for-success_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Recommendation on the enabling factors for digital education" .
+<https://ec.europa.eu/home-affairs/sites/default/files/pdf/action_plan_on_integration_and_inclusion_2021-2027.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Action Plan on Integration and Inclusion 2021-" .
+<http://example.org/nifo/legalframework/European_Union> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32006L0123>, <http://ec.europa.eu/growth/tools-databases/newsroom/cf/itemdetail.cfm?item_id=8342>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020PC0767>, <https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/13045-Data-Act-including-the-review-of-the-Directive-96-9-EC-on-the-legal-protection-of-databases-_fr>, <https://digital-strategy.ec.europa.eu/en/policies/web-accessibility>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024>, <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML>, <https://ec.europa.eu/digital-single-market/news-redirect/624153>, <https://www.europeansources.info/record/regulation-eu-2018-1724-establishing-a-single-digital-gateway-to-provide-access-to-information-to-procedures-and-to-assistance-and-problem-solving-services/>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018R1807>, <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG>, <https://ec.europa.eu/info/sites/default/files/proposal_regulation_union_secure_connectivity_programme.pdf>, <https://digital-strategy.ec.europa.eu/en/library/proposal-directive-measures-high-common-level-cybersecurity-across-union>, <http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016L1148&qid=1482413313776&from=en>, <https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2017-4460501_en>, <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2016.119.01.0001.01.ENG&toc=OJ:L:2016:119:TOC>, <http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:31995L0046>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1552577087456&uri=CELEX:32018R1725>, <http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32012L0017>, <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2015.144.01.0001.01.ENG>, <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01.ENG>, <http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32014L0055>, <https://eur-lex.europa.eu/eli/reg_impl/2019/1780/oj>, <https://www.europarl.europa.eu/thinktank/en/document.html?reference=EPRS_BRI(2021)690589>, <https://ec.europa.eu/info/sites/default/files/proposal-regulation-single-market-digital-services-digital-services-act_en.pdf>, <https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/12928-Screening-of-foreign-direct-investment-list-of-projects-&-programmes-of-EU-interest-update-_en>, <https://digital-strategy.ec.europa.eu/en/library/european-chips-act-communication-regulation-joint-undertaking-and-recommendation>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020PC0569>, <https://digital-strategy.ec.europa.eu/en/news/harmonising-spectrum-enhanced-connectivity-ready-5g-and-innovation>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022D0173&qid=1644396899138>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022D0172&qid=1644399341374>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022D0180&qid=1644477553078>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022D0179&qid=1644477768617> .
+<http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32006L0123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Services Directive " .
+<http://ec.europa.eu/growth/tools-databases/newsroom/cf/itemdetail.cfm?item_id=8342> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "points of single contact" .
+<https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/13045-Data-Act-including-the-review-of-the-Directive-96-9-EC-on-the-legal-protection-of-databases-_fr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Inception Impact Assessment on the", "forthcoming Data Act ";
+ <http://purl.org/dc/terms/relation> <https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/13045-Data-Act-including-the-review-of-the-Directive-96-9-EC-on-the-legal-protection-of-databases-_fr> .
+<https://digital-strategy.ec.europa.eu/en/policies/web-accessibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Web Accessibility Directive " .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive (EU) 2019/1024";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX:32003L0098> .
+<http://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX:32003L0098> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2003/98/EC";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/legal-content/FR/ALL/?uri=CELEX:32013L0037> .
+<http://eur-lex.europa.eu/legal-content/FR/ALL/?uri=CELEX:32013L0037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2013/37/EU" .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2003/98/EC ";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2013:175:0001:0008:EN:PDF> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2013:175:0001:0008:EN:PDF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2013/37/EU " .
+<https://ec.europa.eu/digital-single-market/news-redirect/624153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "impact assessment, ";
+ <http://purl.org/dc/terms/relation> <https://ec.europa.eu/digital-single-market/en/proposal-revision-psi-directive> .
+<https://ec.europa.eu/digital-single-market/en/proposal-revision-psi-directive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive " .
+<https://www.europeansources.info/record/regulation-eu-2018-1724-establishing-a-single-digital-gateway-to-provide-access-to-information-to-procedures-and-to-assistance-and-problem-solving-services/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "regulation on setting up a single digital" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018R1807> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation" .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation (EU) No 910/2014" .
+<https://ec.europa.eu/info/sites/default/files/proposal_regulation_union_secure_connectivity_programme.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "proposal for a Regulation establishing the Union Secure Connectivity Programme for the period 2023-2027" .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016L1148&qid=1482413313776&from=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "The Directive on Security of Network and Information Systems " .
+<https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2017-4460501_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "draft Implementing Regulation Pursuant Art", "16(8) of the NIS Directive";
+ <http://purl.org/dc/terms/relation> <https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2017-4460501_en> .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2016.119.01.0001.01.ENG&toc=OJ:L:2016:119:TOC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Data Protection Regulation " .
+<http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:31995L0046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 95/46/EC " .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1552577087456&uri=CELEX:32018R1725> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation 2018/1725 " .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32012L0017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2012/17/EU " .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2015.144.01.0001.01.ENG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation (EU) 2015/884 " .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01.ENG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive" .
+<http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32014L0055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "eInvoicing Directive 2014/55/EU " .
+<https://eur-lex.europa.eu/eli/reg_impl/2019/1780/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation" .
+<https://www.europarl.europa.eu/thinktank/en/document.html?reference=EPRS_BRI(2021)690589> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation on contestable and fair markets in the digital sector" .
+<https://ec.europa.eu/info/sites/default/files/proposal-regulation-single-market-digital-services-digital-services-act_en.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Digital Markets Act";
+ <http://purl.org/dc/terms/relation> <https://www.europarl.europa.eu/RegData/etudes/BRIE/2021/689357/EPRS_BRI(2021)689357_EN.pdf> .
+<https://www.europarl.europa.eu/RegData/etudes/BRIE/2021/689357/EPRS_BRI(2021)689357_EN.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Digital Services Act" .
+<https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/12928-Screening-of-foreign-direct-investment-list-of-projects-&-programmes-of-EU-interest-update-_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Foreign Direct Investment (FDI) Screening Regulation";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02019R0452-20200919> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02019R0452-20200919> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation (EU) No 2019/452" .
+<https://digital-strategy.ec.europa.eu/en/library/european-chips-act-communication-regulation-joint-undertaking-and-recommendation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "European Chips Act" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020PC0569> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Proposal for a Council Regulation on establishing a EuroHPC";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018R1488> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018R1488> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Council Regulation (EU) 2018/1488" .
+<https://digital-strategy.ec.europa.eu/en/news/harmonising-spectrum-enhanced-connectivity-ready-5g-and-innovation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "implementing decisions" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022D0173&qid=1644396899138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Commission Implementing Decision on the harmonisation of the 900 MHz and 1800 MHz frequency bands for terrestrial systems capable of providing electronic communications services in the Union" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022D0172&qid=1644399341374> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Commission Implementing Decision on the harmonisation of radio spectrum for use by short-range devices within the 874-876 and 915-921 MHz frequency bands" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022D0180&qid=1644477553078> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Commission Implementing Decision as regards the update of harmonised technical conditions in the area of radio spectrum use for short-range devices" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022D0179&qid=1644477768617> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Commission Implementing Decision on the harmonised use of radio spectrum in the 5 GHz frequency band for the implementation of wireless access systems including radio local area networks" .
+<https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/about> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://joinup.ec.europa.eu/solution/imaps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://joinup.ec.europa.eu/sites/default/files/distribution/access_url/2018-02/402ca761-e487-48e3-8aee-23335200ca42/IMAPS%20v1.1.1%20Questionnaire.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/isa2/sites/isa/files/imaps_value_proposition.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://joinup.ec.europa.eu/community/european_catalogue/og_page/catalogue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://joinup.ec.europa.eu/collection/ict-standards-procurement/catalogue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/isa2/solutions/core-vocabularies_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/info/news/european-parliament-and-commission-launch-free-open-source-software-european-public-services-fosseps-pilot-project-2022-feb-11_fr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/commission/presscorner/detail/en/IP_21_2663> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://futurium.ec.europa.eu/en/digital-identity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://digiplace-my.sharepoint.com/personal/elena_gazia_wavestone_com/Documents/090166e5e791c6e9.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.geant.org/About> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-blockchain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .

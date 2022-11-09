@@ -1,0 +1,899 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Netherlands",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Netherlands"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/NLD"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsNetherlands"
+        },
+        {
+          "@id": "http://example.org/nifo/dataset/ThefollowinggraphspresentdataforthelatestDigitalPublicAdministrationIndicatorsfortheNetherlandscomparedtotheEUaverage.StatisticalindicatorsinthissectionreflectthoseofEurostatatthetimetheEditionisbeingprepared.Netherlands"
+        },
+        {
+          "@id": "http://example.org/nifo/legalframework/Netherlands"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2022"
+        },
+        {
+          "@id": "https://www.rijksoverheid.nl/documenten/rapporten/2013/09/01/actieplan-open-overheid"
+        },
+        {
+          "@id": "https://www.rijksoverheid.nl/ministeries/ministerie-van-economische-zaken-en-klimaat/documenten/beleidsnotas/2019/10/08/strategisch-actieplan-voor-artificiele-intelligentie"
+        },
+        {
+          "@id": "https://nlaic.com/toepassingsgebied/publieke-diensten/"
+        },
+        {
+          "@id": "https://www.government.nl/documents/reports/2018/07/13/connectivity-action-plan"
+        },
+        {
+          "@id": "https://www.overheid.nl/"
+        },
+        {
+          "@id": "https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/Country%20factsheets%202020/Netherlands/data.overheid.nl"
+        },
+        {
+          "@id": "https://www.rijksoverheid.nl/documenten/rapporten/2013/09/01/actieplan-open-overheid"
+        },
+        {
+          "@id": "https://www.overheid.nl/"
+        },
+        {
+          "@id": "https://mijn.overheid.nl/?r=1"
+        },
+        {
+          "@id": "https://www.higherlevel.nl/"
+        },
+        {
+          "@id": "https://www.logius.nl/diensten/samenwerkende-catalogi"
+        },
+        {
+          "@id": "https://www.overheid.nl/"
+        },
+        {
+          "@id": "http://www.ondernemersplein.nl/"
+        },
+        {
+          "@id": "https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/Country%20factsheets%202020/Netherlands/Mijnoverheid.nl"
+        },
+        {
+          "@id": "https://www.rijksoverheid.nl/actueel/nieuws/2018/10/09/post-van-de-overheid-direct-op-mobiel-met-de-berichtenbox-app"
+        },
+        {
+          "@id": "https://www.logius.nl/diensten/digipoort/"
+        },
+        {
+          "@id": "https://www.overheid.nl/"
+        },
+        {
+          "@id": "https://developer.overheid.nl/"
+        },
+        {
+          "@id": "https://www.logius.nl/diensten/diginetwerk/"
+        },
+        {
+          "@id": "https://www.logius.nl/diensten/digilevering"
+        },
+        {
+          "@id": "https://www.logius.nl/diensten/digimelding/"
+        },
+        {
+          "@id": "https://www.logius.nl/diensten/digikoppeling"
+        },
+        {
+          "@id": "https://www.logius.nl/diensten/stelselcatalogus/"
+        },
+        {
+          "@id": "https://www.digid.nl/over-digid/app/"
+        },
+        {
+          "@id": "https://www.digid.nl/over-digid/app/"
+        },
+        {
+          "@id": "https://www.eherkenning.nl/"
+        },
+        {
+          "@id": "https://www.digitaleoverheid.nl/dossiers/certificeringpki-overheid/"
+        },
+        {
+          "@id": "https://www.pianoo.nl/en"
+        },
+        {
+          "@id": "https://www.stpe.nl/"
+        },
+        {
+          "@id": "https://www.stpe.nl/over_stpe.html"
+        },
+        {
+          "@id": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/dienstverlening-aan-burgers-en-ondernemers/efactureren/"
+        },
+        {
+          "@id": "https://www.ideal.nl/en/consumers/what-is-ideal/"
+        },
+        {
+          "@id": "https://www.it-academieoverheid.nl/"
+        },
+        {
+          "@id": "https://www.gebruikercentraal.nl/"
+        },
+        {
+          "@id": "https://www.digitaleoverheid.nl/onderwerpen/stelselinformatiepunt/stelselthemas/twaalf-eisen"
+        },
+        {
+          "@id": "https://www.rijksoverheid.nl/documenten/rapporten/2021/06/15/monitor-digitale-overheid-2021"
+        },
+        {
+          "@id": "https://www.cbs.nl/nl-nl/maatwerk/2016/50/eenmeting-kwaliteit-basisregistraties-in-samenhang-2016"
+        },
+        {
+          "@id": "https://dashboards.cbs.nl/v3/viermeting_kwaliteit_samenhang_basisregistraties/"
+        },
+        {
+          "@id": "https://www.pdok.nl/"
+        },
+        {
+          "@id": "https://www.logius.nl/diensten/digikoppeling"
+        },
+        {
+          "@id": "https://www.logius.nl/diensten/digilevering"
+        },
+        {
+          "@id": "https://www.logius.nl/diensten/digimelding/"
+        },
+        {
+          "@id": "https://www.logius.nl/diensten/stelselcatalogus/"
+        },
+        {
+          "@id": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/10-basisregistraties/brp/"
+        },
+        {
+          "@id": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/10-basisregistraties/hr/"
+        },
+        {
+          "@id": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/10-basisregistraties/bag/"
+        },
+        {
+          "@id": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/10-basisregistraties/brt/"
+        },
+        {
+          "@id": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/10-basisregistraties/bgt/"
+        },
+        {
+          "@id": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/10-basisregistraties/brk/"
+        },
+        {
+          "@id": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/10-basisregistraties/brv/"
+        },
+        {
+          "@id": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/10-basisregistraties/bri/"
+        },
+        {
+          "@id": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/10-basisregistraties/woz/"
+        },
+        {
+          "@id": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/10-basisregistraties/bro/"
+        },
+        {
+          "@id": "https://algoritmeregister.amsterdam.nl/en/ai-register/"
+        }
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Interoperability State of Play",
+        "eGovernment State of Play ",
+        "Digital Public Administration Political Communications ",
+        "Recently, the Minister on Digitalisation published a policy letter on digitalisation, which focuses on the conditions needed to realise digital solutions (digital foundation), digital government (public services of the government), digital society and digital economy. Based on this letter, an action-oriented agenda will be developed. ",
+        "In 2021, the Dutch Inter-administrative Data strategy was published. The strategy outlines how the government can tackle social challenges using data in an effective and responsible way. The data strategy also contains initial suggestions for data system functions that should be available to all government bodies. Lastly, the data strategy elaborates on the need for orchestration of responsible data sharing.",
+        "Digital Public Administration Legislation "
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2022"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsNetherlands",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataSet"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Public Administration Indicators"
+      ],
+      "http://purl.org/linked-data/cube#structure": [
+        {
+          "@id": "http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsNetherlands"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Netherlands",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.digitaleoverheid.nl/dossiers/wet-digitale-overheid/"
+        },
+        {
+          "@id": "https://wetten.overheid.nl/BWBR0005537/2019-04-02"
+        },
+        {
+          "@id": "https://www.overheid.nl/"
+        },
+        {
+          "@id": "http://www.freedominfo.org/wp-content/uploads/documents/NL%2520public_access_government_info_10-91.pdf"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG"
+        },
+        {
+          "@id": "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?cfg=wetsvoorsteldetails&qry=wetsvoorstel:34972"
+        },
+        {
+          "@id": "http://wetten.overheid.nl/BWBR0033715/2015-09-01"
+        },
+        {
+          "@id": "http://wetten.overheid.nl/BWBR0021777/2016-07-01"
+        },
+        {
+          "@id": "http://wetten.overheid.nl/BWBR0022428/2014-01-06"
+        },
+        {
+          "@id": "https://wetten.overheid.nl/BWBR0032203/2022-03-02"
+        },
+        {
+          "@id": "https://zoek.officielebekendmakingen.nl/stb-2018-1.html"
+        },
+        {
+          "@id": "https://wetten.overheid.nl/BWBR0026759/2019-01-01"
+        },
+        {
+          "@id": "https://wetten.overheid.nl/BWBR0013060/2015-07-01/2"
+        },
+        {
+          "@id": "https://www.government.nl/latest/news/2019/07/02/green-light-for-experimental-law-for-testing-self-driving-vehicles-on-public-roads"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsNetherlands",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
+      "http://purl.org/linked-data/cube#component": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesintheNetherlands"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesintheNetherlands"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesintheNetherlands"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsubmittingcompletedformstopublicauthoritiesintheNetherlands"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesintheNetherlands"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesintheNetherlands"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesintheNetherlands"
+        },
+        {
+          "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsubmittingcompletedformstopublicauthoritiesintheNetherlands"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesintheNetherlands",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesintheNetherlands",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesintheNetherlands",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsubmittingcompletedformstopublicauthoritiesintheNetherlands",
+      "@type": [
+        "http://purl.org/linked-data/cube#MeasureProperty"
+      ]
+    },
+    {
+      "@id": "https://www.overheid.nl/",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Electronic Announcement Act"
+      ]
+    },
+    {
+      "@id": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/10-basisregistraties/brp/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.rijksoverheid.nl/documenten/rapporten/2013/09/01/actieplan-open-overheid",
+      "@type": [
+        "http://schema.org/ContactPoint",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Open Government Vision and Action Plan"
+      ]
+    },
+    {
+      "@id": "https://www.rijksoverheid.nl/ministeries/ministerie-van-economische-zaken-en-klimaat/documenten/beleidsnotas/2019/10/08/strategisch-actieplan-voor-artificiele-intelligentie",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Strategic Action Plan on Artificial Intelligence (SAPAI)"
+      ]
+    },
+    {
+      "@id": "https://nlaic.com/toepassingsgebied/publieke-diensten/",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Community of Practice"
+      ]
+    },
+    {
+      "@id": "https://www.government.nl/documents/reports/2018/07/13/connectivity-action-plan",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Connectivity Action Plan"
+      ]
+    },
+    {
+      "@id": "https://www.digitaleoverheid.nl/dossiers/wet-digitale-overheid/",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Digital Government Law",
+        "Digital Government Law"
+      ]
+    },
+    {
+      "@id": "https://wetten.overheid.nl/BWBR0005537/2019-04-02",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Legislation on Administrative Law"
+      ]
+    },
+    {
+      "@id": "http://www.freedominfo.org/wp-content/uploads/documents/NL%2520public_access_government_info_10-91.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "http://www.freedominfo.org/wp-content/uploads/documents/NL%20public_access_government_info_10-91.pdf",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act of 31 October 1991 on Public Access to Government Information"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://zoek.officielebekendmakingen.nl/stb-2021-499.html"
+        }
+      ]
+    },
+    {
+      "@id": "https://zoek.officielebekendmakingen.nl/stb-2021-499.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "A revised version of the law will enter into force on 1 May 2022"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive (EU) 2019/1024"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX:32003L0098"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX:32003L0098",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2003/98/EC"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/FR/ALL/?uri=CELEX:32013L0037"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/FR/ALL/?uri=CELEX:32013L0037",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2013/37/EU"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://internetconsultatie.nl/wetimplementatieopendatarichtlijn/b1"
+        }
+      ]
+    },
+    {
+      "@id": "https://internetconsultatie.nl/wetimplementatieopendatarichtlijn/b1",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Transposition into national law is under preparation"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "EU Regulation 910/2014"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://zoek.officielebekendmakingen.nl/stb-2017-81.html"
+        }
+      ]
+    },
+    {
+      "@id": "https://zoek.officielebekendmakingen.nl/stb-2017-81.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "eIDAS Implementation Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.digitaleoverheid.nl/dossiers/wet-digitale-overheid/"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?cfg=wetsvoorsteldetails&qry=wetsvoorstel:34972",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Digital Government Law"
+      ]
+    },
+    {
+      "@id": "https://www.digitaleoverheid.nl/onderwerpen/stelselinformatiepunt/stelselthemas/twaalf-eisen",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://wetten.overheid.nl/BWBR0033715/2015-09-01",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        " Personal Records Base Registry and BRP law"
+      ]
+    },
+    {
+      "@id": "http://wetten.overheid.nl/BWBR0021777/2016-07-01",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Trade Registry Act"
+      ]
+    },
+    {
+      "@id": "http://wetten.overheid.nl/BWBR0022428/2014-01-06",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Unique Identifying Numbers Law"
+      ]
+    },
+    {
+      "@id": "https://wetten.overheid.nl/BWBR0032203/2022-03-02",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Procurement Act 2012"
+      ]
+    },
+    {
+      "@id": "https://zoek.officielebekendmakingen.nl/stb-2018-1.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "eInvoicing Directive 2014/55/EU"
+      ]
+    },
+    {
+      "@id": "https://wetten.overheid.nl/BWBR0026759/2019-01-01",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Services Act (Dienstenwet)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.minv.sk/swift_data/source/verejna_sprava/zivnostenske_podnikanie_zuborova/Services%2520Directive.pdf"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.minv.sk/swift_data/source/verejna_sprava/zivnostenske_podnikanie_zuborova/Services%2520Directive.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "http://www.minv.sk/swift_data/source/verejna_sprava/zivnostenske_podnikanie_zuborova/Services%20Directive.pdf",
+      "http://data.europa.eu/eli/ontology#title": [
+        "EU Services Directive"
+      ]
+    },
+    {
+      "@id": "https://wetten.overheid.nl/BWBR0013060/2015-07-01/2",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "SUWI act"
+      ]
+    },
+    {
+      "@id": "https://www.government.nl/latest/news/2019/07/02/green-light-for-experimental-law-for-testing-self-driving-vehicles-on-public-roads",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Experimental Law on Self-Driving Vehicles"
+      ]
+    },
+    {
+      "@id": "https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/Country%20factsheets%202020/Netherlands/data.overheid.nl",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://mijn.overheid.nl/?r=1",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.higherlevel.nl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.logius.nl/diensten/samenwerkende-catalogi",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.ondernemersplein.nl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/Country%20factsheets%202020/Netherlands/Mijnoverheid.nl",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.rijksoverheid.nl/actueel/nieuws/2018/10/09/post-van-de-overheid-direct-op-mobiel-met-de-berichtenbox-app",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.logius.nl/diensten/digipoort/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://developer.overheid.nl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.logius.nl/diensten/diginetwerk/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.logius.nl/diensten/digilevering",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.logius.nl/diensten/digimelding/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.logius.nl/diensten/digikoppeling",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.logius.nl/diensten/stelselcatalogus/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.digid.nl/over-digid/app/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.eherkenning.nl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.digitaleoverheid.nl/dossiers/certificeringpki-overheid/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.pianoo.nl/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.stpe.nl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.stpe.nl/over_stpe.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/dienstverlening-aan-burgers-en-ondernemers/efactureren/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ideal.nl/en/consumers/what-is-ideal/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.it-academieoverheid.nl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.gebruikercentraal.nl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.rijksoverheid.nl/documenten/rapporten/2021/06/15/monitor-digitale-overheid-2021",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.cbs.nl/nl-nl/maatwerk/2016/50/eenmeting-kwaliteit-basisregistraties-in-samenhang-2016",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dashboards.cbs.nl/v3/viermeting_kwaliteit_samenhang_basisregistraties/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.pdok.nl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/10-basisregistraties/hr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/10-basisregistraties/bag/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/10-basisregistraties/brt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/10-basisregistraties/bgt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/10-basisregistraties/brk/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/10-basisregistraties/brv/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/10-basisregistraties/bri/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/10-basisregistraties/woz/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/10-basisregistraties/bro/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://algoritmeregister.amsterdam.nl/en/ai-register/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

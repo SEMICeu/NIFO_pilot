@@ -1,0 +1,112 @@
+<http://data.europa.eu/nifo/factsheet/Lithuania> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Lithuania>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/LTU";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsLithuania>, <http://example.org/nifo/dataset/ThefollowinggraphspresentdataforthelatestDigitalPublicAdministrationIndicatorsforLithuaniacomparedtotheEUaverage.StatisticalindicatorsinthissectionreflectthoseofEurostatatthetimetheEditionisbeingprepared.Lithuania>, <http://example.org/nifo/legalframework/Lithuania>, <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring>, <https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2022>, <https://e-seimas.lrs.lt/portal/legalActEditions/lt/TAD/TAIS.415499?faces-redirect=true>, <http://www.epaslaugos.lt/egovportal/appmanager/main/public>, <https://www.epaslaugos.lt/portal/en>, <https://www.epaslaugos.lt/portal/citizen>, <https://www.epaslaugos.lt/portal/business>, <https://www.lietuva.gov.lt/>, <https://imas.vmi.lt/isaf/dynamicPage/aboutIaps>, <https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/4125a932084d11e687e0fbad81d55a7c?jfwid=-o9wlo7d65>, <https://www.e-tar.lt/portal/index.html>, <http://www.esveikata.lt/>, <https://www.spis.lt/>, <https://www.antstoliai.lt/ais2/>, <https://www.evarzytynes.lt/evs/>, <https://www.antstoliai.lt/vbp/public>, <https://www.registrucentras.lt/p/1026>, <http://www.registrucentras.lt/p/1108>;
+ <http://purl.org/dc/terms/title> "Interoperability State of Play", "eGovernment State of Play ", "Digital Public Administration Political Communications ", "Digital Public Administration Legislation ";
+ <http://purl.org/dc/terms/source> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring>, "Source: European Interoperability Framework Monitoring Mechanism 2021", "Source: eGovernment Benchmark Report 2022 Country Factsheets" .
+<http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsLithuania> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataSet>;
+ <http://purl.org/dc/terms/title> "Digital Public Administration Indicators";
+ <http://purl.org/linked-data/cube#structure> <http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsLithuania>;
+ <http://purl.org/dc/terms/source> "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en" .
+<http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsLithuania> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition>;
+ <http://purl.org/linked-data/cube#component> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinLithuania>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinLithuania>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinLithuania>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsubmittedcompletedformstopublicauthoritiesinLithuania>;
+ <http://www.w3.org/2000/01/rdf-schema#label> <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinLithuania>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinLithuania>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinLithuania>, <http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsubmittedcompletedformstopublicauthoritiesinLithuania> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforinteractingwithpublicauthoritiesinLithuania> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforobtaininginformationfrompublicauthoritiesinLithuania> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetfordownloadingofficialformsfrompublicauthoritiesinLithuania> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<http://example.org/nifo/MeasureProperty/PercentageofindividualsusingtheinternetforsubmittedcompletedformstopublicauthoritiesinLithuania> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#MeasureProperty> .
+<https://e-seimas.lrs.lt/portal/legalActEditions/lt/TAD/TAIS.415499?faces-redirect=true> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "State Information Resources Management Law" .
+<http://example.org/nifo/legalframework/Lithuania> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.83679/asr>, <https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.440732?jfwid=-a3k5cldad>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013L0037>, <https://eur-lex.europa.eu/eli/dir/2016/2102/oj>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG>, <https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014R0910&from=LT>, <https://e-seimas.lrs.lt/portal/legalAct/en/TAD/c5174772ecd011e89d4ad92e8434e309>, <https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/845ca520ed5411e89d4ad92e8434e309?jfwid=rivwzvpvg>, <https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/b21ef8e082b011e98a8298567570d639?jfwid=q8i88m1en>, <https://eur-lex.europa.eu/eli/dir/2016/1148/oj>, <https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/94365031a53411e8aa33fe8f0fea665f/asr>, <http://www.ada.lt/images/cms/File/pers.data.prot.law.pdf>, <https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.415499/JDOsfYhanI>, <http://www.ird.lt/doc/teises_aktai/20150827_Nr1V-667.pdf>, <https://www.e-tar.lt/portal/lt/legalAct/TAR.DCBDC82E26CD/asr>, <https://www.e-tar.lt/portal/lt/legalAct/5a4201b0903111e4bb408baba2bdddf3/asr>, <https://www.e-tar.lt/portal/lt/legalAct/TAR.5735E146A232/asr>, <https://www.e-tar.lt/portal/lt/legalAct/TAR.9E302593CE80>, <https://www.e-tar.lt/portal/lt/legalAct/TAR.38E82AA2664C/asr>, <https://www.e-tar.lt/portal/lt/legalAct/ce127200d06011e3a8ded1a0f5aff0a9/asr>, <https://www.e-tar.lt/portal/lt/legalAct/TAR.72C31F8DD98E/asr>, <https://www.e-tar.lt/portal/lt/legalAct/TAR.ABFF44B31A81/asr>, <https://www.e-tar.lt/portal/lt/legalAct/TAR.0120FD7BCFFC/asr>, <https://www.e-tar.lt/portal/lt/legalAct/TAR.1BBA0B658863>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0024>, <http://www3.lrs.lt/pls/inter3/dokpaieska.showdoc_l?p_id=361342&p_query=&p_tr2=>, <https://www.e-tar.lt/portal/lt/legalAct/TAR.8A719A97956F/asr>, <https://www.e-tar.lt/portal/lt/legalAct/c753b2904dc511ec862fdcbc8b3e3e05> .
+<https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.83679/asr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Public Administration" .
+<https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.440732?jfwid=-a3k5cldad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the Right to Receive Information from State and Local Authorities and Institutions";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003L0098&from=en> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003L0098&from=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "PSI Directive (2003/98/EC)";
+ <http://purl.org/dc/terms/relation> <https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.266160> .
+<https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.266160> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "amended law" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013L0037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive of the European Parliament and the Council 2013/37/EU amending Directive 2003/98/EC on the Re-Use of Public Sector Information (PSI)" .
+<https://eur-lex.europa.eu/eli/dir/2016/2102/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive (EU) 2016/2102 of the European Parliament and of the Council on the accessibility of websites and mobile applications of public sector bodies" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive (EU) 2016/2102 on the accessibility of the websites and mobile applications of public sector bodies" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation on electronic identification and trust services for electronic transactions in the internal market (eIDAS Regulation)", "eIDAS Regulation" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014R0910&from=LT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "eIDAS Regulation" .
+<https://e-seimas.lrs.lt/portal/legalAct/en/TAD/c5174772ecd011e89d4ad92e8434e309> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Electronic Identification and Trust Services for Electronic Transactions";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG> .
+<https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/845ca520ed5411e89d4ad92e8434e309?jfwid=rivwzvpvg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Order on the Approval of the Specifications for the Procedure Granting Qualified Trust Service Providers and Qualified Trust Services Status, the Incorporation Thereof in the National Trusted List and the Provision of Activity Reports on Qualified Trust Service Providers " .
+<https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/b21ef8e082b011e98a8298567570d639?jfwid=q8i88m1en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Identity Card and Passport Law" .
+<https://eur-lex.europa.eu/eli/dir/2016/1148/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Security of Network and Information Systems Directive (Directive (EU) 2016/1148 or NIS Directive)" .
+<https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/94365031a53411e8aa33fe8f0fea665f/asr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "law" .
+<http://www.ada.lt/images/cms/File/pers.data.prot.law.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the Legal Protection of Personal Data";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/eli/reg/2016/679/oj> .
+<https://eur-lex.europa.eu/eli/reg/2016/679/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "General Data Protection Regulation (GDPR)." .
+<https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.415499/JDOsfYhanI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the Management of State Information Resources" .
+<http://www.ird.lt/doc/teises_aktai/20150827_Nr1V-667.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law of the Republic of Lithuania on the Offence Registry" .
+<https://www.e-tar.lt/portal/lt/legalAct/TAR.DCBDC82E26CD/asr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the Population Registry" .
+<https://www.e-tar.lt/portal/lt/legalAct/5a4201b0903111e4bb408baba2bdddf3/asr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation on the Population Registry " .
+<https://www.e-tar.lt/portal/lt/legalAct/TAR.5735E146A232/asr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the Registry of Legal Entities" .
+<https://www.e-tar.lt/portal/lt/legalAct/TAR.9E302593CE80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "The Resolution on the Setting up of the Registry of Legal Entities and the Approval of the Regulations of the Registry of Legal Entities" .
+<https://www.e-tar.lt/portal/lt/legalAct/TAR.38E82AA2664C/asr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the Real Property Registry" .
+<https://www.e-tar.lt/portal/lt/legalAct/ce127200d06011e3a8ded1a0f5aff0a9/asr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulations on the Real Property Registry" .
+<https://www.e-tar.lt/portal/lt/legalAct/TAR.72C31F8DD98E/asr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the Real Property Cadastre" .
+<https://www.e-tar.lt/portal/lt/legalAct/TAR.ABFF44B31A81/asr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulations of the Real Property Cadastre" .
+<https://www.e-tar.lt/portal/lt/legalAct/TAR.0120FD7BCFFC/asr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Administrative Units and their Boundaries " .
+<https://www.e-tar.lt/portal/lt/legalAct/TAR.1BBA0B658863> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation on the Registry of Road Transport Vehicles " .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive (EU) 2014/24 ";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0025> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive (EU) 2014/25" .
+<http://www3.lrs.lt/pls/inter3/dokpaieska.showdoc_l?p_id=361342&p_query=&p_tr2=> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Services" .
+<https://www.e-tar.lt/portal/lt/legalAct/TAR.8A719A97956F/asr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Information Society Services";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2000/31/EC on certain legal aspects of information society services, in particular on electronic commerce in the Internal Market (eCommerce Directive)" .
+<https://www.e-tar.lt/portal/lt/legalAct/c753b2904dc511ec862fdcbc8b3e3e05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "amendment to the Law on Electronic Communications" .
+<http://www.epaslaugos.lt/egovportal/appmanager/main/public> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.epaslaugos.lt/portal/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.epaslaugos.lt/portal/citizen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.epaslaugos.lt/portal/business> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.lietuva.gov.lt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://imas.vmi.lt/isaf/dynamicPage/aboutIaps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/4125a932084d11e687e0fbad81d55a7c?jfwid=-o9wlo7d65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.e-tar.lt/portal/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.esveikata.lt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.spis.lt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.antstoliai.lt/ais2/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.evarzytynes.lt/evs/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.antstoliai.lt/vbp/public> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.registrucentras.lt/p/1026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.registrucentras.lt/p/1108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .

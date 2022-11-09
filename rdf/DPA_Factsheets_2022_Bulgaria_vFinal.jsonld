@@ -1,0 +1,545 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Bulgaria",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Bulgaria"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/BGR"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsBulgaria"
+        },
+        {
+          "@id": "http://example.org/nifo/legalframework/Bulgaria"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2022"
+        },
+        {
+          "@id": "https://data.egov.bg/"
+        },
+        {
+          "@id": "https://pitay.government.bg/PDoiExt/indexExt.jsf;jsessionid=nH0Llq-2_gf5hBdaPT-p5ntf9_7RmJYJqzu2p0FP.egp16-app2p"
+        },
+        {
+          "@id": "https://www2.aop.bg/en/home/"
+        },
+        {
+          "@id": "https://dev.egov.bg/PDev/index.jsf"
+        },
+        {
+          "@id": "https://egov.bg/wps/portal/en"
+        },
+        {
+          "@id": "https://svc.sofia.bg/"
+        },
+        {
+          "@id": "http://www.strategy.bg/PublicConsultations/View.aspx?lang=bg-BG&Id=2971"
+        },
+        {
+          "@id": "https://info-regix.egov.bg/public"
+        },
+        {
+          "@id": "https://www.grao.bg/"
+        },
+        {
+          "@id": "https://edelivery.egov.bg/"
+        },
+        {
+          "@id": "https://e-gov.bg/wps/portal/agency/infrastructure"
+        },
+        {
+          "@id": "http://www.aop.bg/index.php?ln=1"
+        },
+        {
+          "@id": "http://rop3-app1.aop.bg:7778/portal/page?_pageid=173,1130263&_dad=portal&_schema=PORTAL"
+        },
+        {
+          "@id": "https://pay.egov.bg/"
+        },
+        {
+          "@id": "https://www.lex.bg/laws/ldoc/2135555445"
+        },
+        {
+          "@id": "https://github.com/governmentbg"
+        },
+        {
+          "@id": "https://git.egov.bg/"
+        },
+        {
+          "@id": "https://www.noi.bg/"
+        },
+        {
+          "@id": "https://www.nssi.bg/aboutbg"
+        }
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Interoperability State of Play",
+        "eGovernment State of Play ",
+        "Digital Public Administration Political Communications ",
+        "Digital Public Administration Legislation "
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2022"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/dataset/DigitalPublicAdministrationIndicatorsBulgaria",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataSet"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Public Administration Indicators"
+      ],
+      "http://purl.org/linked-data/cube#structure": [
+        {
+          "@id": "http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsBulgaria"
+        }
+      ],
+      "http://purl.org/dc/terms/source": [
+        "http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15ei&lang=en"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Bulgaria",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.lex.bg/laws/ldoc/2135555445"
+        },
+        {
+          "@id": "https://www.lex.bg/laws/ldoc/2135555445"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102"
+        },
+        {
+          "@id": "https://www.lex.bg/laws/ldoc/2135555445"
+        },
+        {
+          "@id": "https://www.lex.bg/laws/ldoc/2135555445"
+        },
+        {
+          "@id": "https://lex.bg/laws/ldoc/2134929408"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex:32003L0098"
+        },
+        {
+          "@id": "https://www.lex.bg/laws/ldoc/2135426048"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+        },
+        {
+          "@id": "https://pris.government.bg/prin/document_view.aspx?DocumentID=mB5ZzXmVTHUWQ93y/7vx+Q=="
+        },
+        {
+          "@id": "https://www.lex.bg/laws/ldoc/2135180800"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG"
+        },
+        {
+          "@id": "http://www.lex.bg/bg/laws/ldoc/2136822116"
+        },
+        {
+          "@id": "https://www.lex.bg/laws/ldoc/2135555445"
+        },
+        {
+          "@id": "https://www.lex.bg/bg/laws/ldoc/2137188253"
+        },
+        {
+          "@id": "https://www.lex.bg/bg/laws/ldoc/2137188253"
+        },
+        {
+          "@id": "https://www.lex.bg/laws/ldoc/2135426048"
+        },
+        {
+          "@id": "https://www.lex.bg/laws/ldoc/2135522741"
+        },
+        {
+          "@id": "https://www.lex.bg/laws/ldoc/2134918656"
+        },
+        {
+          "@id": "https://www.lex.bg/laws/ldoc/2134673409"
+        },
+        {
+          "@id": "https://lex.bg/bg/laws/ldoc/2136735703"
+        },
+        {
+          "@id": "http://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=130598"
+        },
+        {
+          "@id": "http://lex.bg/en/laws/ldoc/2135530547"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/DigitalPublicAdministrationIndicatorsBulgaria",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ]
+    },
+    {
+      "@id": "https://www.lex.bg/laws/ldoc/2135555445",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "eGovernment Act",
+        "eGovernance Act",
+        "Electronic Government Act (eGovernment Act)",
+        "eGovernment Act",
+        "eGovernment Act"
+      ]
+    },
+    {
+      "@id": "https://e-gov.bg/wps/portal/agency/infrastructure",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive (EU) 2016/2102"
+      ]
+    },
+    {
+      "@id": "https://lex.bg/laws/ldoc/2134929408",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Access to Public Information Act"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex:32003L0098",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2003/98/EC on the re-use of public sector information "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013L0037"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013L0037",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2013/37/EC"
+      ]
+    },
+    {
+      "@id": "https://www.lex.bg/laws/ldoc/2135426048",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Bulgarian Personal Data Protection Act (PDPA)",
+        "Law on the Protection of Personal Data"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation 2016/679/EU of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data"
+      ]
+    },
+    {
+      "@id": "https://pris.government.bg/prin/document_view.aspx?DocumentID=mB5ZzXmVTHUWQ93y/7vx+Q==",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decision No. 634"
+      ]
+    },
+    {
+      "@id": "https://www.lex.bg/laws/ldoc/2135180800",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Electronic Document and Electronic Signature"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation (EC) 910/2014"
+      ]
+    },
+    {
+      "@id": "http://www.lex.bg/bg/laws/ldoc/2136822116",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Electronic Identification Act"
+      ]
+    },
+    {
+      "@id": "https://www.lex.bg/bg/laws/ldoc/2137188253",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Cybersecurity Act",
+        "Cybersecurity Act"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        " Directive 95/46/EC on the protection of natural persons with regard to the processing of personal data and on the free movement of such data"
+      ]
+    },
+    {
+      "@id": "https://www.lex.bg/laws/ldoc/2135522741",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Commercial Register and Register of Non-Profit Legal Entities Act"
+      ]
+    },
+    {
+      "@id": "https://www.lex.bg/laws/ldoc/2134918656",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Cadastre and Property Register Act"
+      ]
+    },
+    {
+      "@id": "https://www.lex.bg/laws/ldoc/2134673409",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Civil Register Act"
+      ]
+    },
+    {
+      "@id": "https://lex.bg/bg/laws/ldoc/2136735703",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Public Procurement Act"
+      ]
+    },
+    {
+      "@id": "http://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=130598",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Public Procurement Act"
+      ]
+    },
+    {
+      "@id": "http://lex.bg/en/laws/ldoc/2135530547",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        " eCommerce Act"
+      ]
+    },
+    {
+      "@id": "https://data.egov.bg/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://pitay.government.bg/PDoiExt/indexExt.jsf;jsessionid=nH0Llq-2_gf5hBdaPT-p5ntf9_7RmJYJqzu2p0FP.egp16-app2p",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www2.aop.bg/en/home/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dev.egov.bg/PDev/index.jsf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://egov.bg/wps/portal/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://svc.sofia.bg/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.strategy.bg/PublicConsultations/View.aspx?lang=bg-BG&Id=2971",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://info-regix.egov.bg/public",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.grao.bg/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://edelivery.egov.bg/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.aop.bg/index.php?ln=1",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://rop3-app1.aop.bg:7778/portal/page?_pageid=173,1130263&_dad=portal&_schema=PORTAL",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://pay.egov.bg/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://github.com/governmentbg",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://git.egov.bg/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.noi.bg/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.nssi.bg/aboutbg",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}
