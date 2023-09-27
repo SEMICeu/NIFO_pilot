@@ -146,7 +146,19 @@ var createHtmlToRDFa = function() {
             switch(content){
                 case "Country Profile":
                 case "Profile":
+                case "Interoperability State-of-Play":
                     $(this).nextUntil(config['section_header']).each(function (index, elem) {
+                        $(this).find("img").addClass('keepElement');
+                        $(this).find('a').each(function(index, element){
+                            var linkText = $(this).text().toLowerCase();
+                            if( checkArray(linkText, Object.keys(config['type_framework']).map(function(k) { return config['type_framework'][k] })) ){
+                                $(this).attr('typeOf', config['class']['country']);
+                                $(this).attr('property', config['prop']['relation']);
+                                var linkURI = encodeURI($(this).attr('href'));
+                                $(this).attr('href', linkURI);
+                                $(this).after('<span resource="'+linkURI+'" property="'+config['prop']['ELItitle']+'" content="'+$(this).text()+'"></span>')
+                            }
+                        });
                         if ($(this).text().indexOf("Population") >= 0) {
                             //Population
                             $(this).attr("property", config['prop']['population']);
@@ -248,8 +260,9 @@ var createHtmlToRDFa = function() {
                         } else {
                             //else
                         }
-                        $(this).find("img").addClass('keepElement');
+                        //$(this).find("img").addClass('keepElement');
                     });
+                    $(this).nextUntil(config['section_header']).add($(this).closest(config['section_header'])).wrapAll('<div resource="'+config['prefix']['country']+countryLabel+'" typeOf="'+config['class']['framework']+'"></div>');
                     break;
                 case "Digital Public Administration Highlights":
                     $(this).nextUntil(config['section_header']).each(function (index, elem) {
@@ -293,6 +306,7 @@ var createHtmlToRDFa = function() {
                 case "Political Initiatives for Digital Public Administration in the European Union":
                     $(this).nextUntil(config['section_header']).each(function (index, elem) {
                         content = $(this).text();
+                        $(this).find("img").addClass('keepElement');
                         $(this).find('a').each(function(index, element){
                             var linkText = $(this).text().toLowerCase();
                             if( checkArray(linkText, Object.keys(config['type_framework']).map(function(k) { return config['type_framework'][k] })) ){
@@ -305,6 +319,7 @@ var createHtmlToRDFa = function() {
                         });
                         $(this).find("img").addClass('keepElement');
                     });
+                    $(this).nextUntil(config['section_header']).add($(this).closest(config['section_header'])).wrapAll('<div resource="'+config['prefix']['contact']+countryLabel+'" typeOf="'+config['class']['framework']+'"></div>');
                     break;
                 case "Digital Public Administration Legislation":
                 case "Legislative Instruments for Digital Public Administration in the European Union":
@@ -323,6 +338,7 @@ var createHtmlToRDFa = function() {
                         });
                     });
                     $(this).nextUntil(config['section_header']).add($(this).closest(config['section_header'])).wrapAll('<div resource="'+config['prefix']['legalframework']+countryLabel+'" typeOf="'+config['class']['framework']+'"></div>');
+
                     break;
                 case "Digital Public Administration Governance":
                 case "Governance":
@@ -386,6 +402,7 @@ var createHtmlToRDFa = function() {
                             }
                         });
                     });
+                    $(this).nextUntil(config['section_header']).add($(this).closest(config['section_header'])).wrapAll('<div resource="'+config['prefix']['service']+countryLabel+'" typeOf="'+config['class']['framework']+'"></div>');
                     break;
                 case "Digital Public Administration Infrastructure":
                 case "Digital Public Administration Infrastructures":
@@ -400,7 +417,9 @@ var createHtmlToRDFa = function() {
                             $(this).attr("resource", linkURI);
                         });
                     });
+                    $(this).nextUntil(config['section_header']).add($(this).closest(config['section_header'])).wrapAll('<div resource="'+config['prefix']['datastructure']+countryLabel+'" typeOf="'+config['class']['framework']+'"></div>');
                     break;
+                case "Cross border Digital Public Administration Services for Citizens and Businesses":
                 case "Cross Border Digital Public Administration Services for Citizens and Business":
                     $(this).nextUntil(config['section_header'], 'ul').each(function (index, elem) {
                         $(this).children('li').each(function (index, elem) {
@@ -419,6 +438,7 @@ var createHtmlToRDFa = function() {
                             });
                         }
                     });
+                    $(this).nextUntil(config['section_header']).add($(this).closest(config['section_header'])).wrapAll('<div resource="'+config['prefix']['datastructure']+countryLabel+'" typeOf="'+config['class']['framework']+'"></div>');
                     break;
             }
         });
@@ -467,10 +487,32 @@ var createHtmlToRDFa = function() {
                 }
                 $('p.image-container').after('<h2>European Union</h2>');
                 break;
+            case 'Germany':
+                if (fileName.indexOf('2023_Germany_vFINAL') >= 0 && $('body').children('div').first().children('h2').first().children().length === 0) {
+                    $('body').children('div').first().children('h2').first().remove();
+                }
+                break;
+            case 'Greece':
+                if (fileName.indexOf('2023_Greece_vFINAL') >= 0 && $('body').children('div').first().children('h3').first().children().length === 0) {
+                    $('body').children('div').first().children('h3').first().remove();
+                }
+                break;
+            case 'Malta':
+                if (fileName.includes('2023_Malta_vFinal')) {
+                    $('body').children('div').first().find('h1').first().remove();
+                }
+                break;
+            case 'Denmark':
+                if (fileName.includes('2023_Denmark_vFINAL')) {
+                    $('body').children('div').first().find('h1').eq(3).remove();
+                }
+                break;
             default:
                 $('p.image-container').after('<h2>'+countryLabel+'</h2>');
         }
-        $('p.image-container').after('<h2>Digital Public Administration factsheet 2021</h2>');
+        if (fileName.includes("2021")) {
+            $('p.image-container').after('<h2>Digital Public Administration factsheet 2021</h2>');
+        }
         /*=================*/
         /* GENERATE OUTPUT */
         /*=================*/
