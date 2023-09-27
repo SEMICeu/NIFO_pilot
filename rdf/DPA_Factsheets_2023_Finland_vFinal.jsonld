@@ -1,0 +1,761 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Finland",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Finland"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/FIN"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/legalframework/Finland"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Finland",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.finlex.fi/fi/laki/alkup/2019/20190906"
+        },
+        {
+          "@id": "http://www.finlex.fi/fi/laki/ajantasa/2016/20160571"
+        },
+        {
+          "@id": "https://www.finlex.fi/fi/laki/alkup/2019/20190306"
+        },
+        {
+          "@id": "https://www.finlex.fi/fi/laki/alkup/2019/20190906"
+        },
+        {
+          "@id": "https://oikeusministerio.fi/en/act-on-the-openness-of-government-activities"
+        },
+        {
+          "@id": "https://www.finlex.fi/en/laki/kaannokset/2019/en20190906"
+        },
+        {
+          "@id": "http://www.finlex.fi/fi/laki/ajantasa/2009/20090617"
+        },
+        {
+          "@id": "http://finlex.fi/fi/esitykset/he/2018/20180284"
+        },
+        {
+          "@id": "https://www.finlex.fi/fi/laki/alkup/2015/20150010"
+        },
+        {
+          "@id": "http://www.finlex.fi/fi/laki/ajantasa/2007/20070348"
+        },
+        {
+          "@id": "http://www.finlex.fi/fi/laki/smur/2016/20161397"
+        },
+        {
+          "@id": "https://www.finlex.fi/fi/laki/alkup/2019/20190241"
+        },
+        {
+          "@id": "https://finlex.fi/fi/laki/ajantasa/2023/20230431"
+        },
+        {
+          "@id": "http://www.finlex.fi/fi/laki/ajantasa/2009/20090661"
+        },
+        {
+          "@id": "https://stm.fi/sote-tiedon-hyodyntaminen"
+        },
+        {
+          "@id": "https://www.finlex.fi/fi/laki/alkup/2021/20210203"
+        }
+      ]
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/country/Finland",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ],
+      "http://dbpedia.org/ontology/areaTotal": [
+        "Finland’s scores in Scoreboard 2 illustrate an overall good implementation of the interoperability layers, with only scores of 3 and 4. Areas of improvement to strengthen the country’s implementation of the recommendations under Scoreboard 2 concern legal interoperability and organisational interoperability, where the county received a score of 3. More specifically, Finland should work on documenting its business processes using commonly accepted modelling techniques and agree on how these processes should be aligned to deliver a European public service (Organisational interoperability – Recommendation 28) as well as to continue ensuring that its legislation is screened by means of ‘interoperability checks’, to identify any barriers to interoperability.  "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring",
+      "http://data.europa.eu/eli/ontology#title": [
+        "interactive dashboards"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/Finland",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://avoinhallinto.fi/en/home/"
+        },
+        {
+          "@id": "https://oikeusministerio.fi/en/act-on-the-openness-of-government-activities"
+        }
+      ]
+    },
+    {
+      "@id": "https://avoinhallinto.fi/en/home/",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Finnish Open Government Action Plan (2019–2023"
+      ]
+    },
+    {
+      "@id": "https://oikeusministerio.fi/en/act-on-the-openness-of-government-activities",
+      "@type": [
+        "http://schema.org/ContactPoint",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Act on the Openness of Government Activities"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Openness of Government Activities Act"
+      ]
+    },
+    {
+      "@id": "https://www.finlex.fi/fi/laki/alkup/2019/20190906",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Information Management in Public Administration ",
+        "Act on Information Management in Public Administration "
+      ]
+    },
+    {
+      "@id": "http://www.finlex.fi/fi/laki/ajantasa/2016/20160571",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Shared Support Services for eGovernment"
+      ]
+    },
+    {
+      "@id": "https://www.finlex.fi/fi/laki/alkup/2019/20190306",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Provision of Digital Services Act"
+      ]
+    },
+    {
+      "@id": "https://www.finlex.fi/en/laki/kaannokset/2019/en20190906",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Information Management in Public Administration"
+      ]
+    },
+    {
+      "@id": "http://www.finlex.fi/fi/laki/ajantasa/2009/20090617",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Strong Electronic Identification and Trust Services Act"
+      ]
+    },
+    {
+      "@id": "http://finlex.fi/fi/esitykset/he/2018/20180284",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Information Management in Public Administration "
+      ]
+    },
+    {
+      "@id": "https://www.finlex.fi/fi/laki/alkup/2015/20150010",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Government Security Network Activities Act"
+      ]
+    },
+    {
+      "@id": "http://www.finlex.fi/fi/laki/ajantasa/2007/20070348",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "acts on public procurement"
+      ]
+    },
+    {
+      "@id": "http://www.finlex.fi/fi/laki/smur/2016/20161397",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        " Public Procurement Act"
+      ]
+    },
+    {
+      "@id": "https://www.finlex.fi/fi/laki/alkup/2019/20190241",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        " Electronic Invoicing for Contracting Entities and Traders Act"
+      ]
+    },
+    {
+      "@id": "https://finlex.fi/fi/laki/ajantasa/2023/20230431",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on the Built Environment Information System"
+      ]
+    },
+    {
+      "@id": "http://www.finlex.fi/fi/laki/ajantasa/2009/20090661",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on the Population Information System and Services by the Digital and Population Data Services Agency"
+      ]
+    },
+    {
+      "@id": "https://stm.fi/sote-tiedon-hyodyntaminen",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        " Secondary Use of Health and Social Data Act"
+      ]
+    },
+    {
+      "@id": "https://www.finlex.fi/fi/laki/alkup/2021/20210203",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "amendments to the Act on Broadband Construction Aid"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/Finland",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.omaolo.fi/"
+        },
+        {
+          "@id": "https://www.demokratia.fi/en/home/"
+        },
+        {
+          "@id": "https://www.lausuntopalvelu.fi/FI"
+        },
+        {
+          "@id": "https://www.otakantaa.fi/"
+        },
+        {
+          "@id": "https://kuntalaisaloite.fi/fi"
+        },
+        {
+          "@id": "https://www.kansalaisaloite.fi/"
+        },
+        {
+          "@id": "http://www.paikkatietoikkuna.fi/web/en/"
+        },
+        {
+          "@id": "https://www.opendata.fi/en"
+        },
+        {
+          "@id": "https://yhteentoimiva.suomi.fi/en/"
+        },
+        {
+          "@id": "https://www.finlex.fi/fi/laki/alkup/2019/20190906"
+        },
+        {
+          "@id": "https://kokeile.tyomarkkinatori.fi/Etusivu"
+        },
+        {
+          "@id": "https://hri.fi/en_gb/"
+        },
+        {
+          "@id": "https://avi.fi/en/southwestern-finland"
+        },
+        {
+          "@id": "https://data.tampere.fi/en_gb/"
+        },
+        {
+          "@id": "https://www.ouka.fi/oulu/english/open-data"
+        },
+        {
+          "@id": "https://www.turku.fi/avoindata"
+        },
+        {
+          "@id": "https://www.kuopio.fi/en/avoin-data"
+        },
+        {
+          "@id": "https://www.hameenlinna.fi/hallinto-ja-talous/talous-ja-hankinnat/avoin-data/"
+        },
+        {
+          "@id": "https://www.avoinsatakunta.fi/"
+        },
+        {
+          "@id": "https://www.csc.fi/funet-all-services"
+        },
+        {
+          "@id": "https://dvv.fi/en/"
+        },
+        {
+          "@id": "https://vrk.fi/en/electronic-identity-and-certificates"
+        },
+        {
+          "@id": "https://dvv.fi/en/"
+        },
+        {
+          "@id": "https://dvv.fi/en/"
+        },
+        {
+          "@id": "https://dvv.fi/en/"
+        },
+        {
+          "@id": "https://dvv.fi/en/"
+        },
+        {
+          "@id": "https://dvv.fineid.fi/en"
+        },
+        {
+          "@id": "https://dvv.fi/en/"
+        },
+        {
+          "@id": "https://dvv.fi/en/"
+        },
+        {
+          "@id": "http://www.suomi.fi/services/citizen-certificate-digital-and-population-data-services-agency/dc540ff4-0030-46b2-add0-9f7ceb2a41c8"
+        },
+        {
+          "@id": "https://dvv.fi/en/"
+        },
+        {
+          "@id": "https://dvv.fi/en/for-organisations"
+        },
+        {
+          "@id": "https://dvv.fi/en/article/-/asset_publisher/palvelinvarmenne"
+        },
+        {
+          "@id": "https://dvv.fi/en/"
+        },
+        {
+          "@id": "https://www.suomi.fi/etusivu/"
+        },
+        {
+          "@id": "https://www.suomi.fi/e-authorizations-identification/"
+        },
+        {
+          "@id": "https://ytj.fi/"
+        },
+        {
+          "@id": "https://tutkihankintoja.fi/?lang=fi"
+        },
+        {
+          "@id": "https://tutkihankintoja.fi/?lang=fi"
+        },
+        {
+          "@id": "https://www.hansel.fi/en/"
+        },
+        {
+          "@id": "http://www.hankintailmoitukset.fi/fi/"
+        },
+        {
+          "@id": "https://kb.basware.com/basware-business-transactions-bt/supplier-portal"
+        },
+        {
+          "@id": "https://www.basware.com/en-us"
+        },
+        {
+          "@id": "http://www.posti.fi/yritysasiakkaat/asiointiportaali/palvelut-verkoston-tunnuksilla/"
+        },
+        {
+          "@id": "https://www.posti.com/en/"
+        },
+        {
+          "@id": "https://x-road.global/development-roadmap"
+        },
+        {
+          "@id": "https://vrk.fi/en/population-information-system"
+        },
+        {
+          "@id": "https://www.prh.fi/en/yhdistysrekisteri.html"
+        },
+        {
+          "@id": "https://www.prh.fi/en/kaupparekisteri.html"
+        },
+        {
+          "@id": "https://www.prh.fi/fi/saatiorekisteri.html"
+        },
+        {
+          "@id": "https://www.maanmittauslaitos.fi/kiinteistot/asiantuntevalle-kayttajalle/kiinteistotiedot-ja-niiden-hankinta/kiinteistorekisteri"
+        },
+        {
+          "@id": "https://www.ytj.fi/en/"
+        },
+        {
+          "@id": "https://vayla.fi/avoindata/digiroad"
+        },
+        {
+          "@id": "https://www.vero.fi/en/incomes-register/"
+        },
+        {
+          "@id": "https://mmm.fi/en/article/-/asset_publisher/osakehuoneistojen-tiedot-uuteen-rekisteriin-vuodesta-2019-alka-1"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.omaolo.fi/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.demokratia.fi/en/home/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.lausuntopalvelu.fi/FI",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.otakantaa.fi/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://kuntalaisaloite.fi/fi",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.kansalaisaloite.fi/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.paikkatietoikkuna.fi/web/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.opendata.fi/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://yhteentoimiva.suomi.fi/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://kokeile.tyomarkkinatori.fi/Etusivu",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://hri.fi/en_gb/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://avi.fi/en/southwestern-finland",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://data.tampere.fi/en_gb/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ouka.fi/oulu/english/open-data",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.turku.fi/avoindata",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.kuopio.fi/en/avoin-data",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.hameenlinna.fi/hallinto-ja-talous/talous-ja-hankinnat/avoin-data/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.avoinsatakunta.fi/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.csc.fi/funet-all-services",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dvv.fi/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://vrk.fi/en/electronic-identity-and-certificates",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dvv.fineid.fi/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.suomi.fi/services/citizen-certificate-digital-and-population-data-services-agency/dc540ff4-0030-46b2-add0-9f7ceb2a41c8",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dvv.fi/en/for-organisations",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dvv.fi/en/article/-/asset_publisher/palvelinvarmenne",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.suomi.fi/etusivu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.suomi.fi/e-authorizations-identification/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ytj.fi/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://tutkihankintoja.fi/?lang=fi",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.hansel.fi/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.hankintailmoitukset.fi/fi/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://kb.basware.com/basware-business-transactions-bt/supplier-portal",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.basware.com/en-us",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.posti.fi/yritysasiakkaat/asiointiportaali/palvelut-verkoston-tunnuksilla/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.posti.com/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://x-road.global/development-roadmap",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://vrk.fi/en/population-information-system",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.prh.fi/en/yhdistysrekisteri.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.prh.fi/en/kaupparekisteri.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.prh.fi/fi/saatiorekisteri.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.maanmittauslaitos.fi/kiinteistot/asiantuntevalle-kayttajalle/kiinteistotiedot-ja-niiden-hankinta/kiinteistorekisteri",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ytj.fi/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://vayla.fi/avoindata/digiroad",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.vero.fi/en/incomes-register/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://mmm.fi/en/article/-/asset_publisher/osakehuoneistojen-tiedot-uuteen-rekisteriin-vuodesta-2019-alka-1",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Finland",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

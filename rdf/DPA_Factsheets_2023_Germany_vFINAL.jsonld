@@ -1,0 +1,146 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Germany",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Germany"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/DEU"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/legalframework/Germany"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Germany",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/#:~:text=What%2520is%2520the%2520Online%2520Access%2520Act?&text=The%2520Online%2520Access%2520Act%2520(Onlinezugangsgesetz,new%2520era%2520of%2520federal%2520cooperation."
+        },
+        {
+          "@id": "http://data.europa.eu/nifo/factsheet/#:~:text=What%2520is%2520the%2520Online%2520Access%2520Act?&text=The%2520Online%2520Access%2520Act%2520(Onlinezugangsgesetz,new%2520era%2520of%2520federal%2520cooperation."
+        },
+        {
+          "@id": "https://www.bescha.bund.de/SharedDocs/Downloads/02_kdb_subsite/gesetze_beschluesse_etc/vol_A.pdf?__blob=publicationFile&v=1"
+        }
+      ]
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/country/Germany",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/Germany",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/#:~:text=What%2520is%2520the%2520Online%2520Access%2520Act?&text=The%2520Online%2520Access%2520Act%2520(Onlinezugangsgesetz,new%2520era%2520of%2520federal%2520cooperation.",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/#:~:text=What%20is%20the%20Online%20Access%20Act?&text=The%20Online%20Access%20Act%20(Onlinezugangsgesetz,new%20era%20of%20federal%20cooperation.",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Online Access Act",
+        "Online Access Act"
+      ]
+    },
+    {
+      "@id": "https://www.bescha.bund.de/SharedDocs/Downloads/02_kdb_subsite/gesetze_beschluesse_etc/vol_A.pdf?__blob=publicationFile&v=1",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Contract Awards for Public Supplies and Services-Part A"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/Germany",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.bescha.bund.de/"
+        },
+        {
+          "@id": "http://www.service.bund.de/"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.bescha.bund.de/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.service.bund.de/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Germany",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

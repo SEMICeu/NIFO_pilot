@@ -1,0 +1,851 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/European%20Union",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/European_Union"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/EU"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/legalframework/European_Union"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/European_Union",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32006L0123"
+        },
+        {
+          "@id": "https://commission.europa.eu/publications/interoperable-europe-act-proposal_en"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020PC0767"
+        },
+        {
+          "@id": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/13045-Data-Act-including-the-review-of-the-Directive-96-9-EC-on-the-legal-protection-of-databases-_fr"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020PC0767"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/policies/web-accessibility"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024"
+        },
+        {
+          "@id": "https://www.europeansources.info/record/regulation-eu-2018-1724-establishing-a-single-digital-gateway-to-provide-access-to-information-to-procedures-and-to-assistance-and-problem-solving-services/"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018R1807"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022PC0057"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/library/proposal-directive-measures-high-common-level-cybersecurity-across-union"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016L1148&qid=1482413313776&from=en"
+        },
+        {
+          "@id": "https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2017-4460501_en"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2016.119.01.0001.01.ENG&toc=OJ:L:2016:119:TOC"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:31995L0046"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1552577087456&uri=CELEX:32018R1725"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32012L0017"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2015.144.01.0001.01.ENG"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01.ENG"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32014L0055"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/eli/reg_impl/2019/1780/oj"
+        },
+        {
+          "@id": "https://www.europarl.europa.eu/thinktank/en/document.html?reference=EPRS_BRI(2021)690589"
+        },
+        {
+          "@id": "https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/digital-markets-act-ensuring-fair-and-open-digital-markets_en"
+        },
+        {
+          "@id": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/12928-Screening-of-foreign-direct-investment-list-of-projects-&-programmes-of-EU-interest-update-_en"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/library/european-chips-act-communication-regulation-joint-undertaking-and-recommendation"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020PC0569"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/news/harmonising-spectrum-enhanced-connectivity-ready-5g-and-innovation"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022D0173&qid=1644396899138"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022D0172&qid=1644399341374"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022D0180&qid=1644477553078"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022D0179&qid=1644477768617"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/policies/eu-rules-reduce-cost-high-speed-broadband-deployment"
+        }
+      ]
+    },
+    {
+      "@id": "https://education.ec.europa.eu/focus-topics/digital-education/about/digital-education-action-plan",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Education Action Plan actions for the period 2021-2027"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R0868",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Data Governance Act"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=COM:2020:825:FIN",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Digital Services Act"
+      ]
+    },
+    {
+      "@id": "https://commission.europa.eu/publications/interoperable-europe-act-proposal_en",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Interoperable Europe Act"
+      ]
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/country/European_Union",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ],
+      "http://dbpedia.org/ontology/areaTotal": [
+        "The results in Scoreboard 1 show an overall good implementation of the EIF principles for the 27 Member States with multiple principles scoring at 4. Areas of improvement are concentrated in the Principle 1 (Subsidiarity and Proportionality), 7 (Inclusion and Accessibility), 9 (Multilingualism) and 12 (Assessment of Effectiveness and Efficiency), for which the score of 3 shows an upper-medium performance in the implementation of the corresponding recommendations. However, it should be noted that Principle 1 (Subsidiarity and Proportionality) and Principle 12 (Assessment of Effectiveness and Efficiency) outperform 2021 and therefore score slightly above 3 in 2022."
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring",
+      "http://data.europa.eu/eli/ontology#title": [
+        "interactive dashboards"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG",
+      "http://data.europa.eu/eli/ontology#title": [
+        "eIDAS Regulation",
+        "Regulation (EU) No 910/2014"
+      ],
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/European_Union",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/European_Union",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://ec.europa.eu/isa2/eif_en/#:~:text=The%2520Interoperability%2520Action%2520Plan%2520is,of%2520the%2520benefits%2520of%2520interoperability."
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/library/proposal-directive-measures-high-common-level-cybersecurity-across-union"
+        },
+        {
+          "@id": "https://education.ec.europa.eu/focus-topics/digital-education/about/digital-education-action-plan"
+        },
+        {
+          "@id": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/13207-Digital-education-enabling-factors-for-success_en"
+        },
+        {
+          "@id": "https://www.europarl.europa.eu/legislative-train/theme-a-europe-fit-for-the-digital-age/file-single-market-enforcement-action-plan"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/policies/egovernment-action-plan#:~:text=The%2520eGovernment%2520Action%2520Plan%2520set,benefits%2520of%2520digital%2520public%2520services."
+        },
+        {
+          "@id": "https://ec.europa.eu/home-affairs/sites/default/files/pdf/action_plan_on_integration_and_inclusion_2021-2027.pdf"
+        }
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/isa2/eif_en/#:~:text=The%2520Interoperability%2520Action%2520Plan%2520is,of%2520the%2520benefits%2520of%2520interoperability.",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/isa2/eif_en/#:~:text=The%20Interoperability%20Action%20Plan%20is,of%20the%20benefits%20of%20interoperability.",
+      "http://purl.org/dc/terms/title": [
+        "Interoperability Action Plan"
+      ]
+    },
+    {
+      "@id": "https://digital-strategy.ec.europa.eu/en/library/proposal-directive-measures-high-common-level-cybersecurity-across-union",
+      "@type": [
+        "http://schema.org/ContactPoint",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Directive"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://ec.europa.eu/home-affairs/news/commission-proposes-new-directive-enhance-resilience-critical-entities-providing-essential_en"
+        }
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive on Security of Network and Information Systems "
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/home-affairs/news/commission-proposes-new-directive-enhance-resilience-critical-entities-providing-essential_en",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Directive"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/13207-Digital-education-enabling-factors-for-success_en",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Recommendation on the enabling factors for digital education"
+      ]
+    },
+    {
+      "@id": "https://www.europarl.europa.eu/legislative-train/theme-a-europe-fit-for-the-digital-age/file-single-market-enforcement-action-plan",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Action Plan"
+      ]
+    },
+    {
+      "@id": "https://digital-strategy.ec.europa.eu/en/policies/egovernment-action-plan#:~:text=The%2520eGovernment%2520Action%2520Plan%2520set,benefits%2520of%2520digital%2520public%2520services.",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ]
+    },
+    {
+      "@id": "https://digital-strategy.ec.europa.eu/en/policies/egovernment-action-plan#:~:text=The%20eGovernment%20Action%20Plan%20set,benefits%20of%20digital%20public%20services.",
+      "http://purl.org/dc/terms/title": [
+        "eGovernment Action Plan"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/home-affairs/sites/default/files/pdf/action_plan_on_integration_and_inclusion_2021-2027.pdf",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Action Plan on Integration and Inclusion 2021-"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32006L0123",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Services Directive "
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020PC0767",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Data Governance Act",
+        "Data Governance Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R0868"
+        },
+        {
+          "@id": "https://www.europarl.europa.eu/doceo/document/TA-9-2023-0069_EN.html"
+        }
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/13045-Data-Act-including-the-review-of-the-Directive-96-9-EC-on-the-legal-protection-of-databases-_fr",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Inception Impact Assessment"
+      ]
+    },
+    {
+      "@id": "https://www.europarl.europa.eu/doceo/document/TA-9-2023-0069_EN.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Data Act"
+      ]
+    },
+    {
+      "@id": "https://digital-strategy.ec.europa.eu/en/policies/web-accessibility",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Web Accessibility Directive "
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive (EU) 2019/1024"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX:32003L0098"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX:32003L0098",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2003/98/EC"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/FR/ALL/?uri=CELEX:32013L0037"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/FR/ALL/?uri=CELEX:32013L0037",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2013/37/EU"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://ec.europa.eu/digital-single-market/en/proposal-revision-psi-directive"
+        }
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/digital-single-market/en/proposal-revision-psi-directive",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive "
+      ]
+    },
+    {
+      "@id": "https://www.europeansources.info/record/regulation-eu-2018-1724-establishing-a-single-digital-gateway-to-provide-access-to-information-to-procedures-and-to-assistance-and-problem-solving-services/",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "regulation on setting up a single digital"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018R1807",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022PC0057",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "proposal for a Regulation establishing the Union Secure Connectivity Programme for the period 2023-2027"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016L1148&qid=1482413313776&from=en",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "The Directive on Security of Network and Information Systems "
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2017-4460501_en",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "draft Implementing Regulation Pursuant Art",
+        "16(8) of the NIS Directive"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://ec.europa.eu/info/law/better-regulation/initiatives/ares-2017-4460501_en"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2016.119.01.0001.01.ENG&toc=OJ:L:2016:119:TOC",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Data Protection Regulation "
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:31995L0046",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 95/46/EC "
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1552577087456&uri=CELEX:32018R1725",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation 2018/1725 "
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32012L0017",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2012/17/EU "
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2015.144.01.0001.01.ENG",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation (EU) 2015/884 "
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01.ENG",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32014L0055",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "eInvoicing Directive 2014/55/EU "
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/eli/reg_impl/2019/1780/oj",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation"
+      ]
+    },
+    {
+      "@id": "https://www.europarl.europa.eu/thinktank/en/document.html?reference=EPRS_BRI(2021)690589",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation on contestable and fair markets in the digital sector"
+      ]
+    },
+    {
+      "@id": "https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/digital-markets-act-ensuring-fair-and-open-digital-markets_en",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Digital Markets Act,"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=COM:2020:825:FIN"
+        }
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/12928-Screening-of-foreign-direct-investment-list-of-projects-&-programmes-of-EU-interest-update-_en",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Foreign Direct Investment (FDI) Screening Regulation"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02019R0452-20200919"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02019R0452-20200919",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation (EU) No 2019/452"
+      ]
+    },
+    {
+      "@id": "https://digital-strategy.ec.europa.eu/en/library/european-chips-act-communication-regulation-joint-undertaking-and-recommendation",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "European Chips Act"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020PC0569",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Proposal for a Council Regulation on establishing a EuroHPC"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018R1488"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018R1488",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Council Regulation (EU) 2018/1488"
+      ]
+    },
+    {
+      "@id": "https://digital-strategy.ec.europa.eu/en/news/harmonising-spectrum-enhanced-connectivity-ready-5g-and-innovation",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "implementing decisions"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022D0173&qid=1644396899138",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Commission Implementing Decision on the harmonisation of the 900 MHz and 1800 MHz frequency bands for terrestrial systems capable of providing electronic communications services in the Union"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022D0172&qid=1644399341374",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Commission Implementing Decision on the harmonisation of radio spectrum for use by short-range devices within the 874-876 and 915-921 MHz frequency bands"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022D0180&qid=1644477553078",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Commission Implementing Decision as regards the update of harmonised technical conditions in the area of radio spectrum use for short-range devices"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022D0179&qid=1644477768617",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Commission Implementing Decision on the harmonised use of radio spectrum in the 5 GHz frequency band for the implementation of wireless access systems including radio local area networks"
+      ]
+    },
+    {
+      "@id": "https://digital-strategy.ec.europa.eu/en/policies/eu-rules-reduce-cost-high-speed-broadband-deployment",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "the Gigabit Infrastructure Act"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/European_Union",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/about"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/solution/imaps"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/sites/default/files/distribution/access_url/2018-02/402ca761-e487-48e3-8aee-23335200ca42/IMAPS%20v1.1.1%20Questionnaire.pdf"
+        },
+        {
+          "@id": "https://ec.europa.eu/isa2/sites/isa/files/imaps_value_proposition.pdf"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/community/european_catalogue/og_page/catalogue"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/community/european_catalogue/og_page/catalogue"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/ict-standards-procurement/catalogue"
+        },
+        {
+          "@id": "https://ec.europa.eu/isa2/solutions/core-vocabularies_en"
+        },
+        {
+          "@id": "https://ec.europa.eu/info/news/european-parliament-and-commission-launch-free-open-source-software-european-public-services-fosseps-pilot-project-2022-feb-11_fr"
+        },
+        {
+          "@id": "https://ec.europa.eu/commission/presscorner/detail/en/IP_21_2663"
+        },
+        {
+          "@id": "https://futurium.ec.europa.eu/en/digital-identity"
+        },
+        {
+          "@id": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space_en"
+        },
+        {
+          "@id": "https://www.geant.org/About"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-blockchain"
+        },
+        {
+          "@id": "https://cinea.ec.europa.eu/programmes/connecting-europe-facility_en"
+        }
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/about",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/solution/imaps",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/sites/default/files/distribution/access_url/2018-02/402ca761-e487-48e3-8aee-23335200ca42/IMAPS%20v1.1.1%20Questionnaire.pdf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/isa2/sites/isa/files/imaps_value_proposition.pdf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/community/european_catalogue/og_page/catalogue",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/collection/ict-standards-procurement/catalogue",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/isa2/solutions/core-vocabularies_en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/info/news/european-parliament-and-commission-launch-free-open-source-software-european-public-services-fosseps-pilot-project-2022-feb-11_fr",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/commission/presscorner/detail/en/IP_21_2663",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://futurium.ec.europa.eu/en/digital-identity",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space_en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.geant.org/About",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-blockchain",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://cinea.ec.europa.eu/programmes/connecting-europe-facility_en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

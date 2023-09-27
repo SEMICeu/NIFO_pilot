@@ -1,0 +1,1154 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Cyprus",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Cyprus"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/CYP"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/legalframework/Cyprus"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Cyprus",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.cylaw.org/nomoi/enop/non-ind/2017_1_184/index.html"
+        },
+        {
+          "@id": "https://www.data.gov.cy/sites/default/files/%25C3%258E%25C2%259D%25C3%258F%25C2%258C%25C3%258E%25C2%25BC%25C3%258E%25C2%25BF%25C3%258F%25C2%2582%2520143(%25C3%258E%25C2%2599)%2520%25C3%258F%25C2%2580%25C3%258E%25C2%25B5%25C3%258F%25C2%2581%25C3%258E%25C2%25AF%2520%25C3%258E%25C2%2591%25C3%258E%25C2%25BD%25C3%258E%25C2%25BF%25C3%258E%25C2%25B9%25C3%258E%25C2%25BA%25C3%258F%25C2%2584%25C3%258F%25C2%258E%25C3%258E%25C2%25BD%2520%25C3%258E%25C2%2594%25C3%258E%25C2%25B5%25C3%258E%25C2%25B4%25C3%258E%25C2%25BF%25C3%258E%25C2%25BC%25C3%258E%25C2%25AD%25C3%258E%25C2%25BD%25C3%258F%25C2%2589%25C3%258E%25C2%25BD%2520%25C3%258E%25C2%25BA%25C3%258E%25C2%25B1%25C3%258E%25C2%25B9%2520%25C3%258F%25C2%2584%25C3%258E%25C2%25B7%25C3%258F%25C2%2582%2520%25C3%258E%25C2%25A0%25C3%258E%25C2%25B5%25C3%258F%25C2%2581%25C3%258E%25C2%25B1%25C3%258E%25C2%25B9%25C3%258F%25C2%2584%25C3%258E%25C2%25AD%25C3%258F%25C2%2581%25C3%258F%25C2%2589%2520%25C3%258E%25C2%25A7%25C3%258F%25C2%2581%25C3%258E%25C2%25AE%25C3%258F%25C2%2583%25C3%258E%25C2%25B7%25C3%258F%25C2%2582%2520%25C3%258F%25C2%2584%25C3%258F%25C2%2589%25C3%258E%25C2%25BD%2520%25C3%258E%25C2%25A0%25C3%258E%25C2%2594%25C3%258E%25C2%25A4%25202021.pdf"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R0910"
+        },
+        {
+          "@id": "http://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/page3b_en/page3b_en?opendocument"
+        },
+        {
+          "@id": "https://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/page3b_en/page3b_en?opendocument"
+        },
+        {
+          "@id": "http://www.cylaw.org/nomoi/enop/non-ind/2016_1_73/index.html"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex:32000L0031"
+        },
+        {
+          "@id": "http://www.cylaw.org/nomoi/indexes/2012_1_81.html"
+        },
+        {
+          "@id": "http://www.cylaw.org/nomoi/indexes/2019_1_59.html"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055"
+        }
+      ]
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/country/Cyprus",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring",
+      "http://data.europa.eu/eli/ontology#title": [
+        "interactive dashboards"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/Cyprus",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://dsf.dmrid.gov.cy/"
+        },
+        {
+          "@id": "https://www.dmrid.gov.cy/dmrid/research.nsf/planning01_el/planning01_el?OpenDocument"
+        },
+        {
+          "@id": "https://www.dmrid.gov.cy/dmrid/research.nsf/planning_el/planning_el?OpenDocument"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.dmrid.gov.cy/dmrid/research.nsf/planning01_el/planning01_el?OpenDocument",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Skills – National Action Plan 2021–2025"
+      ]
+    },
+    {
+      "@id": "https://dsf.dmrid.gov.cy/",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Services Factory (DSF) model"
+      ]
+    },
+    {
+      "@id": "https://www.dmrid.gov.cy/dmrid/research.nsf/planning_el/planning_el?OpenDocument",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "National Digital Skills Action Plan 2021–2025"
+      ]
+    },
+    {
+      "@id": "http://www.cylaw.org/nomoi/enop/non-ind/2017_1_184/index.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Access to Public Sector Information (Law 184(Ι)/2017)"
+      ]
+    },
+    {
+      "@id": "https://www.data.gov.cy/sites/default/files/%25C3%258E%25C2%259D%25C3%258F%25C2%258C%25C3%258E%25C2%25BC%25C3%258E%25C2%25BF%25C3%258F%25C2%2582%2520143(%25C3%258E%25C2%2599)%2520%25C3%258F%25C2%2580%25C3%258E%25C2%25B5%25C3%258F%25C2%2581%25C3%258E%25C2%25AF%2520%25C3%258E%25C2%2591%25C3%258E%25C2%25BD%25C3%258E%25C2%25BF%25C3%258E%25C2%25B9%25C3%258E%25C2%25BA%25C3%258F%25C2%2584%25C3%258F%25C2%258E%25C3%258E%25C2%25BD%2520%25C3%258E%25C2%2594%25C3%258E%25C2%25B5%25C3%258E%25C2%25B4%25C3%258E%25C2%25BF%25C3%258E%25C2%25BC%25C3%258E%25C2%25AD%25C3%258E%25C2%25BD%25C3%258F%25C2%2589%25C3%258E%25C2%25BD%2520%25C3%258E%25C2%25BA%25C3%258E%25C2%25B1%25C3%258E%25C2%25B9%2520%25C3%258F%25C2%2584%25C3%258E%25C2%25B7%25C3%258F%25C2%2582%2520%25C3%258E%25C2%25A0%25C3%258E%25C2%25B5%25C3%258F%25C2%2581%25C3%258E%25C2%25B1%25C3%258E%25C2%25B9%25C3%258F%25C2%2584%25C3%258E%25C2%25AD%25C3%258F%25C2%2581%25C3%258F%25C2%2589%2520%25C3%258E%25C2%25A7%25C3%258F%25C2%2581%25C3%258E%25C2%25AE%25C3%258F%25C2%2583%25C3%258E%25C2%25B7%25C3%258F%25C2%2582%2520%25C3%258F%25C2%2584%25C3%258F%25C2%2589%25C3%258E%25C2%25BD%2520%25C3%258E%25C2%25A0%25C3%258E%25C2%2594%25C3%258E%25C2%25A4%25202021.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "https://www.data.gov.cy/sites/default/files/%C3%8E%C2%9D%C3%8F%C2%8C%C3%8E%C2%BC%C3%8E%C2%BF%C3%8F%C2%82%20143(%C3%8E%C2%99)%20%C3%8F%C2%80%C3%8E%C2%B5%C3%8F%C2%81%C3%8E%C2%AF%20%C3%8E%C2%91%C3%8E%C2%BD%C3%8E%C2%BF%C3%8E%C2%B9%C3%8E%C2%BA%C3%8F%C2%84%C3%8F%C2%8E%C3%8E%C2%BD%20%C3%8E%C2%94%C3%8E%C2%B5%C3%8E%C2%B4%C3%8E%C2%BF%C3%8E%C2%BC%C3%8E%C2%AD%C3%8E%C2%BD%C3%8F%C2%89%C3%8E%C2%BD%20%C3%8E%C2%BA%C3%8E%C2%B1%C3%8E%C2%B9%20%C3%8F%C2%84%C3%8E%C2%B7%C3%8F%C2%82%20%C3%8E%C2%A0%C3%8E%C2%B5%C3%8F%C2%81%C3%8E%C2%B1%C3%8E%C2%B9%C3%8F%C2%84%C3%8E%C2%AD%C3%8F%C2%81%C3%8F%C2%89%20%C3%8E%C2%A7%C3%8F%C2%81%C3%8E%C2%AE%C3%8F%C2%83%C3%8E%C2%B7%C3%8F%C2%82%20%C3%8F%C2%84%C3%8F%C2%89%C3%8E%C2%BD%20%C3%8E%C2%A0%C3%8E%C2%94%C3%8E%C2%A4%202021.pdf",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 143(I)/2021"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.172.01.0056.01.ENG"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.172.01.0056.01.ENG",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive (EU) 2019/1024"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive (EU) 2016/2102"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.mof.gov.cy/mof/gpo/gpo.nsf/All/0FB0F6C76FD8A8E3C22583D30066CF1D?OpenDocument"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.mof.gov.cy/mof/gpo/gpo.nsf/All/0FB0F6C76FD8A8E3C22583D30066CF1D?OpenDocument",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law Νo. 50(Ι)/2019"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R0910",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation (EU) 910/2014"
+      ]
+    },
+    {
+      "@id": "http://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/page3b_en/page3b_en?opendocument",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 125(I)/2018"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://publications.europa.eu/en/publication-detail/-/publication/3e485e15-11bd-11e6-ba9a-01aa75ed71a1/language-en"
+        }
+      ]
+    },
+    {
+      "@id": "https://publications.europa.eu/en/publication-detail/-/publication/3e485e15-11bd-11e6-ba9a-01aa75ed71a1/language-en",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation (EU) 2016/679"
+      ]
+    },
+    {
+      "@id": "https://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/page3b_en/page3b_en?opendocument",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 125(I)/2018"
+      ]
+    },
+    {
+      "@id": "http://www.cylaw.org/nomoi/enop/non-ind/2016_1_73/index.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Laws No. 73(I)/2016"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2014/55/EU",
+        "Directive 2018/1972/EU"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.cylaw.org/nomoi/arith/2019_1_089.pdf"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.cylaw.org/nomoi/arith/2019_1_089.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 89(I)/2019"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex:32000L0031",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2000/31/EC"
+      ]
+    },
+    {
+      "@id": "http://www.cylaw.org/nomoi/indexes/2012_1_81.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 81(I)/2012on Electronic Money "
+      ]
+    },
+    {
+      "@id": "http://www.cylaw.org/nomoi/indexes/2019_1_59.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 59 (I)/2019"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/Cyprus",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.gov.cy/gr/"
+        },
+        {
+          "@id": "https://www.businessincyprus.gov.cy/about-us/#:~:text=Point%20of%20Single%20Contact%20(PSC)%20Cyprus&text=The%20PSC%20Cyprus%20portal,%20https,the%20services%20sector%20of%20Cyprus."
+        },
+        {
+          "@id": "https://www.businessincyprus.gov.cy/about-us/"
+        },
+        {
+          "@id": "https://www.eprocurement.gov.cy/epps/cft/prepareViewCfTWS.do?resourceId=5384223"
+        },
+        {
+          "@id": "https://cge.cyprus.gov.cy/"
+        },
+        {
+          "@id": "http://www.data.gov.cy/"
+        },
+        {
+          "@id": "https://getdkan.org/"
+        },
+        {
+          "@id": "https://data.europa.eu/sites/default/files/data.europa.eu_landscaping_insight_report_n8_2022_1_1.pdf"
+        },
+        {
+          "@id": "https://www.pio.gov.cy/en/press-releases-article.html?id=4631#flat"
+        },
+        {
+          "@id": "http://portal.dls.moi.gov.cy/en-us/Pages/The-Department-of-Lands-and-Surveys-Web-Portal.aspx"
+        },
+        {
+          "@id": "https://inspire.ec.europa.eu/"
+        },
+        {
+          "@id": "https://hippodamus.tph.moi.gov.cy/#/main"
+        },
+        {
+          "@id": "https://www.mof.gov.cy/mof/papd/papd.nsf/page50_gr/page50_gr?OpenDocument"
+        },
+        {
+          "@id": "https://anticorruption.pias.gov.cy/pias/pias.nsf/index_en/index_en?opendocument"
+        },
+        {
+          "@id": "http://www.police.gov.cy/pias/pias.nsf/infocomplaints_en/infocomplaints_en?opendocument"
+        },
+        {
+          "@id": "http://www.cypruspost.post/"
+        },
+        {
+          "@id": "http://www.cypruspost.post/"
+        },
+        {
+          "@id": "https://www.cypruspost.post/en/e-shop?category=issues"
+        },
+        {
+          "@id": "https://www.cypruspost.post/en/shipping-tool"
+        },
+        {
+          "@id": "https://www.cypruspost.post/en/news/online-kepo"
+        },
+        {
+          "@id": "http://www.cbsit.com.cy/en/postal-services-solutions"
+        },
+        {
+          "@id": "http://www.moi.gov.cy/moi/crmd/crmd.nsf/index_en/index_en?OpenDocument"
+        },
+        {
+          "@id": "https://ecivil.crmd.moi.gov.cy/eCivil/index.jsp?pnum=CIT0P001"
+        },
+        {
+          "@id": "https://ijustice.judicial.gov.cy/"
+        },
+        {
+          "@id": "https://engrafes.moec.gov.cy/register/home"
+        },
+        {
+          "@id": "https://rtd.mcw.gov.cy/WebPhase1/gui/Common/LoginFrameGreek.jsp?lang=en"
+        },
+        {
+          "@id": "https://taxisnet.mof.gov.cy/login.jsp"
+        },
+        {
+          "@id": "https://taxisnet.mof.gov.cy/"
+        },
+        {
+          "@id": "https://taxportal.mof.gov.cy/"
+        },
+        {
+          "@id": "https://www.mof.gov.cy/mof/tax/taxdep.nsf/index_en/index_en?opendocument"
+        },
+        {
+          "@id": "https://ergani.mlsi.gov.cy/(S(esf1ri0g2sodabvgzfkhqcqv))/login.aspx?ReturnUrl=/"
+        },
+        {
+          "@id": "http://www.motionbuscard.org.cy/"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/eli/reg_del/2017/1926/oj"
+        },
+        {
+          "@id": "https://www.fundingprogrammesportal.gov.cy/en/funding-programmes/"
+        },
+        {
+          "@id": "https://ijustice.judicial.gov.cy/"
+        },
+        {
+          "@id": "https://ec.europa.eu/isa2/solutions/testa_en"
+        },
+        {
+          "@id": "https://e-consultation.gov.cy/"
+        },
+        {
+          "@id": "http://dits.dmrid.gov.cy/dmrid/dits/dits.nsf/All/123A11A0573FE559C22578F60034739E?OpenDocument"
+        },
+        {
+          "@id": "https://dits.dmrid.gov.cy/dmrid/dits/dits.nsf/index_gr/index_gr?opendocument"
+        },
+        {
+          "@id": "http://www.mof.gov.cy/papd"
+        },
+        {
+          "@id": "https://ec.europa.eu/inea/en/connecting-europe-facility/cef-telecom/2016-cy-ia-0054"
+        },
+        {
+          "@id": "https://ec.europa.eu/inea/en/connecting-europe-facility/cef-telecom/2016-cy-ia-0054"
+        },
+        {
+          "@id": "http://www.moi.gov.cy/moi/asylum/asylumservice.nsf/index_en/index_en?OpenDocument"
+        },
+        {
+          "@id": "https://dec.dmrid.gov.cy/dmrid/dec/ws_dec.nsf/elaw_el/elaw_el?OpenDocument"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R0910"
+        },
+        {
+          "@id": "https://www.eprocurement.gov.cy/ceproc/home.do"
+        },
+        {
+          "@id": "http://www.treasury.gov.cy/treasury/publicpro/ppro.nsf/dmlindex_en/dmlindex_en?OpenDocument"
+        },
+        {
+          "@id": "http://www.e-invoicing.gov.cy/mof/einvoicing/e-invoicing.nsf/"
+        },
+        {
+          "@id": "http://www.moi.gov.cy/moi/e-invoicingla.nsf/home_en/home_en?openform"
+        },
+        {
+          "@id": "https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eInvoicing+in+Cyprus"
+        },
+        {
+          "@id": "http://www.cyprus.gov.cy/"
+        },
+        {
+          "@id": "https://taxportal.mof.gov.cy/"
+        },
+        {
+          "@id": "https://www.mof.gov.cy/mof/gpo/gpo.nsf/dmlindex_en/dmlindex_en"
+        },
+        {
+          "@id": "http://www.businessincyprus.gov.cy/"
+        },
+        {
+          "@id": "https://www.cypruspost.post/en/thalisupp%22%20%5Cl%20%22:~:text=Using%20%C3%A2%C2%80%C2%9CThalis%20Upload%20&%20Payment%20Platform,before%20its%20arrival%20in%20Cyprus."
+        },
+        {
+          "@id": "http://www.geoportal.gov.cy/MOI/DLS/geoportal/geoportal.nsf/index_en/index_en?OpenDocument"
+        },
+        {
+          "@id": "http://www.gsd-seismology.org.cy/"
+        },
+        {
+          "@id": "https://www.mof.gov.cy/mof/pdmo/pdmo.nsf/index_en/index_en?opendocument"
+        },
+        {
+          "@id": "https://www.mof.gov.cy/mof/capa/cyacademy.nsf/index_en/index_en?opendocument"
+        },
+        {
+          "@id": "https://www.piopressreleases.com.cy/"
+        },
+        {
+          "@id": "https://www.pressarchive.cy/"
+        },
+        {
+          "@id": "http://www.publications.gov.cy/"
+        },
+        {
+          "@id": "http://www.mcw.gov.cy/mcw/da/da.nsf/all/1A7BF21DA2D1652DC225750C00228456?opendocument"
+        },
+        {
+          "@id": "http://www.mof.gov.cy/mof/ce/theseas/theseas.nsf/index_en/index_en?OpenDocument"
+        },
+        {
+          "@id": "https://ec.europa.eu/social/main.jsp?catId=869"
+        },
+        {
+          "@id": "https://health.ec.europa.eu/system/files/2022-09/cbhc_ncp_en.pdf"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32011L0024"
+        },
+        {
+          "@id": "http://www.eures.gov.cy/mlsi/dl/eures/eures.nsf/index_en/index_en?opendocument"
+        },
+        {
+          "@id": "https://www.eucaris.net/"
+        },
+        {
+          "@id": "https://rtd.mcw.gov.cy/WebPhase1/gui/Common/LoginFrameGreek.jsp?lang=en"
+        },
+        {
+          "@id": "http://www.cylaw.org/nomoi/indexes/2019_1_45.html"
+        },
+        {
+          "@id": "https://www.pio.gov.cy/en/register-of-sworn-translators.html"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/policies/blockchain-partnership#:~:text=The%20European%20Blockchain%20Partnership%20(EBP)%20helps%20avoid%20fragmentation%20of%20the,deployment%20of%20blockchain-based%20services."
+        },
+        {
+          "@id": "https://www.cysec.gov.cy/en-GB/home/"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.gov.cy/gr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.businessincyprus.gov.cy/about-us/#:~:text=Point%20of%20Single%20Contact%20(PSC)%20Cyprus&text=The%20PSC%20Cyprus%20portal,%20https,the%20services%20sector%20of%20Cyprus.",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.businessincyprus.gov.cy/about-us/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.eprocurement.gov.cy/epps/cft/prepareViewCfTWS.do?resourceId=5384223",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://cge.cyprus.gov.cy/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.data.gov.cy/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://getdkan.org/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://data.europa.eu/sites/default/files/data.europa.eu_landscaping_insight_report_n8_2022_1_1.pdf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.pio.gov.cy/en/press-releases-article.html?id=4631#flat",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://portal.dls.moi.gov.cy/en-us/Pages/The-Department-of-Lands-and-Surveys-Web-Portal.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://inspire.ec.europa.eu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://hippodamus.tph.moi.gov.cy/#/main",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mof.gov.cy/mof/papd/papd.nsf/page50_gr/page50_gr?OpenDocument",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://anticorruption.pias.gov.cy/pias/pias.nsf/index_en/index_en?opendocument",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.police.gov.cy/pias/pias.nsf/infocomplaints_en/infocomplaints_en?opendocument",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.cypruspost.post/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.cypruspost.post/en/e-shop?category=issues",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.cypruspost.post/en/shipping-tool",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.cypruspost.post/en/news/online-kepo",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.cbsit.com.cy/en/postal-services-solutions",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.moi.gov.cy/moi/crmd/crmd.nsf/index_en/index_en?OpenDocument",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ecivil.crmd.moi.gov.cy/eCivil/index.jsp?pnum=CIT0P001",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ijustice.judicial.gov.cy/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://engrafes.moec.gov.cy/register/home",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rtd.mcw.gov.cy/WebPhase1/gui/Common/LoginFrameGreek.jsp?lang=en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://taxisnet.mof.gov.cy/login.jsp",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://taxisnet.mof.gov.cy/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://taxportal.mof.gov.cy/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mof.gov.cy/mof/tax/taxdep.nsf/index_en/index_en?opendocument",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ergani.mlsi.gov.cy/(S(esf1ri0g2sodabvgzfkhqcqv))/login.aspx?ReturnUrl=/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.motionbuscard.org.cy/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/eli/reg_del/2017/1926/oj",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.fundingprogrammesportal.gov.cy/en/funding-programmes/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/isa2/solutions/testa_en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://e-consultation.gov.cy/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://dits.dmrid.gov.cy/dmrid/dits/dits.nsf/All/123A11A0573FE559C22578F60034739E?OpenDocument",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dits.dmrid.gov.cy/dmrid/dits/dits.nsf/index_gr/index_gr?opendocument",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.mof.gov.cy/papd",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/inea/en/connecting-europe-facility/cef-telecom/2016-cy-ia-0054",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.moi.gov.cy/moi/asylum/asylumservice.nsf/index_en/index_en?OpenDocument",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dec.dmrid.gov.cy/dmrid/dec/ws_dec.nsf/elaw_el/elaw_el?OpenDocument",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.eprocurement.gov.cy/ceproc/home.do",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.treasury.gov.cy/treasury/publicpro/ppro.nsf/dmlindex_en/dmlindex_en?OpenDocument",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.e-invoicing.gov.cy/mof/einvoicing/e-invoicing.nsf/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.moi.gov.cy/moi/e-invoicingla.nsf/home_en/home_en?openform",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eInvoicing+in+Cyprus",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.cyprus.gov.cy/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mof.gov.cy/mof/gpo/gpo.nsf/dmlindex_en/dmlindex_en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.businessincyprus.gov.cy/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.cypruspost.post/en/thalisupp%22%20%5Cl%20%22:~:text=Using%20%C3%A2%C2%80%C2%9CThalis%20Upload%20&%20Payment%20Platform,before%20its%20arrival%20in%20Cyprus.",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.geoportal.gov.cy/MOI/DLS/geoportal/geoportal.nsf/index_en/index_en?OpenDocument",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.gsd-seismology.org.cy/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mof.gov.cy/mof/pdmo/pdmo.nsf/index_en/index_en?opendocument",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mof.gov.cy/mof/capa/cyacademy.nsf/index_en/index_en?opendocument",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.piopressreleases.com.cy/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.pressarchive.cy/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.publications.gov.cy/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.mcw.gov.cy/mcw/da/da.nsf/all/1A7BF21DA2D1652DC225750C00228456?opendocument",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.mof.gov.cy/mof/ce/theseas/theseas.nsf/index_en/index_en?OpenDocument",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/social/main.jsp?catId=869",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://health.ec.europa.eu/system/files/2022-09/cbhc_ncp_en.pdf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32011L0024",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.eures.gov.cy/mlsi/dl/eures/eures.nsf/index_en/index_en?opendocument",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.eucaris.net/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.cylaw.org/nomoi/indexes/2019_1_45.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.pio.gov.cy/en/register-of-sworn-translators.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://digital-strategy.ec.europa.eu/en/policies/blockchain-partnership#:~:text=The%20European%20Blockchain%20Partnership%20(EBP)%20helps%20avoid%20fragmentation%20of%20the,deployment%20of%20blockchain-based%20services.",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.cysec.gov.cy/en-GB/home/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Cyprus",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Travel",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/travel/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Cyprus/OnlineplatformforregistrationofCypriotcitizensoverseas",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://www.connect2cy.gov.cy/"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Workandretirement",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/work/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Vehicles",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/vehicles/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Residenceformalities",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/residence/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Educationandyouth",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/education/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Health",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/health/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Family",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/family/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Consumers",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/consumers/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Runningabusiness",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/running-business/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Taxation",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/taxation/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Cyprus/SellingintheEU",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/selling-in-eu/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Cyprus/HumanResources",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/human-resources/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Cyprus/Productrequirements",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/product-requirements/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Cyprus/FinancingandFunding",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/finance-funding/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Cyprus/DealingwithCustomers",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/dealing-with-customers/index_en.htm"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1073 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Croatia",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Croatia"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/HRV"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/legalframework/Croatia"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Croatia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.zakon.hr/z/736/Zakon-o-dr%25C3%2585%25C2%25BEavnoj-informacijskoj-infrastrukturi"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/eli/reg/2018/1724/oj"
+        },
+        {
+          "@id": "https://www.zakon.hr/z/126/Zakon-o-pravu-na-pristup-informacijama"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG"
+        },
+        {
+          "@id": "https://www.zakon.hr/z/923/Zakon-o-provedbi-Uredbe-(EU)-br.-910-2014-Europskog-parlamenta-i-Vije%25C3%2584%25C2%2587a-od-23.-srpnja-2014.-o-elektroni%25C3%2584%25C2%258Dkoj-identifikaciji-i-uslugama-povjerenja-za-elektroni%25C3%2584%25C2%258Dke-transakcije-na-unutarnjem-tr%25C3%2585%25C2%25BEi%25C3%2585%25C2%25A1tu-i-stavljanju-izvan-snage-Direktive-1999-93-EZ"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2016.194.01.0001.01.ENG&toc=OJ:L:2016:194:TOC"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016R0679&from=FR"
+        },
+        {
+          "@id": "http://digured.srce.hr/arhiva/263/18315/www.nn.hr/clanci/sluzbeno/2002/2234.htm"
+        },
+        {
+          "@id": "http://digured.srce.hr/arhiva/263/26986/www.nn.hr/clanci/sluzbeno/2007/0651.htm"
+        },
+        {
+          "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_11_108_2172.html"
+        },
+        {
+          "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/full/2016_12_120_2607.html"
+        },
+        {
+          "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_10_114_1740.html"
+        },
+        {
+          "@id": "https://www.zakon.hr/z/1163/Zakon-o-elektroni%25C3%2584%25C2%258Dkom-izdavanju-ra%25C3%2584%25C2%258Duna-u-javnoj-nabavi"
+        },
+        {
+          "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2021_07_86_1587.html"
+        },
+        {
+          "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_156_2520.html"
+        },
+        {
+          "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2021_07_75_1415.html"
+        },
+        {
+          "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_01_5_60.html"
+        },
+        {
+          "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/full/2019_02_14_269.html"
+        },
+        {
+          "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_04_40_816.html"
+        },
+        {
+          "@id": "http://narodne-novine.nn.hr/clanci/sluzbeni/2003_10_173_2504.html"
+        },
+        {
+          "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_02_17_358.html"
+        },
+        {
+          "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_07_64_1304.html"
+        },
+        {
+          "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_01_5_96.html"
+        },
+        {
+          "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_07_76_1116.html"
+        }
+      ]
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/country/Croatia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/Croatia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://hrvatska2030.hr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rdd.gov.hr/UserDocsImages/SDURDD-dokumenti/POLITIKA%20OTVORENIH%20PODATAKA.pdf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://mmpi.gov.hr/UserDocsImages/dokumenti/PROMET/Promet%203_21/MMPI-NPR-BB2021-2027-VRH%2011-3_21.pdf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.zakon.hr/z/736/Zakon-o-dr%25C3%2585%25C2%25BEavnoj-informacijskoj-infrastrukturi",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "https://www.zakon.hr/z/736/Zakon-o-dr%C3%85%C2%BEavnoj-informacijskoj-infrastrukturi",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on the State Information Infrastructure"
+      ]
+    },
+    {
+      "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2017_06_60_1362.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/eli/reg/2018/1724/oj",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation on establishing a Single Digital Gateway to provide access to information, to procedures and to assistance and problem-solving services"
+      ]
+    },
+    {
+      "@id": "https://www.zakon.hr/z/126/Zakon-o-pravu-na-pristup-informacijama",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on the Right to Access to Information"
+      ]
+    },
+    {
+      "@id": "https://data.gov.hr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rdd.gov.hr/UserDocsImages/SDURDD-dokumenti/54%20-%207a_Prijedlog%20standarda%20razvoja%20javnih%20e-Usluga%20u%20Republici%20Hrvatskoj.pdf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation (EU) No. 910/2014 of the European Parliament and of the Council of 23 July 2014 on electronic identification and trust services for electronic transactions in the internal market and repealing Council Directive 1999/93/EC (eIDAS Regulation)"
+      ]
+    },
+    {
+      "@id": "https://www.zakon.hr/z/923/Zakon-o-provedbi-Uredbe-(EU)-br.-910-2014-Europskog-parlamenta-i-Vije%25C3%2584%25C2%2587a-od-23.-srpnja-2014.-o-elektroni%25C3%2584%25C2%258Dkoj-identifikaciji-i-uslugama-povjerenja-za-elektroni%25C3%2584%25C2%258Dke-transakcije-na-unutarnjem-tr%25C3%2585%25C2%25BEi%25C3%2585%25C2%25A1tu-i-stavljanju-izvan-snage-Direktive-1999-93-EZ",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "https://www.zakon.hr/z/923/Zakon-o-provedbi-Uredbe-(EU)-br.-910-2014-Europskog-parlamenta-i-Vije%C3%84%C2%87a-od-23.-srpnja-2014.-o-elektroni%C3%84%C2%8Dkoj-identifikaciji-i-uslugama-povjerenja-za-elektroni%C3%84%C2%8Dke-transakcije-na-unutarnjem-tr%C3%85%C2%BEi%C3%85%C2%A1tu-i-stavljanju-izvan-snage-Direktive-1999-93-EZ",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Electronic Signature Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://narodne-novine.nn.hr/clanci/sluzbeni/2002_01_10_242.html"
+        }
+      ]
+    },
+    {
+      "@id": "http://narodne-novine.nn.hr/clanci/sluzbeni/2002_01_10_242.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law OJ 10/02"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://narodne-novine.nn.hr/clanci/sluzbeni/2008_07_80_2604.html"
+        }
+      ]
+    },
+    {
+      "@id": "http://narodne-novine.nn.hr/clanci/sluzbeni/2008_07_80_2604.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law OJ 80/08"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://narodne-novine.nn.hr/clanci/sluzbeni/2014_03_30_510.html"
+        }
+      ]
+    },
+    {
+      "@id": "http://narodne-novine.nn.hr/clanci/sluzbeni/2014_03_30_510.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law OJ 30/14"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2016.194.01.0001.01.ENG&toc=OJ:L:2016:194:TOC",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive on security of network and information systems"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.uvns.hr/UserDocsImages/en/dokumenti/info-security/Act%2520on%2520cybersecurity%2520of%2520operators%2520of%2520essential%2520services.pdf"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.uvns.hr/UserDocsImages/en/dokumenti/info-security/Act%2520on%2520cybersecurity%2520of%2520operators%2520of%2520essential%2520services.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "https://www.uvns.hr/UserDocsImages/en/dokumenti/info-security/Act%20on%20cybersecurity%20of%20operators%20of%20essential%20services.pdf",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Cybersecurity of Operators of Essential Services and Digital Service Providers"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016R0679&from=FR",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "EU General Data Protection Regulation"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.zakon.hr/z/1023/Zakon-o-provedbi-Op%25C3%2584%25C2%2587e-uredbe-o-za%25C3%2585%25C2%25A1titi-podataka"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.zakon.hr/z/1023/Zakon-o-provedbi-Op%25C3%2584%25C2%2587e-uredbe-o-za%25C3%2585%25C2%25A1titi-podataka",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "https://www.zakon.hr/z/1023/Zakon-o-provedbi-Op%C3%84%C2%87e-uredbe-o-za%C3%85%C2%A1titi-podataka",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on the Implementation of the General Data Protection Regulation"
+      ]
+    },
+    {
+      "@id": "http://digured.srce.hr/arhiva/263/18315/www.nn.hr/clanci/sluzbeno/2002/2234.htm",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Court Register Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://digured.srce.hr/arhiva/263/18315/www.nn.hr/clanci/sluzbeno/1995/0001.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://digured.srce.hr/arhiva/263/18315/www.nn.hr/clanci/sluzbeno/1995/0001.htm",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decision on the Means and Conditions for Access to the Court Register"
+      ]
+    },
+    {
+      "@id": "http://digured.srce.hr/arhiva/263/26986/www.nn.hr/clanci/sluzbeno/2007/0651.htm",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on the State Survey and the Real Estate Cadastre"
+      ]
+    },
+    {
+      "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_11_108_2172.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation on Electronic Business Operations of Users and Authorised Users of the Land Register System"
+      ]
+    },
+    {
+      "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/full/2016_12_120_2607.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Public Procurement Act (OJ 120/16)"
+      ]
+    },
+    {
+      "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_10_114_1740.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "amendments to the Law on Amendments to the Law on Public Procurement"
+      ]
+    },
+    {
+      "@id": "https://www.zakon.hr/z/1163/Zakon-o-elektroni%25C3%2584%25C2%258Dkom-izdavanju-ra%25C3%2584%25C2%258Duna-u-javnoj-nabavi",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "https://www.zakon.hr/z/1163/Zakon-o-elektroni%C3%84%C2%8Dkom-izdavanju-ra%C3%84%C2%8Duna-u-javnoj-nabavi",
+      "http://data.europa.eu/eli/ontology#title": [
+        "the Law on Electronic Invoicing in Public Procurement (OJ 94/18)"
+      ]
+    },
+    {
+      "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2021_07_86_1587.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation on Amendments to the Regulation on the Central Information Technology System for the Electronic Collection of Administrative Fees"
+      ]
+    },
+    {
+      "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_156_2520.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation on the Tariff of Administrative Fees"
+      ]
+    },
+    {
+      "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2021_07_75_1415.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation on Office Management (OJ 75/21)"
+      ]
+    },
+    {
+      "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_01_5_60.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation on Electronic Communications (OJ 05/20)"
+      ]
+    },
+    {
+      "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/full/2019_02_14_269.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "The Law on Health Data and Information (OJ 14/19"
+      ]
+    },
+    {
+      "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_04_40_816.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "The Law on Amendments to the Law on Commercial Companies (OJ 40/19)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_07_65_1279.html"
+        }
+      ]
+    },
+    {
+      "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_07_65_1279.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation on the Procedure for the Registration of a Company via the Internet (OJ 65/19)"
+      ]
+    },
+    {
+      "@id": "http://narodne-novine.nn.hr/clanci/sluzbeni/2003_10_173_2504.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Electronic Commerce"
+      ]
+    },
+    {
+      "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_02_17_358.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Accessibility of Web Pages and Mobile Software Solutions of Public Sector Bodies"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive (EU) 2016/2102"
+      ]
+    },
+    {
+      "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_07_64_1304.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on eCash"
+      ]
+    },
+    {
+      "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_01_5_96.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decision on the Register of Payment Service Providers and Electronic Money Issuers "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_126_2549.html"
+        }
+      ]
+    },
+    {
+      "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_126_2549.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decision on the Regulatory Capital of Electronic Money Institutions "
+      ]
+    },
+    {
+      "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_07_76_1116.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Electronic Communications "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/Croatia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://gov.hr/"
+        },
+        {
+          "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/e-poslovanje/1584"
+        },
+        {
+          "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2017_06_60_1362.html"
+        },
+        {
+          "@id": "https://savjetovanja.gov.hr/"
+        },
+        {
+          "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/e-savjetovanja-prosirenja-nadgradnje-i-unaprjedjenje-zakonodavnih-procesa-savjetovanja-s-javnoscu/1860"
+        },
+        {
+          "@id": "http://www.hitro.hr/Default.aspx?sec=18"
+        },
+        {
+          "@id": "http://www.hitro.hr/Default.aspx?sec=22"
+        },
+        {
+          "@id": "http://www.hitro.hr/Default.aspx?sec=23"
+        },
+        {
+          "@id": "https://www.hitro.hr/upis-u-registar-poslovnih-subjekata-pri-dzs"
+        },
+        {
+          "@id": "https://data.gov.hr/"
+        },
+        {
+          "@id": "https://rdd.gov.hr/UserDocsImages/SDURDD-dokumenti/POLITIKA%20OTVORENIH%20PODATAKA.pdf"
+        },
+        {
+          "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/prilagodba-informacijskih-sustava-tijela-javnog-sektora-portalu-otvorenih-podataka-open-data/374"
+        },
+        {
+          "@id": "https://uprava.gov.hr/centralni-obracun-placa/12961"
+        },
+        {
+          "@id": "https://portal.zdravlje.hr/portalzdravlja/login.html"
+        },
+        {
+          "@id": "https://rdd.gov.hr/npoo/konsolidacija-sustava-zdravstvene-informacijske-infrastrukture-cezih/2000"
+        },
+        {
+          "@id": "https://sredisnjikatalogrh.gov.hr/"
+        },
+        {
+          "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/uspostava-integralnog-sustava-za-upravljanje-sluzbenom-dokumentacijom-republike-hrvatske/330"
+        },
+        {
+          "@id": "https://www.hitro.hr/"
+        },
+        {
+          "@id": "https://rdd.gov.hr/npoo/ulaganja-u-mreze-drzavne-informacijske-infrastrukture/2001"
+        },
+        {
+          "@id": "https://e-oglasna.pravosudje.hr/"
+        },
+        {
+          "@id": "https://nop.hakom.hr/"
+        },
+        {
+          "@id": "https://mmpi.gov.hr/vijesti-8/vlada-rh-usvojen-nacionalni-program-razvoja-sirokopojasne-agregacijske-infrastrukture-u-podrucjima-u-kojima-ne-postoji-dostatan-komercijalni-interes-za-ulaganja-np-bbi-program/6950"
+        },
+        {
+          "@id": "https://hrvatska2030.hr/"
+        },
+        {
+          "@id": "https://mmpi.gov.hr/UserDocsImages/dokumenti/PROMET/Promet%203_21/MMPI-NPR-BB2021-2027-VRH%2011-3_21.pdf"
+        },
+        {
+          "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/uspostava-centra-dijeljenih-usluga/1596"
+        },
+        {
+          "@id": "https://rdd.gov.hr/npoo/nadogradnja-centra-dijeljenih-usluga/1997"
+        },
+        {
+          "@id": "https://rdd.gov.hr/interoperabilnost-sustava-javne-uprave-drzavna-sabirnica-gsb/1873"
+        },
+        {
+          "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/unaprjedjenje-sustava-elektronickih-usluga/344"
+        },
+        {
+          "@id": "https://rdd.gov.hr/UserDocsImages/SDURDD-dokumenti/54%20-%207a_Prijedlog%20standarda%20razvoja%20javnih%20e-Usluga%20u%20Republici%20Hrvatskoj.pdf"
+        },
+        {
+          "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/implementacija-e-standarda-i-daljnje-unaprjedjenje-sustava-elektronickih-usluga/1864"
+        },
+        {
+          "@id": "http://www.nipp.hr/"
+        },
+        {
+          "@id": "https://ispu.mgipu.hr/#/"
+        },
+        {
+          "@id": "https://mpgi.gov.hr/eu-sufinanciranja/ispu-i-razvoj-e-usluga/projekt-informacijski-sustav-prostornoga-uredjenja-ispu-i-njegovi-moduli-k-k-02-2-1-01-0020/10523"
+        },
+        {
+          "@id": "https://mpu.gov.hr/national-recovery-and-resilience-plan-2021-2026/25470"
+        },
+        {
+          "@id": "https://digitalnakomora.hr/home"
+        },
+        {
+          "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/informatizacija-procesa-i-uspostava-cjelovite-elektronicke-usluge-upisa-u-odgojne-i-obrazovne-ustanove/1574"
+        },
+        {
+          "@id": "https://www.porezna-uprava.hr/HR_OIB/Stranice/default.aspx"
+        },
+        {
+          "@id": "https://gov.hr/"
+        },
+        {
+          "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/uspostava-platforme-s-elektronickim-uslugama-za-e-m-potpis-i-e-m-pecat/1595"
+        },
+        {
+          "@id": "https://eojn.nn.hr/Oglasnik/"
+        },
+        {
+          "@id": "https://europe.gov.hr/"
+        },
+        {
+          "@id": "https://www.fina.hr/e-racun-u-javnoj-nabavi"
+        },
+        {
+          "@id": "https://www.porezna-uprava.hr/HR_projekti/Stranice/Fiskalizacija_2.0.aspx"
+        },
+        {
+          "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/e-pristojbe/1589"
+        },
+        {
+          "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2021_08_92_1662.html"
+        },
+        {
+          "@id": "https://rdd.gov.hr/"
+        },
+        {
+          "@id": "http://www.isvu.hr/javno/hr/index.shtml"
+        },
+        {
+          "@id": "https://op.europa.eu/fr/web/eu-vocabularies/th-dataset/-/resource/dataset/eurovoc"
+        },
+        {
+          "@id": "https://mzo.gov.hr/istaknute-teme/odgoj-i-obrazovanje/nacionalni-kurikulum/125"
+        },
+        {
+          "@id": "https://rdd.gov.hr/eu-projekti/uspostava-integralnog-sustava-za-upravljanje-sluzbenom-dokumentacijom-republike-hrvatske/330"
+        },
+        {
+          "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/informatizacija-procesa-i-uspostava-cjelovite-elektronicke-usluge-upisa-u-odgojne-i-obrazovne-ustanove/1574"
+        },
+        {
+          "@id": "https://metaregistar.gov.hr/metareg/html/"
+        },
+        {
+          "@id": "https://rdd.gov.hr/metaregistar/1631"
+        },
+        {
+          "@id": "https://oss.uredjenazemlja.hr/"
+        },
+        {
+          "@id": "https://sudreg.pravosudje.hr/registar/f?p=150:1"
+        },
+        {
+          "@id": "https://eplovilo.pomorstvo.hr/"
+        },
+        {
+          "@id": "https://mpu.gov.hr/drzavne-matice-24504/24504"
+        },
+        {
+          "@id": "https://oib.oib.hr/SaznajOibWeb/fizickaOsoba.html"
+        },
+        {
+          "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/projekti/hitronet/1667"
+        },
+        {
+          "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/unaprjedjenje-sustava-evidencije-i-upravljanja-drzavne-imovine/1460"
+        },
+        {
+          "@id": "https://cai.fer.hr/"
+        },
+        {
+          "@id": "https://www.srce.unizg.hr/hr-zoo/"
+        }
+      ]
+    },
+    {
+      "@id": "https://gov.hr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/e-poslovanje/1584",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://savjetovanja.gov.hr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/e-savjetovanja-prosirenja-nadgradnje-i-unaprjedjenje-zakonodavnih-procesa-savjetovanja-s-javnoscu/1860",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.hitro.hr/Default.aspx?sec=18",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.hitro.hr/Default.aspx?sec=22",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.hitro.hr/Default.aspx?sec=23",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.hitro.hr/upis-u-registar-poslovnih-subjekata-pri-dzs",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/prilagodba-informacijskih-sustava-tijela-javnog-sektora-portalu-otvorenih-podataka-open-data/374",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://uprava.gov.hr/centralni-obracun-placa/12961",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://portal.zdravlje.hr/portalzdravlja/login.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rdd.gov.hr/npoo/konsolidacija-sustava-zdravstvene-informacijske-infrastrukture-cezih/2000",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://sredisnjikatalogrh.gov.hr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/uspostava-integralnog-sustava-za-upravljanje-sluzbenom-dokumentacijom-republike-hrvatske/330",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.hitro.hr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rdd.gov.hr/npoo/ulaganja-u-mreze-drzavne-informacijske-infrastrukture/2001",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://e-oglasna.pravosudje.hr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://nop.hakom.hr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://mmpi.gov.hr/vijesti-8/vlada-rh-usvojen-nacionalni-program-razvoja-sirokopojasne-agregacijske-infrastrukture-u-podrucjima-u-kojima-ne-postoji-dostatan-komercijalni-interes-za-ulaganja-np-bbi-program/6950",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/uspostava-centra-dijeljenih-usluga/1596",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rdd.gov.hr/npoo/nadogradnja-centra-dijeljenih-usluga/1997",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rdd.gov.hr/interoperabilnost-sustava-javne-uprave-drzavna-sabirnica-gsb/1873",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/unaprjedjenje-sustava-elektronickih-usluga/344",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/implementacija-e-standarda-i-daljnje-unaprjedjenje-sustava-elektronickih-usluga/1864",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.nipp.hr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ispu.mgipu.hr/#/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://mpgi.gov.hr/eu-sufinanciranja/ispu-i-razvoj-e-usluga/projekt-informacijski-sustav-prostornoga-uredjenja-ispu-i-njegovi-moduli-k-k-02-2-1-01-0020/10523",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://mpu.gov.hr/national-recovery-and-resilience-plan-2021-2026/25470",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://digitalnakomora.hr/home",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/informatizacija-procesa-i-uspostava-cjelovite-elektronicke-usluge-upisa-u-odgojne-i-obrazovne-ustanove/1574",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.porezna-uprava.hr/HR_OIB/Stranice/default.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/uspostava-platforme-s-elektronickim-uslugama-za-e-m-potpis-i-e-m-pecat/1595",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eojn.nn.hr/Oglasnik/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://europe.gov.hr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.fina.hr/e-racun-u-javnoj-nabavi",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.porezna-uprava.hr/HR_projekti/Stranice/Fiskalizacija_2.0.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/e-pristojbe/1589",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://narodne-novine.nn.hr/clanci/sluzbeni/2021_08_92_1662.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rdd.gov.hr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.isvu.hr/javno/hr/index.shtml",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://op.europa.eu/fr/web/eu-vocabularies/th-dataset/-/resource/dataset/eurovoc",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://mzo.gov.hr/istaknute-teme/odgoj-i-obrazovanje/nacionalni-kurikulum/125",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rdd.gov.hr/eu-projekti/uspostava-integralnog-sustava-za-upravljanje-sluzbenom-dokumentacijom-republike-hrvatske/330",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://metaregistar.gov.hr/metareg/html/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rdd.gov.hr/metaregistar/1631",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://oss.uredjenazemlja.hr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://sudreg.pravosudje.hr/registar/f?p=150:1",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eplovilo.pomorstvo.hr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://mpu.gov.hr/drzavne-matice-24504/24504",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://oib.oib.hr/SaznajOibWeb/fizickaOsoba.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/projekti/hitronet/1667",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rdd.gov.hr/projekti-i-eu-projekti/eu-projekti/unaprjedjenje-sustava-evidencije-i-upravljanja-drzavne-imovine/1460",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://cai.fer.hr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.srce.unizg.hr/hr-zoo/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Croatia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

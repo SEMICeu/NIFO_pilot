@@ -1,0 +1,912 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Sweden",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Sweden"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/SWE"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/legalframework/Sweden"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Sweden",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/forvaltningslag-2017900_sfs-2017-900"
+        },
+        {
+          "@id": "https://www.riksdagen.se/globalassets/07.-dokument--lagar/the-freedom-of-the-press-act-2015.pdf"
+        },
+        {
+          "@id": "https://www.regeringen.se/informationsmaterial/2009/09/public-access-to-information-and-secrecy-act/"
+        },
+        {
+          "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-20181937-om-tillganglighet-till-digital_sfs-2018-1937"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.172.01.0056.01.ENG"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG"
+        },
+        {
+          "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2016561-med-kompletterande-bestammelser_sfs-2016-561"
+        },
+        {
+          "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2013311-om-valfrihetssystem-i-fraga-om_sfs-2013-311"
+        },
+        {
+          "@id": "https://www.sakerhetspolisen.se/en/swedish-security-service/protective-security.html"
+        },
+        {
+          "@id": "https://www.enisa.europa.eu/topics/nis-directive"
+        },
+        {
+          "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/folkbokforingslag-1991481_sfs-1991-481"
+        },
+        {
+          "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/forordning-2001589-om-behandling-av_sfs-2001-589"
+        },
+        {
+          "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2019370-om-fordons-registrering-och_sfs-2019-370"
+        },
+        {
+          "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2000224-om-fastighetsregister_sfs-2000-224"
+        },
+        {
+          "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2001181-om-behandling-av-uppgifter-i_sfs-2001-181"
+        },
+        {
+          "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/aktiebolagslag-2005551_sfs-2005-551"
+        },
+        {
+          "@id": "https://open.karnovgroup.se/naringsratt/lou"
+        },
+        {
+          "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-20181277-om-elektroniska-fakturor-till_sfs-2018-1277"
+        },
+        {
+          "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2002562-om-elektronisk-handel-och-andra_sfs-2002-562"
+        }
+      ]
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/country/Sweden",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ],
+      "http://dbpedia.org/ontology/areaTotal": [
+        "Sweden’s scores in Scoreboard 2 illustrate an overall good performance of the country with mostly scores of 4 in all the interoperability layers, except for interoperability governance. Areas of improvement to strengthen the country’s implementation of the recommendations under Scoreboard 2 are therefore related to interoperability governance. More specifically, with regard to the interoperability governance, whereby Sweden should work on ensuring a holistic governance of interoperability activities across administrative levels and sectors (Interoperability governance – Recommendation 20) and use a structured, transparent, objective and common approach to assessing and selecting standards and specifications (Interoperability governance – Recommendation 22)."
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring",
+      "http://data.europa.eu/eli/ontology#title": [
+        "interactive dashboards"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/Sweden",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://rib.msb.se/filer/pdf/28898.pdf"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.inera.se/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ehalsomyndigheten.se/other-languages/english/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.skatteverket.se/servicelankar/otherlanguages/inenglish.4.12815e4f14a62bc048f4edc.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rib.msb.se/filer/pdf/28898.pdf",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Comprehensive Cybersecurity Action Plan 2019‑2020"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.msb.se/sv/publikationer/samlad-informations--och-cybersakerhetshandlingsplan-for-aren-20192022--redovisning-2020/"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.msb.se/sv/publikationer/samlad-informations--och-cybersakerhetshandlingsplan-for-aren-20192022--redovisning-2020/",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Comprehensive Cybersecurity Action Plan"
+      ]
+    },
+    {
+      "@id": "https://skr.se/tjanster/englishpages.411.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.vinnova.se/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.lantmateriet.se/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/forvaltningslag-2017900_sfs-2017-900",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Administrative Procedure Act"
+      ]
+    },
+    {
+      "@id": "https://www.riksdagen.se/globalassets/07.-dokument--lagar/the-freedom-of-the-press-act-2015.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Freedom of the Press Act."
+      ]
+    },
+    {
+      "@id": "https://www.regeringen.se/informationsmaterial/2009/09/public-access-to-information-and-secrecy-act/",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act (2009:400) on Public Access to Information and Secrecy"
+      ]
+    },
+    {
+      "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-20181937-om-tillganglighet-till-digital_sfs-2018-1937",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act (2018:1937) on Accessibility of Digital Public Service"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.172.01.0056.01.ENG",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Open Data Directive (2019/1024"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2022818-om-den-offentliga-sektorns_sfs-2022-818"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2022818-om-den-offentliga-sektorns_sfs-2022-818",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act (2022:818)"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation 910/2014 on electronic identification and trust services for electronic transactions in the internal market (eIDAS Regulation)"
+      ]
+    },
+    {
+      "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2016561-med-kompletterande-bestammelser_sfs-2016-561",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act (2016:561) on Supplementing Provisions to the eIDAS Regulation"
+      ]
+    },
+    {
+      "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2013311-om-valfrihetssystem-i-fraga-om_sfs-2013-311",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act (2013:311) on the Systems of Choice for Electronic Identification Services"
+      ]
+    },
+    {
+      "@id": "https://www.sakerhetspolisen.se/en/swedish-security-service/protective-security.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Protective Security Act"
+      ]
+    },
+    {
+      "@id": "https://www.enisa.europa.eu/topics/nis-directive",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2016/1148 concerning measures for a high common level of security of network and information systems across the Union (NIS Directive)"
+      ]
+    },
+    {
+      "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/folkbokforingslag-1991481_sfs-1991-481",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Population Registration Act"
+      ]
+    },
+    {
+      "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/forordning-2001589-om-behandling-av_sfs-2001-589",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Civil Registration Act"
+      ]
+    },
+    {
+      "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2019370-om-fordons-registrering-och_sfs-2019-370",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act (2019:370) on Vehicle Registration and Use"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/_sfs-2019-369"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/_sfs-2019-369",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act (2019: 369) on Road Traffic Data"
+      ]
+    },
+    {
+      "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2000224-om-fastighetsregister_sfs-2000-224",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act (2000:224) on the Real Property Registry"
+      ]
+    },
+    {
+      "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2001181-om-behandling-av-uppgifter-i_sfs-2001-181",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act (2001:181) on Tax Registration"
+      ]
+    },
+    {
+      "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/aktiebolagslag-2005551_sfs-2005-551",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act (2005:551) on Companies "
+      ]
+    },
+    {
+      "@id": "https://open.karnovgroup.se/naringsratt/lou",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act (2016:1145) on Public Procurement"
+      ]
+    },
+    {
+      "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/forordning-2003770-om-statliga-myndigheters_sfs-2003-770",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-20181277-om-elektroniska-fakturor-till_sfs-2018-1277",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Electronic Invoices as a Result of Public Procurement"
+      ]
+    },
+    {
+      "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2002562-om-elektronisk-handel-och-andra_sfs-2002-562",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Electronic Commerce and other Information Society Services"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2000/31/EC on certain legal aspects of information society services, in particular electronic commerce "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/Sweden",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.government.se/"
+        },
+        {
+          "@id": "http://www.dataportal.se/"
+        },
+        {
+          "@id": "https://www.europeandataportal.eu/en"
+        },
+        {
+          "@id": "https://www.geodata.se/geodataportalen/"
+        },
+        {
+          "@id": "https://www.lantmateriet.se/vartsamordningsansvar"
+        },
+        {
+          "@id": "https://www.lantmateriet.se/vartsamordningsansvar"
+        },
+        {
+          "@id": "https://www.lantmateriet.se/sv/Kartor-och-geografisk-information/geodataprodukter/Geodataportalen/"
+        },
+        {
+          "@id": "https://www.dataportal.se/"
+        },
+        {
+          "@id": "https://inspire-geoportal.ec.europa.eu/"
+        },
+        {
+          "@id": "https://openaid.se/"
+        },
+        {
+          "@id": "https://www.sida.se/en"
+        },
+        {
+          "@id": "https://www.government.se/government-of-sweden/ministry-for-foreign-affairs/"
+        },
+        {
+          "@id": "https://www.regeringen.se/informationsmaterial/2010/05/ud10.050/"
+        },
+        {
+          "@id": "https://iatistandard.org/en/"
+        },
+        {
+          "@id": "https://www.verksamt.se/web/international/login?entityID=https://www.verksamt.se/shibboleth/metadata&return=https://www.verksamt.se/Shibboleth.sso/login?SAMLDS=1&target=ss%253Amem%253A4d05a1d9d48c91336e87ea3ef9716ebfa77c6c82cf70791594918f751b448ec3"
+        },
+        {
+          "@id": "https://lakemedelskollen.ehalsomyndigheten.se/lmkoll-web/"
+        },
+        {
+          "@id": "https://www.ehalsomyndigheten.se/other-languages/english/"
+        },
+        {
+          "@id": "http://taxonomier.se/"
+        },
+        {
+          "@id": "https://www.uhr.se/"
+        },
+        {
+          "@id": "https://www.antagning.se/se/start"
+        },
+        {
+          "@id": "https://www.1177.se/"
+        },
+        {
+          "@id": "https://bolagsverket.se/om/oss/utveckling-av-digitala-tjanster/mina-ombud/mina-ombud-1.18971"
+        },
+        {
+          "@id": "https://www.bolagsverket.se/en"
+        },
+        {
+          "@id": "https://www.skatteverket.se/servicelankar/otherlanguages/inenglish.4.12815e4f14a62bc048f4edc.html"
+        },
+        {
+          "@id": "https://www.jobtechdev.se/en"
+        },
+        {
+          "@id": "https://efterlevandeguiden.se/"
+        },
+        {
+          "@id": "https://deladigitalt.se/loggain?redirect=/delameddig"
+        },
+        {
+          "@id": "https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/Country%20factsheets%202020/Sweden/deladigitalt.se"
+        },
+        {
+          "@id": "https://skl.se/"
+        },
+        {
+          "@id": "https://www.vinnova.se/en/"
+        },
+        {
+          "@id": "https://www.msb.se/sv/verktyg--tjanster/sgsi/"
+        },
+        {
+          "@id": "https://www.inera.se/"
+        },
+        {
+          "@id": "https://skr.se/tjanster/englishpages.411.html"
+        },
+        {
+          "@id": "https://www.digg.se/publicerat/publikationer/2021/uppdrag-att-etablera-en-forvaltningsgemensam-digital-infrastruktur-for-informationsutbyte-samt-uppdrag-att-etablera-ett-nationellt-ramverk-for-grunddata-inom-den-offentliga-forvaltningen"
+        },
+        {
+          "@id": "https://www.digg.se/analys-och-uppfoljning/publikationer/publikationer/2021-12-01-uppdrag-att-genomfora-en-analys-om-forutsattningar-for-kommuners-och-regioners-deltagande-i-den-forvaltningsgemensamma-digitala-infrastrukturen"
+        },
+        {
+          "@id": "https://www.icao.int/Pages/default.aspx"
+        },
+        {
+          "@id": "https://www.kammarkollegiet.se/om-oss/organisation/statens-inkopscentral"
+        },
+        {
+          "@id": "https://www.avropa.se/"
+        },
+        {
+          "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-20181277-om-elektroniska-fakturor-till_sfs-2018-1277"
+        },
+        {
+          "@id": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/forordning-2003770-om-statliga-myndigheters_sfs-2003-770"
+        },
+        {
+          "@id": "https://www.riksbank.se/"
+        },
+        {
+          "@id": "https://www.riksbank.se/sv/betalningar--kontanter/e-krona/"
+        },
+        {
+          "@id": "https://deladigitalt.se/loggain?redirect=/delameddig"
+        },
+        {
+          "@id": "https://nosad.se/"
+        },
+        {
+          "@id": "https://www.pts.se/en/"
+        },
+        {
+          "@id": "https://www.pts.se/sv/digitalhjalpen/"
+        },
+        {
+          "@id": "https://ec.europa.eu/social/main.jsp?catId=869"
+        },
+        {
+          "@id": "https://www.bolagsverket.se/en"
+        },
+        {
+          "@id": "https://www.ehalsomyndigheten.se/other-languages/english/"
+        },
+        {
+          "@id": "https://www.skatteverket.se/servicelankar/otherlanguages/inenglish.4.12815e4f14a62bc048f4edc.html"
+        },
+        {
+          "@id": "https://transportstyrelsen.se/sv/vagtrafik/"
+        },
+        {
+          "@id": "https://bolagsverket.se/en"
+        },
+        {
+          "@id": "https://www.lantmateriet.se/en/"
+        },
+        {
+          "@id": "https://www.digg.se/ledning-och-samordning/ena---sveriges-digitala-infrastruktur/nationella-grunddata"
+        },
+        {
+          "@id": "https://www.skatteverket.se/servicelankar/otherlanguages/inenglish.4.12815e4f14a62bc048f4edc.html"
+        },
+        {
+          "@id": "https://bolagsverket.se/en"
+        },
+        {
+          "@id": "https://www.lantmateriet.se/en/"
+        },
+        {
+          "@id": "https://liu.se/nyhet/sveriges-snabbaste-superdator-for-ai-ar-invigd"
+        },
+        {
+          "@id": "https://www.pdc.kth.se/hpc-services/computing-systems/about-dardel-1.1053338"
+        },
+        {
+          "@id": "https://www.lumi-supercomputer.eu/lumi-consortium/"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020PC0569"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.government.se/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.dataportal.se/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.europeandataportal.eu/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.geodata.se/geodataportalen/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.lantmateriet.se/vartsamordningsansvar",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.lantmateriet.se/sv/Kartor-och-geografisk-information/geodataprodukter/Geodataportalen/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.dataportal.se/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://inspire-geoportal.ec.europa.eu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://openaid.se/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.sida.se/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.government.se/government-of-sweden/ministry-for-foreign-affairs/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.regeringen.se/informationsmaterial/2010/05/ud10.050/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://iatistandard.org/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.verksamt.se/web/international/login?entityID=https://www.verksamt.se/shibboleth/metadata&return=https://www.verksamt.se/Shibboleth.sso/login?SAMLDS=1&target=ss%253Amem%253A4d05a1d9d48c91336e87ea3ef9716ebfa77c6c82cf70791594918f751b448ec3",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://lakemedelskollen.ehalsomyndigheten.se/lmkoll-web/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://taxonomier.se/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.uhr.se/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.antagning.se/se/start",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.1177.se/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://bolagsverket.se/om/oss/utveckling-av-digitala-tjanster/mina-ombud/mina-ombud-1.18971",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.bolagsverket.se/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.jobtechdev.se/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://efterlevandeguiden.se/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://deladigitalt.se/loggain?redirect=/delameddig",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/Country%20factsheets%202020/Sweden/deladigitalt.se",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://skl.se/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.msb.se/sv/verktyg--tjanster/sgsi/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.digg.se/publicerat/publikationer/2021/uppdrag-att-etablera-en-forvaltningsgemensam-digital-infrastruktur-for-informationsutbyte-samt-uppdrag-att-etablera-ett-nationellt-ramverk-for-grunddata-inom-den-offentliga-forvaltningen",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.digg.se/analys-och-uppfoljning/publikationer/publikationer/2021-12-01-uppdrag-att-genomfora-en-analys-om-forutsattningar-for-kommuners-och-regioners-deltagande-i-den-forvaltningsgemensamma-digitala-infrastrukturen",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.icao.int/Pages/default.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.kammarkollegiet.se/om-oss/organisation/statens-inkopscentral",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.avropa.se/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.riksbank.se/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.riksbank.se/sv/betalningar--kontanter/e-krona/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://nosad.se/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.pts.se/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.pts.se/sv/digitalhjalpen/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/social/main.jsp?catId=869",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://transportstyrelsen.se/sv/vagtrafik/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://bolagsverket.se/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.digg.se/ledning-och-samordning/ena---sveriges-digitala-infrastruktur/nationella-grunddata",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://liu.se/nyhet/sveriges-snabbaste-superdator-for-ai-ar-invigd",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.pdc.kth.se/hpc-services/computing-systems/about-dardel-1.1053338",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.lumi-supercomputer.eu/lumi-consortium/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020PC0569",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Sweden",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

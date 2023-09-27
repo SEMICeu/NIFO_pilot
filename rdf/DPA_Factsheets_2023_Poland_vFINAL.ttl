@@ -1,0 +1,141 @@
+<http://data.europa.eu/nifo/factsheet/Poland> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Poland>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/POL";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/legalframework/Poland> .
+<http://publications.europa.eu/resource/authority/country/Poland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/source> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring>;
+ <http://purl.org/dc/terms/relation> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> .
+<https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> <http://data.europa.eu/eli/ontology#title> "interactive dashboards" .
+<http://example.org/ContactPoint/Poland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/legalframework/Poland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.gov.pl/attachment/3203b18b-a83f-4b92-8da2-fa0e3b449131>, <https://dziennikustaw.gov.pl/DU/2020/2320>, <https://monitorpolski.gov.pl/DU/rok/2017/pozycja/2247>, <http://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20050640565>, <https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20220000902>, <https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180000029>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024>, <http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU20190000848/O/D20190848.pdf>, <https://www.gov.pl/web/cyfryzacja/prezydent-podpisal-ustawe-o-uslugach-zaufania-oraz-identyfikacji-elektronicznej>, <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG>, <https://www.gov.pl/web/mswia/zmiany-w-ustawie-o-dowodach-osobistych#:~:text=Od%2525202%252520sierpnia%2525202021%252520r,z%25252020%252520czerwca%2525202019%252520r.>, <https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20210001978>, <https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20160001579/U/D20161579Lj.pdf>, <https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20220000583>, <https://www.gov.pl/web/cyfryzacja/akty-prawne>, <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML>, <http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180001000>, <https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20170000777>, <https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20101671131/U/D20101131Lj.pdf>, <https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20102171427/U/D20101427Lj.pdf>, <https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20140001741/U/D20141741Lj.pdf>, <https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180002191>, <https://www.uzp.gov.pl/en>, <https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=wdu20160001579>, <https://dziennikustaw.gov.pl/DU/2019/2019>, <http://orka.sejm.gov.pl/proc8.nsf/ustawy/2888_u.htm>, <http://isap.sejm.gov.pl/Download?id=wdu20021441204&type=3>, <https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20021261068>, <http://www.nbp.pl/en/system_platniczy/mf.pdf>, <https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20111130657/U/D20110657Lj.pdf/>, <https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20190001815>, <https://dziennikustaw.gov.pl/DU/rok/2022/pozycja/2164> .
+<https://www.gov.pl/attachment/3203b18b-a83f-4b92-8da2-fa0e3b449131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on the Computerisation of the Operations of Entities Performing Public Tasks" .
+<https://dziennikustaw.gov.pl/DU/2020/2320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Electronic Delivery" .
+<https://monitorpolski.gov.pl/DU/rok/2017/pozycja/2247> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation on the National Interoperability Framework, Minimum Requirements for Public Registers and Information Exchange in Electronic Form, and Minimum Requirements for ICT Systems" .
+<http://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20050640565> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on the Computerisation of the Operations of Entities Performing Public Tasks." .
+<https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20220000902> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Access to Public Information" .
+<https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180000029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation on the Manner, Scope and Mode of Access to Data Stored in a Public Register" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive (EU) 2019/2024 on open data and the re‑use of public sector information" .
+<http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU20190000848/O/D20190848.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on the Accessibility of Websites and Mobile Applications of Public Sector Bodies" .
+<https://www.gov.pl/web/cyfryzacja/prezydent-podpisal-ustawe-o-uslugach-zaufania-oraz-identyfikacji-elektronicznej> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Trust Services and Electronic Identification" .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "eIDAS Regulation";
+ <http://purl.org/dc/terms/relation> <http://isap.sejm.gov.pl/DetailsServlet?id=WDU20160001579> .
+<http://isap.sejm.gov.pl/DetailsServlet?id=WDU20160001579> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Trust Services and Electronic Identification" .
+<https://www.gov.pl/web/mswia/zmiany-w-ustawie-o-dowodach-osobistych#:~:text=Od%2525202%252520sierpnia%2525202021%252520r,z%25252020%252520czerwca%2525202019%252520r.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<https://www.gov.pl/web/mswia/zmiany-w-ustawie-o-dowodach-osobistych#:~:text=Od%202%20sierpnia%202021%20r,z%2020%20czerwca%202019%20r.> <http://data.europa.eu/eli/ontology#title> "amendment to the Act on Identity Cards" .
+<https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20210001978> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "amendment to the Act on Identity Cards" .
+<https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20160001579/U/D20161579Lj.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Trust Services and Electronic Identification" .
+<https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20220000583> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Assistance to Citizens of Ukraine in Connection with the Armed Conflict on the Territory of that State" .
+<https://www.gov.pl/web/cyfryzacja/akty-prawne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on the National Cybersecurity System" .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 95/46/EC on the protection of individuals with regard to the processing of personal data" .
+<http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180001000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "act" .
+<https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20170000777> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Certain Acts Regarding Public Administration Tasks Related to Some Public Registers" .
+<https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20101671131/U/D20101131Lj.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Identity Cards" .
+<https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20102171427/U/D20101427Lj.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on People Registration" .
+<https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20140001741/U/D20141741Lj.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Civil Status Registration" .
+<https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180002191> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act of 9 November 2018 on Electronic Invoicing in Public Procurement, Concessions for Construction Works or Services and Public-Private Partnerships" .
+<https://www.uzp.gov.pl/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Public Procurement" .
+<https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=wdu20160001579> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Trust Services and Electronic Identification" .
+<https://dziennikustaw.gov.pl/DU/2019/2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Public Procurement Law" .
+<http://orka.sejm.gov.pl/proc8.nsf/ustawy/2888_u.htm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "new regulations" .
+<http://isap.sejm.gov.pl/Download?id=wdu20021441204&type=3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Providing Services by Electronic Means" .
+<https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20021261068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on the Protection of Certain Services Provided by Electronic Means Based on, or Consisting of, Conditional Access";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:31998L0084&qid=1396604784294&from=EN> .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:31998L0084&qid=1396604784294&from=EN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 98/84/EC on the legal protection of services based on, or consisting of, conditional access" .
+<http://www.nbp.pl/en/system_platniczy/mf.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Electronic Payment Instruments";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0046:EN:HTML> .
+<https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0046:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2000/46/EC on the taking up, pursuit of and prudential supervision of the business of electronic money institutions" .
+<https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20111130657/U/D20110657Lj.pdf/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on the Health Information System" .
+<https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20190001815> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Supporting the Development of Telecommunications Services and Networks" .
+<https://dziennikustaw.gov.pl/DU/rok/2022/pozycja/2164> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "amendment to the Mega-bill Act" .
+<http://example.org/nifo/structure/Poland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.gov.pl/>, <https://www.gov.pl/web/ua>, <https://www.biznes.gov.pl/pl>, <https://www.gov.pl/web/ia>, <https://www.podatki.gov.pl/>, <https://www.podatki.gov.pl/pit/twoj-e-pit/>, <https://digiplace.sharepoint.com/sites/WE-DGDIGIT-BEACON-SC26NIFO/Shared%20Documents/D03.01%20DPA%20factsheets%20and%20infographics%202023/DPA%20factsheets%202023/Poland/Factsheet/podatki.gov.pl/crbr>, <https://digiplace.sharepoint.com/sites/WE-DGDIGIT-BEACON-SC26NIFO/Shared%20Documents/D03.01%20DPA%20factsheets%20and%20infographics%202023/DPA%20factsheets%202023/Poland/Factsheet/crbr.podatki.gov.pl>, <https://puesc.gov.pl/>, <https://puesc.gov.pl/aktualnosci?p_p_id=seaplfptlnewspublisher_WAR_seaplfptlnewspublisher&p_p_lifecycle=0&_seaplfptlnewspublisher_WAR_seaplfptlnewspublisher_action=showArticle&_seaplfptlnewspublisher_WAR_seaplfptlnewspublisher_articleId=655326205>, <https://dane.gov.pl/>, <http://www.geoportal.gov.pl/>, <https://www.geoportal.gov.pl/o-geoportalu/aktualnosci>, <https://prod.ceidg.gov.pl/ceidg/ceidg.public.ui/search.aspx>, <https://historiapojazdu.gov.pl/>, <http://www.cepik.gov.pl/>, <https://digiplace.sharepoint.com/sites/WE-DGDIGIT-BEACON-SC26NIFO/Shared%20Documents/D03.01%20DPA%20factsheets%20and%20infographics%202023/DPA%20factsheets%202023/Poland/Factsheet/ezdrowie.gov.pl>, <https://ezdrowie.gov.pl/>, <https://cez.gov.pl/pl/page/o-nas>, <https://pacjent.gov.pl/>, <https://prs.ms.gov.pl/>, <https://ems.ms.gov.pl/msig/przegladaniemonitorow>, <https://wyszukiwarka-msig.ms.gov.pl/>, <https://oplaty.ms.gov.pl/>, <https://www.gov.pl/web/sprawiedliwosc/udzielanie-informacji-z-rejestru-zastawow2>, <https://orzeczenia.ms.gov.pl/>, <https://www.esad.gov.pl/>, <https://samorzad.gov.pl/>, <https://www.rp.pl/>, <https://ec.europa.eu/isa2/solutions/testa_en/>, <https://www.assecods.pl/>, <https://www.enigma.com.pl/>, <https://eurocert.pl/>, <https://www.kir.pl/>, <https://www.pwpw.pl/>, <https://www.nccert.pl/>, <https://www.gov.pl/web/cyfryzacja/budowa-krajowego-wezla-identyfikacji-elektronicznej>, <http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20160001579>, <http://www.uzp.gov.pl>, <https://www.uzp.gov.pl/>, <https://www.podatki.gov.pl/ksef/>, <https://widok.gov.pl/>, <https://www.gov.pl/web/bip>, <https://www.gov.pl/web/cyfryzacja/zintegrowana-platforma-analityczna2>, <https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/Find+your+Single+Point+of+Contact>, <https://www.gov.pl/web/gov/uzyskaj-numer-pesel--usluga-dla-cudzoziemcow-en>, <https://www.biznes.gov.pl/en/firma/doing-business-in-poland/types-of-economic-activity-in-poland/civil-law-partnership-basic-information/civil-law-partnership-basic-information>, <https://www.gov.pl/web/ai>, <https://www.edwin.gov.pl/>, <https://h2020-demeter.eu/>, <https://www.gov.pl/web/govtech/centrum>, <https://www.gov.pl/web/govtech/program-rzadowy> .
+<https://www.gov.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.pl/web/ua> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.biznes.gov.pl/pl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.pl/web/ia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.podatki.gov.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.podatki.gov.pl/pit/twoj-e-pit/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://digiplace.sharepoint.com/sites/WE-DGDIGIT-BEACON-SC26NIFO/Shared%20Documents/D03.01%20DPA%20factsheets%20and%20infographics%202023/DPA%20factsheets%202023/Poland/Factsheet/podatki.gov.pl/crbr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://digiplace.sharepoint.com/sites/WE-DGDIGIT-BEACON-SC26NIFO/Shared%20Documents/D03.01%20DPA%20factsheets%20and%20infographics%202023/DPA%20factsheets%202023/Poland/Factsheet/crbr.podatki.gov.pl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://puesc.gov.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://puesc.gov.pl/aktualnosci?p_p_id=seaplfptlnewspublisher_WAR_seaplfptlnewspublisher&p_p_lifecycle=0&_seaplfptlnewspublisher_WAR_seaplfptlnewspublisher_action=showArticle&_seaplfptlnewspublisher_WAR_seaplfptlnewspublisher_articleId=655326205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://dane.gov.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.geoportal.gov.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.geoportal.gov.pl/o-geoportalu/aktualnosci> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://prod.ceidg.gov.pl/ceidg/ceidg.public.ui/search.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://historiapojazdu.gov.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.cepik.gov.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://digiplace.sharepoint.com/sites/WE-DGDIGIT-BEACON-SC26NIFO/Shared%20Documents/D03.01%20DPA%20factsheets%20and%20infographics%202023/DPA%20factsheets%202023/Poland/Factsheet/ezdrowie.gov.pl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ezdrowie.gov.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://cez.gov.pl/pl/page/o-nas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://pacjent.gov.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://prs.ms.gov.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ems.ms.gov.pl/msig/przegladaniemonitorow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://wyszukiwarka-msig.ms.gov.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://oplaty.ms.gov.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.pl/web/sprawiedliwosc/udzielanie-informacji-z-rejestru-zastawow2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://orzeczenia.ms.gov.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.esad.gov.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://samorzad.gov.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.rp.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/isa2/solutions/testa_en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.assecods.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.enigma.com.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eurocert.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.kir.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.pwpw.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.nccert.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.pl/web/cyfryzacja/budowa-krajowego-wezla-identyfikacji-elektronicznej> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20160001579> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.uzp.gov.pl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.uzp.gov.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.podatki.gov.pl/ksef/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://widok.gov.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.pl/web/bip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.pl/web/cyfryzacja/zintegrowana-platforma-analityczna2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/Find+your+Single+Point+of+Contact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.pl/web/gov/uzyskaj-numer-pesel--usluga-dla-cudzoziemcow-en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.biznes.gov.pl/en/firma/doing-business-in-poland/types-of-economic-activity-in-poland/civil-law-partnership-basic-information/civil-law-partnership-basic-information> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.pl/web/ai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.edwin.gov.pl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://h2020-demeter.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.pl/web/govtech/centrum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.pl/web/govtech/program-rzadowy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Poland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .

@@ -1,0 +1,472 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Liechtenstein",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Liechtenstein"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/LIE"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/legalframework/Liechtenstein"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Liechtenstein",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.gesetze.li/konso/2011.575"
+        },
+        {
+          "@id": "https://www.gesetze.li/chrono/pdf/2020359000"
+        },
+        {
+          "@id": "https://www.gesetze.li/konso/1999.159"
+        },
+        {
+          "@id": "https://www.gesetze.li/chrono/2008205000?search_text=&search_loc=text&lrnr=&lgblid_von=2008.205&lgblid_bis="
+        },
+        {
+          "@id": "https://www.gesetze.li/konso/2019114000?search_text=&search_loc=text&lrnr=&lgblid_von=2019.114&observe_date=17.02.2020"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31999L0093"
+        },
+        {
+          "@id": "https://www.regierung.li/de/mitteilungen/194853/?typ=content&nid=11080"
+        },
+        {
+          "@id": "https://www.gesetze.li/konso/2018272000?search_text=Datenschutzgesetz%2520&search_loc=text&lrnr=&lgblid_von=&observe_date=17.04.2019"
+        },
+        {
+          "@id": "https://www.gesetze.li/chrono/2020455000"
+        },
+        {
+          "@id": "https://www.gesetze.li/konso/2011574000?search_text=ZPRG&search_loc=abk_list&lrnr=&lgblid_von=&observe_date=22.03.2022"
+        },
+        {
+          "@id": "https://www.gesetze.li/konso/2003066000?search_text=handelsregister&search_loc=titel&lrnr=&lgblid_von=&observe_date=22.03.2022"
+        },
+        {
+          "@id": "https://www.gesetze.li/konso/1926004000?search_text=PGR&search_loc=text&lrnr=&lgblid_von=&observe_date=22.03.2022"
+        },
+        {
+          "@id": "https://www.gesetze.li/konso/2005148000?search_text=vermessungsgese&search_loc=titel&lrnr=&lgblid_von=&observe_date=22.03.2022"
+        },
+        {
+          "@id": "https://www.gesetze.li/konso/2003133000?search_text=e-commerce&search_loc=titel&lrnr=&lgblid_von=&observe_date=22.03.2022"
+        },
+        {
+          "@id": "https://www.gesetze.li/konso/2006091000?search_text=Kommunikationsgesetz&search_loc=text&lrnr=&lgblid_von=&observe_date=29.01.2018"
+        },
+        {
+          "@id": "https://www.gesetze.li/konso/2019301000?search_text=toke&search_loc=titel&lrnr=&lgblid_von=&observe_date=22.03.2022"
+        }
+      ]
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/country/Liechtenstein",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring",
+      "http://data.europa.eu/eli/ontology#title": [
+        "interactive dashboards"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/Liechtenstein",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.digital-liechtenstein.li/initiative",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.gesetze.li/konso/2011.575",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "eGovernment Act (E-GovG) "
+      ]
+    },
+    {
+      "@id": "https://www.gesetze.li/chrono/pdf/2020359000",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 359 (eGovernment Act)"
+      ]
+    },
+    {
+      "@id": "https://www.gesetze.li/konso/1999.159",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Information Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.gesetze.li/konso/1999206000?search_text=Informationsverordnung&search_loc=text&lrnr=&lgblid_von=&observe_date=17.04.2019"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.gesetze.li/konso/1999206000?search_text=Informationsverordnung&search_loc=text&lrnr=&lgblid_von=&observe_date=17.04.2019",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation on the Information Ordinance (Informationsverordnung)"
+      ]
+    },
+    {
+      "@id": "https://www.gesetze.li/chrono/2008205000?search_text=&search_loc=text&lrnr=&lgblid_von=2008.205&lgblid_bis=",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on the Reuse of Public Sector Information (Law No. 172/016)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.gesetze.li/DisplayLGBl.jsp?Jahr=1999&Nr=206"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.gesetze.li/DisplayLGBl.jsp?Jahr=1999&Nr=206",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation on Information"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "European Directive on the re-use of public sector information (2003/98/EC)"
+      ]
+    },
+    {
+      "@id": "https://www.gesetze.li/konso/2019114000?search_text=&search_loc=text&lrnr=&lgblid_von=2019.114&observe_date=17.02.2020",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Electronic Signature and Electronic Transactions"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.gesetze.li/konso/2019180000?search_text=&search_loc=text&lrnr=&lgblid_von=2019.180&observe_date=17.02.2020"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.gesetze.li/konso/2019180000?search_text=&search_loc=text&lrnr=&lgblid_von=2019.180&observe_date=17.02.2020",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Ordinance on Electronic Signature and Electronic Transactions"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31999L0093",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "European Directive 1999/93/EC on a Community framework for Electronic Signatures"
+      ]
+    },
+    {
+      "@id": "https://www.regierung.li/de/mitteilungen/194853/?typ=content&nid=11080",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Consultation Report on the Adoption of a Law"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation on electronic identification and trust services for electronic transactions in the internal market (eIDAS Regulation)"
+      ]
+    },
+    {
+      "@id": "https://www.gesetze.li/konso/2018272000?search_text=Datenschutzgesetz%2520&search_loc=text&lrnr=&lgblid_von=&observe_date=17.04.2019",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "https://www.gesetze.li/konso/2018272000?search_text=Datenschutzgesetz%20&search_loc=text&lrnr=&lgblid_von=&observe_date=17.04.2019",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Data Protection Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.gesetze.li/chrono/2020389000"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.gesetze.li/chrono/2020389000",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 389"
+      ]
+    },
+    {
+      "@id": "https://www.gesetze.li/chrono/2020455000",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 455"
+      ]
+    },
+    {
+      "@id": "https://www.gesetze.li/konso/2011574000?search_text=ZPRG&search_loc=abk_list&lrnr=&lgblid_von=&observe_date=22.03.2022",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law of 21 September 2011 on the Central Civil Registration (ZPRG) "
+      ]
+    },
+    {
+      "@id": "https://www.gesetze.li/konso/2003066000?search_text=handelsregister&search_loc=titel&lrnr=&lgblid_von=&observe_date=22.03.2022",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Commercial Law"
+      ]
+    },
+    {
+      "@id": "https://www.gesetze.li/konso/1926004000?search_text=PGR&search_loc=text&lrnr=&lgblid_von=&observe_date=22.03.2022",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Persons and Companies Act (PGR)"
+      ]
+    },
+    {
+      "@id": "https://www.gesetze.li/konso/2005148000?search_text=vermessungsgese&search_loc=titel&lrnr=&lgblid_von=&observe_date=22.03.2022",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law of 19 May 2005 on the Cadastral Survey (Survey Act; Property Act)"
+      ]
+    },
+    {
+      "@id": "https://www.gesetze.li/konso/2003133000?search_text=e-commerce&search_loc=titel&lrnr=&lgblid_von=&observe_date=22.03.2022",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on eCommerce"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:en:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:en:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2000/31/EC on certain legal aspects of information society services, in particular on electronic commerce in the Internal Market (Directive on electronic commerce)"
+      ]
+    },
+    {
+      "@id": "https://www.gesetze.li/konso/2006091000?search_text=Kommunikationsgesetz&search_loc=text&lrnr=&lgblid_von=&observe_date=29.01.2018",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Electronic Communication"
+      ]
+    },
+    {
+      "@id": "https://www.gesetze.li/konso/2019301000?search_text=toke&search_loc=titel&lrnr=&lgblid_von=&observe_date=22.03.2022",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Tokens and Trustworthy Technology (TT) Service Providers (TVTG)"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/Liechtenstein",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.liechtenstein.li/index.php?id=54&L=1"
+        },
+        {
+          "@id": "https://www.digital-liechtenstein.li/initiative"
+        },
+        {
+          "@id": "https://www.regierung.li/files/attachments/Finanzplatzstrategie-fuer-Liechtenstein.pdf?t=638155991743423974"
+        },
+        {
+          "@id": "https://impuls-liechtenstein.li/"
+        },
+        {
+          "@id": "http://www.e-archiv.li/"
+        },
+        {
+          "@id": "http://www.gesetze.li/"
+        },
+        {
+          "@id": "https://www.gesetze.li/konso/pdf/2011574000?version=3"
+        },
+        {
+          "@id": "https://www.gesetze.li/konso/suche"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.liechtenstein.li/index.php?id=54&L=1",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.regierung.li/files/attachments/Finanzplatzstrategie-fuer-Liechtenstein.pdf?t=638155991743423974",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://impuls-liechtenstein.li/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.e-archiv.li/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.gesetze.li/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.gesetze.li/konso/pdf/2011574000?version=3",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.gesetze.li/konso/suche",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Liechtenstein",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

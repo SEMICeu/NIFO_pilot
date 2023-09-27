@@ -1,0 +1,89 @@
+<http://data.europa.eu/nifo/factsheet/Bulgaria> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Bulgaria>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/BGR";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/legalframework/Bulgaria> .
+<http://publications.europa.eu/resource/authority/country/Bulgaria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/source> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> .
+<http://example.org/ContactPoint/Bulgaria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www2.e-gov.bg/upload/8576/%2525C3%252590%2525C2%252590%2525C3%252590%2525C2%2525BA%2525C3%252591%2525C2%252582%2525C3%252591%2525C2%252583%2525C3%252590%2525C2%2525B0%2525C3%252590%2525C2%2525BB%2525C3%252590%2525C2%2525B8%2525C3%252590%2525C2%2525B7%2525C3%252590%2525C2%2525B8%2525C3%252591%2525C2%252580%2525C3%252590%2525C2%2525B0%2525C3%252590%2525C2%2525BD%2525C3%252590%2525C2%2525B0+%2525C3%252590%2525C2%25259F%2525C3%252591%2525C2%25258A%2525C3%252591%2525C2%252582%2525C3%252590%2525C2%2525BD%2525C3%252590%2525C2%2525B0+%2525C3%252590%2525C2%2525BA%2525C3%252590%2525C2%2525B0%2525C3%252591%2525C2%252580%2525C3%252591%2525C2%252582%2525C3%252590%2525C2%2525B0.doc> .
+<https://www2.e-gov.bg/upload/8576/%2525C3%252590%2525C2%252590%2525C3%252590%2525C2%2525BA%2525C3%252591%2525C2%252582%2525C3%252591%2525C2%252583%2525C3%252590%2525C2%2525B0%2525C3%252590%2525C2%2525BB%2525C3%252590%2525C2%2525B8%2525C3%252590%2525C2%2525B7%2525C3%252590%2525C2%2525B8%2525C3%252591%2525C2%252580%2525C3%252590%2525C2%2525B0%2525C3%252590%2525C2%2525BD%2525C3%252590%2525C2%2525B0+%2525C3%252590%2525C2%25259F%2525C3%252591%2525C2%25258A%2525C3%252591%2525C2%252582%2525C3%252590%2525C2%2525BD%2525C3%252590%2525C2%2525B0+%2525C3%252590%2525C2%2525BA%2525C3%252590%2525C2%2525B0%2525C3%252591%2525C2%252580%2525C3%252591%2525C2%252582%2525C3%252590%2525C2%2525B0.doc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint> .
+<https://www2.e-gov.bg/upload/8576/%C3%90%C2%90%C3%90%C2%BA%C3%91%C2%82%C3%91%C2%83%C3%90%C2%B0%C3%90%C2%BB%C3%90%C2%B8%C3%90%C2%B7%C3%90%C2%B8%C3%91%C2%80%C3%90%C2%B0%C3%90%C2%BD%C3%90%C2%B0+%C3%90%C2%9F%C3%91%C2%8A%C3%91%C2%82%C3%90%C2%BD%C3%90%C2%B0+%C3%90%C2%BA%C3%90%C2%B0%C3%91%C2%80%C3%91%C2%82%C3%90%C2%B0.doc> <http://purl.org/dc/terms/title> "Coordinated Action Plan" .
+<http://example.org/nifo/legalframework/Bulgaria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.lex.bg/laws/ldoc/2135555445>, <https://lex.bg/laws/ldoc/2134929408>, <https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex:32003L0098>, <https://www.lex.bg/laws/ldoc/2135426048>, <https://eur-lex.europa.eu/eli/reg/2016/679/oj>, <https://pris.government.bg/prin/document_view.aspx?DocumentID=mB5ZzXmVTHUWQ93y/7vx+Q==>, <https://www.lex.bg/laws/ldoc/2135180800>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG>, <http://www.lex.bg/bg/laws/ldoc/2136822116>, <https://www.lex.bg/bg/laws/ldoc/2137188253>, <https://www.lex.bg/laws/ldoc/2135522741>, <https://www.lex.bg/laws/ldoc/2134918656>, <https://www.lex.bg/laws/ldoc/2134673409>, <https://lex.bg/bg/laws/ldoc/2136735703>, <http://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=130598>, <http://lex.bg/en/laws/ldoc/2135530547> .
+<https://www.lex.bg/laws/ldoc/2135555445> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>, <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://data.europa.eu/eli/ontology#title> "eGovernance Act", "Electronic Government Act (eGovernment Act)", "eGovernment Act";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive (EU) 2016/2102" .
+<https://lex.bg/laws/ldoc/2134929408> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Access to Public Information Act" .
+<https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex:32003L0098> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2003/98/EC on the re-use of public sector information ";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013L0037> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013L0037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2013/37/EC" .
+<https://www.lex.bg/laws/ldoc/2135426048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Bulgarian Personal Data Protection Act (PDPA)", "Law on the Protection of Personal Data";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML> .
+<https://eur-lex.europa.eu/eli/reg/2016/679/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data" .
+<https://pris.government.bg/prin/document_view.aspx?DocumentID=mB5ZzXmVTHUWQ93y/7vx+Q==> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decision No. 634" .
+<https://www.lex.bg/laws/ldoc/2135180800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Electronic Document and Electronic Signature" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation (EC) 910/2014" .
+<http://www.lex.bg/bg/laws/ldoc/2136822116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Electronic Identification Act" .
+<https://www.lex.bg/bg/laws/ldoc/2137188253> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Cybersecurity Act" .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> " Directive 95/46/EC on the protection of individuals with regard to the processing of personal data and on the free movement of such data" .
+<https://www.lex.bg/laws/ldoc/2135522741> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Commercial Register and Register of Non-Profit Legal Entities Act" .
+<https://www.lex.bg/laws/ldoc/2134918656> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Cadastre and Property Register Act" .
+<https://www.lex.bg/laws/ldoc/2134673409> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Civil Register Act" .
+<https://lex.bg/bg/laws/ldoc/2136735703> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Public Procurement Act" .
+<http://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=130598> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Public Procurement Act" .
+<http://lex.bg/en/laws/ldoc/2135530547> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> " eCommerce Act";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2000/31/EC on electronic commerce" .
+<http://example.org/nifo/structure/Bulgaria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://data.egov.bg/>, <http://www.government.bg/>, <http://www.strategy.bg/Default.aspx?lang=bg-BG>, <https://pitay.government.bg/PDoiExt/indexExt.jsf;jsessionid=nH0Llq-2_gf5hBdaPT-p5ntf9_7RmJYJqzu2p0FP.egp16-app2p>, <https://www2.aop.bg/en/home/>, <https://dev.egov.bg/PDev/index.jsf>, <https://his.bg/>, <https://egov.bg/wps/portal/en>, <https://svc.sofia.bg/>, <http://www.strategy.bg/PublicConsultations/View.aspx?lang=bg-BG&Id=2971>, <https://info-regix.egov.bg/public>, <https://www.grao.bg/>, <https://edelivery.egov.bg/>, <https://e-gov.bg/wps/portal/agency/infrastructure>, <http://www.mtitc.government.bg/page.php?category=92&id=4086>, <https://crc.bg/files/_bg/register_site_bg_30092017_last_last.pdf>, <http://www.aop.bg/index.php?ln=1>, <http://rop3-app1.aop.bg:7778/portal/page?_pageid=173,1130263&_dad=portal&_schema=PORTAL>, <http://www.efaktura.bg/en>, <https://inv.bg/home>, <https://www.borica.bg/en>, <https://pay.egov.bg/>, <https://www.lex.bg/laws/ldoc/2135555445>, <https://github.com/governmentbg>, <https://git.egov.bg/>, <https://nap.bg/page?id=444>, <https://www.cpdp.bg/?p=element&aid=1231>, <https://www.noi.bg/>, <https://www.nssi.bg/aboutbg> .
+<https://data.egov.bg/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.government.bg/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.strategy.bg/Default.aspx?lang=bg-BG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://pitay.government.bg/PDoiExt/indexExt.jsf;jsessionid=nH0Llq-2_gf5hBdaPT-p5ntf9_7RmJYJqzu2p0FP.egp16-app2p> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www2.aop.bg/en/home/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://dev.egov.bg/PDev/index.jsf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://his.bg/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://egov.bg/wps/portal/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://svc.sofia.bg/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.strategy.bg/PublicConsultations/View.aspx?lang=bg-BG&Id=2971> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://info-regix.egov.bg/public> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.grao.bg/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://edelivery.egov.bg/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://e-gov.bg/wps/portal/agency/infrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.mtitc.government.bg/page.php?category=92&id=4086> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://crc.bg/files/_bg/register_site_bg_30092017_last_last.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.aop.bg/index.php?ln=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://rop3-app1.aop.bg:7778/portal/page?_pageid=173,1130263&_dad=portal&_schema=PORTAL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.efaktura.bg/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://inv.bg/home> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.borica.bg/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://pay.egov.bg/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://github.com/governmentbg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://git.egov.bg/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://nap.bg/page?id=444> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.cpdp.bg/?p=element&aid=1231> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.noi.bg/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.nssi.bg/aboutbg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Bulgaria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .

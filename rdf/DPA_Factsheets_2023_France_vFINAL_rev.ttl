@@ -1,0 +1,157 @@
+<http://data.europa.eu/nifo/factsheet/France> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/France>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/FRA";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/legalframework/France> .
+<http://publications.europa.eu/resource/authority/country/France> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/source> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring>;
+ <http://dbpedia.org/ontology/areaTotal> "France’s results in Scoreboard 1 show an overall good implementation of the EIF Principles, scoring above the European average for Principle 12 (Assessment of Effectiveness and Efficiency). Areas of improvements are concentrated in the Principles 3 (Transparency) and 7 (Inclusion and Accessibility) for which the scores of 3 and 2 respectively show a medium to upper-medium performance in the implementation of corresponding recommendations. Indeed, the internal visibility and provision of external interfaces for European public services (Principle 3 – Recommendation 5) and the accessibility of public services to all citizens, including persons with disabilities, the elderly and other disadvantaged groups (Principle 7 – Recommendation 14) could be improved to reach the maximum score of 4 in corresponding principles.";
+ <http://purl.org/dc/terms/relation> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> .
+<https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> <http://data.europa.eu/eli/ontology#title> "interactive dashboards" .
+<http://example.org/ContactPoint/France> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.vie-publique.fr/loi/279815-loi-3ds-decentralisation-deconcentration-collectivites-locales> .
+<https://www.vie-publique.fr/loi/279815-loi-3ds-decentralisation-deconcentration-collectivites-locales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "3DS Law" .
+<http://example.org/nifo/legalframework/France> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.vie-publique.fr/actualite/panorama/texte-discussion/projet-loi-pour-etat-au-service-societe-confiance.html>, <https://www.vie-publique.fr/loi/20755-loi-pour-une-republique-numerique>, <https://www.arcep.fr/>, <https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000636232&dateTexte=20180315>, <https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000031701525&dateTexte=20180315>, <https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=LEGITEXT000006068643&dateTexte=20080117>, <https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000037388867&cidTexte=LEGITEXT000006051257>, <https://www.numerique.gouv.fr/actualites/simplification-des-demarches-administratives-dites-le-nous-une-fois-passe-a-la-vitesse-superieure/>, <http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000439399&dateTexte=>, <http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000399095&dateTexte=>, <http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000801164&dateTexte>, <https://www.legifrance.gouv.fr/eli/loi/2018/2/26/INTX1728622L/jo/texte/>, <https://www.vie-publique.fr/actualite/dossier/securite-internet/protection-donnees-personnelles-que-contient-loi-du-20-juin-2018.html>, <http://www.cnil.fr/index.php?id=301>, <https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000029527162&categorieLien=id>, <https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000039683923&dateTexte=&categorieLien=id>, <https://www.vie-publique.fr/actualite/panorama/texte-discussion/projet-loi-programmation-2018-2022-reforme-pour-justice.html>, <https://www.vie-publique.fr/actualite/panorama/texte-discussion/projet-loi-relatif-organisation-transformation-du-systeme-sante.html>, <https://www.gouvernement.fr/action/pacte-le-plan-d-action-pour-la-croissance-et-la-transformation-des-entreprises>, <https://www.vie-publique.fr/loi/278056-loi-15-novembre2021-reen-reduire-empreinte-environnementale-du-numerique> .
+<https://www.vie-publique.fr/actualite/panorama/texte-discussion/projet-loi-pour-etat-au-service-societe-confiance.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law for a State at the Service of a Society Based on Trust" .
+<https://www.vie-publique.fr/loi/20755-loi-pour-une-republique-numerique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law for a Digital Republic" .
+<https://www.arcep.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Authority for Regulation of Electronic Communications and the Postal Sector (ARCEP)" .
+<https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000636232&dateTexte=20180315> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Ordinance on Electronic Interactions between Public Services Users and Public Authorities and among Public Authorities " .
+<https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000031701525&dateTexte=20180315> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the Modalities of Reuse of Public Sector Information" .
+<https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=LEGITEXT000006068643&dateTexte=20080117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Access to Administrative Documents" .
+<https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000037388867&cidTexte=LEGITEXT000006051257> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Article 47 of the Disability Act of 2005";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "European Directive on digital accessibility of websites and mobile applications of public sector bodies" .
+<https://www.numerique.gouv.fr/actualites/simplification-des-demarches-administratives-dites-le-nous-une-fois-passe-a-la-vitesse-superieure/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law for a State at the Service of a Society based on Trust" .
+<http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000439399&dateTexte=> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Electronic Communications and Audio-visual Communication Services";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0021:EN:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0021:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2002/21/EC (Framework Directive)";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0020:EN:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0020:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "2002/20/EC (Authorisation Directive)";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0019:EN:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0019:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "2002/19/EC (Access Directive)";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0022:EN:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0022:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "2002/22/EC (Universal Service Directive)";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0058:EN:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0058:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "(Privacy Directive)" .
+<http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000399095&dateTexte=> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Electronic Signature";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31999L0093:EN:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31999L0093:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "EU Directive 1999/93/EC" .
+<http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000801164&dateTexte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law for Trust in the Digital Economy";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "EU Directive 2000/31/EC" .
+<https://www.legifrance.gouv.fr/eli/loi/2018/2/26/INTX1728622L/jo/texte/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Various Provisions for Adapting to European Union Law in the Field of Security" .
+<https://www.vie-publique.fr/actualite/dossier/securite-internet/protection-donnees-personnelles-que-contient-loi-du-20-juin-2018.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Personal Data Protection Act" .
+<http://www.cnil.fr/index.php?id=301> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Informatics and Liberties";
+ <http://purl.org/dc/terms/relation> <http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000441676&dateTexte=> .
+<http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000441676&dateTexte=> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 2004-801";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "EU Data Protection Directive (95/46/EC)" .
+<https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000029527162&categorieLien=id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Taxis and Chauffeured Cars" .
+<https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000039683923&dateTexte=&categorieLien=id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "2020 Budget Law" .
+<https://www.vie-publique.fr/actualite/panorama/texte-discussion/projet-loi-programmation-2018-2022-reforme-pour-justice.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Programming and on the Reform of Justice" .
+<https://www.vie-publique.fr/actualite/panorama/texte-discussion/projet-loi-relatif-organisation-transformation-du-systeme-sante.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the Organisation and Transformation of the Healthcare System" .
+<https://www.gouvernement.fr/action/pacte-le-plan-d-action-pour-la-croissance-et-la-transformation-des-entreprises> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Action Plan for the Growth and Transformation of Enterprises (PACTE)" .
+<https://www.vie-publique.fr/loi/278056-loi-15-novembre2021-reen-reduire-empreinte-environnementale-du-numerique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "law on the reduction of the environmental footprint of the digital sector" .
+<http://example.org/nifo/structure/France> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://api.gouv.fr/>, <https://api.gouv.fr>, <https://entreprise.api.gouv.fr/>, <https://api.gouv.fr/les-api/api-particulier>, <https://datapass.api.gouv.fr/public>, <https://datapass.api.gouv.fr/stats>, <https://api.apientreprise.fr/documentation>, <https://api.gouv.fr/les-api/api-particulier#exemples-d%C3%A2%C2%80%C2%99application>, <https://franceconnect.gouv.fr/>, <https://www.mesdroitssociaux.gouv.fr/>, <https://www.service-public.fr/particuliers/actualites/A13333>, <http://www.service-public.fr/>, <https://entreprendre.service-public.fr/>, <https://formalites.entreprises.gouv.fr/>, <https://digiplace.sharepoint.com/sites/WE-DGDIGIT-BEACON-SC26NIFO/Shared%20Documents/D03.01%20DPA%20factsheets%20and%20infographics%202023/DPA%20factsheets%202023/France/Factsheet/Portailpro.gouv.fr>, <https://place-des-entreprises.beta.gouv.fr/>, <http://data.gouv.fr/>, <https://observatoire.numerique.gouv.fr/observatoire/>, <https://www.numerique.gouv.fr/espace-presse/6-mois-apres-son-lancement-demarches-simplifiees-dot-fr-sur-la-voie-de-la-reussite/>, <https://www.guichet-entreprises.fr/fr/>, <https://www.guichet-qualifications.fr/fr/>, <https://eur-lex.europa.eu/legal-content/en/TXT/PDF/?uri=CELEX:32006L0123&from=EN>, <https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32005L0036&from=EN>, <https://ec.europa.eu/growth/single-market/services/services-directive/in-practice/contact_en>, <https://www.francenum.gouv.fr/france-num>, <https://www.tribunaldigital.fr/>, <https://www.health-data-hub.fr/>, <https://permisdeconduire.ants.gouv.fr/>, <https://passeport.ants.gouv.fr/>, <https://immatriculation.ants.gouv.fr/>, <http://www.modernisation.gouv.fr/ladministration-change-avec-le-numerique/par-son-systeme-dinformation/les-trois-grandes-missions-du-reseau-interministeriel-de-letat>, <https://joinup.ec.europa.eu/community/epractice/case/france-mutualises-its-network-infrastructure-secure-its-it>, <http://www.ssi.gouv.fr/isis/>, <https://assure.ameli.fr/PortailAS/appmanager/PortailAS/assure?_somtc=true>, <https://lidentitenumerique.laposte.fr/>, <https://www.mobileconnectetmoi.fr/>, <https://www.msa.fr/lfp>, <http://www.service-public.fr>, <https://www.service-public.fr/particuliers/vosdroits/N360>, <https://www.numerique.gouv.fr/produits-services/tchap-messagerie-instantanee-etat/>, <https://timbres.impots.gouv.fr/>, <https://www.marches-publics.gouv.fr/?page=entreprise.AccueilEntreprise>, <https://www.economie.gouv.fr/dae>, <https://www.boamp.fr/>, <https://aife.economie.gouv.fr/>, <https://chorus-pro.gouv.fr>, <https://communaute.chorus-pro.gouv.fr/?lang=en>, <https://www.economie.gouv.fr/particuliers/payfip-solution-enrichie-paiement-en-ligne>, <http://adullact.net/>, <https://www.cybermalveillance.gouv.fr/contenus-de-sensibilisation/>, <https://adresse.data.gouv.fr/>, <https://www.ecologique-solidaire.gouv.fr/>, <https://registre-vtc.developpement-durable.gouv.fr/public/accueil.action;jsessionid=FA149ADD777AC11D5BC9EF0C64E3AA26.TC80_08_M>, <https://www.cadastre.gouv.fr/scpc/accueil.do>, <https://www.economie.gouv.fr/>, <https://www.insee.fr/fr/accueil>, <https://www.sirene.fr/sirene/public/accueil?sirene_locale=en>, <https://api.insee.fr/catalogue/site/themes/wso2/subthemes/insee/pages/item-info.jag?name=M%C3%83%C2%A9tadonn%C3%83%C2%A9es&version=V1&provider=insee>, <https://api.insee.fr/catalogue/site/pages/list-apis.jag>, <https://www.data.gouv.fr/fr/datasets/plan-cadastral-informatise/>, <https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/>, <https://www.data.gouv.fr/fr/datasets/referentiel-de-lorganisation-administrative-de-letat/>, <https://www.data.gouv.fr/fr/datasets/referentiel-a-grande-echelle-rge/>, <https://www.data.gouv.fr/fr/datasets/repertoire-national-des-associations/>, <https://www.data.gouv.fr/fr/datasets/repertoire-operationnel-des-metiers-et-des-emplois-rome/>, <https://www.etalab.gouv.fr/lab-ia/>, <https://www.numerique.gouv.fr/services/cloud/doctrine/> .
+<https://api.gouv.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://api.gouv.fr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://entreprise.api.gouv.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://api.gouv.fr/les-api/api-particulier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://datapass.api.gouv.fr/public> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://datapass.api.gouv.fr/stats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://api.apientreprise.fr/documentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://api.gouv.fr/les-api/api-particulier#exemples-d%C3%A2%C2%80%C2%99application> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://franceconnect.gouv.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mesdroitssociaux.gouv.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.service-public.fr/particuliers/actualites/A13333> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.service-public.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://entreprendre.service-public.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://formalites.entreprises.gouv.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://digiplace.sharepoint.com/sites/WE-DGDIGIT-BEACON-SC26NIFO/Shared%20Documents/D03.01%20DPA%20factsheets%20and%20infographics%202023/DPA%20factsheets%202023/France/Factsheet/Portailpro.gouv.fr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://place-des-entreprises.beta.gouv.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://data.gouv.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://observatoire.numerique.gouv.fr/observatoire/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.numerique.gouv.fr/espace-presse/6-mois-apres-son-lancement-demarches-simplifiees-dot-fr-sur-la-voie-de-la-reussite/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.guichet-entreprises.fr/fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.guichet-qualifications.fr/fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eur-lex.europa.eu/legal-content/en/TXT/PDF/?uri=CELEX:32006L0123&from=EN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32005L0036&from=EN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/growth/single-market/services/services-directive/in-practice/contact_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.francenum.gouv.fr/france-num> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.tribunaldigital.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.health-data-hub.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://permisdeconduire.ants.gouv.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://passeport.ants.gouv.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://immatriculation.ants.gouv.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.modernisation.gouv.fr/ladministration-change-avec-le-numerique/par-son-systeme-dinformation/les-trois-grandes-missions-du-reseau-interministeriel-de-letat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://joinup.ec.europa.eu/community/epractice/case/france-mutualises-its-network-infrastructure-secure-its-it> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.ssi.gouv.fr/isis/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://assure.ameli.fr/PortailAS/appmanager/PortailAS/assure?_somtc=true> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://lidentitenumerique.laposte.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mobileconnectetmoi.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.msa.fr/lfp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.service-public.fr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.service-public.fr/particuliers/vosdroits/N360> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.numerique.gouv.fr/produits-services/tchap-messagerie-instantanee-etat/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://timbres.impots.gouv.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.marches-publics.gouv.fr/?page=entreprise.AccueilEntreprise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.economie.gouv.fr/dae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.boamp.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://aife.economie.gouv.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://chorus-pro.gouv.fr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://communaute.chorus-pro.gouv.fr/?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.economie.gouv.fr/particuliers/payfip-solution-enrichie-paiement-en-ligne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://adullact.net/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.cybermalveillance.gouv.fr/contenus-de-sensibilisation/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://adresse.data.gouv.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ecologique-solidaire.gouv.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://registre-vtc.developpement-durable.gouv.fr/public/accueil.action;jsessionid=FA149ADD777AC11D5BC9EF0C64E3AA26.TC80_08_M> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.cadastre.gouv.fr/scpc/accueil.do> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.economie.gouv.fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.insee.fr/fr/accueil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.sirene.fr/sirene/public/accueil?sirene_locale=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://api.insee.fr/catalogue/site/themes/wso2/subthemes/insee/pages/item-info.jag?name=M%C3%83%C2%A9tadonn%C3%83%C2%A9es&version=V1&provider=insee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://api.insee.fr/catalogue/site/pages/list-apis.jag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.data.gouv.fr/fr/datasets/plan-cadastral-informatise/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.data.gouv.fr/fr/datasets/referentiel-de-lorganisation-administrative-de-letat/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.data.gouv.fr/fr/datasets/referentiel-a-grande-echelle-rge/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.data.gouv.fr/fr/datasets/repertoire-national-des-associations/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.data.gouv.fr/fr/datasets/repertoire-operationnel-des-metiers-et-des-emplois-rome/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.etalab.gouv.fr/lab-ia/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.numerique.gouv.fr/services/cloud/doctrine/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/France> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .

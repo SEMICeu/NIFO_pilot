@@ -1,0 +1,123 @@
+<http://data.europa.eu/nifo/factsheet/Estonia> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Estonia>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/EST";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/legalframework/Estonia> .
+<http://publications.europa.eu/resource/authority/country/Estonia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/source> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring>;
+ <http://purl.org/dc/terms/relation> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> .
+<https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> <http://data.europa.eu/eli/ontology#title> "interactive dashboards" .
+<http://example.org/ContactPoint/Estonia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.riigikantselei.ee/en/news/new-open-government-action-plan-focuses-co-creation>, <https://www.opengovpartnership.org/documents/estonia-action-plan-2022-2024/>, <https://s3.eu-central-1.amazonaws.com/ereswhitepaper/e-Residency+2.0+white+paper+English.pdf> .
+<https://www.riigikantselei.ee/en/news/new-open-government-action-plan-focuses-co-creation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Open Government Partnership Action Plan 2020–2022" .
+<https://www.opengovpartnership.org/documents/estonia-action-plan-2022-2024/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Open Government Partnership Action Plan 2022–2024." .
+<https://s3.eu-central-1.amazonaws.com/ereswhitepaper/e-Residency+2.0+white+paper+English.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "eResidency 2.0 Action Plan" .
+<http://example.org/nifo/legalframework/Estonia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.riigiteataja.ee/en/eli/ee/503012019004/consolide/current>, <https://www.riigiteataja.ee/akt/556659>, <https://www.riigiteataja.ee/en/eli/529032019012/consolide>, <http://www.legaltext.ee/text/en/X2058K5.htm>, <https://www.riigiteataja.ee/en/eli/527102016001/consolide>, <https://www.riigiteataja.ee/en/eli/ee/527102016001/consolide/current>, <https://www.riigiteataja.ee/en/eli/523052018003/consolide>, <https://www.riigiteataja.ee/akt/112072014051>, <https://www.riigiteataja.ee/akt/13125331?leiaKehtiv>, <https://www.riigiteataja.ee/en/eli/516012014003/consolide>, <https://www.riigiteataja.ee/akt/12769835>, <https://www.riigiteataja.ee/en/compare_original?id=507012014005>, <https://www.riigiteataja.ee/en/eli/ee/505092017003/consolide/current>, <https://www.riigikogu.ee/tegevus/eelnoud/eelnou/667615bb-4a13-4a02-812f-550c5dedeef3/Raamatupidamise%252520seaduse%252520muutmise%252520seadus>, <https://www.riigiteataja.ee/en/eli/ee/504112013008/consolide/current>, <https://www.riigiteataja.ee/en/eli/522122017001/consolide>, <https://www.riigiteataja.ee/akt/120112018003> .
+<https://www.riigiteataja.ee/en/eli/ee/503012019004/consolide/current> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Public Information Act" .
+<https://www.riigiteataja.ee/akt/556659> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Public Information Act";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2003/98/EC on the re-use of public sector information (PSI)";
+ <http://purl.org/dc/terms/relation> <https://www.riigiteataja.ee/akt/32230> .
+<https://www.riigiteataja.ee/akt/32230> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Databases Act";
+ <http://purl.org/dc/terms/relation> <https://www.riigiteataja.ee/akt/12900546> .
+<https://www.riigiteataja.ee/akt/12900546> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Public Information Act";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013L0037> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013L0037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive (2013/37/EU)" .
+<https://www.riigiteataja.ee/en/eli/529032019012/consolide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Public Information Act", "law" .
+<http://www.legaltext.ee/text/en/X2058K5.htm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Archives Act" .
+<https://www.riigiteataja.ee/en/eli/527102016001/consolide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>, <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://data.europa.eu/eli/ontology#title> "Electronic Identification and Trust Services for Electronic Transactions Act";
+ <http://purl.org/dc/terms/relation> <https://www.riigiteataja.ee/akt/114032014012> .
+<https://www.riigiteataja.ee/akt/114032014012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Digital Signatures Act" .
+<https://www.riigiteataja.ee/en/eli/ee/527102016001/consolide/current> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "amendments to the Electronic Identification and Trust Services for Electronic Transactions Act" .
+<https://www.riigiteataja.ee/en/eli/523052018003/consolide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Cybersecurity Act" .
+<https://www.riigiteataja.ee/akt/112072014051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Personal Data Protection Act (PDPA)";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "EU Data Protection Directive (95/46/EC)" .
+<https://www.riigiteataja.ee/akt/13125331?leiaKehtiv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "regulation" .
+<https://www.riigiteataja.ee/en/eli/516012014003/consolide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Population Registry Act" .
+<https://www.riigiteataja.ee/akt/12769835> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Land Registry Act" .
+<https://www.riigiteataja.ee/en/compare_original?id=507012014005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "General Traffic Act" .
+<https://www.riigiteataja.ee/en/eli/ee/505092017003/consolide/current> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Public Procurement Act" .
+<https://www.riigikogu.ee/tegevus/eelnoud/eelnou/667615bb-4a13-4a02-812f-550c5dedeef3/Raamatupidamise%252520seaduse%252520muutmise%252520seadus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<https://www.riigikogu.ee/tegevus/eelnoud/eelnou/667615bb-4a13-4a02-812f-550c5dedeef3/Raamatupidamise%20seaduse%20muutmise%20seadus> <http://data.europa.eu/eli/ontology#title> "Act on Amendments to the Accounting Act" .
+<https://www.riigiteataja.ee/en/eli/ee/504112013008/consolide/current> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Information Society Services Act";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2000/31/EC on certain legal aspects of information society services, in particular electronic commerce, in the Internal Market" .
+<https://www.riigiteataja.ee/en/eli/522122017001/consolide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Simplified Business Income Taxation Act" .
+<https://www.riigiteataja.ee/akt/120112018003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation on the Cross-border Exchange of Information regarding Health Services" .
+<http://example.org/nifo/structure/Estonia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.eesti.ee/eng>, <https://www.emta.ee/eng>, <https://www.emta.ee/eng/information-and-news-e-taxe-customs/instructions-using-e-services/upgraded-desktop-e-mta-environment>, <https://opendata.riik.ee/en/>, <https://www.riigikantselei.ee/en>, <https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/JL2HOJXF/koodivaramu.eesti.ee>, <https://accelerateestonia.ee/>, <https://www.tehnopol.ee/en/>, <https://accelerateestonia.ee/mental-health/>, <https://accelerateestonia.ee/green-turn/>, <https://accelerateestonia.ee/wild-card/>, <https://www.digilugu.ee/login?locale=en>, <https://avaandmed.eesti.ee/>, <https://www.kovtp.ee/>, <http://www.legaltext.ee/text/en/X40095K2.htm>, <http://www.ria.ee/index.php?id=27314>, <https://ec.europa.eu/isa2/solutions/testa_en>, <https://hoia.me/en/>, <https://koodivaramu.eesti.ee/tehik/hoia>, <https://www.ria.ee/en/state-information-system/x-tee.html>, <https://www.ria.ee/et/riigi-infosusteem/andmevahetuskiht-x-tee.html>, <https://github.com/buerokratt/Data-Anonymizer>, <http://www.id.ee/?lang=en>, <https://www.riigiteataja.ee/en/eli/527102016001/consolide>, <https://e-estonia.com/solutions/e-identity/>, <http://id.ee/?lang=en&id=36881>, <https://www.smart-id.com/>, <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32004R2252:EN:HTML>, <https://www2.politsei.ee/et/nouanded/dokumentide-naidised/eesti-kodaniku-pass/eesti-kodaniku-pass-2007-2014.dot>, <https://www.dokobit.com/e-residency>, <https://riigihanked.riik.ee/rhr-web/#/>, <https://www.omniva.ee/index.php?article_id=232&page=580&action=article>, <https://www.rahandusministeerium.ee/et/riigihaldus/e-arved>, <https://www.eestipank.ee/en/press/new-tips-system-will-make-instant-payments-more-affordable-smaller-banks-30112018>, <https://www.eestipank.ee/en/payments/estonian-payment-market>, <http://www.ria.ee/dec>, <https://ee.ekool.eu/index_en.html>, <https://github.com/e-gov/AJ/blob/master/preliminary/Overview.md>, <http://www.vali-it.ee/>, <https://www.niis.org/>, <https://www.ria.ee/en>, <https://www.niis.org/newsroom#/pressreleases/iceland-joins-the-nordic-institute-for-interoperability-solutions-3104057>, <https://e-estonia.com/wp-content/uploads/aug2019-facts-a4-data-embassy.pdf>, <https://f98cc689-5814-47ec-86b3-db505a7c3978.filesusr.com/ugd/7df26f_19625e00a7b84900b99e952b1ce7d21a.pdf>, <https://www.eesti.ee/et/>, <https://www.riigikogu.ee/en/press-releases/others/the-riigikogu-has-a-new-system-for-making-verbatim-reports/> .
+<https://www.eesti.ee/eng> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.emta.ee/eng> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.emta.ee/eng/information-and-news-e-taxe-customs/instructions-using-e-services/upgraded-desktop-e-mta-environment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://opendata.riik.ee/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.riigikantselei.ee/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/JL2HOJXF/koodivaramu.eesti.ee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://accelerateestonia.ee/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.tehnopol.ee/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://accelerateestonia.ee/mental-health/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://accelerateestonia.ee/green-turn/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://accelerateestonia.ee/wild-card/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.digilugu.ee/login?locale=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://avaandmed.eesti.ee/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.kovtp.ee/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.legaltext.ee/text/en/X40095K2.htm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.ria.ee/index.php?id=27314> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/isa2/solutions/testa_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://hoia.me/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://koodivaramu.eesti.ee/tehik/hoia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ria.ee/en/state-information-system/x-tee.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ria.ee/et/riigi-infosusteem/andmevahetuskiht-x-tee.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://github.com/buerokratt/Data-Anonymizer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.id.ee/?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://e-estonia.com/solutions/e-identity/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://id.ee/?lang=en&id=36881> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.smart-id.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32004R2252:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www2.politsei.ee/et/nouanded/dokumentide-naidised/eesti-kodaniku-pass/eesti-kodaniku-pass-2007-2014.dot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.dokobit.com/e-residency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://riigihanked.riik.ee/rhr-web/#/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.omniva.ee/index.php?article_id=232&page=580&action=article> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.rahandusministeerium.ee/et/riigihaldus/e-arved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.eestipank.ee/en/press/new-tips-system-will-make-instant-payments-more-affordable-smaller-banks-30112018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.eestipank.ee/en/payments/estonian-payment-market> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.ria.ee/dec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ee.ekool.eu/index_en.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://github.com/e-gov/AJ/blob/master/preliminary/Overview.md> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.vali-it.ee/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.niis.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ria.ee/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.niis.org/newsroom#/pressreleases/iceland-joins-the-nordic-institute-for-interoperability-solutions-3104057> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://e-estonia.com/wp-content/uploads/aug2019-facts-a4-data-embassy.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://f98cc689-5814-47ec-86b3-db505a7c3978.filesusr.com/ugd/7df26f_19625e00a7b84900b99e952b1ce7d21a.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.eesti.ee/et/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.riigikogu.ee/en/press-releases/others/the-riigikogu-has-a-new-system-for-making-verbatim-reports/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Estonia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .

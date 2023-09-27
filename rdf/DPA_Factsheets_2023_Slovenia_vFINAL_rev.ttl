@@ -1,0 +1,212 @@
+<http://data.europa.eu/nifo/factsheet/Slovenia> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Slovenia>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/SVN";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/legalframework/Slovenia> .
+<http://publications.europa.eu/resource/authority/country/Slovenia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/source> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring>;
+ <http://purl.org/dc/terms/relation> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> .
+<https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> <http://data.europa.eu/eli/ontology#title> "interactive dashboards" .
+<http://example.org/ContactPoint/Slovenia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.stopbirokraciji.gov.si/fileadmin/user_upload/mju/templates/pdf/AN_VG_17-6-2019-b3_P.pdf>, <https://nio.gov.si/nio/asset/zakon+o+informacijski+varnosti+zinfv?lang=en>, <https://www.gov.si/en/news/slovenia-launches-national-test-blockchain-infrastructure-and-slovenian-blockchain-partnership/> .
+<https://www.stopbirokraciji.gov.si/fileadmin/user_upload/mju/templates/pdf/AN_VG_17-6-2019-b3_P.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Action Plan for Better Regulation", "Action Plan for Better" .
+<https://nio.gov.si/nio/asset/zakon+o+informacijski+varnosti+zinfv?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Information Security Act";
+ <http://purl.org/dc/terms/relation> <https://nio.gov.si/nio/asset/zakon+o+informacijski+varnosti+zinfv?lang=en> .
+<https://www.gov.si/en/news/slovenia-launches-national-test-blockchain-infrastructure-and-slovenian-blockchain-partnership/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Blockchain Action Plan" .
+<http://example.org/nifo/legalframework/Slovenia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO1603>, <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO8346>, <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO5657>, <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO7718>, <https://www.uradni-list.si/_pdf/2022/Ur/u2022035.pdf>, <http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1518451626252&uri=CELEX:32014R0910>, <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO5758>, <https://eur-lex.europa.eu/eli/dir/2016/1148/oj>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679>, <http://www.uradni-list.si/1/objava.jsp?urlurid=20074690>, <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO3726>, <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO3603>, <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO7952>, <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO7333>, <http://www.djn.mju.gov.si/resources/files/Predpisi/ZJN-3_ang_prevod.pdf>, <http://www.djn.mju.gov.si/resources/files/Sistem_javnega_narocanja/ZPVPJN/ZPVPJN_ang_julij_18.pdf>, <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO7120>, <http://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO1419>, <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO4284>, <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO4703>, <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO6405> .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO1603> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> " General Administrative Procedure Act" .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO8346> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "De-bureaucratization Act" .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO5657> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Infrastructure for Spatial Information Act" .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO7718> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Accessibility of Websites and Mobile Applications Act ";
+ <http://purl.org/dc/terms/relation> <http://www.pisrs.si/Pis.web/pregledPredpisa?sop=2018-01-1351> .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?sop=2018-01-1351> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "act " .
+<https://www.uradni-list.si/_pdf/2022/Ur/u2022035.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "The Promoting Digital Inclusion Act" .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1518451626252&uri=CELEX:32014R0910> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation (EU) 910/2014 on electronic identification and trust services for electronic transactions in the internal market (eIDAS Regulation)" .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO5758> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Identity Card Act" .
+<https://eur-lex.europa.eu/eli/dir/2016/1148/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive (EU) 2016/1148 (NIS Directive)";
+ <http://purl.org/dc/terms/relation> <http://nio.gov.si/nio/asset/zakon+o+informacijski+varnosti+zinfv?lang=en> .
+<http://nio.gov.si/nio/asset/zakon+o+informacijski+varnosti+zinfv?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Information Security Act";
+ <http://purl.org/dc/terms/relation> <https://www.gov.si/en/news/2021-08-02-the-information-security-administration-of-the-republic-of-slovenia-was-transformed-into-the-government-information-security-office/> .
+<https://www.gov.si/en/news/2021-08-02-the-information-security-administration-of-the-republic-of-slovenia-was-transformed-into-the-government-information-security-office/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act Amending the Information Security Act" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "General Data Protection Regulation (GDPR)" .
+<http://www.uradni-list.si/1/objava.jsp?urlurid=20074690> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Personal Data Protection Act" .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO3726> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Business Register of Slovenia Act " .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO3603> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Land Register Act " .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO7952> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Real Estate Cadastre Act" .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO7333> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Motor Vehicle Act" .
+<http://www.djn.mju.gov.si/resources/files/Predpisi/ZJN-3_ang_prevod.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Public Procurement Act" .
+<http://www.djn.mju.gov.si/resources/files/Sistem_javnega_narocanja/ZPVPJN/ZPVPJN_ang_julij_18.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Legal Protection in Public Procurement Procedures Act" .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO7120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Provision of Payment Services to Budget Users Act" .
+<http://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO1419> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Healthcare Databases Act" .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO4284> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Protection of Documents, Archives and Archival Institutions Act" .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO4703> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Tax Procedure Act" .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO6405> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Electronic Communications Act" .
+<http://example.org/nifo/structure/Slovenia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://e-uprava.gov.si/en>, <https://spot.gov.si/>, <https://www.gov.si/zbirke/storitve/mferac/>, <https://www.gov.si/en/state-authorities/ministries/ministry-of-finance/>, <http://www.gov.si/>, <https://nio.gov.si/nio/vstopna.nio?lang=en>, <https://joinup.ec.europa.eu/collection/slovenian-interoperability-portal-nio>, <https://www.gov.si/en/state-authorities/ministries/ministry-of-public-administration/about-the-ministry/administrative-burden-reduction-and-better-regulation-service/>, <https://www.stopbirokraciji.gov.si/en/home>, <https://www.youtube.com/watch?v=cE4DkYB1BBU&feature=emb_title>, <https://enotnazbirkaukrepov.gov.si/>, <https://nio.gov.si/nio/asset/geohubsi?lang=en>, <https://podatki.gov.si/>, <https://ejn.gov.si/>, <https://ejn.gov.si/en/>, <https://www.gov.si/en/state-authorities/national-assembly/>, <https://idp.dz-rs.si/nidp/app/login?id=rba-internal&sid=0&option=credential&sid=0>, <https://www.gov.si/en/state-authorities/national-council/>, <https://mnz.sharepoint.com/sites/PriglasiteveOIinsmsPASS/_layouts/15/Doc.aspx?sourcedoc=%7BEFEDF5CF-F84C-4C24-BCD6-D2989A90E762%7D&file=Udele%C3%85%C2%BEba%20-%201.3.%20in%202.3..xlsx&action=default&mobileredirect=true>, <https://zvem.ezdrav.si>, <https://zavarovanec.zzzs.si/>, <http://www.zzzs.si/>, <https://www.e-prostor.gov.si/>, <https://www.fu.gov.si/en/e_services?type==8b79b09613ca367322153a1a63971862=63948d557b305f566434361215815be3=69b6518416597fdecb299e4571add7b0atop/>, <https://www.fu.gov.si/en/e_services?type=%253D17bb1b332b7d1cb8b0379b900f0a209c%253D8b79b09613ca367322153a1a63971862%253D82215450479817f3d85a3436d5b1150b%253Deec060e927badf8413c55f3a2424d6e0%2527%2529#c6792>, <https://www.gov.si/en/state-authorities/bodies-within-ministries/public-payments-administration/about-us/>, <http://www.ujp.gov.si/>, <https://www.gov.si/drzavni-organi/organi-v-sestavi/uprava-za-javna-placila/>, <https://play.google.com/store/apps/details?id=com.mfrs.mujpnet&hl=en_US>, <https://www.ujp.gov.si/>, <https://eracuni.ujp.gov.si/NoCert>, <http://www.vlada.si/delo_vlade/>, <http://www.euportal.si/en>, <https://portal.mzz.gov.si>, <http://www.dlib.si/>, <https://www.nuk.uni-lj.si/eng/>, <https://nio.gov.si/nio/asset/ejr+informacijska+podpora+izvajanju+javnih+razpisov?lang=en>, <http://www.pisrs.si/Pis.web/>, <https://www.gov.si/en/state-authorities/government-offices/government-office-for-legislation/about-the-office-of-the-government-of-the-republic-of-slovenia-for-legislation/>, <https://nio.gov.si/nio/asset/slovenscina+v+digitalnem+okolju+jezikovni+viri+in+tehnologije?lang=en>, <https://www.slovenscina.eu>, <https://www.gov.si/zbirke/storitve/informacijski-sistem-edediscina/>, <https://izboljsajmo.maribor.si/>, <http://izboljsajmo.ptuj.si/>, <https://www.mariborsodeluj.si/>, <https://predlagam-odlocam.koper.si/>, <http://www.servis48.si/>, <https://pobude.ljubljana.si/>, <https://www.krpovej.si/>, <https://mol-ljubljana.hub.arcgis.com/>, <http://nio.gov.si/nio/asset/komunikacijsko+omrezje+drzavnih+organov+hkom>, <https://nio.gov.si/nio/asset/drzavni+racunalniski+oblak+dro?lang=en>, <https://ezdrav.si/jezik-anglesko/>, <https://ec.europa.eu/isa2/solutions/testa_en>, <https://presojaucinkov.gov.si/Msp/>, <https://e-uprava.gov.si/drzava-in-druzba/e-demokracija/predlogi-predpisov.html#eyJmaWx0ZXJzIjp7ImNvbW1lbnQiOlsiLSJdLCJ0eXBlIjpbIi0iXSwic3RhdHVzIjpbIi0iXSwiY2F0IjpbIi0iXSwicmlqcyI6WyItMSJdLCJvZmZzZXQiOlsiMCJdLCJzZW50aW5lbF90eXBlIjpbIm9rIl0sInNlbnRpbmVsX3N0YXR1cyI6WyJvayJdLCJpc19hamF4IjpbIjEiXX19>, <http://nio.gov.si/nio/asset/interoperabilnostna+komponenta+pladenj-368?lang=en>, <http://nio.gov.si/nio/asset/interoperabilnostna+komponenta+iomodul-369?lang=en>, <http://nio.gov.si/nio/asset/interoperabilnostna+komponenta+asinhroni+modul-370?lang=en>, <https://ezdrav.si/jezik-anglesko/#:~:text=Central%20Registry%20of%20Patient%20Data%20(CRPD)&text=It%20is%20designed%20for%20exchanging,the%20purpose%20of%20providing%20healthcare.>, <https://zvem.ezdrav.si/>, <https://www.ezdrav.si/storitve/erecept/>, <https://www.ezdrav.si/storitve/enarocanje/>, <http://www.ezdrav.si/category/projekti/enarocanje/>, <https://cakalnedobe.ezdrav.si>, <https://nio.gov.si/nio/asset/poslovna+inteligenca+skrinja>, <http://www.geoportal.gov.si/eng/data-collections/network-services/all-services>, <http://sicas.gov.si>, <https://www.si-trust.gov.si/en/digital-certificates/>, <https://www.si-trust.gov.si/en/si-pass/mobile-identity-smspass/>, <http://nio.gov.si/nio/asset/centralni+avtentikacijski+sistem+sicas?lang=en>, <https://www.si-trust.gov.si/en/support/frequently-asked-questions/electronic-id/>, <https://nio.gov.si/nio/asset/centralni+sistem+za+evrocanje+sicev-813?lang=en>, <https://www.enarocanje.si/>, <https://ejn.gov.si/statist.html>, <http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32014L0055>, <https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2019-01-2291?sop=2019-01-2291>, <https://www.cep.si/eslog-2-0-published/>, <https://epos.si/en/eslog>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055>, <https://www.gov.si/en/state-authorities/bodies-within-ministries/public-payments-administration/>, <https://www.gov.si/en/state-authorities/ministries/ministry-of-public-administration/about-the-ministry/directorate-of-quality/administration-academy/>, <http://nio.gov.si/nio/asset/jedro+elektronskih+postopkov+jep?lang=en>, <http://nio.gov.si/nio/asset/informacijski+sistem+krpan?lang=en>, <https://ai4si.gzs.si/>, <https://www.de4a.eu/>, <https://www.ajpes.si/About_AJPES>, <https://www.ajpes.si/Registri/Drugi_registri/Register_dejanskih_lastnikov/Splosno>, <http://www.uppd.gov.si/en/>, <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO7132>, <http://www.fu.gov.si/fileadmin/Internet/Davki_in_druge_dajatve/Podrocja/Dohodnina/Dohodek_iz_dejavnosti/Opis/GB_Podrobnejsi_opis_3_izdaja_Brosura_za_sobodajalce_-_fizicne_osebe.docx>, <https://www.ajpes.si/Registri/Drugi_registri/Register_nastanitvenih_obratov/Splosno>, <http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO3354>, <https://podatki.gov.si/dataset/maticni-register?resource_id=fefc5c9b-298f-4563-b212-bbf8da506249>, <https://podatki.gov.si/dataset/register-stalnega-prebivalstva>, <https://www.gov.si/en/state-authorities/bodies-within-ministries/surveying-and-mapping-authority/>, <https://eprostor.gov.si/imps/srv/eng/catalog.search#/metadata/25e80f41-8348-4759-bac1-ec56c7223509>, <https://e-register.gzs.si/GzsRpe/viewspublic/companySearch.xhtml>, <https://www.e-prostor.gov.si/en/access-to-geodetic-data/>, <https://nio.gov.si/nio/asset/centralni+besednjak>, <https://nio.gov.si/nio/asset/evidenca+aplikacij?lang=en>, <https://www.eucaris.net/>, <https://e-justice.europa.eu/content_criminal_records-95-en.do>, <http://eulis.eu/>, <https://nio.gov.si/nio/asset/semanticni+analizator+pametni+iskalnik+besedil?lang=en>, <https://www.gov.si/en/news/2019-12-11-slovenia-launched-national-test-blockchain-infrastructure-and-slovenian-blockchain-partnership/>, <https://gis.akos-rs.si/> .
+<https://e-uprava.gov.si/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://spot.gov.si/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.si/zbirke/storitve/mferac/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.si/en/state-authorities/ministries/ministry-of-finance/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.gov.si/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://nio.gov.si/nio/vstopna.nio?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://joinup.ec.europa.eu/collection/slovenian-interoperability-portal-nio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.si/en/state-authorities/ministries/ministry-of-public-administration/about-the-ministry/administrative-burden-reduction-and-better-regulation-service/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.stopbirokraciji.gov.si/en/home> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.youtube.com/watch?v=cE4DkYB1BBU&feature=emb_title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://enotnazbirkaukrepov.gov.si/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://nio.gov.si/nio/asset/geohubsi?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://podatki.gov.si/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ejn.gov.si/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ejn.gov.si/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.si/en/state-authorities/national-assembly/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://idp.dz-rs.si/nidp/app/login?id=rba-internal&sid=0&option=credential&sid=0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.si/en/state-authorities/national-council/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://mnz.sharepoint.com/sites/PriglasiteveOIinsmsPASS/_layouts/15/Doc.aspx?sourcedoc=%7BEFEDF5CF-F84C-4C24-BCD6-D2989A90E762%7D&file=Udele%C3%85%C2%BEba%20-%201.3.%20in%202.3..xlsx&action=default&mobileredirect=true> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://zvem.ezdrav.si> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://zavarovanec.zzzs.si/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.zzzs.si/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.e-prostor.gov.si/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.fu.gov.si/en/e_services?type==8b79b09613ca367322153a1a63971862=63948d557b305f566434361215815be3=69b6518416597fdecb299e4571add7b0atop/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.fu.gov.si/en/e_services?type=%253D17bb1b332b7d1cb8b0379b900f0a209c%253D8b79b09613ca367322153a1a63971862%253D82215450479817f3d85a3436d5b1150b%253Deec060e927badf8413c55f3a2424d6e0%2527%2529#c6792> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.si/en/state-authorities/bodies-within-ministries/public-payments-administration/about-us/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.ujp.gov.si/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.si/drzavni-organi/organi-v-sestavi/uprava-za-javna-placila/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://play.google.com/store/apps/details?id=com.mfrs.mujpnet&hl=en_US> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ujp.gov.si/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eracuni.ujp.gov.si/NoCert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.vlada.si/delo_vlade/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.euportal.si/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://portal.mzz.gov.si> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.dlib.si/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.nuk.uni-lj.si/eng/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://nio.gov.si/nio/asset/ejr+informacijska+podpora+izvajanju+javnih+razpisov?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.pisrs.si/Pis.web/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.si/en/state-authorities/government-offices/government-office-for-legislation/about-the-office-of-the-government-of-the-republic-of-slovenia-for-legislation/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://nio.gov.si/nio/asset/slovenscina+v+digitalnem+okolju+jezikovni+viri+in+tehnologije?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.slovenscina.eu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.si/zbirke/storitve/informacijski-sistem-edediscina/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://izboljsajmo.maribor.si/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://izboljsajmo.ptuj.si/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mariborsodeluj.si/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://predlagam-odlocam.koper.si/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.servis48.si/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://pobude.ljubljana.si/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.krpovej.si/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://mol-ljubljana.hub.arcgis.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://nio.gov.si/nio/asset/komunikacijsko+omrezje+drzavnih+organov+hkom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://nio.gov.si/nio/asset/drzavni+racunalniski+oblak+dro?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ezdrav.si/jezik-anglesko/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/isa2/solutions/testa_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://presojaucinkov.gov.si/Msp/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://e-uprava.gov.si/drzava-in-druzba/e-demokracija/predlogi-predpisov.html#eyJmaWx0ZXJzIjp7ImNvbW1lbnQiOlsiLSJdLCJ0eXBlIjpbIi0iXSwic3RhdHVzIjpbIi0iXSwiY2F0IjpbIi0iXSwicmlqcyI6WyItMSJdLCJvZmZzZXQiOlsiMCJdLCJzZW50aW5lbF90eXBlIjpbIm9rIl0sInNlbnRpbmVsX3N0YXR1cyI6WyJvayJdLCJpc19hamF4IjpbIjEiXX19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://nio.gov.si/nio/asset/interoperabilnostna+komponenta+pladenj-368?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://nio.gov.si/nio/asset/interoperabilnostna+komponenta+iomodul-369?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://nio.gov.si/nio/asset/interoperabilnostna+komponenta+asinhroni+modul-370?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ezdrav.si/jezik-anglesko/#:~:text=Central%20Registry%20of%20Patient%20Data%20(CRPD)&text=It%20is%20designed%20for%20exchanging,the%20purpose%20of%20providing%20healthcare.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://zvem.ezdrav.si/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ezdrav.si/storitve/erecept/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ezdrav.si/storitve/enarocanje/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.ezdrav.si/category/projekti/enarocanje/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://cakalnedobe.ezdrav.si> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://nio.gov.si/nio/asset/poslovna+inteligenca+skrinja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.geoportal.gov.si/eng/data-collections/network-services/all-services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://sicas.gov.si> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.si-trust.gov.si/en/digital-certificates/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.si-trust.gov.si/en/si-pass/mobile-identity-smspass/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://nio.gov.si/nio/asset/centralni+avtentikacijski+sistem+sicas?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.si-trust.gov.si/en/support/frequently-asked-questions/electronic-id/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://nio.gov.si/nio/asset/centralni+sistem+za+evrocanje+sicev-813?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.enarocanje.si/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ejn.gov.si/statist.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32014L0055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2019-01-2291?sop=2019-01-2291> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.cep.si/eslog-2-0-published/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://epos.si/en/eslog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.si/en/state-authorities/bodies-within-ministries/public-payments-administration/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.si/en/state-authorities/ministries/ministry-of-public-administration/about-the-ministry/directorate-of-quality/administration-academy/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://nio.gov.si/nio/asset/jedro+elektronskih+postopkov+jep?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://nio.gov.si/nio/asset/informacijski+sistem+krpan?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ai4si.gzs.si/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.de4a.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ajpes.si/About_AJPES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ajpes.si/Registri/Drugi_registri/Register_dejanskih_lastnikov/Splosno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.uppd.gov.si/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO7132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.fu.gov.si/fileadmin/Internet/Davki_in_druge_dajatve/Podrocja/Dohodnina/Dohodek_iz_dejavnosti/Opis/GB_Podrobnejsi_opis_3_izdaja_Brosura_za_sobodajalce_-_fizicne_osebe.docx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ajpes.si/Registri/Drugi_registri/Register_nastanitvenih_obratov/Splosno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO3354> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://podatki.gov.si/dataset/maticni-register?resource_id=fefc5c9b-298f-4563-b212-bbf8da506249> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://podatki.gov.si/dataset/register-stalnega-prebivalstva> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.si/en/state-authorities/bodies-within-ministries/surveying-and-mapping-authority/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eprostor.gov.si/imps/srv/eng/catalog.search#/metadata/25e80f41-8348-4759-bac1-ec56c7223509> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://e-register.gzs.si/GzsRpe/viewspublic/companySearch.xhtml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.e-prostor.gov.si/en/access-to-geodetic-data/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://nio.gov.si/nio/asset/centralni+besednjak> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://nio.gov.si/nio/asset/evidenca+aplikacij?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.eucaris.net/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://e-justice.europa.eu/content_criminal_records-95-en.do> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://eulis.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://nio.gov.si/nio/asset/semanticni+analizator+pametni+iskalnik+besedil?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gov.si/en/news/2019-12-11-slovenia-launched-national-test-blockchain-infrastructure-and-slovenian-blockchain-partnership/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://gis.akos-rs.si/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Slovenia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Slovenia/Travel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/travel/index_en.htm> .
+<http://example.org/nifo/publicservice/Slovenia/Workandretirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/work/index_en.htm> .
+<http://example.org/nifo/publicservice/Slovenia/Vehicles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/vehicles/index_en.htm> .
+<http://example.org/nifo/publicservice/Slovenia/Residenceformalities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/residence/index_en.htm> .
+<http://example.org/nifo/publicservice/Slovenia/Educationandyouth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/education/index_en.htm> .
+<http://example.org/nifo/publicservice/Slovenia/Health> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/health/index_en.htm> .
+<http://example.org/nifo/publicservice/Slovenia/Family> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/family/index_en.htm> .
+<http://example.org/nifo/publicservice/Slovenia/Consumers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/consumers/index_en.htm> .
+<http://example.org/nifo/publicservice/Slovenia/Runningabusiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/running-business/index_en.htm> .
+<http://example.org/nifo/publicservice/Slovenia/Taxation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/taxation/index_en.htm> .
+<http://example.org/nifo/publicservice/Slovenia/SellingintheEU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/selling-in-eu/index_en.htm> .
+<http://example.org/nifo/publicservice/Slovenia/HumanResources> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/human-resources/index_en.htm> .
+<http://example.org/nifo/publicservice/Slovenia/Productrequirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/product-requirements/index_en.htm> .
+<http://example.org/nifo/publicservice/Slovenia/FinancingandFunding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/finance-funding/index_en.htm> .
+<http://example.org/nifo/publicservice/Slovenia/DealingwithCustomers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/dealing-with-customers/index_en.htm> .

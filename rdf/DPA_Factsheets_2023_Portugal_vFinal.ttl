@@ -1,0 +1,273 @@
+<http://data.europa.eu/nifo/factsheet/Portugal> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Portugal>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/PRT";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/legalframework/Portugal> .
+<http://publications.europa.eu/resource/authority/country/Portugal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/source> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring>;
+ <http://dbpedia.org/ontology/areaTotal> "Portugal’s scores on Scoreboard 2 illustrate an overall good performance of the country with scores of 3 and 4 on all the interoperability layers. Areas of improvement to strengthen the country’s implementation of the recommendations under Scoreboard 2 are mostly related to interoperability governance and legal interoperability. More precisely, the country should further use a structured, transparent, objective and common approach to assess and select standards and specifications (Interoperability governance – Recommendation 22). In addition, Pourtgual should continue to ensure that legislation is screended by means of ‘interoperability checks’, to identify any barriers to interoperability. Indeed, when it drafts a new legislation, it should seek to make it consistent with relevant legislation, by performing a ‘digital check’ and considering data protection requirements (Legal interoperability – Recommendation 27). ";
+ <http://purl.org/dc/terms/relation> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> .
+<https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> <http://data.europa.eu/eli/ontology#title> "interactive dashboards" .
+<http://example.org/ContactPoint/Portugal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.incode2030.gov.pt/docs/regulamento_selo_grelha.pdf%252520%252520%252520https:/www.incode2030.gov.pt>, <chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https:/portugaldigital.gov.pt/wp-content/uploads/2022/01/Portugal_Action_Plan_for_Digital_Transition.pdf>, <https://ogp.eportugal.gov.pt/documents/48760/55198/I_National_Action_Plan_Open_Administration_Portugal_EN+(DEC18).pdf/20545478-eb59-7b0e-90bf-c3b99267d4ff> .
+<https://www.incode2030.gov.pt/docs/regulamento_selo_grelha.pdf%252520%252520%252520https:/www.incode2030.gov.pt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint> .
+<https://www.incode2030.gov.pt/docs/regulamento_selo_grelha.pdf%20%20%20https:/www.incode2030.gov.pt> <http://purl.org/dc/terms/title> "new regulation" .
+<chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https:/portugaldigital.gov.pt/wp-content/uploads/2022/01/Portugal_Action_Plan_for_Digital_Transition.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Action Plan for the Digital Transition (APDT)" .
+<https://ogp.eportugal.gov.pt/documents/48760/55198/I_National_Action_Plan_Open_Administration_Portugal_EN+(DEC18).pdf/20545478-eb59-7b0e-90bf-c3b99267d4ff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "National Action Plan for Open Administration" .
+<http://example.org/nifo/legalframework/Portugal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://dre.pt/dre/detalhe/lei/9-2017-106549656>, <https://dre.pt/home/-/dre/107791615/details/maximized>, <https://dre.pt/pesquisa/-/search/25343692/details/maximized>, <https://dre.pt/web/guest/pesquisa/-/search/534640/details/maximized>, <https://dre.pt/web/guest/pesquisa/-/search/277581/details/normal>, <https://dre.pt/pesquisa/-/search/179275/details/maximized>, <https://dre.pt/dre/detalhe/decreto-lei/11-2023-207272800>, <https://dre.pt/dre/legislacao-consolidada/lei/2021-164870244>, <https://dre.pt/home/-/dre/75177807/details/maximized?p_auth=VLJzFY4y>, <https://dre.pt/web/guest/pesquisa/-/search/116734769/details/maximized>, <https://dre.pt/dre/detalhe/lei/68-2021-170221042>, <https://dre.pt/web/guest/pesquisa/-/search/124500718/details/maximized>, <https://dre.pt/dre/detalhe/decreto-lei/5-2023-206478423>, <https://dre.pt/web/guest/pesquisa/-/search/518073/details/maximized>, <https://dre.pt/web/guest/pesquisa/-/search/107114304/details/maximized>, <https://data.dre.pt/home/-/dre/156848060/details/maximized>, <https://dre.pt/pesquisa/-/search/25345579/details/maximized>, <https://dre.pt/home/-/dre/130893436/details/maximized>, <https://dre.pt/web/guest/pesquisa/-/search/670285/details/maximized>, <https://dre.pt/pesquisa/-/search/480710/details/maximized>, <https://dre.pt/web/guest/pesquisa/-/search/123815982/details/normal?q=58/2019>, <https://dre.pt/dre/detalhe/decreto-lei/3-2012-25343754>, <https://dre.pt/dre/detalhe/decreto-lei/65-2021-168697988>, <https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=682&tabela=leis>, <https://dre.pt/web/guest/legislacao-consolidada/-/lc/34444675/view?q=Decreto-Lei+n%2525C3%252582%2525C2%2525BA%252520403/86>, <https://dre.pt/dre/detalhe/decreto-lei/125-2006-356373>, <https://dre.pt/web/guest/legislacao-consolidada/-/lc/34544675/view?q=Decreto-Lei+n%2525C3%252582%2525C2%2525BA%252520224/84>, <https://dre.pt/web/guest/legislacao-consolidada/-/lc/34433775/view?q=Decreto-Lei+n%2525C3%252582%2525C2%2525BA%252520%25252054/75>, <https://dre.pt/home/-/dre/118950630/details/maximized>, <https://dre.pt/web/guest/legislacao-consolidada/-/lc/34455475/view?q=c%2525C3%252583%2525C2%2525B3digo+contratos+publicos>, <https://dre.pt/dre/detalhe/lei/30-2021-163728569>, <https://dre.pt/web/guest/pesquisa/-/search/70025051/details/normal?q=lei+96/2015>, <https://dre.pt/home/-/dre/116388437/details/maximized>, <https://dre.pt/home/-/dre/117514514/details/maximized>, <https://dre.pt/home/-/dre/119622094/details/maximized>, <https://dre.pt/home/-/dre/122747583/details/maximized>, <https://dre.pt/pesquisa/-/search/551977/details/maximized>, <https://dre.pt/home/-/dre/116068879/details/maximized>, <https://dre.pt/home/-/dre/116068880/details/maximized>, <https://dre.pt/home/-/dre/115652962/details/maximized>, <https://dre.pt/pesquisa/-/search/114582930/details/maximized>, <https://dre.pt/home/-/dre/115578234/details/maximized>, <https://dre.pt/web/guest/pesquisa/-/search/115578235/details/normal?p_p_auth=3ViVoB4c>, <https://dre.pt/home/-/dre/124750731/details/maximized>, <https://dre.pt/pesquisa/-/search/108269605/details/maximized>, <https://dre.pt/home/-/dre/124500714/details/maximized>, <https://dre.pt/web/guest/home/-/dre/158316443/details/maximized>, <https://dre.pt/dre/detalhe/decreto-lei/66-2021-168697989>, <https://files.dre.pt/1s/2022/06/10900/0000400007.pdf>, <https://dre.pt/dre/detalhe/decreto-lei/67-2021-168697990> .
+<https://dre.pt/dre/detalhe/lei/9-2017-106549656> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 9/2017" .
+<https://dre.pt/home/-/dre/107791615/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 93/2017" .
+<https://dre.pt/pesquisa/-/search/25343692/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 74/2014" .
+<https://dre.pt/web/guest/pesquisa/-/search/534640/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 135/1999";
+ <http://purl.org/dc/terms/relation> <https://dre.pt/web/guest/legislacao-consolidada/-/lc/74173275/view?q=73/2014> .
+<https://dre.pt/web/guest/legislacao-consolidada/-/lc/74173275/view?q=73/2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 73/2014" .
+<https://dre.pt/web/guest/pesquisa/-/search/277581/details/normal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 48/2011";
+ <http://purl.org/dc/terms/relation> <https://dre.pt/home/-/dre/66229856/details/maximized?p_auth=ULzGlS63> .
+<https://dre.pt/home/-/dre/66229856/details/maximized?p_auth=ULzGlS63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 10/2015" .
+<https://dre.pt/pesquisa/-/search/179275/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 169/2012";
+ <http://purl.org/dc/terms/relation> <https://dre.pt/pesquisa/-/search/67185041/details/maximized> .
+<https://dre.pt/pesquisa/-/search/67185041/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 73/2015" .
+<https://dre.pt/dre/detalhe/decreto-lei/11-2023-207272800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree Law No. 11/2023" .
+<https://dre.pt/dre/legislacao-consolidada/lei/2021-164870244> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 27/2021", "Law no. 27/2021" .
+<https://dre.pt/home/-/dre/75177807/details/maximized?p_auth=VLJzFY4y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 26/2016";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32003L0004>, <https://dre.pt/dre/legislacao-consolidada/lei/2021-170221049> .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32003L0004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2003/4/EC on public access to environmental information";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1513785134295&uri=CELEX:32003L0098> .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1513785134295&uri=CELEX:32003L0098> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2003/98/EC on the re-use of public sector information" .
+<https://dre.pt/dre/legislacao-consolidada/lei/2021-170221049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 68/2021" .
+<https://dre.pt/web/guest/pesquisa/-/search/116734769/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 83/2018";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive (EU) 2016/2102 on the accessibility of public sector’s websites and mobile applications " .
+<https://dre.pt/dre/detalhe/lei/68-2021-170221042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 68/2021" .
+<https://dre.pt/web/guest/pesquisa/-/search/124500718/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 104/2019," .
+<https://dre.pt/dre/detalhe/decreto-lei/5-2023-206478423> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 5/2023" .
+<https://dre.pt/web/guest/pesquisa/-/search/518073/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 7/2007" .
+<https://dre.pt/web/guest/pesquisa/-/search/107114304/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 32/2017" .
+<https://data.dre.pt/home/-/dre/156848060/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 12/2021" .
+<https://dre.pt/pesquisa/-/search/25345579/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 37/2014";
+ <http://purl.org/dc/terms/relation> <https://dre.pt/web/guest/pesquisa/-/search/107114304/details/normal?q=32/2017+assinatura+digital> .
+<https://dre.pt/web/guest/pesquisa/-/search/107114304/details/normal?q=32/2017+assinatura+digital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 32/2017" .
+<https://dre.pt/home/-/dre/130893436/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 37/2014" .
+<https://dre.pt/web/guest/pesquisa/-/search/670285/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 36/2011" .
+<https://dre.pt/pesquisa/-/search/480710/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 41/2004";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0058:EN:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0058:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2002/58/EC concerning the processing of personal data and the protection of privacy in the electronic communications sector";
+ <http://purl.org/dc/terms/relation> <https://dre.pt/web/guest/pesquisa/-/search/239857/details/maximized> .
+<https://dre.pt/web/guest/pesquisa/-/search/239857/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 67/1998" .
+<https://dre.pt/web/guest/pesquisa/-/search/123815982/details/normal?q=58/2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 58/2019";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation (EU) 2016/679 of the European Parliament and the Council of 27 April 2016, on the protection of individuals with regard to the processing of personal data and to the free movement of such data (GDPR)" .
+<https://dre.pt/dre/detalhe/decreto-lei/3-2012-25343754> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree Law No. 69/2014";
+ <http://purl.org/dc/terms/relation> <https://dre.pt/pesquisa/-/search/116029384/details/maximized> .
+<https://dre.pt/pesquisa/-/search/116029384/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 46/2018";
+ <http://purl.org/dc/terms/relation> <https://www.anacom.pt/render.jsp?contentId=1717986> .
+<https://www.anacom.pt/render.jsp?contentId=1717986> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation No. 183/2022" .
+<https://dre.pt/dre/detalhe/decreto-lei/65-2021-168697988> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 65/2021" .
+<https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=682&tabela=leis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree Law No. 131/1995" .
+<https://dre.pt/web/guest/legislacao-consolidada/-/lc/34444675/view?q=Decreto-Lei+n%2525C3%252582%2525C2%2525BA%252520403/86> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<https://dre.pt/web/guest/legislacao-consolidada/-/lc/34444675/view?q=Decreto-Lei+n%C3%82%C2%BA%20403/86> <http://data.europa.eu/eli/ontology#title> "Decree Law No. 403/1986" .
+<https://dre.pt/dre/detalhe/decreto-lei/125-2006-356373> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law no. 125/2006" .
+<https://dre.pt/web/guest/legislacao-consolidada/-/lc/34544675/view?q=Decreto-Lei+n%2525C3%252582%2525C2%2525BA%252520224/84> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<https://dre.pt/web/guest/legislacao-consolidada/-/lc/34544675/view?q=Decreto-Lei+n%C3%82%C2%BA%20224/84> <http://data.europa.eu/eli/ontology#title> "Decree Law No. 224/1984" .
+<https://dre.pt/web/guest/legislacao-consolidada/-/lc/34433775/view?q=Decreto-Lei+n%2525C3%252582%2525C2%2525BA%252520%25252054/75> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<https://dre.pt/web/guest/legislacao-consolidada/-/lc/34433775/view?q=Decreto-Lei+n%C3%82%C2%BA%20%2054/75> <http://data.europa.eu/eli/ontology#title> "Decree Law No. 54/1975" .
+<https://dre.pt/home/-/dre/118950630/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 24/2019" .
+<https://dre.pt/web/guest/legislacao-consolidada/-/lc/34455475/view?q=c%2525C3%252583%2525C2%2525B3digo+contratos+publicos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<https://dre.pt/web/guest/legislacao-consolidada/-/lc/34455475/view?q=c%C3%83%C2%B3digo+contratos+publicos> <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 18/2008";
+ <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://dre.pt/dre/detalhe/lei/30-2021-163728569> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law no. 30/2021" .
+<https://dre.pt/web/guest/pesquisa/-/search/70025051/details/normal?q=lei+96/2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 96/2015" .
+<https://dre.pt/home/-/dre/116388437/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 72/2018" .
+<https://dre.pt/home/-/dre/117514514/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 123/2018" .
+<https://dre.pt/home/-/dre/119622094/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 28/2019" .
+<https://dre.pt/home/-/dre/122747583/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 84/2019" .
+<https://dre.pt/pesquisa/-/search/551977/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 107/2012" .
+<https://dre.pt/home/-/dre/116068879/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 65/2018" .
+<https://dre.pt/home/-/dre/116068880/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>, <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 66/2018" .
+<https://dre.pt/home/-/dre/115652962/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 55/2018" .
+<https://dre.pt/pesquisa/-/search/114582930/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 1/2018" .
+<https://dre.pt/home/-/dre/115578234/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 51/2018" .
+<https://dre.pt/web/guest/pesquisa/-/search/115578235/details/normal?p_p_auth=3ViVoB4c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 52/2018" .
+<https://dre.pt/home/-/dre/124750731/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 118/2019" .
+<https://dre.pt/pesquisa/-/search/108269605/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 126-A/2017";
+ <http://purl.org/dc/terms/relation> <https://dre.pt/home/-/dre/124500726/details/maximized> .
+<https://dre.pt/home/-/dre/124500726/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 136/2019" .
+<https://dre.pt/home/-/dre/124500714/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 100/2019" .
+<https://dre.pt/web/guest/home/-/dre/158316443/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree Law No.16-A/2021" .
+<https://dre.pt/dre/detalhe/decreto-lei/66-2021-168697989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 66/2021" .
+<https://files.dre.pt/1s/2022/06/10900/0000400007.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 40/2022" .
+<https://dre.pt/dre/detalhe/decreto-lei/67-2021-168697990> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decree-Law No. 67/2021" .
+<http://example.org/nifo/structure/Portugal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.portugal.gov.pt/pt/gc21>, <https://eportugal.gov.pt/en/inicio>, <https://dre.pt/home/-/dre/120038537/details/maximized>, <https://eportugal.gov.pt/inicio/espaco-empresa/balcao-do-empreendedor>, <https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/Country%20factsheets%202020/Portugal/mapa.eportugal.gov.pt>, <https://play.google.com/store/apps/details?id=pt.ama.mapadocidadao&hl=pt_PT>, <https://apps.apple.com/pt/app/mapa-de-cidad%C3%83%C2%A3o/id966526205>, <https://dados.gov.pt/en/>, <https://dados.gov.pt/pt/>, <https://tic.gov.pt/>, <https://participa.gov.pt/base/home>, <https://recuperarportugal.gov.pt/?lang=en>, <https://transparencia.gov.pt/>, <https://www.acessibilidade.gov.pt/>, <https://github.com/amagovpt/Usabilidade-Gov-PT>, <https://selo.usabilidade.gov.pt/>, <https://www.app.gov.pt/Application/All?language=pt-PT&store=1&privacy=all>, <https://bussola.gov.pt/_layouts/15/gov/SignIn.aspx?ReturnUrl=/_layouts/15/Authenticate.aspx?Source=%252F&Source=/>, <https://ogp.eportugal.gov.pt/en/inicio>, <https://ogp.eportugal.gov.pt/en/monitoring>, <https://ogp.eportugal.gov.pt/en/consulta>, <https://www.portaldasfinancas.gov.pt/pt/home.action>, <https://www.portaldasfinancas.gov.pt/at/html/index.html>, <https://www.sns.gov.pt/>, <https://www.sns24.gov.pt/avaliar-sintomas/>, <https://app.seg-social.pt/sso/login?service=https://app.seg-social.pt/ptss/caslogin>, <https://www.ofertaformativa.gov.pt/#/home>, <https://www.qualifica.gov.pt>, <https://catalogo.anqep.gov.pt/>, <https://www.cnpdpcj.gov.pt/)>, <https://www.cnpdpcj.gov.pt/>, <https://www.dgert.gov.pt/ferramenta-para-pesquisa-de-convencoes-coletivas>, <https://www.dgert.gov.pt/pedidos-de-deposito-em-apreciacao>, <https://www.dgert.gov.pt/organizacoes-do-trabalho-lista-de-associacoes-sindicais-e-de-associacoes-de-empregadores#dsrcot_ws_form>, <https://www.dgert.gov.pt/dot/>, <http://www.ine.pt/>, <https://creso.gns.gov.pt/cresofeweb/>, <https://dre.pt/home/-/dre/122124256/details/maximized>, <https://justica.gov.pt/>, <https://citius.tribunaisnet.mj.pt/habilus/myhabilus/login.aspx>, <https://partilha.justica.gov.pt/>, <https://estatisticas.justica.gov.pt/sites/siej/en-us/pages/default.aspx>, <https://www.livroamarelo.gov.pt/home>, <https://iefponline.iefp.pt/IEFP/>, <https://www.base.gov.pt/Base4/en/>, <https://dre.pt/web/guest/pesquisa/-/search/108086621/details/normal?q=Decreto-Lei+n.%C3%82%C2%BA%20111-B/2017>, <https://dre.pt/home/-/dre/114766031/details/maximized>, <https://sigrhe.dgae.mec.pt/>, <https://www.portaldahabitacao.pt/>, <https://travelbi.turismodeportugal.pt/>, <https://dadosabertos.turismodeportugal.pt/>, <http://business.turismodeportugal.pt/pt/Planear_Iniciar/Como_comecar/Agencias_Viagem_Turismo/Paginas/Fundo-de-Garantia-de-Viagens-e-Turismo-FGVT-informacao-ao-consumidor.aspx>, <https://academiadigital.turismodeportugal.pt>, <https://www.consultalex.gov.pt/>, <https://www.culturaportugal.gov.pt/>, <https://www.ecoc2027.mc.gov.pt/>, <https://hal.ica-ip.pt>, <https://www.igac.gov.pt/servicos>, <https://www.simplex.gov.pt/>, <https://labx.gov.pt/destaques-posts/network-of-experimentation-labs/?lang=en>, <https://www.ama.gov.pt/web/english/citizen-shop>, <https://www.ama.gov.pt/web/english/citizen-spot>, <http://www.iap.gov.pt/>, <https://dre.pt/pesquisa/-/search/543701/details/maximized>, <https://www.autenticacao.gov.pt/>, <https://www.autenticacao.gov.pt/o-cartao-de-cidadao>, <https://eportugal.gov.pt/>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52019XC0228(01)>, <https://www.autenticacao.gov.pt/a-chave-movel-digital>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C:2020:116:FULL>, <https://id.gov.pt/>, <http://www.pep.pt/>, <http://www.scee.gov.pt/en/>, <http://www.base.gov.pt/Base/pt/Homepage>, <http://www.dre.pt/>, <https://pan.espap.gov.pt/>, <https://www.compraspublicas.espap.gov.pt/Paginas/inicio.aspx>, <https://cncp.espap.gov.pt/>, <https://plataforma-sncp.espap.gov.pt/espap/faces/app/dashboard.jsp>, <https://dre.pt/web/guest/legislacao-consolidada/-/lc/34455475/view?q=c%C3%83%C2%B3digo+contratos+publicos>, <https://www.base.gov.pt/base4>, <https://www.espap.gov.pt/spfin/Paginas/spfin.aspx#maintab5>, <https://www.iap.gov.pt/>, <https://labx.gov.pt/>, <https://www.ina.pt/index.php/inicio-inovacao-ap-2/incentivos-a-inovacao-siigep>, <https://www.b-on.pt/?lang=en>, <https://opendata.bnportugal.gov.pt/>, <http://creativecommons.org/publicdomain/zero/1.0/>, <http://porbase.bnportugal.pt/ipac20/ipac.jsp?profile=>, <http://bibliotecas.dglab.gov.pt/pt/Paginas/default.aspx>, <https://rnod.bnportugal.gov.pt/rnod/>, <https://rnofa.bnportugal.pt/>, <https://portal.arquivos.pt/>, <http://www.matriznet.dgpc.pt/matriznet/home.aspx>, <https://www.patrimoniocultural.gov.pt/pt/patrimonio/patrimonio-imaterial/>, <http://www.monumentos.gov.pt/Site/APP_PagesUser/Default.aspx>, <https://www.pna.gov.pt/recursos-educativos/>, <https://pnc.gov.pt/filmes>, <http://www.cinemateca.pt/Cinemateca-Digital/Video.aspx>, <http://www.europeanfilmgateway.eu>, <https://www.patrimoniocultural.gov.pt/en/museus-e-monumentos/dgpc/portugal-arte-e-patrimonio-google-arts-culture-parta-descoberta/>, <https://academia.ama.gov.pt/>, <https://www.nau.edu.pt/>, <https://digitalcoalition.pt/>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.116.01.0007.01.ENG&toc=OJ:C:2020:116:FULL>, <https://dre.pt/home/-/dre/116068880/details/maximized>, <https://www.dges.gov.pt/recon/formulario>, <https://nap-portugal.imt-ip.pt/nap/home>, <https://www.ai4pa.pt/#page-1> .
+<https://www.portugal.gov.pt/pt/gc21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eportugal.gov.pt/en/inicio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://dre.pt/home/-/dre/120038537/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eportugal.gov.pt/inicio/espaco-empresa/balcao-do-empreendedor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/Country%20factsheets%202020/Portugal/mapa.eportugal.gov.pt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://play.google.com/store/apps/details?id=pt.ama.mapadocidadao&hl=pt_PT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://apps.apple.com/pt/app/mapa-de-cidad%C3%83%C2%A3o/id966526205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://dados.gov.pt/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://dados.gov.pt/pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://tic.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://participa.gov.pt/base/home> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://recuperarportugal.gov.pt/?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://transparencia.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.acessibilidade.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://github.com/amagovpt/Usabilidade-Gov-PT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://selo.usabilidade.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.app.gov.pt/Application/All?language=pt-PT&store=1&privacy=all> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://bussola.gov.pt/_layouts/15/gov/SignIn.aspx?ReturnUrl=/_layouts/15/Authenticate.aspx?Source=%252F&Source=/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ogp.eportugal.gov.pt/en/inicio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ogp.eportugal.gov.pt/en/monitoring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ogp.eportugal.gov.pt/en/consulta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.portaldasfinancas.gov.pt/pt/home.action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.portaldasfinancas.gov.pt/at/html/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.sns.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.sns24.gov.pt/avaliar-sintomas/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://app.seg-social.pt/sso/login?service=https://app.seg-social.pt/ptss/caslogin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ofertaformativa.gov.pt/#/home> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.qualifica.gov.pt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://catalogo.anqep.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.cnpdpcj.gov.pt/)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.cnpdpcj.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.dgert.gov.pt/ferramenta-para-pesquisa-de-convencoes-coletivas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.dgert.gov.pt/pedidos-de-deposito-em-apreciacao> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.dgert.gov.pt/organizacoes-do-trabalho-lista-de-associacoes-sindicais-e-de-associacoes-de-empregadores#dsrcot_ws_form> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.dgert.gov.pt/dot/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.ine.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://creso.gns.gov.pt/cresofeweb/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://dre.pt/home/-/dre/122124256/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://justica.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://citius.tribunaisnet.mj.pt/habilus/myhabilus/login.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://partilha.justica.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://estatisticas.justica.gov.pt/sites/siej/en-us/pages/default.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.livroamarelo.gov.pt/home> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://iefponline.iefp.pt/IEFP/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.base.gov.pt/Base4/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://dre.pt/web/guest/pesquisa/-/search/108086621/details/normal?q=Decreto-Lei+n.%C3%82%C2%BA%20111-B/2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://dre.pt/home/-/dre/114766031/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://sigrhe.dgae.mec.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.portaldahabitacao.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://travelbi.turismodeportugal.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://dadosabertos.turismodeportugal.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://business.turismodeportugal.pt/pt/Planear_Iniciar/Como_comecar/Agencias_Viagem_Turismo/Paginas/Fundo-de-Garantia-de-Viagens-e-Turismo-FGVT-informacao-ao-consumidor.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://academiadigital.turismodeportugal.pt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.consultalex.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.culturaportugal.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ecoc2027.mc.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://hal.ica-ip.pt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.igac.gov.pt/servicos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.simplex.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://labx.gov.pt/destaques-posts/network-of-experimentation-labs/?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ama.gov.pt/web/english/citizen-shop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ama.gov.pt/web/english/citizen-spot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.iap.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://dre.pt/pesquisa/-/search/543701/details/maximized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.autenticacao.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.autenticacao.gov.pt/o-cartao-de-cidadao> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eportugal.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52019XC0228(01)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.autenticacao.gov.pt/a-chave-movel-digital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C:2020:116:FULL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://id.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.pep.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.scee.gov.pt/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.base.gov.pt/Base/pt/Homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.dre.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://pan.espap.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.compraspublicas.espap.gov.pt/Paginas/inicio.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://cncp.espap.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://plataforma-sncp.espap.gov.pt/espap/faces/app/dashboard.jsp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.base.gov.pt/base4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.espap.gov.pt/spfin/Paginas/spfin.aspx#maintab5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.iap.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://labx.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ina.pt/index.php/inicio-inovacao-ap-2/incentivos-a-inovacao-siigep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.b-on.pt/?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://opendata.bnportugal.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://creativecommons.org/publicdomain/zero/1.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://porbase.bnportugal.pt/ipac20/ipac.jsp?profile=> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://bibliotecas.dglab.gov.pt/pt/Paginas/default.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://rnod.bnportugal.gov.pt/rnod/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://rnofa.bnportugal.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://portal.arquivos.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.matriznet.dgpc.pt/matriznet/home.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.patrimoniocultural.gov.pt/pt/patrimonio/patrimonio-imaterial/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.monumentos.gov.pt/Site/APP_PagesUser/Default.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.pna.gov.pt/recursos-educativos/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://pnc.gov.pt/filmes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.cinemateca.pt/Cinemateca-Digital/Video.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.europeanfilmgateway.eu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.patrimoniocultural.gov.pt/en/museus-e-monumentos/dgpc/portugal-arte-e-patrimonio-google-arts-culture-parta-descoberta/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://academia.ama.gov.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.nau.edu.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://digitalcoalition.pt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.116.01.0007.01.ENG&toc=OJ:C:2020:116:FULL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.dges.gov.pt/recon/formulario> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://nap-portugal.imt-ip.pt/nap/home> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ai4pa.pt/#page-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Portugal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .

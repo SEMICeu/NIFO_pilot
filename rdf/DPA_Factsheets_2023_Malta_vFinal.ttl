@@ -1,0 +1,102 @@
+<http://data.europa.eu/nifo/factsheet/Malta> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Malta>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/MLT";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/legalframework/Malta> .
+<http://publications.europa.eu/resource/authority/country/Malta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/source> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring>;
+ <http://dbpedia.org/ontology/areaTotal> "Malta’s scores in Scoreboard 2 illustrate an overall good performance of the country with scores of 3 and 4 in all the interoperability layers. Areas of improvement to strengthen the country’s implementation of the recommendations under Scoreboard 2 concern interoperability governance, integrated public service governance and legal interoperability. More specifically, with regard to the interoperability governance, Malta has a middle performance in the instances of participation in standardisation works (Recommendation 24). Finally, to match the European average on legal interoperability, Malta could pay more attention to ensuring that legislation is screened by means of ‘interoperability checks’ in order to identify any barriers to interoperability (Recommendation 27). ";
+ <http://purl.org/dc/terms/relation> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> .
+<https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> <http://data.europa.eu/eli/ontology#title> "interactive dashboards" .
+<http://example.org/ContactPoint/Malta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/legalframework/Malta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12338&l=1>, <http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=8892&l=1>, <http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=8962&l=1>, <http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12408&l=1>, <https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014R0910&from=EN>, <http://ec.europa.eu/justice/policies/privacy/docs/implementation/malta_en.pdf>, <http://justiceservices.gov.mt/DownloadDocument.aspx?app=lp&itemid=29111&l=1>, <https://legislation.mt/eli/cap/368/mlt/pdf>, <http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=8778&l=1>, <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024>, <http://justiceservices.gov.mt/DownloadDocument.aspx?app=lp&itemid=29427&l=1>, <http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014R0910&from=EN>, <http://justiceservices.gov.mt/DownloadDocument.aspx?app=lp&itemid=29080&l=1>, <http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12874&l=1>, <http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12872&l=1> .
+<http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12338&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "S.L.291.07: Service of Summons by Electronic Mail Regulations." .
+<http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=8892&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Electronic Commerce Act";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31999L0093:EN:HTML> .
+<http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=8962&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Freedom of Information Act (FOIA) (Cap. 496)" .
+<http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12408&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Cap. 546 of the Laws of Malta";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2013:175:0001:0008:EN:PDF> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2013:175:0001:0008:EN:PDF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2013/37/EU of the European Parliament and of the Council of 26 June 2013";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019L1024> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019L1024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2019/1024 on Open Data and the Re-Use of Public Sector Information" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014R0910&from=EN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "eSignatures Directive" .
+<http://ec.europa.eu/justice/policies/privacy/docs/implementation/malta_en.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Data Protection Act" .
+<http://justiceservices.gov.mt/DownloadDocument.aspx?app=lp&itemid=29111&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Processing of Children’s Personal Data in relation to the Offer of Information Society Services Regulations" .
+<https://legislation.mt/eli/cap/368/mlt/pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Motor Vehicles Registration and Licensing Act, Cap. 368" .
+<http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=8778&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Land Registration Act" .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2014/24/EU";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:JOL_2014_094_R_0243_01> .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:JOL_2014_094_R_0243_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2014/25/EU";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0026> .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2014/26/EU" .
+<http://justiceservices.gov.mt/DownloadDocument.aspx?app=lp&itemid=29427&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Filing of Acts by Electronic Means in the Land Arbitration Board Regulations" .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31999L0093:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 1999/93/EC on a community framework for electronic signatures", "Directive 1999/93/EC" .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014R0910&from=EN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation (EU) No. 910/2014 on electronic identification and trust services for electronic transactions in the internal market";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31999L0093:EN:HTML> .
+<http://justiceservices.gov.mt/DownloadDocument.aspx?app=lp&itemid=29080&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Malta Digital Innovation Authority (MDIA) Act" .
+<http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12874&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Innovative Technology Arrangements and Services (ITAS) Act" .
+<http://www.justiceservices.gov.mt/DownloadDocument.aspx?app=lom&itemid=12872&l=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Virtual Financial Asset Act" .
+<http://example.org/nifo/structure/Malta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://mita.gov.mt/>, <http://www.gov.mt>, <http://www.gov.mt/>, <http://www.gov>, <https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIV-SC442/Shared%20Documents/D04.01%20Digital%20Public%20Administration%20factsheets%20and%20infographics/Country%20factsheets%202021/Malta/Factsheet/servizz.gov.mt>, <http://www.servizz>, <http://www.mygov>, <http://www.servizz.gov.mt>, <https://mita.gov.mt/portfolio/information-systems/government-payment-gateway/>, <https://data.gov.mt/>, <http://intra.gov.mt/>, <http://www.dataprotection.gov.mt/>, <https://intra.gov.mt/en/Pages/default.aspx>, <https://justice.gov.mt/en/Pages/justice.aspx>, <https://justice.gov.mt/en/justice/Pages/The-Judiciary-in-Malta.aspx>, <https://ecourts.gov.mt/onlineservices/>, <http://www.legislation.mt>, <http://www.notarialacts.gov.mt>, <https://www.arbitration.mt/>, <http://www.foi.gov.mt>, <https://myhealth-ng.gov.mt/>, <https://recruitment.gov.mt/en/page/home>, <http://www.localgovernment.gov.mt>, <http://www.mylocality.gov.mt>, <https://ec.europa.eu/isa2/solutions/testa_en>, <https://www.enisa.europa.eu/news/enisa-news/open-platform-and-tools-to-facilitate-the-collaboration-among-computer-security-incident-response-teams>, <https://digital-strategy.ec.europa.eu/en/funding/call-tender-advance-melicertes-facility-used-csirts-eu-cooperate-and-exchange-information>, <https://ec.europa.eu/inea/en/connecting-europe-facility/cef-telecom/2017-mt-ia-0057>, <https://identitymalta.com/id-cards/>, <https://www.etenders.gov.mt/epps/home.do>, <http://contracts.gov.mt/en/Pages/Home-DepartmentOfContracts.aspx>, <mailto:https://procurement.mita.gov.mt/>, <http://www.mypersonalkiosk.gov.mt>, <https://ec.europa.eu/inea/en/connecting-europe-facility/cef-telecom/2015-mt-ia-0060>, <http://standard.open-contracting.org/latest/en/>, <https://ec.europa.eu/growth/single-market/public-procurement/e-procurement/espd_en>, <https://ec.europa.eu/tools/ecertis/#/homePage>, <https://mita.gov.mt/portfolio/engagement-with-community-bringing-digital/emerging-technologies-lab/>, <https://cloud.gov.mt/overview/> .
+<https://mita.gov.mt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.gov.mt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.gov.mt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.gov> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIV-SC442/Shared%20Documents/D04.01%20Digital%20Public%20Administration%20factsheets%20and%20infographics/Country%20factsheets%202021/Malta/Factsheet/servizz.gov.mt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.servizz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.mygov> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.servizz.gov.mt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://mita.gov.mt/portfolio/information-systems/government-payment-gateway/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://data.gov.mt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://intra.gov.mt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.dataprotection.gov.mt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://intra.gov.mt/en/Pages/default.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://justice.gov.mt/en/Pages/justice.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://justice.gov.mt/en/justice/Pages/The-Judiciary-in-Malta.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ecourts.gov.mt/onlineservices/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.legislation.mt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.notarialacts.gov.mt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.arbitration.mt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.foi.gov.mt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://myhealth-ng.gov.mt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://recruitment.gov.mt/en/page/home> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.localgovernment.gov.mt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.mylocality.gov.mt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/isa2/solutions/testa_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.enisa.europa.eu/news/enisa-news/open-platform-and-tools-to-facilitate-the-collaboration-among-computer-security-incident-response-teams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://digital-strategy.ec.europa.eu/en/funding/call-tender-advance-melicertes-facility-used-csirts-eu-cooperate-and-exchange-information> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/inea/en/connecting-europe-facility/cef-telecom/2017-mt-ia-0057> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://identitymalta.com/id-cards/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.etenders.gov.mt/epps/home.do> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://contracts.gov.mt/en/Pages/Home-DepartmentOfContracts.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<mailto:https://procurement.mita.gov.mt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.mypersonalkiosk.gov.mt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/inea/en/connecting-europe-facility/cef-telecom/2015-mt-ia-0060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://standard.open-contracting.org/latest/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/growth/single-market/public-procurement/e-procurement/espd_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/tools/ecertis/#/homePage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://mita.gov.mt/portfolio/engagement-with-community-bringing-digital/emerging-technologies-lab/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://cloud.gov.mt/overview/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Malta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .

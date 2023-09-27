@@ -1,0 +1,20 @@
+<http://data.europa.eu/nifo/factsheet/Germany> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Germany>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/DEU";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/legalframework/Germany> .
+<http://publications.europa.eu/resource/authority/country/Germany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/source> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> .
+<http://example.org/ContactPoint/Germany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/legalframework/Germany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://data.europa.eu/nifo/factsheet/#:~:text=What%252520is%252520the%252520Online%252520Access%252520Act?&text=The%252520Online%252520Access%252520Act%252520(Onlinezugangsgesetz,new%252520era%252520of%252520federal%252520cooperation.>, <https://www.bescha.bund.de/SharedDocs/Downloads/02_kdb_subsite/gesetze_beschluesse_etc/vol_A.pdf?__blob=publicationFile&v=1> .
+<http://data.europa.eu/nifo/factsheet/#:~:text=What%252520is%252520the%252520Online%252520Access%252520Act?&text=The%252520Online%252520Access%252520Act%252520(Onlinezugangsgesetz,new%252520era%252520of%252520federal%252520cooperation.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://data.europa.eu/nifo/factsheet/#:~:text=What%20is%20the%20Online%20Access%20Act?&text=The%20Online%20Access%20Act%20(Onlinezugangsgesetz,new%20era%20of%20federal%20cooperation.> <http://data.europa.eu/eli/ontology#title> "Online Access Act" .
+<https://www.bescha.bund.de/SharedDocs/Downloads/02_kdb_subsite/gesetze_beschluesse_etc/vol_A.pdf?__blob=publicationFile&v=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Contract Awards for Public Supplies and Services-Part A" .
+<http://example.org/nifo/structure/Germany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://www.bescha.bund.de>, <http://www.service.bund.de> .
+<http://www.bescha.bund.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.service.bund.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Germany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .

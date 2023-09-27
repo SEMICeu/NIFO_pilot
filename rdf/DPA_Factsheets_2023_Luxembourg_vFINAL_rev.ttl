@@ -1,0 +1,117 @@
+<http://data.europa.eu/nifo/factsheet/Luxembourg> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Luxembourg>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/LUX";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/legalframework/Luxembourg> .
+<http://publications.europa.eu/resource/authority/country/Luxembourg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/source> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring>;
+ <http://purl.org/dc/terms/relation> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> .
+<https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> <http://data.europa.eu/eli/ontology#title> "interactive dashboards" .
+<http://example.org/ContactPoint/Luxembourg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://digital-strategy.ec.europa.eu/en/news/berlin-declaration-digital-society-and-value-based-digital-government>, <https://digital.gouvernement.lu/en/publications/document-de-reference/panin-2021.html> .
+<https://digital-strategy.ec.europa.eu/en/news/berlin-declaration-digital-society-and-value-based-digital-government> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "eGovernment Action Plan 2016—2020" .
+<https://digital.gouvernement.lu/en/publications/document-de-reference/panin-2021.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "National Action Plan for Digital Inclusion" .
+<http://example.org/nifo/legalframework/Luxembourg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo>, <https://legilux.public.lu/eli/etat/leg/loi/2021/11/29/a836/jo>, <http://legilux.public.lu/eli/etat/leg/loi/2015/07/25/n1/jo>, <http://legilux.public.lu/eli/etat/leg/loi/2018/09/14/a883/jo>, <https://legilux.public.lu/eli/etat/leg/loi/2020/07/17/a644/jo>, <http://legilux.public.lu/eli/etat/leg/loi/2000/08/14/n8/jo>, <http://legilux.public.lu/eli/etat/leg/loi/2005/05/30/n4/jo>, <http://legilux.public.lu/eli/etat/leg/loi/2013/06/19/n3/jo>, <http://eli.legilux.public.lu/eli/etat/leg/loi/2002/12/19/n1>, <http://legilux.public.lu/eli/etat/leg/loi/2002/07/25/n8/jo>, <http://legilux.public.lu/eli/etat/leg/loi/2003/11/11/n1/jo>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009F0315-20190627>, <http://legilux.public.lu/eli/etat/leg/rgd/1993/09/02/n1/jo>, <http://legilux.public.lu/eli/etat/leg/loi/2019/12/20/a877/jo>, <http://legilux.public.lu/eli/etat/leg/loi/2018/04/08/a243/jo>, <http://legilux.public.lu/eli/etat/leg/loi/2019/05/16/a345/jo>, <https://legilux.public.lu/eli/etat/leg/loi/2021/12/13/a869/jo>, <http://legilux.public.lu/eli/etat/leg/loi/2019/03/01/a111/jo>, <https://legilux.public.lu/eli/etat/leg/loi/2021/01/22/a43/jo> .
+<http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the Accessibility of the Websites and Mobile Applications of Public Sector Bodies" .
+<https://legilux.public.lu/eli/etat/leg/loi/2021/11/29/a836/jo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "law" .
+<http://legilux.public.lu/eli/etat/leg/loi/2015/07/25/n1/jo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Electronic Archiving " .
+<http://legilux.public.lu/eli/etat/leg/loi/2018/09/14/a883/jo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law relating to a Transparent and Open Administration" .
+<https://legilux.public.lu/eli/etat/leg/loi/2020/07/17/a644/jo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law of 17 July 2020" .
+<http://legilux.public.lu/eli/etat/leg/loi/2000/08/14/n8/jo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "amended eCommerce Law";
+ <http://purl.org/dc/terms/relation> <https://data.legilux.public.lu/filestore/eli/etat/leg/rgd/2001/06/01/n3/jo/fr/html/eli-etat-leg-rgd-2001-06-01-n3-jo-fr-html.html> .
+<https://data.legilux.public.lu/filestore/eli/etat/leg/rgd/2001/06/01/n3/jo/fr/html/eli-etat-leg-rgd-2001-06-01-n3-jo-fr-html.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation on Electronic Signatures and Electronic Payments";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31999L0093:en:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31999L0093:en:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "EU Directive on Electronic Signatures" .
+<http://legilux.public.lu/eli/etat/leg/loi/2005/05/30/n4/jo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "amended Act on Data Protection and Electronic Communications" .
+<http://legilux.public.lu/eli/etat/leg/loi/2013/06/19/n3/jo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on the Identification of Natural Persons" .
+<http://eli.legilux.public.lu/eli/etat/leg/loi/2002/12/19/n1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the Trade and Companies Registry and Companies’ Accounting" .
+<http://legilux.public.lu/eli/etat/leg/loi/2002/07/25/n8/jo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the Reorganisation of the Cadastre and Topography Administration" .
+<http://legilux.public.lu/eli/etat/leg/loi/2003/11/11/n1/jo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Land Registration " .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009F0315-20190627> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "amended Law on the Organisation of the Criminal Record and the Exchange of Information Extracted from the Criminal Record between the Member states of the European Union" .
+<http://legilux.public.lu/eli/etat/leg/rgd/1993/09/02/n1/jo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "amended Grand-Ducal Regulation" .
+<http://legilux.public.lu/eli/etat/leg/loi/2019/12/20/a877/jo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "law " .
+<http://legilux.public.lu/eli/etat/leg/loi/2018/04/08/a243/jo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "amended Act on Public Procurement" .
+<http://legilux.public.lu/eli/etat/leg/loi/2019/05/16/a345/jo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Electronic Invoicing in Public Procurement and Concession Contracts";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055> .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2014/55/EU of the European Parliament and of the Council of 16 April 2014 on electronic invoicing in public procurement" .
+<https://legilux.public.lu/eli/etat/leg/loi/2021/12/13/a869/jo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "law " .
+<http://legilux.public.lu/eli/etat/leg/loi/2019/03/01/a111/jo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the Circulation of Securities" .
+<https://legilux.public.lu/eli/etat/leg/loi/2021/01/22/a43/jo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law of 22 January 2021 on the Issuance of Dematerialised Securities Using the Distributed Ledger Technology" .
+<http://example.org/nifo/structure/Luxembourg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://gouvernement.lu/en/actualites/toutes_actualites/communiques/2020/11-novembre/26-hansen-govtechlab.html>, <https://govtechlab.public.lu/fr.html#who>, <https://luxembourg.public.lu/en.html>, <https://guichet.public.lu/en.html>, <https://gouvernement.lu/fr/actualites/toutes_actualites/communiques/2018/06-juin/25-presentation-guichetlu.html>, <https://www.luxtrust.com/en/about-us/who-we-are>, <https://guichet.public.lu/fr/actualites/2021/juillet/05-app-myguichet.html>, <https://ctie.gouvernement.lu/fr/dossiers/gouvid/gouvid.html>, <https://ctie.gouvernement.lu/fr/dossiers/gouvcheck/gouvCheck.html>, <http://www.etat.public.lu/fr/index.php>, <http://gouvernement.lu/>, <https://data.public.lu/en/>, <https://www.europeandataportal.eu/en/dashboard#tab-country-overview>, <http://www.sante.public.lu/fr/index.php>, <https://transports.public.lu/fr.html>, <https://www.mobiliteit.lu/>, <http://www.justice.public.lu/fr/index.html>, <https://legilux.public.lu/>, <http://chd.lu/wps/portal/public/Accueil/Actualite>, <http://www.douanes.public.lu>, <https://www.geoportail.lu/en/>, <http://g-o.lu/ios>, <http://www.vosidees.lu/>, <https://www.zesumme-vereinfachen.lu/en-GB/>, <https://enquetes.public.lu/en.html>, <https://ctie.gouvernement.lu/en.html>, <https://ec.europa.eu/isa2/solutions/testa_en>, <https://www.luxtrust.com>, <https://www.c-3.lu/>, <http://www.marches.public.lu/>, <https://peppol.eu/>, <https://www.digicash.lu/en/>, <https://guichet.public.lu/en/citoyens/citoyennete.html>, <https://datacenters-in-europe.com/data-centers/>, <https://digital-luxembourg.public.lu/priorities/infrastructure/data-centers>, <https://delano.lu/d/detail/news/entire-government-supports-google/212036>, <https://gouvernement.lu/fr/gouvernement/xavier-bettel/actualites.gouvernement+fr+actualites+toutes_actualites+communiques+2023+03-mars+17-bettel-usa.html>, <https://www.epo.org/index.html>, <https://scoop4c.eu/news/luxembourg-implements-once-only-through-its-guichetlu-one-stop-shop>, <https://guichet.public.lu/en/myguichet.html>, <https://cc-cdse.lu/informations/cni>, <https://www.eucaris.net/>, <https://gouvernement.lu/fr/actualites/toutes_actualites/communiques/2018/12-decembre/06-bettel-innovation-numerique.html>, <https://www.restena.lu/en/home-page>, <https://www.lbr.lu/mjrcs/jsp/webapp/static/mjrcs/en/mjrcs/legal.html?pageTitle=footer.legalaspect>, <https://guichet.public.lu/en/citoyens/citoyennete/registre-national.html>, <https://digital-luxembourg.public.lu/initiatives/infrachain>, <https://gouvernement.lu/fr/actualites/toutes_actualites/communiques/2019/05-mai/23-hansen-blockchain.html>, <http://www.itone.lu/actualites/luxembourg-notary-Blockchain-kickoff-first-europe> .
+<https://gouvernement.lu/en/actualites/toutes_actualites/communiques/2020/11-novembre/26-hansen-govtechlab.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://govtechlab.public.lu/fr.html#who> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://luxembourg.public.lu/en.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://guichet.public.lu/en.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://gouvernement.lu/fr/actualites/toutes_actualites/communiques/2018/06-juin/25-presentation-guichetlu.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.luxtrust.com/en/about-us/who-we-are> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://guichet.public.lu/fr/actualites/2021/juillet/05-app-myguichet.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ctie.gouvernement.lu/fr/dossiers/gouvid/gouvid.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ctie.gouvernement.lu/fr/dossiers/gouvcheck/gouvCheck.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.etat.public.lu/fr/index.php> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://gouvernement.lu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://data.public.lu/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.europeandataportal.eu/en/dashboard#tab-country-overview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.sante.public.lu/fr/index.php> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://transports.public.lu/fr.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mobiliteit.lu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.justice.public.lu/fr/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://legilux.public.lu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://chd.lu/wps/portal/public/Accueil/Actualite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.douanes.public.lu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.geoportail.lu/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://g-o.lu/ios> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.vosidees.lu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.zesumme-vereinfachen.lu/en-GB/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://enquetes.public.lu/en.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ctie.gouvernement.lu/en.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/isa2/solutions/testa_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.luxtrust.com> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.c-3.lu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.marches.public.lu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://peppol.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.digicash.lu/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://guichet.public.lu/en/citoyens/citoyennete.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://datacenters-in-europe.com/data-centers/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://digital-luxembourg.public.lu/priorities/infrastructure/data-centers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://delano.lu/d/detail/news/entire-government-supports-google/212036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://gouvernement.lu/fr/gouvernement/xavier-bettel/actualites.gouvernement+fr+actualites+toutes_actualites+communiques+2023+03-mars+17-bettel-usa.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.epo.org/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://scoop4c.eu/news/luxembourg-implements-once-only-through-its-guichetlu-one-stop-shop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://guichet.public.lu/en/myguichet.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://cc-cdse.lu/informations/cni> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.eucaris.net/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://gouvernement.lu/fr/actualites/toutes_actualites/communiques/2018/12-decembre/06-bettel-innovation-numerique.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.restena.lu/en/home-page> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.lbr.lu/mjrcs/jsp/webapp/static/mjrcs/en/mjrcs/legal.html?pageTitle=footer.legalaspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://guichet.public.lu/en/citoyens/citoyennete/registre-national.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://digital-luxembourg.public.lu/initiatives/infrachain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://gouvernement.lu/fr/actualites/toutes_actualites/communiques/2019/05-mai/23-hansen-blockchain.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.itone.lu/actualites/luxembourg-notary-Blockchain-kickoff-first-europe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Luxembourg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .

@@ -1,0 +1,1956 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Portugal",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Portugal"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/PRT"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/legalframework/Portugal"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Portugal",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://dre.pt/dre/detalhe/lei/9-2017-106549656"
+        },
+        {
+          "@id": "https://dre.pt/home/-/dre/107791615/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/pesquisa/-/search/25343692/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/web/guest/pesquisa/-/search/534640/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/web/guest/pesquisa/-/search/277581/details/normal"
+        },
+        {
+          "@id": "https://dre.pt/pesquisa/-/search/179275/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/dre/detalhe/decreto-lei/11-2023-207272800"
+        },
+        {
+          "@id": "https://dre.pt/dre/legislacao-consolidada/lei/2021-164870244"
+        },
+        {
+          "@id": "https://dre.pt/home/-/dre/75177807/details/maximized?p_auth=VLJzFY4y"
+        },
+        {
+          "@id": "https://dre.pt/home/-/dre/75177807/details/maximized?p_auth=VLJzFY4y"
+        },
+        {
+          "@id": "https://dre.pt/web/guest/pesquisa/-/search/116734769/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/dre/detalhe/lei/68-2021-170221042"
+        },
+        {
+          "@id": "https://dre.pt/web/guest/pesquisa/-/search/124500718/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/dre/detalhe/decreto-lei/5-2023-206478423"
+        },
+        {
+          "@id": "https://dre.pt/web/guest/pesquisa/-/search/518073/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/web/guest/pesquisa/-/search/107114304/details/maximized"
+        },
+        {
+          "@id": "https://data.dre.pt/home/-/dre/156848060/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/pesquisa/-/search/25345579/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/home/-/dre/130893436/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/web/guest/pesquisa/-/search/670285/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/pesquisa/-/search/480710/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/web/guest/pesquisa/-/search/123815982/details/normal?q=58/2019"
+        },
+        {
+          "@id": "https://dre.pt/dre/detalhe/decreto-lei/3-2012-25343754"
+        },
+        {
+          "@id": "https://dre.pt/dre/detalhe/decreto-lei/65-2021-168697988"
+        },
+        {
+          "@id": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=682&tabela=leis"
+        },
+        {
+          "@id": "https://dre.pt/web/guest/legislacao-consolidada/-/lc/34444675/view?q=Decreto-Lei+n%25C3%2582%25C2%25BA%2520403/86"
+        },
+        {
+          "@id": "https://dre.pt/dre/detalhe/decreto-lei/125-2006-356373"
+        },
+        {
+          "@id": "https://dre.pt/web/guest/legislacao-consolidada/-/lc/34544675/view?q=Decreto-Lei+n%25C3%2582%25C2%25BA%2520224/84"
+        },
+        {
+          "@id": "https://dre.pt/web/guest/legislacao-consolidada/-/lc/34433775/view?q=Decreto-Lei+n%25C3%2582%25C2%25BA%2520%252054/75"
+        },
+        {
+          "@id": "https://dre.pt/home/-/dre/118950630/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/web/guest/legislacao-consolidada/-/lc/34455475/view?q=c%25C3%2583%25C2%25B3digo+contratos+publicos"
+        },
+        {
+          "@id": "https://dre.pt/dre/detalhe/lei/30-2021-163728569"
+        },
+        {
+          "@id": "https://dre.pt/web/guest/pesquisa/-/search/70025051/details/normal?q=lei+96/2015"
+        },
+        {
+          "@id": "https://dre.pt/home/-/dre/116388437/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/home/-/dre/117514514/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/home/-/dre/119622094/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/home/-/dre/122747583/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/pesquisa/-/search/551977/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/home/-/dre/116068879/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/home/-/dre/116068880/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/home/-/dre/115652962/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/pesquisa/-/search/114582930/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/home/-/dre/115578234/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/web/guest/pesquisa/-/search/115578235/details/normal?p_p_auth=3ViVoB4c"
+        },
+        {
+          "@id": "https://dre.pt/home/-/dre/124750731/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/pesquisa/-/search/108269605/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/home/-/dre/124500714/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/web/guest/home/-/dre/158316443/details/maximized"
+        },
+        {
+          "@id": "https://dre.pt/dre/legislacao-consolidada/lei/2021-164870244"
+        },
+        {
+          "@id": "https://dre.pt/dre/detalhe/decreto-lei/66-2021-168697989"
+        },
+        {
+          "@id": "https://files.dre.pt/1s/2022/06/10900/0000400007.pdf"
+        },
+        {
+          "@id": "https://dre.pt/dre/detalhe/decreto-lei/67-2021-168697990"
+        }
+      ]
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/country/Portugal",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ],
+      "http://dbpedia.org/ontology/areaTotal": [
+        "Portugal’s scores on Scoreboard 2 illustrate an overall good performance of the country with scores of 3 and 4 on all the interoperability layers. Areas of improvement to strengthen the country’s implementation of the recommendations under Scoreboard 2 are mostly related to interoperability governance and legal interoperability. More precisely, the country should further use a structured, transparent, objective and common approach to assess and select standards and specifications (Interoperability governance – Recommendation 22). In addition, Pourtgual should continue to ensure that legislation is screended by means of ‘interoperability checks’, to identify any barriers to interoperability. Indeed, when it drafts a new legislation, it should seek to make it consistent with relevant legislation, by performing a ‘digital check’ and considering data protection requirements (Legal interoperability – Recommendation 27). "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring",
+      "http://data.europa.eu/eli/ontology#title": [
+        "interactive dashboards"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/Portugal",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.incode2030.gov.pt/docs/regulamento_selo_grelha.pdf%2520%2520%2520https:/www.incode2030.gov.pt"
+        },
+        {
+          "@id": "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https:/portugaldigital.gov.pt/wp-content/uploads/2022/01/Portugal_Action_Plan_for_Digital_Transition.pdf"
+        },
+        {
+          "@id": "https://ogp.eportugal.gov.pt/documents/48760/55198/I_National_Action_Plan_Open_Administration_Portugal_EN+(DEC18).pdf/20545478-eb59-7b0e-90bf-c3b99267d4ff"
+        }
+      ]
+    },
+    {
+      "@id": "https://recuperarportugal.gov.pt/?lang=en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.simplex.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.incode2030.gov.pt/docs/regulamento_selo_grelha.pdf%2520%2520%2520https:/www.incode2030.gov.pt",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ]
+    },
+    {
+      "@id": "https://www.incode2030.gov.pt/docs/regulamento_selo_grelha.pdf%20%20%20https:/www.incode2030.gov.pt",
+      "http://purl.org/dc/terms/title": [
+        "new regulation"
+      ]
+    },
+    {
+      "@id": "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https:/portugaldigital.gov.pt/wp-content/uploads/2022/01/Portugal_Action_Plan_for_Digital_Transition.pdf",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Action Plan for the Digital Transition (APDT)"
+      ]
+    },
+    {
+      "@id": "https://ogp.eportugal.gov.pt/documents/48760/55198/I_National_Action_Plan_Open_Administration_Portugal_EN+(DEC18).pdf/20545478-eb59-7b0e-90bf-c3b99267d4ff",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "National Action Plan for Open Administration"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/dre/detalhe/lei/9-2017-106549656",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 9/2017"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/home/-/dre/107791615/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 93/2017"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/pesquisa/-/search/25343692/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 74/2014"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/pesquisa/-/search/534640/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 135/1999"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://dre.pt/web/guest/legislacao-consolidada/-/lc/74173275/view?q=73/2014"
+        }
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/legislacao-consolidada/-/lc/74173275/view?q=73/2014",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 73/2014"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/pesquisa/-/search/277581/details/normal",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 48/2011"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://dre.pt/home/-/dre/66229856/details/maximized?p_auth=ULzGlS63"
+        }
+      ]
+    },
+    {
+      "@id": "https://dre.pt/home/-/dre/66229856/details/maximized?p_auth=ULzGlS63",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 10/2015"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/pesquisa/-/search/179275/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 169/2012"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://dre.pt/pesquisa/-/search/67185041/details/maximized"
+        }
+      ]
+    },
+    {
+      "@id": "https://dre.pt/pesquisa/-/search/67185041/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 73/2015"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/dre/detalhe/decreto-lei/11-2023-207272800",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree Law No. 11/2023"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/dre/legislacao-consolidada/lei/2021-164870244",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 27/2021",
+        "Law no. 27/2021"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/home/-/dre/75177807/details/maximized?p_auth=VLJzFY4y",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 26/2016",
+        "Law No. 26/2016"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32003L0004"
+        },
+        {
+          "@id": "https://dre.pt/dre/legislacao-consolidada/lei/2021-170221049"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32003L0004",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2003/4/EC on public access to environmental information"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1513785134295&uri=CELEX:32003L0098"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1513785134295&uri=CELEX:32003L0098",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2003/98/EC on the re-use of public sector information"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/dre/legislacao-consolidada/lei/2021-170221049",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 68/2021"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/pesquisa/-/search/116734769/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 83/2018"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive (EU) 2016/2102 on the accessibility of public sector’s websites and mobile applications "
+      ]
+    },
+    {
+      "@id": "https://dre.pt/dre/detalhe/lei/68-2021-170221042",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 68/2021"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/pesquisa/-/search/124500718/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 104/2019,"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/dre/detalhe/decreto-lei/5-2023-206478423",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 5/2023"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/pesquisa/-/search/518073/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 7/2007"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/pesquisa/-/search/107114304/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 32/2017"
+      ]
+    },
+    {
+      "@id": "https://data.dre.pt/home/-/dre/156848060/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 12/2021"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/pesquisa/-/search/25345579/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 37/2014"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://dre.pt/web/guest/pesquisa/-/search/107114304/details/normal?q=32/2017+assinatura+digital"
+        }
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/pesquisa/-/search/107114304/details/normal?q=32/2017+assinatura+digital",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 32/2017"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/home/-/dre/130893436/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 37/2014"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/pesquisa/-/search/670285/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 36/2011"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/pesquisa/-/search/480710/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 41/2004"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0058:EN:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0058:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2002/58/EC concerning the processing of personal data and the protection of privacy in the electronic communications sector"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://dre.pt/web/guest/pesquisa/-/search/239857/details/maximized"
+        }
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/pesquisa/-/search/239857/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 67/1998"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/pesquisa/-/search/123815982/details/normal?q=58/2019",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 58/2019"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation (EU) 2016/679 of the European Parliament and the Council of 27 April 2016, on the protection of individuals with regard to the processing of personal data and to the free movement of such data (GDPR)"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/dre/detalhe/decreto-lei/3-2012-25343754",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree Law No. 69/2014"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://dre.pt/pesquisa/-/search/116029384/details/maximized"
+        }
+      ]
+    },
+    {
+      "@id": "https://dre.pt/pesquisa/-/search/116029384/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 46/2018"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.anacom.pt/render.jsp?contentId=1717986"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.anacom.pt/render.jsp?contentId=1717986",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation No. 183/2022"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/dre/detalhe/decreto-lei/65-2021-168697988",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 65/2021"
+      ]
+    },
+    {
+      "@id": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=682&tabela=leis",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree Law No. 131/1995"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/legislacao-consolidada/-/lc/34444675/view?q=Decreto-Lei+n%25C3%2582%25C2%25BA%2520403/86",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/legislacao-consolidada/-/lc/34444675/view?q=Decreto-Lei+n%C3%82%C2%BA%20403/86",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree Law No. 403/1986"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/dre/detalhe/decreto-lei/125-2006-356373",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law no. 125/2006"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/legislacao-consolidada/-/lc/34544675/view?q=Decreto-Lei+n%25C3%2582%25C2%25BA%2520224/84",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/legislacao-consolidada/-/lc/34544675/view?q=Decreto-Lei+n%C3%82%C2%BA%20224/84",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree Law No. 224/1984"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/legislacao-consolidada/-/lc/34433775/view?q=Decreto-Lei+n%25C3%2582%25C2%25BA%2520%252054/75",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/legislacao-consolidada/-/lc/34433775/view?q=Decreto-Lei+n%C3%82%C2%BA%20%2054/75",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree Law No. 54/1975"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/home/-/dre/118950630/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 24/2019"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/legislacao-consolidada/-/lc/34455475/view?q=c%25C3%2583%25C2%25B3digo+contratos+publicos",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/legislacao-consolidada/-/lc/34455475/view?q=c%C3%83%C2%B3digo+contratos+publicos",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 18/2008"
+      ],
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/dre/detalhe/lei/30-2021-163728569",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law no. 30/2021"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/pesquisa/-/search/70025051/details/normal?q=lei+96/2015",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 96/2015"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/home/-/dre/116388437/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 72/2018"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/home/-/dre/117514514/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 123/2018"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/home/-/dre/119622094/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 28/2019"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/home/-/dre/122747583/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 84/2019"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/pesquisa/-/search/551977/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 107/2012"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/home/-/dre/116068879/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 65/2018"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/home/-/dre/116068880/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 66/2018"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/home/-/dre/115652962/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 55/2018"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/pesquisa/-/search/114582930/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 1/2018"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/home/-/dre/115578234/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 51/2018"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/pesquisa/-/search/115578235/details/normal?p_p_auth=3ViVoB4c",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 52/2018"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/home/-/dre/124750731/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 118/2019"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/pesquisa/-/search/108269605/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 126-A/2017"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://dre.pt/home/-/dre/124500726/details/maximized"
+        }
+      ]
+    },
+    {
+      "@id": "https://dre.pt/home/-/dre/124500726/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 136/2019"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/home/-/dre/124500714/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 100/2019"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/home/-/dre/158316443/details/maximized",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree Law No.16-A/2021"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/dre/detalhe/decreto-lei/66-2021-168697989",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 66/2021"
+      ]
+    },
+    {
+      "@id": "https://files.dre.pt/1s/2022/06/10900/0000400007.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 40/2022"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/dre/detalhe/decreto-lei/67-2021-168697990",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 67/2021"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/Portugal",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.portugal.gov.pt/pt/gc21"
+        },
+        {
+          "@id": "https://eportugal.gov.pt/en/inicio"
+        },
+        {
+          "@id": "https://dre.pt/home/-/dre/120038537/details/maximized"
+        },
+        {
+          "@id": "https://eportugal.gov.pt/inicio/espaco-empresa/balcao-do-empreendedor"
+        },
+        {
+          "@id": "https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/Country%20factsheets%202020/Portugal/mapa.eportugal.gov.pt"
+        },
+        {
+          "@id": "https://play.google.com/store/apps/details?id=pt.ama.mapadocidadao&hl=pt_PT"
+        },
+        {
+          "@id": "https://apps.apple.com/pt/app/mapa-de-cidad%C3%83%C2%A3o/id966526205"
+        },
+        {
+          "@id": "https://dados.gov.pt/en/"
+        },
+        {
+          "@id": "https://dados.gov.pt/pt/"
+        },
+        {
+          "@id": "https://tic.gov.pt/"
+        },
+        {
+          "@id": "https://participa.gov.pt/base/home"
+        },
+        {
+          "@id": "https://recuperarportugal.gov.pt/?lang=en"
+        },
+        {
+          "@id": "https://transparencia.gov.pt/"
+        },
+        {
+          "@id": "https://www.acessibilidade.gov.pt/"
+        },
+        {
+          "@id": "https://github.com/amagovpt/Usabilidade-Gov-PT"
+        },
+        {
+          "@id": "https://selo.usabilidade.gov.pt/"
+        },
+        {
+          "@id": "https://www.app.gov.pt/Application/All?language=pt-PT&store=1&privacy=all"
+        },
+        {
+          "@id": "https://bussola.gov.pt/_layouts/15/gov/SignIn.aspx?ReturnUrl=/_layouts/15/Authenticate.aspx?Source=%252F&Source=/"
+        },
+        {
+          "@id": "https://ogp.eportugal.gov.pt/en/inicio"
+        },
+        {
+          "@id": "https://ogp.eportugal.gov.pt/en/monitoring"
+        },
+        {
+          "@id": "https://ogp.eportugal.gov.pt/en/consulta"
+        },
+        {
+          "@id": "https://eportugal.gov.pt/en/inicio"
+        },
+        {
+          "@id": "https://www.portaldasfinancas.gov.pt/pt/home.action"
+        },
+        {
+          "@id": "https://www.portaldasfinancas.gov.pt/at/html/index.html"
+        },
+        {
+          "@id": "https://www.sns.gov.pt/"
+        },
+        {
+          "@id": "https://www.sns24.gov.pt/avaliar-sintomas/"
+        },
+        {
+          "@id": "https://app.seg-social.pt/sso/login?service=https://app.seg-social.pt/ptss/caslogin"
+        },
+        {
+          "@id": "https://www.ofertaformativa.gov.pt/#/home"
+        },
+        {
+          "@id": "https://www.qualifica.gov.pt/"
+        },
+        {
+          "@id": "https://catalogo.anqep.gov.pt/"
+        },
+        {
+          "@id": "https://www.cnpdpcj.gov.pt/)"
+        },
+        {
+          "@id": "https://www.cnpdpcj.gov.pt/"
+        },
+        {
+          "@id": "https://www.dgert.gov.pt/ferramenta-para-pesquisa-de-convencoes-coletivas"
+        },
+        {
+          "@id": "https://www.dgert.gov.pt/pedidos-de-deposito-em-apreciacao"
+        },
+        {
+          "@id": "https://www.dgert.gov.pt/organizacoes-do-trabalho-lista-de-associacoes-sindicais-e-de-associacoes-de-empregadores#dsrcot_ws_form"
+        },
+        {
+          "@id": "https://www.dgert.gov.pt/dot/"
+        },
+        {
+          "@id": "http://www.ine.pt/"
+        },
+        {
+          "@id": "https://creso.gns.gov.pt/cresofeweb/"
+        },
+        {
+          "@id": "https://dre.pt/home/-/dre/122124256/details/maximized"
+        },
+        {
+          "@id": "https://justica.gov.pt/"
+        },
+        {
+          "@id": "https://citius.tribunaisnet.mj.pt/habilus/myhabilus/login.aspx"
+        },
+        {
+          "@id": "https://partilha.justica.gov.pt/"
+        },
+        {
+          "@id": "https://estatisticas.justica.gov.pt/sites/siej/en-us/pages/default.aspx"
+        },
+        {
+          "@id": "https://www.livroamarelo.gov.pt/home"
+        },
+        {
+          "@id": "https://iefponline.iefp.pt/IEFP/"
+        },
+        {
+          "@id": "https://www.base.gov.pt/Base4/en/"
+        },
+        {
+          "@id": "https://dre.pt/web/guest/pesquisa/-/search/108086621/details/normal?q=Decreto-Lei+n.%C3%82%C2%BA%20111-B/2017"
+        },
+        {
+          "@id": "https://dre.pt/home/-/dre/114766031/details/maximized"
+        },
+        {
+          "@id": "https://sigrhe.dgae.mec.pt/"
+        },
+        {
+          "@id": "https://www.portaldahabitacao.pt/"
+        },
+        {
+          "@id": "https://travelbi.turismodeportugal.pt/"
+        },
+        {
+          "@id": "https://dadosabertos.turismodeportugal.pt/"
+        },
+        {
+          "@id": "http://business.turismodeportugal.pt/pt/Planear_Iniciar/Como_comecar/Agencias_Viagem_Turismo/Paginas/Fundo-de-Garantia-de-Viagens-e-Turismo-FGVT-informacao-ao-consumidor.aspx"
+        },
+        {
+          "@id": "https://academiadigital.turismodeportugal.pt/"
+        },
+        {
+          "@id": "https://www.consultalex.gov.pt/"
+        },
+        {
+          "@id": "https://www.culturaportugal.gov.pt/"
+        },
+        {
+          "@id": "https://www.ecoc2027.mc.gov.pt/"
+        },
+        {
+          "@id": "https://hal.ica-ip.pt/"
+        },
+        {
+          "@id": "https://www.igac.gov.pt/servicos"
+        },
+        {
+          "@id": "https://www.simplex.gov.pt/"
+        },
+        {
+          "@id": "https://labx.gov.pt/destaques-posts/network-of-experimentation-labs/?lang=en"
+        },
+        {
+          "@id": "https://www.ama.gov.pt/web/english/citizen-shop"
+        },
+        {
+          "@id": "https://www.ama.gov.pt/web/english/citizen-spot"
+        },
+        {
+          "@id": "http://www.iap.gov.pt/"
+        },
+        {
+          "@id": "https://dre.pt/pesquisa/-/search/543701/details/maximized"
+        },
+        {
+          "@id": "https://www.autenticacao.gov.pt/"
+        },
+        {
+          "@id": "https://www.autenticacao.gov.pt/o-cartao-de-cidadao"
+        },
+        {
+          "@id": "https://eportugal.gov.pt/"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52019XC0228(01)"
+        },
+        {
+          "@id": "https://www.autenticacao.gov.pt/a-chave-movel-digital"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C:2020:116:FULL"
+        },
+        {
+          "@id": "https://id.gov.pt/"
+        },
+        {
+          "@id": "http://www.pep.pt/"
+        },
+        {
+          "@id": "http://www.scee.gov.pt/en/"
+        },
+        {
+          "@id": "http://www.base.gov.pt/Base/pt/Homepage"
+        },
+        {
+          "@id": "http://www.dre.pt/"
+        },
+        {
+          "@id": "https://pan.espap.gov.pt/"
+        },
+        {
+          "@id": "https://www.compraspublicas.espap.gov.pt/Paginas/inicio.aspx"
+        },
+        {
+          "@id": "https://cncp.espap.gov.pt/"
+        },
+        {
+          "@id": "https://plataforma-sncp.espap.gov.pt/espap/faces/app/dashboard.jsp"
+        },
+        {
+          "@id": "https://dre.pt/web/guest/legislacao-consolidada/-/lc/34455475/view?q=c%C3%83%C2%B3digo+contratos+publicos"
+        },
+        {
+          "@id": "https://www.base.gov.pt/base4"
+        },
+        {
+          "@id": "https://www.espap.gov.pt/spfin/Paginas/spfin.aspx#maintab5"
+        },
+        {
+          "@id": "https://www.iap.gov.pt/"
+        },
+        {
+          "@id": "https://labx.gov.pt/"
+        },
+        {
+          "@id": "https://www.ina.pt/index.php/inicio-inovacao-ap-2/incentivos-a-inovacao-siigep"
+        },
+        {
+          "@id": "https://www.b-on.pt/?lang=en"
+        },
+        {
+          "@id": "https://opendata.bnportugal.gov.pt/"
+        },
+        {
+          "@id": "http://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "@id": "http://porbase.bnportugal.pt/ipac20/ipac.jsp?profile="
+        },
+        {
+          "@id": "http://bibliotecas.dglab.gov.pt/pt/Paginas/default.aspx"
+        },
+        {
+          "@id": "https://rnod.bnportugal.gov.pt/rnod/"
+        },
+        {
+          "@id": "https://rnofa.bnportugal.pt/"
+        },
+        {
+          "@id": "https://portal.arquivos.pt/"
+        },
+        {
+          "@id": "http://www.matriznet.dgpc.pt/matriznet/home.aspx"
+        },
+        {
+          "@id": "https://www.patrimoniocultural.gov.pt/pt/patrimonio/patrimonio-imaterial/"
+        },
+        {
+          "@id": "http://www.monumentos.gov.pt/Site/APP_PagesUser/Default.aspx"
+        },
+        {
+          "@id": "https://www.pna.gov.pt/recursos-educativos/"
+        },
+        {
+          "@id": "https://pnc.gov.pt/filmes"
+        },
+        {
+          "@id": "http://www.cinemateca.pt/Cinemateca-Digital/Video.aspx"
+        },
+        {
+          "@id": "http://www.europeanfilmgateway.eu/"
+        },
+        {
+          "@id": "https://www.patrimoniocultural.gov.pt/en/museus-e-monumentos/dgpc/portugal-arte-e-patrimonio-google-arts-culture-parta-descoberta/"
+        },
+        {
+          "@id": "https://academia.ama.gov.pt/"
+        },
+        {
+          "@id": "https://www.nau.edu.pt/"
+        },
+        {
+          "@id": "https://digitalcoalition.pt/"
+        },
+        {
+          "@id": "https://eportugal.gov.pt/"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52019XC0228(01)"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.116.01.0007.01.ENG&toc=OJ:C:2020:116:FULL"
+        },
+        {
+          "@id": "https://dre.pt/home/-/dre/116068880/details/maximized"
+        },
+        {
+          "@id": "https://www.dges.gov.pt/recon/formulario"
+        },
+        {
+          "@id": "https://nap-portugal.imt-ip.pt/nap/home"
+        },
+        {
+          "@id": "https://www.ai4pa.pt/#page-1"
+        },
+        {
+          "@id": "https://participa.gov.pt/base/home"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.portugal.gov.pt/pt/gc21",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eportugal.gov.pt/en/inicio",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/home/-/dre/120038537/details/maximized",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eportugal.gov.pt/inicio/espaco-empresa/balcao-do-empreendedor",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/Country%20factsheets%202020/Portugal/mapa.eportugal.gov.pt",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://play.google.com/store/apps/details?id=pt.ama.mapadocidadao&hl=pt_PT",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://apps.apple.com/pt/app/mapa-de-cidad%C3%83%C2%A3o/id966526205",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dados.gov.pt/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dados.gov.pt/pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://tic.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://participa.gov.pt/base/home",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://transparencia.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.acessibilidade.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://github.com/amagovpt/Usabilidade-Gov-PT",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://selo.usabilidade.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.app.gov.pt/Application/All?language=pt-PT&store=1&privacy=all",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://bussola.gov.pt/_layouts/15/gov/SignIn.aspx?ReturnUrl=/_layouts/15/Authenticate.aspx?Source=%252F&Source=/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ogp.eportugal.gov.pt/en/inicio",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ogp.eportugal.gov.pt/en/monitoring",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ogp.eportugal.gov.pt/en/consulta",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.portaldasfinancas.gov.pt/pt/home.action",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.portaldasfinancas.gov.pt/at/html/index.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.sns.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.sns24.gov.pt/avaliar-sintomas/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://app.seg-social.pt/sso/login?service=https://app.seg-social.pt/ptss/caslogin",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ofertaformativa.gov.pt/#/home",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.qualifica.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://catalogo.anqep.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.cnpdpcj.gov.pt/)",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.cnpdpcj.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.dgert.gov.pt/ferramenta-para-pesquisa-de-convencoes-coletivas",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.dgert.gov.pt/pedidos-de-deposito-em-apreciacao",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.dgert.gov.pt/organizacoes-do-trabalho-lista-de-associacoes-sindicais-e-de-associacoes-de-empregadores#dsrcot_ws_form",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.dgert.gov.pt/dot/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.ine.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://creso.gns.gov.pt/cresofeweb/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/home/-/dre/122124256/details/maximized",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://justica.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://citius.tribunaisnet.mj.pt/habilus/myhabilus/login.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://partilha.justica.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://estatisticas.justica.gov.pt/sites/siej/en-us/pages/default.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.livroamarelo.gov.pt/home",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://iefponline.iefp.pt/IEFP/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.base.gov.pt/Base4/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/web/guest/pesquisa/-/search/108086621/details/normal?q=Decreto-Lei+n.%C3%82%C2%BA%20111-B/2017",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/home/-/dre/114766031/details/maximized",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://sigrhe.dgae.mec.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.portaldahabitacao.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://travelbi.turismodeportugal.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dadosabertos.turismodeportugal.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://business.turismodeportugal.pt/pt/Planear_Iniciar/Como_comecar/Agencias_Viagem_Turismo/Paginas/Fundo-de-Garantia-de-Viagens-e-Turismo-FGVT-informacao-ao-consumidor.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://academiadigital.turismodeportugal.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.consultalex.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.culturaportugal.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ecoc2027.mc.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://hal.ica-ip.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.igac.gov.pt/servicos",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://labx.gov.pt/destaques-posts/network-of-experimentation-labs/?lang=en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ama.gov.pt/web/english/citizen-shop",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ama.gov.pt/web/english/citizen-spot",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.iap.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dre.pt/pesquisa/-/search/543701/details/maximized",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.autenticacao.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.autenticacao.gov.pt/o-cartao-de-cidadao",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eportugal.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52019XC0228(01)",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.autenticacao.gov.pt/a-chave-movel-digital",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C:2020:116:FULL",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://id.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.pep.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.scee.gov.pt/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.base.gov.pt/Base/pt/Homepage",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.dre.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://pan.espap.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.compraspublicas.espap.gov.pt/Paginas/inicio.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://cncp.espap.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://plataforma-sncp.espap.gov.pt/espap/faces/app/dashboard.jsp",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.base.gov.pt/base4",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.espap.gov.pt/spfin/Paginas/spfin.aspx#maintab5",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.iap.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://labx.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ina.pt/index.php/inicio-inovacao-ap-2/incentivos-a-inovacao-siigep",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.b-on.pt/?lang=en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://opendata.bnportugal.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://porbase.bnportugal.pt/ipac20/ipac.jsp?profile=",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://bibliotecas.dglab.gov.pt/pt/Paginas/default.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rnod.bnportugal.gov.pt/rnod/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rnofa.bnportugal.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://portal.arquivos.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.matriznet.dgpc.pt/matriznet/home.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.patrimoniocultural.gov.pt/pt/patrimonio/patrimonio-imaterial/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.monumentos.gov.pt/Site/APP_PagesUser/Default.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.pna.gov.pt/recursos-educativos/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://pnc.gov.pt/filmes",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.cinemateca.pt/Cinemateca-Digital/Video.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.europeanfilmgateway.eu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.patrimoniocultural.gov.pt/en/museus-e-monumentos/dgpc/portugal-arte-e-patrimonio-google-arts-culture-parta-descoberta/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://academia.ama.gov.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.nau.edu.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://digitalcoalition.pt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.116.01.0007.01.ENG&toc=OJ:C:2020:116:FULL",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.dges.gov.pt/recon/formulario",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://nap-portugal.imt-ip.pt/nap/home",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ai4pa.pt/#page-1",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Portugal",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

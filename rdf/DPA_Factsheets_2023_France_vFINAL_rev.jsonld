@@ -1,0 +1,1137 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/France",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/France"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/FRA"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/legalframework/France"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/France",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.vie-publique.fr/actualite/panorama/texte-discussion/projet-loi-pour-etat-au-service-societe-confiance.html"
+        },
+        {
+          "@id": "https://www.vie-publique.fr/loi/20755-loi-pour-une-republique-numerique"
+        },
+        {
+          "@id": "https://www.arcep.fr/"
+        },
+        {
+          "@id": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000636232&dateTexte=20180315"
+        },
+        {
+          "@id": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000031701525&dateTexte=20180315"
+        },
+        {
+          "@id": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=LEGITEXT000006068643&dateTexte=20080117"
+        },
+        {
+          "@id": "https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000037388867&cidTexte=LEGITEXT000006051257"
+        },
+        {
+          "@id": "https://www.numerique.gouv.fr/actualites/simplification-des-demarches-administratives-dites-le-nous-une-fois-passe-a-la-vitesse-superieure/"
+        },
+        {
+          "@id": "http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000439399&dateTexte="
+        },
+        {
+          "@id": "http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000399095&dateTexte="
+        },
+        {
+          "@id": "http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000801164&dateTexte"
+        },
+        {
+          "@id": "https://www.legifrance.gouv.fr/eli/loi/2018/2/26/INTX1728622L/jo/texte/"
+        },
+        {
+          "@id": "https://www.vie-publique.fr/actualite/dossier/securite-internet/protection-donnees-personnelles-que-contient-loi-du-20-juin-2018.html"
+        },
+        {
+          "@id": "http://www.cnil.fr/index.php?id=301"
+        },
+        {
+          "@id": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000029527162&categorieLien=id"
+        },
+        {
+          "@id": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000039683923&dateTexte=&categorieLien=id"
+        },
+        {
+          "@id": "https://www.vie-publique.fr/actualite/panorama/texte-discussion/projet-loi-programmation-2018-2022-reforme-pour-justice.html"
+        },
+        {
+          "@id": "https://www.vie-publique.fr/actualite/panorama/texte-discussion/projet-loi-relatif-organisation-transformation-du-systeme-sante.html"
+        },
+        {
+          "@id": "https://www.gouvernement.fr/action/pacte-le-plan-d-action-pour-la-croissance-et-la-transformation-des-entreprises"
+        },
+        {
+          "@id": "https://www.vie-publique.fr/loi/278056-loi-15-novembre2021-reen-reduire-empreinte-environnementale-du-numerique"
+        }
+      ]
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/country/France",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ],
+      "http://dbpedia.org/ontology/areaTotal": [
+        "France’s results in Scoreboard 1 show an overall good implementation of the EIF Principles, scoring above the European average for Principle 12 (Assessment of Effectiveness and Efficiency). Areas of improvements are concentrated in the Principles 3 (Transparency) and 7 (Inclusion and Accessibility) for which the scores of 3 and 2 respectively show a medium to upper-medium performance in the implementation of corresponding recommendations. Indeed, the internal visibility and provision of external interfaces for European public services (Principle 3 – Recommendation 5) and the accessibility of public services to all citizens, including persons with disabilities, the elderly and other disadvantaged groups (Principle 7 – Recommendation 14) could be improved to reach the maximum score of 4 in corresponding principles."
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring",
+      "http://data.europa.eu/eli/ontology#title": [
+        "interactive dashboards"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/France",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.vie-publique.fr/loi/279815-loi-3ds-decentralisation-deconcentration-collectivites-locales"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.vie-publique.fr/loi/279815-loi-3ds-decentralisation-deconcentration-collectivites-locales",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "3DS Law"
+      ]
+    },
+    {
+      "@id": "https://www.numerique.gouv.fr/services/cloud/doctrine/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.vie-publique.fr/actualite/panorama/texte-discussion/projet-loi-pour-etat-au-service-societe-confiance.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law for a State at the Service of a Society Based on Trust"
+      ]
+    },
+    {
+      "@id": "https://www.vie-publique.fr/loi/20755-loi-pour-une-republique-numerique",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law for a Digital Republic"
+      ]
+    },
+    {
+      "@id": "https://www.arcep.fr/",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Authority for Regulation of Electronic Communications and the Postal Sector (ARCEP)"
+      ]
+    },
+    {
+      "@id": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000636232&dateTexte=20180315",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Ordinance on Electronic Interactions between Public Services Users and Public Authorities and among Public Authorities "
+      ]
+    },
+    {
+      "@id": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000031701525&dateTexte=20180315",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on the Modalities of Reuse of Public Sector Information"
+      ]
+    },
+    {
+      "@id": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=LEGITEXT000006068643&dateTexte=20080117",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Access to Administrative Documents"
+      ]
+    },
+    {
+      "@id": "https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000037388867&cidTexte=LEGITEXT000006051257",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Article 47 of the Disability Act of 2005"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "European Directive on digital accessibility of websites and mobile applications of public sector bodies"
+      ]
+    },
+    {
+      "@id": "https://www.numerique.gouv.fr/actualites/simplification-des-demarches-administratives-dites-le-nous-une-fois-passe-a-la-vitesse-superieure/",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law for a State at the Service of a Society based on Trust"
+      ]
+    },
+    {
+      "@id": "http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000439399&dateTexte=",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Electronic Communications and Audio-visual Communication Services"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0021:EN:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0021:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2002/21/EC (Framework Directive)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0020:EN:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0020:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "2002/20/EC (Authorisation Directive)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0019:EN:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0019:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "2002/19/EC (Access Directive)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0022:EN:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0022:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "2002/22/EC (Universal Service Directive)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0058:EN:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0058:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "(Privacy Directive)"
+      ]
+    },
+    {
+      "@id": "http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000399095&dateTexte=",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Electronic Signature"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31999L0093:EN:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31999L0093:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "EU Directive 1999/93/EC"
+      ]
+    },
+    {
+      "@id": "http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000801164&dateTexte",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law for Trust in the Digital Economy"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "EU Directive 2000/31/EC"
+      ]
+    },
+    {
+      "@id": "https://www.legifrance.gouv.fr/eli/loi/2018/2/26/INTX1728622L/jo/texte/",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Various Provisions for Adapting to European Union Law in the Field of Security"
+      ]
+    },
+    {
+      "@id": "https://www.vie-publique.fr/actualite/dossier/securite-internet/protection-donnees-personnelles-que-contient-loi-du-20-juin-2018.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Personal Data Protection Act"
+      ]
+    },
+    {
+      "@id": "http://www.cnil.fr/index.php?id=301",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Informatics and Liberties"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000441676&dateTexte="
+        }
+      ]
+    },
+    {
+      "@id": "http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000441676&dateTexte=",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 2004-801"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "EU Data Protection Directive (95/46/EC)"
+      ]
+    },
+    {
+      "@id": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000029527162&categorieLien=id",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Taxis and Chauffeured Cars"
+      ]
+    },
+    {
+      "@id": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000039683923&dateTexte=&categorieLien=id",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "2020 Budget Law"
+      ]
+    },
+    {
+      "@id": "https://www.vie-publique.fr/actualite/panorama/texte-discussion/projet-loi-programmation-2018-2022-reforme-pour-justice.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Programming and on the Reform of Justice"
+      ]
+    },
+    {
+      "@id": "https://www.vie-publique.fr/actualite/panorama/texte-discussion/projet-loi-relatif-organisation-transformation-du-systeme-sante.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on the Organisation and Transformation of the Healthcare System"
+      ]
+    },
+    {
+      "@id": "https://www.gouvernement.fr/action/pacte-le-plan-d-action-pour-la-croissance-et-la-transformation-des-entreprises",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Action Plan for the Growth and Transformation of Enterprises (PACTE)"
+      ]
+    },
+    {
+      "@id": "https://www.vie-publique.fr/loi/278056-loi-15-novembre2021-reen-reduire-empreinte-environnementale-du-numerique",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "law on the reduction of the environmental footprint of the digital sector"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/France",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://api.gouv.fr/"
+        },
+        {
+          "@id": "https://api.gouv.fr/"
+        },
+        {
+          "@id": "https://entreprise.api.gouv.fr/"
+        },
+        {
+          "@id": "https://api.gouv.fr/les-api/api-particulier"
+        },
+        {
+          "@id": "https://datapass.api.gouv.fr/public"
+        },
+        {
+          "@id": "https://datapass.api.gouv.fr/stats"
+        },
+        {
+          "@id": "https://api.apientreprise.fr/documentation"
+        },
+        {
+          "@id": "https://api.gouv.fr/les-api/api-particulier#exemples-d%C3%A2%C2%80%C2%99application"
+        },
+        {
+          "@id": "https://franceconnect.gouv.fr/"
+        },
+        {
+          "@id": "https://franceconnect.gouv.fr/"
+        },
+        {
+          "@id": "https://www.mesdroitssociaux.gouv.fr/"
+        },
+        {
+          "@id": "https://www.service-public.fr/particuliers/actualites/A13333"
+        },
+        {
+          "@id": "http://www.service-public.fr/"
+        },
+        {
+          "@id": "https://entreprendre.service-public.fr/"
+        },
+        {
+          "@id": "https://formalites.entreprises.gouv.fr/"
+        },
+        {
+          "@id": "https://digiplace.sharepoint.com/sites/WE-DGDIGIT-BEACON-SC26NIFO/Shared%20Documents/D03.01%20DPA%20factsheets%20and%20infographics%202023/DPA%20factsheets%202023/France/Factsheet/Portailpro.gouv.fr"
+        },
+        {
+          "@id": "https://place-des-entreprises.beta.gouv.fr/"
+        },
+        {
+          "@id": "http://data.gouv.fr/"
+        },
+        {
+          "@id": "https://observatoire.numerique.gouv.fr/observatoire/"
+        },
+        {
+          "@id": "https://www.numerique.gouv.fr/espace-presse/6-mois-apres-son-lancement-demarches-simplifiees-dot-fr-sur-la-voie-de-la-reussite/"
+        },
+        {
+          "@id": "https://www.guichet-entreprises.fr/fr/"
+        },
+        {
+          "@id": "https://www.guichet-qualifications.fr/fr/"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/en/TXT/PDF/?uri=CELEX:32006L0123&from=EN"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32005L0036&from=EN"
+        },
+        {
+          "@id": "https://www.guichet-entreprises.fr/fr/"
+        },
+        {
+          "@id": "https://www.guichet-qualifications.fr/fr/"
+        },
+        {
+          "@id": "https://ec.europa.eu/growth/single-market/services/services-directive/in-practice/contact_en"
+        },
+        {
+          "@id": "https://www.francenum.gouv.fr/france-num"
+        },
+        {
+          "@id": "https://www.tribunaldigital.fr/"
+        },
+        {
+          "@id": "https://www.health-data-hub.fr/"
+        },
+        {
+          "@id": "https://permisdeconduire.ants.gouv.fr/"
+        },
+        {
+          "@id": "https://passeport.ants.gouv.fr/"
+        },
+        {
+          "@id": "https://immatriculation.ants.gouv.fr/"
+        },
+        {
+          "@id": "http://www.modernisation.gouv.fr/ladministration-change-avec-le-numerique/par-son-systeme-dinformation/les-trois-grandes-missions-du-reseau-interministeriel-de-letat"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/community/epractice/case/france-mutualises-its-network-infrastructure-secure-its-it"
+        },
+        {
+          "@id": "http://www.ssi.gouv.fr/isis/"
+        },
+        {
+          "@id": "http://www.ssi.gouv.fr/isis/"
+        },
+        {
+          "@id": "http://www.modernisation.gouv.fr/ladministration-change-avec-le-numerique/par-son-systeme-dinformation/les-trois-grandes-missions-du-reseau-interministeriel-de-letat"
+        },
+        {
+          "@id": "http://www.modernisation.gouv.fr/ladministration-change-avec-le-numerique/par-son-systeme-dinformation/les-trois-grandes-missions-du-reseau-interministeriel-de-letat"
+        },
+        {
+          "@id": "https://franceconnect.gouv.fr/"
+        },
+        {
+          "@id": "https://assure.ameli.fr/PortailAS/appmanager/PortailAS/assure?_somtc=true"
+        },
+        {
+          "@id": "https://lidentitenumerique.laposte.fr/"
+        },
+        {
+          "@id": "https://www.mobileconnectetmoi.fr/"
+        },
+        {
+          "@id": "https://www.msa.fr/lfp"
+        },
+        {
+          "@id": "http://www.service-public.fr/"
+        },
+        {
+          "@id": "https://www.service-public.fr/particuliers/vosdroits/N360"
+        },
+        {
+          "@id": "https://www.numerique.gouv.fr/produits-services/tchap-messagerie-instantanee-etat/"
+        },
+        {
+          "@id": "https://timbres.impots.gouv.fr/"
+        },
+        {
+          "@id": "https://www.marches-publics.gouv.fr/?page=entreprise.AccueilEntreprise"
+        },
+        {
+          "@id": "https://www.economie.gouv.fr/dae"
+        },
+        {
+          "@id": "https://www.boamp.fr/"
+        },
+        {
+          "@id": "https://aife.economie.gouv.fr/"
+        },
+        {
+          "@id": "https://chorus-pro.gouv.fr/"
+        },
+        {
+          "@id": "https://communaute.chorus-pro.gouv.fr/?lang=en"
+        },
+        {
+          "@id": "https://www.economie.gouv.fr/particuliers/payfip-solution-enrichie-paiement-en-ligne"
+        },
+        {
+          "@id": "http://adullact.net/"
+        },
+        {
+          "@id": "http://adullact.net/"
+        },
+        {
+          "@id": "https://www.cybermalveillance.gouv.fr/contenus-de-sensibilisation/"
+        },
+        {
+          "@id": "https://www.cybermalveillance.gouv.fr/contenus-de-sensibilisation/"
+        },
+        {
+          "@id": "https://adresse.data.gouv.fr/"
+        },
+        {
+          "@id": "https://www.ecologique-solidaire.gouv.fr/"
+        },
+        {
+          "@id": "https://registre-vtc.developpement-durable.gouv.fr/public/accueil.action;jsessionid=FA149ADD777AC11D5BC9EF0C64E3AA26.TC80_08_M"
+        },
+        {
+          "@id": "https://www.cadastre.gouv.fr/scpc/accueil.do"
+        },
+        {
+          "@id": "https://www.economie.gouv.fr/"
+        },
+        {
+          "@id": "https://www.insee.fr/fr/accueil"
+        },
+        {
+          "@id": "https://www.sirene.fr/sirene/public/accueil?sirene_locale=en"
+        },
+        {
+          "@id": "https://www.insee.fr/fr/accueil"
+        },
+        {
+          "@id": "https://api.insee.fr/catalogue/site/themes/wso2/subthemes/insee/pages/item-info.jag?name=M%C3%83%C2%A9tadonn%C3%83%C2%A9es&version=V1&provider=insee"
+        },
+        {
+          "@id": "https://api.insee.fr/catalogue/site/pages/list-apis.jag"
+        },
+        {
+          "@id": "https://www.data.gouv.fr/fr/datasets/plan-cadastral-informatise/"
+        },
+        {
+          "@id": "https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/"
+        },
+        {
+          "@id": "https://www.data.gouv.fr/fr/datasets/referentiel-de-lorganisation-administrative-de-letat/"
+        },
+        {
+          "@id": "https://www.data.gouv.fr/fr/datasets/referentiel-a-grande-echelle-rge/"
+        },
+        {
+          "@id": "https://www.data.gouv.fr/fr/datasets/repertoire-national-des-associations/"
+        },
+        {
+          "@id": "https://www.data.gouv.fr/fr/datasets/repertoire-operationnel-des-metiers-et-des-emplois-rome/"
+        },
+        {
+          "@id": "https://www.etalab.gouv.fr/lab-ia/"
+        },
+        {
+          "@id": "https://www.numerique.gouv.fr/services/cloud/doctrine/"
+        }
+      ]
+    },
+    {
+      "@id": "https://api.gouv.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://entreprise.api.gouv.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://api.gouv.fr/les-api/api-particulier",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://datapass.api.gouv.fr/public",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://datapass.api.gouv.fr/stats",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://api.apientreprise.fr/documentation",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://api.gouv.fr/les-api/api-particulier#exemples-d%C3%A2%C2%80%C2%99application",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://franceconnect.gouv.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mesdroitssociaux.gouv.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.service-public.fr/particuliers/actualites/A13333",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.service-public.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://entreprendre.service-public.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://formalites.entreprises.gouv.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://digiplace.sharepoint.com/sites/WE-DGDIGIT-BEACON-SC26NIFO/Shared%20Documents/D03.01%20DPA%20factsheets%20and%20infographics%202023/DPA%20factsheets%202023/France/Factsheet/Portailpro.gouv.fr",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://place-des-entreprises.beta.gouv.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://data.gouv.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://observatoire.numerique.gouv.fr/observatoire/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.numerique.gouv.fr/espace-presse/6-mois-apres-son-lancement-demarches-simplifiees-dot-fr-sur-la-voie-de-la-reussite/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.guichet-entreprises.fr/fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.guichet-qualifications.fr/fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/en/TXT/PDF/?uri=CELEX:32006L0123&from=EN",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32005L0036&from=EN",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/growth/single-market/services/services-directive/in-practice/contact_en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.francenum.gouv.fr/france-num",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.tribunaldigital.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.health-data-hub.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://permisdeconduire.ants.gouv.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://passeport.ants.gouv.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://immatriculation.ants.gouv.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.modernisation.gouv.fr/ladministration-change-avec-le-numerique/par-son-systeme-dinformation/les-trois-grandes-missions-du-reseau-interministeriel-de-letat",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/community/epractice/case/france-mutualises-its-network-infrastructure-secure-its-it",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.ssi.gouv.fr/isis/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://assure.ameli.fr/PortailAS/appmanager/PortailAS/assure?_somtc=true",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://lidentitenumerique.laposte.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mobileconnectetmoi.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.msa.fr/lfp",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.service-public.fr/particuliers/vosdroits/N360",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.numerique.gouv.fr/produits-services/tchap-messagerie-instantanee-etat/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://timbres.impots.gouv.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.marches-publics.gouv.fr/?page=entreprise.AccueilEntreprise",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.economie.gouv.fr/dae",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.boamp.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://aife.economie.gouv.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://chorus-pro.gouv.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://communaute.chorus-pro.gouv.fr/?lang=en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.economie.gouv.fr/particuliers/payfip-solution-enrichie-paiement-en-ligne",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://adullact.net/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.cybermalveillance.gouv.fr/contenus-de-sensibilisation/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://adresse.data.gouv.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ecologique-solidaire.gouv.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://registre-vtc.developpement-durable.gouv.fr/public/accueil.action;jsessionid=FA149ADD777AC11D5BC9EF0C64E3AA26.TC80_08_M",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.cadastre.gouv.fr/scpc/accueil.do",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.economie.gouv.fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.insee.fr/fr/accueil",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.sirene.fr/sirene/public/accueil?sirene_locale=en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://api.insee.fr/catalogue/site/themes/wso2/subthemes/insee/pages/item-info.jag?name=M%C3%83%C2%A9tadonn%C3%83%C2%A9es&version=V1&provider=insee",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://api.insee.fr/catalogue/site/pages/list-apis.jag",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.data.gouv.fr/fr/datasets/plan-cadastral-informatise/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.data.gouv.fr/fr/datasets/referentiel-de-lorganisation-administrative-de-letat/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.data.gouv.fr/fr/datasets/referentiel-a-grande-echelle-rge/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.data.gouv.fr/fr/datasets/repertoire-national-des-associations/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.data.gouv.fr/fr/datasets/repertoire-operationnel-des-metiers-et-des-emplois-rome/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.etalab.gouv.fr/lab-ia/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/France",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

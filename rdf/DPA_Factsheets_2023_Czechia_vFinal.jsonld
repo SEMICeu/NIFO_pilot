@@ -1,0 +1,1099 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Czechia",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Czechia"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/CZE"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/legalframework/Czechia"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Czechia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2020-12"
+        },
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2021-261"
+        },
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2000-365"
+        },
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2000-365"
+        },
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2019-99"
+        },
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/1999-106"
+        },
+        {
+          "@id": "https://urldefense.com/v3/__https:/www.zakonyprolidi.cz/cs/2017-250__;!!NEMsmePo_HYI!dzfKktvaoa0HY9I6ad14azLixLvhw4onCM8B_Una7adoaEqclAKzUH0o8tdrGyYxhh4dy1a0TLW04QxOL4e2UR98-SZ-xkGXPw$"
+        },
+        {
+          "@id": "https://urldefense.com/v3/__https:/ec.europa.eu/digital-single-market/en/trust-services-and-eid__;!!NEMsmePo_HYI!dzfKktvaoa0HY9I6ad14azLixLvhw4onCM8B_Una7adoaEqclAKzUH0o8tdrGyYxhh4dy1a0TLW04QxOL4e2UR98-SZj052oEg$"
+        },
+        {
+          "@id": "https://public.psp.cz/en/sqw/historie.sqw?O=8&T=554"
+        },
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2019-110"
+        },
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2014-181"
+        },
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2009-111"
+        },
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2020-12"
+        },
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2016-134"
+        },
+        {
+          "@id": "http://www.portal-vz.cz/getmedia/ac061a0a-d8c1-4ff1-b8d2-691aa89269b1/Zakon-c-134_2016-Sb-o-zadavani-verejnych-zakazek.pdf"
+        },
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2008-300"
+        },
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2004-480"
+        },
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2011-372"
+        },
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2021-325?text=z%25C3%2583%25C2%25A1kon+o+elektronizaci+zdravotnictv%25C3%2583%25C2%25AD"
+        },
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2000-365"
+        }
+      ]
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/country/Czechia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring",
+      "http://data.europa.eu/eli/ontology#title": [
+        "interactive dashboards"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/Czechia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2008-300"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2018.295.01.0001.01.ENG"
+        },
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2022-226"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/policies/nis2-directive"
+        },
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2020-12"
+        },
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2020-12"
+        },
+        {
+          "@id": "http://ec.europa.eu/digital-agenda/en/european-legislation-reuse-public-sector-information"
+        },
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2000-365"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.zakonyprolidi.cz/cs/2008-300",
+      "@type": [
+        "http://schema.org/ContactPoint",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Act on electronic procedures and authorised conversions of documents"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Electronic Actions and Authorised Document Conversion"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2018.295.01.0001.01.ENG",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Regulation (EU) 2018/1724"
+      ]
+    },
+    {
+      "@id": "https://www.zakonyprolidi.cz/cs/2022-226",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Act no. 226/2022, Coll"
+      ]
+    },
+    {
+      "@id": "https://digital-strategy.ec.europa.eu/en/policies/nis2-directive",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "NIS2 Directive"
+      ]
+    },
+    {
+      "@id": "https://www.zakonyprolidi.cz/cs/2020-12",
+      "@type": [
+        "http://schema.org/ContactPoint",
+        "http://schema.org/ContactPoint",
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Act on the Right to Digital Services",
+        "Act on the Right to Digital Services"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on the Right to Digital Services",
+        "Act on the Right to Digital Services"
+      ]
+    },
+    {
+      "@id": "https://portal-vz.cz/elektronicke-zadavani-vz/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://ec.europa.eu/digital-agenda/en/european-legislation-reuse-public-sector-information",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Public Sector Information (PSI) Directive"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://inspire.ec.europa.eu/"
+        }
+      ]
+    },
+    {
+      "@id": "http://inspire.ec.europa.eu/",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "INSPIRE Directive"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://odok.cz/portal/veklep/material/ALBSCL8DQ7VJ/"
+        }
+      ]
+    },
+    {
+      "@id": "https://odok.cz/portal/veklep/material/ALBSCL8DQ7VJ/",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Act on the governance of public sector data"
+      ]
+    },
+    {
+      "@id": "https://www.zakonyprolidi.cz/cs/2000-365",
+      "@type": [
+        "http://schema.org/ContactPoint",
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Act on information systems of public administration"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Public Administration Information Systems",
+        "Act on Public Administration Information Systems",
+        "Act on Public Authority Information Systems"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2009-111"
+        },
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2014-181"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.zakonyprolidi.cz/cs/2021-261",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. 261/2021 Coll.",
+        "Act No. 261/2021 Coll."
+      ]
+    },
+    {
+      "@id": "https://www.zakonyprolidi.cz/cs/2009-111",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Base Registries",
+        "Act on Base Registries"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/1999-106"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.zakonyprolidi.cz/cs/1999-106",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Free Access to Information",
+        "Act on Free Access to Information"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2004-499"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.zakonyprolidi.cz/cs/2004-499",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Archiving and Records Management"
+      ]
+    },
+    {
+      "@id": "https://www.zakonyprolidi.cz/cs/2019-99",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on the Accessibility of Websites and Mobile Applications of Public Sector Bodies"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "European Union (EU) Directive on the accessibility of the websites and mobile applications of public sector bodies"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive (EU) 2003/98/EC on the re-use of public sector information (PSI Directive)"
+      ]
+    },
+    {
+      "@id": "https://urldefense.com/v3/__https:/www.zakonyprolidi.cz/cs/2017-250__;!!NEMsmePo_HYI!dzfKktvaoa0HY9I6ad14azLixLvhw4onCM8B_Una7adoaEqclAKzUH0o8tdrGyYxhh4dy1a0TLW04QxOL4e2UR98-SZ-xkGXPw$",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Electronic Identification"
+      ]
+    },
+    {
+      "@id": "https://urldefense.com/v3/__https:/ec.europa.eu/digital-single-market/en/trust-services-and-eid__;!!NEMsmePo_HYI!dzfKktvaoa0HY9I6ad14azLixLvhw4onCM8B_Una7adoaEqclAKzUH0o8tdrGyYxhh4dy1a0TLW04QxOL4e2UR98-SZj052oEg$",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation (EU) 910/2014 on electronic identification and trust services for electronic transactions in the internal market (eIDAS Regulation)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://urldefense.com/v3/__http:/www.mvcr.cz/mvcren/article/electronic-signature-773488.aspx?q=Y2hudW09Mg*3D*3D__;JSU!!NEMsmePo_HYI!dzfKktvaoa0HY9I6ad14azLixLvhw4onCM8B_Una7adoaEqclAKzUH0o8tdrGyYxhh4dy1a0TLW04QxOL4e2UR98-SY9gTXTSA$"
+        }
+      ]
+    },
+    {
+      "@id": "https://urldefense.com/v3/__http:/www.mvcr.cz/mvcren/article/electronic-signature-773488.aspx?q=Y2hudW09Mg*3D*3D__;JSU!!NEMsmePo_HYI!dzfKktvaoa0HY9I6ad14azLixLvhw4onCM8B_Una7adoaEqclAKzUH0o8tdrGyYxhh4dy1a0TLW04QxOL4e2UR98-SY9gTXTSA$",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Trust Services for Electronic Transactions"
+      ]
+    },
+    {
+      "@id": "https://public.psp.cz/en/sqw/historie.sqw?O=8&T=554",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Bank ID"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2020-49"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.zakonyprolidi.cz/cs/2020-49",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. 49/2020"
+      ]
+    },
+    {
+      "@id": "https://www.zakonyprolidi.cz/cs/2019-110",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Personal Data Processing Act"
+      ]
+    },
+    {
+      "@id": "https://www.zakonyprolidi.cz/cs/2014-181",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Cybersecurity",
+        "Act on Cybersecurity"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2021-261"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.zakonyprolidi.cz/cs/2016-134",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Public Procurement"
+      ]
+    },
+    {
+      "@id": "http://www.portal-vz.cz/getmedia/ac061a0a-d8c1-4ff1-b8d2-691aa89269b1/Zakon-c-134_2016-Sb-o-zadavani-verejnych-zakazek.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Public Procurement",
+        "Act No. 134/2016 Coll.) "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.portal-vz.cz/getmedia/ac061a0a-d8c1-4ff1-b8d2-691aa89269b1/Zakon-c-134_2016-Sb-o-zadavani-verejnych-zakazek.pdf"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/CS/TXT/HTML/?uri=CELEX:32014L0055&from=EN"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/CS/TXT/HTML/?uri=CELEX:32014L0055&from=EN",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2014/55/EU on electronic invoicing in public procurement"
+      ]
+    },
+    {
+      "@id": "https://www.zakonyprolidi.cz/cs/2004-480",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Certain Information Society Services"
+      ]
+    },
+    {
+      "@id": "https://www.zakonyprolidi.cz/cs/2011-372",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Health Services"
+      ]
+    },
+    {
+      "@id": "https://www.zakonyprolidi.cz/cs/2021-325?text=z%25C3%2583%25C2%25A1kon+o+elektronizaci+zdravotnictv%25C3%2583%25C2%25AD",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "https://www.zakonyprolidi.cz/cs/2021-325?text=z%C3%83%C2%A1kon+o+elektronizaci+zdravotnictv%C3%83%C2%AD",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. 325/2021 Coll., on the digitalisation of health care"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/Czechia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://gov.cz/%20or%20https:/portal.gov.cz/index/"
+        },
+        {
+          "@id": "https://obcan.portal.gov.cz/prihlaseni"
+        },
+        {
+          "@id": "https://www.mvcr.cz/clanek/portal-obcana.aspx"
+        },
+        {
+          "@id": "https://portal.gov.cz/sluzby-vs/aplikace-erecept-pro-pacienty-S11087"
+        },
+        {
+          "@id": "https://obcan.portal.gov.cz/prihlaseni"
+        },
+        {
+          "@id": "https://www.cssz.cz/web/en"
+        },
+        {
+          "@id": "https://www.mojedane21.cz/"
+        },
+        {
+          "@id": "https://www.mojedane21.cz/"
+        },
+        {
+          "@id": "https://www.financnisprava.cz/en/e-tax"
+        },
+        {
+          "@id": "https://www.nixzd.cz/"
+        },
+        {
+          "@id": "https://ec.europa.eu/inea/en/connecting-europe-facility/cef-telecom/2015-cz-ia-0067"
+        },
+        {
+          "@id": "https://covid.gov.cz/en/"
+        },
+        {
+          "@id": "https://www.smocr.cz/en"
+        },
+        {
+          "@id": "https://www.smocr.cz/"
+        },
+        {
+          "@id": "https://www.smsdata.cz/agis-info/"
+        },
+        {
+          "@id": "https://www.epusa.cz/"
+        },
+        {
+          "@id": "https://www.mvcr.cz/clanek/komunikacni-infrastruktura-verejne-spravy-278660.aspx"
+        },
+        {
+          "@id": "https://archi.gov.cz/nap_dokument"
+        },
+        {
+          "@id": "http://www.czechpoint.cz/web/"
+        },
+        {
+          "@id": "https://www.mpo.cz/assets/cz/e-komunikace-a-posta/elektronicke-komunikace/koncepce-a-strategie/narodni-plan-rozvoje-siti-nga/2020/1/Implementace-a-rozvoj-siti-5G-v-CR-EN.pdf"
+        },
+        {
+          "@id": "https://www.mpo.cz/assets/cz/e-komunikace-a-posta/elektronicke-komunikace/koncepce-a-strategie/narodni-plan-rozvoje-siti-nga/2020/1/Usneseni-vlady.pdf"
+        },
+        {
+          "@id": "https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIV-SC646NIFO/Documents%20partages/D03.01%20DPA%20factsheets%20and%20infographics%202022/Final%20deliverable/AppData/Local/Microsoft/Windows/INetCache/giuli/Dropbox/Editing_2022/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/Downloads/5G%20Networks%20%7C%20%C4%8Cesk%C3%BD%20telekomunika%C4%8Dn%C3%AD%20%C3%BA%C5%99ad%20(ctu.eu)"
+        },
+        {
+          "@id": "https://www.mpo.cz/cz/rozcestnik/pro-media/tiskove-zpravy/5g-site-prinasi-nasim-mestum-chytra-reseni--266164/"
+        },
+        {
+          "@id": "https://www.datoveschranky.info/"
+        },
+        {
+          "@id": "https://www.mojedatovaschranka.cz/static/ISDS/help/page15.html"
+        },
+        {
+          "@id": "https://play.google.com/store/apps/details?id=cz.mojedatovaschranka.mobilniklic&hl=cs"
+        },
+        {
+          "@id": "https://apps.apple.com/cz/app/mobiln%C3%83%C2%AD-kl%C3%83%C2%AD%C3%84%C2%8D-isds/id1466762017"
+        },
+        {
+          "@id": "https://archi.gov.cz/znalostni_baze:ga_ppdf?s%5B%5D=propojen%C3%83%C2%BD*&s%5B%5D=datov%C3%83%C2%BD*&s%5B%5D=fond*"
+        },
+        {
+          "@id": "https://ockodoc.mzcr.cz/en/support/identitaobcana/nia-id/"
+        },
+        {
+          "@id": "https://www.eidentita.cz/Home"
+        },
+        {
+          "@id": "https://www.mvcr.cz/clanek/seznam-udelenych-akreditaci-pro-spravu-kvalifikovaneho-systemu-elektronicke-identifikace.aspx"
+        },
+        {
+          "@id": "https://www.mojeid.cz/en/support/statni-sprava/"
+        },
+        {
+          "@id": "https://www.zakonyprolidi.cz/cs/2020-12"
+        },
+        {
+          "@id": "http://www.mvcr.cz/clanek/informace-k-pouzivani-elektronickeho-podpisu.aspx"
+        },
+        {
+          "@id": "https://www.mvcr.cz/mvcren/article/electronic-signature-773488.aspx?q=Y2hudW09Mw=="
+        },
+        {
+          "@id": "http://www.mvcr.cz/clanek/ceska-narodni-verifikacni-autorita-cvca.aspx"
+        },
+        {
+          "@id": "http://www.portal-vz.cz/"
+        },
+        {
+          "@id": "https://portal-vz.cz/elektronicke-zadavani-vz/"
+        },
+        {
+          "@id": "https://nen.nipez.cz/"
+        },
+        {
+          "@id": "https://www.mvcr.cz/clanek/isdoc-narodni-standard-elektronicke-fakturace.aspx"
+        },
+        {
+          "@id": "https://www.komora.cz/obchod-a-sluzby/narodni-mnohostranne-forum-cr-pro-e-fakturaci/"
+        },
+        {
+          "@id": "https://www.cuzk.cz/DMVS/O-IS-DMVS/Predpokladane-terminy-realizace.aspx"
+        },
+        {
+          "@id": "https://geoportal.cuzk.cz/mGeoportal/?c=dSady_RUIAN_A.EN&f=paticka.EN&lng=EN"
+        },
+        {
+          "@id": "http://www.elfproject.eu/sites/default/files/An%20Introduction%20to%20the%20European%20Location%20Framework%20(2014).pdf"
+        },
+        {
+          "@id": "http://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLI-B4/181/2016/"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/sites/default/files/inline-files/Czech%20Republic%20Factsheet%20Validated_1.pdf"
+        },
+        {
+          "@id": "https://archi.gov.cz/en:nap:zakladni_registry"
+        },
+        {
+          "@id": "https://www.aiczechia.cz/"
+        },
+        {
+          "@id": "https://prg.ai/"
+        },
+        {
+          "@id": "https://www.brno.ai/"
+        },
+        {
+          "@id": "https://golemio.cz/en"
+        },
+        {
+          "@id": "https://datahub.brno.cz/"
+        },
+        {
+          "@id": "https://www.polivisu.eu/"
+        },
+        {
+          "@id": "https://apps.odok.cz/attachment/-/down/IHOAAG9B6DHT"
+        },
+        {
+          "@id": "https://apps.odok.cz/attachment/-/down/RCIAB6NBXXNO"
+        },
+        {
+          "@id": "https://www.spcss.cz/"
+        },
+        {
+          "@id": "https://www.youtube.com/watch?v=_JFCCYyO8YE"
+        },
+        {
+          "@id": "https://www.mvcr.cz/clanek/egovernment-cloud.aspx?q=Y2hudW09Ng=="
+        },
+        {
+          "@id": "https://www.it4i.cz/"
+        },
+        {
+          "@id": "http://rci.cvut.cz/"
+        },
+        {
+          "@id": "https://www.metacentrum.cz/en/about/meta/index.html"
+        },
+        {
+          "@id": "https://www.metacentrum.cz/en/about/meta/index.html#ces"
+        },
+        {
+          "@id": "https://www.mpo.cz/cz/podnikani/digitalni-spolecnost/zrizeni-platformy-pro-digitalizaci-hospodarstvi--269636/"
+        },
+        {
+          "@id": "https://www.mpo.cz/cz/podnikani/digitalni-spolecnost/zrizeni-platformy-pro-digitalizaci-hospodarstvi--269636/"
+        }
+      ]
+    },
+    {
+      "@id": "https://gov.cz/%20or%20https:/portal.gov.cz/index/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://obcan.portal.gov.cz/prihlaseni",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mvcr.cz/clanek/portal-obcana.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://portal.gov.cz/sluzby-vs/aplikace-erecept-pro-pacienty-S11087",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.cssz.cz/web/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mojedane21.cz/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.financnisprava.cz/en/e-tax",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.nixzd.cz/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/inea/en/connecting-europe-facility/cef-telecom/2015-cz-ia-0067",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://covid.gov.cz/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.smocr.cz/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.smocr.cz/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.smsdata.cz/agis-info/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.epusa.cz/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mvcr.cz/clanek/komunikacni-infrastruktura-verejne-spravy-278660.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://archi.gov.cz/nap_dokument",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.czechpoint.cz/web/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mpo.cz/assets/cz/e-komunikace-a-posta/elektronicke-komunikace/koncepce-a-strategie/narodni-plan-rozvoje-siti-nga/2020/1/Implementace-a-rozvoj-siti-5G-v-CR-EN.pdf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mpo.cz/assets/cz/e-komunikace-a-posta/elektronicke-komunikace/koncepce-a-strategie/narodni-plan-rozvoje-siti-nga/2020/1/Usneseni-vlady.pdf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIV-SC646NIFO/Documents%20partages/D03.01%20DPA%20factsheets%20and%20infographics%202022/Final%20deliverable/AppData/Local/Microsoft/Windows/INetCache/giuli/Dropbox/Editing_2022/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/Downloads/5G%20Networks%20%7C%20%C4%8Cesk%C3%BD%20telekomunika%C4%8Dn%C3%AD%20%C3%BA%C5%99ad%20(ctu.eu)",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mpo.cz/cz/rozcestnik/pro-media/tiskove-zpravy/5g-site-prinasi-nasim-mestum-chytra-reseni--266164/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.datoveschranky.info/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mojedatovaschranka.cz/static/ISDS/help/page15.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://play.google.com/store/apps/details?id=cz.mojedatovaschranka.mobilniklic&hl=cs",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://apps.apple.com/cz/app/mobiln%C3%83%C2%AD-kl%C3%83%C2%AD%C3%84%C2%8D-isds/id1466762017",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://archi.gov.cz/znalostni_baze:ga_ppdf?s%5B%5D=propojen%C3%83%C2%BD*&s%5B%5D=datov%C3%83%C2%BD*&s%5B%5D=fond*",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ockodoc.mzcr.cz/en/support/identitaobcana/nia-id/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.eidentita.cz/Home",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mvcr.cz/clanek/seznam-udelenych-akreditaci-pro-spravu-kvalifikovaneho-systemu-elektronicke-identifikace.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mojeid.cz/en/support/statni-sprava/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.mvcr.cz/clanek/informace-k-pouzivani-elektronickeho-podpisu.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mvcr.cz/mvcren/article/electronic-signature-773488.aspx?q=Y2hudW09Mw==",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.mvcr.cz/clanek/ceska-narodni-verifikacni-autorita-cvca.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.portal-vz.cz/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://nen.nipez.cz/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mvcr.cz/clanek/isdoc-narodni-standard-elektronicke-fakturace.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.komora.cz/obchod-a-sluzby/narodni-mnohostranne-forum-cr-pro-e-fakturaci/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.cuzk.cz/DMVS/O-IS-DMVS/Predpokladane-terminy-realizace.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://geoportal.cuzk.cz/mGeoportal/?c=dSady_RUIAN_A.EN&f=paticka.EN&lng=EN",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.elfproject.eu/sites/default/files/An%20Introduction%20to%20the%20European%20Location%20Framework%20(2014).pdf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLI-B4/181/2016/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/sites/default/files/inline-files/Czech%20Republic%20Factsheet%20Validated_1.pdf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://archi.gov.cz/en:nap:zakladni_registry",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.aiczechia.cz/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://prg.ai/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.brno.ai/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://golemio.cz/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://datahub.brno.cz/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.polivisu.eu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://apps.odok.cz/attachment/-/down/IHOAAG9B6DHT",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://apps.odok.cz/attachment/-/down/RCIAB6NBXXNO",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.spcss.cz/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.youtube.com/watch?v=_JFCCYyO8YE",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mvcr.cz/clanek/egovernment-cloud.aspx?q=Y2hudW09Ng==",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.it4i.cz/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://rci.cvut.cz/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.metacentrum.cz/en/about/meta/index.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.metacentrum.cz/en/about/meta/index.html#ces",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mpo.cz/cz/podnikani/digitalni-spolecnost/zrizeni-platformy-pro-digitalizaci-hospodarstvi--269636/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Czechia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

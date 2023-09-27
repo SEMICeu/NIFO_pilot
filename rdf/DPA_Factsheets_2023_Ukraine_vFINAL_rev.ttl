@@ -1,0 +1,165 @@
+<http://data.europa.eu/nifo/factsheet/Ukraine> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Ukraine>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/UKR";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/legalframework/Ukraine> .
+<http://publications.europa.eu/resource/authority/country/Ukraine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/source> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring>;
+ <http://purl.org/dc/terms/relation> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> .
+<https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> <http://data.europa.eu/eli/ontology#title> "interactive dashboards" .
+<http://example.org/ContactPoint/Ukraine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://zakon.rada.gov.ua/laws/show/849-2019-%2525C3%252590%2525C2%2525BF>, <https://zakon.rada.gov.ua/laws/show/37-2019-%2525C3%252591%2525C2%252580>, <https://zakon.rada.gov.ua/laws/show/617-2018-%2525C3%252591%2525C2%252580>, <https://www.kmu.gov.ua/news/ukrayina-ta-yes-onovili-cifrove-dopovnennya-do-ugodi-pro-asociaciyu>, <https://thedigital.gov.ua/fiber>, <https://www.opengovpartnership.org/wp-content/uploads/2021/03/Ukraine_Action-Plan_2020-2022_EN.pdf>, <https://www.kmu.gov.ua/news/hrafik-pidhotovky-planu-dii-iz-vprovadzhennia-initsiatyvy-partnerstvo-vidkrytyi-uriad>, <https://zakon.rada.gov.ua/laws/show/900-2018-%2525C3%252591%2525C2%252580>, <https://zakon.rada.gov.ua/laws/show/481-2018-%252525D1%25252580>, <https://www.kmu.gov.ua/storage/app/sites/1/17-prezentation-2019/10.2019/plan-zahodiv.pdf>, <https://zakon.rada.gov.ua/laws/show/1175-2021-%2525C3%252591%2525C2%252580#Text>, <https://zakon.rada.gov.ua/laws/show/184-2021-%2525C3%252590%2525C2%2525BF#Text>, <https://zakon.rada.gov.ua/laws/show/1467-2021-%2525C3%252591%2525C2%252580#n280>, <https://www.kmu.gov.ua/npas/pro-shvalennya-strategiyi-rozvitku-sferi-innovacijnoyi-diyalnosti-na-period-do-2030-roku>, <https://zakon.rada.gov.ua/laws/show/438-2021-%2525C3%252591%2525C2%252580#Text>, <https://www.kmu.gov.ua/npas/pro-zatverdzhennya-planu-zahodiv-z-a1069r>, <https://www.kmu.gov.ua/npas/pro-zatverdzhennya-planu-zahodiv-shchodo-vprovadzhennya-v-ukrayini-sistemi-ruhomogo-mobilnogo-zvyazku-pyatogo-pokolinnya-1409111120> .
+<https://zakon.rada.gov.ua/laws/show/849-2019-%2525C3%252590%2525C2%2525BF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint> .
+<https://zakon.rada.gov.ua/laws/show/849-2019-%C3%90%C2%BF> <http://purl.org/dc/terms/title> "Acti" .
+<https://zakon.rada.gov.ua/laws/show/37-2019-%2525C3%252591%2525C2%252580> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint> .
+<https://zakon.rada.gov.ua/laws/show/37-2019-%C3%91%C2%80> <http://purl.org/dc/terms/title> "Action Plan for the Implementation of the eServices Development Concept for the Years 2019–2020" .
+<https://zakon.rada.gov.ua/laws/show/617-2018-%2525C3%252591%2525C2%252580> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint> .
+<https://zakon.rada.gov.ua/laws/show/617-2018-%C3%91%C2%80> <http://purl.org/dc/terms/title> "Action Plan for the Implementation of the eGovernment Development Concept for the Years 2018–2020" .
+<https://www.kmu.gov.ua/news/ukrayina-ta-yes-onovili-cifrove-dopovnennya-do-ugodi-pro-asociaciyu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "approved a bilateral decision to amend" .
+<https://thedigital.gov.ua/fiber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "interactive map" .
+<https://www.opengovpartnership.org/wp-content/uploads/2021/03/Ukraine_Action-Plan_2020-2022_EN.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Action Plan on the Implementation of the Open Government Partnership Initiative for the Years 2021–2022" .
+<https://www.kmu.gov.ua/news/hrafik-pidhotovky-planu-dii-iz-vprovadzhennia-initsiatyvy-partnerstvo-vidkrytyi-uriad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "officially informed that in 2023 they would start preparing the updated action plan" .
+<https://zakon.rada.gov.ua/laws/show/900-2018-%2525C3%252591%2525C2%252580> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint> .
+<https://zakon.rada.gov.ua/laws/show/900-2018-%C3%91%C2%80> <http://purl.org/dc/terms/title> "Action Plan on the Implementation of the " .
+<https://zakon.rada.gov.ua/laws/show/481-2018-%252525D1%25252580> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint> .
+<https://zakon.rada.gov.ua/laws/show/481-2018-%25D1%2580> <http://purl.org/dc/terms/title> "Action Plan on the Implementation of a Cybersecurity Strategy in Ukraine" .
+<https://www.kmu.gov.ua/storage/app/sites/1/17-prezentation-2019/10.2019/plan-zahodiv.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "eHealth Action Plan" .
+<https://zakon.rada.gov.ua/laws/show/1175-2021-%2525C3%252591%2525C2%252580#Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint> .
+<https://zakon.rada.gov.ua/laws/show/1175-2021-%C3%91%C2%80#Text> <http://purl.org/dc/terms/title> "Cabinet of Ministers of Ukraine adopted the Action Plan to Implement the Concept of Electronic Healthcare System Development" .
+<https://zakon.rada.gov.ua/laws/show/184-2021-%2525C3%252590%2525C2%2525BF#Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint> .
+<https://zakon.rada.gov.ua/laws/show/184-2021-%C3%90%C2%BF#Text> <http://purl.org/dc/terms/title> "Regulation on the National Online Digital Literacy Platform ‘Diia. Digital Education" .
+<https://zakon.rada.gov.ua/laws/show/1467-2021-%2525C3%252591%2525C2%252580#n280> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint> .
+<https://zakon.rada.gov.ua/laws/show/1467-2021-%C3%91%C2%80#n280> <http://purl.org/dc/terms/title> "approved the Action Plan to Implement this Strategy" .
+<https://www.kmu.gov.ua/npas/pro-shvalennya-strategiyi-rozvitku-sferi-innovacijnoyi-diyalnosti-na-period-do-2030-roku> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "National Strategy for Development of Innovative Activities Sector for the Period until 2030" .
+<https://zakon.rada.gov.ua/laws/show/438-2021-%2525C3%252591%2525C2%252580#Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint> .
+<https://zakon.rada.gov.ua/laws/show/438-2021-%C3%91%C2%80#Text> <http://purl.org/dc/terms/title> "plan of activities to implement the strategy on AI development in Ukraine" .
+<https://www.kmu.gov.ua/npas/pro-zatverdzhennya-planu-zahodiv-z-a1069r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Action Plan to Develop " .
+<https://www.kmu.gov.ua/npas/pro-zatverdzhennya-planu-zahodiv-shchodo-vprovadzhennya-v-ukrayini-sistemi-ruhomogo-mobilnogo-zvyazku-pyatogo-pokolinnya-1409111120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Action Plan to Implement the Fifth Generation Mobile Communication System in Ukraine" .
+<http://example.org/nifo/legalframework/Ukraine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://zakon.rada.gov.ua/laws/show/647/2019>, <https://zakon.rada.gov.ua/laws/show/558/2019>, <http://w1.c1.rada.gov.ua/pls/zweb2/webproc4_1?pf3511=70393>, <https://zakon.rada.gov.ua/laws/show/1689-20#Text>, <https://w1.c1.rada.gov.ua/pls/zweb2/webproc4_1?pf3511=66661>, <https://zakon.rada.gov.ua/laws/show/1089-20#Text>, <https://zakon.rada.gov.ua/laws/show/55-2018-%2525C3%252590%2525C2%2525BF>, <https://zakon.rada.gov.ua/laws/show/606-2016-%2525C3%252590%2525C2%2525BF#Text>, <https://zakon.rada.gov.ua/laws/show/38-2023-%2525C3%252590%2525C2%2525BF#Text>, <https://ukc.gov.ua/>, <https://zakon.rada.gov.ua/laws/show/2939-17>, <https://www.unece.org/fileadmin/DAM/env/pp/documents/cep43e.pdf>, <https://zakon3.rada.gov.ua/laws/show/2155-Viii#n157>, <https://zakon.rada.gov.ua/laws/show/2801-IX#Text>, <https://zakon2.rada.gov.ua/laws/show/2163-19>, <https://zakon.rada.gov.ua/laws/show/80/94-%2525C3%252590%2525C2%2525B2%2525C3%252591%2525C2%252580#Text>, <https://zakon.rada.gov.ua/laws/show/1907-20#Text>, <https://e-tender.ua/en/training-tenders/teoriya-zakupivel-3/zakonodavstvo-ukrayini-v-sferi-publichnih-zakupivel-8>, <https://www.cms-lawnow.com/ealerts/2019/10/ukraine-revises-public-procurement-rules?_ga=2.126796174.240429753.1579187657-371478669.1579076693>, <https://zakon.rada.gov.ua/laws/show/1416-20#Text>, <https://zakon.rada.gov.ua/laws/show/vr013500-20#Text>, <https://zakon.rada.gov.ua/laws/show/2074-20#Text>, <https://zakon.rada.gov.ua/laws/show/2075-20#Text>, <http://w1.c1.rada.gov.ua/pls/zweb2/webproc4_1?pf3511=72768> .
+<https://zakon.rada.gov.ua/laws/show/647/2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Order No. 647/2019 on Some Activities to Ensure Access to High-Quality eServices" .
+<https://zakon.rada.gov.ua/laws/show/558/2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Order No. 558/2019 on Some Activities to Enhance the Access to State eServices for Citizens and Businesses." .
+<http://w1.c1.rada.gov.ua/pls/zweb2/webproc4_1?pf3511=70393> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 1368-IX on the Unified State Demographic Registry and Documents  proving Ukrainian Citizenship or Identity" .
+<https://zakon.rada.gov.ua/laws/show/1689-20#Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law of Ukraine No. 1689-IX on Public Services Provision" .
+<https://w1.c1.rada.gov.ua/pls/zweb2/webproc4_1?pf3511=66661> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law of Ukraine on the Protection of Information in the Information Telecommunications Systems", "Draft law No. 2043" .
+<https://zakon.rada.gov.ua/laws/show/1089-20#Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 1089-IX On Electronic Telecommunications" .
+<https://zakon.rada.gov.ua/laws/show/55-2018-%2525C3%252590%2525C2%2525BF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<https://zakon.rada.gov.ua/laws/show/55-2018-%C3%90%C2%BF> <http://data.europa.eu/eli/ontology#title> "of Administrative Activity Recording" .
+<https://zakon.rada.gov.ua/laws/show/606-2016-%2525C3%252590%2525C2%2525BF#Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<https://zakon.rada.gov.ua/laws/show/606-2016-%C3%90%C2%BF#Text> <http://data.europa.eu/eli/ontology#title> "Decree no. 606 on Some Question of Digital Interaction of State Information Resources" .
+<https://zakon.rada.gov.ua/laws/show/38-2023-%2525C3%252590%2525C2%2525BF#Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<https://zakon.rada.gov.ua/laws/show/38-2023-%C3%90%C2%BF#Text> <http://data.europa.eu/eli/ontology#title> "Decree 38 that regulates the new procedure of interaction between public registries within the TREMBITA national interoperability system." .
+<https://ukc.gov.ua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Government Contact Centre" .
+<https://zakon.rada.gov.ua/laws/show/2939-17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "law" .
+<https://www.unece.org/fileadmin/DAM/env/pp/documents/cep43e.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "UNECE Convention on Access to Information, Public Participation in Decision-making and Access to Justice in Environmental Matters" .
+<https://zakon3.rada.gov.ua/laws/show/2155-Viii#n157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Electronic Trust Services";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "eIDAS Regulation" .
+<https://zakon.rada.gov.ua/laws/show/2801-IX#Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "the law of Ukraine on Mutual Recognition of Ukrainian and EU Electronic Trust Services to implement the EU legislation in the field of electronic identification" .
+<https://zakon2.rada.gov.ua/laws/show/2163-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Basic Principles of Cybersecurity in Ukraine", "Law on the Basic Principles of Cybersecurity in Ukraine" .
+<https://zakon.rada.gov.ua/laws/show/80/94-%2525C3%252590%2525C2%2525B2%2525C3%252591%2525C2%252580#Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<https://zakon.rada.gov.ua/laws/show/80/94-%C3%90%C2%B2%C3%91%C2%80#Text> <http://data.europa.eu/eli/ontology#title> "Law of Ukraine No. 681-IX on Information Protection in Information and Telecommunications Systems" .
+<https://zakon.rada.gov.ua/laws/show/1907-20#Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> " Law no 1907-ІХ on Public Electronic Registries" .
+<https://e-tender.ua/en/training-tenders/teoriya-zakupivel-3/zakonodavstvo-ukrayini-v-sferi-publichnih-zakupivel-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Public Procurement" .
+<https://www.cms-lawnow.com/ealerts/2019/10/ukraine-revises-public-procurement-rules?_ga=2.126796174.240429753.1579187657-371478669.1579076693> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "revised Public Procurement Law" .
+<https://zakon.rada.gov.ua/laws/show/1416-20#Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law of Ukraine No. 1416-IX on a Single Electronic Court System" .
+<https://zakon.rada.gov.ua/laws/show/vr013500-20#Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decision" .
+<https://zakon.rada.gov.ua/laws/show/2074-20#Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law of Ukraine on Virtual Assets" .
+<https://zakon.rada.gov.ua/laws/show/2075-20#Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "the law of Ukraine on Cloud Services" .
+<http://w1.c1.rada.gov.ua/pls/zweb2/webproc4_1?pf3511=72768> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "on the National Commission for State Regulation in the Sectors of Electronic Communications, Radio Frequency Spectrum and Provision of Postal Services" .
+<http://example.org/nifo/structure/Ukraine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://plan.diia.gov.ua/>, <https://diia.gov.ua/>, <https://go.diia.app/>, <https://guide.diia.gov.ua/>, <https://business.diia.gov.ua/en>, <https://bf.diia.gov.ua/>, <https://data.gov.ua/>, <https://ckan.org/>, <http://data.europa.eu/euodp/en/data/>, <https://data.europa.eu/en/publications/open-data-maturity/2022>, <https://data.europa.eu/sites/default/files/country-factsheet_ukraine_2022.pdf>, <https://diia.data.gov.ua/>, <https://e-construction.gov.ua/>, <https://e-construction.gov.ua/reestri>, <https://e-construction.gov.ua/analitika>, <https://edata.gov.ua/>, <https://www.minfin.gov.ua/en>, <https://spending.gov.ua/new/>, <https://openbudget.gov.ua/>, <https://www.minfin.gov.ua/en/news/borg>, <https://proifi.gov.ua/?p=index>, <https://inspections.gov.ua/>, <https://petition.kmu.gov.ua/>, <https://petition.president.gov.ua/>, <https://mof.gov.ua/uk/the-reform-of-education>, <https://mof.gov.ua/uk/derzhavnij-borg-ta-garantovanij-derzhavju-borg>, <https://mof.gov.ua/uk/zviti-po-derzhavnih-bankah-fin>, <http://trade.ec.europa.eu/doclib/docs/2016/november/tradoc_155103.pdf>, <https://customs.gov.ua/en/documents/pro-zaprovadzhennia-pilotnogo-proiektu-z-testuvannia-roboti-natsionalnoyi-elektronnoyi-tranzitnoyi-sistemi-153>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=LEGISSUM:l11025>, <https://eco.gov.ua/>, <https://ecozagroza.gov.ua/>, <https://apps.apple.com/ua/app/%C3%90%C2%B5%C3%90%C2%BA%C3%90%C2%BE%C3%90%C2%B7%C3%90%C2%B0%C3%90%C2%B3%C3%91%C2%80%C3%90%C2%BE%C3%90%C2%B7%C3%90%C2%B0/id1621296160?l=uk>, <https://play.google.com/store/apps/details?id=ua.gov.ecozagroza>, <https://center.diia.gov.ua/>, <https://center.diia.gov.ua/cnap-map>, <https://center.diia.gov.ua/rejting-vpo>, <https://center.diia.gov.ua/first-all-ukrainian-assessment-of-administrative-services-quality-2>, <https://ec.europa.eu/isa2/solutions/testa_en>, <https://id.court.gov.ua/>, <https://trembita.gov.ua/ua/projects/trembita-vzayemodiya-reyestriv>, <https://e-estonia.com/solutions/interoperability-services/x-road/>, <https://www.kmu.gov.ua/news/zruchna-vzaiemodiia-mizh-reiestramy-cherez-systemu-trembita-zdiisnyly-2-mlrd-tranzaktsii-za-3-roky>, <https://sev.dir.gov.ua/csp/dir/dir.Index.cls>, <https://www.contactukraine.com/blog/ukraine-customs-single-window>, <https://id.gov.ua/>, <https://paperless.diia.gov.ua/instruction/yak-otrimati-diyapidpis>, <https://t.me/zedigital/2745>, <https://prozorro.gov.ua/en>, <https://zakon5.rada.gov.ua/laws/show/922-19>, <https://prozorro.gov.ua>, <https://dozorro.org/>, <https://dozorro.org/community/ngo>, <https://bi.prozorro.org/sense/app/fba3f2f2-cf55-40a0-a79f-b74f5ce947c2/sheet/HbXjQep/state/analysis#view/q6zpiXHy>, <https://prozorro.sale/>, <https://osvita.diia.gov.ua/>, <https://pdp.nacs.gov.ua/>, <https://info.edbo.gov.ua/>, <https://zakon.rada.gov.ua/laws/show/2145-19>, <https://ehealth.gov.ua/>, <https://e-resources.gov.ua/#/>, <https://zakon.rada.gov.ua/laws/show/453-2021-%C3%90%C2%BF#Text>, <https://datastudio.google.com/u/0/reporting/1fd597ee-b1bd-4c8e-b249-a922ea9f1e4e/page/bJibC> .
+<https://plan.diia.gov.ua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://diia.gov.ua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://go.diia.app/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://guide.diia.gov.ua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://business.diia.gov.ua/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://bf.diia.gov.ua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://data.gov.ua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ckan.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://data.europa.eu/euodp/en/data/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://data.europa.eu/en/publications/open-data-maturity/2022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://data.europa.eu/sites/default/files/country-factsheet_ukraine_2022.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://diia.data.gov.ua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://e-construction.gov.ua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://e-construction.gov.ua/reestri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://e-construction.gov.ua/analitika> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://edata.gov.ua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.minfin.gov.ua/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://spending.gov.ua/new/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://openbudget.gov.ua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.minfin.gov.ua/en/news/borg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://proifi.gov.ua/?p=index> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://inspections.gov.ua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://petition.kmu.gov.ua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://petition.president.gov.ua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://mof.gov.ua/uk/the-reform-of-education> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://mof.gov.ua/uk/derzhavnij-borg-ta-garantovanij-derzhavju-borg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://mof.gov.ua/uk/zviti-po-derzhavnih-bankah-fin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://trade.ec.europa.eu/doclib/docs/2016/november/tradoc_155103.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://customs.gov.ua/en/documents/pro-zaprovadzhennia-pilotnogo-proiektu-z-testuvannia-roboti-natsionalnoyi-elektronnoyi-tranzitnoyi-sistemi-153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=LEGISSUM:l11025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eco.gov.ua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ecozagroza.gov.ua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://apps.apple.com/ua/app/%C3%90%C2%B5%C3%90%C2%BA%C3%90%C2%BE%C3%90%C2%B7%C3%90%C2%B0%C3%90%C2%B3%C3%91%C2%80%C3%90%C2%BE%C3%90%C2%B7%C3%90%C2%B0/id1621296160?l=uk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://play.google.com/store/apps/details?id=ua.gov.ecozagroza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://center.diia.gov.ua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://center.diia.gov.ua/cnap-map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://center.diia.gov.ua/rejting-vpo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://center.diia.gov.ua/first-all-ukrainian-assessment-of-administrative-services-quality-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/isa2/solutions/testa_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://id.court.gov.ua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://trembita.gov.ua/ua/projects/trembita-vzayemodiya-reyestriv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://e-estonia.com/solutions/interoperability-services/x-road/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.kmu.gov.ua/news/zruchna-vzaiemodiia-mizh-reiestramy-cherez-systemu-trembita-zdiisnyly-2-mlrd-tranzaktsii-za-3-roky> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://sev.dir.gov.ua/csp/dir/dir.Index.cls> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.contactukraine.com/blog/ukraine-customs-single-window> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://id.gov.ua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://paperless.diia.gov.ua/instruction/yak-otrimati-diyapidpis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://t.me/zedigital/2745> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://prozorro.gov.ua/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://zakon5.rada.gov.ua/laws/show/922-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://prozorro.gov.ua> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://dozorro.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://dozorro.org/community/ngo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://bi.prozorro.org/sense/app/fba3f2f2-cf55-40a0-a79f-b74f5ce947c2/sheet/HbXjQep/state/analysis#view/q6zpiXHy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://prozorro.sale/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://osvita.diia.gov.ua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://pdp.nacs.gov.ua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://info.edbo.gov.ua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://zakon.rada.gov.ua/laws/show/2145-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ehealth.gov.ua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://e-resources.gov.ua/#/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://zakon.rada.gov.ua/laws/show/453-2021-%C3%90%C2%BF#Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://datastudio.google.com/u/0/reporting/1fd597ee-b1bd-4c8e-b249-a922ea9f1e4e/page/bJibC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Ukraine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .

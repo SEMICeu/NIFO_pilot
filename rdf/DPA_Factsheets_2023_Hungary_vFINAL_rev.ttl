@@ -1,0 +1,81 @@
+<http://data.europa.eu/nifo/factsheet/Hungary> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Hungary>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/HUN";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/legalframework/Hungary> .
+<http://publications.europa.eu/resource/authority/country/Hungary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/source> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring>;
+ <http://purl.org/dc/terms/relation> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> .
+<https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> <http://data.europa.eu/eli/ontology#title> "interactive dashboards" .
+<http://example.org/ContactPoint/Hungary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://njt.hu/cgi_bin/njt_doc.cgi?docid=193173> .
+<http://njt.hu/cgi_bin/njt_doc.cgi?docid=193173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Act No. CCXXII of 2015 on the General Rules for Electronic Administration and Trust Services" .
+<http://example.org/nifo/legalframework/Hungary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://njt.hu/cgi_bin/njt_doc.cgi?docid=193173.316582>, <http://njt.hu/cgi_bin/njt_doc.cgi?docid=199170.338647>, <https://net.jogtar.hu/jogszabaly?docid=a1200063.tv>, <http://www.naih.hu/files/Privacy_Act-CXII-of-2011_EN_201310.pdf>, <https://net.jogtar.hu/jogszabaly?docid=a1300050.tv>, <https://net.jogtar.hu/jogszabaly?docid=99200066.TV>, <http://njt.hu/cgi_bin/njt_doc.cgi?docid=101684>, <https://njt.hu/translated/doc/J2015T0143P_20180808_FIN.pdf>, <http://net.jogtar.hu/jr/gen/hjegy_doc.cgi?docid=A0100108.TV>, <https://njt.hu/jogszabaly/2019-80-00-00> .
+<http://njt.hu/cgi_bin/njt_doc.cgi?docid=193173.316582> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>, <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://data.europa.eu/eli/ontology#title> "eAdministration Act", "Act No. CCXXII of 2015 on the General Rules for Electronic Administration and Trust Services";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "eIDAS Regulation" .
+<http://njt.hu/cgi_bin/njt_doc.cgi?docid=199170.338647> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. CL of 2016 on the Code of General Administrative Procedure" .
+<https://net.jogtar.hu/jogszabaly?docid=a1200063.tv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. LXIII of 2012 on the Reuse of Public Data" .
+<http://www.naih.hu/files/Privacy_Act-CXII-of-2011_EN_201310.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. CXII of 2011 on Informational Self-Determination and Freedom of Information " .
+<https://net.jogtar.hu/jogszabaly?docid=a1300050.tv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. L on the Electronic Information Security of State and Municipal Bodies" .
+<https://net.jogtar.hu/jogszabaly?docid=99200066.TV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. LXVI of 1992 on Citizens’ Personal Data and Address of Registration " .
+<http://njt.hu/cgi_bin/njt_doc.cgi?docid=101684> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. V of 2006 on Public Company Information, Company Registration and Winding-up Proceedings" .
+<https://njt.hu/translated/doc/J2015T0143P_20180808_FIN.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. CXLIII of 2015 on Public Procurement" .
+<http://net.jogtar.hu/jr/gen/hjegy_doc.cgi?docid=A0100108.TV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. CVIII of 2001 on Electronic Commerce and Information Society Services";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2000/31/EC on certain legal aspects of information society services, in particular electronic commerce" .
+<https://njt.hu/jogszabaly/2019-80-00-00> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Vocational Training Act" .
+<http://example.org/nifo/structure/Hungary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://www.magyarorszag.hu>, <http://njt.hu/cgi_bin/njt_doc.cgi?docid=193173.316582>, <https://ugyfelkapu.gov.hu/>, <https://tarhely.gov.hu/ckp-regisztracio/tajekoztato.html>, <https://kau.gov.hu/proxy/saml/authservice?x=_07d5710d8e677181a5dbf090025cac075b19a577d9>, <https://kozadatportal.hu/>, <https://kormany.hu/>, <https://abouthungary.hu/tags/ministry-of-innovation-and-technology>, <https://e-egeszsegugy.gov.hu/ekapu>, <https://e-onkormanyzat.gov.hu/>, <https://kifu.gov.hu/szip>, <https://kifu.gov.hu/projekt/szupergyors-internet-program-szip/>, <https://kormany.hu/hirek/magyarorszag-a-szupergyors-internet-hasznalataban-az-elso-europaban>, <https://kifu.gov.hu/diakhalo-program/>, <https://nisz.hu/hu/projektek/nemzeti-t%C3%83%C2%A1vk%C3%83%C2%B6zl%C3%83%C2%A9si-gerinch%C3%83%C2%A1l%C3%83%C2%B3zat-ntg-fejleszt%C3%83%C2%A9se>, <https://ec.europa.eu/isa2/solutions/testa_en>, <https://idomsoft.hu/rolunk/termekeink/kkszb/>, <https://alkalmazaskozpont.asp.lgov.hu/>, <https://mo.hu/szuf_fooldal>, <https://ugyfelkapu.magyarorszag.hu/>, <https://eszemelyi.hu/>, <https://kozbeszerzes.hu/torveny/act-cxliii-of-2015-on-public-procurement/>, <https://kozbeszerzes.hu/cikkek/kozbeszerzesi-torveny-es-kapcsolodo-jogszabalyok>, <https://ekr.gov.hu/>, <https://ujvilag.gov.hu/>, <https://onlineszamla.nav.gov.hu/>, <https://onlineszamla.nav.gov.hu/home>, <https://www.nisz.hu/hu/efer-%C3%A2%C2%80%C2%93-elektronikus-fizet%C3%83%C2%A9si-%C3%83%C2%A9s-elsz%C3%83%C2%A1mol%C3%83%C2%A1si-rendszer>, <https://www.nyilvantarto.hu/hu/adatszolgaltatas_szemelyi>, <https://rendelkezes.gov.hu/rny-public/>, <https://urldefense.com/v3/__https:/idomsoft.hu/rolunk/termekeink/osszerendelesi-nyilvantartas/__;!!NEMsmePo_HYI!bNyhqGXomJ6Oot09xWDee3MqUwWjLezdneVjualUmlAjO8vsK1jfIZaayXIC6wgDEz0yQia4A54lZSuSE3lBB8brWg8$>, <https://euf.gov.hu/>, <https://euf.gov.hu/nyeny>, <https://www.blockchainhungary.org/_files/ugd/b93087_035dadcc965e4f0ea6e1c4ee94b38009.pdf>, <https://nisz.hu/szolgaltatasok/informatika>, <https://njt.hu/jogszabaly/2020-1422-30-22>, <https://hpc.kifu.hu/hu/komondor> .
+<http://www.magyarorszag.hu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ugyfelkapu.gov.hu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://tarhely.gov.hu/ckp-regisztracio/tajekoztato.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://kau.gov.hu/proxy/saml/authservice?x=_07d5710d8e677181a5dbf090025cac075b19a577d9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://kozadatportal.hu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://kormany.hu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://abouthungary.hu/tags/ministry-of-innovation-and-technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://e-egeszsegugy.gov.hu/ekapu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://e-onkormanyzat.gov.hu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://kifu.gov.hu/szip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://kifu.gov.hu/projekt/szupergyors-internet-program-szip/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://kormany.hu/hirek/magyarorszag-a-szupergyors-internet-hasznalataban-az-elso-europaban> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://kifu.gov.hu/diakhalo-program/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://nisz.hu/hu/projektek/nemzeti-t%C3%83%C2%A1vk%C3%83%C2%B6zl%C3%83%C2%A9si-gerinch%C3%83%C2%A1l%C3%83%C2%B3zat-ntg-fejleszt%C3%83%C2%A9se> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/isa2/solutions/testa_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://idomsoft.hu/rolunk/termekeink/kkszb/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://alkalmazaskozpont.asp.lgov.hu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://mo.hu/szuf_fooldal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ugyfelkapu.magyarorszag.hu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eszemelyi.hu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://kozbeszerzes.hu/torveny/act-cxliii-of-2015-on-public-procurement/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://kozbeszerzes.hu/cikkek/kozbeszerzesi-torveny-es-kapcsolodo-jogszabalyok> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ekr.gov.hu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ujvilag.gov.hu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://onlineszamla.nav.gov.hu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://onlineszamla.nav.gov.hu/home> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.nisz.hu/hu/efer-%C3%A2%C2%80%C2%93-elektronikus-fizet%C3%83%C2%A9si-%C3%83%C2%A9s-elsz%C3%83%C2%A1mol%C3%83%C2%A1si-rendszer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.nyilvantarto.hu/hu/adatszolgaltatas_szemelyi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://rendelkezes.gov.hu/rny-public/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://urldefense.com/v3/__https:/idomsoft.hu/rolunk/termekeink/osszerendelesi-nyilvantartas/__;!!NEMsmePo_HYI!bNyhqGXomJ6Oot09xWDee3MqUwWjLezdneVjualUmlAjO8vsK1jfIZaayXIC6wgDEz0yQia4A54lZSuSE3lBB8brWg8$> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://euf.gov.hu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://euf.gov.hu/nyeny> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.blockchainhungary.org/_files/ugd/b93087_035dadcc965e4f0ea6e1c4ee94b38009.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://nisz.hu/szolgaltatasok/informatika> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://njt.hu/jogszabaly/2020-1422-30-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://hpc.kifu.hu/hu/komondor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Hungary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .

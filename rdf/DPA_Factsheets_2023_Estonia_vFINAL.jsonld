@@ -1,0 +1,880 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Estonia",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Estonia"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/EST"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/legalframework/Estonia"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Estonia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.riigiteataja.ee/en/eli/ee/503012019004/consolide/current"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/akt/556659"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/en/eli/529032019012/consolide"
+        },
+        {
+          "@id": "http://www.legaltext.ee/text/en/X2058K5.htm"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/en/eli/527102016001/consolide"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/en/eli/ee/527102016001/consolide/current"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/en/eli/523052018003/consolide"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/akt/112072014051"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/akt/13125331?leiaKehtiv"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/en/eli/529032019012/consolide"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/en/eli/516012014003/consolide"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/akt/12769835"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/en/compare_original?id=507012014005"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/en/eli/ee/505092017003/consolide/current"
+        },
+        {
+          "@id": "https://www.riigikogu.ee/tegevus/eelnoud/eelnou/667615bb-4a13-4a02-812f-550c5dedeef3/Raamatupidamise%2520seaduse%2520muutmise%2520seadus"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/en/eli/ee/504112013008/consolide/current"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/en/eli/522122017001/consolide"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/akt/120112018003"
+        }
+      ]
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/country/Estonia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring",
+      "http://data.europa.eu/eli/ontology#title": [
+        "interactive dashboards"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/Estonia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.riigikantselei.ee/en/news/new-open-government-action-plan-focuses-co-creation"
+        },
+        {
+          "@id": "https://www.opengovpartnership.org/documents/estonia-action-plan-2022-2024/"
+        },
+        {
+          "@id": "https://s3.eu-central-1.amazonaws.com/ereswhitepaper/e-Residency+2.0+white+paper+English.pdf"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.riigikantselei.ee/en/news/new-open-government-action-plan-focuses-co-creation",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Open Government Partnership Action Plan 2020–2022"
+      ]
+    },
+    {
+      "@id": "https://www.opengovpartnership.org/documents/estonia-action-plan-2022-2024/",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Open Government Partnership Action Plan 2022–2024."
+      ]
+    },
+    {
+      "@id": "https://s3.eu-central-1.amazonaws.com/ereswhitepaper/e-Residency+2.0+white+paper+English.pdf",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "eResidency 2.0 Action Plan"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/en/eli/ee/503012019004/consolide/current",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Public Information Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/akt/556659",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Public Information Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2003/98/EC on the re-use of public sector information (PSI)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.riigiteataja.ee/akt/32230"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/akt/32230",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Databases Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.riigiteataja.ee/akt/12900546"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/akt/12900546",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Public Information Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013L0037"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013L0037",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive (2013/37/EU)"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/en/eli/529032019012/consolide",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Public Information Act",
+        "law"
+      ]
+    },
+    {
+      "@id": "http://www.legaltext.ee/text/en/X2058K5.htm",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Archives Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/en/eli/527102016001/consolide",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Electronic Identification and Trust Services for Electronic Transactions Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.riigiteataja.ee/akt/114032014012"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/akt/114032014012",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Digital Signatures Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/en/eli/ee/527102016001/consolide/current",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "amendments to the Electronic Identification and Trust Services for Electronic Transactions Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/en/eli/523052018003/consolide",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Cybersecurity Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/akt/112072014051",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Personal Data Protection Act (PDPA)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "EU Data Protection Directive (95/46/EC)"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/akt/13125331?leiaKehtiv",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "regulation"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/en/eli/516012014003/consolide",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Population Registry Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/akt/12769835",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Land Registry Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/en/compare_original?id=507012014005",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "General Traffic Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/en/eli/ee/505092017003/consolide/current",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Public Procurement Act"
+      ]
+    },
+    {
+      "@id": "http://www.legaltext.ee/text/en/X40095K2.htm",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.riigikogu.ee/tegevus/eelnoud/eelnou/667615bb-4a13-4a02-812f-550c5dedeef3/Raamatupidamise%2520seaduse%2520muutmise%2520seadus",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "https://www.riigikogu.ee/tegevus/eelnoud/eelnou/667615bb-4a13-4a02-812f-550c5dedeef3/Raamatupidamise%20seaduse%20muutmise%20seadus",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Amendments to the Accounting Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/en/eli/ee/504112013008/consolide/current",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Information Society Services Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2000/31/EC on certain legal aspects of information society services, in particular electronic commerce, in the Internal Market"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/en/eli/522122017001/consolide",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Simplified Business Income Taxation Act"
+      ]
+    },
+    {
+      "@id": "https://www.riigiteataja.ee/akt/120112018003",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation on the Cross-border Exchange of Information regarding Health Services"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/Estonia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.eesti.ee/eng"
+        },
+        {
+          "@id": "https://www.emta.ee/eng"
+        },
+        {
+          "@id": "https://www.emta.ee/eng/information-and-news-e-taxe-customs/instructions-using-e-services/upgraded-desktop-e-mta-environment"
+        },
+        {
+          "@id": "https://opendata.riik.ee/en/"
+        },
+        {
+          "@id": "https://www.riigikantselei.ee/en"
+        },
+        {
+          "@id": "https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/JL2HOJXF/koodivaramu.eesti.ee"
+        },
+        {
+          "@id": "https://accelerateestonia.ee/"
+        },
+        {
+          "@id": "https://www.tehnopol.ee/en/"
+        },
+        {
+          "@id": "https://accelerateestonia.ee/mental-health/"
+        },
+        {
+          "@id": "https://accelerateestonia.ee/green-turn/"
+        },
+        {
+          "@id": "https://accelerateestonia.ee/wild-card/"
+        },
+        {
+          "@id": "https://www.digilugu.ee/login?locale=en"
+        },
+        {
+          "@id": "https://avaandmed.eesti.ee/"
+        },
+        {
+          "@id": "https://www.kovtp.ee/"
+        },
+        {
+          "@id": "http://www.legaltext.ee/text/en/X40095K2.htm"
+        },
+        {
+          "@id": "http://www.ria.ee/index.php?id=27314"
+        },
+        {
+          "@id": "https://ec.europa.eu/isa2/solutions/testa_en"
+        },
+        {
+          "@id": "https://hoia.me/en/"
+        },
+        {
+          "@id": "https://koodivaramu.eesti.ee/tehik/hoia"
+        },
+        {
+          "@id": "https://www.ria.ee/en/state-information-system/x-tee.html"
+        },
+        {
+          "@id": "https://www.ria.ee/et/riigi-infosusteem/andmevahetuskiht-x-tee.html"
+        },
+        {
+          "@id": "https://github.com/buerokratt/Data-Anonymizer"
+        },
+        {
+          "@id": "http://www.id.ee/?lang=en"
+        },
+        {
+          "@id": "https://www.riigiteataja.ee/en/eli/527102016001/consolide"
+        },
+        {
+          "@id": "https://e-estonia.com/solutions/e-identity/"
+        },
+        {
+          "@id": "http://id.ee/?lang=en&id=36881"
+        },
+        {
+          "@id": "https://www.smart-id.com/"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32004R2252:EN:HTML"
+        },
+        {
+          "@id": "https://www2.politsei.ee/et/nouanded/dokumentide-naidised/eesti-kodaniku-pass/eesti-kodaniku-pass-2007-2014.dot"
+        },
+        {
+          "@id": "https://www.dokobit.com/e-residency"
+        },
+        {
+          "@id": "https://riigihanked.riik.ee/rhr-web/#/"
+        },
+        {
+          "@id": "https://www.omniva.ee/index.php?article_id=232&page=580&action=article"
+        },
+        {
+          "@id": "https://www.rahandusministeerium.ee/et/riigihaldus/e-arved"
+        },
+        {
+          "@id": "https://www.eestipank.ee/en/press/new-tips-system-will-make-instant-payments-more-affordable-smaller-banks-30112018"
+        },
+        {
+          "@id": "https://www.eestipank.ee/en/payments/estonian-payment-market"
+        },
+        {
+          "@id": "http://www.ria.ee/dec"
+        },
+        {
+          "@id": "https://www.ria.ee/en/state-information-system/x-tee.html"
+        },
+        {
+          "@id": "https://ee.ekool.eu/index_en.html"
+        },
+        {
+          "@id": "https://ee.ekool.eu/index_en.html"
+        },
+        {
+          "@id": "https://github.com/e-gov/AJ/blob/master/preliminary/Overview.md"
+        },
+        {
+          "@id": "http://www.vali-it.ee/"
+        },
+        {
+          "@id": "https://www.niis.org/"
+        },
+        {
+          "@id": "https://www.ria.ee/en"
+        },
+        {
+          "@id": "https://www.niis.org/newsroom#/pressreleases/iceland-joins-the-nordic-institute-for-interoperability-solutions-3104057"
+        },
+        {
+          "@id": "http://www.ria.ee/index.php?id=27314"
+        },
+        {
+          "@id": "https://e-estonia.com/wp-content/uploads/aug2019-facts-a4-data-embassy.pdf"
+        },
+        {
+          "@id": "https://e-estonia.com/wp-content/uploads/aug2019-facts-a4-data-embassy.pdf"
+        },
+        {
+          "@id": "https://f98cc689-5814-47ec-86b3-db505a7c3978.filesusr.com/ugd/7df26f_19625e00a7b84900b99e952b1ce7d21a.pdf"
+        },
+        {
+          "@id": "https://www.eesti.ee/et/"
+        },
+        {
+          "@id": "https://www.riigikogu.ee/en/press-releases/others/the-riigikogu-has-a-new-system-for-making-verbatim-reports/"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.eesti.ee/eng",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.emta.ee/eng",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.emta.ee/eng/information-and-news-e-taxe-customs/instructions-using-e-services/upgraded-desktop-e-mta-environment",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://opendata.riik.ee/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.riigikantselei.ee/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/JL2HOJXF/koodivaramu.eesti.ee",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://accelerateestonia.ee/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.tehnopol.ee/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://accelerateestonia.ee/mental-health/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://accelerateestonia.ee/green-turn/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://accelerateestonia.ee/wild-card/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.digilugu.ee/login?locale=en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://avaandmed.eesti.ee/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.kovtp.ee/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.ria.ee/index.php?id=27314",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/isa2/solutions/testa_en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://hoia.me/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://koodivaramu.eesti.ee/tehik/hoia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ria.ee/en/state-information-system/x-tee.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ria.ee/et/riigi-infosusteem/andmevahetuskiht-x-tee.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://github.com/buerokratt/Data-Anonymizer",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.id.ee/?lang=en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://e-estonia.com/solutions/e-identity/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://id.ee/?lang=en&id=36881",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.smart-id.com/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32004R2252:EN:HTML",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www2.politsei.ee/et/nouanded/dokumentide-naidised/eesti-kodaniku-pass/eesti-kodaniku-pass-2007-2014.dot",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.dokobit.com/e-residency",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://riigihanked.riik.ee/rhr-web/#/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.omniva.ee/index.php?article_id=232&page=580&action=article",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.rahandusministeerium.ee/et/riigihaldus/e-arved",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.eestipank.ee/en/press/new-tips-system-will-make-instant-payments-more-affordable-smaller-banks-30112018",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.eestipank.ee/en/payments/estonian-payment-market",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.ria.ee/dec",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ee.ekool.eu/index_en.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://github.com/e-gov/AJ/blob/master/preliminary/Overview.md",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.vali-it.ee/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.niis.org/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ria.ee/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.niis.org/newsroom#/pressreleases/iceland-joins-the-nordic-institute-for-interoperability-solutions-3104057",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://e-estonia.com/wp-content/uploads/aug2019-facts-a4-data-embassy.pdf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://f98cc689-5814-47ec-86b3-db505a7c3978.filesusr.com/ugd/7df26f_19625e00a7b84900b99e952b1ce7d21a.pdf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.eesti.ee/et/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.riigikogu.ee/en/press-releases/others/the-riigikogu-has-a-new-system-for-making-verbatim-reports/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Estonia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

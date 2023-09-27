@@ -1,0 +1,84 @@
+<http://data.europa.eu/nifo/factsheet/Slovakia> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Slovakia>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/SVK";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/legalframework/Slovakia> .
+<http://publications.europa.eu/resource/authority/country/Slovakia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/source> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> .
+<http://example.org/ContactPoint/Slovakia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.vicepremier.gov.sk/wp-content/uploads/2019/10/AP-DT-English-Version-FINAL.pdf>, <https://www.mirri.gov.sk/sekcie/informatizacia/digitalna-transformacia/akcny-plan-digitalnej-transformacie-slovenska-na-roky-2023-2026/index.html>, <https://www.opengovpartnership.org/wp-content/uploads/2022/08/Slovak-Republic_Action-Plan_2022-2024_EN.pdf>, <https://www.nbu.gov.sk/wp-content/uploads/kyberneticka-bezpecnost/Akcny-plan-kybernetickej-bezpecnosti.pdf>, <https://www.mirri.gov.sk/sekcie/informatizacia/digitalna-transformacia/strategia-a-akcny-plan-na-zlepsenie-postavenia-slovenska-v-indexe-desi-do-roku-2025/index.html>, <https://www.mirri.gov.sk/sekcie/informatizacia/digitalne-inovacie/stala-komisia-pre-etiku-a-regulaciu-umelej-inteligencie/index.html> .
+<https://www.vicepremier.gov.sk/wp-content/uploads/2019/10/AP-DT-English-Version-FINAL.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Action Plan for the Digital Transformation of Slovakia, ", "2019–2022 Action Plan for Digital Transformation of Slovakia" .
+<https://www.mirri.gov.sk/sekcie/informatizacia/digitalna-transformacia/akcny-plan-digitalnej-transformacie-slovenska-na-roky-2023-2026/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Action Plan for Digital Transformation of Slovakia 2023–2026 a", "2023–2026 Action Plan for Digital Transformation of Slovakia," .
+<https://www.opengovpartnership.org/wp-content/uploads/2022/08/Slovak-Republic_Action-Plan_2022-2024_EN.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Action Plan" .
+<https://www.nbu.gov.sk/wp-content/uploads/kyberneticka-bezpecnost/Akcny-plan-kybernetickej-bezpecnosti.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Action Plan for the implementation of the National Cybersecurity Strategy for 2021–2025 " .
+<https://www.mirri.gov.sk/sekcie/informatizacia/digitalna-transformacia/strategia-a-akcny-plan-na-zlepsenie-postavenia-slovenska-v-indexe-desi-do-roku-2025/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "National Strategy and Action Plan to improve the position of Slovakia in the Digital Economy and Society Index (DESI)" .
+<https://www.mirri.gov.sk/sekcie/informatizacia/digitalne-inovacie/stala-komisia-pre-etiku-a-regulaciu-umelej-inteligencie/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Permanent Commission for Ethics and for the Regulation of Artificial Intelligence (AI)" .
+<http://example.org/nifo/legalframework/Slovakia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2019/95/20210101.html>, <https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2013/305/20201230.html>, <https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2018/177/20210101.html>, <https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2000/211/20210101.html>, <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML>, <https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2018/69/20200701.html>, <https://eur-lex.europa.eu/eli/dir/2016/1148/oj>, <https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2018/18/20190901.html>, <https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2013/95/>, <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055>, <https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2004/22/> .
+<https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2019/95/20210101.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Information Technologies in the Public Sector Act No. 95/2019" .
+<https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2013/305/20201230.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. 305/2013 on eGovernment" .
+<https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2018/177/20210101.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. 177/2018", "Act No. 177/2018 against Bureaucracy", "Act against Bureaucracy";
+ <http://purl.org/dc/terms/relation> <https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2018/177/20210101.html> .
+<https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2000/211/20210101.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Free Access to Information" .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2003/98/EC of the European Parliament and of the Council of 17 November 2003 on the re-use of public sector information (PSI Directive)";
+ <http://purl.org/dc/terms/relation> <https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2000/211/>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.172.01.0056.01.ENG> .
+<https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2000/211/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. 211/2000 on Free Access to Public Information", "Act No. 211/2000 on Free Access to Public Information" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.172.01.0056.01.ENG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive (EU) 2019/1024 of the European Parliament and of the Council of 20 June 2019 on open data and the re-use of public sector information";
+ <http://purl.org/dc/terms/relation> <https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2000/211/> .
+<https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2018/69/20200701.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Cybersecurity" .
+<https://eur-lex.europa.eu/eli/dir/2016/1148/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "EU Directive on network and information security (NIS Directive) " .
+<https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2018/18/20190901.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. 18/2018";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/eli/reg/2016/679/oj> .
+<https://eur-lex.europa.eu/eli/reg/2016/679/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "General Data Protection Regulation 2016/679 (GDPR)" .
+<https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2013/95/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. 95/2013 on Public Procurement";
+ <http://purl.org/dc/terms/relation> <https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2006/25/20160418.html> .
+<https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2006/25/20160418.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. 25/2006 on Public Procurement";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2007:335:0031:0046:EN:PDF> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2007:335:0031:0046:EN:PDF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2007/66/EC" .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2014/55/EC" .
+<https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2004/22/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. 22/2004 on Electronic Commerce" .
+<http://example.org/nifo/structure/Slovakia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.slovensko.sk/en/title>, <http://www.oversi.gov.sk/>, <https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2018/177/20210101>, <https://www.mirri.gov.sk/>, <https://www.slov-lex.sk/web/en>, <https://www.nases.gov.sk/govnet/sluzby/index.html>, <https://stopbyrokracii.sk/ziadost-o-pripojenie-do-portalu-oversi-gov-sk/>, <http://www.informatizacia.sk/poskytovanie-sluzieb-vladneho-cloudu/22858s>, <https://data.gov.sk/sk/>, <https://www.nases.gov.sk/en/national-agency-for-network-and-electronic-services/index.html>, <https://www.slovensko.sk/sk/eid/_eid-karta/>, <https://www.sk-cert.sk/en/the-cyber-security-competence-and-certification-centre-published-a-list-of-cybersecurity-auditors/index.html>, <https://www.uvo.gov.sk/viac-o-is-evo-5f6.html>, <https://www.eks.sk/>, <https://e-fakturacia.finance.gov.sk/e-fakturacia/>, <https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2013/305/20201230>, <http://www.slovensko.sk>, <https://www.slovensko.sk/en/life-situation>, <http://qute.sk/> .
+<https://www.slovensko.sk/en/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.oversi.gov.sk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2018/177/20210101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mirri.gov.sk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.slov-lex.sk/web/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.nases.gov.sk/govnet/sluzby/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://stopbyrokracii.sk/ziadost-o-pripojenie-do-portalu-oversi-gov-sk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.informatizacia.sk/poskytovanie-sluzieb-vladneho-cloudu/22858s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://data.gov.sk/sk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.nases.gov.sk/en/national-agency-for-network-and-electronic-services/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.slovensko.sk/sk/eid/_eid-karta/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.sk-cert.sk/en/the-cyber-security-competence-and-certification-centre-published-a-list-of-cybersecurity-auditors/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.uvo.gov.sk/viac-o-is-evo-5f6.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.eks.sk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://e-fakturacia.finance.gov.sk/e-fakturacia/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2013/305/20201230> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.slovensko.sk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.slovensko.sk/en/life-situation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://qute.sk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Slovakia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .

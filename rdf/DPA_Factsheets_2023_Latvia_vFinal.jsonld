@@ -1,0 +1,992 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Latvia",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Latvia"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/LVA"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/legalframework/Latvia"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Latvia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://likumi.lv/ta/id/292259-valsts-parvaldes-pakalpojumu-portala-noteikumi"
+        },
+        {
+          "@id": "https://likumi.lv/ta/id/292258-valsts-parvaldes-pakalpojumu-uzskaites-kvalitates-kontroles-un-sniegsanas-kartiba"
+        },
+        {
+          "@id": "https://likumi.lv/ta/id/292260-noteikumi-par-valsts-parvaldes-vienoto-klientu-apkalposanas-centru-veidiem-sniegto-pakalpojumu-apjomu-un-pakalpojumu-sniegsanas"
+        },
+        {
+          "@id": "https://likumi.lv/ta/id/292261-valsts-parvaldes-e-pakalpojumu-noteikumi"
+        },
+        {
+          "@id": "https://likumi.lv/ta/en/en/id/62324-law-on-state-information-systems"
+        },
+        {
+          "@id": "https://likumi.lv/ta/id/316109-kartiba-kada-iestades-ievieto-informaciju-interneta"
+        },
+        {
+          "@id": "https://likumi.lv/ta/en/en/id/50601-freedom-of-information-law"
+        },
+        {
+          "@id": "https://likumi.lv/ta/en/en/id/243484"
+        },
+        {
+          "@id": "https://likumi.lv/ta/en/en/id/300099-personal-data-processing-law"
+        },
+        {
+          "@id": "https://likumi.lv/ta/en/en/id/296185-law-on-the-register-of-natural-persons"
+        },
+        {
+          "@id": "https://likumi.lv/ta/en/en/id/300099-personal-data-processing-law"
+        },
+        {
+          "@id": "https://likumi.lv/ta/en/en/id/220962-law-on-the-security-of-information-technologies"
+        },
+        {
+          "@id": "http://www.vvc.gov.lv/export/sites/default/docs/LRTA/Likumi/Population_Register_Law.pdf"
+        },
+        {
+          "@id": "https://likumi.lv/ta/id/253442-civilstavokla-aktu-registracijas-likums"
+        },
+        {
+          "@id": "http://likumi.lv/doc.php?id=72847"
+        },
+        {
+          "@id": "http://likumi.lv/doc.php?id=222145"
+        },
+        {
+          "@id": "https://likumi.lv/ta/en/en/id/287760-public-procurement-law"
+        },
+        {
+          "@id": "https://likumi.lv/ta/en/en/id/288730-law-on-the-procurements-of-public-service-providers"
+        },
+        {
+          "@id": "https://likumi.lv/ta/id/306273-piemerojamais-elektroniska-rekina-standarts-un-ta-pamatelementu-izmantosanas-specifikacija-un-aprites-kartiba"
+        },
+        {
+          "@id": "http://likumi.lv/ta/id/268361-parakstu-vaksanas-tiessaistes-sistemu-drosibas-un-tehniskas-prasibas"
+        },
+        {
+          "@id": "http://www.likumi.lv/doc.php?id=198815"
+        },
+        {
+          "@id": "https://likumi.lv/ta/en/en/id/283229-law-on-the-official-electronic-address"
+        },
+        {
+          "@id": "http://www.likumi.lv/doc.php?id=231232"
+        },
+        {
+          "@id": "https://commission.europa.eu/business-economy-euro/economic-recovery/recovery-and-resilience-facility/latvias-recovery-and-resilience-plan_en"
+        },
+        {
+          "@id": "https://commission.europa.eu/business-economy-euro/economic-recovery/recovery-and-resilience-facility/latvias-recovery-and-resilience-plan_en"
+        }
+      ]
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/country/Latvia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring",
+      "http://data.europa.eu/eli/ontology#title": [
+        "interactive dashboards"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/Latvia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://tapportals.mk.gov.lv/legal_acts/bc0aded2-457f-4810-8426-7999bf581311"
+        }
+      ]
+    },
+    {
+      "@id": "https://tapportals.mk.gov.lv/legal_acts/bc0aded2-457f-4810-8426-7999bf581311",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Fifth National Open Government Action Plan 2022-2025"
+      ]
+    },
+    {
+      "@id": "https://www.varam.gov.lv/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://likumi.lv/ta/id/292259-valsts-parvaldes-pakalpojumu-portala-noteikumi",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation for the Public Administration Services Portal"
+      ]
+    },
+    {
+      "@id": "https://likumi.lv/ta/id/292258-valsts-parvaldes-pakalpojumu-uzskaites-kvalitates-kontroles-un-sniegsanas-kartiba",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Cabinet Regulation No. 399"
+      ]
+    },
+    {
+      "@id": "https://likumi.lv/ta/id/292260-noteikumi-par-valsts-parvaldes-vienoto-klientu-apkalposanas-centru-veidiem-sniegto-pakalpojumu-apjomu-un-pakalpojumu-sniegsanas",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Cabinet Regulation No. 401"
+      ]
+    },
+    {
+      "@id": "https://likumi.lv/ta/id/292261-valsts-parvaldes-e-pakalpojumu-noteikumi",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Cabinet of Ministers Regulation No. 402"
+      ]
+    },
+    {
+      "@id": "https://likumi.lv/ta/en/en/id/62324-law-on-state-information-systems",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on State Information Systems"
+      ]
+    },
+    {
+      "@id": "https://likumi.lv/ta/id/316109-kartiba-kada-iestades-ievieto-informaciju-interneta",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation of the Cabinet of Ministers No. 445"
+      ]
+    },
+    {
+      "@id": "https://likumi.lv/ta/en/en/id/50601-freedom-of-information-law",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Freedom of Information Law"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32013L0037"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32013L0037",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive (EU) 2013/37 on the re-use of public sector information"
+      ]
+    },
+    {
+      "@id": "https://data.gov.lv/lv",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://likumi.lv/ta/en/en/id/243484",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Personal Identification Documents Law"
+      ]
+    },
+    {
+      "@id": "https://likumi.lv/ta/en/en/id/300099-personal-data-processing-law",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Electronic Identification of Natural Persons",
+        "Personal Data Processing Law"
+      ]
+    },
+    {
+      "@id": "https://likumi.lv/ta/en/en/id/296185-law-on-the-register-of-natural-persons",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on the Register of Natural Persons"
+      ]
+    },
+    {
+      "@id": "https://likumi.lv/ta/en/en/id/220962-law-on-the-security-of-information-technologies",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on the Security of Information Technologies"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:337:0037:0069:EN:PDF"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:337:0037:0069:EN:PDF",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive (EC) 2009/140"
+      ]
+    },
+    {
+      "@id": "http://www.vvc.gov.lv/export/sites/default/docs/LRTA/Likumi/Population_Register_Law.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law"
+      ]
+    },
+    {
+      "@id": "https://likumi.lv/ta/id/253442-civilstavokla-aktu-registracijas-likums",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law On Registration of Civil Status Documents"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://likumi.lv/doc.php?id=260214"
+        }
+      ]
+    },
+    {
+      "@id": "http://likumi.lv/doc.php?id=260214",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "State Fees for the Registration of Acts of Civil Status"
+      ]
+    },
+    {
+      "@id": "http://likumi.lv/doc.php?id=72847",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Enterprise Register Act"
+      ]
+    },
+    {
+      "@id": "https://www.ur.gov.lv/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://info.ur.gov.lv/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://likumi.lv/doc.php?id=222145",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Vehicle Registration"
+      ]
+    },
+    {
+      "@id": "https://likumi.lv/ta/en/en/id/287760-public-procurement-law",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Public Procurement Law"
+      ]
+    },
+    {
+      "@id": "https://likumi.lv/ta/en/en/id/288730-law-on-the-procurements-of-public-service-providers",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Procurement for the Needs of Public Service Providers"
+      ]
+    },
+    {
+      "@id": "https://likumi.lv/ta/id/306273-piemerojamais-elektroniska-rekina-standarts-un-ta-pamatelementu-izmantosanas-specifikacija-un-aprites-kartiba",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation of the Cabinet of Ministers No. 154"
+      ]
+    },
+    {
+      "@id": "http://likumi.lv/ta/id/268361-parakstu-vaksanas-tiessaistes-sistemu-drosibas-un-tehniskas-prasibas",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation of the Cabinet of Ministers"
+      ]
+    },
+    {
+      "@id": "http://www.likumi.lv/doc.php?id=198815",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Electronic Documents Law (EDL)"
+      ]
+    },
+    {
+      "@id": "https://likumi.lv/ta/en/en/id/283229-law-on-the-official-electronic-address",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on the Official Electronic Address"
+      ]
+    },
+    {
+      "@id": "http://www.likumi.lv/doc.php?id=231232",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Electronic Communications Law"
+      ]
+    },
+    {
+      "@id": "https://commission.europa.eu/business-economy-euro/economic-recovery/recovery-and-resilience-facility/latvias-recovery-and-resilience-plan_en",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Proposal for a Council Implementing Decision",
+        "Proposal for a Council Implementing Decision"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/Latvia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://latvija.lv/en"
+        },
+        {
+          "@id": "https://www.vsaa.gov.lv/en"
+        },
+        {
+          "@id": "https://www.mk.gov.lv/en/about-project"
+        },
+        {
+          "@id": "https://www.vmnvd.gov.lv/en"
+        },
+        {
+          "@id": "https://www.latvia.eu/"
+        },
+        {
+          "@id": "https://latvija.gov.lv/Home/?lang=en"
+        },
+        {
+          "@id": "https://www.varam.gov.lv/en"
+        },
+        {
+          "@id": "https://data.gov.lv/lv"
+        },
+        {
+          "@id": "http://www.vraa.gov.lv/en/"
+        },
+        {
+          "@id": "https://www.youtube.com/watch?v=jkKaDo-rIM4"
+        },
+        {
+          "@id": "https://www.europeandataportal.eu/"
+        },
+        {
+          "@id": "http://www.hugo.lv/"
+        },
+        {
+          "@id": "http://www.kis.gov.lv/"
+        },
+        {
+          "@id": "https://hugo.lv/lv"
+        },
+        {
+          "@id": "https://hugo.lv/lv"
+        },
+        {
+          "@id": "https://www.mk.gov.lv/en/tap-portals"
+        },
+        {
+          "@id": "https://eds.vid.gov.lv/login/"
+        },
+        {
+          "@id": "http://www.viss.gov.lv/"
+        },
+        {
+          "@id": "https://likumi.lv/ta/id/197798-vienota-uzdevumu-izpildes-kontroles-kartiba-ministrijas-un-valsts-kanceleja"
+        },
+        {
+          "@id": "http://m.likumi.lv/doc.php?id=269930"
+        },
+        {
+          "@id": "http://www.tiesas.lv/"
+        },
+        {
+          "@id": "https://latvija.lv/en/eaddress/reg"
+        },
+        {
+          "@id": "https://www.ur.gov.lv/lv/specializeta-informacija/elektroniskais-paraksts/privatpersonam/eparaksts-mobile/"
+        },
+        {
+          "@id": "http://www.eparaksts.lv/"
+        },
+        {
+          "@id": "https://www.eparaksts.lv/"
+        },
+        {
+          "@id": "https://www.ur.gov.lv/lv/specializeta-informacija/elektroniskais-paraksts/privatpersonam/eparaksts-mobile/"
+        },
+        {
+          "@id": "https://www.eis.gov.lv/EIS/"
+        },
+        {
+          "@id": "https://www.eis.gov.lv/"
+        },
+        {
+          "@id": "http://viaa.gov.lv/eng/about_us/activities/%20and"
+        },
+        {
+          "@id": "https://ec.europa.eu/ploteus/"
+        },
+        {
+          "@id": "http://www.lnb.lv/en/digital-library"
+        },
+        {
+          "@id": "http://www.europeana.eu/portal/"
+        },
+        {
+          "@id": "http://libra.lanet.lv/F?RN=266577456"
+        },
+        {
+          "@id": "https://www.arhivi.gov.lv/lv/iestazu-portals"
+        },
+        {
+          "@id": "https://ec.europa.eu/regional_policy/funding/erdf_en"
+        },
+        {
+          "@id": "https://www.nmkk.lv/"
+        },
+        {
+          "@id": "https://www.europeana.eu/lv"
+        },
+        {
+          "@id": "https://www.pmlp.gov.lv/lv/sakums/pakalpojumi/informacija-no-iedzivotaju-registra/"
+        },
+        {
+          "@id": "https://www.ur.gov.lv/en/"
+        },
+        {
+          "@id": "https://www.latvija.lv/en/Epakalpojumi/EP119/Apraksts"
+        },
+        {
+          "@id": "https://info.ur.gov.lv/"
+        },
+        {
+          "@id": "https://www.vzd.gov.lv/en/"
+        },
+        {
+          "@id": "https://www.csdd.lv/"
+        }
+      ]
+    },
+    {
+      "@id": "https://latvija.lv/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.vsaa.gov.lv/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mk.gov.lv/en/about-project",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.vmnvd.gov.lv/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.latvia.eu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://latvija.gov.lv/Home/?lang=en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.vraa.gov.lv/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.youtube.com/watch?v=jkKaDo-rIM4",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.europeandataportal.eu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.hugo.lv/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.kis.gov.lv/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://hugo.lv/lv",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mk.gov.lv/en/tap-portals",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eds.vid.gov.lv/login/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.viss.gov.lv/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://likumi.lv/ta/id/197798-vienota-uzdevumu-izpildes-kontroles-kartiba-ministrijas-un-valsts-kanceleja",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://m.likumi.lv/doc.php?id=269930",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.tiesas.lv/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://latvija.lv/en/eaddress/reg",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ur.gov.lv/lv/specializeta-informacija/elektroniskais-paraksts/privatpersonam/eparaksts-mobile/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.eparaksts.lv/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.eparaksts.lv/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.eis.gov.lv/EIS/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.eis.gov.lv/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://viaa.gov.lv/eng/about_us/activities/%20and",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/ploteus/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.lnb.lv/en/digital-library",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.europeana.eu/portal/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://libra.lanet.lv/F?RN=266577456",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.arhivi.gov.lv/lv/iestazu-portals",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/regional_policy/funding/erdf_en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.nmkk.lv/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.europeana.eu/lv",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.pmlp.gov.lv/lv/sakums/pakalpojumi/informacija-no-iedzivotaju-registra/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.latvija.lv/en/Epakalpojumi/EP119/Apraksts",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.vzd.gov.lv/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.csdd.lv/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Latvia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Latvia/Travel",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/travel/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Latvia/Workandretirement",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/work/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Latvia/Vehicles",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/vehicles/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Latvia/Residenceformalities",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/residence/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Latvia/Educationandyouth",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/education/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Latvia/Health",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/health/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Latvia/Family",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/family/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Latvia/Consumers",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/consumers/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Latvia/Runningabusiness",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/running-business/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Latvia/Taxation",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/taxation/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Latvia/SellingintheEU",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/selling-in-eu/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Latvia/HumanResources",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/human-resources/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Latvia/Productrequirements",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/product-requirements/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Latvia/FinancingandFunding",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/finance-funding/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Latvia/DealingwithCustomers",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/dealing-with-customers/index_en.htm"
+        }
+      ]
+    }
+  ]
+}

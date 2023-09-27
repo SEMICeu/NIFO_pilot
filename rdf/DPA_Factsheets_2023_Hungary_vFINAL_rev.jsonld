@@ -1,0 +1,625 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Hungary",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Hungary"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/HUN"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/legalframework/Hungary"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Hungary",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=193173.316582"
+        },
+        {
+          "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=193173.316582"
+        },
+        {
+          "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=199170.338647"
+        },
+        {
+          "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=193173.316582"
+        },
+        {
+          "@id": "https://net.jogtar.hu/jogszabaly?docid=a1200063.tv"
+        },
+        {
+          "@id": "http://www.naih.hu/files/Privacy_Act-CXII-of-2011_EN_201310.pdf"
+        },
+        {
+          "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=193173.316582"
+        },
+        {
+          "@id": "https://net.jogtar.hu/jogszabaly?docid=a1300050.tv"
+        },
+        {
+          "@id": "https://net.jogtar.hu/jogszabaly?docid=99200066.TV"
+        },
+        {
+          "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=101684"
+        },
+        {
+          "@id": "https://njt.hu/translated/doc/J2015T0143P_20180808_FIN.pdf"
+        },
+        {
+          "@id": "http://net.jogtar.hu/jr/gen/hjegy_doc.cgi?docid=A0100108.TV"
+        },
+        {
+          "@id": "https://njt.hu/jogszabaly/2019-80-00-00"
+        }
+      ]
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/country/Hungary",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring",
+      "http://data.europa.eu/eli/ontology#title": [
+        "interactive dashboards"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/Hungary",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=193173"
+        }
+      ]
+    },
+    {
+      "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=193173",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Act No. CCXXII of 2015 on the General Rules for Electronic Administration and Trust Services"
+      ]
+    },
+    {
+      "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=193173.316582",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "eAdministration Act",
+        "Act No. CCXXII of 2015 on the General Rules for Electronic Administration and Trust Services",
+        "eAdministration Act",
+        "eAdministration Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "eIDAS Regulation",
+        "eIDAS Regulation"
+      ]
+    },
+    {
+      "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=199170.338647",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. CL of 2016 on the Code of General Administrative Procedure"
+      ]
+    },
+    {
+      "@id": "https://net.jogtar.hu/jogszabaly?docid=a1200063.tv",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. LXIII of 2012 on the Reuse of Public Data"
+      ]
+    },
+    {
+      "@id": "http://www.naih.hu/files/Privacy_Act-CXII-of-2011_EN_201310.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. CXII of 2011 on Informational Self-Determination and Freedom of Information "
+      ]
+    },
+    {
+      "@id": "https://net.jogtar.hu/jogszabaly?docid=a1300050.tv",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. L on the Electronic Information Security of State and Municipal Bodies"
+      ]
+    },
+    {
+      "@id": "https://net.jogtar.hu/jogszabaly?docid=99200066.TV",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. LXVI of 1992 on Citizens’ Personal Data and Address of Registration "
+      ]
+    },
+    {
+      "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=101684",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. V of 2006 on Public Company Information, Company Registration and Winding-up Proceedings"
+      ]
+    },
+    {
+      "@id": "https://njt.hu/translated/doc/J2015T0143P_20180808_FIN.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. CXLIII of 2015 on Public Procurement"
+      ]
+    },
+    {
+      "@id": "http://net.jogtar.hu/jr/gen/hjegy_doc.cgi?docid=A0100108.TV",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. CVIII of 2001 on Electronic Commerce and Information Society Services"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2000/31/EC on certain legal aspects of information society services, in particular electronic commerce"
+      ]
+    },
+    {
+      "@id": "https://njt.hu/jogszabaly/2019-80-00-00",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Vocational Training Act"
+      ]
+    },
+    {
+      "@id": "https://njt.hu/jogszabaly/2020-1422-30-22",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/Hungary",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.magyarorszag.hu/"
+        },
+        {
+          "@id": "http://njt.hu/cgi_bin/njt_doc.cgi?docid=193173.316582"
+        },
+        {
+          "@id": "https://ugyfelkapu.gov.hu/"
+        },
+        {
+          "@id": "https://tarhely.gov.hu/ckp-regisztracio/tajekoztato.html"
+        },
+        {
+          "@id": "https://kau.gov.hu/proxy/saml/authservice?x=_07d5710d8e677181a5dbf090025cac075b19a577d9"
+        },
+        {
+          "@id": "https://kozadatportal.hu/"
+        },
+        {
+          "@id": "https://kormany.hu/"
+        },
+        {
+          "@id": "https://abouthungary.hu/tags/ministry-of-innovation-and-technology"
+        },
+        {
+          "@id": "https://e-egeszsegugy.gov.hu/ekapu"
+        },
+        {
+          "@id": "https://e-onkormanyzat.gov.hu/"
+        },
+        {
+          "@id": "https://kifu.gov.hu/szip"
+        },
+        {
+          "@id": "https://kifu.gov.hu/projekt/szupergyors-internet-program-szip/"
+        },
+        {
+          "@id": "https://kormany.hu/hirek/magyarorszag-a-szupergyors-internet-hasznalataban-az-elso-europaban"
+        },
+        {
+          "@id": "https://kifu.gov.hu/diakhalo-program/"
+        },
+        {
+          "@id": "https://kifu.gov.hu/diakhalo-program/"
+        },
+        {
+          "@id": "https://nisz.hu/hu/projektek/nemzeti-t%C3%83%C2%A1vk%C3%83%C2%B6zl%C3%83%C2%A9si-gerinch%C3%83%C2%A1l%C3%83%C2%B3zat-ntg-fejleszt%C3%83%C2%A9se"
+        },
+        {
+          "@id": "https://ec.europa.eu/isa2/solutions/testa_en"
+        },
+        {
+          "@id": "https://idomsoft.hu/rolunk/termekeink/kkszb/"
+        },
+        {
+          "@id": "https://alkalmazaskozpont.asp.lgov.hu/"
+        },
+        {
+          "@id": "https://mo.hu/szuf_fooldal"
+        },
+        {
+          "@id": "https://ugyfelkapu.magyarorszag.hu/"
+        },
+        {
+          "@id": "https://eszemelyi.hu/"
+        },
+        {
+          "@id": "https://kozbeszerzes.hu/torveny/act-cxliii-of-2015-on-public-procurement/"
+        },
+        {
+          "@id": "https://kozbeszerzes.hu/cikkek/kozbeszerzesi-torveny-es-kapcsolodo-jogszabalyok"
+        },
+        {
+          "@id": "https://ekr.gov.hu/"
+        },
+        {
+          "@id": "https://ujvilag.gov.hu/"
+        },
+        {
+          "@id": "https://ujvilag.gov.hu/"
+        },
+        {
+          "@id": "https://onlineszamla.nav.gov.hu/"
+        },
+        {
+          "@id": "https://onlineszamla.nav.gov.hu/home"
+        },
+        {
+          "@id": "https://www.nisz.hu/hu/efer-%C3%A2%C2%80%C2%93-elektronikus-fizet%C3%83%C2%A9si-%C3%83%C2%A9s-elsz%C3%83%C2%A1mol%C3%83%C2%A1si-rendszer"
+        },
+        {
+          "@id": "https://www.nyilvantarto.hu/hu/adatszolgaltatas_szemelyi"
+        },
+        {
+          "@id": "https://rendelkezes.gov.hu/rny-public/"
+        },
+        {
+          "@id": "https://urldefense.com/v3/__https:/idomsoft.hu/rolunk/termekeink/osszerendelesi-nyilvantartas/__;!!NEMsmePo_HYI!bNyhqGXomJ6Oot09xWDee3MqUwWjLezdneVjualUmlAjO8vsK1jfIZaayXIC6wgDEz0yQia4A54lZSuSE3lBB8brWg8$"
+        },
+        {
+          "@id": "https://euf.gov.hu/"
+        },
+        {
+          "@id": "https://euf.gov.hu/nyeny"
+        },
+        {
+          "@id": "https://www.blockchainhungary.org/_files/ugd/b93087_035dadcc965e4f0ea6e1c4ee94b38009.pdf"
+        },
+        {
+          "@id": "https://nisz.hu/szolgaltatasok/informatika"
+        },
+        {
+          "@id": "https://njt.hu/jogszabaly/2020-1422-30-22"
+        },
+        {
+          "@id": "https://hpc.kifu.hu/hu/komondor"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.magyarorszag.hu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ugyfelkapu.gov.hu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://tarhely.gov.hu/ckp-regisztracio/tajekoztato.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://kau.gov.hu/proxy/saml/authservice?x=_07d5710d8e677181a5dbf090025cac075b19a577d9",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://kozadatportal.hu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://kormany.hu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://abouthungary.hu/tags/ministry-of-innovation-and-technology",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://e-egeszsegugy.gov.hu/ekapu",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://e-onkormanyzat.gov.hu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://kifu.gov.hu/szip",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://kifu.gov.hu/projekt/szupergyors-internet-program-szip/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://kormany.hu/hirek/magyarorszag-a-szupergyors-internet-hasznalataban-az-elso-europaban",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://kifu.gov.hu/diakhalo-program/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://nisz.hu/hu/projektek/nemzeti-t%C3%83%C2%A1vk%C3%83%C2%B6zl%C3%83%C2%A9si-gerinch%C3%83%C2%A1l%C3%83%C2%B3zat-ntg-fejleszt%C3%83%C2%A9se",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/isa2/solutions/testa_en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://idomsoft.hu/rolunk/termekeink/kkszb/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://alkalmazaskozpont.asp.lgov.hu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://mo.hu/szuf_fooldal",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ugyfelkapu.magyarorszag.hu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eszemelyi.hu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://kozbeszerzes.hu/torveny/act-cxliii-of-2015-on-public-procurement/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://kozbeszerzes.hu/cikkek/kozbeszerzesi-torveny-es-kapcsolodo-jogszabalyok",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ekr.gov.hu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ujvilag.gov.hu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://onlineszamla.nav.gov.hu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://onlineszamla.nav.gov.hu/home",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.nisz.hu/hu/efer-%C3%A2%C2%80%C2%93-elektronikus-fizet%C3%83%C2%A9si-%C3%83%C2%A9s-elsz%C3%83%C2%A1mol%C3%83%C2%A1si-rendszer",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.nyilvantarto.hu/hu/adatszolgaltatas_szemelyi",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://rendelkezes.gov.hu/rny-public/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://urldefense.com/v3/__https:/idomsoft.hu/rolunk/termekeink/osszerendelesi-nyilvantartas/__;!!NEMsmePo_HYI!bNyhqGXomJ6Oot09xWDee3MqUwWjLezdneVjualUmlAjO8vsK1jfIZaayXIC6wgDEz0yQia4A54lZSuSE3lBB8brWg8$",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://euf.gov.hu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://euf.gov.hu/nyeny",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.blockchainhungary.org/_files/ugd/b93087_035dadcc965e4f0ea6e1c4ee94b38009.pdf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://nisz.hu/szolgaltatasok/informatika",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://hpc.kifu.hu/hu/komondor",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Hungary",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

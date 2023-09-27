@@ -1,0 +1,1029 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Poland",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Poland"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/POL"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/legalframework/Poland"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Poland",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.gov.pl/attachment/3203b18b-a83f-4b92-8da2-fa0e3b449131"
+        },
+        {
+          "@id": "https://dziennikustaw.gov.pl/DU/2020/2320"
+        },
+        {
+          "@id": "https://monitorpolski.gov.pl/DU/rok/2017/pozycja/2247"
+        },
+        {
+          "@id": "http://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20050640565"
+        },
+        {
+          "@id": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20220000902"
+        },
+        {
+          "@id": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180000029"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024"
+        },
+        {
+          "@id": "http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU20190000848/O/D20190848.pdf"
+        },
+        {
+          "@id": "https://www.gov.pl/web/cyfryzacja/prezydent-podpisal-ustawe-o-uslugach-zaufania-oraz-identyfikacji-elektronicznej"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG"
+        },
+        {
+          "@id": "https://www.gov.pl/web/mswia/zmiany-w-ustawie-o-dowodach-osobistych#:~:text=Od%25202%2520sierpnia%25202021%2520r,z%252020%2520czerwca%25202019%2520r."
+        },
+        {
+          "@id": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20210001978"
+        },
+        {
+          "@id": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20160001579/U/D20161579Lj.pdf"
+        },
+        {
+          "@id": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20220000583"
+        },
+        {
+          "@id": "https://www.gov.pl/web/cyfryzacja/akty-prawne"
+        },
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML"
+        },
+        {
+          "@id": "http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180001000"
+        },
+        {
+          "@id": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20170000777"
+        },
+        {
+          "@id": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20101671131/U/D20101131Lj.pdf"
+        },
+        {
+          "@id": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20210001978"
+        },
+        {
+          "@id": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20102171427/U/D20101427Lj.pdf"
+        },
+        {
+          "@id": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20140001741/U/D20141741Lj.pdf"
+        },
+        {
+          "@id": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180002191"
+        },
+        {
+          "@id": "https://www.uzp.gov.pl/en"
+        },
+        {
+          "@id": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=wdu20160001579"
+        },
+        {
+          "@id": "https://dziennikustaw.gov.pl/DU/2019/2019"
+        },
+        {
+          "@id": "http://orka.sejm.gov.pl/proc8.nsf/ustawy/2888_u.htm"
+        },
+        {
+          "@id": "http://isap.sejm.gov.pl/Download?id=wdu20021441204&type=3"
+        },
+        {
+          "@id": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20021261068"
+        },
+        {
+          "@id": "http://www.nbp.pl/en/system_platniczy/mf.pdf"
+        },
+        {
+          "@id": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20111130657/U/D20110657Lj.pdf/"
+        },
+        {
+          "@id": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20190001815"
+        },
+        {
+          "@id": "https://dziennikustaw.gov.pl/DU/rok/2022/pozycja/2164"
+        }
+      ]
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/country/Poland",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring",
+      "http://data.europa.eu/eli/ontology#title": [
+        "interactive dashboards"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/Poland",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.gov.pl/attachment/3203b18b-a83f-4b92-8da2-fa0e3b449131",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on the Computerisation of the Operations of Entities Performing Public Tasks"
+      ]
+    },
+    {
+      "@id": "https://www.gov.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dziennikustaw.gov.pl/DU/2020/2320",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Electronic Delivery"
+      ]
+    },
+    {
+      "@id": "https://monitorpolski.gov.pl/DU/rok/2017/pozycja/2247",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation on the National Interoperability Framework, Minimum Requirements for Public Registers and Information Exchange in Electronic Form, and Minimum Requirements for ICT Systems"
+      ]
+    },
+    {
+      "@id": "http://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20050640565",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on the Computerisation of the Operations of Entities Performing Public Tasks."
+      ]
+    },
+    {
+      "@id": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20220000902",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Access to Public Information"
+      ]
+    },
+    {
+      "@id": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180000029",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation on the Manner, Scope and Mode of Access to Data Stored in a Public Register"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive (EU) 2019/2024 on open data and the re‑use of public sector information"
+      ]
+    },
+    {
+      "@id": "http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU20190000848/O/D20190848.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on the Accessibility of Websites and Mobile Applications of Public Sector Bodies"
+      ]
+    },
+    {
+      "@id": "https://www.gov.pl/web/cyfryzacja/prezydent-podpisal-ustawe-o-uslugach-zaufania-oraz-identyfikacji-elektronicznej",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Trust Services and Electronic Identification"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "eIDAS Regulation"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://isap.sejm.gov.pl/DetailsServlet?id=WDU20160001579"
+        }
+      ]
+    },
+    {
+      "@id": "http://isap.sejm.gov.pl/DetailsServlet?id=WDU20160001579",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Trust Services and Electronic Identification"
+      ]
+    },
+    {
+      "@id": "https://www.gov.pl/web/mswia/zmiany-w-ustawie-o-dowodach-osobistych#:~:text=Od%25202%2520sierpnia%25202021%2520r,z%252020%2520czerwca%25202019%2520r.",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "https://www.gov.pl/web/mswia/zmiany-w-ustawie-o-dowodach-osobistych#:~:text=Od%202%20sierpnia%202021%20r,z%2020%20czerwca%202019%20r.",
+      "http://data.europa.eu/eli/ontology#title": [
+        "amendment to the Act on Identity Cards"
+      ]
+    },
+    {
+      "@id": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20210001978",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "amendment to the Act on Identity Cards",
+        "amendment to the Act on Identity Cards"
+      ]
+    },
+    {
+      "@id": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20160001579/U/D20161579Lj.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Trust Services and Electronic Identification"
+      ]
+    },
+    {
+      "@id": "https://www.nccert.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20220000583",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Assistance to Citizens of Ukraine in Connection with the Armed Conflict on the Territory of that State"
+      ]
+    },
+    {
+      "@id": "https://www.gov.pl/web/cyfryzacja/akty-prawne",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on the National Cybersecurity System"
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 95/46/EC on the protection of individuals with regard to the processing of personal data"
+      ]
+    },
+    {
+      "@id": "http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180001000",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "act"
+      ]
+    },
+    {
+      "@id": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20170000777",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Certain Acts Regarding Public Administration Tasks Related to Some Public Registers"
+      ]
+    },
+    {
+      "@id": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20101671131/U/D20101131Lj.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Identity Cards"
+      ]
+    },
+    {
+      "@id": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20102171427/U/D20101427Lj.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on People Registration"
+      ]
+    },
+    {
+      "@id": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20140001741/U/D20141741Lj.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Civil Status Registration"
+      ]
+    },
+    {
+      "@id": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180002191",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act of 9 November 2018 on Electronic Invoicing in Public Procurement, Concessions for Construction Works or Services and Public-Private Partnerships"
+      ]
+    },
+    {
+      "@id": "https://www.uzp.gov.pl/en",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Public Procurement"
+      ]
+    },
+    {
+      "@id": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=wdu20160001579",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Trust Services and Electronic Identification"
+      ]
+    },
+    {
+      "@id": "https://dziennikustaw.gov.pl/DU/2019/2019",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Public Procurement Law"
+      ]
+    },
+    {
+      "@id": "http://orka.sejm.gov.pl/proc8.nsf/ustawy/2888_u.htm",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "new regulations"
+      ]
+    },
+    {
+      "@id": "http://isap.sejm.gov.pl/Download?id=wdu20021441204&type=3",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Providing Services by Electronic Means"
+      ]
+    },
+    {
+      "@id": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20021261068",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on the Protection of Certain Services Provided by Electronic Means Based on, or Consisting of, Conditional Access"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:31998L0084&qid=1396604784294&from=EN"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:31998L0084&qid=1396604784294&from=EN",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 98/84/EC on the legal protection of services based on, or consisting of, conditional access"
+      ]
+    },
+    {
+      "@id": "http://www.nbp.pl/en/system_platniczy/mf.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Electronic Payment Instruments"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0046:EN:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0046:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2000/46/EC on the taking up, pursuit of and prudential supervision of the business of electronic money institutions"
+      ]
+    },
+    {
+      "@id": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20111130657/U/D20110657Lj.pdf/",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on the Health Information System"
+      ]
+    },
+    {
+      "@id": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20190001815",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act on Supporting the Development of Telecommunications Services and Networks"
+      ]
+    },
+    {
+      "@id": "https://dziennikustaw.gov.pl/DU/rok/2022/pozycja/2164",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "amendment to the Mega-bill Act"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/Poland",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.gov.pl/"
+        },
+        {
+          "@id": "https://www.gov.pl/web/ua"
+        },
+        {
+          "@id": "https://www.biznes.gov.pl/pl"
+        },
+        {
+          "@id": "https://www.gov.pl/web/ia"
+        },
+        {
+          "@id": "https://www.podatki.gov.pl/"
+        },
+        {
+          "@id": "https://www.podatki.gov.pl/pit/twoj-e-pit/"
+        },
+        {
+          "@id": "https://digiplace.sharepoint.com/sites/WE-DGDIGIT-BEACON-SC26NIFO/Shared%20Documents/D03.01%20DPA%20factsheets%20and%20infographics%202023/DPA%20factsheets%202023/Poland/Factsheet/podatki.gov.pl/crbr"
+        },
+        {
+          "@id": "https://digiplace.sharepoint.com/sites/WE-DGDIGIT-BEACON-SC26NIFO/Shared%20Documents/D03.01%20DPA%20factsheets%20and%20infographics%202023/DPA%20factsheets%202023/Poland/Factsheet/crbr.podatki.gov.pl"
+        },
+        {
+          "@id": "https://www.podatki.gov.pl/pit/twoj-e-pit/"
+        },
+        {
+          "@id": "https://puesc.gov.pl/"
+        },
+        {
+          "@id": "https://puesc.gov.pl/aktualnosci?p_p_id=seaplfptlnewspublisher_WAR_seaplfptlnewspublisher&p_p_lifecycle=0&_seaplfptlnewspublisher_WAR_seaplfptlnewspublisher_action=showArticle&_seaplfptlnewspublisher_WAR_seaplfptlnewspublisher_articleId=655326205"
+        },
+        {
+          "@id": "https://dane.gov.pl/"
+        },
+        {
+          "@id": "http://www.geoportal.gov.pl/"
+        },
+        {
+          "@id": "https://www.geoportal.gov.pl/o-geoportalu/aktualnosci"
+        },
+        {
+          "@id": "https://prod.ceidg.gov.pl/ceidg/ceidg.public.ui/search.aspx"
+        },
+        {
+          "@id": "https://historiapojazdu.gov.pl/"
+        },
+        {
+          "@id": "http://www.cepik.gov.pl/"
+        },
+        {
+          "@id": "http://www.cepik.gov.pl/"
+        },
+        {
+          "@id": "https://digiplace.sharepoint.com/sites/WE-DGDIGIT-BEACON-SC26NIFO/Shared%20Documents/D03.01%20DPA%20factsheets%20and%20infographics%202023/DPA%20factsheets%202023/Poland/Factsheet/ezdrowie.gov.pl"
+        },
+        {
+          "@id": "https://ezdrowie.gov.pl/"
+        },
+        {
+          "@id": "https://cez.gov.pl/pl/page/o-nas"
+        },
+        {
+          "@id": "https://pacjent.gov.pl/"
+        },
+        {
+          "@id": "https://prs.ms.gov.pl/"
+        },
+        {
+          "@id": "https://ems.ms.gov.pl/msig/przegladaniemonitorow"
+        },
+        {
+          "@id": "https://wyszukiwarka-msig.ms.gov.pl/"
+        },
+        {
+          "@id": "https://oplaty.ms.gov.pl/"
+        },
+        {
+          "@id": "https://www.gov.pl/web/sprawiedliwosc/udzielanie-informacji-z-rejestru-zastawow2"
+        },
+        {
+          "@id": "https://orzeczenia.ms.gov.pl/"
+        },
+        {
+          "@id": "https://www.esad.gov.pl/"
+        },
+        {
+          "@id": "https://samorzad.gov.pl/"
+        },
+        {
+          "@id": "https://www.rp.pl/"
+        },
+        {
+          "@id": "https://ec.europa.eu/isa2/solutions/testa_en/"
+        },
+        {
+          "@id": "https://www.assecods.pl/"
+        },
+        {
+          "@id": "https://www.enigma.com.pl/"
+        },
+        {
+          "@id": "https://eurocert.pl/"
+        },
+        {
+          "@id": "https://www.kir.pl/"
+        },
+        {
+          "@id": "https://www.pwpw.pl/"
+        },
+        {
+          "@id": "https://www.nccert.pl/"
+        },
+        {
+          "@id": "https://www.gov.pl/web/cyfryzacja/budowa-krajowego-wezla-identyfikacji-elektronicznej"
+        },
+        {
+          "@id": "https://www.nccert.pl/"
+        },
+        {
+          "@id": "http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20160001579"
+        },
+        {
+          "@id": "http://www.uzp.gov.pl/"
+        },
+        {
+          "@id": "https://www.uzp.gov.pl/"
+        },
+        {
+          "@id": "https://www.uzp.gov.pl/"
+        },
+        {
+          "@id": "https://www.podatki.gov.pl/ksef/"
+        },
+        {
+          "@id": "https://oplaty.ms.gov.pl/"
+        },
+        {
+          "@id": "https://widok.gov.pl/"
+        },
+        {
+          "@id": "https://www.gov.pl/web/bip"
+        },
+        {
+          "@id": "https://www.gov.pl/web/cyfryzacja/zintegrowana-platforma-analityczna2"
+        },
+        {
+          "@id": "https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/Find+your+Single+Point+of+Contact"
+        },
+        {
+          "@id": "https://www.gov.pl/web/gov/uzyskaj-numer-pesel--usluga-dla-cudzoziemcow-en"
+        },
+        {
+          "@id": "https://www.biznes.gov.pl/en/firma/doing-business-in-poland/types-of-economic-activity-in-poland/civil-law-partnership-basic-information/civil-law-partnership-basic-information"
+        },
+        {
+          "@id": "https://www.gov.pl/web/ai"
+        },
+        {
+          "@id": "https://www.edwin.gov.pl/"
+        },
+        {
+          "@id": "https://h2020-demeter.eu/"
+        },
+        {
+          "@id": "https://www.gov.pl/web/govtech/centrum"
+        },
+        {
+          "@id": "https://www.gov.pl/web/govtech/program-rzadowy"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.gov.pl/web/ua",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.biznes.gov.pl/pl",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.gov.pl/web/ia",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.podatki.gov.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.podatki.gov.pl/pit/twoj-e-pit/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://digiplace.sharepoint.com/sites/WE-DGDIGIT-BEACON-SC26NIFO/Shared%20Documents/D03.01%20DPA%20factsheets%20and%20infographics%202023/DPA%20factsheets%202023/Poland/Factsheet/podatki.gov.pl/crbr",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://digiplace.sharepoint.com/sites/WE-DGDIGIT-BEACON-SC26NIFO/Shared%20Documents/D03.01%20DPA%20factsheets%20and%20infographics%202023/DPA%20factsheets%202023/Poland/Factsheet/crbr.podatki.gov.pl",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://puesc.gov.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://puesc.gov.pl/aktualnosci?p_p_id=seaplfptlnewspublisher_WAR_seaplfptlnewspublisher&p_p_lifecycle=0&_seaplfptlnewspublisher_WAR_seaplfptlnewspublisher_action=showArticle&_seaplfptlnewspublisher_WAR_seaplfptlnewspublisher_articleId=655326205",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dane.gov.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.geoportal.gov.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.geoportal.gov.pl/o-geoportalu/aktualnosci",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://prod.ceidg.gov.pl/ceidg/ceidg.public.ui/search.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://historiapojazdu.gov.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.cepik.gov.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://digiplace.sharepoint.com/sites/WE-DGDIGIT-BEACON-SC26NIFO/Shared%20Documents/D03.01%20DPA%20factsheets%20and%20infographics%202023/DPA%20factsheets%202023/Poland/Factsheet/ezdrowie.gov.pl",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ezdrowie.gov.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://cez.gov.pl/pl/page/o-nas",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://pacjent.gov.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://prs.ms.gov.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ems.ms.gov.pl/msig/przegladaniemonitorow",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://wyszukiwarka-msig.ms.gov.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://oplaty.ms.gov.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.gov.pl/web/sprawiedliwosc/udzielanie-informacji-z-rejestru-zastawow2",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://orzeczenia.ms.gov.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.esad.gov.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://samorzad.gov.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.rp.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/isa2/solutions/testa_en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.assecods.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.enigma.com.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eurocert.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.kir.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.pwpw.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.gov.pl/web/cyfryzacja/budowa-krajowego-wezla-identyfikacji-elektronicznej",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20160001579",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.uzp.gov.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.uzp.gov.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.podatki.gov.pl/ksef/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://widok.gov.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.gov.pl/web/bip",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.gov.pl/web/cyfryzacja/zintegrowana-platforma-analityczna2",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/Find+your+Single+Point+of+Contact",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.gov.pl/web/gov/uzyskaj-numer-pesel--usluga-dla-cudzoziemcow-en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.biznes.gov.pl/en/firma/doing-business-in-poland/types-of-economic-activity-in-poland/civil-law-partnership-basic-information/civil-law-partnership-basic-information",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.gov.pl/web/ai",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.edwin.gov.pl/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://h2020-demeter.eu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.gov.pl/web/govtech/centrum",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.gov.pl/web/govtech/program-rzadowy",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Poland",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+<http://data.europa.eu/nifo/factsheet/Czechia> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Czechia>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/CZE";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/legalframework/Czechia> .
+<http://publications.europa.eu/resource/authority/country/Czechia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/source> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring>;
+ <http://purl.org/dc/terms/relation> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> .
+<https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> <http://data.europa.eu/eli/ontology#title> "interactive dashboards" .
+<http://example.org/ContactPoint/Czechia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.zakonyprolidi.cz/cs/2008-300>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2018.295.01.0001.01.ENG>, <https://www.zakonyprolidi.cz/cs/2022-226>, <https://digital-strategy.ec.europa.eu/en/policies/nis2-directive>, <https://www.zakonyprolidi.cz/cs/2020-12>, <http://ec.europa.eu/digital-agenda/en/european-legislation-reuse-public-sector-information>, <https://www.zakonyprolidi.cz/cs/2000-365> .
+<https://www.zakonyprolidi.cz/cs/2008-300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>, <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://purl.org/dc/terms/title> "Act on electronic procedures and authorised conversions of documents";
+ <http://data.europa.eu/eli/ontology#title> "Act on Electronic Actions and Authorised Document Conversion" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2018.295.01.0001.01.ENG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Regulation (EU) 2018/1724" .
+<https://www.zakonyprolidi.cz/cs/2022-226> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Act no. 226/2022, Coll" .
+<https://digital-strategy.ec.europa.eu/en/policies/nis2-directive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "NIS2 Directive" .
+<https://www.zakonyprolidi.cz/cs/2020-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>, <http://data.europa.eu/eli/ontology#LegalResource>, <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/title> "Act on the Right to Digital Services";
+ <http://data.europa.eu/eli/ontology#title> "Act on the Right to Digital Services" .
+<http://ec.europa.eu/digital-agenda/en/european-legislation-reuse-public-sector-information> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Public Sector Information (PSI) Directive";
+ <http://purl.org/dc/terms/relation> <http://inspire.ec.europa.eu/> .
+<http://inspire.ec.europa.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "INSPIRE Directive";
+ <http://purl.org/dc/terms/relation> <https://odok.cz/portal/veklep/material/ALBSCL8DQ7VJ/> .
+<https://odok.cz/portal/veklep/material/ALBSCL8DQ7VJ/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Act on the governance of public sector data" .
+<https://www.zakonyprolidi.cz/cs/2000-365> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>, <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://purl.org/dc/terms/title> "Act on information systems of public administration";
+ <http://data.europa.eu/eli/ontology#title> "Act on Public Administration Information Systems", "Act on Public Authority Information Systems";
+ <http://purl.org/dc/terms/relation> <https://www.zakonyprolidi.cz/cs/2009-111>, <https://www.zakonyprolidi.cz/cs/2014-181> .
+<http://example.org/nifo/legalframework/Czechia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.zakonyprolidi.cz/cs/2020-12>, <https://www.zakonyprolidi.cz/cs/2021-261>, <https://www.zakonyprolidi.cz/cs/2000-365>, <https://www.zakonyprolidi.cz/cs/2019-99>, <https://www.zakonyprolidi.cz/cs/1999-106>, <https://urldefense.com/v3/__https:/www.zakonyprolidi.cz/cs/2017-250__;!!NEMsmePo_HYI!dzfKktvaoa0HY9I6ad14azLixLvhw4onCM8B_Una7adoaEqclAKzUH0o8tdrGyYxhh4dy1a0TLW04QxOL4e2UR98-SZ-xkGXPw$>, <https://urldefense.com/v3/__https:/ec.europa.eu/digital-single-market/en/trust-services-and-eid__;!!NEMsmePo_HYI!dzfKktvaoa0HY9I6ad14azLixLvhw4onCM8B_Una7adoaEqclAKzUH0o8tdrGyYxhh4dy1a0TLW04QxOL4e2UR98-SZj052oEg$>, <https://public.psp.cz/en/sqw/historie.sqw?O=8&T=554>, <https://www.zakonyprolidi.cz/cs/2019-110>, <https://www.zakonyprolidi.cz/cs/2014-181>, <https://www.zakonyprolidi.cz/cs/2009-111>, <https://www.zakonyprolidi.cz/cs/2016-134>, <http://www.portal-vz.cz/getmedia/ac061a0a-d8c1-4ff1-b8d2-691aa89269b1/Zakon-c-134_2016-Sb-o-zadavani-verejnych-zakazek.pdf>, <https://www.zakonyprolidi.cz/cs/2008-300>, <https://www.zakonyprolidi.cz/cs/2004-480>, <https://www.zakonyprolidi.cz/cs/2011-372>, <https://www.zakonyprolidi.cz/cs/2021-325?text=z%2525C3%252583%2525C2%2525A1kon+o+elektronizaci+zdravotnictv%2525C3%252583%2525C2%2525AD> .
+<https://www.zakonyprolidi.cz/cs/2021-261> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. 261/2021 Coll." .
+<https://www.zakonyprolidi.cz/cs/2009-111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Base Registries";
+ <http://purl.org/dc/terms/relation> <https://www.zakonyprolidi.cz/cs/1999-106> .
+<https://www.zakonyprolidi.cz/cs/1999-106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Free Access to Information";
+ <http://purl.org/dc/terms/relation> <https://www.zakonyprolidi.cz/cs/2004-499>, <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML> .
+<https://www.zakonyprolidi.cz/cs/2004-499> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Archiving and Records Management" .
+<https://www.zakonyprolidi.cz/cs/2019-99> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on the Accessibility of Websites and Mobile Applications of Public Sector Bodies";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "European Union (EU) Directive on the accessibility of the websites and mobile applications of public sector bodies" .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive (EU) 2003/98/EC on the re-use of public sector information (PSI Directive)" .
+<https://urldefense.com/v3/__https:/www.zakonyprolidi.cz/cs/2017-250__;!!NEMsmePo_HYI!dzfKktvaoa0HY9I6ad14azLixLvhw4onCM8B_Una7adoaEqclAKzUH0o8tdrGyYxhh4dy1a0TLW04QxOL4e2UR98-SZ-xkGXPw$> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Electronic Identification" .
+<https://urldefense.com/v3/__https:/ec.europa.eu/digital-single-market/en/trust-services-and-eid__;!!NEMsmePo_HYI!dzfKktvaoa0HY9I6ad14azLixLvhw4onCM8B_Una7adoaEqclAKzUH0o8tdrGyYxhh4dy1a0TLW04QxOL4e2UR98-SZj052oEg$> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation (EU) 910/2014 on electronic identification and trust services for electronic transactions in the internal market (eIDAS Regulation)";
+ <http://purl.org/dc/terms/relation> <https://urldefense.com/v3/__http:/www.mvcr.cz/mvcren/article/electronic-signature-773488.aspx?q=Y2hudW09Mg*3D*3D__;JSU!!NEMsmePo_HYI!dzfKktvaoa0HY9I6ad14azLixLvhw4onCM8B_Una7adoaEqclAKzUH0o8tdrGyYxhh4dy1a0TLW04QxOL4e2UR98-SY9gTXTSA$> .
+<https://urldefense.com/v3/__http:/www.mvcr.cz/mvcren/article/electronic-signature-773488.aspx?q=Y2hudW09Mg*3D*3D__;JSU!!NEMsmePo_HYI!dzfKktvaoa0HY9I6ad14azLixLvhw4onCM8B_Una7adoaEqclAKzUH0o8tdrGyYxhh4dy1a0TLW04QxOL4e2UR98-SY9gTXTSA$> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Trust Services for Electronic Transactions" .
+<https://public.psp.cz/en/sqw/historie.sqw?O=8&T=554> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Bank ID";
+ <http://purl.org/dc/terms/relation> <https://www.zakonyprolidi.cz/cs/2020-49> .
+<https://www.zakonyprolidi.cz/cs/2020-49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. 49/2020" .
+<https://www.zakonyprolidi.cz/cs/2019-110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Personal Data Processing Act" .
+<https://www.zakonyprolidi.cz/cs/2014-181> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Cybersecurity";
+ <http://purl.org/dc/terms/relation> <https://www.zakonyprolidi.cz/cs/2021-261> .
+<https://www.zakonyprolidi.cz/cs/2016-134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Public Procurement" .
+<http://www.portal-vz.cz/getmedia/ac061a0a-d8c1-4ff1-b8d2-691aa89269b1/Zakon-c-134_2016-Sb-o-zadavani-verejnych-zakazek.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Public Procurement", "Act No. 134/2016 Coll.) ";
+ <http://purl.org/dc/terms/relation> <http://www.portal-vz.cz/getmedia/ac061a0a-d8c1-4ff1-b8d2-691aa89269b1/Zakon-c-134_2016-Sb-o-zadavani-verejnych-zakazek.pdf>, <http://eur-lex.europa.eu/legal-content/CS/TXT/HTML/?uri=CELEX:32014L0055&from=EN> .
+<http://eur-lex.europa.eu/legal-content/CS/TXT/HTML/?uri=CELEX:32014L0055&from=EN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2014/55/EU on electronic invoicing in public procurement" .
+<https://www.zakonyprolidi.cz/cs/2004-480> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Certain Information Society Services" .
+<https://www.zakonyprolidi.cz/cs/2011-372> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Health Services" .
+<https://www.zakonyprolidi.cz/cs/2021-325?text=z%2525C3%252583%2525C2%2525A1kon+o+elektronizaci+zdravotnictv%2525C3%252583%2525C2%2525AD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<https://www.zakonyprolidi.cz/cs/2021-325?text=z%C3%83%C2%A1kon+o+elektronizaci+zdravotnictv%C3%83%C2%AD> <http://data.europa.eu/eli/ontology#title> "Act No. 325/2021 Coll., on the digitalisation of health care" .
+<http://example.org/nifo/structure/Czechia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://gov.cz/%20or%20https:/portal.gov.cz/index/>, <https://obcan.portal.gov.cz/prihlaseni>, <https://www.mvcr.cz/clanek/portal-obcana.aspx>, <https://portal.gov.cz/sluzby-vs/aplikace-erecept-pro-pacienty-S11087>, <https://www.cssz.cz/web/en>, <https://www.mojedane21.cz/>, <https://www.financnisprava.cz/en/e-tax>, <https://www.nixzd.cz/>, <https://ec.europa.eu/inea/en/connecting-europe-facility/cef-telecom/2015-cz-ia-0067>, <https://covid.gov.cz/en/>, <https://www.smocr.cz/en>, <https://www.smocr.cz/>, <https://www.smsdata.cz/agis-info/>, <https://www.epusa.cz/>, <https://www.mvcr.cz/clanek/komunikacni-infrastruktura-verejne-spravy-278660.aspx>, <https://archi.gov.cz/nap_dokument>, <http://www.czechpoint.cz/web/>, <https://www.mpo.cz/assets/cz/e-komunikace-a-posta/elektronicke-komunikace/koncepce-a-strategie/narodni-plan-rozvoje-siti-nga/2020/1/Implementace-a-rozvoj-siti-5G-v-CR-EN.pdf>, <https://www.mpo.cz/assets/cz/e-komunikace-a-posta/elektronicke-komunikace/koncepce-a-strategie/narodni-plan-rozvoje-siti-nga/2020/1/Usneseni-vlady.pdf>, <https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIV-SC646NIFO/Documents%20partages/D03.01%20DPA%20factsheets%20and%20infographics%202022/Final%20deliverable/AppData/Local/Microsoft/Windows/INetCache/giuli/Dropbox/Editing_2022/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/Downloads/5G%20Networks%20%7C%20%C4%8Cesk%C3%BD%20telekomunika%C4%8Dn%C3%AD%20%C3%BA%C5%99ad%20(ctu.eu)>, <https://www.mpo.cz/cz/rozcestnik/pro-media/tiskove-zpravy/5g-site-prinasi-nasim-mestum-chytra-reseni--266164/>, <https://www.datoveschranky.info/>, <https://www.mojedatovaschranka.cz/static/ISDS/help/page15.html>, <https://play.google.com/store/apps/details?id=cz.mojedatovaschranka.mobilniklic&hl=cs>, <https://apps.apple.com/cz/app/mobiln%C3%83%C2%AD-kl%C3%83%C2%AD%C3%84%C2%8D-isds/id1466762017>, <https://archi.gov.cz/znalostni_baze:ga_ppdf?s%5B%5D=propojen%C3%83%C2%BD*&s%5B%5D=datov%C3%83%C2%BD*&s%5B%5D=fond*>, <https://ockodoc.mzcr.cz/en/support/identitaobcana/nia-id/>, <https://www.eidentita.cz/Home>, <https://www.mvcr.cz/clanek/seznam-udelenych-akreditaci-pro-spravu-kvalifikovaneho-systemu-elektronicke-identifikace.aspx>, <https://www.mojeid.cz/en/support/statni-sprava/>, <https://www.zakonyprolidi.cz/cs/2020-12>, <http://www.mvcr.cz/clanek/informace-k-pouzivani-elektronickeho-podpisu.aspx>, <https://www.mvcr.cz/mvcren/article/electronic-signature-773488.aspx?q=Y2hudW09Mw==>, <http://www.mvcr.cz/clanek/ceska-narodni-verifikacni-autorita-cvca.aspx>, <http://www.portal-vz.cz/>, <https://portal-vz.cz/elektronicke-zadavani-vz/>, <https://nen.nipez.cz/>, <https://www.mvcr.cz/clanek/isdoc-narodni-standard-elektronicke-fakturace.aspx>, <https://www.komora.cz/obchod-a-sluzby/narodni-mnohostranne-forum-cr-pro-e-fakturaci/>, <https://www.cuzk.cz/DMVS/O-IS-DMVS/Predpokladane-terminy-realizace.aspx>, <https://geoportal.cuzk.cz/mGeoportal/?c=dSady_RUIAN_A.EN&f=paticka.EN&lng=EN>, <http://www.elfproject.eu/sites/default/files/An%20Introduction%20to%20the%20European%20Location%20Framework%20(2014).pdf>, <http://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLI-B4/181/2016/>, <https://joinup.ec.europa.eu/sites/default/files/inline-files/Czech%20Republic%20Factsheet%20Validated_1.pdf>, <https://archi.gov.cz/en:nap:zakladni_registry>, <https://www.aiczechia.cz/>, <https://prg.ai/>, <https://www.brno.ai/>, <https://golemio.cz/en>, <https://datahub.brno.cz/>, <https://www.polivisu.eu>, <https://apps.odok.cz/attachment/-/down/IHOAAG9B6DHT>, <https://apps.odok.cz/attachment/-/down/RCIAB6NBXXNO>, <https://www.spcss.cz/>, <https://www.youtube.com/watch?v=_JFCCYyO8YE>, <https://www.mvcr.cz/clanek/egovernment-cloud.aspx?q=Y2hudW09Ng==>, <https://www.it4i.cz/>, <http://rci.cvut.cz/>, <https://www.metacentrum.cz/en/about/meta/index.html>, <https://www.metacentrum.cz/en/about/meta/index.html#ces>, <https://www.mpo.cz/cz/podnikani/digitalni-spolecnost/zrizeni-platformy-pro-digitalizaci-hospodarstvi--269636/> .
+<https://gov.cz/%20or%20https:/portal.gov.cz/index/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://obcan.portal.gov.cz/prihlaseni> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mvcr.cz/clanek/portal-obcana.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://portal.gov.cz/sluzby-vs/aplikace-erecept-pro-pacienty-S11087> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.cssz.cz/web/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mojedane21.cz/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.financnisprava.cz/en/e-tax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.nixzd.cz/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/inea/en/connecting-europe-facility/cef-telecom/2015-cz-ia-0067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://covid.gov.cz/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.smocr.cz/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.smocr.cz/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.smsdata.cz/agis-info/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.epusa.cz/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mvcr.cz/clanek/komunikacni-infrastruktura-verejne-spravy-278660.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://archi.gov.cz/nap_dokument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.czechpoint.cz/web/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mpo.cz/assets/cz/e-komunikace-a-posta/elektronicke-komunikace/koncepce-a-strategie/narodni-plan-rozvoje-siti-nga/2020/1/Implementace-a-rozvoj-siti-5G-v-CR-EN.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mpo.cz/assets/cz/e-komunikace-a-posta/elektronicke-komunikace/koncepce-a-strategie/narodni-plan-rozvoje-siti-nga/2020/1/Usneseni-vlady.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIV-SC646NIFO/Documents%20partages/D03.01%20DPA%20factsheets%20and%20infographics%202022/Final%20deliverable/AppData/Local/Microsoft/Windows/INetCache/giuli/Dropbox/Editing_2022/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/Downloads/5G%20Networks%20%7C%20%C4%8Cesk%C3%BD%20telekomunika%C4%8Dn%C3%AD%20%C3%BA%C5%99ad%20(ctu.eu)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mpo.cz/cz/rozcestnik/pro-media/tiskove-zpravy/5g-site-prinasi-nasim-mestum-chytra-reseni--266164/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.datoveschranky.info/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mojedatovaschranka.cz/static/ISDS/help/page15.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://play.google.com/store/apps/details?id=cz.mojedatovaschranka.mobilniklic&hl=cs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://apps.apple.com/cz/app/mobiln%C3%83%C2%AD-kl%C3%83%C2%AD%C3%84%C2%8D-isds/id1466762017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://archi.gov.cz/znalostni_baze:ga_ppdf?s%5B%5D=propojen%C3%83%C2%BD*&s%5B%5D=datov%C3%83%C2%BD*&s%5B%5D=fond*> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ockodoc.mzcr.cz/en/support/identitaobcana/nia-id/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.eidentita.cz/Home> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mvcr.cz/clanek/seznam-udelenych-akreditaci-pro-spravu-kvalifikovaneho-systemu-elektronicke-identifikace.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mojeid.cz/en/support/statni-sprava/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.mvcr.cz/clanek/informace-k-pouzivani-elektronickeho-podpisu.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mvcr.cz/mvcren/article/electronic-signature-773488.aspx?q=Y2hudW09Mw==> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.mvcr.cz/clanek/ceska-narodni-verifikacni-autorita-cvca.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.portal-vz.cz/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://portal-vz.cz/elektronicke-zadavani-vz/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://nen.nipez.cz/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mvcr.cz/clanek/isdoc-narodni-standard-elektronicke-fakturace.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.komora.cz/obchod-a-sluzby/narodni-mnohostranne-forum-cr-pro-e-fakturaci/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.cuzk.cz/DMVS/O-IS-DMVS/Predpokladane-terminy-realizace.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://geoportal.cuzk.cz/mGeoportal/?c=dSady_RUIAN_A.EN&f=paticka.EN&lng=EN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.elfproject.eu/sites/default/files/An%20Introduction%20to%20the%20European%20Location%20Framework%20(2014).pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLI-B4/181/2016/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://joinup.ec.europa.eu/sites/default/files/inline-files/Czech%20Republic%20Factsheet%20Validated_1.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://archi.gov.cz/en:nap:zakladni_registry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.aiczechia.cz/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://prg.ai/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.brno.ai/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://golemio.cz/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://datahub.brno.cz/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.polivisu.eu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://apps.odok.cz/attachment/-/down/IHOAAG9B6DHT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://apps.odok.cz/attachment/-/down/RCIAB6NBXXNO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.spcss.cz/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.youtube.com/watch?v=_JFCCYyO8YE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mvcr.cz/clanek/egovernment-cloud.aspx?q=Y2hudW09Ng==> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.it4i.cz/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://rci.cvut.cz/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.metacentrum.cz/en/about/meta/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.metacentrum.cz/en/about/meta/index.html#ces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mpo.cz/cz/podnikani/digitalni-spolecnost/zrizeni-platformy-pro-digitalizaci-hospodarstvi--269636/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Czechia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .

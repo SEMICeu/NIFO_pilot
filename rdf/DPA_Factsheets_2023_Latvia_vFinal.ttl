@@ -1,0 +1,145 @@
+<http://data.europa.eu/nifo/factsheet/Latvia> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Latvia>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/LVA";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/legalframework/Latvia> .
+<http://publications.europa.eu/resource/authority/country/Latvia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/source> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring>;
+ <http://purl.org/dc/terms/relation> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> .
+<https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> <http://data.europa.eu/eli/ontology#title> "interactive dashboards" .
+<http://example.org/ContactPoint/Latvia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://tapportals.mk.gov.lv/legal_acts/bc0aded2-457f-4810-8426-7999bf581311> .
+<https://tapportals.mk.gov.lv/legal_acts/bc0aded2-457f-4810-8426-7999bf581311> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Fifth National Open Government Action Plan 2022-2025" .
+<http://example.org/nifo/legalframework/Latvia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://likumi.lv/ta/id/292259-valsts-parvaldes-pakalpojumu-portala-noteikumi>, <https://likumi.lv/ta/id/292258-valsts-parvaldes-pakalpojumu-uzskaites-kvalitates-kontroles-un-sniegsanas-kartiba>, <https://likumi.lv/ta/id/292260-noteikumi-par-valsts-parvaldes-vienoto-klientu-apkalposanas-centru-veidiem-sniegto-pakalpojumu-apjomu-un-pakalpojumu-sniegsanas>, <https://likumi.lv/ta/id/292261-valsts-parvaldes-e-pakalpojumu-noteikumi>, <https://likumi.lv/ta/en/en/id/62324-law-on-state-information-systems>, <https://likumi.lv/ta/id/316109-kartiba-kada-iestades-ievieto-informaciju-interneta>, <https://likumi.lv/ta/en/en/id/50601-freedom-of-information-law>, <https://likumi.lv/ta/en/en/id/243484>, <https://likumi.lv/ta/en/en/id/300099-personal-data-processing-law>, <https://likumi.lv/ta/en/en/id/296185-law-on-the-register-of-natural-persons>, <https://likumi.lv/ta/en/en/id/220962-law-on-the-security-of-information-technologies>, <http://www.vvc.gov.lv/export/sites/default/docs/LRTA/Likumi/Population_Register_Law.pdf>, <https://likumi.lv/ta/id/253442-civilstavokla-aktu-registracijas-likums>, <http://likumi.lv/doc.php?id=72847>, <http://likumi.lv/doc.php?id=222145>, <https://likumi.lv/ta/en/en/id/287760-public-procurement-law>, <https://likumi.lv/ta/en/en/id/288730-law-on-the-procurements-of-public-service-providers>, <https://likumi.lv/ta/id/306273-piemerojamais-elektroniska-rekina-standarts-un-ta-pamatelementu-izmantosanas-specifikacija-un-aprites-kartiba>, <http://likumi.lv/ta/id/268361-parakstu-vaksanas-tiessaistes-sistemu-drosibas-un-tehniskas-prasibas>, <http://www.likumi.lv/doc.php?id=198815>, <https://likumi.lv/ta/en/en/id/283229-law-on-the-official-electronic-address>, <http://www.likumi.lv/doc.php?id=231232>, <https://commission.europa.eu/business-economy-euro/economic-recovery/recovery-and-resilience-facility/latvias-recovery-and-resilience-plan_en> .
+<https://likumi.lv/ta/id/292259-valsts-parvaldes-pakalpojumu-portala-noteikumi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation for the Public Administration Services Portal" .
+<https://likumi.lv/ta/id/292258-valsts-parvaldes-pakalpojumu-uzskaites-kvalitates-kontroles-un-sniegsanas-kartiba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Cabinet Regulation No. 399" .
+<https://likumi.lv/ta/id/292260-noteikumi-par-valsts-parvaldes-vienoto-klientu-apkalposanas-centru-veidiem-sniegto-pakalpojumu-apjomu-un-pakalpojumu-sniegsanas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Cabinet Regulation No. 401" .
+<https://likumi.lv/ta/id/292261-valsts-parvaldes-e-pakalpojumu-noteikumi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Cabinet of Ministers Regulation No. 402" .
+<https://likumi.lv/ta/en/en/id/62324-law-on-state-information-systems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on State Information Systems" .
+<https://likumi.lv/ta/id/316109-kartiba-kada-iestades-ievieto-informaciju-interneta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation of the Cabinet of Ministers No. 445" .
+<https://likumi.lv/ta/en/en/id/50601-freedom-of-information-law> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Freedom of Information Law";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32013L0037> .
+<http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32013L0037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive (EU) 2013/37 on the re-use of public sector information" .
+<https://likumi.lv/ta/en/en/id/243484> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Personal Identification Documents Law" .
+<https://likumi.lv/ta/en/en/id/300099-personal-data-processing-law> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Electronic Identification of Natural Persons", "Personal Data Processing Law" .
+<https://likumi.lv/ta/en/en/id/296185-law-on-the-register-of-natural-persons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the Register of Natural Persons" .
+<https://likumi.lv/ta/en/en/id/220962-law-on-the-security-of-information-technologies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the Security of Information Technologies";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:337:0037:0069:EN:PDF> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:337:0037:0069:EN:PDF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive (EC) 2009/140" .
+<http://www.vvc.gov.lv/export/sites/default/docs/LRTA/Likumi/Population_Register_Law.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law" .
+<https://likumi.lv/ta/id/253442-civilstavokla-aktu-registracijas-likums> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law On Registration of Civil Status Documents";
+ <http://purl.org/dc/terms/relation> <http://likumi.lv/doc.php?id=260214> .
+<http://likumi.lv/doc.php?id=260214> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "State Fees for the Registration of Acts of Civil Status" .
+<http://likumi.lv/doc.php?id=72847> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Enterprise Register Act" .
+<http://likumi.lv/doc.php?id=222145> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Vehicle Registration" .
+<https://likumi.lv/ta/en/en/id/287760-public-procurement-law> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Public Procurement Law" .
+<https://likumi.lv/ta/en/en/id/288730-law-on-the-procurements-of-public-service-providers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Procurement for the Needs of Public Service Providers" .
+<https://likumi.lv/ta/id/306273-piemerojamais-elektroniska-rekina-standarts-un-ta-pamatelementu-izmantosanas-specifikacija-un-aprites-kartiba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation of the Cabinet of Ministers No. 154" .
+<http://likumi.lv/ta/id/268361-parakstu-vaksanas-tiessaistes-sistemu-drosibas-un-tehniskas-prasibas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation of the Cabinet of Ministers" .
+<http://www.likumi.lv/doc.php?id=198815> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Electronic Documents Law (EDL)" .
+<https://likumi.lv/ta/en/en/id/283229-law-on-the-official-electronic-address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the Official Electronic Address" .
+<http://www.likumi.lv/doc.php?id=231232> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Electronic Communications Law" .
+<https://commission.europa.eu/business-economy-euro/economic-recovery/recovery-and-resilience-facility/latvias-recovery-and-resilience-plan_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Proposal for a Council Implementing Decision" .
+<http://example.org/nifo/structure/Latvia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://latvija.lv/en>, <https://www.vsaa.gov.lv/en>, <https://www.mk.gov.lv/en/about-project>, <https://www.vmnvd.gov.lv/en>, <https://www.latvia.eu/>, <https://latvija.gov.lv/Home/?lang=en>, <https://www.varam.gov.lv/en>, <https://data.gov.lv/lv>, <http://www.vraa.gov.lv/en/>, <https://www.youtube.com/watch?v=jkKaDo-rIM4>, <https://www.europeandataportal.eu/>, <http://www.hugo.lv>, <http://www.kis.gov.lv/>, <https://hugo.lv/lv>, <https://www.mk.gov.lv/en/tap-portals>, <https://eds.vid.gov.lv/login/>, <http://www.viss.gov.lv>, <https://likumi.lv/ta/id/197798-vienota-uzdevumu-izpildes-kontroles-kartiba-ministrijas-un-valsts-kanceleja>, <http://m.likumi.lv/doc.php?id=269930>, <http://www.tiesas.lv/>, <https://latvija.lv/en/eaddress/reg>, <https://www.ur.gov.lv/lv/specializeta-informacija/elektroniskais-paraksts/privatpersonam/eparaksts-mobile/>, <http://www.eparaksts.lv>, <https://www.eparaksts.lv/>, <https://www.eis.gov.lv/EIS/>, <https://www.eis.gov.lv/>, <http://viaa.gov.lv/eng/about_us/activities/%20and>, <https://ec.europa.eu/ploteus/>, <http://www.lnb.lv/en/digital-library>, <http://www.europeana.eu/portal/>, <http://libra.lanet.lv/F?RN=266577456>, <https://www.arhivi.gov.lv/lv/iestazu-portals>, <https://ec.europa.eu/regional_policy/funding/erdf_en>, <https://www.nmkk.lv/>, <https://www.europeana.eu/lv>, <https://www.pmlp.gov.lv/lv/sakums/pakalpojumi/informacija-no-iedzivotaju-registra/>, <https://www.ur.gov.lv/en/>, <https://www.latvija.lv/en/Epakalpojumi/EP119/Apraksts>, <https://info.ur.gov.lv/>, <https://www.vzd.gov.lv/en/>, <https://www.csdd.lv/> .
+<https://latvija.lv/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.vsaa.gov.lv/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mk.gov.lv/en/about-project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.vmnvd.gov.lv/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.latvia.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://latvija.gov.lv/Home/?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.varam.gov.lv/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://data.gov.lv/lv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.vraa.gov.lv/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.youtube.com/watch?v=jkKaDo-rIM4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.europeandataportal.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.hugo.lv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.kis.gov.lv/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://hugo.lv/lv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mk.gov.lv/en/tap-portals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eds.vid.gov.lv/login/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.viss.gov.lv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://likumi.lv/ta/id/197798-vienota-uzdevumu-izpildes-kontroles-kartiba-ministrijas-un-valsts-kanceleja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://m.likumi.lv/doc.php?id=269930> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.tiesas.lv/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://latvija.lv/en/eaddress/reg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ur.gov.lv/lv/specializeta-informacija/elektroniskais-paraksts/privatpersonam/eparaksts-mobile/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.eparaksts.lv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.eparaksts.lv/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.eis.gov.lv/EIS/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.eis.gov.lv/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://viaa.gov.lv/eng/about_us/activities/%20and> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/ploteus/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.lnb.lv/en/digital-library> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.europeana.eu/portal/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://libra.lanet.lv/F?RN=266577456> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.arhivi.gov.lv/lv/iestazu-portals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/regional_policy/funding/erdf_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.nmkk.lv/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.europeana.eu/lv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.pmlp.gov.lv/lv/sakums/pakalpojumi/informacija-no-iedzivotaju-registra/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ur.gov.lv/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.latvija.lv/en/Epakalpojumi/EP119/Apraksts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://info.ur.gov.lv/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.vzd.gov.lv/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.csdd.lv/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Latvia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Latvia/Travel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/travel/index_en.htm> .
+<http://example.org/nifo/publicservice/Latvia/Workandretirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/work/index_en.htm> .
+<http://example.org/nifo/publicservice/Latvia/Vehicles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/vehicles/index_en.htm> .
+<http://example.org/nifo/publicservice/Latvia/Residenceformalities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/residence/index_en.htm> .
+<http://example.org/nifo/publicservice/Latvia/Educationandyouth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/education/index_en.htm> .
+<http://example.org/nifo/publicservice/Latvia/Health> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/health/index_en.htm> .
+<http://example.org/nifo/publicservice/Latvia/Family> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/family/index_en.htm> .
+<http://example.org/nifo/publicservice/Latvia/Consumers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/consumers/index_en.htm> .
+<http://example.org/nifo/publicservice/Latvia/Runningabusiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/running-business/index_en.htm> .
+<http://example.org/nifo/publicservice/Latvia/Taxation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/taxation/index_en.htm> .
+<http://example.org/nifo/publicservice/Latvia/SellingintheEU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/selling-in-eu/index_en.htm> .
+<http://example.org/nifo/publicservice/Latvia/HumanResources> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/human-resources/index_en.htm> .
+<http://example.org/nifo/publicservice/Latvia/Productrequirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/product-requirements/index_en.htm> .
+<http://example.org/nifo/publicservice/Latvia/FinancingandFunding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/finance-funding/index_en.htm> .
+<http://example.org/nifo/publicservice/Latvia/DealingwithCustomers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/dealing-with-customers/index_en.htm> .

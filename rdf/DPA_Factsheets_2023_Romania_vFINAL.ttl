@@ -1,0 +1,120 @@
+<http://data.europa.eu/nifo/factsheet/Romania> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Romania>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/ROU";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/legalframework/Romania> .
+<http://publications.europa.eu/resource/authority/country/Romania> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/source> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring>;
+ <http://dbpedia.org/ontology/areaTotal> "The results of Romania concerning Cross-border Interoperability in Scoreboard 4 show an overall medium-low level of implementation of the associated recommendations. Romania has a higher performance in Principle 11 – Preservation of information, denoting the implementation of a long-term preservation policy for information related to European public services and especially for information that is exchanged across borders (Recommendation 18). Areas for improvement concern, among others, the definition of a common security and privacy framework and the establishment of processes for public services to ensure secure and trustworthy data exchange between public administrations and in interactions with citizens and businesses (Principle 8 Security and privacy – Recommendation 15). Moreover, Romania could further work to use a structured, transparent, objective and common approach to assessing and selecting standards and specifications, considering relevant EU recommendations and seek to make the approach consistent across borders (Interoperability governance – Recommendation 22). It is worth noting that the results are partially impacted by the lack of data along seven dimensions considered by the scoreboard. " .
+<http://example.org/ContactPoint/Romania> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://cert.ro/vezi/document/strategia-de-securitate-cibernetica>, <http://legislatie.just.ro/Public/DetaliiDocument/209670>, <https://www.comunicatii.gov.ro/wp-content/uploads/2019/01/plan-de-actiuni-24.01.2019.pdf>, <https://legislatie.just.ro/Public/DetaliiDocument/257796> .
+<https://cert.ro/vezi/document/strategia-de-securitate-cibernetica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Government Decision No. 271/2013" .
+<http://legislatie.just.ro/Public/DetaliiDocument/209670> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Law No. 362/2018" .
+<https://www.comunicatii.gov.ro/wp-content/uploads/2019/01/plan-de-actiuni-24.01.2019.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "action plan" .
+<https://legislatie.just.ro/Public/DetaliiDocument/257796> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "decision" .
+<http://example.org/nifo/legalframework/Romania> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://legislatie.just.ro/Public/DetaliiDocument/122181>, <https://legislatie.just.ro/Public/DetaliiDocumentAfis/257856>, <https://www.adr.gov.ro/wp-content/uploads/2022/03/Text-Legea-Interoperabilitatii-si-Expunere-de-motive-15.03.2022.zip>, <https://data.gov.ro/blog/legea-nr-179-2022-privind-datele-deschise-si-reutilizarea-informatiilor-din-sectorul-public>, <http://legislatie.resurse-pentru-democratie.org/544_2001.php>, <http://legislatie.just.ro/Public/DetaliiDocument/46410>, <https://legislatie.just.ro/Public/DetaliiDocument/82217>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG>, <http://ec.europa.eu/justice/policies/privacy/docs/implementation/ro_law_677_2001_en_unofficial.pdf>, <http://www.dataprotection.ro/servlet/ViewDocument?id=173>, <https://legislatie.just.ro/Public/DetaliiDocument/265677>, <http://www.cdep.ro/pls/legis/legis_pck.htp_act?ida=42939>, <https://legislatie.just.ro/Public/DetaliiDocument/255495>, <http://anap.gov.ro/web/wp-content/uploads/2016/05/L98_2016.pdf>, <http://legislatie.just.ro/Public/DetaliiDocument/178667>, <https://legislatie.just.ro/Public/DetaliiDocument/71663>, <http://legislatie.just.ro/Public/DetaliiDocument/71663>, <https://static.anaf.ro/static/10/Anaf/legislatie/Cod_fiscal_norme_31072017.htm>, <https://www.comunicatii.gov.ro/wp-content/uploads/2016/01/LEGE-nr-455.doc>, <https://www.comunicatii.gov.ro/wp-content/uploads/2016/01/LEGE-nr-135.doc>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32019R1150>, <https://legislatie.just.ro/Public/DetaliiDocumentAfis/83927>, <https://legislatie.just.ro/Public/DetaliiDocumentAfis/76817>, <https://legislatie.just.ro/Public/DetaliiDocument/264731> .
+<http://legislatie.just.ro/Public/DetaliiDocument/122181> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Government Decision on the Organisation and Operation of the Electronic Point of Single Contact", "Decision No. 922/2010";
+ <http://purl.org/dc/terms/relation> <https://lege5.ro/Gratuit/gezdinjwgy/ordonanta-de-urgenta-nr-49-2009-privind-libertatea-de-stabilire-a-prestatorilor-de-servicii-si-libertatea-de-a-furniza-servicii-in-romania> .
+<https://lege5.ro/Gratuit/gezdinjwgy/ordonanta-de-urgenta-nr-49-2009-privind-libertatea-de-stabilire-a-prestatorilor-de-servicii-si-libertatea-de-a-furniza-servicii-in-romania> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 49/2009" .
+<https://legislatie.just.ro/Public/DetaliiDocumentAfis/257856> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the exchange of data between IT systems", "Law 242 of 20 July 2022,", "Law No. 242 of 20 July 2022 on the exchange of data between IT systems " .
+<https://www.adr.gov.ro/wp-content/uploads/2022/03/Text-Legea-Interoperabilitatii-si-Expunere-de-motive-15.03.2022.zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law" .
+<https://data.gov.ro/blog/legea-nr-179-2022-privind-datele-deschise-si-reutilizarea-informatiilor-din-sectorul-public> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "law no. 179/2022 on Open data and reuse in public sector" .
+<http://legislatie.resurse-pentru-democratie.org/544_2001.php> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Free Access to Information of Public Interest", "Law No. 544/2001";
+ <http://purl.org/dc/terms/relation> <http://www.apador.org/legi/HG_123.pdf> .
+<http://www.apador.org/legi/HG_123.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Government Decision No. 123/2002" .
+<http://legislatie.just.ro/Public/DetaliiDocument/46410> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Government Decision No. 1085/2003";
+ <http://purl.org/dc/terms/relation> <http://www.cdep.ro/pls/legis/legis_pck.htp_act?ida=42939> .
+<http://www.cdep.ro/pls/legis/legis_pck.htp_act?ida=42939> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 161/2003", "Anti-corruption Law " .
+<https://legislatie.just.ro/Public/DetaliiDocument/82217> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 135/2007" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "eIDAS Regulation";
+ <http://purl.org/dc/terms/relation> <https://www.comunicatii.gov.ro/wp-content/uploads/2017/12/Proiect-de-Lege-serviciilor-de-incredere-13.12.2017.pdf> .
+<https://www.comunicatii.gov.ro/wp-content/uploads/2017/12/Proiect-de-Lege-serviciilor-de-incredere-13.12.2017.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on eID and Trust Services for Electronic Transactions" .
+<http://ec.europa.eu/justice/policies/privacy/docs/implementation/ro_law_677_2001_en_unofficial.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 677/2001";
+ <http://purl.org/dc/terms/relation> <http://legislatie.just.ro/Public/DetaliiDocument/61409> .
+<http://legislatie.just.ro/Public/DetaliiDocument/61409> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 102/2005";
+ <http://purl.org/dc/terms/relation> <http://legislatie.resurse-pentru-democratie.org/legea/677-2001.php> .
+<http://legislatie.resurse-pentru-democratie.org/legea/677-2001.php> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 677/2001" .
+<http://www.dataprotection.ro/servlet/ViewDocument?id=173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the Processing of Personal Data and the Protection of Privacy in the Electronic Communications Sector";
+ <http://purl.org/dc/terms/relation> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0058:en:HTML> .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0058:en:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2002/58/EC on personal data processing and privacy protection in the electronic communications sector" .
+<https://legislatie.just.ro/Public/DetaliiDocument/265677> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 58 of 14 March 2023" .
+<https://legislatie.just.ro/Public/DetaliiDocument/255495> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No.139/2022" .
+<http://anap.gov.ro/web/wp-content/uploads/2016/05/L98_2016.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law" .
+<http://legislatie.just.ro/Public/DetaliiDocument/178667> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Public Procurement" .
+<https://legislatie.just.ro/Public/DetaliiDocument/71663> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Government Decision on the Approval of Application Norms for the Award of Public Contracts by Electronic Means";
+ <http://purl.org/dc/terms/relation> <https://legislatie.just.ro/Public/DetaliiDocument/73667> .
+<https://legislatie.just.ro/Public/DetaliiDocument/73667> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Government Emergency Ordinance No. 34/2006 on the Award of Public Procurement Contracts, Public Works Concession Contracts and Services Concession Contracts" .
+<http://legislatie.just.ro/Public/DetaliiDocument/71663> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Government Emergency Ordinance No. 34/2006 on the Award of Public Procurement Contracts, Public Works Concession Contracts and Services Concession Contracts", "Government Emergency Ordinance No. 34/2006 on the Award of Public Procurement Contracts, Public Works Concession Contracts and Services Concession Contracts";
+ <http://purl.org/dc/terms/relation> <http://www.fsesudest.ro/legislatie/HG_1337_2006.pdf>, <https://lege5.ro/Gratuit/he4tknzv/hotararea-nr-1660-2006-pentru-aprobarea-normelor-de-aplicare-a-prevederilor-referitoare-la-atribuirea-contractelor-de-achizitie-publica-prin-mijloace-electronice-din-ordonanta-de-urgenta-a-guvernului-> .
+<http://www.fsesudest.ro/legislatie/HG_1337_2006.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Government Decision No. 1337/2006" .
+<https://lege5.ro/Gratuit/he4tknzv/hotararea-nr-1660-2006-pentru-aprobarea-normelor-de-aplicare-a-prevederilor-referitoare-la-atribuirea-contractelor-de-achizitie-publica-prin-mijloace-electronice-din-ordonanta-de-urgenta-a-guvernului-> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Government Decision No. 1660/2006" .
+<https://static.anaf.ro/static/10/Anaf/legislatie/Cod_fiscal_norme_31072017.htm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 227/2015" .
+<https://www.comunicatii.gov.ro/wp-content/uploads/2016/01/LEGE-nr-455.doc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 455/2001" .
+<https://www.comunicatii.gov.ro/wp-content/uploads/2016/01/LEGE-nr-135.doc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 135/2007" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32019R1150> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation 2019/1150 (EU)" .
+<https://legislatie.just.ro/Public/DetaliiDocumentAfis/83927> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on Electronic Registration of Commercial Operations";
+ <http://purl.org/dc/terms/relation> <http://www.cdep.ro/pls/legis/legis_pck.htp_act_text?idt=52436> .
+<http://www.cdep.ro/pls/legis/legis_pck.htp_act_text?idt=52436> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 571/2003" .
+<https://legislatie.just.ro/Public/DetaliiDocumentAfis/76817> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation on the Issuance and Use of Electronic Payment Instruments and the Relationship between Users of such Transactions " .
+<https://legislatie.just.ro/Public/DetaliiDocument/264731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Decision No. 112 of 8 February 2023" .
+<http://example.org/nifo/structure/Romania> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://www.e-guvernare.ro/>, <https://edirect.e-guvernare.ro/SitePages/landingpage.aspx>, <http://www.data.gov.ro>, <https://portal.just.ro/SitePages/acasa.aspx>, <https://epay.ancpi.ro/epay/SelectProd.action?prodId=1420>, <https://www.ghiseul.ro/ghiseul/public/>, <https://hub.mai.gov.ro/>, <http://www.ecomunitate.ro/proiect>, <https://cetatean.gov.ro/>, <https://www.adr.gov.ro/sistem-de-interoperabilitate-tehnologica-cu-statele-membre-ue-situe/>, <https://www.adr.gov.ro/proiecte-in-implementare/platforma-software-centralizata-pentru-identificare-digitala-pscid/>, <http://www.e-licitatie.ro/Public/Common/Content.aspx?f=PublicHomePage>, <http://www.e-licitatie.ro/pub>, <https://ec.europa.eu/digital-single-market/en/connecting-europe-facility>, <https://demo.e-licitatie.ro/pub>, <https://www.anaf.ro/anaf/internet/ANAF/despre_anaf/strategii_anaf/proiecte_digitalizare/e.factura/!ut/p/a1/jZDBCoJAEIafxqv7qynWzaI0C1JB1L2Ehq2CuqKWr596Sihrb7Pzfcw_QygJCa3iZ87iLudVXIw11a6WZGmWrMu2fnB3cD3pvDdOAC7yAETvACwXcNXt0VNNB1grc3_eNlf44UP7z8eXZ-BX_oDQpRHTBovAGHECFjLYhLKCJ9M9I6NKFJ0R2qT3tEkb8dEM31nX1e1GgIC-70XGOStS8cZLAZ-UjLcdCeckqUvfD5E7ZaC3Lyu4tE0!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/>, <https://www.ghiseul.ro/ghiseul/public>, <https://www.anaf.ro/anaf/internet/ANAF/servicii_online/one_stop_shop> .
+<http://www.e-guvernare.ro/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://edirect.e-guvernare.ro/SitePages/landingpage.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.data.gov.ro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://portal.just.ro/SitePages/acasa.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://epay.ancpi.ro/epay/SelectProd.action?prodId=1420> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ghiseul.ro/ghiseul/public/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://hub.mai.gov.ro/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.ecomunitate.ro/proiect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://cetatean.gov.ro/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.adr.gov.ro/sistem-de-interoperabilitate-tehnologica-cu-statele-membre-ue-situe/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.adr.gov.ro/proiecte-in-implementare/platforma-software-centralizata-pentru-identificare-digitala-pscid/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.e-licitatie.ro/Public/Common/Content.aspx?f=PublicHomePage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.e-licitatie.ro/pub> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/digital-single-market/en/connecting-europe-facility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://demo.e-licitatie.ro/pub> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.anaf.ro/anaf/internet/ANAF/despre_anaf/strategii_anaf/proiecte_digitalizare/e.factura/!ut/p/a1/jZDBCoJAEIafxqv7qynWzaI0C1JB1L2Ehq2CuqKWr596Sihrb7Pzfcw_QygJCa3iZ87iLudVXIw11a6WZGmWrMu2fnB3cD3pvDdOAC7yAETvACwXcNXt0VNNB1grc3_eNlf44UP7z8eXZ-BX_oDQpRHTBovAGHECFjLYhLKCJ9M9I6NKFJ0R2qT3tEkb8dEM31nX1e1GgIC-70XGOStS8cZLAZ-UjLcdCeckqUvfD5E7ZaC3Lyu4tE0!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ghiseul.ro/ghiseul/public> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.anaf.ro/anaf/internet/ANAF/servicii_online/one_stop_shop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Romania> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .

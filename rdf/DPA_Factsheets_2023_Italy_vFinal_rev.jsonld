@@ -1,0 +1,587 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Italy",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Italy"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/ITA"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/legalframework/Italy"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Italy",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.gazzettaufficiale.it/eli/id/2022/06/29/22G00091/sg"
+        },
+        {
+          "@id": "https://www.gazzettaufficiale.it/eli/id/2019/12/30/19G00165/sg"
+        },
+        {
+          "@id": "https://trasparenza.agid.gov.it/archivio28_provvedimenti-amministrativi_0_123064_725_1.html"
+        },
+        {
+          "@id": "https://www.gazzettaufficiale.it/eli/id/1990/08/18/090G0294/sg"
+        },
+        {
+          "@id": "https://www.gazzettaufficiale.it/eli/id/2015/08/13/15G00138/sg"
+        },
+        {
+          "@id": "https://www.agid.gov.it/sites/default/files/repository_files/36_-_dt_dg_n._36_-_12_feb_2018_-_riorganizzazione_dominio_gov_22.12.2017_003_1_4.pdf"
+        },
+        {
+          "@id": "https://www.gazzettaufficiale.it/eli/id/2018/12/14/18G00163/sg"
+        },
+        {
+          "@id": "https://www.gazzettaufficiale.it/eli/id/2019/02/12/19G00017/sg"
+        }
+      ]
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/country/Italy",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/Italy",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.agid.gov.it/sites/default/files/repository_files/547_dt_dg_n_547_1_ott_2021_adozione_lg_interoperabilit_tecnica_e_sicurezza.pdf"
+        },
+        {
+          "@id": "https://open.gov.it/en/open-government/national-plan/5nap#documents"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-digitale-nazionale-dati",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.agid.gov.it/sites/default/files/repository_files/547_dt_dg_n_547_1_ott_2021_adozione_lg_interoperabilit_tecnica_e_sicurezza.pdf",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Decision No. 547/2021"
+      ]
+    },
+    {
+      "@id": "https://open.gov.it/en/open-government/national-plan/5nap#documents",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Action Plan for Open Government"
+      ]
+    },
+    {
+      "@id": "https://www.gazzettaufficiale.it/eli/id/2022/06/29/22G00091/sg",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 79/2022"
+      ]
+    },
+    {
+      "@id": "https://www.gazzettaufficiale.it/eli/id/2019/12/30/19G00165/sg",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 160/2019"
+      ]
+    },
+    {
+      "@id": "https://trasparenza.agid.gov.it/archivio28_provvedimenti-amministrativi_0_123064_725_1.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Act No. 627/2021"
+      ]
+    },
+    {
+      "@id": "https://www.gazzettaufficiale.it/eli/id/1990/08/18/090G0294/sg",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Chapter V of Law No. 241 of 7 August 1990"
+      ]
+    },
+    {
+      "@id": "https://www.gazzettaufficiale.it/eli/id/2015/08/13/15G00138/sg",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 124 of 7 August 2015"
+      ]
+    },
+    {
+      "@id": "https://www.agid.gov.it/sites/default/files/repository_files/36_-_dt_dg_n._36_-_12_feb_2018_-_riorganizzazione_dominio_gov_22.12.2017_003_1_4.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decision No. 36/2018 AgID of 12 February 2018"
+      ]
+    },
+    {
+      "@id": "https://www.gazzettaufficiale.it/eli/id/2018/12/14/18G00163/sg",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decree-Law No. 135 of 14 December 2018"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.infoparlamento.it/Pdf/ShowPdf/4054"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.infoparlamento.it/Pdf/ShowPdf/4054",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 12 of 11 February 2019"
+      ]
+    },
+    {
+      "@id": "https://www.gazzettaufficiale.it/eli/id/2019/02/12/19G00017/sg",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 135 of 14 December 2018"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/Italy",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://padigitale2026.gov.it/"
+        },
+        {
+          "@id": "https://www.anagrafenazionale.interno.it/portale/"
+        },
+        {
+          "@id": "https://www.impresainungiorno.gov.it/web/l-impresa-e-l-europa/doing-business-in-italy"
+        },
+        {
+          "@id": "https://www.cliclavoro.gov.it/"
+        },
+        {
+          "@id": "https://developers.italia.it/en/designers/"
+        },
+        {
+          "@id": "https://presidenza.governo.it/AmministrazioneTrasparente/BandiContratti/Procedure_LavoriFornitureServizi/Trasparenza/InformazioniSingoleProcedure/Detail?idLavoro=trsp_233179&tipocontr=128234"
+        },
+        {
+          "@id": "https://docs.italia.it/"
+        },
+        {
+          "@id": "https://indicepa.gov.it/ipa-portale/"
+        },
+        {
+          "@id": "https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-digitale-nazionale-dati"
+        },
+        {
+          "@id": "https://docs.italia.it/italia/designers-italia/app-valutazione-modelli-docs/it/versione-attuale/index.html"
+        },
+        {
+          "@id": "https://sts.regione.emilia-romagna.it/adfs/ls/?SAMLRequest=nZPLbtswEEX3+QqBe5nUw3VD2AaUGEENpK1qK110N5FGDgGKVDmU+/j6UsqzCGog3V5dzpw7M1oSdLqXxeDvzA6/D0g+in522pCcvqzY4Iy0QIqkgQ5J+lrui4/XMp0J2TvrbW01O9tuVozSLG3e1fNFkiVt835Ro6hzkYigtLdJkqfnYpFiOs/nLPqKjpQ1KxbKsGhLNODWkAfjgyTSLBZZnCVVMpfiXIrsG4s2AU0Z8NOrO+97kpyTp5nDQ9Bwhp3SCmJnOzgYmCnPoWmJa+IsurKuxinkirWgCceeJRCpIz4p5UOaC2UaZQ6no9/em0h+qKoyLj/vKxYVROhGwEtraOjQ7dEdVY03u+tnZOh7rWr4HWzq3+wyzzMOXah3RMcf6/EOPRTBSXxXVmx9thyXJKfxuRdrO40Oj5hs/TaosemSv2j5ANDLT6HJdlPaUOTX/9zPuKAO/Gn3qKgmbier7McLIo/Gs2hfjgBfBtCqVejeOuxpmFGhtf1x6RB8OAnvBmTr+7B/xwuZ+eufZv0H&RelayState=s232d6c57131fd87ce0c4010c57fb11429072e2545&SigAlg=http://www.w3.org/2000/09/xmldsig#rsa-sha1&Signature=USSkygXMPgJU1UBawurqP/KR7v3To/0qFcqrVcOA/lzV3M6C1J/g11aBPpR8sTIguvRPTH/dpqZAjLzmqA/1w27kDFK2bfsezNsVN/NL/0BPTsX5JxrnCneRP/42XRwtJ3GJJNxqx2h7nLP9bB8XRSOvkKpYB5YnlK2MJoc4O9aUMjWXzHzyGqnRiBNoAWmW/YoUuI5YE1TPMY2DG01hnkz0Jiw9YAqn3vAJLDnbGOI/jSW8zHQVERAvy6MjFi2hE2ObPAjTb+phUS1YvEvDosBe+85ORPhIdIZmZ09AymJAKYEXv0000e9/nTta3wTlg+7YPO7+nD+v5lPz1gE66g==&client-request-id=a536bcb0-94df-451a-e625-0080010c006c&pullStatus=0"
+        },
+        {
+          "@id": "https://digitale.regione.emilia-romagna.it/comtem/struttura-e-governance"
+        },
+        {
+          "@id": "https://www.agid.gov.it/it/infrastrutture/sistema-pubblico-connettivita"
+        },
+        {
+          "@id": "https://ec.europa.eu/isa2/solutions/testa_en/"
+        },
+        {
+          "@id": "https://www.cliclavoro.gov.it/"
+        },
+        {
+          "@id": "http://www.progettoicar.it/home.aspx"
+        },
+        {
+          "@id": "https://www.spid.gov.it/"
+        },
+        {
+          "@id": "https://avanzamentodigitale.italia.it/it/progetto/spid"
+        },
+        {
+          "@id": "https://www.passaportonline.poliziadistato.it/"
+        },
+        {
+          "@id": "https://io.italia.it/"
+        },
+        {
+          "@id": "https://appaltinnovativi.gov.it/"
+        },
+        {
+          "@id": "https://www.agid.gov.it/it/piattaforme/procurement/forum-procurement"
+        },
+        {
+          "@id": "https://www.acquistinretepa.it/opencms/opencms/"
+        },
+        {
+          "@id": "https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/sistema-di-interscambio"
+        },
+        {
+          "@id": "https://www.gazzettaufficiale.it/eli/id/2019/02/12/19A00934/sg"
+        },
+        {
+          "@id": "https://www.pagopa.gov.it/"
+        },
+        {
+          "@id": "https://www.funzionepubblica.gov.it/articolo/dipartimento/24-10-2018/competenze-digitali-la-pa-al-la-consultazione-del-syllabus"
+        },
+        {
+          "@id": "https://commission.europa.eu/law/cross-border-cases/judicial-cooperation_en"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/egovernment/solution/european-land-information-service-eulis/about"
+        },
+        {
+          "@id": "https://cordis.europa.eu/project/id/225010"
+        },
+        {
+          "@id": "https://www.eid.gov.it/"
+        },
+        {
+          "@id": "https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2017-2019/doc/04_infrastrutture-immateriali.html#dati-della-pubblica-amministrazione"
+        },
+        {
+          "@id": "https://www.anpr.interno.it/portale/"
+        },
+        {
+          "@id": "https://certificaticasellario.giustizia.it/sac/"
+        },
+        {
+          "@id": "https://www.registroimprese.it/"
+        },
+        {
+          "@id": "https://www.indicepa.gov.it/ipa-portale/documentale/index.php"
+        },
+        {
+          "@id": "https://www.inipec.gov.it/"
+        },
+        {
+          "@id": "https://www.dati.gov.it/"
+        },
+        {
+          "@id": "https://www.gazzettaufficiale.it/eli/id/2020/07/16/20G00096/sg"
+        },
+        {
+          "@id": "https://innovazione.gov.it/dipartimento/focus/polo-strategico-nazionale/"
+        }
+      ]
+    },
+    {
+      "@id": "https://padigitale2026.gov.it/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.anagrafenazionale.interno.it/portale/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.impresainungiorno.gov.it/web/l-impresa-e-l-europa/doing-business-in-italy",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.cliclavoro.gov.it/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://developers.italia.it/en/designers/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://presidenza.governo.it/AmministrazioneTrasparente/BandiContratti/Procedure_LavoriFornitureServizi/Trasparenza/InformazioniSingoleProcedure/Detail?idLavoro=trsp_233179&tipocontr=128234",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://docs.italia.it/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://indicepa.gov.it/ipa-portale/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://docs.italia.it/italia/designers-italia/app-valutazione-modelli-docs/it/versione-attuale/index.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://sts.regione.emilia-romagna.it/adfs/ls/?SAMLRequest=nZPLbtswEEX3+QqBe5nUw3VD2AaUGEENpK1qK110N5FGDgGKVDmU+/j6UsqzCGog3V5dzpw7M1oSdLqXxeDvzA6/D0g+in522pCcvqzY4Iy0QIqkgQ5J+lrui4/XMp0J2TvrbW01O9tuVozSLG3e1fNFkiVt835Ro6hzkYigtLdJkqfnYpFiOs/nLPqKjpQ1KxbKsGhLNODWkAfjgyTSLBZZnCVVMpfiXIrsG4s2AU0Z8NOrO+97kpyTp5nDQ9Bwhp3SCmJnOzgYmCnPoWmJa+IsurKuxinkirWgCceeJRCpIz4p5UOaC2UaZQ6no9/em0h+qKoyLj/vKxYVROhGwEtraOjQ7dEdVY03u+tnZOh7rWr4HWzq3+wyzzMOXah3RMcf6/EOPRTBSXxXVmx9thyXJKfxuRdrO40Oj5hs/TaosemSv2j5ANDLT6HJdlPaUOTX/9zPuKAO/Gn3qKgmbier7McLIo/Gs2hfjgBfBtCqVejeOuxpmFGhtf1x6RB8OAnvBmTr+7B/xwuZ+eufZv0H&RelayState=s232d6c57131fd87ce0c4010c57fb11429072e2545&SigAlg=http://www.w3.org/2000/09/xmldsig#rsa-sha1&Signature=USSkygXMPgJU1UBawurqP/KR7v3To/0qFcqrVcOA/lzV3M6C1J/g11aBPpR8sTIguvRPTH/dpqZAjLzmqA/1w27kDFK2bfsezNsVN/NL/0BPTsX5JxrnCneRP/42XRwtJ3GJJNxqx2h7nLP9bB8XRSOvkKpYB5YnlK2MJoc4O9aUMjWXzHzyGqnRiBNoAWmW/YoUuI5YE1TPMY2DG01hnkz0Jiw9YAqn3vAJLDnbGOI/jSW8zHQVERAvy6MjFi2hE2ObPAjTb+phUS1YvEvDosBe+85ORPhIdIZmZ09AymJAKYEXv0000e9/nTta3wTlg+7YPO7+nD+v5lPz1gE66g==&client-request-id=a536bcb0-94df-451a-e625-0080010c006c&pullStatus=0",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://digitale.regione.emilia-romagna.it/comtem/struttura-e-governance",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.agid.gov.it/it/infrastrutture/sistema-pubblico-connettivita",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/isa2/solutions/testa_en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.progettoicar.it/home.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.spid.gov.it/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://avanzamentodigitale.italia.it/it/progetto/spid",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.passaportonline.poliziadistato.it/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://io.italia.it/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://appaltinnovativi.gov.it/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.agid.gov.it/it/piattaforme/procurement/forum-procurement",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.acquistinretepa.it/opencms/opencms/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/sistema-di-interscambio",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.gazzettaufficiale.it/eli/id/2019/02/12/19A00934/sg",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.pagopa.gov.it/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.funzionepubblica.gov.it/articolo/dipartimento/24-10-2018/competenze-digitali-la-pa-al-la-consultazione-del-syllabus",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://commission.europa.eu/law/cross-border-cases/judicial-cooperation_en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/collection/egovernment/solution/european-land-information-service-eulis/about",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://cordis.europa.eu/project/id/225010",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.eid.gov.it/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2017-2019/doc/04_infrastrutture-immateriali.html#dati-della-pubblica-amministrazione",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.anpr.interno.it/portale/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://certificaticasellario.giustizia.it/sac/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.registroimprese.it/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.indicepa.gov.it/ipa-portale/documentale/index.php",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.inipec.gov.it/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.dati.gov.it/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.gazzettaufficiale.it/eli/id/2020/07/16/20G00096/sg",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://innovazione.gov.it/dipartimento/focus/polo-strategico-nazionale/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Italy",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

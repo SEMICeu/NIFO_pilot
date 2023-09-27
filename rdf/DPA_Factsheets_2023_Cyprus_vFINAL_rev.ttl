@@ -1,0 +1,157 @@
+<http://data.europa.eu/nifo/factsheet/Cyprus> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Cyprus>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/CYP";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/legalframework/Cyprus> .
+<http://publications.europa.eu/resource/authority/country/Cyprus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/source> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring>;
+ <http://purl.org/dc/terms/relation> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> .
+<https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> <http://data.europa.eu/eli/ontology#title> "interactive dashboards" .
+<http://example.org/ContactPoint/Cyprus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://dsf.dmrid.gov.cy/>, <https://www.dmrid.gov.cy/dmrid/research.nsf/planning01_el/planning01_el?OpenDocument>, <https://www.dmrid.gov.cy/dmrid/research.nsf/planning_el/planning_el?OpenDocument> .
+<https://dsf.dmrid.gov.cy/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Digital Services Factory (DSF) model" .
+<https://www.dmrid.gov.cy/dmrid/research.nsf/planning01_el/planning01_el?OpenDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Digital Skills – National Action Plan 2021–2025" .
+<https://www.dmrid.gov.cy/dmrid/research.nsf/planning_el/planning_el?OpenDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "National Digital Skills Action Plan 2021–2025" .
+<http://example.org/nifo/legalframework/Cyprus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://www.cylaw.org/nomoi/enop/non-ind/2017_1_184/index.html>, <https://www.data.gov.cy/sites/default/files/%2525C3%25258E%2525C2%25259D%2525C3%25258F%2525C2%25258C%2525C3%25258E%2525C2%2525BC%2525C3%25258E%2525C2%2525BF%2525C3%25258F%2525C2%252582%252520143(%2525C3%25258E%2525C2%252599)%252520%2525C3%25258F%2525C2%252580%2525C3%25258E%2525C2%2525B5%2525C3%25258F%2525C2%252581%2525C3%25258E%2525C2%2525AF%252520%2525C3%25258E%2525C2%252591%2525C3%25258E%2525C2%2525BD%2525C3%25258E%2525C2%2525BF%2525C3%25258E%2525C2%2525B9%2525C3%25258E%2525C2%2525BA%2525C3%25258F%2525C2%252584%2525C3%25258F%2525C2%25258E%2525C3%25258E%2525C2%2525BD%252520%2525C3%25258E%2525C2%252594%2525C3%25258E%2525C2%2525B5%2525C3%25258E%2525C2%2525B4%2525C3%25258E%2525C2%2525BF%2525C3%25258E%2525C2%2525BC%2525C3%25258E%2525C2%2525AD%2525C3%25258E%2525C2%2525BD%2525C3%25258F%2525C2%252589%2525C3%25258E%2525C2%2525BD%252520%2525C3%25258E%2525C2%2525BA%2525C3%25258E%2525C2%2525B1%2525C3%25258E%2525C2%2525B9%252520%2525C3%25258F%2525C2%252584%2525C3%25258E%2525C2%2525B7%2525C3%25258F%2525C2%252582%252520%2525C3%25258E%2525C2%2525A0%2525C3%25258E%2525C2%2525B5%2525C3%25258F%2525C2%252581%2525C3%25258E%2525C2%2525B1%2525C3%25258E%2525C2%2525B9%2525C3%25258F%2525C2%252584%2525C3%25258E%2525C2%2525AD%2525C3%25258F%2525C2%252581%2525C3%25258F%2525C2%252589%252520%2525C3%25258E%2525C2%2525A7%2525C3%25258F%2525C2%252581%2525C3%25258E%2525C2%2525AE%2525C3%25258F%2525C2%252583%2525C3%25258E%2525C2%2525B7%2525C3%25258F%2525C2%252582%252520%2525C3%25258F%2525C2%252584%2525C3%25258F%2525C2%252589%2525C3%25258E%2525C2%2525BD%252520%2525C3%25258E%2525C2%2525A0%2525C3%25258E%2525C2%252594%2525C3%25258E%2525C2%2525A4%2525202021.pdf>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R0910>, <http://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/page3b_en/page3b_en?opendocument>, <https://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/page3b_en/page3b_en?opendocument>, <http://www.cylaw.org/nomoi/enop/non-ind/2016_1_73/index.html>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055>, <https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex:32000L0031>, <http://www.cylaw.org/nomoi/indexes/2012_1_81.html>, <http://www.cylaw.org/nomoi/indexes/2019_1_59.html> .
+<http://www.cylaw.org/nomoi/enop/non-ind/2017_1_184/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Access to Public Sector Information (Law 184(Ι)/2017)" .
+<https://www.data.gov.cy/sites/default/files/%2525C3%25258E%2525C2%25259D%2525C3%25258F%2525C2%25258C%2525C3%25258E%2525C2%2525BC%2525C3%25258E%2525C2%2525BF%2525C3%25258F%2525C2%252582%252520143(%2525C3%25258E%2525C2%252599)%252520%2525C3%25258F%2525C2%252580%2525C3%25258E%2525C2%2525B5%2525C3%25258F%2525C2%252581%2525C3%25258E%2525C2%2525AF%252520%2525C3%25258E%2525C2%252591%2525C3%25258E%2525C2%2525BD%2525C3%25258E%2525C2%2525BF%2525C3%25258E%2525C2%2525B9%2525C3%25258E%2525C2%2525BA%2525C3%25258F%2525C2%252584%2525C3%25258F%2525C2%25258E%2525C3%25258E%2525C2%2525BD%252520%2525C3%25258E%2525C2%252594%2525C3%25258E%2525C2%2525B5%2525C3%25258E%2525C2%2525B4%2525C3%25258E%2525C2%2525BF%2525C3%25258E%2525C2%2525BC%2525C3%25258E%2525C2%2525AD%2525C3%25258E%2525C2%2525BD%2525C3%25258F%2525C2%252589%2525C3%25258E%2525C2%2525BD%252520%2525C3%25258E%2525C2%2525BA%2525C3%25258E%2525C2%2525B1%2525C3%25258E%2525C2%2525B9%252520%2525C3%25258F%2525C2%252584%2525C3%25258E%2525C2%2525B7%2525C3%25258F%2525C2%252582%252520%2525C3%25258E%2525C2%2525A0%2525C3%25258E%2525C2%2525B5%2525C3%25258F%2525C2%252581%2525C3%25258E%2525C2%2525B1%2525C3%25258E%2525C2%2525B9%2525C3%25258F%2525C2%252584%2525C3%25258E%2525C2%2525AD%2525C3%25258F%2525C2%252581%2525C3%25258F%2525C2%252589%252520%2525C3%25258E%2525C2%2525A7%2525C3%25258F%2525C2%252581%2525C3%25258E%2525C2%2525AE%2525C3%25258F%2525C2%252583%2525C3%25258E%2525C2%2525B7%2525C3%25258F%2525C2%252582%252520%2525C3%25258F%2525C2%252584%2525C3%25258F%2525C2%252589%2525C3%25258E%2525C2%2525BD%252520%2525C3%25258E%2525C2%2525A0%2525C3%25258E%2525C2%252594%2525C3%25258E%2525C2%2525A4%2525202021.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<https://www.data.gov.cy/sites/default/files/%C3%8E%C2%9D%C3%8F%C2%8C%C3%8E%C2%BC%C3%8E%C2%BF%C3%8F%C2%82%20143(%C3%8E%C2%99)%20%C3%8F%C2%80%C3%8E%C2%B5%C3%8F%C2%81%C3%8E%C2%AF%20%C3%8E%C2%91%C3%8E%C2%BD%C3%8E%C2%BF%C3%8E%C2%B9%C3%8E%C2%BA%C3%8F%C2%84%C3%8F%C2%8E%C3%8E%C2%BD%20%C3%8E%C2%94%C3%8E%C2%B5%C3%8E%C2%B4%C3%8E%C2%BF%C3%8E%C2%BC%C3%8E%C2%AD%C3%8E%C2%BD%C3%8F%C2%89%C3%8E%C2%BD%20%C3%8E%C2%BA%C3%8E%C2%B1%C3%8E%C2%B9%20%C3%8F%C2%84%C3%8E%C2%B7%C3%8F%C2%82%20%C3%8E%C2%A0%C3%8E%C2%B5%C3%8F%C2%81%C3%8E%C2%B1%C3%8E%C2%B9%C3%8F%C2%84%C3%8E%C2%AD%C3%8F%C2%81%C3%8F%C2%89%20%C3%8E%C2%A7%C3%8F%C2%81%C3%8E%C2%AE%C3%8F%C2%83%C3%8E%C2%B7%C3%8F%C2%82%20%C3%8F%C2%84%C3%8F%C2%89%C3%8E%C2%BD%20%C3%8E%C2%A0%C3%8E%C2%94%C3%8E%C2%A4%202021.pdf> <http://data.europa.eu/eli/ontology#title> "Law No. 143(I)/2021";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.172.01.0056.01.ENG> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.172.01.0056.01.ENG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive (EU) 2019/1024" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive (EU) 2016/2102";
+ <http://purl.org/dc/terms/relation> <https://www.mof.gov.cy/mof/gpo/gpo.nsf/All/0FB0F6C76FD8A8E3C22583D30066CF1D?OpenDocument> .
+<https://www.mof.gov.cy/mof/gpo/gpo.nsf/All/0FB0F6C76FD8A8E3C22583D30066CF1D?OpenDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law Νo. 50(Ι)/2019" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R0910> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>, <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation (EU) 910/2014" .
+<http://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/page3b_en/page3b_en?opendocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 125(I)/2018";
+ <http://purl.org/dc/terms/relation> <https://publications.europa.eu/en/publication-detail/-/publication/3e485e15-11bd-11e6-ba9a-01aa75ed71a1/language-en> .
+<https://publications.europa.eu/en/publication-detail/-/publication/3e485e15-11bd-11e6-ba9a-01aa75ed71a1/language-en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Regulation (EU) 2016/679" .
+<https://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/page3b_en/page3b_en?opendocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 125(I)/2018" .
+<http://www.cylaw.org/nomoi/enop/non-ind/2016_1_73/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Laws No. 73(I)/2016" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2014/55/EU", "Directive 2018/1972/EU";
+ <http://purl.org/dc/terms/relation> <http://www.cylaw.org/nomoi/arith/2019_1_089.pdf> .
+<http://www.cylaw.org/nomoi/arith/2019_1_089.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 89(I)/2019" .
+<https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex:32000L0031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2000/31/EC" .
+<http://www.cylaw.org/nomoi/indexes/2012_1_81.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 81(I)/2012on Electronic Money " .
+<http://www.cylaw.org/nomoi/indexes/2019_1_59.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law No. 59 (I)/2019" .
+<http://example.org/nifo/structure/Cyprus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.gov.cy/gr/>, <https://www.businessincyprus.gov.cy/about-us/#:~:text=Point%20of%20Single%20Contact%20(PSC)%20Cyprus&text=The%20PSC%20Cyprus%20portal,%20https,the%20services%20sector%20of%20Cyprus.>, <https://www.businessincyprus.gov.cy/about-us/>, <https://www.eprocurement.gov.cy/epps/cft/prepareViewCfTWS.do?resourceId=5384223>, <https://cge.cyprus.gov.cy/>, <http://www.data.gov.cy/>, <https://getdkan.org/>, <https://data.europa.eu/sites/default/files/data.europa.eu_landscaping_insight_report_n8_2022_1_1.pdf>, <https://www.pio.gov.cy/en/press-releases-article.html?id=4631#flat>, <http://portal.dls.moi.gov.cy/en-us/Pages/The-Department-of-Lands-and-Surveys-Web-Portal.aspx>, <https://inspire.ec.europa.eu/>, <https://hippodamus.tph.moi.gov.cy/#/main>, <https://www.mof.gov.cy/mof/papd/papd.nsf/page50_gr/page50_gr?OpenDocument>, <https://anticorruption.pias.gov.cy/pias/pias.nsf/index_en/index_en?opendocument>, <http://www.police.gov.cy/pias/pias.nsf/infocomplaints_en/infocomplaints_en?opendocument>, <http://www.cypruspost.post>, <https://www.cypruspost.post/en/e-shop?category=issues>, <https://www.cypruspost.post/en/shipping-tool>, <https://www.cypruspost.post/en/news/online-kepo>, <http://www.cbsit.com.cy/en/postal-services-solutions>, <http://www.moi.gov.cy/moi/crmd/crmd.nsf/index_en/index_en?OpenDocument>, <https://ecivil.crmd.moi.gov.cy/eCivil/index.jsp?pnum=CIT0P001>, <https://ijustice.judicial.gov.cy/>, <https://engrafes.moec.gov.cy/register/home>, <https://rtd.mcw.gov.cy/WebPhase1/gui/Common/LoginFrameGreek.jsp?lang=en>, <https://taxisnet.mof.gov.cy/login.jsp>, <https://taxisnet.mof.gov.cy/>, <https://taxportal.mof.gov.cy>, <https://www.mof.gov.cy/mof/tax/taxdep.nsf/index_en/index_en?opendocument>, <https://ergani.mlsi.gov.cy/(S(esf1ri0g2sodabvgzfkhqcqv))/login.aspx?ReturnUrl=/>, <http://www.motionbuscard.org.cy>, <https://eur-lex.europa.eu/eli/reg_del/2017/1926/oj>, <https://www.fundingprogrammesportal.gov.cy/en/funding-programmes/>, <https://ec.europa.eu/isa2/solutions/testa_en>, <https://e-consultation.gov.cy/>, <http://dits.dmrid.gov.cy/dmrid/dits/dits.nsf/All/123A11A0573FE559C22578F60034739E?OpenDocument>, <https://dits.dmrid.gov.cy/dmrid/dits/dits.nsf/index_gr/index_gr?opendocument>, <http://www.mof.gov.cy/papd>, <https://ec.europa.eu/inea/en/connecting-europe-facility/cef-telecom/2016-cy-ia-0054>, <http://www.moi.gov.cy/moi/asylum/asylumservice.nsf/index_en/index_en?OpenDocument>, <https://dec.dmrid.gov.cy/dmrid/dec/ws_dec.nsf/elaw_el/elaw_el?OpenDocument>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R0910>, <https://www.eprocurement.gov.cy/ceproc/home.do>, <http://www.treasury.gov.cy/treasury/publicpro/ppro.nsf/dmlindex_en/dmlindex_en?OpenDocument>, <http://www.e-invoicing.gov.cy/mof/einvoicing/e-invoicing.nsf/>, <http://www.moi.gov.cy/moi/e-invoicingla.nsf/home_en/home_en?openform>, <https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eInvoicing+in+Cyprus>, <http://www.cyprus.gov.cy/>, <https://www.mof.gov.cy/mof/gpo/gpo.nsf/dmlindex_en/dmlindex_en>, <http://www.businessincyprus.gov.cy/>, <https://www.cypruspost.post/en/thalisupp%22%20%5Cl%20%22:~:text=Using%20%C3%A2%C2%80%C2%9CThalis%20Upload%20&%20Payment%20Platform,before%20its%20arrival%20in%20Cyprus.>, <http://www.geoportal.gov.cy/MOI/DLS/geoportal/geoportal.nsf/index_en/index_en?OpenDocument>, <http://www.gsd-seismology.org.cy>, <https://www.mof.gov.cy/mof/pdmo/pdmo.nsf/index_en/index_en?opendocument>, <https://www.mof.gov.cy/mof/capa/cyacademy.nsf/index_en/index_en?opendocument>, <https://www.piopressreleases.com.cy>, <https://www.pressarchive.cy>, <http://www.publications.gov.cy>, <http://www.mcw.gov.cy/mcw/da/da.nsf/all/1A7BF21DA2D1652DC225750C00228456?opendocument>, <http://www.mof.gov.cy/mof/ce/theseas/theseas.nsf/index_en/index_en?OpenDocument>, <https://ec.europa.eu/social/main.jsp?catId=869>, <https://health.ec.europa.eu/system/files/2022-09/cbhc_ncp_en.pdf>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32011L0024>, <http://www.eures.gov.cy/mlsi/dl/eures/eures.nsf/index_en/index_en?opendocument>, <https://www.eucaris.net/>, <http://www.cylaw.org/nomoi/indexes/2019_1_45.html>, <https://www.pio.gov.cy/en/register-of-sworn-translators.html>, <https://digital-strategy.ec.europa.eu/en/policies/blockchain-partnership#:~:text=The%20European%20Blockchain%20Partnership%20(EBP)%20helps%20avoid%20fragmentation%20of%20the,deployment%20of%20blockchain-based%20services.>, <https://www.cysec.gov.cy/en-GB/home/> .
+<https://www.gov.cy/gr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.businessincyprus.gov.cy/about-us/#:~:text=Point%20of%20Single%20Contact%20(PSC)%20Cyprus&text=The%20PSC%20Cyprus%20portal,%20https,the%20services%20sector%20of%20Cyprus.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.businessincyprus.gov.cy/about-us/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.eprocurement.gov.cy/epps/cft/prepareViewCfTWS.do?resourceId=5384223> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://cge.cyprus.gov.cy/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.data.gov.cy/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://getdkan.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://data.europa.eu/sites/default/files/data.europa.eu_landscaping_insight_report_n8_2022_1_1.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.pio.gov.cy/en/press-releases-article.html?id=4631#flat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://portal.dls.moi.gov.cy/en-us/Pages/The-Department-of-Lands-and-Surveys-Web-Portal.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://inspire.ec.europa.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://hippodamus.tph.moi.gov.cy/#/main> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mof.gov.cy/mof/papd/papd.nsf/page50_gr/page50_gr?OpenDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://anticorruption.pias.gov.cy/pias/pias.nsf/index_en/index_en?opendocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.police.gov.cy/pias/pias.nsf/infocomplaints_en/infocomplaints_en?opendocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.cypruspost.post> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.cypruspost.post/en/e-shop?category=issues> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.cypruspost.post/en/shipping-tool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.cypruspost.post/en/news/online-kepo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.cbsit.com.cy/en/postal-services-solutions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.moi.gov.cy/moi/crmd/crmd.nsf/index_en/index_en?OpenDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ecivil.crmd.moi.gov.cy/eCivil/index.jsp?pnum=CIT0P001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ijustice.judicial.gov.cy/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://engrafes.moec.gov.cy/register/home> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://rtd.mcw.gov.cy/WebPhase1/gui/Common/LoginFrameGreek.jsp?lang=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://taxisnet.mof.gov.cy/login.jsp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://taxisnet.mof.gov.cy/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://taxportal.mof.gov.cy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mof.gov.cy/mof/tax/taxdep.nsf/index_en/index_en?opendocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ergani.mlsi.gov.cy/(S(esf1ri0g2sodabvgzfkhqcqv))/login.aspx?ReturnUrl=/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.motionbuscard.org.cy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eur-lex.europa.eu/eli/reg_del/2017/1926/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.fundingprogrammesportal.gov.cy/en/funding-programmes/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/isa2/solutions/testa_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://e-consultation.gov.cy/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://dits.dmrid.gov.cy/dmrid/dits/dits.nsf/All/123A11A0573FE559C22578F60034739E?OpenDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://dits.dmrid.gov.cy/dmrid/dits/dits.nsf/index_gr/index_gr?opendocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.mof.gov.cy/papd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/inea/en/connecting-europe-facility/cef-telecom/2016-cy-ia-0054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.moi.gov.cy/moi/asylum/asylumservice.nsf/index_en/index_en?OpenDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://dec.dmrid.gov.cy/dmrid/dec/ws_dec.nsf/elaw_el/elaw_el?OpenDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.eprocurement.gov.cy/ceproc/home.do> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.treasury.gov.cy/treasury/publicpro/ppro.nsf/dmlindex_en/dmlindex_en?OpenDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.e-invoicing.gov.cy/mof/einvoicing/e-invoicing.nsf/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.moi.gov.cy/moi/e-invoicingla.nsf/home_en/home_en?openform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eInvoicing+in+Cyprus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.cyprus.gov.cy/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mof.gov.cy/mof/gpo/gpo.nsf/dmlindex_en/dmlindex_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.businessincyprus.gov.cy/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.cypruspost.post/en/thalisupp%22%20%5Cl%20%22:~:text=Using%20%C3%A2%C2%80%C2%9CThalis%20Upload%20&%20Payment%20Platform,before%20its%20arrival%20in%20Cyprus.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.geoportal.gov.cy/MOI/DLS/geoportal/geoportal.nsf/index_en/index_en?OpenDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.gsd-seismology.org.cy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mof.gov.cy/mof/pdmo/pdmo.nsf/index_en/index_en?opendocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mof.gov.cy/mof/capa/cyacademy.nsf/index_en/index_en?opendocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.piopressreleases.com.cy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.pressarchive.cy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.publications.gov.cy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.mcw.gov.cy/mcw/da/da.nsf/all/1A7BF21DA2D1652DC225750C00228456?opendocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.mof.gov.cy/mof/ce/theseas/theseas.nsf/index_en/index_en?OpenDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/social/main.jsp?catId=869> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://health.ec.europa.eu/system/files/2022-09/cbhc_ncp_en.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32011L0024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.eures.gov.cy/mlsi/dl/eures/eures.nsf/index_en/index_en?opendocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.eucaris.net/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.cylaw.org/nomoi/indexes/2019_1_45.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.pio.gov.cy/en/register-of-sworn-translators.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://digital-strategy.ec.europa.eu/en/policies/blockchain-partnership#:~:text=The%20European%20Blockchain%20Partnership%20(EBP)%20helps%20avoid%20fragmentation%20of%20the,deployment%20of%20blockchain-based%20services.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.cysec.gov.cy/en-GB/home/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Cyprus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Cyprus/Travel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/travel/index_en.htm> .
+<http://example.org/nifo/publicservice/Cyprus/OnlineplatformforregistrationofCypriotcitizensoverseas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://www.connect2cy.gov.cy/> .
+<http://example.org/nifo/publicservice/Cyprus/Workandretirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/work/index_en.htm> .
+<http://example.org/nifo/publicservice/Cyprus/Vehicles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/vehicles/index_en.htm> .
+<http://example.org/nifo/publicservice/Cyprus/Residenceformalities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/residence/index_en.htm> .
+<http://example.org/nifo/publicservice/Cyprus/Educationandyouth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/education/index_en.htm> .
+<http://example.org/nifo/publicservice/Cyprus/Health> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/health/index_en.htm> .
+<http://example.org/nifo/publicservice/Cyprus/Family> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/family/index_en.htm> .
+<http://example.org/nifo/publicservice/Cyprus/Consumers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/consumers/index_en.htm> .
+<http://example.org/nifo/publicservice/Cyprus/Runningabusiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/running-business/index_en.htm> .
+<http://example.org/nifo/publicservice/Cyprus/Taxation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/taxation/index_en.htm> .
+<http://example.org/nifo/publicservice/Cyprus/SellingintheEU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/selling-in-eu/index_en.htm> .
+<http://example.org/nifo/publicservice/Cyprus/HumanResources> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/human-resources/index_en.htm> .
+<http://example.org/nifo/publicservice/Cyprus/Productrequirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/product-requirements/index_en.htm> .
+<http://example.org/nifo/publicservice/Cyprus/FinancingandFunding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/finance-funding/index_en.htm> .
+<http://example.org/nifo/publicservice/Cyprus/DealingwithCustomers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/dealing-with-customers/index_en.htm> .

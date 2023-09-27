@@ -1,0 +1,782 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Romania",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Romania"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/ROU"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/legalframework/Romania"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Romania",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://legislatie.just.ro/Public/DetaliiDocument/122181"
+        },
+        {
+          "@id": "http://legislatie.just.ro/Public/DetaliiDocument/122181"
+        },
+        {
+          "@id": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/257856"
+        },
+        {
+          "@id": "https://www.adr.gov.ro/wp-content/uploads/2022/03/Text-Legea-Interoperabilitatii-si-Expunere-de-motive-15.03.2022.zip"
+        },
+        {
+          "@id": "https://data.gov.ro/blog/legea-nr-179-2022-privind-datele-deschise-si-reutilizarea-informatiilor-din-sectorul-public"
+        },
+        {
+          "@id": "http://legislatie.resurse-pentru-democratie.org/544_2001.php"
+        },
+        {
+          "@id": "http://legislatie.resurse-pentru-democratie.org/544_2001.php"
+        },
+        {
+          "@id": "http://legislatie.just.ro/Public/DetaliiDocument/46410"
+        },
+        {
+          "@id": "https://legislatie.just.ro/Public/DetaliiDocument/82217"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG"
+        },
+        {
+          "@id": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/257856"
+        },
+        {
+          "@id": "http://ec.europa.eu/justice/policies/privacy/docs/implementation/ro_law_677_2001_en_unofficial.pdf"
+        },
+        {
+          "@id": "http://www.dataprotection.ro/servlet/ViewDocument?id=173"
+        },
+        {
+          "@id": "https://legislatie.just.ro/Public/DetaliiDocument/265677"
+        },
+        {
+          "@id": "https://legislatie.just.ro/Public/DetaliiDocument/265677"
+        },
+        {
+          "@id": "http://www.cdep.ro/pls/legis/legis_pck.htp_act?ida=42939"
+        },
+        {
+          "@id": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/257856"
+        },
+        {
+          "@id": "https://legislatie.just.ro/Public/DetaliiDocument/255495"
+        },
+        {
+          "@id": "http://anap.gov.ro/web/wp-content/uploads/2016/05/L98_2016.pdf"
+        },
+        {
+          "@id": "http://legislatie.just.ro/Public/DetaliiDocument/178667"
+        },
+        {
+          "@id": "https://legislatie.just.ro/Public/DetaliiDocument/71663"
+        },
+        {
+          "@id": "http://legislatie.just.ro/Public/DetaliiDocument/71663"
+        },
+        {
+          "@id": "http://legislatie.just.ro/Public/DetaliiDocument/71663"
+        },
+        {
+          "@id": "https://static.anaf.ro/static/10/Anaf/legislatie/Cod_fiscal_norme_31072017.htm"
+        },
+        {
+          "@id": "https://www.comunicatii.gov.ro/wp-content/uploads/2016/01/LEGE-nr-455.doc"
+        },
+        {
+          "@id": "https://www.comunicatii.gov.ro/wp-content/uploads/2016/01/LEGE-nr-135.doc"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32019R1150"
+        },
+        {
+          "@id": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/83927"
+        },
+        {
+          "@id": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/76817"
+        },
+        {
+          "@id": "https://legislatie.just.ro/Public/DetaliiDocument/264731"
+        }
+      ]
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/country/Romania",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ],
+      "http://dbpedia.org/ontology/areaTotal": [
+        "The results of Romania concerning Cross-border Interoperability in Scoreboard 4 show an overall medium-low level of implementation of the associated recommendations. Romania has a higher performance in Principle 11 – Preservation of information, denoting the implementation of a long-term preservation policy for information related to European public services and especially for information that is exchanged across borders (Recommendation 18). Areas for improvement concern, among others, the definition of a common security and privacy framework and the establishment of processes for public services to ensure secure and trustworthy data exchange between public administrations and in interactions with citizens and businesses (Principle 8 Security and privacy – Recommendation 15). Moreover, Romania could further work to use a structured, transparent, objective and common approach to assessing and selecting standards and specifications, considering relevant EU recommendations and seek to make the approach consistent across borders (Interoperability governance – Recommendation 22). It is worth noting that the results are partially impacted by the lack of data along seven dimensions considered by the scoreboard. "
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/Romania",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://cert.ro/vezi/document/strategia-de-securitate-cibernetica"
+        },
+        {
+          "@id": "http://legislatie.just.ro/Public/DetaliiDocument/209670"
+        },
+        {
+          "@id": "https://www.comunicatii.gov.ro/wp-content/uploads/2019/01/plan-de-actiuni-24.01.2019.pdf"
+        },
+        {
+          "@id": "https://legislatie.just.ro/Public/DetaliiDocument/257796"
+        }
+      ]
+    },
+    {
+      "@id": "https://cert.ro/vezi/document/strategia-de-securitate-cibernetica",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Government Decision No. 271/2013"
+      ]
+    },
+    {
+      "@id": "http://legislatie.just.ro/Public/DetaliiDocument/209670",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Law No. 362/2018"
+      ]
+    },
+    {
+      "@id": "https://www.comunicatii.gov.ro/wp-content/uploads/2019/01/plan-de-actiuni-24.01.2019.pdf",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "action plan"
+      ]
+    },
+    {
+      "@id": "https://legislatie.just.ro/Public/DetaliiDocument/257796",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "decision"
+      ]
+    },
+    {
+      "@id": "http://legislatie.just.ro/Public/DetaliiDocument/122181",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Government Decision on the Organisation and Operation of the Electronic Point of Single Contact",
+        "Decision No. 922/2010"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://lege5.ro/Gratuit/gezdinjwgy/ordonanta-de-urgenta-nr-49-2009-privind-libertatea-de-stabilire-a-prestatorilor-de-servicii-si-libertatea-de-a-furniza-servicii-in-romania"
+        }
+      ]
+    },
+    {
+      "@id": "https://lege5.ro/Gratuit/gezdinjwgy/ordonanta-de-urgenta-nr-49-2009-privind-libertatea-de-stabilire-a-prestatorilor-de-servicii-si-libertatea-de-a-furniza-servicii-in-romania",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 49/2009"
+      ]
+    },
+    {
+      "@id": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/257856",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on the exchange of data between IT systems",
+        "Law 242 of 20 July 2022,",
+        "Law No. 242 of 20 July 2022 on the exchange of data between IT systems "
+      ]
+    },
+    {
+      "@id": "https://www.adr.gov.ro/wp-content/uploads/2022/03/Text-Legea-Interoperabilitatii-si-Expunere-de-motive-15.03.2022.zip",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law"
+      ]
+    },
+    {
+      "@id": "https://data.gov.ro/blog/legea-nr-179-2022-privind-datele-deschise-si-reutilizarea-informatiilor-din-sectorul-public",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "law no. 179/2022 on Open data and reuse in public sector"
+      ]
+    },
+    {
+      "@id": "http://legislatie.resurse-pentru-democratie.org/544_2001.php",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Free Access to Information of Public Interest",
+        "Law No. 544/2001"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.apador.org/legi/HG_123.pdf"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.apador.org/legi/HG_123.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Government Decision No. 123/2002"
+      ]
+    },
+    {
+      "@id": "http://legislatie.just.ro/Public/DetaliiDocument/46410",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Government Decision No. 1085/2003"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.cdep.ro/pls/legis/legis_pck.htp_act?ida=42939"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.cdep.ro/pls/legis/legis_pck.htp_act?ida=42939",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 161/2003",
+        "Anti-corruption Law "
+      ]
+    },
+    {
+      "@id": "https://legislatie.just.ro/Public/DetaliiDocument/82217",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 135/2007"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "eIDAS Regulation"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.comunicatii.gov.ro/wp-content/uploads/2017/12/Proiect-de-Lege-serviciilor-de-incredere-13.12.2017.pdf"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.comunicatii.gov.ro/wp-content/uploads/2017/12/Proiect-de-Lege-serviciilor-de-incredere-13.12.2017.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on eID and Trust Services for Electronic Transactions"
+      ]
+    },
+    {
+      "@id": "http://ec.europa.eu/justice/policies/privacy/docs/implementation/ro_law_677_2001_en_unofficial.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 677/2001"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://legislatie.just.ro/Public/DetaliiDocument/61409"
+        }
+      ]
+    },
+    {
+      "@id": "http://legislatie.just.ro/Public/DetaliiDocument/61409",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 102/2005"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://legislatie.resurse-pentru-democratie.org/legea/677-2001.php"
+        }
+      ]
+    },
+    {
+      "@id": "http://legislatie.resurse-pentru-democratie.org/legea/677-2001.php",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 677/2001"
+      ]
+    },
+    {
+      "@id": "http://www.dataprotection.ro/servlet/ViewDocument?id=173",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on the Processing of Personal Data and the Protection of Privacy in the Electronic Communications Sector"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0058:en:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0058:en:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2002/58/EC on personal data processing and privacy protection in the electronic communications sector"
+      ]
+    },
+    {
+      "@id": "https://legislatie.just.ro/Public/DetaliiDocument/265677",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 58 of 14 March 2023",
+        "Law No. 58 of 14 March 2023"
+      ]
+    },
+    {
+      "@id": "https://legislatie.just.ro/Public/DetaliiDocument/255495",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No.139/2022"
+      ]
+    },
+    {
+      "@id": "http://anap.gov.ro/web/wp-content/uploads/2016/05/L98_2016.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law"
+      ]
+    },
+    {
+      "@id": "http://legislatie.just.ro/Public/DetaliiDocument/178667",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Public Procurement"
+      ]
+    },
+    {
+      "@id": "http://www.e-licitatie.ro/pub",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://legislatie.just.ro/Public/DetaliiDocument/71663",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Government Decision on the Approval of Application Norms for the Award of Public Contracts by Electronic Means"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://legislatie.just.ro/Public/DetaliiDocument/73667"
+        }
+      ]
+    },
+    {
+      "@id": "https://legislatie.just.ro/Public/DetaliiDocument/73667",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Government Emergency Ordinance No. 34/2006 on the Award of Public Procurement Contracts, Public Works Concession Contracts and Services Concession Contracts"
+      ]
+    },
+    {
+      "@id": "http://legislatie.just.ro/Public/DetaliiDocument/71663",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Government Emergency Ordinance No. 34/2006 on the Award of Public Procurement Contracts, Public Works Concession Contracts and Services Concession Contracts",
+        "Government Emergency Ordinance No. 34/2006 on the Award of Public Procurement Contracts, Public Works Concession Contracts and Services Concession Contracts"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.fsesudest.ro/legislatie/HG_1337_2006.pdf"
+        },
+        {
+          "@id": "https://lege5.ro/Gratuit/he4tknzv/hotararea-nr-1660-2006-pentru-aprobarea-normelor-de-aplicare-a-prevederilor-referitoare-la-atribuirea-contractelor-de-achizitie-publica-prin-mijloace-electronice-din-ordonanta-de-urgenta-a-guvernului-"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.fsesudest.ro/legislatie/HG_1337_2006.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Government Decision No. 1337/2006"
+      ]
+    },
+    {
+      "@id": "https://lege5.ro/Gratuit/he4tknzv/hotararea-nr-1660-2006-pentru-aprobarea-normelor-de-aplicare-a-prevederilor-referitoare-la-atribuirea-contractelor-de-achizitie-publica-prin-mijloace-electronice-din-ordonanta-de-urgenta-a-guvernului-",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Government Decision No. 1660/2006"
+      ]
+    },
+    {
+      "@id": "https://static.anaf.ro/static/10/Anaf/legislatie/Cod_fiscal_norme_31072017.htm",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 227/2015"
+      ]
+    },
+    {
+      "@id": "https://www.comunicatii.gov.ro/wp-content/uploads/2016/01/LEGE-nr-455.doc",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 455/2001"
+      ]
+    },
+    {
+      "@id": "https://www.comunicatii.gov.ro/wp-content/uploads/2016/01/LEGE-nr-135.doc",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 135/2007"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32019R1150",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation 2019/1150 (EU)"
+      ]
+    },
+    {
+      "@id": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/83927",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Electronic Registration of Commercial Operations"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.cdep.ro/pls/legis/legis_pck.htp_act_text?idt=52436"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.cdep.ro/pls/legis/legis_pck.htp_act_text?idt=52436",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 571/2003"
+      ]
+    },
+    {
+      "@id": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/76817",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Regulation on the Issuance and Use of Electronic Payment Instruments and the Relationship between Users of such Transactions "
+      ]
+    },
+    {
+      "@id": "https://legislatie.just.ro/Public/DetaliiDocument/264731",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Decision No. 112 of 8 February 2023"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/Romania",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.e-guvernare.ro/"
+        },
+        {
+          "@id": "https://edirect.e-guvernare.ro/SitePages/landingpage.aspx"
+        },
+        {
+          "@id": "http://www.data.gov.ro/"
+        },
+        {
+          "@id": "https://portal.just.ro/SitePages/acasa.aspx"
+        },
+        {
+          "@id": "https://epay.ancpi.ro/epay/SelectProd.action?prodId=1420"
+        },
+        {
+          "@id": "https://epay.ancpi.ro/epay/SelectProd.action?prodId=1420"
+        },
+        {
+          "@id": "https://www.ghiseul.ro/ghiseul/public/"
+        },
+        {
+          "@id": "https://hub.mai.gov.ro/"
+        },
+        {
+          "@id": "http://www.ecomunitate.ro/proiect"
+        },
+        {
+          "@id": "https://cetatean.gov.ro/"
+        },
+        {
+          "@id": "https://www.adr.gov.ro/sistem-de-interoperabilitate-tehnologica-cu-statele-membre-ue-situe/"
+        },
+        {
+          "@id": "https://www.adr.gov.ro/proiecte-in-implementare/platforma-software-centralizata-pentru-identificare-digitala-pscid/"
+        },
+        {
+          "@id": "http://www.e-licitatie.ro/Public/Common/Content.aspx?f=PublicHomePage"
+        },
+        {
+          "@id": "http://www.e-licitatie.ro/pub"
+        },
+        {
+          "@id": "https://www.adr.gov.ro/proiecte-in-implementare/platforma-software-centralizata-pentru-identificare-digitala-pscid/"
+        },
+        {
+          "@id": "https://ec.europa.eu/digital-single-market/en/connecting-europe-facility"
+        },
+        {
+          "@id": "https://demo.e-licitatie.ro/pub"
+        },
+        {
+          "@id": "https://www.anaf.ro/anaf/internet/ANAF/despre_anaf/strategii_anaf/proiecte_digitalizare/e.factura/!ut/p/a1/jZDBCoJAEIafxqv7qynWzaI0C1JB1L2Ehq2CuqKWr596Sihrb7Pzfcw_QygJCa3iZ87iLudVXIw11a6WZGmWrMu2fnB3cD3pvDdOAC7yAETvACwXcNXt0VNNB1grc3_eNlf44UP7z8eXZ-BX_oDQpRHTBovAGHECFjLYhLKCJ9M9I6NKFJ0R2qT3tEkb8dEM31nX1e1GgIC-70XGOStS8cZLAZ-UjLcdCeckqUvfD5E7ZaC3Lyu4tE0!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/"
+        },
+        {
+          "@id": "https://www.ghiseul.ro/ghiseul/public"
+        },
+        {
+          "@id": "https://www.anaf.ro/anaf/internet/ANAF/servicii_online/one_stop_shop"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.e-guvernare.ro/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://edirect.e-guvernare.ro/SitePages/landingpage.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.data.gov.ro/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://portal.just.ro/SitePages/acasa.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://epay.ancpi.ro/epay/SelectProd.action?prodId=1420",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ghiseul.ro/ghiseul/public/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://hub.mai.gov.ro/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.ecomunitate.ro/proiect",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://cetatean.gov.ro/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.adr.gov.ro/sistem-de-interoperabilitate-tehnologica-cu-statele-membre-ue-situe/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.adr.gov.ro/proiecte-in-implementare/platforma-software-centralizata-pentru-identificare-digitala-pscid/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.e-licitatie.ro/Public/Common/Content.aspx?f=PublicHomePage",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/digital-single-market/en/connecting-europe-facility",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://demo.e-licitatie.ro/pub",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.anaf.ro/anaf/internet/ANAF/despre_anaf/strategii_anaf/proiecte_digitalizare/e.factura/!ut/p/a1/jZDBCoJAEIafxqv7qynWzaI0C1JB1L2Ehq2CuqKWr596Sihrb7Pzfcw_QygJCa3iZ87iLudVXIw11a6WZGmWrMu2fnB3cD3pvDdOAC7yAETvACwXcNXt0VNNB1grc3_eNlf44UP7z8eXZ-BX_oDQpRHTBovAGHECFjLYhLKCJ9M9I6NKFJ0R2qT3tEkb8dEM31nX1e1GgIC-70XGOStS8cZLAZ-UjLcdCeckqUvfD5E7ZaC3Lyu4tE0!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ghiseul.ro/ghiseul/public",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.anaf.ro/anaf/internet/ANAF/servicii_online/one_stop_shop",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Romania",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

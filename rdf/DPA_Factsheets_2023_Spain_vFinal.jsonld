@@ -1,0 +1,1123 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Spain",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Spain"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/ESP"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/legalframework/Spain"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Spain",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.boe.es/legislacion/codigos/codigo.php?id=029_Codigo_de_Administracion_Electronica"
+        },
+        {
+          "@id": "http://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10565"
+        },
+        {
+          "@id": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-15790"
+        },
+        {
+          "@id": "https://www.boe.es/buscar/doc.php?id=BOE-A-2018-12131"
+        },
+        {
+          "@id": "https://www.boe.es/eli/es/l/2020/11/11/6/con"
+        },
+        {
+          "@id": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-4247"
+        },
+        {
+          "@id": "https://www.xunta.gal/dog/Publicados/2019/20190726/AnuncioC3B0-180719-0001_es.html"
+        },
+        {
+          "@id": "https://www.boe.es/buscar/doc.php?id=BOE-A-2015-10566"
+        },
+        {
+          "@id": "https://www.boe.es/eli/es/l/2013/12/09/19"
+        },
+        {
+          "@id": "https://www.boe.es/buscar/doc.php?id=BOE-A-2007-19814"
+        },
+        {
+          "@id": "https://boe.es/buscar/doc.php?id=BOE-A-2015-10565"
+        },
+        {
+          "@id": "https://www.boe.es/buscar/doc.php?id=BOE-A-2018-16673"
+        },
+        {
+          "@id": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+        },
+        {
+          "@id": "https://www.boe.es/eli/es/rdl/2022/03/29/7/con"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/eli/reg_del/2019/411/oj"
+        },
+        {
+          "@id": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10566"
+        },
+        {
+          "@id": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+        },
+        {
+          "@id": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
+        },
+        {
+          "@id": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-13722&lang=en"
+        },
+        {
+          "@id": "http://www.boe.es/buscar/doc.php?id=BOE-A-2007-22440"
+        },
+        {
+          "@id": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758"
+        },
+        {
+          "@id": "https://www.boe.es/buscar/doc.php?id=BOE-A-2021-7840"
+        }
+      ]
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/country/Spain",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ],
+      "http://dbpedia.org/ontology/populationTotal": [
+        "Spain’s results in Scoreboard 1 show an overall high implementation of the EIF Principles, scoring above the European average for Principle 1 (Subsidiarity and Proportionality), 7 (Inclusion and Accessibility), 9 (Multilingualism), and 12 (Assessment of Effectiveness and Efficiency). It is interesting to notice that the score related to Principle 12 improved from the previous year. In order to further enhance the implementation of the EIF Principles, the country could consider improving the extent to which the five major Base Registries (Population, Vehicle, Tax, Land, Business) are available for reuse in digital public services (Recommendation 26). "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring",
+      "http://data.europa.eu/eli/ontology#title": [
+        "interactive dashboards"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/Spain",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://transparencia.gob.es/transparencia/dam/jcr:eaa4dcf1-c1e6-48be-a43e-965d16a19983/4thPlan_OpenGov_Spain_EN.pdf"
+        },
+        {
+          "@id": "https://transparencia.gob.es/transparencia/transparencia_Home/index/Gobierno-abierto/ivPlanAccion.html"
+        }
+      ]
+    },
+    {
+      "@id": "https://transparencia.gob.es/transparencia/dam/jcr:eaa4dcf1-c1e6-48be-a43e-965d16a19983/4thPlan_OpenGov_Spain_EN.pdf",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Fourth National Action Plan for Open Government 2020–2024"
+      ]
+    },
+    {
+      "@id": "https://transparencia.gob.es/transparencia/transparencia_Home/index/Gobierno-abierto/ivPlanAccion.html",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Fourth National Action Plan"
+      ]
+    },
+    {
+      "@id": "https://www.boe.es/legislacion/codigos/codigo.php?id=029_Codigo_de_Administracion_Electronica",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Compendium of eGovernment Laws"
+      ]
+    },
+    {
+      "@id": "http://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10565",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 39/2015 of 1 October 2015 on the Public Administration Common Administrative Procedure"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10566"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10566",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 40/2015 of 1 October 2015 on the Legal Regime for the Public Sector"
+      ]
+    },
+    {
+      "@id": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-15790",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Royal Decree-Law No. 14/2019 "
+      ]
+    },
+    {
+      "@id": "https://www.boe.es/buscar/doc.php?id=BOE-A-2018-12131",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Royal Decree-Law No. 11/2018"
+      ]
+    },
+    {
+      "@id": "https://www.boe.es/eli/es/l/2020/11/11/6/con",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 6/2020 on Electronic Trust Services"
+      ]
+    },
+    {
+      "@id": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-4247",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 1/2021, of February 11, on Administrative Simplification. "
+      ]
+    },
+    {
+      "@id": "https://www.xunta.gal/dog/Publicados/2019/20190726/AnuncioC3B0-180719-0001_es.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 4/2019 on Digital Administration"
+      ]
+    },
+    {
+      "@id": "https://www.boe.es/buscar/doc.php?id=BOE-A-2015-10566",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 40/2015 on the Public Legal System"
+      ]
+    },
+    {
+      "@id": "https://www.boe.es/eli/es/l/2013/12/09/19",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 19/2013"
+      ]
+    },
+    {
+      "@id": "https://www.boe.es/buscar/doc.php?id=BOE-A-2007-19814",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 37/2007 on the reuse of public sector information"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32003L0098:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "EU Directive 2003/98/EC"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-19814"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-19814",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "regulation"
+      ]
+    },
+    {
+      "@id": "https://boe.es/buscar/doc.php?id=BOE-A-2015-10565",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 39/2015, of 1 October 2015, on the Common Administrative Procedure of Public Administration Bodies"
+      ]
+    },
+    {
+      "@id": "https://www.boe.es/buscar/doc.php?id=BOE-A-2018-16673",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 03/2018 of 5 December 2018 on the Protection of Personal Data incorpor"
+      ]
+    },
+    {
+      "@id": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 39/2015 of 1 October 2015 on the Common Administrative Procedure of Public Administration",
+        "Law No. 39/2015 "
+      ]
+    },
+    {
+      "@id": "https://www.boe.es/eli/es/rdl/2022/03/29/7/con",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "5G Cybersecurity Law"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/eli/reg_del/2019/411/oj",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Delegated Regulation (EU) 2019/411"
+      ]
+    },
+    {
+      "@id": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10566",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 40/2015"
+      ]
+    },
+    {
+      "@id": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 9/2017 on Public Sector Contracts"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.boe.es/diario_boe/txt.php?id=DOUE-L-2014-80597"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.boe.es/diario_boe/txt.php?id=DOUE-L-2014-80597",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directives 2014/23/EU"
+      ]
+    },
+    {
+      "@id": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-13722&lang=en",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 25/2013"
+      ]
+    },
+    {
+      "@id": "http://www.boe.es/buscar/doc.php?id=BOE-A-2007-22440",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Information Society"
+      ]
+    },
+    {
+      "@id": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law No. 34/2002 of 11 July 2002 on Information Society Services and Electronic Commerce"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML"
+        }
+      ]
+    },
+    {
+      "@id": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000L0031:EN:HTML",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive 2000/31/EC on electronic commerce"
+      ]
+    },
+    {
+      "@id": "https://www.boe.es/buscar/doc.php?id=BOE-A-2021-7840",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Royal Decree-Law No. 9/2021"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/Spain",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://dataobsae.administracionelectronica.gob.es/cmobsae3/dashboard/Dashboard.action?selectedIndicator=060_100&request_locale=en#060_100060-summary"
+        },
+        {
+          "@id": "https://sede.administracion.gob.es/carpeta/clave.htm"
+        },
+        {
+          "@id": "https://administracionelectronica.gob.es/"
+        },
+        {
+          "@id": "https://dataobsae.administracionelectronica.gob.es/cmobsae3/"
+        },
+        {
+          "@id": "https://administracionelectronica.gob.es/ctt/"
+        },
+        {
+          "@id": "https://datos.gob.es/"
+        },
+        {
+          "@id": "https://transparencia.gob.es/"
+        },
+        {
+          "@id": "https://www.boe.es/buscar/doc.php?id=BOE-A-2013-12887"
+        },
+        {
+          "@id": "https://www.pap.hacienda.gob.es/sitios/pap/es-ES/Paginas/inicio.aspx"
+        },
+        {
+          "@id": "https://sede.administracion.gob.es/carpeta/clave.htm"
+        },
+        {
+          "@id": "https://administracion.gob.es/pag_Home/atencionCiudadana/SedesElectronicas-y-Webs-Publicas/websPublicas/WP_CCAA.html#.XiCCZMhKg2y"
+        },
+        {
+          "@id": "https://administracion.gob.es/pag_Home/en/atencionCiudadana/SedesElectronicas-y-Webs-Publicas/websPublicas/WP_EELL.html#.XiCCtshKg2w"
+        },
+        {
+          "@id": "https://administracion.gob.es/pag_Home/atencionCiudadana/SedesElectronicas-y-Webs-Publicas/websPublicas/WP_CCAA.html#.XkU1pWY1vcs"
+        },
+        {
+          "@id": "https://www.consejodetransparencia.es/ct_Home/transparencia/transparencia-en-espanya.html"
+        },
+        {
+          "@id": "https://datos.gob.es/es/acerca-de-la-iniciativa-aporta"
+        },
+        {
+          "@id": "https://datos.gob.es/en/iniciativas"
+        },
+        {
+          "@id": "http://administracionelectronica.gob.es/ctt/verPestanaGeneral.htm?idIniciativa=redsara#.Uymg_c7s7xU"
+        },
+        {
+          "@id": "http://dataobsae.administracionelectronica.gob.es/cmobsae3/dashboard/Dashboard.action?selectedScope=A1"
+        },
+        {
+          "@id": "https://ec.europa.eu/isa2/solutions/testa_en"
+        },
+        {
+          "@id": "https://administracionelectronica.gob.es/ctt/svd#.XOnDxNIzbIU"
+        },
+        {
+          "@id": "https://dehu.redsara.es/"
+        },
+        {
+          "@id": "https://administracionelectronica.gob.es/ctt/sir"
+        },
+        {
+          "@id": "http://www.dnielectronico.es/"
+        },
+        {
+          "@id": "http://www.dnielectronico.es/"
+        },
+        {
+          "@id": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+        },
+        {
+          "@id": "https://sedeaplicaciones.minetur.gob.es/Prestadores/"
+        },
+        {
+          "@id": "https://www.dnielectronico.es/PortalDNIe/"
+        },
+        {
+          "@id": "http://www.cert.fnmt.es/"
+        },
+        {
+          "@id": "http://www.cert.fnmt.es/"
+        },
+        {
+          "@id": "https://sedeaplicaciones.minetur.gob.es/Prestadores/"
+        },
+        {
+          "@id": "http://www.pki.gva.es/inicio_c.htm"
+        },
+        {
+          "@id": "http://clave.gob.es/clave_Home/clave.html"
+        },
+        {
+          "@id": "http://clave.gob.es/clave_Home/clave.html"
+        },
+        {
+          "@id": "https://sede.agenciatributaria.gob.es/Sede/ayuda/consultas-informaticas/firma-digital-sistema-clave-pin-tecnica/aplicacion-movil-clave-pin/aplicacion-movil-clave-pin-ios.html"
+        },
+        {
+          "@id": "http://administracionelectronica.gob.es/ctt/verPestanaGeneral.htm?idIniciativa=190#.UymkGM7s7xU"
+        },
+        {
+          "@id": "http://dataobsae.administracionelectronica.gob.es/cmobsae3/dashboard/Dashboard.action?selectedScope=A1"
+        },
+        {
+          "@id": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+        },
+        {
+          "@id": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+        },
+        {
+          "@id": "https://lmtgroup.eu/portfolio/eid4spain-es/"
+        },
+        {
+          "@id": "mailto:CL@VE"
+        },
+        {
+          "@id": "https://administracionelectronica.gob.es/ctt/rea#.WEqiN2fruih"
+        },
+        {
+          "@id": "https://sede.administracion.gob.es/PAG_Sede/ServiciosElectronicos/RegistroElectronicoDeApoderamientos.html"
+        },
+        {
+          "@id": "http://administracionelectronica.gob.es/pae_Home/pae_Actualidad/pae_Noticias/Anio2014/Marzo/Noticia-CTT-2014-habilita-registros-funcionarios.html"
+        },
+        {
+          "@id": "http://contrataciondelestado.es/wps/portal/plataforma"
+        },
+        {
+          "@id": "https://contrataciondelestado.es/sindicacion/sindicacion_1143/contratosMenoresPerfilesContratantes.atom"
+        },
+        {
+          "@id": "http://www.contratacioncentralizada.gob.es/"
+        },
+        {
+          "@id": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
+        },
+        {
+          "@id": "https://contratacioncentralizada.gob.es/"
+        },
+        {
+          "@id": "http://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Patrimonio%20del%20Estado/Contratacion%20del%20Sector%20Publico/Paginas/ROLECE.aspx"
+        },
+        {
+          "@id": "https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Contratacion/junta%20consultiva%20de%20contratacion%20administrativa/paginas/clasificaciondeempresas.aspx"
+        },
+        {
+          "@id": "https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Contratacion/Junta%20Consultiva%20de%20Contratacion%20Administrativa/Paginas/Registro%20publico%20de%20contratos.aspx"
+        },
+        {
+          "@id": "https://face.gob.es/es"
+        },
+        {
+          "@id": "https://www.agenciatributaria.gob.es/AEAT.sede/en_gb/tramitacion/ZI01.shtml"
+        },
+        {
+          "@id": "https://pago.red.es/"
+        },
+        {
+          "@id": "https://administracionelectronica.gob.es/ctt/verPestanaGeneral.htm?idIniciativa=pagos#.XNlKjY4zbcs"
+        },
+        {
+          "@id": "https://administracionelectronica.gob.es/ctt/verPestanaGeneral.htm?idIniciativa=pagos#.XNlKjY4zbcs"
+        },
+        {
+          "@id": "http://administracionelectronica.gob.es/pae_Home/pae_Estrategias/Racionaliza_y_Comparte/sistemas_informacion_transversales/SIA.html#.U1UzTaJkb_k"
+        },
+        {
+          "@id": "https://administracionelectronica.gob.es/ctt/sia#.XO6BZYgzauU"
+        },
+        {
+          "@id": "https://administracionelectronica.gob.es/ctt/dir3#.XO6BoIgzauU"
+        },
+        {
+          "@id": "https://administracionelectronica.gob.es/ctt/inside?idioma=en#.WEqelbLhCig"
+        },
+        {
+          "@id": "https://administracionelectronica.gob.es/ctt/archive#.WEqfArLhCig"
+        },
+        {
+          "@id": "https://administracionelectronica.gob.es/ctt/inside?idioma=en#.WEqelbLhCig"
+        },
+        {
+          "@id": "https://administracionelectronica.gob.es/ctt/archive#.WEqfArLhCig"
+        },
+        {
+          "@id": "https://www.administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Esquema_Nacional_de_Interoperabilidad.html#.XRscb4gzauU"
+        },
+        {
+          "@id": "http://opendata.aragon.es/def/ei2a/index.en.htm"
+        },
+        {
+          "@id": "https://ec.europa.eu/inea/en/connecting-europe-facility/cef-telecom/apply-funding/2018-cef-telecom-calls-proposals"
+        },
+        {
+          "@id": "https://www.e-codex.eu/"
+        },
+        {
+          "@id": "https://www.de4a.eu/"
+        },
+        {
+          "@id": "https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/Racionaliza_y_Comparte/elementos_comunes/Intermediacion_de_datos.html"
+        },
+        {
+          "@id": "https://espanadigital.gob.es/en"
+        },
+        {
+          "@id": "https://administracionelectronica.gob.es/pae_Home/pae_Actualidad/pae_Noticias/Anio2022/Octubre/Noticia-2022-10-10-La-SGAD-colabora-con-el-Instituto-Cervantes.html"
+        },
+        {
+          "@id": "https://www.autonomosyemprendedor.es/articulo/actualidad/asi-utilizan-inspectores-trabajo-inteligencia-artificial-detectar-infracciones-que-cometen-autonomos/20211221151315025727.html"
+        },
+        {
+          "@id": "https://ec.europa.eu/digital-single-market/en/european-blockchain-services-infrastructure"
+        },
+        {
+          "@id": "https://www.une.org/salainformaciondocumentos/NP%20Norma%20UNE%20Blockchain%20dic-20.pdf"
+        },
+        {
+          "@id": "https://www.linkedin.com/company/iotmadlab/?trk=public_post_main-feed-card-text"
+        },
+        {
+          "@id": "https://ajuntament.barcelona.cat/imi/es/noticia/iris-la-plataforma-para-detectar-las-vulnerabilidades-de-seguridad-de-las-futuras-redes-tic-ganadora-en-el-marco-de-los-proyectos-europeos-h2020_1047436"
+        },
+        {
+          "@id": "https://portal.mineco.gob.es/es-es/ministerio/estrategias/Paginas/06_Programa_UNICO_Banda_Ancha.aspx"
+        },
+        {
+          "@id": "https://madrid.govtechlab.es/"
+        },
+        {
+          "@id": "https://www.bizkaia.eus/es/web/govtech"
+        },
+        {
+          "@id": "https://gaiastech.xunta.gal/es"
+        }
+      ]
+    },
+    {
+      "@id": "http://dataobsae.administracionelectronica.gob.es/cmobsae3/dashboard/Dashboard.action?selectedIndicator=060_100&request_locale=en#060_100060-summary",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://sede.administracion.gob.es/carpeta/clave.htm",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://administracionelectronica.gob.es/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dataobsae.administracionelectronica.gob.es/cmobsae3/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://administracionelectronica.gob.es/ctt/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://datos.gob.es/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://transparencia.gob.es/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.boe.es/buscar/doc.php?id=BOE-A-2013-12887",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.pap.hacienda.gob.es/sitios/pap/es-ES/Paginas/inicio.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://administracion.gob.es/pag_Home/atencionCiudadana/SedesElectronicas-y-Webs-Publicas/websPublicas/WP_CCAA.html#.XiCCZMhKg2y",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://administracion.gob.es/pag_Home/en/atencionCiudadana/SedesElectronicas-y-Webs-Publicas/websPublicas/WP_EELL.html#.XiCCtshKg2w",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://administracion.gob.es/pag_Home/atencionCiudadana/SedesElectronicas-y-Webs-Publicas/websPublicas/WP_CCAA.html#.XkU1pWY1vcs",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.consejodetransparencia.es/ct_Home/transparencia/transparencia-en-espanya.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://datos.gob.es/es/acerca-de-la-iniciativa-aporta",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://datos.gob.es/en/iniciativas",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://administracionelectronica.gob.es/ctt/verPestanaGeneral.htm?idIniciativa=redsara#.Uymg_c7s7xU",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://dataobsae.administracionelectronica.gob.es/cmobsae3/dashboard/Dashboard.action?selectedScope=A1",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/isa2/solutions/testa_en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://administracionelectronica.gob.es/ctt/svd#.XOnDxNIzbIU",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dehu.redsara.es/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://administracionelectronica.gob.es/ctt/sir",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.dnielectronico.es/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://sedeaplicaciones.minetur.gob.es/Prestadores/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.dnielectronico.es/PortalDNIe/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.cert.fnmt.es/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.pki.gva.es/inicio_c.htm",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://clave.gob.es/clave_Home/clave.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://sede.agenciatributaria.gob.es/Sede/ayuda/consultas-informaticas/firma-digital-sistema-clave-pin-tecnica/aplicacion-movil-clave-pin/aplicacion-movil-clave-pin-ios.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://administracionelectronica.gob.es/ctt/verPestanaGeneral.htm?idIniciativa=190#.UymkGM7s7xU",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://lmtgroup.eu/portfolio/eid4spain-es/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "mailto:CL@VE",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://administracionelectronica.gob.es/ctt/rea#.WEqiN2fruih",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://sede.administracion.gob.es/PAG_Sede/ServiciosElectronicos/RegistroElectronicoDeApoderamientos.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://administracionelectronica.gob.es/pae_Home/pae_Actualidad/pae_Noticias/Anio2014/Marzo/Noticia-CTT-2014-habilita-registros-funcionarios.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://contrataciondelestado.es/wps/portal/plataforma",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://contrataciondelestado.es/sindicacion/sindicacion_1143/contratosMenoresPerfilesContratantes.atom",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.contratacioncentralizada.gob.es/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://contratacioncentralizada.gob.es/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Patrimonio%20del%20Estado/Contratacion%20del%20Sector%20Publico/Paginas/ROLECE.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Contratacion/junta%20consultiva%20de%20contratacion%20administrativa/paginas/clasificaciondeempresas.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Contratacion/Junta%20Consultiva%20de%20Contratacion%20Administrativa/Paginas/Registro%20publico%20de%20contratos.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://face.gob.es/es",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.agenciatributaria.gob.es/AEAT.sede/en_gb/tramitacion/ZI01.shtml",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://pago.red.es/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://administracionelectronica.gob.es/ctt/verPestanaGeneral.htm?idIniciativa=pagos#.XNlKjY4zbcs",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://administracionelectronica.gob.es/pae_Home/pae_Estrategias/Racionaliza_y_Comparte/sistemas_informacion_transversales/SIA.html#.U1UzTaJkb_k",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://administracionelectronica.gob.es/ctt/sia#.XO6BZYgzauU",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://administracionelectronica.gob.es/ctt/dir3#.XO6BoIgzauU",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://administracionelectronica.gob.es/ctt/inside?idioma=en#.WEqelbLhCig",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://administracionelectronica.gob.es/ctt/archive#.WEqfArLhCig",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Esquema_Nacional_de_Interoperabilidad.html#.XRscb4gzauU",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://opendata.aragon.es/def/ei2a/index.en.htm",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/inea/en/connecting-europe-facility/cef-telecom/apply-funding/2018-cef-telecom-calls-proposals",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.e-codex.eu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.de4a.eu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/Racionaliza_y_Comparte/elementos_comunes/Intermediacion_de_datos.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://espanadigital.gob.es/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://administracionelectronica.gob.es/pae_Home/pae_Actualidad/pae_Noticias/Anio2022/Octubre/Noticia-2022-10-10-La-SGAD-colabora-con-el-Instituto-Cervantes.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.autonomosyemprendedor.es/articulo/actualidad/asi-utilizan-inspectores-trabajo-inteligencia-artificial-detectar-infracciones-que-cometen-autonomos/20211221151315025727.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/digital-single-market/en/european-blockchain-services-infrastructure",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.une.org/salainformaciondocumentos/NP%20Norma%20UNE%20Blockchain%20dic-20.pdf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.linkedin.com/company/iotmadlab/?trk=public_post_main-feed-card-text",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ajuntament.barcelona.cat/imi/es/noticia/iris-la-plataforma-para-detectar-las-vulnerabilidades-de-seguridad-de-las-futuras-redes-tic-ganadora-en-el-marco-de-los-proyectos-europeos-h2020_1047436",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://portal.mineco.gob.es/es-es/ministerio/estrategias/Paginas/06_Programa_UNICO_Banda_Ancha.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://madrid.govtechlab.es/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.bizkaia.eus/es/web/govtech",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://gaiastech.xunta.gal/es",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Spain",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+<http://data.europa.eu/nifo/factsheet/Belgium> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Belgium>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/BEL";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/legalframework/Belgium> .
+<http://publications.europa.eu/resource/authority/country/Belgium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/source> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring>;
+ <http://dbpedia.org/ontology/areaTotal> "Belgium’s scores in Scoreboard 2 illustrate an overall good performance of the country with scores of 3 and 4 in all the interoperability layers. Areas of improvement to strengthen the country’s implementation of the recommendations under Scoreboard 2 concern legal interoperability and interoperability governance. More specifically, with regard to the interoperability governance, Belgium has a middle performance in the consultation of relevant catalogues of standards, specifications and guidelines at national and EU level when procuring and developing ICT solutions (Recommendation 23). To match the European average on legal interoperability, Belgium could pay more attention to ensuring that legislation is screened by means of ‘interoperability checks’ in order to identify any barriers to interoperability (Recommendation 27). ";
+ <http://purl.org/dc/terms/relation> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> .
+<https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> <http://data.europa.eu/eli/ontology#title> "interactive dashboards" .
+<http://example.org/ContactPoint/Belgium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2019022708&table_name=loi>, <https://eur-lex.europa.eu/eli/reg/2016/679/oj>, <https://www.ehealth.fgov.be/file/b36fd95bf83fa260e4490a9b3028e74dcfc3e3a4/c585adc826320f07c3d8685c121cf1adbe3adeaf/Actieplan%252520eGezondheid%2525202022-2024%252520protocolakkoord.pdf>, <https://www.ewi-vlaanderen.be/nieuws/vlaams-actieplan-artificiele-intelligentie-gelanceerd> .
+<http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2019022708&table_name=loi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>, <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://purl.org/dc/terms/title> "new law";
+ <http://data.europa.eu/eli/ontology#title> "eBox Law" .
+<https://eur-lex.europa.eu/eli/reg/2016/679/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>, <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://purl.org/dc/terms/title> "Regulation (EU) 2016/679";
+ <http://data.europa.eu/eli/ontology#title> "General Data Protection Regulation (Regulation (EU) 2016/679" .
+<https://www.ehealth.fgov.be/file/b36fd95bf83fa260e4490a9b3028e74dcfc3e3a4/c585adc826320f07c3d8685c121cf1adbe3adeaf/Actieplan%252520eGezondheid%2525202022-2024%252520protocolakkoord.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint> .
+<https://www.ehealth.fgov.be/file/b36fd95bf83fa260e4490a9b3028e74dcfc3e3a4/c585adc826320f07c3d8685c121cf1adbe3adeaf/Actieplan%20eGezondheid%202022-2024%20protocolakkoord.pdf> <http://purl.org/dc/terms/title> "eHealth Action Plan 20222024" .
+<https://www.ewi-vlaanderen.be/nieuws/vlaams-actieplan-artificiele-intelligentie-gelanceerd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Action Plan on AI" .
+<http://example.org/nifo/legalframework/Belgium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://europam.eu/data/mechanisms/FOI/FOI%252520Laws/Belgium/Belgium_Law%252520on%252520Access%252520to%252520Admin%252520Documents_1994_amended%2525202010.pdf>, <http://www.uvcw.be/articles/3,14,2,0,252.htm>, <http://www.ejustice.just.fgov.be/eli/wet/2016/05/04/2016009236/justel>, <http://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?sql=(text%252520contains%252520(''))&language=fr&rech=1&tri=dd%252520AS%252520RANK&value=&table_name=loi&F=&cn=2017071809&caller=image_a1&fromtab=loi&la=F>, <http://www.ejustice.just.fgov.be/cgi_loi/loi_a.pl?language=fr&caller=list&cn=2000102040&la=f&fromtab=loi&sql=dt='loi'&tri=dd+as+rank&rech=1&numero=1>, <https://eur-lex.europa.eu/eli/reg/2016/679/oj>, <http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2019040715&table_name=loi>, <http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2019022708&table_name=loi>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024>, <https://www.publicprocurement.be/fr/documents/loi-du-17-juin-2016> .
+<http://europam.eu/data/mechanisms/FOI/FOI%252520Laws/Belgium/Belgium_Law%252520on%252520Access%252520to%252520Admin%252520Documents_1994_amended%2525202010.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://europam.eu/data/mechanisms/FOI/FOI%20Laws/Belgium/Belgium_Law%20on%20Access%20to%20Admin%20Documents_1994_amended%202010.pdf> <http://data.europa.eu/eli/ontology#title> "Article 32 of the Belgian Constitution";
+ <http://purl.org/dc/terms/relation> <https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=nl&la=N&cn=1994041151&table_name=wet> .
+<https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=nl&la=N&cn=1994041151&table_name=wet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law of 11 April 1994" .
+<http://www.uvcw.be/articles/3,14,2,0,252.htm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law of 1997" .
+<http://www.ejustice.just.fgov.be/eli/wet/2016/05/04/2016009236/justel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law of 4 May 2016";
+ <http://purl.org/dc/terms/relation> <http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&table_name=loi&cn=2007030736> .
+<http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&table_name=loi&cn=2007030736> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law of 7 March 2007";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32013L0037&qid=1580477688322&from=EN> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32013L0037&qid=1580477688322&from=EN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> " Directive 2013/37/EU of the European Parliament and of the Council of 26 June 2013 amending Directive 2003/98/EC on the re-use of public sector information" .
+<http://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?sql=(text%252520contains%252520(''))&language=fr&rech=1&tri=dd%252520AS%252520RANK&value=&table_name=loi&F=&cn=2017071809&caller=image_a1&fromtab=loi&la=F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?sql=(text%20contains%20(''))&language=fr&rech=1&tri=dd%20AS%20RANK&value=&table_name=loi&F=&cn=2017071809&caller=image_a1&fromtab=loi&la=F> <http://data.europa.eu/eli/ontology#title> "Law on Electronic Identification" .
+<http://www.ejustice.just.fgov.be/cgi_loi/loi_a.pl?language=fr&caller=list&cn=2000102040&la=f&fromtab=loi&sql=dt='loi'&tri=dd+as+rank&rech=1&numero=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "law" .
+<http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2019040715&table_name=loi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law on the Establishment of a Security Framework for the Information Systems Having General Interest" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive (EU) 2019/1024 on open data and the re-use of public sector information" .
+<https://www.publicprocurement.be/fr/documents/loi-du-17-juin-2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law of 17 June 2016 on Public Procurement";
+ <http://purl.org/dc/terms/relation> <https://www.publicprocurement.be/sites/default/files/documents/2019_04_07_loi_wet_fact_elec_3.pdf> .
+<https://www.publicprocurement.be/sites/default/files/documents/2019_04_07_loi_wet_fact_elec_3.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Law of 7 April 2019" .
+<http://example.org/nifo/structure/Belgium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <http://www.belgium.be>, <http://www.belgium.be/fr/services_en_ligne/>, <http://www.fedict.be/>, <http://www.business.belgium.be/en>, <https://www.mypension.be/fr>, <https://mybenefits.fgov.be/citoyen/home>, <https://www.socialsecurity.be/>, <https://www.mijngezondheid.belgie.be/#/>, <https://data.gov.be/en>, <https://budget.infocenter.belgium.be/nl>, <https://mydata.belgium.be/fr/>, <https://www.wallonie.be/en>, <https://www.wallonie.be/fr/guide/guide-services/15955>, <https://www.1890.be/>, <https://monespace.wallonie.be/>, <https://www.wallonie.be/fr/plans-wallons/plan-de-relance-de-la-wallonie>, <https://monespace.fw-b.be/>, <http://www.vlaanderen.be/nl?nav=burger>, <https://overheid.vlaanderen.be/ontdek-mijn-burgerprofiel>, <https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/mijn-burgerprofiel/de-mobiele-app-mijn-burgerprofiel-en-uw-gemeente-app>, <https://be.brussels/>, <https://irisbox.irisnet.be/>, <https://datastore.brussels/web/>, <https://datastore.brussels>, <http://as-e.be/>, <http://www.federation-wallonie-bruxelles.be/>, <http://www.odwb.be/>, <https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/Country%20factsheets%202020/Belgium/data.gov.be>, <http://data.europa.eu/>, <http://www.dglive.be/>, <https://www.vlaanderenonderneemt.be/>, <http://www.belnet.be/en>, <http://archive.dante.net/Backbones/GEANT/Pages/GEANT.aspx>, <http://www.internet2.edu/>, <http://www.fedict.belgium.be/de/Images/FEDMAN-CASE_tcm463-119515.pdf>, <http://www.fedict.belgium.be/en/infrastructure/network_access/fedman>, <http://ec.europa.eu/idabc/en/document/5014/5584.html>, <http://registry.fsb.pr.belgium.be/web/service-catalog/partner/homepage>, <http://www.irisnet.eu/en?set_language=en>, <https://dtservices.bosa.be/fr/faq/01-generalites-le-federal-service-bus-fsb-cest-quoi>, <https://overheid.vlaanderen.be/informatie-vlaanderen/ontdek-onze-producten-en-diensten/kruispuntbank-vlaanderen>, <https://cibg.brussels/nl/het-cibg/bestanden/ordonnantie-betreffende-de-oprichting-en-organisatie-van-een-gewestelijke-dienstenintegrator-2014>, <http://eid.belgium.be/>, <https://my.belgium.be/nl>, <https://sign.belgium.be/>, <https://dtservices.bosa.be/nl/services/fts>, <https://signature.wallonie.be/eSign/>, <https://www.vlaanderen.be/nl>, <http://www.belgianchambers.be/en/>, <https://diplomatie.belgium.be/en/services/services_abroad/belgian_passport/applying_passport>, <http://www.icao.int/Pages/default.aspx>, <https://bx1.be/categories/news/le-nouveau-passeport-belge-un-condense-de-bd-et-de-securite/>, <https://www.passezaudigital.be/croissance-itsme>, <https://iamapps.belgium.be/sma/generalinfo?view=home>, <https://enot.publicprocurement.be/enot-war/>, <https://enot.publicprocurement.be/home.do>, <https://eten.publicprocurement.be/etendering/home.do>, <https://ecat.publicprocurement.be/ecat/home.action>, <https://peppol.eu/about-openpeppol/what-is-openpeppol/>, <https://overheid.vlaanderen.be/e-ordering>, <https://einvoice.belgium.be/en>, <https://peppol.eu/who-is-who/peppol-authorities/>, <http://www.ibz.rrn.fgov.be/index.php?id=34&L=0>, <http://economie.fgov.be/fr/entreprises/BCE/index.jsp>, <http://www.corve.be/producten/magda-diensten/ondernemingsgegevens/scherm/index.php>, <http://www.ksz-bcss.fgov.be/fr/bcss/page/content/websites/belgium/security/security_05.html>, <https://joinup.ec.europa.eu/collection/egovernment/document/magda-20-platform-magda>, <https://fedweb.belgium.be/nl/over_de_organisatie/kennismanagement/beconnected>, <http://www.belgium.be/>, <https://dtservices.bosa.be/nl/services/intelligent-application-framework-iaf>, <http://www.ebr.org/index.php/member-countries/european-interactive-map/belgium/>, <https://www.eucaris.net/countries/belgium/>, <https://www.computable.be/artikel/achtergrond/awards-nieuws/6618380/6499266/belgie-en-nederland-delen-diplomas-via-blockchain.html>, <https://www.agoria.be/fr/Gaia-X-for-Belgium-entend-reunir-les-ecosystemes-lies-au-cloud-en-Belgique>, <https://www.data-infrastructure.eu/GAIAX/Navigation/EN/Home/home.html>, <https://web.archive.org/web/20220120004905/https:/ec.europa.eu/isa2/actions/strengthening-eu%C3%A2%C2%80%C2%99s-telecommunications-backbone_en>, <https://sources-authentiques.belgium.be/fr/cross-search>, <https://overheid.vlaanderen.be/informatie-vlaanderen-flanders-information-agency>, <https://joinup.ec.europa.eu/collection/oslo-open-standards-linked-organisations-0/about>, <https://overheid.vlaanderen.be/informatie-vlaanderen/producten-diensten/centraal-referentieadressenbestand-crab>, <http://leerenervaringsbewijzendatabank.be/>, <https://dt.bosa.be/fr/echange_de_donnees/sources_authentiques>, <http://artificialintelligence.brussels/> .
+<http://www.belgium.be> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.belgium.be/fr/services_en_ligne/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.fedict.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.business.belgium.be/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mypension.be/fr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://mybenefits.fgov.be/citoyen/home> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.socialsecurity.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mijngezondheid.belgie.be/#/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://data.gov.be/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://budget.infocenter.belgium.be/nl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://mydata.belgium.be/fr/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.wallonie.be/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.wallonie.be/fr/guide/guide-services/15955> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.1890.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://monespace.wallonie.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.wallonie.be/fr/plans-wallons/plan-de-relance-de-la-wallonie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://monespace.fw-b.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.vlaanderen.be/nl?nav=burger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://overheid.vlaanderen.be/ontdek-mijn-burgerprofiel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/mijn-burgerprofiel/de-mobiele-app-mijn-burgerprofiel-en-uw-gemeente-app> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://be.brussels/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://irisbox.irisnet.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://datastore.brussels/web/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://datastore.brussels> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://as-e.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.federation-wallonie-bruxelles.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.odwb.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/Country%20factsheets%202020/Belgium/data.gov.be> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://data.europa.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.dglive.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.vlaanderenonderneemt.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.belnet.be/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://archive.dante.net/Backbones/GEANT/Pages/GEANT.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.internet2.edu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.fedict.belgium.be/de/Images/FEDMAN-CASE_tcm463-119515.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.fedict.belgium.be/en/infrastructure/network_access/fedman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://ec.europa.eu/idabc/en/document/5014/5584.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://registry.fsb.pr.belgium.be/web/service-catalog/partner/homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.irisnet.eu/en?set_language=en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://dtservices.bosa.be/fr/faq/01-generalites-le-federal-service-bus-fsb-cest-quoi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://overheid.vlaanderen.be/informatie-vlaanderen/ontdek-onze-producten-en-diensten/kruispuntbank-vlaanderen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://cibg.brussels/nl/het-cibg/bestanden/ordonnantie-betreffende-de-oprichting-en-organisatie-van-een-gewestelijke-dienstenintegrator-2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://eid.belgium.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://my.belgium.be/nl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://sign.belgium.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://dtservices.bosa.be/nl/services/fts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://signature.wallonie.be/eSign/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.vlaanderen.be/nl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.belgianchambers.be/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://diplomatie.belgium.be/en/services/services_abroad/belgian_passport/applying_passport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.icao.int/Pages/default.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://bx1.be/categories/news/le-nouveau-passeport-belge-un-condense-de-bd-et-de-securite/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.passezaudigital.be/croissance-itsme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://iamapps.belgium.be/sma/generalinfo?view=home> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://enot.publicprocurement.be/enot-war/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://enot.publicprocurement.be/home.do> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eten.publicprocurement.be/etendering/home.do> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ecat.publicprocurement.be/ecat/home.action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://peppol.eu/about-openpeppol/what-is-openpeppol/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://overheid.vlaanderen.be/e-ordering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://einvoice.belgium.be/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://peppol.eu/who-is-who/peppol-authorities/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.ibz.rrn.fgov.be/index.php?id=34&L=0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://economie.fgov.be/fr/entreprises/BCE/index.jsp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.corve.be/producten/magda-diensten/ondernemingsgegevens/scherm/index.php> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.ksz-bcss.fgov.be/fr/bcss/page/content/websites/belgium/security/security_05.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://joinup.ec.europa.eu/collection/egovernment/document/magda-20-platform-magda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://fedweb.belgium.be/nl/over_de_organisatie/kennismanagement/beconnected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.belgium.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://dtservices.bosa.be/nl/services/intelligent-application-framework-iaf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.ebr.org/index.php/member-countries/european-interactive-map/belgium/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.eucaris.net/countries/belgium/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.computable.be/artikel/achtergrond/awards-nieuws/6618380/6499266/belgie-en-nederland-delen-diplomas-via-blockchain.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.agoria.be/fr/Gaia-X-for-Belgium-entend-reunir-les-ecosystemes-lies-au-cloud-en-Belgique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.data-infrastructure.eu/GAIAX/Navigation/EN/Home/home.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://web.archive.org/web/20220120004905/https:/ec.europa.eu/isa2/actions/strengthening-eu%C3%A2%C2%80%C2%99s-telecommunications-backbone_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://sources-authentiques.belgium.be/fr/cross-search> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://overheid.vlaanderen.be/informatie-vlaanderen-flanders-information-agency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://joinup.ec.europa.eu/collection/oslo-open-standards-linked-organisations-0/about> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://overheid.vlaanderen.be/informatie-vlaanderen/producten-diensten/centraal-referentieadressenbestand-crab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://leerenervaringsbewijzendatabank.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://dt.bosa.be/fr/echange_de_donnees/sources_authentiques> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://artificialintelligence.brussels/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Belgium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Belgium/Travel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/travel/index_en.htm> .
+<http://example.org/nifo/publicservice/Belgium/Workandretirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/work/index_en.htm> .
+<http://example.org/nifo/publicservice/Belgium/Vehicles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/vehicles/index_en.htm> .
+<http://example.org/nifo/publicservice/Belgium/Residenceformalities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/residence/index_en.htm> .
+<http://example.org/nifo/publicservice/Belgium/Educationandyouth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/education/index_en.htm> .
+<http://example.org/nifo/publicservice/Belgium/Health> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/health/index_en.htm> .
+<http://example.org/nifo/publicservice/Belgium/Family> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/family/index_en.htm> .
+<http://example.org/nifo/publicservice/Belgium/Consumers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/consumers/index_en.htm> .
+<http://example.org/nifo/publicservice/Belgium/Runningabusiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/running-business/index_en.htm> .
+<http://example.org/nifo/publicservice/Belgium/Taxation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/taxation/index_en.htm> .
+<http://example.org/nifo/publicservice/Belgium/SellingintheEU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/selling-in-eu/index_en.htm> .
+<http://example.org/nifo/publicservice/Belgium/HumanResources> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/human-resources/index_en.htm> .
+<http://example.org/nifo/publicservice/Belgium/Productrequirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/product-requirements/index_en.htm> .
+<http://example.org/nifo/publicservice/Belgium/FinancingandFunding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/finance-funding/index_en.htm> .
+<http://example.org/nifo/publicservice/Belgium/DealingwithCustomers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/dealing-with-customers/index_en.htm> .

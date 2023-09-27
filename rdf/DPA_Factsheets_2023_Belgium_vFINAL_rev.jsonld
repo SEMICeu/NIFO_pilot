@@ -1,0 +1,1251 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Belgium",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Belgium"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/BEL"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/legalframework/Belgium"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/legalframework/Belgium",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://europam.eu/data/mechanisms/FOI/FOI%2520Laws/Belgium/Belgium_Law%2520on%2520Access%2520to%2520Admin%2520Documents_1994_amended%25202010.pdf"
+        },
+        {
+          "@id": "http://www.uvcw.be/articles/3,14,2,0,252.htm"
+        },
+        {
+          "@id": "http://www.ejustice.just.fgov.be/eli/wet/2016/05/04/2016009236/justel"
+        },
+        {
+          "@id": "http://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?sql=(text%2520contains%2520(%27%27))&language=fr&rech=1&tri=dd%2520AS%2520RANK&value=&table_name=loi&F=&cn=2017071809&caller=image_a1&fromtab=loi&la=F"
+        },
+        {
+          "@id": "http://www.ejustice.just.fgov.be/cgi_loi/loi_a.pl?language=fr&caller=list&cn=2000102040&la=f&fromtab=loi&sql=dt=%27loi%27&tri=dd+as+rank&rech=1&numero=1"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+        },
+        {
+          "@id": "http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2019040715&table_name=loi"
+        },
+        {
+          "@id": "http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2019022708&table_name=loi"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024"
+        },
+        {
+          "@id": "https://www.publicprocurement.be/fr/documents/loi-du-17-juin-2016"
+        }
+      ]
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/country/Belgium",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ],
+      "http://dbpedia.org/ontology/areaTotal": [
+        "Belgium’s scores in Scoreboard 2 illustrate an overall good performance of the country with scores of 3 and 4 in all the interoperability layers. Areas of improvement to strengthen the country’s implementation of the recommendations under Scoreboard 2 concern legal interoperability and interoperability governance. More specifically, with regard to the interoperability governance, Belgium has a middle performance in the consultation of relevant catalogues of standards, specifications and guidelines at national and EU level when procuring and developing ICT solutions (Recommendation 23). To match the European average on legal interoperability, Belgium could pay more attention to ensuring that legislation is screened by means of ‘interoperability checks’ in order to identify any barriers to interoperability (Recommendation 27). "
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring",
+      "http://data.europa.eu/eli/ontology#title": [
+        "interactive dashboards"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/Belgium",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2019022708&table_name=loi"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+        },
+        {
+          "@id": "https://www.ehealth.fgov.be/file/b36fd95bf83fa260e4490a9b3028e74dcfc3e3a4/c585adc826320f07c3d8685c121cf1adbe3adeaf/Actieplan%2520eGezondheid%25202022-2024%2520protocolakkoord.pdf"
+        },
+        {
+          "@id": "https://www.ewi-vlaanderen.be/nieuws/vlaams-actieplan-artificiele-intelligentie-gelanceerd"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2019022708&table_name=loi",
+      "@type": [
+        "http://schema.org/ContactPoint",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "new law"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "eBox Law"
+      ]
+    },
+    {
+      "@id": "https://www.wallonie.be/fr/plans-wallons/plan-de-relance-de-la-wallonie",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "@type": [
+        "http://schema.org/ContactPoint",
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Regulation (EU) 2016/679"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "General Data Protection Regulation (Regulation (EU) 2016/679"
+      ]
+    },
+    {
+      "@id": "https://www.ehealth.fgov.be/file/b36fd95bf83fa260e4490a9b3028e74dcfc3e3a4/c585adc826320f07c3d8685c121cf1adbe3adeaf/Actieplan%2520eGezondheid%25202022-2024%2520protocolakkoord.pdf",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ]
+    },
+    {
+      "@id": "https://www.ehealth.fgov.be/file/b36fd95bf83fa260e4490a9b3028e74dcfc3e3a4/c585adc826320f07c3d8685c121cf1adbe3adeaf/Actieplan%20eGezondheid%202022-2024%20protocolakkoord.pdf",
+      "http://purl.org/dc/terms/title": [
+        "eHealth Action Plan 20222024"
+      ]
+    },
+    {
+      "@id": "https://www.ewi-vlaanderen.be/nieuws/vlaams-actieplan-artificiele-intelligentie-gelanceerd",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Action Plan on AI"
+      ]
+    },
+    {
+      "@id": "http://europam.eu/data/mechanisms/FOI/FOI%2520Laws/Belgium/Belgium_Law%2520on%2520Access%2520to%2520Admin%2520Documents_1994_amended%25202010.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "http://europam.eu/data/mechanisms/FOI/FOI%20Laws/Belgium/Belgium_Law%20on%20Access%20to%20Admin%20Documents_1994_amended%202010.pdf",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Article 32 of the Belgian Constitution"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=nl&la=N&cn=1994041151&table_name=wet"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=nl&la=N&cn=1994041151&table_name=wet",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law of 11 April 1994"
+      ]
+    },
+    {
+      "@id": "http://www.uvcw.be/articles/3,14,2,0,252.htm",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law of 1997"
+      ]
+    },
+    {
+      "@id": "http://www.ejustice.just.fgov.be/eli/wet/2016/05/04/2016009236/justel",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law of 4 May 2016"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&table_name=loi&cn=2007030736"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&table_name=loi&cn=2007030736",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law of 7 March 2007"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32013L0037&qid=1580477688322&from=EN"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32013L0037&qid=1580477688322&from=EN",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        " Directive 2013/37/EU of the European Parliament and of the Council of 26 June 2013 amending Directive 2003/98/EC on the re-use of public sector information"
+      ]
+    },
+    {
+      "@id": "http://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?sql=(text%2520contains%2520(%27%27))&language=fr&rech=1&tri=dd%2520AS%2520RANK&value=&table_name=loi&F=&cn=2017071809&caller=image_a1&fromtab=loi&la=F",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ]
+    },
+    {
+      "@id": "http://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?sql=(text%20contains%20(%27%27))&language=fr&rech=1&tri=dd%20AS%20RANK&value=&table_name=loi&F=&cn=2017071809&caller=image_a1&fromtab=loi&la=F",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on Electronic Identification"
+      ]
+    },
+    {
+      "@id": "http://www.ejustice.just.fgov.be/cgi_loi/loi_a.pl?language=fr&caller=list&cn=2000102040&la=f&fromtab=loi&sql=dt=%27loi%27&tri=dd+as+rank&rech=1&numero=1",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "law"
+      ]
+    },
+    {
+      "@id": "http://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2019040715&table_name=loi",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law on the Establishment of a Security Framework for the Information Systems Having General Interest"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive (EU) 2019/1024 on open data and the re-use of public sector information"
+      ]
+    },
+    {
+      "@id": "https://www.publicprocurement.be/fr/documents/loi-du-17-juin-2016",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law of 17 June 2016 on Public Procurement"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.publicprocurement.be/sites/default/files/documents/2019_04_07_loi_wet_fact_elec_3.pdf"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.publicprocurement.be/sites/default/files/documents/2019_04_07_loi_wet_fact_elec_3.pdf",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Law of 7 April 2019"
+      ]
+    },
+    {
+      "@id": "https://einvoice.belgium.be/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/Belgium",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://www.belgium.be/"
+        },
+        {
+          "@id": "http://www.belgium.be/fr/services_en_ligne/"
+        },
+        {
+          "@id": "http://www.fedict.be/"
+        },
+        {
+          "@id": "http://www.business.belgium.be/en"
+        },
+        {
+          "@id": "https://www.mypension.be/fr"
+        },
+        {
+          "@id": "https://mybenefits.fgov.be/citoyen/home"
+        },
+        {
+          "@id": "https://www.socialsecurity.be/"
+        },
+        {
+          "@id": "https://www.mijngezondheid.belgie.be/#/"
+        },
+        {
+          "@id": "https://data.gov.be/en"
+        },
+        {
+          "@id": "https://budget.infocenter.belgium.be/nl"
+        },
+        {
+          "@id": "https://mydata.belgium.be/fr/"
+        },
+        {
+          "@id": "https://www.wallonie.be/en"
+        },
+        {
+          "@id": "https://www.wallonie.be/fr/guide/guide-services/15955"
+        },
+        {
+          "@id": "https://www.1890.be/"
+        },
+        {
+          "@id": "https://monespace.wallonie.be/"
+        },
+        {
+          "@id": "https://www.wallonie.be/fr/plans-wallons/plan-de-relance-de-la-wallonie"
+        },
+        {
+          "@id": "https://monespace.fw-b.be/"
+        },
+        {
+          "@id": "http://www.vlaanderen.be/nl?nav=burger"
+        },
+        {
+          "@id": "https://overheid.vlaanderen.be/ontdek-mijn-burgerprofiel"
+        },
+        {
+          "@id": "https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/mijn-burgerprofiel/de-mobiele-app-mijn-burgerprofiel-en-uw-gemeente-app"
+        },
+        {
+          "@id": "https://be.brussels/"
+        },
+        {
+          "@id": "https://irisbox.irisnet.be/"
+        },
+        {
+          "@id": "https://datastore.brussels/web/"
+        },
+        {
+          "@id": "https://datastore.brussels/"
+        },
+        {
+          "@id": "http://as-e.be/"
+        },
+        {
+          "@id": "http://www.federation-wallonie-bruxelles.be/"
+        },
+        {
+          "@id": "http://www.odwb.be/"
+        },
+        {
+          "@id": "https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/Country%20factsheets%202020/Belgium/data.gov.be"
+        },
+        {
+          "@id": "http://data.europa.eu/"
+        },
+        {
+          "@id": "http://www.dglive.be/"
+        },
+        {
+          "@id": "https://www.vlaanderenonderneemt.be/"
+        },
+        {
+          "@id": "http://www.belnet.be/en"
+        },
+        {
+          "@id": "http://archive.dante.net/Backbones/GEANT/Pages/GEANT.aspx"
+        },
+        {
+          "@id": "http://www.internet2.edu/"
+        },
+        {
+          "@id": "http://www.fedict.belgium.be/de/Images/FEDMAN-CASE_tcm463-119515.pdf"
+        },
+        {
+          "@id": "http://www.fedict.belgium.be/en/infrastructure/network_access/fedman"
+        },
+        {
+          "@id": "http://www.fedict.be/"
+        },
+        {
+          "@id": "http://ec.europa.eu/idabc/en/document/5014/5584.html"
+        },
+        {
+          "@id": "http://registry.fsb.pr.belgium.be/web/service-catalog/partner/homepage"
+        },
+        {
+          "@id": "http://www.irisnet.eu/en?set_language=en"
+        },
+        {
+          "@id": "https://dtservices.bosa.be/fr/faq/01-generalites-le-federal-service-bus-fsb-cest-quoi"
+        },
+        {
+          "@id": "https://overheid.vlaanderen.be/informatie-vlaanderen/ontdek-onze-producten-en-diensten/kruispuntbank-vlaanderen"
+        },
+        {
+          "@id": "https://cibg.brussels/nl/het-cibg/bestanden/ordonnantie-betreffende-de-oprichting-en-organisatie-van-een-gewestelijke-dienstenintegrator-2014"
+        },
+        {
+          "@id": "http://eid.belgium.be/"
+        },
+        {
+          "@id": "https://my.belgium.be/nl"
+        },
+        {
+          "@id": "https://sign.belgium.be/"
+        },
+        {
+          "@id": "https://dtservices.bosa.be/nl/services/fts"
+        },
+        {
+          "@id": "https://signature.wallonie.be/eSign/"
+        },
+        {
+          "@id": "https://www.vlaanderen.be/nl"
+        },
+        {
+          "@id": "http://www.belgianchambers.be/en/"
+        },
+        {
+          "@id": "https://diplomatie.belgium.be/en/services/services_abroad/belgian_passport/applying_passport"
+        },
+        {
+          "@id": "http://www.icao.int/Pages/default.aspx"
+        },
+        {
+          "@id": "https://bx1.be/categories/news/le-nouveau-passeport-belge-un-condense-de-bd-et-de-securite/"
+        },
+        {
+          "@id": "https://www.passezaudigital.be/croissance-itsme"
+        },
+        {
+          "@id": "https://iamapps.belgium.be/sma/generalinfo?view=home"
+        },
+        {
+          "@id": "https://enot.publicprocurement.be/enot-war/"
+        },
+        {
+          "@id": "https://enot.publicprocurement.be/home.do"
+        },
+        {
+          "@id": "https://eten.publicprocurement.be/etendering/home.do"
+        },
+        {
+          "@id": "https://ecat.publicprocurement.be/ecat/home.action"
+        },
+        {
+          "@id": "https://peppol.eu/about-openpeppol/what-is-openpeppol/"
+        },
+        {
+          "@id": "https://overheid.vlaanderen.be/e-ordering"
+        },
+        {
+          "@id": "https://einvoice.belgium.be/en"
+        },
+        {
+          "@id": "https://peppol.eu/who-is-who/peppol-authorities/"
+        },
+        {
+          "@id": "http://www.ibz.rrn.fgov.be/index.php?id=34&L=0"
+        },
+        {
+          "@id": "http://economie.fgov.be/fr/entreprises/BCE/index.jsp"
+        },
+        {
+          "@id": "http://www.corve.be/producten/magda-diensten/ondernemingsgegevens/scherm/index.php"
+        },
+        {
+          "@id": "http://www.ksz-bcss.fgov.be/fr/bcss/page/content/websites/belgium/security/security_05.html"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/egovernment/document/magda-20-platform-magda"
+        },
+        {
+          "@id": "https://fedweb.belgium.be/nl/over_de_organisatie/kennismanagement/beconnected"
+        },
+        {
+          "@id": "http://www.belgium.be/"
+        },
+        {
+          "@id": "https://irisbox.irisnet.be/"
+        },
+        {
+          "@id": "https://dtservices.bosa.be/nl/services/intelligent-application-framework-iaf"
+        },
+        {
+          "@id": "http://www.ebr.org/index.php/member-countries/european-interactive-map/belgium/"
+        },
+        {
+          "@id": "https://www.eucaris.net/countries/belgium/"
+        },
+        {
+          "@id": "https://www.computable.be/artikel/achtergrond/awards-nieuws/6618380/6499266/belgie-en-nederland-delen-diplomas-via-blockchain.html"
+        },
+        {
+          "@id": "https://www.agoria.be/fr/Gaia-X-for-Belgium-entend-reunir-les-ecosystemes-lies-au-cloud-en-Belgique"
+        },
+        {
+          "@id": "https://www.data-infrastructure.eu/GAIAX/Navigation/EN/Home/home.html"
+        },
+        {
+          "@id": "https://web.archive.org/web/20220120004905/https:/ec.europa.eu/isa2/actions/strengthening-eu%C3%A2%C2%80%C2%99s-telecommunications-backbone_en"
+        },
+        {
+          "@id": "https://sources-authentiques.belgium.be/fr/cross-search"
+        },
+        {
+          "@id": "https://overheid.vlaanderen.be/informatie-vlaanderen-flanders-information-agency"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/oslo-open-standards-linked-organisations-0/about"
+        },
+        {
+          "@id": "https://overheid.vlaanderen.be/informatie-vlaanderen/producten-diensten/centraal-referentieadressenbestand-crab"
+        },
+        {
+          "@id": "http://leerenervaringsbewijzendatabank.be/"
+        },
+        {
+          "@id": "https://dt.bosa.be/fr/echange_de_donnees/sources_authentiques"
+        },
+        {
+          "@id": "http://artificialintelligence.brussels/"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.belgium.be/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.belgium.be/fr/services_en_ligne/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.fedict.be/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.business.belgium.be/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mypension.be/fr",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://mybenefits.fgov.be/citoyen/home",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.socialsecurity.be/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.mijngezondheid.belgie.be/#/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://data.gov.be/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://budget.infocenter.belgium.be/nl",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://mydata.belgium.be/fr/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.wallonie.be/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.wallonie.be/fr/guide/guide-services/15955",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.1890.be/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://monespace.wallonie.be/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://monespace.fw-b.be/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.vlaanderen.be/nl?nav=burger",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://overheid.vlaanderen.be/ontdek-mijn-burgerprofiel",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/mijn-burgerprofiel/de-mobiele-app-mijn-burgerprofiel-en-uw-gemeente-app",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://be.brussels/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://irisbox.irisnet.be/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://datastore.brussels/web/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://datastore.brussels/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://as-e.be/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.federation-wallonie-bruxelles.be/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.odwb.be/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://digiplace.sharepoint.com/sites/WE-EUROPEANCOMMISSION-ABCIVSC263NIFO/Shared%20Documents/D04.01%20Digital%20Government%20factsheets%20and%20infographics/Country%20factsheets%202020/Belgium/data.gov.be",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://data.europa.eu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.dglive.be/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.vlaanderenonderneemt.be/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.belnet.be/en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://archive.dante.net/Backbones/GEANT/Pages/GEANT.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.internet2.edu/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.fedict.belgium.be/de/Images/FEDMAN-CASE_tcm463-119515.pdf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.fedict.belgium.be/en/infrastructure/network_access/fedman",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://ec.europa.eu/idabc/en/document/5014/5584.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://registry.fsb.pr.belgium.be/web/service-catalog/partner/homepage",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.irisnet.eu/en?set_language=en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dtservices.bosa.be/fr/faq/01-generalites-le-federal-service-bus-fsb-cest-quoi",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://overheid.vlaanderen.be/informatie-vlaanderen/ontdek-onze-producten-en-diensten/kruispuntbank-vlaanderen",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://cibg.brussels/nl/het-cibg/bestanden/ordonnantie-betreffende-de-oprichting-en-organisatie-van-een-gewestelijke-dienstenintegrator-2014",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://eid.belgium.be/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://my.belgium.be/nl",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://sign.belgium.be/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dtservices.bosa.be/nl/services/fts",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://signature.wallonie.be/eSign/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.vlaanderen.be/nl",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.belgianchambers.be/en/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://diplomatie.belgium.be/en/services/services_abroad/belgian_passport/applying_passport",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.icao.int/Pages/default.aspx",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://bx1.be/categories/news/le-nouveau-passeport-belge-un-condense-de-bd-et-de-securite/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.passezaudigital.be/croissance-itsme",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://iamapps.belgium.be/sma/generalinfo?view=home",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://enot.publicprocurement.be/enot-war/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://enot.publicprocurement.be/home.do",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eten.publicprocurement.be/etendering/home.do",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://ecat.publicprocurement.be/ecat/home.action",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://peppol.eu/about-openpeppol/what-is-openpeppol/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://overheid.vlaanderen.be/e-ordering",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://peppol.eu/who-is-who/peppol-authorities/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.ibz.rrn.fgov.be/index.php?id=34&L=0",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://economie.fgov.be/fr/entreprises/BCE/index.jsp",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.corve.be/producten/magda-diensten/ondernemingsgegevens/scherm/index.php",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.ksz-bcss.fgov.be/fr/bcss/page/content/websites/belgium/security/security_05.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/collection/egovernment/document/magda-20-platform-magda",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://fedweb.belgium.be/nl/over_de_organisatie/kennismanagement/beconnected",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dtservices.bosa.be/nl/services/intelligent-application-framework-iaf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.ebr.org/index.php/member-countries/european-interactive-map/belgium/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.eucaris.net/countries/belgium/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.computable.be/artikel/achtergrond/awards-nieuws/6618380/6499266/belgie-en-nederland-delen-diplomas-via-blockchain.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.agoria.be/fr/Gaia-X-for-Belgium-entend-reunir-les-ecosystemes-lies-au-cloud-en-Belgique",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.data-infrastructure.eu/GAIAX/Navigation/EN/Home/home.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://web.archive.org/web/20220120004905/https:/ec.europa.eu/isa2/actions/strengthening-eu%C3%A2%C2%80%C2%99s-telecommunications-backbone_en",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://sources-authentiques.belgium.be/fr/cross-search",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://overheid.vlaanderen.be/informatie-vlaanderen-flanders-information-agency",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/collection/oslo-open-standards-linked-organisations-0/about",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://overheid.vlaanderen.be/informatie-vlaanderen/producten-diensten/centraal-referentieadressenbestand-crab",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://leerenervaringsbewijzendatabank.be/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://dt.bosa.be/fr/echange_de_donnees/sources_authentiques",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://artificialintelligence.brussels/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Belgium",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Belgium/Travel",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/travel/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Belgium/Workandretirement",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/work/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Belgium/Vehicles",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/vehicles/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Belgium/Residenceformalities",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/residence/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Belgium/Educationandyouth",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/education/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Belgium/Health",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/health/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Belgium/Family",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/family/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Belgium/Consumers",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/consumers/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Belgium/Runningabusiness",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/running-business/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Belgium/Taxation",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/taxation/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Belgium/SellingintheEU",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/selling-in-eu/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Belgium/HumanResources",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/human-resources/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Belgium/Productrequirements",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/product-requirements/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Belgium/FinancingandFunding",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/finance-funding/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Belgium/DealingwithCustomers",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/dealing-with-customers/index_en.htm"
+        }
+      ]
+    }
+  ]
+}

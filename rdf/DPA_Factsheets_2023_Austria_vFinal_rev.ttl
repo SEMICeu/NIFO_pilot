@@ -1,0 +1,172 @@
+<http://data.europa.eu/nifo/factsheet/Austria> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Austria>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/AUT";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/legalframework/Austria> .
+<http://publications.europa.eu/resource/authority/country/Austria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/source> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring>;
+ <http://purl.org/dc/terms/relation> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> .
+<https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> <http://data.europa.eu/eli/ontology#title> "interactive dashboards" .
+<http://example.org/ContactPoint/Austria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.digitalaustria.gv.at/Strategien/Digitaler-Aktionsplan.html>, <https://www.google.at/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiq88mYvarvAhWE2-AKHVxmBeMQFjACegQIAhAD&url=https://www.bundeskanzleramt.gv.at/dam/jcr:ab5e616e-f1e8-4755-9cf5-82ea24619593/33_14_mrv.pdf&usg=AOvVaw2LtXhwhHAcb_MPPv5iAIrw> .
+<https://www.digitalaustria.gv.at/Strategien/Digitaler-Aktionsplan.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>;
+ <http://purl.org/dc/terms/title> "Austrian Digitalisation Strategy (Digital Action Plan Austria or DAA)" .
+<https://www.google.at/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiq88mYvarvAhWE2-AKHVxmBeMQFjACegQIAhAD&url=https://www.bundeskanzleramt.gv.at/dam/jcr:ab5e616e-f1e8-4755-9cf5-82ea24619593/33_14_mrv.pdf&usg=AOvVaw2LtXhwhHAcb_MPPv5iAIrw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>, <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/title> "decision of the Austrian Council of Ministers " .
+<file:///C:/Users/Country%20factsheets%202021/Austria/Factsheet/RIS%20-%20Bundesvergabegesetz%202018%20-%20Bundesrecht%20konsolidiert,%20Fassung%20vom%2004.03.2021%20(bka.gv.at)> <http://purl.org/dc/terms/title> "Federal Public Procurement Act" .
+<http://example.org/nifo/legalframework/Austria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=BgblAuth&Dokumentnummer=BGBLA_2004_I_10>, <https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Erv&Dokumentnummer=ERV_1991_51>, <https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010727>, <https://www.ris.bka.gv.at/Dokumente/Erv/ERV_1987_286/ERV_1987_286.pdf>, <https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20011973>, <https://www.digital.austria.gv.at/sourcepin-register-authority-regulation>, <https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20011934>, <https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20003476>, <https://www.digital.austria.gv.at/supplementary-register-regulation>, <https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20011933>, <https://www.signatur.rtr.at/en/vd/SVG.html>, <https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010536>, <https://www.ris.bka.gv.at/Dokumente/Erv/ERV_1999_1_165/ERV_1999_1_165.pdf>, <https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10002997>, <https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20008228>, <https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001941>, <https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10011384>, <https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799>, <https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010295>, <https://www.erechnung.gv.at/files/IKTKonG.pdf>, <https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20006310>, <https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Erv&Dokumentnummer=ERV_1982_200>, <https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10009514>, <https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004204>, <https://www.digital.austria.gv.at/delivery-forms-regulation>, <https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005515>, <https://www.ris.bka.gv.at/eli/bgbl/I/2017/40>, <https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Erv&Dokumentnummer=ERV_2012_1_111>, <https://www.ris.bka.gv.at/Dokumente/Erv/ERV_2001_1_152/ERV_2001_1_152.pdf> .
+<https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=BgblAuth&Dokumentnummer=BGBLA_2004_I_10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "eGovernment Act" .
+<https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Erv&Dokumentnummer=ERV_1991_51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "General Administrative Procedures Act" .
+<https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010727> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Web-Accessibility Act" .
+<https://www.ris.bka.gv.at/Dokumente/Erv/ERV_1987_286/ERV_1987_286.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Constitutional Law on Access to Information" .
+<https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20011973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Federal Reuse of Public Sector Information Act 2022" .
+<https://www.digital.austria.gv.at/sourcepin-register-authority-regulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "SourcePIN Registry Regulation" .
+<https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20011934> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "SourcePIN Registry Regulation 2022" .
+<https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20003476> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "eGovernment Sector Delimitation Regulation" .
+<https://www.digital.austria.gv.at/supplementary-register-regulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Supplementary Registry Regulation" .
+<https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20011933> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Supplementary Registry Regulation 2022" .
+<https://www.signatur.rtr.at/en/vd/SVG.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Signature and Trust Services Act (SVG)" .
+<https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010536> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Security of Network and Information Systems Act";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ:L:2016:194:TOC&uri=uriserv:OJ.L_.2016.194.01.0001.01.ENG> .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ:L:2016:194:TOC&uri=uriserv:OJ.L_.2016.194.01.0001.01.ENG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive concerning measures for a high common level of security of network and information systems (NIS Directive)" .
+<https://www.ris.bka.gv.at/Dokumente/Erv/ERV_1999_1_165/ERV_1999_1_165.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Data Protection Act";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:en:HTML> .
+<https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:en:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive (EC) 95/46 on data protection" .
+<https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10002997> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Commercial Registry Act" .
+<https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20008228> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Civil Status Act" .
+<https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001941> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "General Land Registry Law (GBG)" .
+<https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10011384> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Motor Vehicles Act" .
+<https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Notification Act (MeldeG)";
+ <http://purl.org/dc/terms/relation> <https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20001806> .
+<https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20001806> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Registration Act Implementing Regulation (MeldeV)" .
+<https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010295> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Federal Procurement Act";
+ <http://purl.org/dc/terms/relation> <https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010295> .
+<https://www.erechnung.gv.at/files/IKTKonG.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Austrian Information and Communication Technologies Consolidation Act" .
+<https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20006310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Austrian Business Service Portal Act" .
+<https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Erv&Dokumentnummer=ERV_1982_200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Service of Documents Act" .
+<https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10009514> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Research Organisation Act" .
+<https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Delivery Service Regulation" .
+<https://www.digital.austria.gv.at/delivery-forms-regulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Delivery Forms Regulation" .
+<https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005515> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Delivery Forms Regulation" .
+<https://www.ris.bka.gv.at/eli/bgbl/I/2017/40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Austrian Deregulation Act 2017 " .
+<https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Erv&Dokumentnummer=ERV_2012_1_111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Health Telematics Law" .
+<https://www.ris.bka.gv.at/Dokumente/Erv/ERV_2001_1_152/ERV_2001_1_152.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "eCommerce Act";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2000:178:0001:0016:EN:PDF> .
+<https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2000:178:0001:0016:EN:PDF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive (EC) 2000/31 on electronic commerce" .
+<http://example.org/nifo/structure/Austria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.oesterreich.gv.at/>, <https://www.oesterreich.gv.at/ueber-oesterreichgvat/faq/app_digitales_amt.html>, <http://www.usp.gv.at/>, <https://www.ris.bka.gv.at/defaultEn.aspx>, <https://www.data.gv.at/>, <https://finanzonline.bmf.gv.at/fon/>, <https://www.gesundheit.gv.at/index.html>, <https://www.elga.gv.at/en/about-elga/index.html>, <http://www.onlinesicherheit.gv.at>, <http://www.justizonline.gv.at/>, <https://www.usp.gv.at/news/grants4companies.html>, <https://ec.europa.eu/isa2/solutions/testa_en>, <https://www.digital.austria.gv.at/electronic-delivery2>, <https://www.bmf.gv.at/services/Elektronische-Zustellung.html>, <https://www.bmdw.gv.at/Services/ElektronischeZustellung/Allgemeine-Information-zur-eZustellung.html>, <http://www.usp.gv.at>, <https://www.bmf.gv.at/themen/digitalisierung/Verwaltung/Was-bedeutet-digitale-Verwaltung-/E-Government-Bausteine-und-Services/Digitale-Services.html>, <https://www.dataintelligence.at/en/>, <https://www.datahub.tirol/page.cfm?vpath=index>, <https://www.gaia-x.at/>, <https://www.digitales.oesterreich.gv.at/portalverbund>, <https://neu.ref.wien.gv.at/at.gv.wien.ref-live/web/reference-server/ag-iz-oeffentliche-informationen>, <https://www.buergerkarte.at/>, <https://www.oesterreich.gv.at/id-austria.html>, <https://www.digitalaustria.gv.at/dam/jcr:dbf01b8f-1973-4d55-9120-b2d255037809/Bericht_Ziele_barrierefrei_v1.pdf>, <http://www.oesterreich.gv.at/>, <https://www.signatur.rtr.at/en/vd/Pruefung.html>, <https://www.bbg.gv.at/>, <http://www.lieferanzeiger.at>, <http://www.auftrag.at>, <https://portal.bbg.gv.at/>, <https://standards.cen.eu/dyn/www/f?p=204:32:0::::FSP_ORG_ID,FSP_LANG_ID:1883209,25&cs=126F1BDBC8D6D6141F550EB578B4A9CF4>, <https://www.digitales.oesterreich.gv.at/-/staatssekretarin-duzdar-und-bildungsministerin-hammerschmid-mehr-internet-kompetenz-in-die-schulen>, <http://egovlabs.gv.at/>, <https://joinup.ec.europa.eu/>, <https://www.bmdw.gv.at/Presse/Archiv/2020/Juni-2020/Cyber-Security-Quiz-App-.html>, <https://digital-strategy.ec.europa.eu/en/policies/european-quantum-communication-infrastructure-euroqci>, <https://www.bmk.gv.at/themen/innovation/publikationen/ikt/quantenverschluesselt.html>, <https://www.google.at/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiq88mYvarvAhWE2-AKHVxmBeMQFjACegQIAhAD&url=https://www.bundeskanzleramt.gv.at/dam/jcr:ab5e616e-f1e8-4755-9cf5-82ea24619593/33_14_mrv.pdf&usg=AOvVaw2LtXhwhHAcb_MPPv5iAIrw>, <https://www.ioeb-innovationsplattform.at/>, <http://www.ioeb-innovationsplattform.at>, <https://www.eucaris.net/countries/austria/>, <https://eur-lex.europa.eu/EN/legal-content/summary/european-criminal-records-information-system-ecris.html#:~:text=ECRIS%20is%20a%20decentralised%20IT,between%20Member%20States'%20central%20authorities.>, <http://www.ki-marktplatz.at>, <https://digital-strategy.ec.europa.eu/en/policies/blockchain-partnership#:~:text=The%20European%20Blockchain%20Partnership%20(EBP)%20helps%20avoid%20fragmentation%20of%20the,deployment%20of%20blockchain-based%20services.>, <https://www.digitalaustria.gv.at/Themen/Oe_Cloud.html>, <https://www.ffg.at/en/quantum-austria>, <https://www.google.at/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjwo7KCucf_AhVHQfEDHRQmBqsQFnoECA4QAw&url=https://www.bmf.gv.at/dam/jcr:a948bd9b-ff57-4949-af3e-445a4cbeb4c3/5Gstrategie_evaluierung_ua.pdf&usg=AOvVaw1S044kMiAqjbZUC_FqUfx->, <https://www.ffg.at/en/press/fast-broadband-internet-all-austria-2030>, <https://www.oesterreich.gv.at/id-austria/pilotbetrieb.html#digitale-ausweise> .
+<https://www.oesterreich.gv.at/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.oesterreich.gv.at/ueber-oesterreichgvat/faq/app_digitales_amt.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.usp.gv.at/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ris.bka.gv.at/defaultEn.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.data.gv.at/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://finanzonline.bmf.gv.at/fon/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gesundheit.gv.at/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.elga.gv.at/en/about-elga/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.onlinesicherheit.gv.at> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.justizonline.gv.at/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.usp.gv.at/news/grants4companies.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://ec.europa.eu/isa2/solutions/testa_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.digital.austria.gv.at/electronic-delivery2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.bmf.gv.at/services/Elektronische-Zustellung.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.bmdw.gv.at/Services/ElektronischeZustellung/Allgemeine-Information-zur-eZustellung.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.usp.gv.at> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.bmf.gv.at/themen/digitalisierung/Verwaltung/Was-bedeutet-digitale-Verwaltung-/E-Government-Bausteine-und-Services/Digitale-Services.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.dataintelligence.at/en/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.datahub.tirol/page.cfm?vpath=index> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.gaia-x.at/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.digitales.oesterreich.gv.at/portalverbund> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://neu.ref.wien.gv.at/at.gv.wien.ref-live/web/reference-server/ag-iz-oeffentliche-informationen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.buergerkarte.at/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.oesterreich.gv.at/id-austria.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.digitalaustria.gv.at/dam/jcr:dbf01b8f-1973-4d55-9120-b2d255037809/Bericht_Ziele_barrierefrei_v1.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.oesterreich.gv.at/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.signatur.rtr.at/en/vd/Pruefung.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.bbg.gv.at/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.lieferanzeiger.at> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.auftrag.at> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://portal.bbg.gv.at/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://standards.cen.eu/dyn/www/f?p=204:32:0::::FSP_ORG_ID,FSP_LANG_ID:1883209,25&cs=126F1BDBC8D6D6141F550EB578B4A9CF4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.digitales.oesterreich.gv.at/-/staatssekretarin-duzdar-und-bildungsministerin-hammerschmid-mehr-internet-kompetenz-in-die-schulen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://egovlabs.gv.at/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://joinup.ec.europa.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.bmdw.gv.at/Presse/Archiv/2020/Juni-2020/Cyber-Security-Quiz-App-.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://digital-strategy.ec.europa.eu/en/policies/european-quantum-communication-infrastructure-euroqci> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.bmk.gv.at/themen/innovation/publikationen/ikt/quantenverschluesselt.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ioeb-innovationsplattform.at/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.ioeb-innovationsplattform.at> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.eucaris.net/countries/austria/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eur-lex.europa.eu/EN/legal-content/summary/european-criminal-records-information-system-ecris.html#:~:text=ECRIS%20is%20a%20decentralised%20IT,between%20Member%20States'%20central%20authorities.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.ki-marktplatz.at> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://digital-strategy.ec.europa.eu/en/policies/blockchain-partnership#:~:text=The%20European%20Blockchain%20Partnership%20(EBP)%20helps%20avoid%20fragmentation%20of%20the,deployment%20of%20blockchain-based%20services.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.digitalaustria.gv.at/Themen/Oe_Cloud.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ffg.at/en/quantum-austria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.google.at/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjwo7KCucf_AhVHQfEDHRQmBqsQFnoECA4QAw&url=https://www.bmf.gv.at/dam/jcr:a948bd9b-ff57-4949-af3e-445a4cbeb4c3/5Gstrategie_evaluierung_ua.pdf&usg=AOvVaw1S044kMiAqjbZUC_FqUfx-> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ffg.at/en/press/fast-broadband-internet-all-austria-2030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.oesterreich.gv.at/id-austria/pilotbetrieb.html#digitale-ausweise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Austria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Austria/Travel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/travel/index_en.htm> .
+<http://example.org/nifo/publicservice/Austria/Workandretirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/work/index_en.htm> .
+<http://example.org/nifo/publicservice/Austria/Vehicles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/vehicles/index_en.htm> .
+<http://example.org/nifo/publicservice/Austria/Residenceformalities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/residence/index_en.htm> .
+<http://example.org/nifo/publicservice/Austria/Educationandyouth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/education/index_en.htm> .
+<http://example.org/nifo/publicservice/Austria/Health> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/health/index_en.htm> .
+<http://example.org/nifo/publicservice/Austria/Family> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/family/index_en.htm> .
+<http://example.org/nifo/publicservice/Austria/Consumers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/citizens/consumers/index_en.htm> .
+<http://example.org/nifo/publicservice/Austria/Runningabusiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/running-business/index_en.htm> .
+<http://example.org/nifo/publicservice/Austria/Taxation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/taxation/index_en.htm> .
+<http://example.org/nifo/publicservice/Austria/SellingintheEU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/selling-in-eu/index_en.htm> .
+<http://example.org/nifo/publicservice/Austria/HumanResources> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/human-resources/index_en.htm> .
+<http://example.org/nifo/publicservice/Austria/Productrequirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/product-requirements/index_en.htm> .
+<http://example.org/nifo/publicservice/Austria/FinancingandFunding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/finance-funding/index_en.htm> .
+<http://example.org/nifo/publicservice/Austria/DealingwithCustomers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#PublicService>;
+ <http://schema.org/url> <https://europa.eu/youreurope/business/dealing-with-customers/index_en.htm> .

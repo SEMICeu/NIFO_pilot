@@ -1,0 +1,110 @@
+<http://data.europa.eu/nifo/factsheet/Denmark> <http://purl.org/dc/terms/isPartOf> <http://data.europa.eu/nifo/factsheets/>;
+ <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Denmark>;
+ <http://purl.org/dc/terms/issued> "2021-12";
+ <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/";
+ <http://purl.org/dc/terms/spatial> "http://publications.europa.eu/resource/authority/country/DNK";
+ <http://purl.org/dc/terms/relation> <http://example.org/nifo/legalframework/Denmark> .
+<http://publications.europa.eu/resource/authority/country/Denmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/source> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring>;
+ <http://dbpedia.org/ontology/areaTotal> "Despite the lack of data for Principle 7 (Inclusion and accessibility), Denmark’s results in Scoreboard 1 show an overall good implementation of the EIF Principles, scoring above the European average for Principle 1 (Subsidiarity and Proportionality) and Principle 12 (Assessment of Effectiveness and Efficiency). Areas of improvements are concentrated in Principle 9 (Multilingualism) for which the score of 3 shows an upper-medium performance in the use of information systems and technical architectures that cater for multilingualism when establishing a European public service (Principle 9 – Recommendation 16).";
+ <http://purl.org/dc/terms/relation> <https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> .
+<https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring> <http://data.europa.eu/eli/ontology#title> "interactive dashboards" .
+<http://example.org/ContactPoint/Denmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://twitter.com/Joinup_eu> .
+<https://twitter.com/Joinup_eu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPoint>, <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://purl.org/dc/terms/title> "National Action Plan (2019–2021)";
+ <http://data.europa.eu/eli/ontology#title> "Act No. 899 of 21 June 2018" .
+<http://example.org/nifo/legalframework/Denmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://www.retsinformation.dk/eli/lta/2018/439>, <https://digital-strategy.ec.europa.eu/en/activities/digital-programme?uri=uriserv:OJ.L_.2018.295.01.0001.01.ENG&toc=OJ:L:2018:295:TOC>, <https://en.digst.dk/policy-and-strategy/mandatory-digitisation/?id=152299>, <https://eur-lex.europa.eu/legal-content/EN/TXT/?id=163488>, <https://digst.dk/it-loesninger/nemid/om-loesningen/samarbejde/>, <https://urldefense.com/v3/__https:/www.retsinformation.dk/eli/lta/2018/502__;!!NEMsmePo_HYI!feH-G22niyX5ZmKpprI3n2A4fZwrIustB04uRRL3dojGqNKuxereMn3AXgmFCjw670jPtZCUDZfk3AZMsWQ8$>, <https://www.datatilsynet.dk/Media/637998758521368022/The%252520Danish%252520Law%252520Enforcement%252520Act.pdf>, <https://www.retsinformation.dk/eli/lta/2014/433>, <https://www.retsinformation.dk/eli/lta/2019/1052>, <https://ec.europa.eu/isa2/sites/isa/files/eif_brochure_final.pdf?id=208715>, <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?id=201922>, <https://www.retsinformation.dk/eli/lta/2017/746>, <https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014L0024&from=DA>, <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32014L0055&from=EN>, <https://www.retsinformation.dk/Forms/R0710.aspx?id=205978>, <https://en.digst.dk/data-and-it-architecture/basic-data/>, <https://en.digst.dk/systems/digital-post/current-legislation-about-digital-post/>, <https://eur-lex.europa.eu/legal-content/GA/TXT/?uri=CELEX:32016L2102> .
+<https://www.retsinformation.dk/eli/lta/2018/439> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act No. 439 of 08 May 2018";
+ <http://purl.org/dc/terms/relation> <https://twitter.com/Joinup_eu> .
+<https://digital-strategy.ec.europa.eu/en/activities/digital-programme?uri=uriserv:OJ.L_.2018.295.01.0001.01.ENG&toc=OJ:L:2018:295:TOC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Single Digital Gateway (SDG) Regulation" .
+<https://en.digst.dk/policy-and-strategy/mandatory-digitisation/?id=152299> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Access to Public Administration Documents Act" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?id=163488> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act Amending the Law on the Reuse of Public Sector Information of 10 May 2021";
+ <http://purl.org/dc/terms/relation> <https://statens-it.dk/english/?uri=CELEX:32013L0037&from=EN> .
+<https://statens-it.dk/english/?uri=CELEX:32013L0037&from=EN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2019/1024/EU of 20 June 2019, which is a recast of Directive 37/2013/EU and Directive 2003/98/EC on the re-use of public sector information" .
+<https://digst.dk/it-loesninger/nemid/om-loesningen/samarbejde/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on the Issuance of the NemID with Public Digital Signature for Physical Persons and Employees in Legal Entities" .
+<https://urldefense.com/v3/__https:/www.retsinformation.dk/eli/lta/2018/502__;!!NEMsmePo_HYI!feH-G22niyX5ZmKpprI3n2A4fZwrIustB04uRRL3dojGqNKuxereMn3AXgmFCjw670jPtZCUDZfk3AZMsWQ8$> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Danish Data Protection Act (No. 502 of 23 May 2018)" .
+<https://www.datatilsynet.dk/Media/637998758521368022/The%252520Danish%252520Law%252520Enforcement%252520Act.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<https://www.datatilsynet.dk/Media/637998758521368022/The%20Danish%20Law%20Enforcement%20Act.pdf> <http://data.europa.eu/eli/ontology#title> "Danish Law Enforcement Act" .
+<https://www.retsinformation.dk/eli/lta/2014/433> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Public Administration Act (consolidating Act No. 433 of 22 April 2014)";
+ <http://purl.org/dc/terms/relation> <https://www.retsinformation.dk/eli/lta/2020/145> .
+<https://www.retsinformation.dk/eli/lta/2020/145> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Publicity and Freedom of Information Act (consolidating Act No. 145 of 24 February 2020)" .
+<https://www.retsinformation.dk/eli/lta/2019/1052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on the Central Business Registry" .
+<https://ec.europa.eu/isa2/sites/isa/files/eif_brochure_final.pdf?id=208715> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Building and Dwelling Registration" .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?id=201922> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Subdivision" .
+<https://www.retsinformation.dk/eli/lta/2017/746> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Spatial Information" .
+<https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014L0024&from=DA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2014/24/EU";
+ <http://purl.org/dc/terms/relation> <https://www.retsinformation.dk/eli/lta/2015/1564> .
+<https://www.retsinformation.dk/eli/lta/2015/1564> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Public Procurement Act";
+ <http://purl.org/dc/terms/relation> <https://www.retsinformation.dk/eli/lta/2015/1624> .
+<https://www.retsinformation.dk/eli/lta/2015/1624> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Executive Order on the Procedures for Contracts within Water and Energy Supply, Transport and Postal Services" .
+<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32014L0055&from=EN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2014/55/EU on electronic invoicing in public procurement" .
+<https://www.retsinformation.dk/Forms/R0710.aspx?id=205978> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Business Promotion" .
+<https://en.digst.dk/data-and-it-architecture/basic-data/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Information Society Services and Electronic Commerce";
+ <http://purl.org/dc/terms/relation> <https://eur-lex.europa.eu/legal-content/FR/ALL/?uri=CELEX:32000L0031:en:HTML> .
+<https://eur-lex.europa.eu/legal-content/FR/ALL/?uri=CELEX:32000L0031:en:HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Directive 2000/31/EC of 8 June 2000 on certain legal aspects of information society services, in particular electronic commerce in the Internal Market" .
+<https://en.digst.dk/systems/digital-post/current-legislation-about-digital-post/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Public Digital Post" .
+<https://eur-lex.europa.eu/legal-content/GA/TXT/?uri=CELEX:32016L2102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> " Directive 2016/2102/EU";
+ <http://purl.org/dc/terms/relation> <https://www.retsinformation.dk/eli/lta/2019/904> .
+<https://www.retsinformation.dk/eli/lta/2019/904> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource>;
+ <http://data.europa.eu/eli/ontology#title> "Act on Web Accessibility" .
+<http://example.org/nifo/structure/Denmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework>;
+ <http://purl.org/dc/terms/relation> <https://borger.dk/>, <https://lifeindenmark.borger.dk/>, <https://en.digst.dk/digital-services/borgerdk-national-citizen-portal/my-overview/>, <https://en.digst.dk/digital-services/borgerdk-national-citizen-portal/life-events/>, <https://virk.dk/vejledning/virk-assistent/>, <http://www.statens-it.dk>, <https://virk.dk/>, <https://virksomhedsguiden.dk/content/>, <https://en.digst.dk/systems/digital-post/about-the-national-digital-post/>, <https://boligejer.dk/english>, <https://digitaliser.dk/>, <https://www.nemlog-in.dk/>, <https://www.nemid.nu/dk-da/>, <https://www.mitid.dk/>, <https://www.borger.dk/>, <https://virk.dk/vejledning/virk-om-virk/>, <https://virk.dk/vejledning/virk-for-myndigheder/for-myndigheder-virk-services/>, <https://www.nemkonto.dk/>, <https://www.borger.dk/internet-og-sikkerhed/Digital-Post/Post>, <https://www.sundhed.dk/>, <https://www.retsinformation.dk/Forms/R0710.aspx>, <https://en.digst.dk/news/news-archive/2022/november/new-national-data-portal/>, <https://eng.sdfi.dk/data/datadistribution/the-data-distribution-platform>, <https://eng.em.dk/media/13081/305755-gb-version_4k.pdf>, <https://en.digst.dk/digitisation/eid-and-digital-self-services-across-the-eueea/>, <https://en.digst.dk/systems/driving-licence-app/>, <https://en.digst.dk/systems/health-insurance-card-app/>, <http://www.udbudsportalen.dk/>, <http://www.ski.dk>, <https://www.ethics.dk/ethics/eo%22%20%5Cl%20%22/SKI/>, <https://web.archive.org/web/20220120004905/https:/ec.europa.eu/isa2/actions/strengthening-eu%C3%A2%C2%80%C2%99s-telecommunications-backbone_en>, <https://eng.sdfi.dk/data>, <https://sprogteknologi.dk/>, <https://govcloud.dk/om-govcloud/> .
+<https://borger.dk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://lifeindenmark.borger.dk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://en.digst.dk/digital-services/borgerdk-national-citizen-portal/my-overview/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://en.digst.dk/digital-services/borgerdk-national-citizen-portal/life-events/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://virk.dk/vejledning/virk-assistent/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.statens-it.dk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://virk.dk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://virksomhedsguiden.dk/content/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://en.digst.dk/systems/digital-post/about-the-national-digital-post/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://boligejer.dk/english> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://digitaliser.dk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.nemlog-in.dk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.nemid.nu/dk-da/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.mitid.dk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.borger.dk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://virk.dk/vejledning/virk-om-virk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://virk.dk/vejledning/virk-for-myndigheder/for-myndigheder-virk-services/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.nemkonto.dk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.borger.dk/internet-og-sikkerhed/Digital-Post/Post> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.sundhed.dk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.retsinformation.dk/Forms/R0710.aspx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://en.digst.dk/news/news-archive/2022/november/new-national-data-portal/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eng.sdfi.dk/data/datadistribution/the-data-distribution-platform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eng.em.dk/media/13081/305755-gb-version_4k.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://en.digst.dk/digitisation/eid-and-digital-self-services-across-the-eueea/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://en.digst.dk/systems/driving-licence-app/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://en.digst.dk/systems/health-insurance-card-app/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.udbudsportalen.dk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://www.ski.dk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://www.ethics.dk/ethics/eo%22%20%5Cl%20%22/SKI/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://web.archive.org/web/20220120004905/https:/ec.europa.eu/isa2/actions/strengthening-eu%C3%A2%C2%80%C2%99s-telecommunications-backbone_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://eng.sdfi.dk/data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://sprogteknologi.dk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<https://govcloud.dk/om-govcloud/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
+<http://example.org/nifo/publicservice/Denmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/cpsv#FormalFramework> .
