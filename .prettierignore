@@ -1,0 +1,10 @@
+node_modules
+target
+dist
+package-lock.json
+docx
+html
+rdf
+rdfa
+.git
+
