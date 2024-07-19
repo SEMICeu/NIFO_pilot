@@ -31,7 +31,6 @@ var input = fs.readdirSync(filePath).filter(function (file) {
 	if (file.indexOf('.html') > -1) return file;
 });
 var html;
-// var countryCodes = {};
 var countries = [];
 
 bar1.start(input.length * 100 + 100, 0);
@@ -61,7 +60,7 @@ var createHtmlToRDFa = function () {
 	/******************************/
 	/***CREATE HTML + RDFa*********/
 	/******************************/
-	input.forEach( function (fileName) {
+	input.forEach(function (fileName) {
 		/*==================*/
 		/*LOAD DOM STRUCTURE*/
 		/*==================*/
@@ -72,7 +71,7 @@ var createHtmlToRDFa = function () {
 		});
 		extendCheerio($);
 		//Define additional variables
-		var content, text, country, language, client, currency, countryLabel, link, label, imgSrcCountry;
+		var content, text, country, countryLabelToShow, countryLabel, link, imgSrcCountry;
 
 		//Determine country
 		for (var i = 0; i < countries.length; i++) {
@@ -80,37 +79,43 @@ var createHtmlToRDFa = function () {
 				country = config['prefix']['nifo'] + countries[i].label;
 				countryLabel = countries[i].label;
 				countryCode = countries[i].code.CODE;
-			} else if (fileName.indexOf('UK') >= 0 || fileName.indexOf('United Kingdom') >= 0 || fileName.indexOf('United_Kingdom') >= 0) {
-				// The United Kingdom
-				country = config['prefix']['nifo'] + 'United%20Kingdom';
-				countryLabel = 'UK';
-				countryCode = 'GBR';
-			} else if (fileName.indexOf('North_Macedonia') >= 0 || fileName.indexOf('North Macedonia') >= 0) {
-				// Republic of North Macedonia
-				country = config['prefix']['nifo'] + 'North%20Macedonia';
-				countryLabel = 'North_Macedonia';
-				countryCode = 'MKD';
+			} else if (
+				fileName.indexOf('Bosnia and Herzegovina') >= 0 ||
+				fileName.indexOf('Bosnia_and Herzegovina') >= 0 ||
+				fileName.indexOf('Bosnia and_Herzegovina') >= 0
+			) {
+				// Bosnia and Herzegovina
+				country = config['prefix']['nifo'] + 'Bosnia%20and%20Herzegovina';
+				countryLabel = 'Bosnia_and_Herzegovina';
+				countryCode = 'BIH';
 			} else if (
 				fileName.indexOf('Czech_Republic') >= 0 ||
 				fileName.indexOf('Czech Republic') >= 0 ||
-				fileName.indexOf('CzechRep') >= 0
+				fileName.indexOf('Czechia') >= 0
 			) {
 				// Czech Republic
 				country = config['prefix']['nifo'] + 'Czech%20Republic';
 				countryLabel = 'Czech_Republic';
 				countryCode = 'CZE';
+			} else if (fileName.indexOf('North_Macedonia') >= 0 || fileName.indexOf('North Macedonia') >= 0) {
+				// Republic of North Macedonia
+				country = config['prefix']['nifo'] + 'North%20Macedonia';
+				countryLabel = 'North_Macedonia';
+				countryCode = 'MKD';
 			} else if (fileName.indexOf('EU_editor') >= 0 || fileName.indexOf('EU') >= 0 || fileName.indexOf('EU_v3.00') >= 0) {
 				// European Union
 				country = config['prefix']['nifo'] + 'European%20Union';
 				countryLabel = 'European_Union';
 				countryCode = 'EU';
-			} else if (fileName.indexOf('Türkiye') >= 0) {
-				// Turkey
-				country = config['prefix']['nifo'] + 'Turkey';
-				countryLabel = 'Turkey';
+			} else if (fileName.indexOf('Türkiye') >= 0 || fileName.indexOf('Turkiye') >= 0) {
+				// Türkiye
+				country = config['prefix']['nifo'] + 'Türkiye';
+				countryLabel = 'Türkiye';
 				countryCode = 'TUR';
 			}
 		}
+
+		countryLabelToShow = countryLabel.replace(/\_/g, ' ');
 
 		//Add root node and namespaces to document
 		$('body')
@@ -170,13 +175,52 @@ var createHtmlToRDFa = function () {
 		$(config['section_header']).each(function (index, elem) {
 			content = $(this).text().trim();
 			switch (content) {
-				case 'Country Profile':
-				case 'Profile':
 				case 'Interoperability State-of-Play':
 					$(this)
 						.nextUntil(config['section_header'])
 						.each(function (index, elem) {
-							$(this).find('img').addClass('keepElement');
+							switch (index) {
+								case 0:
+								case 17:
+									var linkURI = encodeURI($(this).children('a').attr('href'));
+									$(this).attr('property', config['prefix']['service']);
+									text = $(this).text().replace(/.*: /, '');
+									if (linkURI !== 'undefined') {
+										$(this).attr('href', linkURI);
+										$(this).attr('content', text);
+									}
+									break;
+								default:
+									break;
+							}
+
+							if ($(this).text().indexOf('Source') >= 0) {
+								// Source
+								$(this).attr('property', config['prop']['source']);
+								text = encodeURI($(this).children('a').attr('href'));
+								if (text !== 'undefined') {
+									$(this).attr('href', text);
+								}
+							}
+
+							if ($(this).text().indexOf('Area') >= 0) {
+								// Area
+								$(this).attr('property', config['prop']['area']);
+								text = $(this).text().replace(/.*: /, '');
+								$(this).attr('content', text);
+							}
+							$(this)
+								.nextAll('table')
+								.first()
+								.find('li')
+								.each(function (index, element) {
+									var linkURI = encodeURI($(this).children('a').first().attr('href'));
+									$(this).attr('property', config['prop']['seealso']);
+
+									if (linkURI !== 'undefined') {
+										$(this).attr('href', linkURI);
+									}
+								});
 							$(this)
 								.find('a')
 								.each(function (index, element) {
@@ -204,170 +248,6 @@ var createHtmlToRDFa = function () {
 										);
 									}
 								});
-							if ($(this).text().indexOf('Population') >= 0) {
-								//Population
-								$(this).attr('property', config['prop']['population']);
-								text = $(this).text().replace(/.*: /, '');
-								$(this).attr('content', text);
-							} else if ($(this).text().indexOf('GDP at market prices') >= 0) {
-								//GDP at market prices
-								$(this).attr('property', config['prop']['gdpnominal']);
-								text = $(this).text().replace(/.*: /, '');
-								$(this).attr('content', text);
-							} else if ($(this).text().indexOf('GDP per inhabitant in PPS') >= 0) {
-								//GDP per inhabitant in PPS
-								$(this).attr('property', config['prop']['gdppercapita']);
-								text = $(this).text().replace(/.*: /, '');
-								$(this).attr('content', text);
-							} else if ($(this).text().indexOf('Area') >= 0) {
-								//Area
-								$(this).attr('property', config['prop']['area']);
-								text = $(this).text().replace(/.*: /, '');
-								$(this).attr('content', text);
-							} else if ($(this).text().indexOf('Capital city') >= 0) {
-								//Capital city
-								$(this).attr('property', config['prop']['capital']);
-								text = $(this).text().replace(/.*: /, '');
-								$(this).attr('content', text);
-							} else if (
-								$(this).text().indexOf('Official EU language') >= 0 ||
-								$(this).text().indexOf('Official language') >= 0
-							) {
-								//Official EU language
-								//Obtain language label from text
-								$(this).attr('property', config['prop']['language']);
-								text = $(this).text().replace(/.*: /, '');
-								$(this).attr('content', text);
-							} else if ($(this).text().indexOf('Currency') >= 0) {
-								//Currency
-								currency = $(this).text().replace(config['text_identifier']['currency'], '');
-								$(this).attr('property', config['prop']['currency']);
-								$(this).attr('href', config['prefix']['currency'] + currency);
-							} else if ($(this).text().indexOf('Source') >= 0) {
-								//Source
-								$(this).attr('property', config['prop']['source']);
-								text = encodeURI($(this).children('a').attr('href'));
-								// If <a>...</a> children doesn't exist
-								// Example: <p property="dct:source">Source: European Interoperability Framework Monitoring Mechanism 2019</p>
-								// text is undefined
-								if (text !== 'undefined') {
-									$(this).attr('href', text);
-								}
-							} else if ($(this).text().indexOf('Digital Public Administration Indicators') >= 0) {
-								//Digital Public Administration Indicators
-								label = $(this).text() + ' ' + countryLabel;
-								var sources = [];
-								var source = [];
-								$(this).attr('property', config['prop']['title']);
-								$(this)
-									.nextAll('table')
-									.first()
-									.find('img')
-									.each(function (index, element) {
-										$(this).addClass('keepElement');
-									});
-								$(this)
-									.nextAll('table')
-									.first()
-									.find('p')
-									.each(function (index, element) {
-										if ($(this).text().indexOf('Percentage of individuals using the internet for') >= 0) {
-											var dimensionLabel = $(this).text();
-											var parentNode = $(this).parent();
-											$(this).attr('property', config['prop']['label']);
-											$(this).attr('resource', config['prefix']['measure'] + dimensionLabel.replace(/ /g, ''));
-											$(this).attr('typeOf', config['class']['measure']);
-											parentNode.attr('property', 'qb:component');
-											parentNode.attr('href', config['prefix']['measure'] + dimensionLabel.replace(/ /g, ''));
-										} else if ($(this).text().indexOf('Source:') >= 0) {
-											sources.push(encodeURI($(this).children('a').first().attr('href')));
-										}
-									});
-								$(this)
-									.nextUntil(config['subsection_header'])
-									.wrapAll(
-										'<div resource="' +
-											config['prefix']['datastructure'] +
-											label.replace(/ /g, '') +
-											'" typeOf="' +
-											config['class']['datastructure'] +
-											'"></div>',
-									);
-								for (var i = 0; i < sources.length; i++) {
-									if (source.toString().indexOf(sources[i]) === -1) {
-										// source[i] can be undefined
-										if (sources[i] !== 'undefined') {
-											source.push(sources[i]); // push only if source[i] exist
-										}
-									}
-								}
-								$(this).after(
-									'<span style="display:none;" property="' +
-										config['prop']['source'] +
-										'" content="' +
-										source.toString() +
-										'"></span>',
-								);
-								$(this).after(
-									'<span style="display:none;" property="' +
-										config['prop']['structure'] +
-										'" href="' +
-										config['prefix']['datastructure'] +
-										label.replace(/ /g, '') +
-										'"></span>',
-								);
-								$(this)
-									.nextUntil(config['subsection_header'])
-									.add($(this))
-									.wrapAll(
-										'<div resource="' +
-											config['prefix']['dataset'] +
-											label.replace(/ /g, '') +
-											'" typeOf="' +
-											config['class']['dataset'] +
-											'"></div>',
-									);
-								$('body')
-									.children('div')
-									.first()
-									.children('p')
-									.first()
-									.before(
-										'<span property="' +
-											config['prop']['relation'] +
-											'" href="' +
-											config['prefix']['dataset'] +
-											label.replace(/ /g, '') +
-											'"></span>',
-									);
-							} else if ($(this).text().indexOf('Interoperability State of Play') >= 0) {
-								//Interoperability State of Play
-								$(this).attr('property', config['prop']['title']);
-								$(this)
-									.nextUntil(config['section_header'], 'p:contains("Source:")')
-									.children('a')
-									.attr('property', config['prop']['relation']);
-							} else if ($(this).text().indexOf('eGovernment State of Play') >= 0) {
-								//eGovernment State of Play
-								$(this).attr('property', config['prop']['title']);
-								$(this)
-									.nextUntil(config['section_header'], 'p:contains("Source:")')
-									.children('a')
-									.attr('property', config['prop']['relation']);
-								let isFirstImg = false;
-								$(this)
-									.nextUntil(config['section_header'])
-									.each(function (index, element) {
-										if ($(this).attr('src') && !isFirstImg) {
-											$(this).addClass('keepElement');
-											isFirstImg = true;
-										}
-									});
-								// $(this).first().find("img").addClass('keepElement');
-							} else {
-								//else
-							}
-							//$(this).find("img").addClass('keepElement');
 						});
 					$(this)
 						.nextUntil(config['section_header'])
@@ -381,50 +261,8 @@ var createHtmlToRDFa = function () {
 								'"></div>',
 						);
 					break;
-				case 'Digital Public Administration Highlights':
-					$(this)
-						.nextUntil(config['section_header'])
-						.each(function (index, elem) {
-							switch (index) {
-								case 0:
-									// Digital Public Administration Political Communications
-									$(this).attr('property', config['prop']['title']);
-									text = $(this).text().replace(/.*: /, '');
-									$(this).attr('content', text);
-									break;
-								case 1:
-									// Digital Public Administration Legislation
-									$(this).attr('property', config['prop']['title']);
-									text = $(this).text().replace(/.*: /, '');
-									$(this).attr('content', text);
-									break;
-								case 2:
-									// Digital Public Administration Governance
-									$(this).attr('property', config['prop']['title']);
-									text = $(this).text().replace(/.*: /, '');
-									$(this).attr('content', text);
-									break;
-								case 3:
-									// Digital Public Administration Infrastructure
-									$(this).attr('property', config['prop']['title']);
-									text = $(this).text().replace(/.*: /, '');
-									$(this).attr('content', text);
-									break;
-							}
-							$(this).find('img').addClass('keepElement');
-						});
-					break;
-				case 'Digital Public Administration ICT Tools':
-				case 'Funding programmes for Digital Public Administration in the European Union':
-				case 'Executive Summary':
-					$(this)
-						.nextUntil(config['section_header'])
-						.each(function (index, elem) {
-							$(this).find('img').addClass('keepElement');
-						});
-					break;
-				case 'Digital Public Administration Political Communications':
-				case 'Political Initiatives for Digital Public Administration in the European Union':
+				case 'Digital Transformation of Public Administrations':
+					var linkURIArray = [];
 					$(this)
 						.nextUntil(config['section_header'])
 						.each(function (index, elem) {
@@ -433,7 +271,7 @@ var createHtmlToRDFa = function () {
 							$(this)
 								.find('a')
 								.each(function (index, element) {
-									var linkText = $(this).text().toLowerCase();
+									let linkText = $(this).text().toLowerCase();
 									if (
 										checkArray(
 											linkText,
@@ -444,17 +282,37 @@ var createHtmlToRDFa = function () {
 									) {
 										$(this).attr('typeOf', config['class']['contact']);
 										$(this).attr('property', config['prop']['relation']);
-										var linkURI = encodeURI($(this).attr('href'));
-										$(this).attr('href', linkURI);
+										let linkEncodeURI = encodeURI($(this).attr('href'));
+										linkURIArray.push(linkEncodeURI);
+										$(this).attr('href', linkEncodeURI);
 										$(this).after(
 											'<span resource="' +
-												linkURI +
+												linkEncodeURI +
 												'" property="' +
 												config['prop']['title'] +
 												'" content="' +
 												$(this).text() +
 												'"></span>',
 										);
+									} else {
+										let linkURI = encodeURI($(this).attr('href'));
+										if (!linkURIArray.includes(linkURI)) {
+											$(this).attr('property', config['prop']['relation']);
+											text = $(this).text().replace(/.*: /, '');
+											if (linkURI !== 'undefined') {
+												$(this).attr('href', linkURI);
+												$(this).attr('content', text);
+												$(this).after(
+													'<span resource="' +
+														linkURI +
+														'" property="' +
+														config['prop']['title'] +
+														'" content="' +
+														$(this).text() +
+														'"></span>',
+												);
+											}
+										}
 									}
 								});
 							$(this).find('img').addClass('keepElement');
@@ -471,8 +329,116 @@ var createHtmlToRDFa = function () {
 								'"></div>',
 						);
 					break;
-				case 'Digital Public Administration Legislation':
-				case 'Legislative Instruments for Digital Public Administration in the European Union':
+				case 'Interoperability and data':
+				case 'Innovative Technologies':
+					var linkURIArray = [];
+					$('body')
+						.children('div')
+						.first()
+						.children('p')
+						.first()
+						.before(
+							'<span property="' +
+								config['prop']['structure'] +
+								'" href="' +
+								config['prefix']['datastructure'] +
+								countryLabel +
+								'"></span>',
+						);
+					$(this)
+						.nextUntil(config['section_header'])
+						.each(function (index, elem) {
+							$(this).find('img').addClass('keepElement');
+							$(this)
+								.find('a')
+								.each(function (index, element) {
+									var linkText = $(this).text().toLowerCase();
+									if (
+										checkArray(
+											linkText,
+											Object.keys(config['type_framework']).map(function (k) {
+												return config['type_framework'][k];
+											}),
+										)
+									) {
+										$(this).attr('typeOf', config['class']['datastructure']);
+										$(this).attr('property', config['prop']['structure']);
+										var linkEncodeURI = encodeURI($(this).attr('href'));
+										linkURIArray.push(linkEncodeURI);
+										$(this).attr('href', linkEncodeURI);
+										$(this).after(
+											'<span resource="' +
+												linkEncodeURI +
+												'" property="' +
+												config['prop']['title'] +
+												'" content="' +
+												$(this).text() +
+												'"></span>',
+										);
+									} else {
+										let linkURI = encodeURI($(this).attr('href'));
+										if (!linkURIArray.includes(linkURI)) {
+											$(this).attr('property', config['prop']['structure']);
+											text = $(this).text().replace(/.*: /, '');
+											if (linkURI !== 'undefined') {
+												$(this).attr('href', linkURI);
+												$(this).attr('content', text);
+												$(this).after(
+													'<span resource="' +
+														linkURI +
+														'" property="' +
+														config['prop']['title'] +
+														'" content="' +
+														$(this).text() +
+														'"></span>',
+												);
+											}
+										}
+									}
+								});
+						});
+					$(this)
+						.nextUntil(config['section_header'])
+						.add($(this).closest(config['section_header']))
+						.wrapAll(
+							'<div resource="' +
+								config['prefix']['datastructure'] +
+								countryLabel +
+								'" typeOf="' +
+								config['class']['datastructure'] +
+								'"></div>',
+						);
+					break;
+				case 'Digital Transformation of Public Services':
+					$(this)
+						.nextUntil(config['section_header'])
+						.each(function (index, elem) {
+							$(this).find('img').addClass('keepElement');
+							$(this)
+								.find('a')
+								.each(function (index, elem) {
+									var linkText = $(this).text().toLowerCase();
+									var linkURI = encodeURI($(this).attr('href'));
+									$(this).attr('typeOf', config['class']['framework']);
+									$(this).attr('property', config['prop']['relation']);
+									$(this).attr('title', linkText);
+									$(this).attr('resource', linkURI);
+								});
+						});
+					$(this)
+						.nextUntil(config['section_header'])
+						.add($(this).closest(config['section_header']))
+						.wrapAll(
+							'<div resource="' +
+								config['prefix']['datastructure'] +
+								countryLabel +
+								'" typeOf="' +
+								config['class']['framework'] +
+								'"></div>',
+						);
+					break;
+				case 'Trust and Cybersecurity':
+					var linkURIArray = [];
 					$('body')
 						.children('div')
 						.first()
@@ -504,35 +470,42 @@ var createHtmlToRDFa = function () {
 									) {
 										$(this).attr('typeOf', config['class']['legalresource']);
 										$(this).attr('property', config['prop']['relation']);
-										var linkURI = encodeURI($(this).attr('href'));
-										$(this).attr('href', linkURI);
+										var linkEncodeURI = encodeURI($(this).attr('href'));
+										linkURIArray.push(linkEncodeURI);
+										$(this).attr('href', linkEncodeURI);
 										$(this).after(
 											'<span resource="' +
-												linkURI +
+												linkEncodeURI +
 												'" property="' +
 												config['prop']['ELItitle'] +
 												'" content="' +
 												$(this).text() +
 												'"></span>',
 										);
+									} else {
+										let linkURI = encodeURI($(this).attr('href'));
+										if (!linkURIArray.includes(linkURI)) {
+											$(this).attr('property', config['prop']['relation']);
+											text = $(this).text().replace(/.*: /, '');
+											if (linkURI !== 'undefined') {
+												$(this).attr('href', linkURI);
+												$(this).attr('content', text);
+												$(this).after(
+													'<span resource="' +
+														linkURI +
+														'" property="' +
+														config['prop']['title'] +
+														'" content="' +
+														$(this).text() +
+														'"></span>',
+												);
+											}
+										}
 									}
 								});
 						});
-					$(this)
-						.nextUntil(config['section_header'])
-						.add($(this).closest(config['section_header']))
-						.wrapAll(
-							'<div resource="' +
-								config['prefix']['legalframework'] +
-								countryLabel +
-								'" typeOf="' +
-								config['class']['framework'] +
-								'"></div>',
-						);
-
 					break;
 				case 'Digital Public Administration Governance':
-				case 'Governance':
 					var personURI;
 					$(this)
 						.nextUntil(config['section_header'], 'table')
@@ -640,35 +613,6 @@ var createHtmlToRDFa = function () {
 								'"></div>',
 						);
 					break;
-				case 'Digital Public Administration Infrastructure':
-				case 'Digital Public Administration Infrastructures':
-					$(this)
-						.nextUntil(config['section_header'])
-						.each(function (index, elem) {
-							$(this).find('img').addClass('keepElement');
-							$(this)
-								.find('a')
-								.each(function (index, elem) {
-									var linkText = $(this).text().toLowerCase();
-									var linkURI = encodeURI($(this).attr('href'));
-									$(this).attr('typeOf', config['class']['framework']);
-									$(this).attr('property', config['prop']['relation']);
-									$(this).attr('title', linkText);
-									$(this).attr('resource', linkURI);
-								});
-						});
-					$(this)
-						.nextUntil(config['section_header'])
-						.add($(this).closest(config['section_header']))
-						.wrapAll(
-							'<div resource="' +
-								config['prefix']['datastructure'] +
-								countryLabel +
-								'" typeOf="' +
-								config['class']['framework'] +
-								'"></div>',
-						);
-					break;
 				case 'Cross border Digital Public Administration Services for Citizens and Businesses':
 				case 'Cross Border Digital Public Administration Services for Citizens and Business':
 					$(this)
@@ -720,8 +664,8 @@ var createHtmlToRDFa = function () {
 					$(this).text().indexOf(countryLabel) >= 0 ||
 					$(this).text().indexOf('The United Kingdom') >= 0 ||
 					$(this).text().indexOf('Czech Republic') >= 0 ||
-					$(this).text().indexOf('Republic of North Macedonia') >= 0 /*||
-                $(this).text().indexOf('European Union') >= 0*/
+					$(this).text().indexOf('Republic of North Macedonia') >= 0 ||
+					$(this).text().indexOf('European Union') >= 0
 				) {
 					$(this).remove();
 				}
@@ -749,54 +693,6 @@ var createHtmlToRDFa = function () {
 				imgSrcCountry +
 				'" />',
 		);
-		switch (countryLabel) {
-			case 'UK':
-				$('p.image-container').after('<h2>The United Kingdom</h2>');
-				break;
-			case 'North_Macedonia':
-				$('p.image-container').after('<h2>Republic of North Macedonia</h2>');
-				break;
-			case 'Czech_Republic':
-				$('p.image-container').after('<h2>Czech Republic</h2>');
-				break;
-			case 'European_Union':
-				if (fileName.indexOf('EU_v3.00') >= 0 && $('body').children('div').first().children('h2').first().children().length === 0) {
-					$('body').children('div').first().children('h2').first().remove();
-				}
-				$('p.image-container').after('<h2>European Union</h2>');
-				break;
-			case 'Germany':
-				if (
-					fileName.indexOf('2023_Germany_vFINAL') >= 0 &&
-					$('body').children('div').first().children('h2').first().children().length === 0
-				) {
-					$('body').children('div').first().children('h2').first().remove();
-				}
-				break;
-			case 'Greece':
-				if (
-					fileName.indexOf('2023_Greece_vFINAL') >= 0 &&
-					$('body').children('div').first().children('h3').first().children().length === 0
-				) {
-					$('body').children('div').first().children('h3').first().remove();
-				}
-				break;
-			case 'Malta':
-				if (fileName.includes('2023_Malta_vFinal')) {
-					$('body').children('div').first().find('h1').first().remove();
-				}
-				break;
-			case 'Denmark':
-				if (fileName.includes('2023_Denmark_vFINAL')) {
-					$('body').children('div').first().find('h1').eq(3).remove();
-				}
-				break;
-			default:
-				$('p.image-container').after('<h2>' + countryLabel + '</h2>');
-		}
-		if (fileName.includes('2021')) {
-			$('p.image-container').after('<h2>Digital Public Administration factsheet 2021</h2>');
-		}
 		/*=================*/
 		/* GENERATE OUTPUT */
 		/*=================*/
@@ -822,7 +718,6 @@ var createHtmlToRDFa = function () {
 			if (err) {
 				return console.log(err);
 			}
-			var countryLabelToShow = countryLabel.replace(/\_/g, ' ');
 			console.log('The ' + countryLabelToShow + ' RDFa file was saved!');
 		});
 
@@ -835,7 +730,7 @@ var createHtmlToRDFa = function () {
 			if (err) {
 				return console.log(err);
 			}
-			//console.log("The "+countryLabel+" Turtle file was saved!");
+			console.log('The ' + countryLabelToShow + ' Turtle file was saved!');
 		});
 
 		//Save the file in JSON-LD syntax
@@ -845,7 +740,7 @@ var createHtmlToRDFa = function () {
 			if (err) {
 				return console.log(err);
 			}
-			//console.log("The "+countryLabel+" JSON-LD file was saved!");
+			console.log('The ' + countryLabelToShow + ' JSON-LD file was saved!');
 		});
 
 		bar1.increment(100);

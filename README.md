@@ -4,38 +4,38 @@
 
 The objective of this pilot is to develop a reusable proof of concept, to convert existig Word-based NIFO factsheets into structured data following the Resource Description Framework (RDF). This pilot uses existing vocabularies to describe the information within the factsheets, including:
 
-* [ISA Core Vocabularies](https://joinup.ec.europa.eu/page/core-vocabularies)
-* [Dublin Core Terms](http://dublincore.org/documents/dcmi-terms/)
-* [European Legislation Identifier Ontology](https://publications.europa.eu/en/web/eu-vocabularies/eli)
-* [DBPedia Ontology](http://wiki.dbpedia.org/services-resources/ontology)
-* [Schema.org](http://schema.org/)
-* [RDF Data Cube Vocabulary](https://www.w3.org/TR/vocab-data-cube/)
-
+-   [ISA Core Vocabularies](https://joinup.ec.europa.eu/page/core-vocabularies)
+-   [Dublin Core Terms](http://dublincore.org/documents/dcmi-terms/)
+-   [European Legislation Identifier Ontology](https://publications.europa.eu/en/web/eu-vocabularies/eli)
+-   [DBPedia Ontology](http://wiki.dbpedia.org/services-resources/ontology)
+-   [Schema.org](http://schema.org/)
+-   [RDF Data Cube Vocabulary](https://www.w3.org/TR/vocab-data-cube/)
 
 ## Requirements and dependencies
 
 This pilot requires **Node JS** [v14.16.1](https://nodejs.org/ja/blog/release/v14.16.1/) or [above](https://nodejs.org/en/download/), and uses the following packages:
 
-* cheerio v1.0.0-rc.12
-* cli-progress v3.12.0
-* graph-rdfa-processor v2.0.0
-* jsdom v16.7.0
-* ldtr v0.2.3
-* mammoth v1.8.0
-* prettier v3.3.3
-* xml2js v0.6.2
+-   cheerio v1.0.0-rc.12
+-   cli-progress v3.12.0
+-   graph-rdfa-processor v2.0.0
+-   jsdom v16.7.0
+-   ldtr v0.2.3
+-   mammoth v1.8.0
+-   prettier v3.3.3
+-   xml2js v0.6.2
 
 **Important Note!!!** The project was tested in Node JS **v14.16.1** so it is recommended to download this version of Node JS. In order to install Node JS v14.16.1 follow the link in v14.16.1, then download “Windows 64-bit Installer” and run the downloaded installer.
 
 ## Requirements for input files
 
-* The documents that will be used in **docx** folder must be of type **docx**
-* Images that will be used in documents must be of **jpeg** type
-* It would be helpful if the names of the documents were in a specific format. For example, there was a file named xxx**EU_editor**xxx and now there is a file named xxx**EU_v3.00**xxx
+-   The documents that will be used in **docx** folder must be of type **docx**
+-   Images that will be used in documents must be of **jpeg** type
+-   It would be helpful if the names of the documents were in a specific format. For example, there was a file named xxx**EU_editor**xxx and now there is a file named xxx**EU_v3.00**xxx
 
 ## Architecture
 
-![Architecture](assets/NIFO-architecture.jpg?raw=true "Title")
+![Architecture](assets/NIFO-architecture.jpg?raw=true 'Title')
+
 ## Installation
 
 1. Clone or download this repository.
@@ -58,7 +58,8 @@ The documents are then converted in RDF (JSON-LD and Turtle) and stored in the `
 
 The `config.json` file allows users to customise the transformation script and mappings to existing RDF vocabularies.
 
-* Configure document metadata, including the date issued, the applicable licence, the HTML tag used to identify the main sections in the document and the HTML tag used to identify the subsections in the document:
+-   Configure document metadata, including the date issued, the applicable licence, the HTML tag used to identify the main sections in the document and the HTML tag used to identify the subsections in the document:
+
 ```
 {
     "issued" : "2021-09",
@@ -68,7 +69,8 @@ The `config.json` file allows users to customise the transformation script and m
     "subsubsection_header" : "h3"
 ```
 
-* Configure the prefixes that are used to generate URIs for new entities discovered within the document:
+-   Configure the prefixes that are used to generate URIs for new entities discovered within the document:
+
 ```
     "prefix": {
         "nifo" : "http://data.europa.eu/nifo/factsheet/",
@@ -83,7 +85,8 @@ The `config.json` file allows users to customise the transformation script and m
     }
 ```
 
-* Set the prefix used for the RDF properties and classes, as well as the mapping of different terms to properties and classes in existing vocabularies:
+-   Set the prefix used for the RDF properties and classes, as well as the mapping of different terms to properties and classes in existing vocabularies:
+
 ```
     "prefixes" : "dct: http://purl.org/dc/terms/ dbo: http://dbpedia.org/ontology/ dbp: http://dbpedia.org/property/ qb: http://purl.org/linked-data/cube# rdfs: http://www.w3.org/2000/01/rdf-schema# cpsv: http://purl.org/vocab/cpsv# eli: http://data.europa.eu/eli/ontology# foaf: http://xmlns.com/foaf/0.1/ org: https://www.w3.org/ns/org# schema: http://schema.org/",
     "prop" : {
@@ -126,7 +129,8 @@ The `config.json` file allows users to customise the transformation script and m
     },
 ```
 
-* Configure the text strings used to identify certain proprties such as currency, head of state and head of government. 
+-   Configure the text strings used to identify certain proprties such as currency, head of state and head of government.
+
 ```
     "text_identifier" : {
         "currency" : "Currency: ",
@@ -135,7 +139,8 @@ The `config.json` file allows users to customise the transformation script and m
     },
 ```
 
-* Determine the keywords that are used to derive links to legal documents from the text. 
+-   Determine the keywords that are used to derive links to legal documents from the text.
+
 ```
     "type_framework" : {
         "act" : "act",
@@ -149,34 +154,38 @@ The `config.json` file allows users to customise the transformation script and m
 
 More detailed customisation of the annotations can be achieved by modifying the `htmltordf.js` code that is applied to the relevant section or subsection in the document.
 The different sections are identified based on their title. To apply the annotations, we refer to the [methods provided by the Cheerio module](https://github.com/cheeriojs/cheerio).
+
 ```
 switch(content){
-    case "Country Profile":
+    case "Interoperability State-of-Play":
         //Custom code here
         break;
-    case "Digital Public Administration Highlights":
+    case "Digital Transformation of Public Administrations":
         //Custom code here
         break;
-    case "Digital Public Administration Political Communications":
+    case "Interoperability and data":
         //Custom code here
         break;
-    case "Digital Public Administration Legislation":
+    case "Digital Transformation of Public Services":
+        //Custom code here
+        break;
+    case "Trust and Cybersecurity":
+        //Custom code here
+        break;
+    case "Innovative Technologies":
         //Custom code here
         break;
     case "Digital Public Administration Governance":
         //Custom code here
         break;
-    case "Digital Public Administration Infrastructure":
-        //Custom code here
-        break;
     case "Cross Border Digital Public Administration Services for Citizens and Business":
-        //Custom code here                 
+        //Custom code here
         break;
 }
 ```
 
 ## Licence
 
-Licensed under the EUROPEAN UNION PUBLIC LICENCE v.1.2 
+Licensed under the EUROPEAN UNION PUBLIC LICENCE v.1.2
 
 Authors: Jens Scheerlinck (PwC EU Services), Emidio Stani (PwC EU Services)

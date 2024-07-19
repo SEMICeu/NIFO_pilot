@@ -1,0 +1,1424 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "dct": "http://purl.org/dc/terms/",
+    "dcmi": "http://purl.org/dc/dcmitype/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cpsv": "http://purl.org/vocab/cpsv#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/nifo/factsheet/Austria",
+      "http://purl.org/dc/terms/isPartOf": [
+        {
+          "@id": "http://data.europa.eu/nifo/factsheets/"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "http://dbpedia.org/resource/Austria"
+        }
+      ],
+      "http://purl.org/dc/terms/issued": [
+        "2021-12"
+      ],
+      "http://purl.org/dc/terms/license": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "http://purl.org/dc/terms/spatial": [
+        "http://publications.europa.eu/resource/authority/country/AUT"
+      ],
+      "http://purl.org/linked-data/cube#structure": [
+        {
+          "@id": "http://example.org/nifo/structure/Austria"
+        },
+        {
+          "@id": "http://example.org/nifo/structure/Austria"
+        }
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "http://example.org/nifo/legalframework/Austria"
+        },
+        {
+          "@id": "https://www.digital.austria.gv.at/sourcepin-register-authority-regulation"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20003476"
+        },
+        {
+          "@id": "https://www.digital.austria.gv.at/supplementary-register-regulation"
+        },
+        {
+          "@id": "https://www.signatur.rtr.at/en/vd/SVG.html"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010536"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/structure/Austria",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition",
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/linked-data/cube#DataStructureDefinition",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/linked-data/cube#structure": [
+        {
+          "@id": "https://www.ris.bka.gv.at/Dokumente/Erv/ERV_1987_286/ERV_1987_286.pdf"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10011384"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001941"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799"
+        },
+        {
+          "@id": "https://www.google.at/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiq88mYvarvAhWE2-AKHVxmBeMQFjACegQIAhAD&url=https://www.bundeskanzleramt.gv.at/dam/jcr:ab5e616e-f1e8-4755-9cf5-82ea24619593/33_14_mrv.pdf&usg=AOvVaw2LtXhwhHAcb_MPPv5iAIrw"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/eli/bgbl/I/2024/6/20240226?ResultFunctionToken=deaca8be-c94d-42a4-806c-37225b3dc2c4&Position=1&Sort=0%257CAsc&Abfrage=BgblAuth&Titel=&Bgblnummer=&SucheNachGesetzen=False&SucheNachKundmachungen=False&SucheNachVerordnungen=False&SucheNachSonstiges=False&SucheNachTeil1=False&SucheNachTeil2=False&SucheNachTeil3=False&Einbringer=&VonDatum=26.02.2024&BisDatum=27.02.2024&ImRisSeitVonDatum=26.02.2024&ImRisSeitBisDatum=27.02.2024&ImRisSeit=Undefined&ImRisSeitForRemotion=Undefined&ResultPageSize=100&Suchworte="
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        "Central Civil Registry (ZPR)",
+        "Central Registry of Residents (ZMR)"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjqrvO45KLvAhXMC2MBHSPPAAMQFjAAegQIAxAD&url=https://www.bundeskanzleramt.gv.at/dam/jcr:ab5e616e-f1e8-4755-9cf5-82ea24619593/33_14_mrv.pdf&usg=AOvVaw2LtXhwhHAcb_MPPv5iAIrw"
+        },
+        {
+          "@id": "https://www.usp.gv.at/rsv-hilfe.html"
+        },
+        {
+          "@id": "https://www.usp.gv.at/ivdb-hilfe/datenschutz.html"
+        },
+        {
+          "@id": "https://www.wko.at/gruendung/befaehigungsnachweis"
+        },
+        {
+          "@id": "https://www.kaerntnerfamilienkarte.at/"
+        },
+        {
+          "@id": "https://www.erechnung.gv.at/files/IKTKonG.pdf"
+        },
+        {
+          "@id": "https://www.erechnung.gv.at/erb/?p=info_jur&locale=en_GB"
+        },
+        {
+          "@id": "https://www.erechnung.gv.at/erb/?p=einvoice_info_fedgov_paper&locale=en_GB"
+        },
+        {
+          "@id": "https://www.usp.gv.at/"
+        },
+        {
+          "@id": "https://standards.cen.eu/dyn/www/f?p=204:32:0::::FSP_ORG_ID,FSP_LANG_ID:1883209,25&cs=126F1BDBC8D6D6141F550EB578B4A9CF4"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Erv&Dokumentnummer=ERV_2012_1_111"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20003230"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10009514"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004204"
+        },
+        {
+          "@id": "https://www.digital.austria.gv.at/delivery-forms-regulation"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005515"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/eli/bgbl/I/2017/40"
+        },
+        {
+          "@id": "https://www.oesterreich.gv.at/"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/Dokumente/Erv/ERV_2001_1_152/ERV_2001_1_152.pdf"
+        },
+        {
+          "@id": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2000:178:0001:0016:EN:PDF"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20006310"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010295"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010295"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010295"
+        },
+        {
+          "@id": "https://www.ioeb-innovationsplattform.at/"
+        },
+        {
+          "@id": "http://www.ioeb-innovationsplattform.at/"
+        },
+        {
+          "@id": "https://www.digitalaustria.gv.at/Strategien/DKO-Digitale-Kompetenzoffensive.html"
+        },
+        {
+          "@id": "https://www.digitalaustria.gv.at/dam/jcr:e84a42c3-f2e7-4642-9ca0-76d7e8c61216/230615-Strategie-Digitale-Kompetenzen-Oesterreich.pdf"
+        },
+        {
+          "@id": "https://www.digitalaustria.gv.at/dam/jcr:e84a42c3-f2e7-4642-9ca0-76d7e8c61216/230615-Strategie-Digitale-Kompetenzen-Oesterreich.pdf"
+        },
+        {
+          "@id": "https://www.digitalaustria.gv.at/Strategien/DKO-Digitale-Kompetenzoffensive.html"
+        }
+      ]
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/country/Austria",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/source": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ],
+      "http://dbpedia.org/ontology/areaTotal": [
+        "Austrian’s scores in Scoreboard 2 illustrate an overall good performance of the country with scores of 3 and 4 in all the interoperability layers. Areas of improvement to strengthen the country’s implementation of the recommendations under Scoreboard 2 concern only interoperability governance. More specifically, with regard to the interoperability governance, Austria has a  middle performance in the use of a structured, transparent, objective, and common approach to assess and select standards and specifications (Recommendation 22), and in a standardisation work (Recommendation 24). "
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+        {
+          "@id": "https://ec.europa.eu/eurostat/databrowser/explore/all/cc?lang=en&subtheme=eq.eq_age.eq_aiso&display=list&sort=category&extractionId=ISOC_BDE15EI"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/policies/desi"
+        },
+        {
+          "@id": "https://digital-strategy.ec.europa.eu/en/library/egovernment-benchmark-2022"
+        },
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/interoperability-initiatives-austria"
+        }
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/interoperability-initiatives-austria"
+        }
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/isa2/sites/isa/files/eif_brochure_final.pdf",
+      "http://example.org/nifo/publicservice/": [
+        "In 2017, the European Commission published the European Interoperability Framework (EIF) to give specific guidance on how to set up interoperable digital public services through a set of 47 recommendations divided in three pillars. The EIF Monitoring Mechanism (MM) was built on these pillars to evaluate the level of implementation of the framework within the Member States. The mechanism is based on a set of 91 Key Performance Indicators (KPIs) clustered within the three scoreboards (Principles, Layers, Conceptual model and Cross-border interoperability), outlined below."
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring",
+      "http://example.org/nifo/publicservice/": [
+        "Additional information on Austrian’s results on the EIF Monitoring Mechanism is available online through interactive dashboards."
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/eif-monitoring"
+        }
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "interactive dashboards."
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/interoperability-initiatives-austria",
+      "http://data.europa.eu/eli/ontology#title": [
+        "Repository of good practices on the EIF implementation"
+      ]
+    },
+    {
+      "@id": "http://example.org/ContactPoint/Austria",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://www.digitalaustria.gv.at/Strategien/Digital-Austria-Act---das-digitale-Arbeitsprogramm-der-Bundesregierung.html"
+        },
+        {
+          "@id": "https://www.digitalaustria.gv.at/downloads.html"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=BgblAuth&Dokumentnummer=BGBLA_2004_I_10"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Erv&Dokumentnummer=ERV_1991_51"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010727"
+        },
+        {
+          "@id": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Erv&Dokumentnummer=ERV_1982_200"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.digitalaustria.gv.at/Strategien/Digital-Austria-Act---das-digitale-Arbeitsprogramm-der-Bundesregierung.html",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Austria Act"
+      ]
+    },
+    {
+      "@id": "https://www.digitalaustria.gv.at/downloads.html",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Austria Act"
+      ]
+    },
+    {
+      "@id": "https://www.google.at/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjz7oqLjZH2AhXHQ_EDHdPfC58QFnoECA4QAQ&url=https://www.digitalaustria.gv.at/dam/jcr:dbf01b8f-1973-4d55-9120-b2d255037809/Bericht_Ziele_barrierefrei_v1.pdf&usg=AOvVaw3g8sqQlU0zFnawGU9g2GP3",
+      "http://purl.org/dc/terms/relation": [
+        "Digital Austria in 2040–2050",
+        {
+          "@id": "https://www.digitalaustria.gv.at/Strategien/Digitaler-Aktionsplan.html"
+        }
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Austria in 2040–2050"
+      ]
+    },
+    {
+      "@id": "https://www.digitalaustria.gv.at/Strategien/Digitaler-Aktionsplan.html",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Austrian Digitisation Strategy (Digital Action Plan Austria or DAA)"
+      ]
+    },
+    {
+      "@id": "https://www.digitalaustria.gv.at/dam/jcr:8981b151-8434-47c3-940d-7c2b2b51ce57/dia_digitaler_aktionsplan_ziele_leitlinien_prinzipien_RZ.pdf",
+      "http://purl.org/dc/terms/relation": [
+        "DAA"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "DAA"
+      ]
+    },
+    {
+      "@id": "https://www.digitalaustria.gv.at/dam/jcr:b931544d-a9be-40d6-b75e-1e2232145177/Die%2520Gro%25C3%2583%25C2%259Fe%2520Daten-Chance.pdf",
+      "http://purl.org/dc/terms/relation": [
+        "data chances"
+      ]
+    },
+    {
+      "@id": "https://www.digitalaustria.gv.at/dam/jcr:b931544d-a9be-40d6-b75e-1e2232145177/Die%20Gro%C3%83%C2%9Fe%20Daten-Chance.pdf",
+      "http://purl.org/dc/terms/title": [
+        "data chances"
+      ]
+    },
+    {
+      "@id": "https://www.digitalaustria.gv.at/dam/jcr:0db5d185-8927-4830-8041-9ed3d5c5cdc7/dia_aktionsplan_wirtschaft_wachstum_RZ.pdf",
+      "http://purl.org/dc/terms/relation": [
+        "resilience"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "resilience"
+      ]
+    },
+    {
+      "@id": "https://www.digitalaustria.gv.at/dam/jcr:e84a42c3-f2e7-4642-9ca0-76d7e8c61216/Strategie-Digitale-Kompetenzen-Oesterreich-PDF-UA-1.pdf",
+      "http://purl.org/dc/terms/relation": [
+        "Digital Skills Austria Strategy"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Skills Austria Strategy"
+      ]
+    },
+    {
+      "@id": "https://www.digitalaustria.gv.at/Strategien/DKO-Digitale-Kompetenzoffensive.html",
+      "http://purl.org/dc/terms/relation": [
+        "focal points"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "focal points"
+      ],
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.digitalaustria.gv.at/dam/jcr:25902ce4-1087-4aa6-8b87-864770bfbc68/E_Government_Strategie_Oesterreich_2023.pdf",
+      "http://purl.org/dc/terms/relation": [
+        "Federal eGovernment Strategy 2023 for Austria"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Federal eGovernment Strategy 2023 for Austria"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=BgblAuth&Dokumentnummer=BGBLA_2004_I_10",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "eGovernment Act"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Erv&Dokumentnummer=ERV_1991_51",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "General Administrative Procedures Act"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010727",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Web Accessibility Act"
+      ]
+    },
+    {
+      "@id": "https://www.ffg.at/digitale-barrierefreiheit/leistungen-der-ffg/monitoringbericht",
+      "http://purl.org/dc/terms/relation": [
+        "monitoring report"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "monitoring report"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Erv&Dokumentnummer=ERV_1982_200",
+      "@type": [
+        "http://schema.org/ContactPoint"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Service of Documents Act"
+      ]
+    },
+    {
+      "@id": "https://www.bmf.gv.at/services/Elektronische-Zustellung/Technische-Informationen.html",
+      "http://purl.org/dc/terms/relation": [
+        "Ministry"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Ministry"
+      ]
+    },
+    {
+      "@id": "https://www.usp.gv.at/mein-postkorb.html",
+      "http://purl.org/dc/terms/relation": [
+        "Mein Postkorb"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Mein Postkorb"
+      ]
+    },
+    {
+      "@id": "http://www.usp.gv.at/",
+      "http://purl.org/dc/terms/relation": [
+        "Business Service Portal"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Business Service Portal",
+        "Business Service Portal",
+        "Austrian Business Service Portal",
+        "Business Service Portal"
+      ],
+      "http://purl.org/linked-data/cube#structure": [
+        "Business Service Portal",
+        "Austrian Business Service Portal",
+        "Business Service Portal"
+      ]
+    },
+    {
+      "@id": "https://neu.ref.wien.gv.at/at.gv.wien.ref-live/documents/20189/79767/Austrian_Interoperability_Framework__AIF-1.0.0_.pdf/4bc872de-2f08-4749-b7b9-6aa341ad8ad7?version=1.0",
+      "http://purl.org/linked-data/cube#structure": [
+        "Austrian Interoperability Framework (AIF)"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Austrian Interoperability Framework (AIF)"
+      ]
+    },
+    {
+      "@id": "https://www.bundeskanzleramt.gv.at/dam/jcr:d7057356-8c6d-4fb3-ab9f-7bc14ff3d871/GovProgramme-Short_EN_BF.pdf",
+      "http://purl.org/linked-data/cube#structure": [
+        "In Responsibility for Austria - Government Programme 2020–2024’"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "In Responsibility for Austria - Government Programme 2020–2024’"
+      ]
+    },
+    {
+      "@id": "https://www.datahub.tirol/page.cfm?vpath=index",
+      "http://purl.org/linked-data/cube#structure": [
+        "datahub.tiro"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "datahub.tiro"
+      ]
+    },
+    {
+      "@id": "https://www.gaia-x.at/",
+      "http://purl.org/linked-data/cube#structure": [
+        "GAIA-X Hub Austria"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "GAIA-X Hub Austria"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/Dokumente/Erv/ERV_1987_286/ERV_1987_286.pdf",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Constitutional Law on Access to Information"
+      ]
+    },
+    {
+      "@id": "https://www.digital.austria.gv.at/electronic-delivery2",
+      "http://purl.org/linked-data/cube#structure": [
+        "Electronic Delivery Service"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Electronic Delivery Service"
+      ]
+    },
+    {
+      "@id": "https://www.bmf.gv.at/services/Elektronische-Zustellung.html",
+      "http://purl.org/linked-data/cube#structure": [
+        "electronic delivery service"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "electronic delivery service"
+      ]
+    },
+    {
+      "@id": "https://www.rubicon.eu/produkte/acta-nova/",
+      "http://purl.org/linked-data/cube#structure": [
+        "Electronic File System (ELAK)"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Electronic File System (ELAK)"
+      ]
+    },
+    {
+      "@id": "https://www.dataintelligence.at/en/",
+      "http://purl.org/linked-data/cube#structure": [
+        "Data Intelligence Offensive (DIO)"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Data Intelligence Offensive (DIO)"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001702",
+      "http://purl.org/linked-data/cube#structure": [
+        "Commercial Code ",
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10002997"
+        }
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Commercial Code "
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10002997",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Commercial Registry Act"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10011384",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Motor Vehicles Act"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001941",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "General Land Registry Law "
+      ]
+    },
+    {
+      "@id": "https://www.bmi.gv.at/414/start.aspx",
+      "http://purl.org/linked-data/cube#structure": [
+        "Central Civil Registry (ZPR)",
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20008228"
+        }
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Central Civil Registry (ZPR)"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20008228",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Civil Status Act"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Notification Act (MeldeG)"
+      ],
+      "http://purl.org/linked-data/cube#structure": [
+        {
+          "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20001806"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20001806",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Registration Act Implementing Regulation (MeldeV)"
+      ]
+    },
+    {
+      "@id": "https://www.digitalaustria.gv.at/eng/services/Austrian-Federal-Register.html",
+      "http://purl.org/linked-data/cube#structure": [
+        "Austrian Federal Registry Map",
+        "Austrian Federal Registry Map"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Austrian Federal Registry Map",
+        "Austrian Federal Registry Map"
+      ]
+    },
+    {
+      "@id": "https://www.usp.gv.at/rsv-hilfe.html",
+      "http://purl.org/linked-data/cube#structure": [
+        "Once-Only solution/information hub",
+        {
+          "@id": "https://www.google.at/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiq88mYvarvAhWE2-AKHVxmBeMQFjACegQIAhAD&url=https://www.bundeskanzleramt.gv.at/dam/jcr:ab5e616e-f1e8-4755-9cf5-82ea24619593/33_14_mrv.pdf&usg=AOvVaw2LtXhwhHAcb_MPPv5iAIrw"
+        }
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Once-Only solution/information hub"
+      ],
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.google.at/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiq88mYvarvAhWE2-AKHVxmBeMQFjACegQIAhAD&url=https://www.bundeskanzleramt.gv.at/dam/jcr:ab5e616e-f1e8-4755-9cf5-82ea24619593/33_14_mrv.pdf&usg=AOvVaw2LtXhwhHAcb_MPPv5iAIrw",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition",
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "decision of the Austrian Council of Ministers ",
+        "decision of the Austrian Council of Ministers "
+      ]
+    },
+    {
+      "@id": "https://www.oesterreich.gv.at/",
+      "http://purl.org/linked-data/cube#structure": [
+        "oesterreich.gv.at"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "oesterreich.gv.at"
+      ],
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.oesterreich.gv.at/ueber-oesterreichgvat/faq/app_digitales_amt.html",
+      "http://purl.org/linked-data/cube#structure": [
+        "Digital Office App"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Digital Office App"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/defaultEn.aspx",
+      "http://purl.org/linked-data/cube#structure": [
+        "Legal Information System of the Republic of Austria (RIS)"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Legal Information System of the Republic of Austria (RIS)"
+      ]
+    },
+    {
+      "@id": "https://www.data.gv.at/",
+      "http://purl.org/linked-data/cube#structure": [
+        "Austrian one-stop Open Government Data Metaportal"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Austrian one-stop Open Government Data Metaportal"
+      ]
+    },
+    {
+      "@id": "https://finanzonline.bmf.gv.at/fon/",
+      "http://purl.org/linked-data/cube#structure": [
+        "FinanzOnline Portal"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "FinanzOnline Portal"
+      ]
+    },
+    {
+      "@id": "https://www.gesundheit.gv.at/index.html",
+      "http://purl.org/linked-data/cube#structure": [
+        "GESUNDheit.gv.at"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "GESUNDheit.gv.at"
+      ]
+    },
+    {
+      "@id": "https://www.elga.gv.at/",
+      "http://purl.org/linked-data/cube#structure": [
+        "Portal "
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Portal "
+      ]
+    },
+    {
+      "@id": "http://www.onlinesicherheit.gv.at/",
+      "http://purl.org/linked-data/cube#structure": [
+        "Online Security Portal"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Online Security Portal"
+      ]
+    },
+    {
+      "@id": "https://www.usp.gv.at/news/grants4companies.html",
+      "http://purl.org/linked-data/cube#structure": [
+        "Grants4Companies"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Grants4Companies"
+      ]
+    },
+    {
+      "@id": "https://www.bbg.gv.at/",
+      "http://purl.org/linked-data/cube#structure": [
+        "Public Procurement Platform",
+        "Federal Procurement Agency"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Public Procurement Platform",
+        "Federal Procurement Agency"
+      ]
+    },
+    {
+      "@id": "http://www.lieferanzeiger.at/",
+      "http://purl.org/linked-data/cube#structure": [
+        "registration"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "registration"
+      ]
+    },
+    {
+      "@id": "http://www.auftrag.at/",
+      "http://purl.org/linked-data/cube#structure": [
+        "registration"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "registration"
+      ]
+    },
+    {
+      "@id": "https://portal.bbg.gv.at/",
+      "http://purl.org/linked-data/cube#structure": [
+        "BBG Portal"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "BBG Portal"
+      ]
+    },
+    {
+      "@id": "https://joinup.ec.europa.eu/",
+      "http://purl.org/linked-data/cube#structure": [
+        "Joinup"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Joinup"
+      ]
+    },
+    {
+      "@id": "https://ebra.be/members/",
+      "http://purl.org/linked-data/cube#structure": [
+        "European Business Registry (EBRA)"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "European Business Registry (EBRA)"
+      ]
+    },
+    {
+      "@id": "https://www.eucaris.net/countries/austria/",
+      "http://purl.org/linked-data/cube#structure": [
+        "European Car and Driving Licence Information System (EUCARIS)"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "European Car and Driving Licence Information System (EUCARIS)"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/EN/legal-content/summary/european-criminal-records-information-system-ecris.html#:~:text=ECRIS%2520is%2520a%2520decentralised%2520IT,between%2520Member%2520States'%2520central%2520authorities.",
+      "http://purl.org/linked-data/cube#structure": [
+        "European Criminal Records Information System (ECRIS)"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/EN/legal-content/summary/european-criminal-records-information-system-ecris.html#:~:text=ECRIS%20is%20a%20decentralised%20IT,between%20Member%20States'%20central%20authorities.",
+      "http://purl.org/dc/terms/title": [
+        "European Criminal Records Information System (ECRIS)"
+      ]
+    },
+    {
+      "@id": "https://web.archive.org/web/20220120004905/https:/ec.europa.eu/isa2/actions/strengthening-eu%25C3%25A2%25C2%2580%25C2%2599s-telecommunications-backbone_en",
+      "http://purl.org/linked-data/cube#structure": [
+        "Trans European Services for Telematics between Administrations (TESTA) network"
+      ]
+    },
+    {
+      "@id": "https://web.archive.org/web/20220120004905/https:/ec.europa.eu/isa2/actions/strengthening-eu%C3%A2%C2%80%C2%99s-telecommunications-backbone_en",
+      "http://purl.org/dc/terms/title": [
+        "Trans European Services for Telematics between Administrations (TESTA) network"
+      ]
+    },
+    {
+      "@id": "https://eudiwalletconsortium.org/",
+      "http://purl.org/linked-data/cube#structure": [
+        "EU Digital Identity (EUDI) Wallet Consortium"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "EU Digital Identity (EUDI) Wallet Consortium"
+      ]
+    },
+    {
+      "@id": "https://ec.europa.eu/digital-building-blocks/sites/display/EBSI/Home",
+      "http://purl.org/linked-data/cube#structure": [
+        "European Blockchain Services Infrastructure (EBSI)"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "European Blockchain Services Infrastructure (EBSI)"
+      ]
+    },
+    {
+      "@id": "https://digital-strategy.ec.europa.eu/en/policies/european-quantum-communication-infrastructure-euroqci",
+      "http://purl.org/linked-data/cube#structure": [
+        "EuroQCI"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "EuroQCI"
+      ]
+    },
+    {
+      "@id": "https://www.bmk.gv.at/themen/innovation/publikationen/ikt/quantenverschluesselt.html",
+      "http://purl.org/linked-data/cube#structure": [
+        "strategy"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "strategy"
+      ]
+    },
+    {
+      "@id": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjqrvO45KLvAhXMC2MBHSPPAAMQFjAAegQIAxAD&url=https://www.bundeskanzleramt.gv.at/dam/jcr:ab5e616e-f1e8-4755-9cf5-82ea24619593/33_14_mrv.pdf&usg=AOvVaw2LtXhwhHAcb_MPPv5iAIrw",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.usp.gv.at/ivdb-hilfe/datenschutz.html",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.wko.at/gruendung/befaehigungsnachweis",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.kaerntnerfamilienkarte.at/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.erechnung.gv.at/files/IKTKonG.pdf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.erechnung.gv.at/erb/?p=info_jur&locale=en_GB",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.erechnung.gv.at/erb/?p=einvoice_info_fedgov_paper&locale=en_GB",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.usp.gv.at/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://standards.cen.eu/dyn/www/f?p=204:32:0::::FSP_ORG_ID,FSP_LANG_ID:1883209,25&cs=126F1BDBC8D6D6141F550EB578B4A9CF4",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Erv&Dokumentnummer=ERV_2012_1_111",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20003230",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10009514",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004204",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.digital.austria.gv.at/delivery-forms-regulation",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005515",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/eli/bgbl/I/2017/40",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/Dokumente/Erv/ERV_2001_1_152/ERV_2001_1_152.pdf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2000:178:0001:0016:EN:PDF",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20006310",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010295",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.ioeb-innovationsplattform.at/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://www.ioeb-innovationsplattform.at/",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.digitalaustria.gv.at/dam/jcr:e84a42c3-f2e7-4642-9ca0-76d7e8c61216/230615-Strategie-Digitale-Kompetenzen-Oesterreich.pdf",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework",
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "https://www.digital.austria.gv.at/sourcepin-register-authority-regulation",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "SourcePIN Registry Regulation"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20003476",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "eGovernment Sector Delimitation Regulation"
+      ]
+    },
+    {
+      "@id": "https://www.digital.austria.gv.at/supplementary-register-regulation",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Supplementary Registry Regulation"
+      ]
+    },
+    {
+      "@id": "https://www.signatur.rtr.at/en/vd/SVG.html",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Signature and Trust Services Act (SVG)"
+      ]
+    },
+    {
+      "@id": "https://scoop4c.eu/cases/austrian-portal-group-0",
+      "http://purl.org/dc/terms/relation": [
+        "Portal Group"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Portal Group"
+      ]
+    },
+    {
+      "@id": "https://neu.ref.wien.gv.at/at.gv.wien.ref-live/web/reference-server/ag-iz-oeffentliche-informationen",
+      "http://purl.org/dc/terms/relation": [
+        "Portal Group agreement,"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Portal Group agreement,"
+      ]
+    },
+    {
+      "@id": "https://www.bundeskanzleramt.gv.at/en/topics/cybersecurity/cybersecurity-report.html",
+      "http://purl.org/dc/terms/relation": [
+        "evaluation report"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "evaluation report"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010536",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Security of Network and Information Systems Act"
+      ],
+      "http://purl.org/dc/terms/relation": [
+        {
+          "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ:L:2016:194:TOC&uri=uriserv:OJ.L_.2016.194.01.0001.01.ENG"
+        }
+      ]
+    },
+    {
+      "@id": "https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ:L:2016:194:TOC&uri=uriserv:OJ.L_.2016.194.01.0001.01.ENG",
+      "@type": [
+        "http://data.europa.eu/eli/ontology#LegalResource"
+      ],
+      "http://data.europa.eu/eli/ontology#title": [
+        "Directive concerning measures for a high common level of security of network and information systems (NIS Directive)"
+      ]
+    },
+    {
+      "@id": "https://www.digitalaustria.gv.at/Strategien/Strategie-der-Bundesregierung-f-r-K-nstliche-Intelligenz--AIM-AT-2030-.html",
+      "http://purl.org/linked-data/cube#structure": [
+        "Artificial Intelligence Mission Austria 2030 (AIM AT 2030)"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Artificial Intelligence Mission Austria 2030 (AIM AT 2030)"
+      ]
+    },
+    {
+      "@id": "https://www.digitalaustria.gv.at/dam/jcr:6dacb3c5-ca2b-4751-9653-45ed8765cacd/2021-AIM_AT_2030_UA-bf%2520(3).pdf",
+      "http://purl.org/linked-data/cube#structure": [
+        "national Artificial Intelligence Strategy (AIM AT 2030 Strategy)"
+      ]
+    },
+    {
+      "@id": "https://www.digitalaustria.gv.at/dam/jcr:6dacb3c5-ca2b-4751-9653-45ed8765cacd/2021-AIM_AT_2030_UA-bf%20(3).pdf",
+      "http://purl.org/dc/terms/title": [
+        "national Artificial Intelligence Strategy (AIM AT 2030 Strategy)"
+      ]
+    },
+    {
+      "@id": "http://www.ki-marktplatz.at/",
+      "http://purl.org/linked-data/cube#structure": [
+        "AI marketplace",
+        "platform"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "AI marketplace",
+        "platform"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/eli/bgbl/I/2024/6/20240226?ResultFunctionToken=deaca8be-c94d-42a4-806c-37225b3dc2c4&Position=1&Sort=0%257CAsc&Abfrage=BgblAuth&Titel=&Bgblnummer=&SucheNachGesetzen=False&SucheNachKundmachungen=False&SucheNachVerordnungen=False&SucheNachSonstiges=False&SucheNachTeil1=False&SucheNachTeil2=False&SucheNachTeil3=False&Einbringer=&VonDatum=26.02.2024&BisDatum=27.02.2024&ImRisSeitVonDatum=26.02.2024&ImRisSeitBisDatum=27.02.2024&ImRisSeit=Undefined&ImRisSeitForRemotion=Undefined&ResultPageSize=100&Suchworte=",
+      "@type": [
+        "http://purl.org/linked-data/cube#DataStructureDefinition"
+      ]
+    },
+    {
+      "@id": "https://www.ris.bka.gv.at/eli/bgbl/I/2024/6/20240226?ResultFunctionToken=deaca8be-c94d-42a4-806c-37225b3dc2c4&Position=1&Sort=0%7CAsc&Abfrage=BgblAuth&Titel=&Bgblnummer=&SucheNachGesetzen=False&SucheNachKundmachungen=False&SucheNachVerordnungen=False&SucheNachSonstiges=False&SucheNachTeil1=False&SucheNachTeil2=False&SucheNachTeil3=False&Einbringer=&VonDatum=26.02.2024&BisDatum=27.02.2024&ImRisSeitVonDatum=26.02.2024&ImRisSeitBisDatum=27.02.2024&ImRisSeit=Undefined&ImRisSeitForRemotion=Undefined&ResultPageSize=100&Suchworte=",
+      "http://purl.org/dc/terms/title": [
+        "amendment of the KommAustria Act"
+      ]
+    },
+    {
+      "@id": "https://www.digitalaustria.gv.at/Themen/Oe_Cloud.html",
+      "http://purl.org/linked-data/cube#structure": [
+        "Austrian Cloud (Ö-Cloud)"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Austrian Cloud (Ö-Cloud)"
+      ]
+    },
+    {
+      "@id": "https://www.iot-austria.at/",
+      "http://purl.org/linked-data/cube#structure": [
+        "IoT Austria - The Austrian Internet of Things Network "
+      ],
+      "http://purl.org/dc/terms/title": [
+        "IoT Austria - The Austrian Internet of Things Network "
+      ]
+    },
+    {
+      "@id": "https://www.ffg.at/en/quantum-austria",
+      "http://purl.org/linked-data/cube#structure": [
+        "Quantum Austria (QA)"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Quantum Austria (QA)"
+      ]
+    },
+    {
+      "@id": "https://www.digitalaustria.gv.at/eng/topics/Broadband.html#:~:text=Based%2520on%2520the%2520Broadband%2520Strategy,proposals%2520began%2520in%2520autumn%25202021.",
+      "http://purl.org/linked-data/cube#structure": [
+        " Broadband Strategy 2030"
+      ]
+    },
+    {
+      "@id": "https://www.digitalaustria.gv.at/eng/topics/Broadband.html#:~:text=Based%20on%20the%20Broadband%20Strategy,proposals%20began%20in%20autumn%202021.",
+      "http://purl.org/dc/terms/title": [
+        " Broadband Strategy 2030"
+      ]
+    },
+    {
+      "@id": "https://www.google.at/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjwo7KCucf_AhVHQfEDHRQmBqsQFnoECA4QAw&url=https://www.bmf.gv.at/dam/jcr:a948bd9b-ff57-4949-af3e-445a4cbeb4c3/5Gstrategie_evaluierung_ua.pdf&usg=AOvVaw1S044kMiAqjbZUC_FqUfx-",
+      "http://purl.org/linked-data/cube#structure": [
+        "Austria’s 5G Strategy"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "Austria’s 5G Strategy"
+      ]
+    },
+    {
+      "@id": "https://www.qwant.com/?q=world+bank+mobile+government+how-to+note&client=opensearch&t=web",
+      "http://purl.org/linked-data/cube#structure": [
+        "World Bank Mobile Government How-to Note"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "World Bank Mobile Government How-to Note"
+      ]
+    },
+    {
+      "@id": "https://www.oesterreich.gv.at/eausweise/haeufige-fragen/haeufige-fragen-eausweise-digitaler-fuehrerschein.html",
+      "http://purl.org/linked-data/cube#structure": [
+        "digital driving licence"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "digital driving licence"
+      ]
+    },
+    {
+      "@id": "https://www.oesterreich.gv.at/id-austria/pilotbetrieb.html#digitale-ausweise",
+      "http://purl.org/linked-data/cube#structure": [
+        "eAusweise (eID) app"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "eAusweise (eID) app"
+      ]
+    },
+    {
+      "@id": "https://www.oesterreich.gv.at/eausweise/haeufige-fragen/haeufige-fragen-eausweise-digitaler-altersnachweis.html",
+      "http://purl.org/linked-data/cube#structure": [
+        "digital proof of age"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "digital proof of age"
+      ]
+    },
+    {
+      "@id": "https://www.oesterreich.gv.at/eausweise/haeufige-fragen/haeufige-fragen-eausweise-digitale-zulassungsscheindaten.html",
+      "http://purl.org/linked-data/cube#structure": [
+        "digital registration certificate"
+      ],
+      "http://purl.org/dc/terms/title": [
+        "digital registration certificate"
+      ]
+    },
+    {
+      "@id": "https://www.oesterreich.gv.at/id-austria.html",
+      "http://purl.org/linked-data/cube#structure": [
+        "ID Austria "
+      ],
+      "http://purl.org/dc/terms/title": [
+        "ID Austria "
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria",
+      "@type": [
+        "http://purl.org/vocab/cpsv#FormalFramework"
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Travel",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/travel/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Workandretirement",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/work/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Vehicles",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/vehicles/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Residenceformalities",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/residence/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Educationandyouth",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/education/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Health",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/health/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Family",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/family/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Consumers",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/citizens/consumers/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Runningabusiness",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/running-business/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Taxation",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/taxation/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/SellingintheEU",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/selling-in-eu/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/HumanResources",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/human-resources/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/Productrequirements",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/product-requirements/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/FinancingandFunding",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/finance-funding/index_en.htm"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/nifo/publicservice/Austria/DealingwithCustomers",
+      "@type": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ],
+      "http://schema.org/url": [
+        {
+          "@id": "https://europa.eu/youreurope/business/dealing-with-customers/index_en.htm"
+        }
+      ]
+    }
+  ]
+}
