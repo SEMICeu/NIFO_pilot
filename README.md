@@ -16,19 +16,14 @@ The objective of this pilot is to develop a reusable proof of concept, to conver
 
 This pilot requires **Node JS** [v14.16.1](https://nodejs.org/ja/blog/release/v14.16.1/) or [above](https://nodejs.org/en/download/), and uses the following packages:
 
-* cheerio v1.0.0-rc.2
-* cli-progress v1.8.0
-* graph-rdfa-processor v1.3.0
-* jsdom v11.9.0
-* jsesc v2.5.1
-* jsonld-request v0.2.0
+* cheerio v1.0.0-rc.12
+* cli-progress v3.12.0
+* graph-rdfa-processor v2.0.0
+* jsdom v16.7.0
 * ldtr v0.2.3
-* mammoth v1.4.19
-* rdf-translator v2.0.0
-* rdfa-parser v1.0.1
-* request v2.85.0
-* sync-request v6.0.0
-* xml2js v0.4.19
+* mammoth v1.8.0
+* prettier v3.3.3
+* xml2js v0.6.2
 
 **Important Note!!!** The project was tested in Node JS **v14.16.1** so it is recommended to download this version of Node JS. In order to install Node JS v14.16.1 follow the link in v14.16.1, then download “Windows 64-bit Installer” and run the downloaded installer.
 

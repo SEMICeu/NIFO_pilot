@@ -4,13 +4,11 @@
 /***LOAD MODULES***************/
 /******************************/
 var fs = require('fs');
-//var mammoth = require('mammoth');
 var cheerio = require('cheerio');
 var extendCheerio = require('./wrapAll.js');
-//var request = require('sync-request');
 var getRdfaGraph = require('graph-rdfa-processor');
 var jsdom = require('jsdom');
-const _cliProgress = require('cli-progress');
+const cliProgress = require('cli-progress');
 var rdfaParser = require('ldtr/lib/rdfa/parser');
 var xml2js = require('xml2js');
 var parser = new xml2js.Parser({ attrkey: 'code', charkey: 'label' });
@@ -19,9 +17,13 @@ var parser = new xml2js.Parser({ attrkey: 'code', charkey: 'label' });
 /***DEFINE VARIABLES***********/
 /******************************/
 console.log('Converting HTML to RDF');
-const bar1 = new _cliProgress.Bar({}, _cliProgress.Presets.shades_classic);
+const bar1 = new cliProgress.SingleBar({
+	format: ' \u001b[36m{bar}\u001b[0m {percentage}% | ETA: {eta}s | {value}/{total}',
+	barCompleteChar: '\u2588',
+	barIncompleteChar: '\u2591',
+	barGlue: '\u001b[33m',
+});
 var config = require('./config.json');
-var args = process.argv.slice(2);
 var filePath = 'html';
 var outputPath = 'rdfa';
 var outputPathRDF = 'rdf';
@@ -59,7 +61,7 @@ var createHtmlToRDFa = function () {
 	/******************************/
 	/***CREATE HTML + RDFa*********/
 	/******************************/
-	input.forEach(function (fileName) {
+	input.forEach( function (fileName) {
 		/*==================*/
 		/*LOAD DOM STRUCTURE*/
 		/*==================*/
@@ -838,9 +840,6 @@ var createHtmlToRDFa = function () {
 
 		//Save the file in JSON-LD syntax
 		var baseUri = config['prefix']['nifo'];
-		//DOMParser = xmldom.DOMParser;
-		//var result = rdfaParser.parse(
-		//    new xmldom.DOMParser().parseFromString(unescape($.html()), 'text/xml'),baseUri);
 		var result = rdfaParser.parse(new JSDOM($.html(), { url: baseUri }).window.document);
 		fs.writeFile(outputPathRDF + '/' + output[0] + '.jsonld', JSON.stringify(result, null, 2), function (err) {
 			if (err) {

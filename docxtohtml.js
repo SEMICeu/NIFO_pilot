@@ -7,14 +7,19 @@
 var fs = require('fs');
 var path = require('path');
 var mammoth = require('mammoth');
-const _cliProgress = require('cli-progress');
+const cliProgress = require('cli-progress');
 
 /******************************/
 /***DEFINE VARIABLES***********/
 /******************************/
 
 console.log('Converting DOCX to HTML');
-const bar1 = new _cliProgress.Bar({}, _cliProgress.Presets.shades_classic);
+const bar1 = new cliProgress.SingleBar({
+	format: ' \u001b[36m{bar}\u001b[0m {percentage}% | ETA: {eta}s | {value}/{total}',
+	barCompleteChar: '\u2588',
+	barIncompleteChar: '\u2591',
+	barGlue: '\u001b[33m',
+});
 var filePath = 'docx';
 var outputPath = 'html';
 var input = fs.readdirSync(filePath);
